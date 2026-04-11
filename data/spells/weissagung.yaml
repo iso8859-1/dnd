@@ -1,0 +1,17 @@
+id: weissagung
+type: spell
+template: spell
+name: Weissagung
+lang: de
+level: 4
+school: Erkenntniszauber
+casting_time: Aktion oder Ritual
+range: Selbst
+components: V, G, M (Weihrauch im Wert von mindestens 25 GM, den der Zauber verbraucht)
+duration: Unmittelbar
+description: Dieser Zauber bringt dich mit einem Gott oder dem Diener eines Gottes in Kontakt. Du stellst eine Frage zu einem
+  bestimmten Ziel, einem Ereignis oder einer Aktivität der kommenden sieben Tage. Der SL antwortet wahrheitsgemäß in Form
+  eines kurzen Satzes oder eines kryptischen Reims. Der Zauber berücksichtigt keinerlei Umstände, die das Ergebnis ändern
+  könnten, beispielsweise das Wirken anderer Zauber. Wenn du den Zauber vor einer langen Rast häufiger als einmal wirkst,
+  erhöht dies das Risiko, keine Antwort zu erhalten, mit jedem Wirken nach dem ersten um jeweils 25 Prozent.
+source_book: SRD 5.2 DE

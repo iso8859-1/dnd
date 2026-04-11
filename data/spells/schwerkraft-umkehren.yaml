@@ -1,0 +1,19 @@
+id: schwerkraft-umkehren
+type: spell
+template: spell
+name: Schwerkraft umkehren
+lang: de
+level: 7
+school: Verwandlungszauber
+casting_time: Aktion
+range: 30 Meter
+components: V, G, M (ein Magnetstein und Eisenspäne)
+duration: Konzentration, bis zu 1 Minute
+description: Dieser Zauber kehrt in einem 30 Meter hohen Zylinder mit einem Radius von 15 Metern um einen Punkt in Reichweite
+  die Schwerkraft um. Alle Kreaturen und Gegenstände im Bereich, die nicht mit dem Boden verbunden sind, stürzen nach oben
+  bis zur Oberseite des Zylinders. Eine Kreatur kann einen Geschicklichkeitsrettungswurf ausführen, um sich an einem verankerten
+  Gegenstand in Reichweite festzuhalten und den Sturz nach oben zu vermeiden. Wenn eine Decke oder ein fixer Gegenstand bei
+  dem umgekehrten Sturz im Weg ist, kollidieren fallende Gegenstände und Kreaturen mit ihm wie bei einem normalen Sturz. Erreicht
+  eine betroffene Kreatur oder ein Gegenstand die Oberseite des Zylinders, ohne mit etwas zu kollidieren, so verbleibt das
+  Ziel für die Wirkungsdauer schwebend dort. Wenn der Zauber endet, fallen betroffene Gegenstände und Kreaturen nach unten.
+source_book: SRD 5.2 DE

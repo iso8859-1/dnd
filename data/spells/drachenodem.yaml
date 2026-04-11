@@ -1,0 +1,16 @@
+id: drachenodem
+type: spell
+template: spell
+name: Drachenodem
+lang: de
+level: 2
+school: Verwandlungszauber
+casting_time: Bonusaktion
+range: Berührung
+components: V, G, M (eine scharfe Pfefferschote)
+duration: Konzentration, bis zu 1 Minute
+description: 'Du berührst eine bereitwillige Kreatur und wählst Blitz, Feuer, Gift, Kälte oder Säure aus. Bis der Zauber endet,
+  kann das Ziel eine magische Aktion ausführen, um einen Kegel von 4,5 Metern auszuatmen. Jede Kreatur in diesem Bereich führt
+  einen Geschicklichkeitsrettungswurf aus. Misslingt der Wurf, so erleidet sie 3W6 Schaden Verwenden von Zauberplätzen höheren
+  Grades: der ausgewählten Art, anderenfalls die Hälfte. Für jeden Zauberplatzgrad über dem 2. wird der Schaden um 1W6 erhöht.'
+source_book: SRD 5.2 DE

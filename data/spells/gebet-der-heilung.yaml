@@ -1,0 +1,16 @@
+id: gebet-der-heilung
+type: spell
+template: spell
+name: Gebet der Heilung
+lang: de
+level: 2
+school: Bannzauber
+casting_time: 10 Minuten
+range: 9 Meter
+components: V
+duration: Unmittelbar
+description: 'Bis zu fünf Kreaturen deiner Wahl, die während des gesamten Zeitaufwands in Reichweite verbleiben, erhalten
+  die Vorzüge einer kurzen Rast. Außerdem erhalten sie jeweils 2W8 Trefferpunkte zurück. Eine Kreatur kann erst nach einer
+  langen Rast Verwenden von Zauberplätzen höheren Grades: erneut Ziel dieses Zaubers werden. Für jeden Zauberplatzgrad über
+  dem 2. wird die Heilung um 1W8 Trefferpunkte erhöht.'
+source_book: SRD 5.2 DE

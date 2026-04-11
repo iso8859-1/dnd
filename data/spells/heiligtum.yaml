@@ -1,0 +1,16 @@
+id: heiligtum
+type: spell
+template: spell
+name: Heiligtum
+lang: de
+level: 1
+school: Bannzauber
+casting_time: Bonusaktion
+range: 9 Meter
+components: V, G, M (eine Spiegelscherbe)
+duration: 1 Minute
+description: Du schützt eine Kreatur in Reichweite. Für die Wirkungsdauer muss jede Kreatur, die mit einem Angriffswurf oder
+  Schadenszauber auf die geschützte Kreatur zielt, einen Weisheits rettungs wurf bestehen. Misslingt der Wurf, so muss sie
+  ein neues Ziel auswählen, oder sie verliert den Angriff oder Zauber. Dieser Zauber schützt das Ziel nicht vor Wirkungsbereichen.
+  Der Zauber endet, wenn die geschützte Kreatur einen Angriffswurf ausführt, einen Zauber wirkt oder Schaden bewirkt.
+source_book: SRD 5.2 DE

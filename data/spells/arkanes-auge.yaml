@@ -1,0 +1,17 @@
+id: arkanes-auge
+type: spell
+template: spell
+name: Arkanes Auge
+lang: de
+level: 4
+school: Erkenntniszauber
+casting_time: Aktion
+range: 9 Meter
+components: V, G, M (ein Stück Fledermausfell)
+duration: Konzentration, bis zu 1 Stunde
+description: Du erschaffst ein unsichtbares und unverwundbares Auge in Reichweite, das für die Wirkungsdauer in der Luft schwebt.
+  Es kann in jede Richtung blicken und übermittelt dir mental seine visuellen Informationen. Außerdem verfügt es über Dunkelsicht
+  mit einer Reichweite von neun Metern. Als Bonusaktion kannst du das Auge bis zu neun Meter weit in eine beliebige Richtung
+  bewegen. Außerdem kann es nicht durch massive Barrieren gelangen, jedoch Öffnungen mit mindestens 2,5 Zentimetern Durchmesser
+  passieren.
+source_book: SRD 5.2 DE

@@ -1,0 +1,38 @@
+id: symbol
+type: spell
+template: spell
+name: Symbol
+lang: de
+level: 7
+school: Bannzauber
+casting_time: 1 Minute
+range: Berührung
+components: V, G, M (Diamantpulver im Wert von mindestens 1.000 GM, das der Zauber verbraucht)
+duration: Bis der Zauber gebannt oder die
+description: 'Glyphe ausgelöst wird Du zeichnest eine schädliche Glyphe entweder auf eine Oberfläche (wie den Fußboden oder
+  eine Wand) oder in einen Gegenstand (wie ein Buch oder eine Truhe), der geschlossen werden kann. Die Glyphe kann höchstens
+  in einem Radius von 1,5 Metern wirken. Wählst du einen Gegenstand aus, so muss dieser an seinem Standort bleiben. Wenn er
+  um mehr als drei Meter von der Stelle entfernt wird, an der du den Zauber gewirkt hast, wird die Glyphe zerstört, und der
+  Zauber endet, ohne ausgelöst zu werden. Die Glyphe ist kaum wahrnehmbar. Es ist ein erfolgreicher Weisheitswurf (Wahrnehmung)
+  gegen deinen Zauberrettungswurf-SG erforderlich, um sie zu bemerken. Wenn du die Glyphe zeichnest, bestimmst du ihren Auslöser
+  und entscheidest, welchen Effekt das Symbol trägt: Betäubung, Furcht, Schlaf, Schmerz, Auslöser bestimmen: Tod oder Zwietracht.
+  Die Effekte sind unten erläutert. Wenn du den Zauber wirkst, bestimmst du einen Auslöser für die Glyphe. Glyphen auf Oberflächen
+  werden meist dadurch ausgelöst, dass jemand sie berührt oder betritt, einen Gegenstand bewegt, der die Glyphe verdeckt,
+  oder einen Mindestabstand zur Glyphe unterschreitet. Glyphen in Gegenständen werden meist dadurch ausgelöst, dass jemand
+  den Gegenstand öffnet oder die Glyphe sieht. Du kannst den Auslöser verfeinern, sodass die Glyphe nur von bestimmten Kreaturentypen
+  ausgelöst wird (beispielsweise könnte die Glyphe nur auf Aberrationen wirken). Du kannst auch Bedingungen festlegen, unter
+  denen die Glyphe nicht ausgelöst wird, beispielsweise wenn ein bestimmtes Kennwort ausgesprochen wird. Sobald die Glyphe
+  ausgelöst wurde, beginnt sie zu leuchten und erfüllt eine Kugel mit einem Radius von 18 Metern zehn Minuten lang mit dämmrigem
+  Licht. Danach endet der Zauber. Jede Kreatur, die sich beim Aktivieren der Glyphe in der Kugel befindet, diese in ihrem
+  Zug erstmals betritt oder ihren Zug darin beendet, wird zum Ziel des vorher festgelegten Effekts. Eine Kreatur kann nur
+  einmal Betäubung: pro Zug zum Ziel werden. Jedes Ziel muss einen Weisheits- rettungswurf bestehen, oder es ist eine Minute
+  Furcht: lang betäubt. Jedes Ziel muss einen Weisheitsrettungswurf bestehen, oder es ist eine Minute lang verängstigt. Ein
+  verängstigtes Ziel muss sich in jedem seiner Züge um mindestens neun Meter von der Glyphe entfernen, sofern dies Schlaf:
+  möglich ist. Jedes Ziel muss einen Weisheitsrettungs- wurf bestehen, oder es ist zehn Minuten lang bewusstlos. Eine Kreatur
+  erwacht, wenn sie Schaden erleidet oder jemand eine Aktion ausführt, um sie Schmerz: wachzurütteln. Jedes Ziel muss einen
+  Konstitutions- rettungswurf bestehen, oder es ist eine Minute Tod: lang kampfunfähig. Jedes Ziel führt einen Konstitutionsrettungs-
+  wurf aus. Misslingt der Wurf, so erleidet das Ziel 10W10 nekrotischen Schaden, anderenfalls die Zwietracht: Hälfte. Jedes
+  Ziel führt einen Weisheits- rettungswurf aus. Misslingt der Wurf, so streitet sich das Ziel eine Minute lang mit anderen
+  Kreaturen. Während dieser Zeit ist es nicht zu sinnvollen Gesprächen in der Lage und bei Angriffs- sowie Attributswürfen
+  im Nachteil.'
+source_book: SRD 5.2 DE

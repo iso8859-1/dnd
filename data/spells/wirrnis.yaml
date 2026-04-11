@@ -1,0 +1,17 @@
+id: wirrnis
+type: spell
+template: spell
+name: Wirrnis
+lang: de
+level: 8
+school: Verzauberungszauber
+casting_time: Aktion
+range: 45 Meter
+components: V, G, M (ein Schlüsselring ohne Schlüssel)
+duration: Unmittelbar
+description: Du attackierst den Verstand einer Kreatur in Reichweite, die du sehen kannst. Das Ziel führt einen Intelligenzrettungswurf
+  aus. Misslingt der Wurf, so erleidet das Ziel 10W12 psychischen Schaden und kann weder Zauber wirken noch die magische Aktion
+  ausführen. Nach jeweils 30 Tagen wiederholt das Ziel den Rettungswurf. Bei HeilungVollständige Genesung einem Erfolg endet
+  der Effekt. Der Effekt kann auch Wunsch durch die Zauber , oder  beendet werden. Bei einem erfolgreichen Rettungswurf erleidet
+  das Ziel nur halb so viel Schaden.
+source_book: SRD 5.2 DE

@@ -1,0 +1,16 @@
+id: gift-und-krankheit-entdecken
+type: spell
+template: spell
+name: Gift und Krankheit entdecken
+lang: de
+level: 1
+school: Erkenntniszauber
+casting_time: Aktion oder Ritual
+range: Selbst
+components: V, G, M (ein Eibenblatt)
+duration: Konzentration, bis zu 10 Minuten
+description: Für die Wirkungsdauer nimmst du die Position von Giften, giftigen Kreaturen und magischen Krankheiten im Abstand
+  von bis zu neun Metern von dir wahr. Du erkennst auch die jeweilige Art des Gifts, der giftigen Kreatur oder der Ansteckung.
+  Der Zauber wird von 30 Zentimetern Stein, Erde oder Holz sowie von 2,5 Zentimetern Metall oder einer dünnen Bleischicht
+  blockiert.
+source_book: SRD 5.2 DE

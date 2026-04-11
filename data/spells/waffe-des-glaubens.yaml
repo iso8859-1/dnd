@@ -1,0 +1,18 @@
+id: waffe-des-glaubens
+type: spell
+template: spell
+name: Waffe des Glaubens
+lang: de
+level: 2
+school: Hervorrufungszauber
+casting_time: Bonusaktion
+range: 18 Meter
+components: V, G
+duration: Konzentration, bis zu 1 Minute
+description: 'Du erzeugst eine schwebende geisterhafte Kraft, die wie eine Waffe deiner Wahl aussieht und für die Wirkungsdauer
+  bestehen bleibt. Die Kraft erscheint in einem Bereich deiner Wahl in Reichweite, und du kannst sofort einen Nahkampf-Zauberangriff
+  gegen eine Kreatur im Abstand von bis zu 1,5 Metern von der Kraft ausführen. Bei einem Treffer erleidet das Ziel Energieschaden
+  in Höhe von 1W8 plus deinem Zauberwirken-Attributsmodifikator. In deinen folgenden Zügen kannst du die Waffe als Bonusaktion
+  um bis zu sechs Meter bewegen und einen weiteren Angriff gegen eine Kreatur im Verwenden von Zauberplätzen höheren Grades:
+  Abstand von bis zu 1,5 Metern von ihr ausführen. Für jeden Zauberplatzgrad über dem 2. wird der Schaden um 1W8 erhöht.'
+source_book: SRD 5.2 DE

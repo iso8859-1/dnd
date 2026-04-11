@@ -1,0 +1,15 @@
+id: verschonung-der-sterbenden
+type: spell
+template: spell
+name: Verschonung der Sterbenden
+lang: de
+level: 0
+school: Nekromantie
+casting_time: Aktion
+range: 4,5 Meter
+components: V, G
+duration: Unmittelbar
+description: 'Wähle eine Kreatur in Reichweite aus, deren Trefferpunkte auf 0 gesunken sind, die jedoch noch Zaubertrick-Aufwertung:
+  nicht tot ist. Die Kreatur wird stabil. Die Reichweite wird jeweils verdoppelt, wenn du die 5. (neun Meter), die 11. (18
+  Meter) und die 17. (36 Meter) Stufe erreichst.'
+source_book: SRD 5.2 DE

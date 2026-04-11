@@ -1,0 +1,20 @@
+id: mit-toten-sprechen
+type: spell
+template: spell
+name: Mit Toten sprechen
+lang: de
+level: 3
+school: Nekromantiezauber
+casting_time: Aktion
+range: 3 Meter
+components: V, G, M (brennender Weihrauch)
+duration: 10 Minuten
+description: Du erfüllst einem Leichnam deiner Wahl in Reichweite mit einem Hauch von Leben, damit er Fragen beantworten kann,
+  die du ihm stellst. Der Leichnam muss einen Mund besitzen. Wenn die Kreatur untot war, als sie starb, misslingt dieser Zauber.
+  Er misslingt auch dann, wenn die Leiche innerhalb der letzten zehn Tage bereits Ziel dieses Zaubers war. Für die Wirkungsdauer
+  kannst du der Leiche bis zu fünf Fragen stellen. Die Leiche besitzt nur das Wissen, das sie zu Lebzeiten hatte, und spricht
+  nur die ihr zu Lebzeiten bekannten Sprachen. Die Antworten sind normalerweise kurz, kryptisch oder monoton. Der Leichnam
+  muss dir nicht wahrheitsgemäß antworten, wenn du ihm feindselig gesinnt bist oder er dich als Feind erkennt. Dieser Zauber
+  bringt nicht die Seele der Kreatur in ihren Körper zurück, nur ihren belebenden Geist. Daher kann die Leiche keine neuen
+  Informationen erhalten, weiß nichts, was nach ihrem Tod geschehen ist, und kann nicht über zukünftige Ereignisse mutmaßen.
+source_book: SRD 5.2 DE

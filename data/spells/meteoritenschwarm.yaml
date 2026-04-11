@@ -1,0 +1,17 @@
+id: meteoritenschwarm
+type: spell
+template: spell
+name: Meteoritenschwarm
+lang: de
+level: 9
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 1,6 Kilometer
+components: V, G
+duration: Unmittelbar
+description: An vier verschiedenen Punkten in Reichweite, die du sehen kannst, stürzen lodernde Feuerkugeln zu Boden. Alle
+  Kreaturen in Kugeln mit einem Radius von zwölf Metern um diese Punkte müssen einen Geschicklichkeitsrettungswurf ausführen.
+  Misslingt der Wurf, so erleidet die jeweilige Kreatur 20W6 Feuerschaden und 20W6 Wuchtschaden, anderenfalls die Hälfte.
+  Kreaturen im Wirkungsbereich von mehr als einer Feuerkugel sind nur einmal betroffen. Nichtmagische Gegenstände im Bereich,
+  die nicht getragen oder gehalten werden, erleiden den gleichen Schaden und fangen Feuer, sofern sie brennbar sind.
+source_book: SRD 5.2 DE

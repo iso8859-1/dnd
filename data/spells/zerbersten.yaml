@@ -1,0 +1,17 @@
+id: zerbersten
+type: spell
+template: spell
+name: Zerbersten
+lang: de
+level: 2
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G, M (ein Glimmersplitter)
+duration: Unmittelbar
+description: 'Von einem Punkt deiner Wahl in Reichweite geht ein lautes Geräusch aus. Jede Kreatur in einer Kugel mit einem
+  Radius von drei Metern um den Punkt führt einen Konstitutionsrettungswurf aus. Misslingt der Wurf, so erleidet sie 3W8 Schallschaden,
+  anderenfalls die Hälfte. Konstrukte sind beim Rettungswurf im Nachteil. Nichtmagische Gegenstände im Bereich, die nicht
+  getragen oder gehalten werden, erleiden Verwenden von Zauberplätzen höheren Grades: den gleichen Schaden. Für jeden Zauberplatzgrad
+  über dem 2. wird der Schaden um 1W8 erhöht.'
+source_book: SRD 5.2 DE

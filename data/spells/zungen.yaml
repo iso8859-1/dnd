@@ -1,0 +1,15 @@
+id: zungen
+type: spell
+template: spell
+name: Zungen
+lang: de
+level: 3
+school: Erkenntniszauber
+casting_time: Aktion
+range: Berührung
+components: V, M (eine MiniaturZikkurat)
+duration: 1 Stunde
+description: Dieser Zauber gewährt einer von dir berührten Kreatur die Fähigkeit, jede gesprochene Sprache oder Gebärdensprache
+  zu verstehen, die sie hört oder sieht. Wenn das Ziel außerdem durch Sprache oder Gebärden kommuniziert, wird es von jeder
+  Kreatur verstanden, die mindestens eine Sprache versteht und das Ziel hören oder sehen kann.
+source_book: SRD 5.2 DE

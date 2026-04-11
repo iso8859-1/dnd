@@ -1,0 +1,17 @@
+id: telepathische-bindung
+type: spell
+template: spell
+name: Telepathische Bindung
+lang: de
+level: 5
+school: Erkenntniszauber
+casting_time: Aktion oder Ritual
+range: 9 Meter
+components: V, G, M (zwei Eier)
+duration: 1 Stunde
+description: Du erschaffst zwischen bis zu acht bereitwilligen Kreaturen deiner Wahl in Reichweite eine telepathische Verbindung.
+  Dadurch sind alle Kreaturen für die Wirkungsdauer psychisch miteinander verbunden. Kreaturen, die in keiner Sprache kommunizieren
+  können, sind von diesem Zauber nicht betroffen. Bis der Zauber endet, können die Ziele telepathisch miteinander kommunizieren,
+  unabhängig davon, ob sie eine gemeinsame Sprache sprechen. Die Kommunikation ist auf jede Entfernung möglich, reicht allerdings
+  nicht bis auf andere Existenzebenen.
+source_book: SRD 5.2 DE

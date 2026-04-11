@@ -1,0 +1,14 @@
+id: wahrer-blick
+type: spell
+template: spell
+name: Wahrer Blick
+lang: de
+level: 6
+school: Erkenntniszauber
+casting_time: Aktion
+range: Berührung
+components: V, G, M (Pilzpulver im Wert von mindestens 25 GM, das der Zauber verbraucht)
+duration: 1 Stunde
+description: Für die Wirkungsdauer hat eine bereitwillige Kreatur, die du berührst, Wahrer Blick mit einer Reichweite von
+  36 Metern.
+source_book: SRD 5.2 DE

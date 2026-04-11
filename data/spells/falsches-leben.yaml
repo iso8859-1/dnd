@@ -1,0 +1,14 @@
+id: falsches-leben
+type: spell
+template: spell
+name: Falsches Leben
+lang: de
+level: 1
+school: Nekromantiezauber
+casting_time: Aktion
+range: Selbst
+components: V, G, M (ein Tropfen Alkohol)
+duration: Unmittelbar
+description: 'Verwenden von Zauberplätzen höheren Grades: Du erhältst 2W4+4 temporäre Trefferpunkte. Für jeden Zauberplatzgrad
+  über dem 1. erhältst du 5 zusätzliche temporäre Trefferpunkte.'
+source_book: SRD 5.2 DE

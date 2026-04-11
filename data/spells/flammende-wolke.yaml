@@ -1,0 +1,19 @@
+id: flammende-wolke
+type: spell
+template: spell
+name: Flammende Wolke
+lang: de
+level: 8
+school: Beschwörungszauber
+casting_time: Aktion
+range: 45 Meter
+components: V, G
+duration: Konzentration, bis zu 1 Minute
+description: Eine wirbelnde Wolke aus Funken und Rauch erfüllt eine Kugel mit einem Radius von sechs Metern um einen Punkt
+  in Reichweite. Der Bereich der Wolke ist komplett verschleiert. Die Wolke bleibt für die Windstoß Wirkungsdauer bestehen,
+  oder bis starker Wind (wie solcher durch ) sie auflöst. Wenn die Wolke erscheint, führt jede Kreatur darin einen Geschicklichkeitsrettungswurf
+  aus. Misslingt der Wurf, so erleidet sie 10W8 Feuerschaden, anderenfalls die Hälfte. Eine Kreatur muss den Konstitutionsrettungswurf
+  auch dann ausführen, wenn die Kugel sich in ihren Bereich bewegt, wenn die Kreatur die Kugel betritt oder wenn sie ihren
+  Zug darin beendet. Eine Kreatur kann diesen Rettungswurf nur einmal pro Zug ausführen. Zu Beginn jedes deiner Züge bewegt
+  sich die Wolke um drei Meter in einer Richtung deiner Wahl von dir weg.
+source_book: SRD 5.2 DE

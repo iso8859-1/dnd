@@ -1,0 +1,21 @@
+id: unverwustliche-sphare
+type: spell
+template: spell
+name: Unverwüstliche Sphäre
+lang: de
+level: 4
+school: Bannzauber
+casting_time: Aktion
+range: 9 Meter
+components: V, G, M (eine Glaskugel)
+duration: Konzentration, bis zu 1 Minute
+description: Eine schimmernde Kugel umschließt eine Kreatur oder einen Gegenstand von jeweils höchstens großer Größe in Reichweite.
+  Eine nicht bereitwillige Kreatur muss einen Geschicklichkeitsrettungswurf bestehen, oder sie wird für die Wirkungsdauer
+  eingeschlossen. Physische Gegenstände, Energien und Zaubereffekte können die Barriere weder von außen noch von innen durchdringen.
+  Eine Kreatur in der Kugel kann jedoch atmen. Die Kugel ist gegen alle Schadensarten immun, und eine Kreatur oder ein Gegenstand
+  darin kann weder durch Angriffe noch Effekte von außerhalb Schaden erleiden. Gleichermaßen kann eine Kreatur in der Kugel
+  keinen Schaden außerhalb der Kugel bewirken. Die Kugel ist schwerelos und gerade groß genug für die Kreatur oder den Gegenstand
+  darin. Eine gefangene Kreatur kann sich als Aktion gegen die Wand der Kugel lehnen und die Kugel so bis zur halben Bewegungsrate
+  der Kreatur bewegen. Ebenso kann die Kugel von anderen Kreaturen Auflösung aufgehoben und bewegt werden. Wird der Zauber  auf
+  die Kugel gewirkt, so wird die Kugel zerstört, ohne dass etwas im Inneren Schaden erleidet.
+source_book: SRD 5.2 DE

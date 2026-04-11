@@ -1,0 +1,14 @@
+id: schutz-vor-energie
+type: spell
+template: spell
+name: Schutz vor Energie
+lang: de
+level: 3
+school: Bannzauber
+casting_time: Aktion
+range: Berührung
+components: V, G
+duration: Konzentration, bis zu 1 Stunde
+description: 'Für die Wirkungsdauer ist eine bereitwillige Kreatur, die du berührst, gegen eine Schadensart deiner Wahl resistent:
+  Blitz, Feuer, Kälte, Säure oder Schall.'
+source_book: SRD 5.2 DE

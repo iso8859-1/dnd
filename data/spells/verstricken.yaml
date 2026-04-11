@@ -1,0 +1,18 @@
+id: verstricken
+type: spell
+template: spell
+name: Verstricken
+lang: de
+level: 1
+school: Beschwörungszauber
+casting_time: Aktion
+range: 27 Meter
+components: V, G
+duration: Konzentration, bis zu 1 Minute
+description: In einem quadratischen Bereich mit sechs Metern Kantenlänge in Reichweite wachsen greifende Pflanzen aus dem
+  Boden. Diese Pflanzen verwandeln den Boden im Bereich für die Wirkungsdauer in schwieriges Gelände. Wenn der Zauber endet,
+  verschwinden sie. Jede Kreatur außer dir, die sich in dem Bereich befindet, wenn du den Zauber wirkst, muss einen Stärkerettungswurf
+  bestehen, oder sie ist festgesetzt, bis der Zauber endet. Eine festgesetzte Kreatur kann als Aktion einen Stärkewurf (Athletik)
+  gegen deinen Zauberrettungswurf-SG ausführen. Bei einem Erfolg befreit sie sich von den greifenden Pflanzen und ist nicht
+  mehr von ihnen festgesetzt.
+source_book: SRD 5.2 DE

@@ -1,0 +1,25 @@
+id: antipathie-sympathie
+type: spell
+template: spell
+name: Antipathie/Sympathie
+lang: de
+level: 8
+school: Verzauberungszauber
+casting_time: 1 Stunde
+range: 18 Meter
+components: V, G, M (eine Mischung aus Essig und Honig)
+duration: 10 Tage
+description: 'Wähle beim Wirken des Zaubers aus, ob er Antipathie oder Sympathie erzeugen soll, und ziele auf eine Kreatur
+  oder einen Gegenstand von höchstens riesiger Größe. Bestimme dann einen Kreaturentyp (beispielsweise rote Drachen, Goblins
+  oder Vampire). Kreaturen der ausgewählten Art führen einen Weisheitsrettungswurf aus, wenn sie sich dem Ziel auf höchstens
+  36 Meter nähern. Deine Entscheidung (Antipathie oder Sympathie) bestimmt, was mit einer Kreatur geschieht, wenn der Rettungswurf
+  Antipathie: misslingt: Die Kreatur ist verängstigt. Die verängs- tigte Kreatur muss in ihren Zügen ihre Bewegung nutzen,
+  um sich so weit wie möglich vom Ziel zu Sympathie: entfernen. Dabei nimmt sie die sicherste Route. Die Kreatur ist bezaubert.
+  Die bezau- berte Kreatur muss in ihren Zügen ihre Bewegung nutzen, um sich dem Ziel so weit wie möglich zu nähern. Dabei
+  nimmt sie die sicherste Route. Befindet sich die Kreatur im Abstand von bis zu 1,5 Metern vom Ziel, so kann sie sich nicht
+  frei- willig entfernen. Wenn das Ziel der bezauberten Kreatur Schaden zufügt, kann diese einen Weis- heitsrettungswurf ausführen,
+  um den Effekt wie Den Effekt beenden: unten beschrieben zu beenden. Wenn die verängstigte oder bezauberte Kreatur ihren
+  Zug weiter als 36 Meter vom Ziel entfernt beendet, führt sie einen Weisheits- rettungswurf aus. Bei einem erfolgreichen
+  Rettungs- wurf endet der Effekt des Ziels auf die Kreatur. Nach einem erfolgreichen Rettungswurf ist eine Kreatur eine Minute
+  lang gegen den Effekt immun. Danach kann er erneut auf sie gewirkt werden.'
+source_book: SRD 5.2 DE

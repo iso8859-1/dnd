@@ -1,0 +1,20 @@
+id: schweben
+type: spell
+template: spell
+name: Schweben
+lang: de
+level: 2
+school: Verwandlungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G, M (eine Metallfeder)
+duration: Konzentration, bis zu 10 Minuten
+description: Ein Ziel - eine Kreatur oder ein loser Gegenstand - deiner Wahl in Reichweite, das du sehen kannst, steigt senkrecht
+  sechs Meter empor und schwebt für die Wirkungsdauer in der Luft. Der Zauber kann Gegenstände mit einem Maximalgewicht von
+  250 Kilogramm anheben. Besteht eine nicht bereit- willige Kreatur einen Konstitutionsrettungswurf, so ist sie nicht betroffen.
+  Das Ziel kann sich nur bewegen, indem es sich von festen Gegenständen oder Oberflächen wie Wänden oder Decken in Reichweite
+  abstößt oder sich daran entlanghangelt. Dabei gilt die Kletterbewegungsrate. Während deines Zuges kannst du das Ziel um
+  bis zu sechs Meter anheben oder absenken. Wenn du selbst das Ziel bist, kannst du dich im Rahmen deiner Bewegung anheben
+  oder absenken. Anderenfalls kannst du das Ziel mit einer magischen Aktion bewegen. Dabei musst du die Reichweite des Zaubers
+  einhalten. Wenn der Zauber endet und das Ziel noch schwebt, sinkt es sanft zu Boden.
+source_book: SRD 5.2 DE

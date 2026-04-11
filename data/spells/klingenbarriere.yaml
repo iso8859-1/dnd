@@ -1,0 +1,19 @@
+id: klingenbarriere
+type: spell
+template: spell
+name: Klingenbarriere
+lang: de
+level: 6
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 27 Meter
+components: V, G
+duration: Konzentration, bis zu 10 Minuten
+description: Du erschaffst eine Wand wirbelnder Klingen aus magischer Energie. Sie erscheint in Reichweite und bleibt für
+  die Wirkungsdauer bestehen. Du erschaffst entweder eine gerade Wand, die bis zu 30 Meter lang ist, oder eine ringförmige
+  Wand mit einem Radius von bis zu neun Metern. Sie ist in beiden Fällen sechs Meter hoch und 1,5 Meter dick. Die Wand bietet
+  Dreivierteldeckung, und ihr Bereich stellt schwieriges Gelände dar. Jede Kreatur im Bereich der Wand führt einen Geschicklichkeitsrettungswurf
+  aus. Misslingt der Wurf, so erleidet sie 6W10 Energieschaden, anderenfalls die Hälfte. Auch Kreaturen, die sich in den Bereich
+  der Wand begeben oder ihren Zug darin beenden, führen den Rettungswurf aus. Jede Kreatur führt den Rettungswurf nur einmal
+  pro Zug aus.
+source_book: SRD 5.2 DE

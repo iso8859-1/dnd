@@ -1,0 +1,14 @@
+id: lange-schritte
+type: spell
+template: spell
+name: Lange Schritte
+lang: de
+level: 1
+school: Verwandlungszauber
+casting_time: Aktion
+range: Berührung
+components: V, G, M (eine Prise Erde)
+duration: 1 Stunde
+description: 'Du berührst eine Kreatur. Für die Wirkungsdauer ist Verwenden von Zauberplätzen höheren Grades: die Bewegungsrate
+  des Ziels um drei Meter erhöht. Für jeden Zauberplatzgrad über dem 1. kannst du auf eine weitere Kreatur zielen.'
+source_book: SRD 5.2 DE

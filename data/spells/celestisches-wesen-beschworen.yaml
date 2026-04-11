@@ -1,0 +1,22 @@
+id: celestisches-wesen-beschworen
+type: spell
+template: spell
+name: Celestisches Wesen beschwören
+lang: de
+level: 7
+school: Beschwörungszauber
+casting_time: Aktion
+range: 27 Meter
+components: V, G
+duration: Konzentration, bis zu 10 Minuten
+description: 'Du beschwörst einen Geist aus den Oberen Ebenen, der sich als Lichtsäule in einem zwölf Meter hohen Zylinder
+  mit einem Radius von drei Metern um einen Punkt in Reichweite manifestiert. Wähle bei jeder Kreatur im Zylinder, die du
+  sehen kannst, eine der folgenden Arten von Licht aus, von der sie Heilendes Licht: beschienen wird: Das Ziel erhält Trefferpunkte
+  in Höhe von 4W12 plus deinem Zauberwirken- Sengendes Licht: Attributsmodifikator zurück. Das Ziel führt einen Geschicklichkeitsrettungswurf
+  aus. Misslingt der Wurf, so erleidet es 6W12 gleißenden Schaden, anderenfalls die Hälfte. Für die Wirkungsdauer ist der
+  Zylinder von hellem Licht erfüllt. Wenn du dich in deinem Zug bewegst, kannst du auch den Zylinder bis zu neun Meter weit
+  bewegen. Wann immer der Zylinder sich in den Bereich einer Kreatur bewegt, die du sehen kannst, und wann immer eine Kreatur,
+  die du sehen kannst, den Zylinder betritt oder ihren Zug dort beendet, kannst du sie in einer der Lichtarten baden. Eine
+  Kreatur kann von diesem Zauber nur einmal Verwenden von Zauberplätzen höheren Grades: pro Zug betroffen sein. Für jeden
+  Zauberplatzgrad über dem 7. werden Heilung und Schaden um 1W12 erhöht.'
+source_book: SRD 5.2 DE

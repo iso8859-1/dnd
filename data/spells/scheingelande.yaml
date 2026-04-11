@@ -1,0 +1,21 @@
+id: scheingelande
+type: spell
+template: spell
+name: Scheingelände
+lang: de
+level: 4
+school: Illusionszauber
+casting_time: 10 Minuten
+range: 90 Meter
+components: V, G, M (ein Pilz)
+duration: 24 Stunden
+description: Du lässt natürliches Gelände innerhalb eines Würfels mit 45 Metern Kantenlänge wie ein anderes natürliches Gelände
+  aussehen, klingen und riechen. Weite Felder oder eine Straße können so als Sumpf, Berg, Erdspalte oder anderes schwieriges
+  oder unpassierbares Gelände erscheinen. Ein Tümpel kann wie eine grüne Wiese wirken, ein Steilhang wie ein sanftes Gefälle,
+  ein Graben voller Felsbrocken wie eine breite Straße. Gebäude, Ausrüstung und Kreaturen im Bereich verändern sich nicht.
+  Die ertastbaren Eigenschaften des Geländes bleiben unverändert, sodass Kreaturen, die den Bereich betreten, die Illusion
+  wahrscheinlich als solche bemerken. Ist der Unterschied bei Berührung nicht offensichtlich, so kann eine Kreatur, welche
+  die Illusion untersucht, die Studieren-Aktion und einen Intelligenzwurf (Nachforschungen) gegen deinen Zauberrettungswurf-SG
+  ausführen, um sie zu durchschauen. Wenn eine Kreatur die Illusion als solche erkennt, sieht sie diese als ein dem eigentlichen
+  Gelände überlagertes vages Bild.
+source_book: SRD 5.2 DE

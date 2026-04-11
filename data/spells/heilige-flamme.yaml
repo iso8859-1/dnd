@@ -1,0 +1,16 @@
+id: heilige-flamme
+type: spell
+template: spell
+name: Heilige Flamme
+lang: de
+level: 0
+school: Hervorrufung
+casting_time: Aktion
+range: 18 Meter
+components: V, G
+duration: Unmittelbar
+description: 'Auf eine Kreatur in Reichweite, die du sehen kannst, schießt ein Strahl aus gleißenden Flammen herab. Das Ziel
+  muss einen Geschicklichkeitsrettungswurf bestehen, oder es erleidet 1W8 gleißenden Schaden. Teildeckung sowie Dreivierteldeckung
+  bieten ihm bei diesem Rettungswurf keine Vorzüge. Zaubertrick-Aufwertung: Der Schaden wird um jeweils 1W8 erhöht, wenn du
+  die 5. (2W8), die 11. (3W8) und die 17. (4W8) Stufe erreichst.'
+source_book: SRD 5.2 DE

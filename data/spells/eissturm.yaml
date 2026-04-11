@@ -1,0 +1,17 @@
+id: eissturm
+type: spell
+template: spell
+name: Eissturm
+lang: de
+level: 4
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 90 Meter
+components: V, G, M (ein Fausthandschuh)
+duration: Unmittelbar
+description: 'In einem zwölf Meter hohen Zylinder mit einem Radius von sechs Metern um einen Punkt in Reich- weite fällt Hagel.
+  Jede Kreatur im Zylinder führt einen Geschicklichkeitsrettungswurf aus. Misslingt der Wurf, so erleidet die Kreatur 2W10
+  Wuchtschaden und 4W6 Kälteschaden, anderenfalls die Hälfte. Die Hagelkörner machen den Boden im Zylinder bis zum Ende deines
+  nächsten Zugs zu schwierigem Verwenden von Zauberplätzen höheren Grades: Gelände. Für jeden Zauberplatzgrad über dem 4.
+  wird der Wuchtschaden um 1W10 erhöht.'
+source_book: SRD 5.2 DE

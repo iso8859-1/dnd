@@ -1,0 +1,13 @@
+id: schwache-genesung
+type: spell
+template: spell
+name: Schwache Genesung
+lang: de
+level: 2
+school: Bannzauber
+casting_time: Bonusaktion
+range: Berührung
+components: V, G
+duration: Unmittelbar
+description: 'Du berührst eine Kreatur und beendest einen Zustand bei ihr: Blind, Gelähmt, Taub oder Vergiftet.'
+source_book: SRD 5.2 DE

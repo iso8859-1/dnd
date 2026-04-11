@@ -1,0 +1,17 @@
+id: schneesturm
+type: spell
+template: spell
+name: Schneesturm
+lang: de
+level: 3
+school: Beschwörungszauber
+casting_time: Aktion
+range: 45 Meter
+components: V, G, M (ein Miniaturregenschirm)
+duration: Konzentration, bis zu 1 Minute
+description: Für die Wirkungsdauer fallen in einem zwölf Meter hohen Zylinder mit einem Radius von sechs Metern um einen Punkt
+  deiner Wahl in Reichweite Schnee und Graupel. Der Bereich ist komplett verschleiert, und offene Flammen erlöschen darin.
+  Der Boden im Zylinder ist schwieriges Gelände. Wenn eine Kreatur den Zylinder in einem Zug erstmals betritt oder den Zug
+  darin beginnt, muss sie einen Geschicklichkeitsrettungswurf bestehen, oder sie stürzt hin, sodass sie liegend ist, und verliert
+  ihre Konzentration.
+source_book: SRD 5.2 DE

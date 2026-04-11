@@ -1,0 +1,23 @@
+id: spatzundender-feuerball
+type: spell
+template: spell
+name: Spätzündender Feuerball
+lang: de
+level: 7
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 45 Meter
+components: V, G, M (eine Kugel aus Fledermaus Guano und Schwefel)
+duration: Konzentration, bis zu 1 Minute
+description: 'Du verschießt einen gelben Lichtstrahl, der sich an einem Punkt deiner Wahl in Reichweite zu einer leuchtenden
+  Perle verdichtet und für die Wirkungsdauer dort verweilt. Wenn der Zauber endet, explodiert die Perle, und jede Kreatur
+  in einer Kugel mit einem Radius von sechs Metern um diesen Punkt führt einen Geschicklichkeitsrettungswurf aus. Misslingt
+  der Wurf, so erleidet die Kreatur Feuerschaden in Höhe des gesamten angesammelten Schadens, anderenfalls die Hälfte. Der
+  Grundschaden des Zaubers ist 12W6, und der Schaden wird um 1W6 erhöht, wann immer während der Wirkungsdauer einer deiner
+  Züge endet. Wenn eine Kreatur während der Wirkungsdauer die leuchtende Perle berührt, führt die Kreatur einen Geschicklichkeitsrettungswurf
+  aus. Misslingt der Wurf, so endet der Zauber, und die Perle explodiert. Bei einem erfolgreichen Rettungswurf kann die Kreatur
+  die Perle bis zu zwölf Meter weit werfen. Gelangt die geworfene Perle in den Bereich einer Kreatur oder kollidiert sie mit
+  einem festen Gegenstand, so endet der Zauber, und die Perle explodiert. Wenn die Perle explodiert, beginnen brennbare Gegenstände
+  im Explosionsbereich, die nicht Verwenden von Zauberplätzen höheren Grades: getragen oder gehalten werden, zu brennen. Für
+  jeden Zauberplatzgrad über dem 7. wird der Grundschaden um 1W6 erhöht.'
+source_book: SRD 5.2 DE

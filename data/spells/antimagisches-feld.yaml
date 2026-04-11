@@ -1,0 +1,22 @@
+id: antimagisches-feld
+type: spell
+template: spell
+name: Antimagisches Feld
+lang: de
+level: 8
+school: Bannzauber
+casting_time: Aktion
+range: Selbst
+components: V, G, M (Eisenspäne)
+duration: Konzentration, bis zu 1 Stunde
+description: Du wirst von einer antimagischen Aura in einer Ausströmung von drei Metern umgeben. Im Bereich der Aura kann
+  niemand Zauber wirken, magische Aktionen ausführen oder andere magische Effekte erzeugen, und Ziele innerhalb der Aura können
+  nicht von Zaubern, magischen Aktionen und Effekten betroffen werden. Magische Eigenschaften von magischen Gegenständen funktionieren
+  innerhalb der Aura nicht und haben auf nichts darin eine Wirkung. Wirkungsbereiche von Zaubern oder anderer Magie können
+  sich nicht in die Aura erstrecken. Niemand kann sich in die Aura oder aus ihr heraus teleportieren, und auch Ebenenreisen
+  sind in der Aura blockiert. Portale schließen sich, solange sie sich innerhalb der Aura befinden. Bereits wirksame Zauber
+  werden im Bereich unterdrückt, sofern sie nicht von Artefakten oder Gottheiten gewirkt wurden. Solange ein Effekt unterdrückt
+  wird, wirkt er nicht. Die Zeit, in der er unterdrückt ist, wird dennoch von seiner Magie bannen Wirkungsdauer abgezogen.
+  Antimagisches-Feld hat innerhalb der Aura keinen Effekt. Auren, die durch mehrere -Zauber erzeugt wurden, heben einander
+  nicht auf.
+source_book: SRD 5.2 DE

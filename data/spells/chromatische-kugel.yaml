@@ -1,0 +1,20 @@
+id: chromatische-kugel
+type: spell
+template: spell
+name: Chromatische Kugel
+lang: de
+level: 1
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 27 Meter
+components: V, G, M (ein Diamant im Wert von mindestens 50 GM)
+duration: Unmittelbar
+description: 'Du schleuderst eine Energiekugel auf ein Ziel in Reichweite. Wähle für die Art der Kugel Blitz, Feuer, Gift,
+  Kälte, Säure oder Schall aus und führe dann einen Fernkampf-Zauberangriff gegen das Ziel aus. Bei einem Treffer erleidet
+  das Ziel 3W8 Schaden der ausgewählten Art. Wenn du mit mindestens zwei der W8 dasselbe Ergebnis würfelst, springt die Kugel
+  zu einem weiteren Ziel deiner Wahl im Abstand von bis zu neun Metern vom Ziel. Führe einen Angriffswurf gegen das neue Ziel
+  sowie einen neuen Schadenswurf aus. Die Kugel kann nicht noch einmal springen, sofern du den Zauber nicht mit einem Zauberplatz
+  Verwenden von Zauberplätzen höheren Grades: ab dem 2. Grad wirkst. Für jeden Zauberplatzgrad über dem 1. wird der Schaden
+  um 1W8 erhöht. Die Kugel kann höchstens so oft springen, wie es dem Grad des verbrauchten Zauberplatzes entspricht, und
+  jede Kreatur kann nur einmal das Ziel dieses Zaubers sein.'
+source_book: SRD 5.2 DE

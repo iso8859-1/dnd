@@ -1,0 +1,19 @@
+id: wiedergeburt
+type: spell
+template: spell
+name: Wiedergeburt
+lang: de
+level: 5
+school: Nekromantiezauber
+casting_time: 1 Stunde
+range: Berührung
+components: V, G, M (seltene Öle im Wert von mindestens 1.000 GM, die der Zauber verbraucht)
+duration: Unmittelbar
+description: Du berührst einen toten Humanoiden oder seine Überreste. Sofern die Kreatur höchstens zehn Tage lang tot war,
+  erschafft der Zauber einen neuen Körper für sie und ruft die Seele in diesen Körper. Würfle mit 1W10 und ermittle die Spezies
+  des Körpers anhand der Tabelle unten, oder der SL w1äWh1lt0 einSep eazniedsere spielbare S1pWez1i0es Saupes.zies 1Drachenblütiger6Halblingisch
+  2Elf7Mensch 3Erneut würfeln8Orkisch 4Gnom9Tiefling 5Goliath10Zwerg Die reinkarnierte Kreatur trifft alle Entscheidungen,
+  welche die Beschreibung ihrer Spezies bietet, und erinnert sich an ihr voriges Leben. Sie behält die Fähigkeiten bei, die
+  sie in der ursprünglichen Gestalt hatte, verliert jedoch die Merkmale der bisherigen Spezies und erhält die Merkmale der
+  neuen.
+source_book: SRD 5.2 DE

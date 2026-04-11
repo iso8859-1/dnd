@@ -1,0 +1,20 @@
+id: rieseninsekt
+type: spell
+template: spell
+name: Rieseninsekt
+lang: de
+level: 4
+school: Beschwörungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G
+duration: Konzentration, bis zu 10 Minuten
+description: 'Du rufst einen Riesentausendfüßler, eine Riesen- spinne oder eine Riesenwespe (nach deiner Wahl, wenn du den
+  Zauber wirkst) herbei. Die Kreatur manifestiert sich in einem freien Bereich in Reich- Rieseninsekts weite, den du sehen
+  kannst, und verwendet den Wertekasten eines . Einige Details im Wertekasten werden von der ausgewählten Gestalt bestimmt.
+  Die Kreatur verschwindet, wenn ihre Trefferpunkte auf 0 sinken oder der Zauber endet. Die Kreatur ist mit dir und deinen
+  Verbündeten verbündet. Im Kampf nutzt sie deinen Initiativewert und ist direkt nach dir am Zug. Sie gehorcht deinen mündlichen
+  Befehlen (keine Aktion deinerseits erforderlich). Befiehlst du ihr nichts, so führt sie die Ausweichaktion aus und nutzt
+  ihre Bewegung, Verwenden von Zauberplätzen höheren Grades: um Gefahren zu vermeiden. Verwende den Zauberplatzgrad als Zaubergrad
+  im Wertekasten. MODRWMODRWMODRW S 17+3+3G 13+1+1K 15+2+2 täeSon I 4-3-3W 14+2+2C 3-4-4 nteIha Merkmale Aktionen Bonusaktionen'
+source_book: SRD 5.2 DE

@@ -1,0 +1,17 @@
+id: zwang
+type: spell
+template: spell
+name: Zwang
+lang: de
+level: 4
+school: Verzauberungszauber
+casting_time: Aktion
+range: 9 Meter
+components: V, G
+duration: Konzentration, bis zu 1 Minute
+description: Jede Kreatur deiner Wahl in Reichweite, die du sehen kannst, muss einen Weisheitsrettungswurf bestehen, oder
+  sie ist bezaubert, bis der Zauber endet. Für die Wirkungsdauer kannst du eine Bonusaktion ausführen, um eine Richtung zu
+  bestimmen, die horizontal von dir verläuft. Jedes bezauberte Ziel muss in seinem nächsten Zug so viel seiner Bewegungsrate
+  wie möglich verwenden, um sich in diese Richtung zu bewegen. Dabei nimmt es die sicherste Route. Nachdem das Ziel sich auf
+  diese Art bewegt hat, wiederholt es seinen Rettungswurf. Bei einem Erfolg endet der Zauber bei ihm.
+source_book: SRD 5.2 DE

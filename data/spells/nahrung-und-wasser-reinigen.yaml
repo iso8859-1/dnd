@@ -1,0 +1,14 @@
+id: nahrung-und-wasser-reinigen
+type: spell
+template: spell
+name: Nahrung und Wasser reinigen
+lang: de
+level: 1
+school: Verwandlungszauber
+casting_time: Aktion oder Ritual
+range: 3 Meter
+components: V, G
+duration: Unmittelbar
+description: Du entfernst Gifte und Verderbnis aus nichtmagischen Speisen und Getränken in einer Kugel mit einem Radius von
+  1,5 Metern um einen Punkt deiner Wahl in Reichweite.
+source_book: SRD 5.2 DE

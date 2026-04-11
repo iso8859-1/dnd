@@ -1,0 +1,16 @@
+id: widerstand
+type: spell
+template: spell
+name: Widerstand
+lang: de
+level: 0
+school: Banns
+casting_time: Aktion
+range: Berührung
+components: V, G
+duration: Konzentration, bis zu 1 Minute
+description: 'Du berührst eine bereitwillige Kreatur und wählst eine Schadensart aus: Blitz, Feuer, Gift, Gleißend, Hieb,
+  Kälte, Nekrotisch, Säure, Schall, Stich oder Wucht. Wenn die Kreatur während der Wirkungsdauer Schaden des ausgewählten
+  Typs erleidet, verringert sie den erlittenen Gesamtschaden um 1W4. Eine Kreatur kann von diesem Zauber nur einmal pro Zug
+  profitieren.'
+source_book: SRD 5.2 DE

@@ -1,0 +1,17 @@
+id: fallen-finden
+type: spell
+template: spell
+name: Fallen finden
+lang: de
+level: 2
+school: Erkenntniszauber
+casting_time: Aktion
+range: 36 Meter
+components: V, G
+duration: Unmittelbar
+description: Du erspürst alle Fallen, die sich in Reichweite und in deiner Sichtlinie befinden. Für diesen Zauber zählt jeder
+  Gegenstand oder Mechanismus als Falle, der geschaffen wurde, um Schaden zu bewirken AlarmGlyphe des Schutzes oder eine sonstige
+  Gefahr darzustellen. Dazu zählen Zauber wie  oder  oder mechanische Fallgruben, jedoch keine natürlichen Schwachstellen
+  im Boden, keine instabilen Decken oder verborgene Senklöcher. Dieser Zauber enthüllt, dass eine Falle vorhanden ist, jedoch
+  nicht, wo sie sich befindet. Du erfährst jedoch die allgemeine Art der Gefahr der Falle.
+source_book: SRD 5.2 DE

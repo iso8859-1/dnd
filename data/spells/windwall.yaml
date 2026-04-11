@@ -1,0 +1,21 @@
+id: windwall
+type: spell
+template: spell
+name: Windwall
+lang: de
+level: 3
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 36 Meter
+components: V, G, M (ein Fächer und eine Feder)
+duration: Konzentration, bis zu 1 Minute
+description: An einem Punkt deiner Wahl in Reichweite erscheint eine Wand aus starkem Wind. Die Wand kann bis zu 15 Meter
+  lang, 4,5 Meter hoch und 30 Zentimeter dick sein. Du kannst sie beliebig formen, solange sie einem ununterbrochenen Pfad
+  auf dem Boden folgt. Die Wand bleibt für die Wirkungsdauer bestehen. Wenn die Wand erscheint, führt jede Kreatur in ihrem
+  Bereich einen Stärkerettungswurf aus. Misslingt der Wurf, so erleidet die Kreatur 4W8 Wuchtschaden, anderenfalls die Hälfte.
+  Der starke Wind hält Nebel, Rauch und andere Gase auf Abstand. Fliegende Kreaturen und Gegenstände von höchstens kleiner
+  Größe können die Wand nicht durchdringen. Lose, leichte Materialien, die in die Wand gebracht werden, fliegen nach oben.
+  Pfeile, Bolzen und andere gewöhnliche Geschosse, die auf Ziele hinter der Wand geschossen werden, werden nach oben abgelenkt
+  und verfehlen ihr Ziel automatisch. Felsbrocken, die von Riesen oder Belagerungsmaschinen geschleudert werden, und ähnliche
+  Geschosse sind hiervon nicht betroffen. Kreaturen in gasförmiger Gestalt können die Wand nicht passieren.
+source_book: SRD 5.2 DE

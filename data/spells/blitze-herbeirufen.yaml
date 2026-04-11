@@ -1,0 +1,21 @@
+id: blitze-herbeirufen
+type: spell
+template: spell
+name: Blitze herbeirufen
+lang: de
+level: 3
+school: Beschwörungszauber
+casting_time: Aktion
+range: 36 Meter
+components: V, G
+duration: Konzentration, bis zu 10 Minuten
+description: 'An einem Punkt in Reichweite über dir, den du sehen kannst, erscheint eine Sturmwolke. Sie hat die Form eines
+  drei Meter hohen Zylinders mit einem Radius von 18 Metern. Wenn du den Zauber wirkst, wähle einen Punkt unter der Wolke
+  aus, den du sehen kannst. Ein Blitz schlägt von der Wolke in diesen Punkt ein. Jede Kreatur im Abstand von bis zu 1,5 Metern
+  um diesem Punkt führt einen Geschicklichkeitsrettungswurf aus. Misslingt der Wurf, so erleidet sie 3W10 Blitzschaden, anderenfalls
+  die Hälfte. Für die Wirkungsdauer kannst du eine magische Aktion verwenden, um einen weiteren Blitz dieser Art einschlagen
+  zu lassen. Dabei kannst du denselben Punkt oder einen anderen als Ziel auswählen. Wenn du dich beim Wirken des Zaubers draußen
+  aufhältst und ein Sturm herrscht, verleiht der Zauber dir Kontrolle über diesen Sturm, anstatt einen neuen zu erschaffen.
+  Unter diesen Umständen Verwenden von Zauberplätzen höheren Grades: wird der Schaden des Zaubers um 1W10 erhöht. Für jeden
+  Zauberplatzgrad über dem 3. wird der Schaden um 1W10 erhöht.'
+source_book: SRD 5.2 DE

@@ -1,0 +1,14 @@
+id: unsichtbares-sehen
+type: spell
+template: spell
+name: Unsichtbares sehen
+lang: de
+level: 2
+school: Erkenntniszauber
+casting_time: Aktion
+range: Selbst
+components: V, G, M (eine Prise Talk)
+duration: 1 Stunde
+description: Für die Wirkungsdauer siehst du unsichtbare Kreaturen und Gegenstände, als wären sie sichtbar. Du kannst zudem
+  in die Ätherebene blicken. Kreaturen und Gegenstände dort erscheinen geisterhaft.
+source_book: SRD 5.2 DE

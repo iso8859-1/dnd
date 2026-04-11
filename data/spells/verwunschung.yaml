@@ -1,0 +1,19 @@
+id: verwunschung
+type: spell
+template: spell
+name: Verwünschung
+lang: de
+level: 1
+school: Verzauberungszauber
+casting_time: Bonusaktion
+range: 27 Meter
+components: V, G, M (versteinertes Auge eines Molchs)
+duration: Konzentration, bis zu 1 Stunde
+description: 'Du verfluchst eine Kreatur in Reichweite, die du sehen kannst. Für die Wirkungsdauer fügst du dem Ziel, wann
+  immer du es mit einem Angriffswurf triffst, zusätzlich 1W6 nekrotischen Schaden zu. Wähle außerdem ein Attribut aus, wenn
+  du den Zauber wirkst. Das Ziel ist bei allen entsprechenden Attributswürfen im Nachteil. Wenn die Trefferpunkte des Ziels
+  auf 0 sinken, bevor der Zauber endet, kannst du in deinen folgenden Zügen eine Bonusaktion ausführen, um eine andere Kreatur
+  zu verfluchen. Verwenden von Zauberplätzen höheren Grades: Deine Konzentration kann länger andauern: bei einem Zauberplatz
+  des 2. Grades bis zu vier Stunden, bei einem Zauberplatz des 3. und 4. Grades bis zu acht Stunden und bei einem Zauberplatz
+  ab dem 5. Grad bis zu 24 Stunden.'
+source_book: SRD 5.2 DE

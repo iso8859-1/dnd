@@ -1,0 +1,24 @@
+id: energiekafig
+type: spell
+template: spell
+name: Energiekäfig
+lang: de
+level: 7
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 30 Meter
+components: V, G, M (Rubinstaub im Wert von mindestens 1.500 GM, den der Zauber verbraucht)
+duration: Konzentration, bis zu 1 Stunde
+description: Um einen Bereich deiner Wahl in Reichweite entsteht ein unbewegliches, unsichtbares würfelförmiges Gefängnis
+  aus magischer Energie. Dabei kann es sich um einen Käfig oder um einen soliden Kasten handeln (nach deiner Wahl). In Käfigform
+  kann das Gefängnis eine Seitenlänge von bis zu sechs Metern haben. Es besteht aus Stangen und Zwischenräumen von jeweils
+  einem Zentimeter Durchmesser. In Kastenform kann das Gefängnis eine Seitenlänge von bis zu drei Metern haben. Es handelt
+  sich um eine solide, für Materie undurchdringliche Barriere, die außerdem in den Bereich hinein oder aus ihm heraus gewirkte
+  Zauber blockiert. Wenn du den Zauber wirkst, ist jede Kreatur gefangen, die sich vollständig im Bereich des Käfigs befindet.
+  Kreaturen, die sich nur zum Teil im Bereich befinden oder zu groß sind, um komplett hineinzupassen, werden von der Mitte
+  des Bereichs aus weggestoßen, bis sie sich vollständig außerhalb befinden. Eine Kreatur im Energiekäfig kann diesen nur
+  auf magische Art verlassen. Wenn sie versucht, ihn mit Teleportation oder Ebenenreisen zu verlassen, muss sie einen Charismarettungswurf
+  ausführen. Bei einem erfolgreichen Rettungswurf gelingt es ihr, den Käfig mit dieser Magie zu verlassen. Misslingt der Wurf,
+  so verlässt die Kreatur den Käfig nicht, und der Zauber oder Effekt ist vergeudet. Der Käfig erstreckt sich auch auf die
+  Ätherebene und blockiert Magie bannen damit Reisen über diese Ebene. Dieser Zauber kann durch  nicht aufgehoben werden.
+source_book: SRD 5.2 DE

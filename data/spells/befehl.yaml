@@ -1,0 +1,19 @@
+id: befehl
+type: spell
+template: spell
+name: Befehl
+lang: de
+level: 1
+school: Verzauberungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V
+duration: Unmittelbar
+description: 'Du gibst einer Kreatur in Reichweite, die du sehen kannst, einen ein Wort langen Befehl. Das Ziel muss einen
+  Weisheitsrettungswurf bestehen oder den Befehl im nächsten Zug ausführen. Wähle den Anhalten: Befehl aus diesen Optionen
+  aus: Das Ziel bewegt sich in seinem Zug nicht und führt weder eine Aktion noch eine Fliehen: Bonusaktion aus. Das Ziel nutzt
+  seinen Zug, um sich so Herkommen: schnell wie möglich von dir wegzubewegen. Das Ziel bewegt sich auf dem kürzesten Weg in
+  deine Richtung und beendet seinen Zug, sobald es sich auf höchstens 1,5 Meter Hinlegen: genähert hat. Das Ziel nimmt den
+  Zustand Liegend an Loslassen: und beendet dann seinen Zug. Das Ziel lässt fallen, was es gerade hält, Verwenden von Zauberplätzen
+  höheren Grades: und beendet seinen Zug. Für jeden Zauberplatzgrad über dem 1. kannst du eine weitere Kreatur beeinflussen.'
+source_book: SRD 5.2 DE

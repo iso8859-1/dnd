@@ -1,0 +1,17 @@
+id: magie-bannen
+type: spell
+template: spell
+name: Magie bannen
+lang: de
+level: 3
+school: Bannzauber
+casting_time: Aktion
+range: 36 Meter
+components: V, G
+duration: Unmittelbar
+description: 'Wähle eine Kreatur, einen Gegenstand oder einen magischen Effekt in Reichweite aus. Jeder Zauber des höchstens
+  3. Grades, der aktuell auf das Ziel wirkt, wird beendet. Führe für jeden Zauber des mindestens 4. Grades, der auf das Ziel
+  wirkt, einen Attributswurf mit deinem Attribut zum Zauberwirken (SG 10 plus Zaubergrad) aus. Bei einem Erfolg endet der
+  Zauber. Verwenden von Zauberplätzen höheren Grades: Du beendest automatisch einen Zauber, der auf das Ziel wirkt, wenn dessen
+  Grad höchstens dem des Zauberplatzes entspricht, den du verwendest.'
+source_book: SRD 5.2 DE

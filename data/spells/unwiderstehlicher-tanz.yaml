@@ -1,0 +1,19 @@
+id: unwiderstehlicher-tanz
+type: spell
+template: spell
+name: Unwiderstehlicher Tanz
+lang: de
+level: 6
+school: Verzauberungszauber
+casting_time: Aktion
+range: 9 Meter
+components: V
+duration: Konzentration, bis zu 1 Minute
+description: Eine Kreatur in Reichweite, die du sehen kannst, muss einen Weisheitsrettungswurf ausführen. Bei einem erfolgreichen
+  Rettungswurf tanzt das Ziel bis zum Ende seines nächsten Zugs albern an einer Stelle und verbraucht dafür seine gesamte
+  Bewegungsrate. Misslingt der Wurf, so ist das Ziel für die Wirkungsdauer bezaubert. Solange es bezaubert ist, tanzt das
+  Ziel albern an einer Stelle und benötigt dafür seine gesamte Bewegungsrate. Es ist bei Geschicklichkeitsrettungswürfen sowie
+  bei Angriffswürfen im Nachteil, und andere Kreaturen sind bei Angriffswürfen gegen das Ziel im Vorteil. Das Ziel kann in
+  jedem seiner Züge eine Aktion ausführen, um sich zu sammeln und den Rettungswurf zu wiederholen. Bei einem Erfolg endet
+  der Zauber.
+source_book: SRD 5.2 DE

@@ -1,0 +1,14 @@
+id: verschwimmen
+type: spell
+template: spell
+name: Verschwimmen
+lang: de
+level: 2
+school: Illusionszauber
+casting_time: Aktion
+range: Selbst
+components: V
+duration: Konzentration, bis zu 1 Minute
+description: Dein Körper wird unscharf. Für die Wirkungsdauer sind Kreaturen bei Angriffswürfen gegen dich im Nachteil. Angreifer,
+  die dich mit Blindsicht oder Wahrer Blick wahrnehmen, sind gegen diesen Effekt immun.
+source_book: SRD 5.2 DE

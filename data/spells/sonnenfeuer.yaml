@@ -1,0 +1,17 @@
+id: sonnenfeuer
+type: spell
+template: spell
+name: Sonnenfeuer
+lang: de
+level: 8
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 45 Meter
+components: V, G, M (ein Stück Sonnenstein)
+duration: Unmittelbar
+description: Eine Kugel mit einem Radius von 18 Metern um einen Punkt deiner Wahl in Reichweite wird von gleißendem Sonnenlicht
+  erfüllt. Jede Kreatur in der Linie führt einen Konstitutionsrettungswurf aus. Misslingt der Wurf, so erleidet die Kreatur
+  12W6 gleißenden Schaden und ist eine Minute lang blind. Bei einem erfolgreichen Rettungswurf erleidet das Ziel nur halb
+  so viel Schaden. Eine von diesem Zauber geblendete Kreatur führt am Ende jedes ihrer Züge einen weiteren Konstitutionsrettungswurf
+  aus. Bei einem Erfolg endet der Effekt bei ihr. Dieser Zauber bannt durch beliebige Zauber erschaffene Dunkelheit im Bereich.
+source_book: SRD 5.2 DE

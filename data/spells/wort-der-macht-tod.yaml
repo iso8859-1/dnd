@@ -1,0 +1,14 @@
+id: wort-der-macht-tod
+type: spell
+template: spell
+name: 'Wort der Macht: Tod'
+lang: de
+level: 9
+school: Verzauberungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V
+duration: Unmittelbar
+description: Du nötigst eine Kreatur in Reichweite, die du sehen kannst, zum Sterben. Wenn das Ziel maximal 100 Trefferpunkte
+  hat, stirbt es. Anderenfalls erleidet es 12W12 psychischen Schaden.
+source_book: SRD 5.2 DE

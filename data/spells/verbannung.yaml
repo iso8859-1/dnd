@@ -1,0 +1,19 @@
+id: verbannung
+type: spell
+template: spell
+name: Verbannung
+lang: de
+level: 4
+school: Bannzauber
+casting_time: Aktion
+range: 9 Meter
+components: V, G, M (ein Pentakel)
+duration: Konzentration, bis zu 1 Minute
+description: 'Eine Kreatur in Reichweite, die du sehen kannst, muss einen Charismarettungswurf bestehen, oder sie wird für
+  die Wirkungsdauer auf eine harmlose Halbebene transportiert. Solange das Ziel sich dort befindet, ist es kampfunfähig. Wenn
+  der Zauber endet, erscheint das Ziel in dem Bereich, aus dem es wegteleportiert wurde, oder im nächstgelegenen freien Bereich
+  wieder, falls der ursprüngliche inzwischen besetzt ist. Falls das Ziel eine Aberration, ein celestisches Wesen, ein Elementar,
+  ein Feenwesen oder ein Unhold ist, kehrt es nicht zurück, sofern der Zauber eine Minute lang wirkt. Stattdessen gelangt
+  es an einen zufälligen Ort auf einer Ebene (nach Wahl Verwenden von Zauberplätzen höheren Grades: des SL), die mit seinem
+  Kreaturentyp assoziiert ist. Für jeden Zauberplatzgrad über dem 4. kannst du auf eine weitere Kreatur zielen.'
+source_book: SRD 5.2 DE

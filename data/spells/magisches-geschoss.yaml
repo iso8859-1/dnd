@@ -1,0 +1,16 @@
+id: magisches-geschoss
+type: spell
+template: spell
+name: Magisches Geschoss
+lang: de
+level: 1
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 36 Meter
+components: V, G
+duration: Unmittelbar
+description: 'Du erschaffst drei leuchtende Wurfpfeile aus magischer Energie. Jeder Wurfpfeil trifft eine Kreatur deiner Wahl
+  in Reichweite, die du sehen kannst. Ein Wurfpfeil fügt seinem Ziel 1W4+1 Energieschaden zu. Die Wurfpfeile treffen alle
+  gleichzeitig. Du kannst bestimmen, ob sie dieselbe Verwenden von Zauberplätzen höheren Grades: oder verschiedene Kreaturen
+  treffen. Für jeden Zauberplatzgrad über dem 1. erzeugt der Zauber einen weiteren Wurfpfeil.'
+source_book: SRD 5.2 DE

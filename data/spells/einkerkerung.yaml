@@ -1,0 +1,31 @@
+id: einkerkerung
+type: spell
+template: spell
+name: Einkerkerung
+lang: de
+level: 9
+school: Bannzauber
+casting_time: 1 Minute
+range: 9 Meter
+components: V, G, M (eine Statuette in Gestalt des Ziels im Wert von mindestens 5.000 GM)
+duration: Bis der Zauber gebannt wird
+description: 'Du erschaffst magische Fesseln, um eine Kreatur in Reichweite festzusetzen, die du sehen kannst. Das Ziel muss
+  einen Weisheitsrettungswurf ausführen. Bei einem erfolgreichen Rettungswurf ist das Ziel nicht betroffen, und es ist in
+  den nächsten 24 Stunden gegen diesen Zauber immun. Misslingt der Wurf, so wird das Ziel eingesperrt. Ein eingesperrtes Ziel
+  muss nicht atmen, essen und trinken, und es altert nicht. Erkenntniszauber können das Ziel weder orten noch wahrnehmen,
+  und das Ziel kann sich nicht teleportieren. Bis der Zauber endet, ist das Ziel außerdem von einem der folgenden Effekte
+  (nach deiner Wahl) Abgesichertes Gefängnis: betroffen: Das Ziel ist in einer Halbebene gefangen, die gegen Teleportation
+  und Ebenenreisen geschützt ist. Bei der Halbebene kann es sich um ein Labyrinth, einen Käfig, einen Anketten: Turm oder
+  Ähnliches nach deiner Wahl handeln. Fest im Boden verankerte Ketten halten das Ziel fest. Das Ziel ist festgesetzt und kann
+  auf Begräbnis: keine Weise bewegt werden. Das Ziel wird unter der Erde in einer hohlen Kugel aus magischer Energie begraben,
+  die gerade groß genug für das Ziel ist. Nichts kann Schlummer: die Kugel durchdringen. Das Ziel ist bewusstlos und kann
+  nicht Winziges Gefängnis: geweckt werden. Das Ziel nimmt eine Größe von 2,5 Zentimetern an und wird in einem unzerstörbaren
+  Edelstein oder einem ähnlichen Gegenstand eingesperrt. Licht kann den Edelstein durchdringen. So kann das Ziel nach draußen
+  blicken, und andere Kreaturen können hineinsehen. Ansonsten kann den Edelstein jedoch nichts durchdringen, auch nicht Teleportation
+  oder Den Zauber beenden: Ebenenreisen. Wenn du den Zauber wirkst, kannst du einen Auslöser festlegen, der ihn beendet. Der
+  Auslöser kann so spezifisch oder komplex sein, wie du möchtest. Der SL muss jedoch bestätigen, dass sein Eintreten innerhalb
+  der nächsten zehn Jahre wahrscheinlich ist. Es muss sich um eine beobachtbare Aktion handeln, beispielsweise eine bestimmte
+  Opferung im Tempel deiner Gottheit, die Rettung deiner großen Liebe Magie bannen oder der Sieg über ein bestimmtes Monster.
+  Der Zauber  kann diesen Zauber nur beenden, wenn er mit einem Zauberplatz des 9. Grades entweder auf das Gefängnis oder
+  auf die Komponente gewirkt wird, die beim Wirken dieses Zaubers verwendet wurde.'
+source_book: SRD 5.2 DE

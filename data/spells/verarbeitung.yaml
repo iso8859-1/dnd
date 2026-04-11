@@ -1,0 +1,21 @@
+id: verarbeitung
+type: spell
+template: spell
+name: Verarbeitung
+lang: de
+level: 4
+school: Verwandlungszauber
+casting_time: 10 Minuten
+range: 36 Meter
+components: V, G
+duration: Unmittelbar
+description: Du wandelst Rohmaterial in Erzeugnisse aus dem gleichen Material um. Du kannst beispielsweise aus einem Stück
+  Baum eine Holzbrücke erschaffen, aus etwas Hanf ein Seil, aus Flachs oder Wolle Kleidung. Wähle Rohmaterial in Reichweite
+  aus, das du sehen kannst. Du kannst einen Gegenstand von höchstens großer Größe herstellen, der in einen Würfel mit drei
+  Metern Kantenlänge oder in acht verbundene Würfel mit jeweils 1,5 Metern Kantenlänge passt, sofern du über genügend Material
+  verfügst. Wenn du mit Metall, Stein oder einem anderen Mineral arbeitest, kann der hergestellte Gegenstand von höchstens
+  mittelgroßer Größe sein. Er muss in einen Würfel mit 1,5 Metern Kantenlänge passen. Die Qualität der mit dem Zauber erschaffenen
+  Gegenstände hängt von der Qualität des Rohmaterials ab. Mit diesem Zauber können weder Kreaturen noch magische Gegenstände
+  erschaffen werden. Du kannst zudem keine Gegenstände wie Schmuck, Waffen, Glas oder Rüstung erschaffen, die ein hohes Maß
+  an Können erfordern, es sei denn, du hast Übung im Umgang mit dem passenden Handwerkszeug.
+source_book: SRD 5.2 DE

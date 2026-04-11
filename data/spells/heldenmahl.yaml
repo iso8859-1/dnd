@@ -1,0 +1,17 @@
+id: heldenmahl
+type: spell
+template: spell
+name: Heldenmahl
+lang: de
+level: 6
+school: Beschwörungszauber
+casting_time: 10 Minuten
+range: Selbst
+components: V, G, M (eine mit Edelsteinen verzierte Schale im Wert von mindestens 1.000 GM, die der Zauber verbraucht)
+duration: Unmittelbar
+description: 'Du beschwörst ein Festmahl, das auf einer Oberfläche in einem freien Würfel von drei Metern Kantenlänge neben
+  dir erscheint. Der Verzehr des Festmahls dauert eine Stunde. Nach dieser Dauer verschwindet das Mahl, und die positiven
+  Effekte treten in Kraft. Bis zu zwölf Kreaturen können am Festmahl teilnehmen. Eine Kreatur, die teilnimmt, erhält mehrere
+  Vorzüge, die 24 Stunden lang anhalten: Sie ist gegen Giftschaden resistent und gegen die Zustände Verängstigt und Vergiftet
+  immun. Zudem wird ihr Trefferpunktemaximum um 2W10 erhöht, und sie erhält die gleiche Anzahl von Trefferpunkten dazu.'
+source_book: SRD 5.2 DE

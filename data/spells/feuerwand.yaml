@@ -1,0 +1,21 @@
+id: feuerwand
+type: spell
+template: spell
+name: Feuerwand
+lang: de
+level: 4
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 36 Meter
+components: V, G, M (ein Stück Kohle)
+duration: Konzentration, bis zu 1 Minute
+description: 'Du erschaffst auf einer festen Oberfläche in Reichweite eine Feuerwand. Du kannst eine gerade Wand mit bis zu
+  18 Metern Länge oder eine ringförmige Wand mit einem Radius von bis zu drei Metern erschaffen. In beiden Fällen ist die
+  Wand sechs Meter hoch und 30 Zentimeter dick. Die Wand ist undurchsichtig und bleibt für die Wirkungsdauer bestehen. Wenn
+  die Wand erscheint, führt jede Kreatur in ihrem Bereich einen Geschicklichkeitsrettungswurf aus. Misslingt der Wurf, so
+  erleidet die Kreatur 5W8 Feuerschaden, anderenfalls die Hälfte. Eine Seite der Wand, die du beim Wirken des Zaubers bestimmst,
+  fügt jeder Kreatur, die ihren Zug im Abstand von bis zu drei Metern von der Seite oder in der Wand beendet, 5W8 Feuerschaden
+  zu. Eine Kreatur erleidet den Schaden ebenfalls, wenn sie die Wand in einem Zug erstmals betritt. Verwenden von Zauberplätzen
+  höheren Grades: Die andere Seite der Wand bewirkt keinen Schaden. Für jeden Zauberplatzgrad über dem 4. wird der Schaden
+  um 1W8 erhöht.'
+source_book: SRD 5.2 DE

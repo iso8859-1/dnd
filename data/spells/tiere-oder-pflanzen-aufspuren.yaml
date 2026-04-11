@@ -1,0 +1,15 @@
+id: tiere-oder-pflanzen-aufspuren
+type: spell
+template: spell
+name: Tiere oder Pflanzen aufspüren
+lang: de
+level: 2
+school: Erkenntniszauber
+casting_time: Aktion oder Ritual
+range: Selbst
+components: V, G, M (etwas Fell von einem Bluthund)
+duration: Unmittelbar
+description: Beschreibe oder nenne eine bestimmte Art von Tier, Pflanzenkreatur oder nichtmagischer Pflanze. Du erfährst,
+  in welcher Entfernung und Richtung im Abstand von bis zu acht Kilometern sich die nächste Kreatur dieser Art befindet, sofern
+  vorhanden.
+source_book: SRD 5.2 DE

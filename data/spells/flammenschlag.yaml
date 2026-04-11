@@ -1,0 +1,16 @@
+id: flammenschlag
+type: spell
+template: spell
+name: Flammenschlag
+lang: de
+level: 5
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G, M (eine Prise Schwefel)
+duration: Unmittelbar
+description: 'Eine vertikale Säule aus strahlendem Feuer fährt von oben herab. Jede Kreatur in einem zwölf Meter hohen Zylinder
+  mit einem Radius von drei Metern um einen Punkt in Reichweite führt einen Geschicklichkeitsrettungswurf aus. Misslingt der
+  Wurf, so erleidet die Kreatur 5W6 Feuerschaden und 5W6 gleißenden Schaden, anderenfalls die Verwenden von Zauberplätzen
+  höheren Grades: Hälfte. Für jeden Zauberplatzgrad über dem 5. werden Feuerschaden und gleißender Schaden um 1W6 erhöht.'
+source_book: SRD 5.2 DE

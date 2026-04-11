@@ -1,0 +1,15 @@
+id: gute-beeren
+type: spell
+template: spell
+name: Gute Beeren
+lang: de
+level: 1
+school: Beschwörungszauber
+casting_time: Aktion
+range: Selbst
+components: V, G, M (ein Mistelzweig)
+duration: 24 Stunden
+description: In deiner Hand erscheinen zehn Beeren, die für die Wirkungsdauer von Magie erfüllt sind. Kreaturen können eine
+  Bonusaktion ausführen, um eine Beere zu verzehren. Dadurch wird 1 Trefferpunkt wiederhergestellt, und die Beere bietet der
+  Kreatur genügend Nahrung für einen Tag. Wenn der Zauber endet, verschwinden Beeren, die nicht verzehrt wurden.
+source_book: SRD 5.2 DE

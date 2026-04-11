@@ -1,0 +1,17 @@
+id: dissonantes-flustern
+type: spell
+template: spell
+name: Dissonantes Flüstern
+lang: de
+level: 1
+school: Verzauberungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V
+duration: Unmittelbar
+description: 'Eine Kreatur deiner Wahl in Reichweite, die du sehen kannst, hört im Geiste eine misstönende Melodie. Das Ziel
+  führt einen Weisheitsrettungswurf aus. Misslingt der Wurf, so erleidet das Ziel 3W6 psychischen Schaden und muss sofort
+  seine Reaktion verwenden, sofern verfügbar, um sich so weit wie möglich von dir zu entfernen. Dabei nimmt es die sicherste
+  Route. Bei einem erfolgreichen Rettungswurf erleidet das Verwenden von Zauberplätzen höheren Grades: Ziel nur halb so viel
+  Schaden. Für jeden Zauberplatzgrad über dem 1. wird der Schaden um 1W6 erhöht.'
+source_book: SRD 5.2 DE

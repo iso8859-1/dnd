@@ -1,0 +1,19 @@
+id: klopfen
+type: spell
+template: spell
+name: Klopfen
+lang: de
+level: 2
+school: Verwandlungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V
+duration: Unmittelbar
+description: Wähle einen Gegenstand in Reichweite aus, den du sehen kannst. Es kann sich um eine Tür, eine Truhe, ein Paar
+  Handschellen, ein Vorhängeschloss oder einen anderen Gegenstand handeln, der auf magische oder gewöhnliche Art verschlossen
+  ist. Wenn das Ziel mit einem gewöhnlichen Schloss verschlossen, verriegelt oder verklemmt ist, wird es geöffnet, entriegelt
+  oder gelöst. Wenn der Gegenstand mehrere Schlösser besitzt, wird nur Arkanes Schloss eines davon geöffnet. Ist das Ziel
+  durch den Zauber verriegelt, so wird dieser Zauber zehn Minuten lang unterdrückt. In dieser Zeit kann das Ziel geöffnet
+  und geschlossen werden. Wenn du den Zauber wirkst, gibt dein Ziel ein lautes Klopfgeräusch von sich, welches bis zu 90 Meter
+  weit zu hören ist.
+source_book: SRD 5.2 DE

@@ -1,0 +1,16 @@
+id: feuersturm
+type: spell
+template: spell
+name: Feuersturm
+lang: de
+level: 7
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 45 Meter
+components: V, G
+duration: Unmittelbar
+description: Ein Feuersturm erscheint in Reichweite. Der Bereich des Sturms besteht aus bis zu zehn Würfeln mit drei Metern
+  Kantenlänge, die du beliebig anordnest. Jeder Würfel muss an mindestens einen anderen angrenzen. Jede Kreatur im Bereich
+  führt einen Geschicklichkeitsrettungswurf aus. Misslingt der Wurf, so erleidet sie 7W10 Feuerschaden, anderenfalls die Hälfte.
+  Brennbare Gegenstände im Bereich, die nicht getragen oder gehalten werden, beginnen zu brennen.
+source_book: SRD 5.2 DE

@@ -1,0 +1,17 @@
+id: magie-entdecken
+type: spell
+template: spell
+name: Magie entdecken
+lang: de
+level: 1
+school: Erkenntniszauber
+casting_time: Aktion oder Ritual
+range: Selbst
+components: V, G
+duration: Konzentration, bis zu 10 Minuten
+description: Während der Wirkungsdauer nimmst du magische Effekte im Abstand von bis zu neun Metern von dir wahr. Wenn du
+  magische Effekte wahrnimmst, kannst du die magische Aktion ausführen, um rund um sichtbare Kreaturen und Gegenstände im
+  Bereich, auf welche die Magie wirkt, eine schwache Aura zu sehen. Wurde der Effekt durch einen Zauber hervorgerufen, so
+  erkennst du dessen Schule der Magie. Der Zauber wird von 30 Zentimetern Stein, Erde oder Holz sowie von 2,5 Zentimetern
+  Metall oder einer dünnen Bleischicht blockiert.
+source_book: SRD 5.2 DE

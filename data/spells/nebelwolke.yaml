@@ -1,0 +1,16 @@
+id: nebelwolke
+type: spell
+template: spell
+name: Nebelwolke
+lang: de
+level: 1
+school: Beschwörungszauber
+casting_time: Aktion
+range: 36 Meter
+components: V, G
+duration: Konzentration, bis zu 1 Stunde
+description: 'Du erschaffst eine Kugel aus Nebel mit einem Radius von sechs Metern um einen Punkt in Reichweite. Der Bereich
+  in der Kugel ist komplett verschleiert. Windstoß Die Kugel bleibt für die Wirkungsdauer bestehen, oder bis starker Wind
+  (wie solcher durch ) Verwenden von Zauberplätzen höheren Grades: sie auflöst. Für jeden Zauberplatzgrad über dem 1. wird
+  der Radius des Nebels um sechs Meter erhöht.'
+source_book: SRD 5.2 DE

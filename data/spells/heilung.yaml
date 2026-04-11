@@ -1,0 +1,15 @@
+id: heilung
+type: spell
+template: spell
+name: Heilung
+lang: de
+level: 6
+school: Bannzauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G
+duration: Unmittelbar
+description: 'Wähle eine Kreatur in Reichweite aus, die du sehen kannst. Positive Energie durchströmt das Ziel, das 70 Trefferpunkte
+  zurückerhält. Außerdem beendet dieser Zauber die Zustände Blind, Taub und Vergiftet beim Ziel. Verwenden von Zauberplätzen
+  höheren Grades: Für jeden Zauberplatzgrad über dem 6. wird die Heilung um 10 Trefferpunkte erhöht.'
+source_book: SRD 5.2 DE

@@ -1,0 +1,20 @@
+id: todeswolke
+type: spell
+template: spell
+name: Todeswolke
+lang: de
+level: 5
+school: Beschwörungszauber
+casting_time: Aktion
+range: 36 Meter
+components: V, G
+duration: Konzentration, bis zu 10 Minuten
+description: 'Du erschaffst eine Kugel aus gelbgrünem Nebel mit einem Radius von sechs Metern um einen Punkt in Reichweite.
+  Der Nebel bleibt für die Wirkungsdauer Windstoß bestehen, oder bis starker Wind (wie solcher durch ) ihn auflöst, wodurch
+  der Zauber endet. Der Bereich der Kugel ist komplett verschleiert. Jede Kreatur in der Kugel führt einen Konstitutions-
+  rettungswurf aus. Misslingt der Wurf, so erleidet sie 5W8 Giftschaden, anderenfalls die Hälfte. Eine Kreatur muss den Konstitutionsrettungswurf
+  auch dann ausführen, wenn die Kugel sich in ihren Bereich bewegt, wenn die Kreatur die Kugel betritt oder wenn sie ihren
+  Zug darin beendet. Eine Kreatur kann diesen Rettungswurf nur einmal pro Zug ausführen. Zu Beginn jedes deiner Züge bewegt
+  sich die Kugel Verwenden von Zauberplätzen höheren Grades: um drei Meter von dir weg. Für jeden Zauberplatzgrad über dem
+  5. wird der Schaden um 1W8 erhöht.'
+source_book: SRD 5.2 DE

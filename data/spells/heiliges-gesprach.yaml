@@ -1,0 +1,19 @@
+id: heiliges-gesprach
+type: spell
+template: spell
+name: Heiliges Gespräch
+lang: de
+level: 5
+school: Erkenntniszauber
+casting_time: 1 Minute oder Ritual
+range: Selbst
+components: V, G, M (Weihrauch)
+duration: 1 Minute
+description: Du nimmst mit einer Gottheit oder dem Stellvertreter einer Gottheit Kontakt auf und stellst bis zu drei Fragen,
+  die mit Ja oder Nein beantwortet werden können. Du musst deine Fragen stellen, bevor der Zauber endet. Du erhältst auf jede
+  Frage eine korrekte Antwort. Göttliche Wesen sind nicht unbedingt allwissend. Bezieht sich die Frage auf Informationen,
+  die das Wissen der Gottheit übersteigen, könntest du als Antwort „Unklar“ erhalten. Falls eine Antwort mit nur einem Wort
+  irreführend sein oder nicht dem Interesse der Gottheit entsprechen könnte, kann der SL stattdessen einen kurzen Satz als
+  Antwort geben. Wenn du den Zauber vor einer langen Rast häufiger als einmal wirkst, erhöht dies das Risiko, keine Antwort
+  zu erhalten, mit jedem Wirken nach dem ersten um jeweils 25 Prozent.
+source_book: SRD 5.2 DE

@@ -1,0 +1,15 @@
+id: unsichtbarkeit
+type: spell
+template: spell
+name: Unsichtbarkeit
+lang: de
+level: 2
+school: Illusionszauber
+casting_time: Aktion
+range: Berührung
+components: V, G, M (eine Wimper in Gummiarabikum)
+duration: Konzentration, bis zu 1 Stunde
+description: 'Eine Kreatur, die du berührst, wird unsichtbar, bis der Zauber endet. Der Zauber endet vorzeitig, sobald das
+  Ziel einen Angriffswurf ausgeführt, Schaden bewirkt oder selbst einen Zauber Verwenden von Zauberplätzen höheren Grades:
+  gewirkt hat. Für jeden Zauberplatzgrad über dem 2. kannst du auf eine weitere Kreatur zielen.'
+source_book: SRD 5.2 DE

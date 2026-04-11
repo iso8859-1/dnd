@@ -1,0 +1,20 @@
+id: metall-erhitzen
+type: spell
+template: spell
+name: Metall erhitzen
+lang: de
+level: 2
+school: Verwandlungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G, M (ein Stück Eisen und eine Flamme)
+duration: Konzentration, bis zu 1 Minute
+description: 'Wähle einen verarbeiteten Gegenstand aus Metall in Reichweite aus, den du sehen kannst - beispielsweise eine
+  metallene Waffe oder eine schwere oder mittelschwere metallene Rüstung. Du lässt den Gegenstand glühend heiß werden. Wenn
+  du den Zauber wirkst, erleiden alle Kreaturen in physischem Kontakt mit dem Gegenstand 2W8 Feuerschaden. Für die Wirkungsdauer
+  kannst du in jedem deiner folgenden Züge eine Bonusaktion ausführen, um diesen Schaden erneut zu bewirken, sofern der Gegenstand
+  sich in Reichweite befindet. Trägt eine Kreatur den Gegenstand oder hält ihn in der Hand, während sie den Schaden erleidet,
+  so muss sie einen Konstitutionsrettungswurf bestehen, um den Gegenstand fallenzulassen, falls möglich. Wenn sie den Gegenstand
+  nicht fallen lässt, ist sie bis zum Beginn deines nächsten Zugs bei Verwenden von Zauberplätzen höheren Grades: Angriffs-
+  und Attributswürfen im Nachteil. Für jeden Zauberplatzgrad über dem 2. wird der Schaden um 1W8 erhöht.'
+source_book: SRD 5.2 DE

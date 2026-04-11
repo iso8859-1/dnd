@@ -1,0 +1,16 @@
+id: blindheit-taubheit
+type: spell
+template: spell
+name: Blindheit/Taubheit
+lang: de
+level: 2
+school: Verwandlungszauber
+casting_time: Aktion
+range: 36 Meter
+components: V
+duration: 1 Minute
+description: 'Eine Kreatur in Reichweite, die du sehen kannst, muss einen Konstitutionsrettungswurf bestehen, oder sie ist
+  für die Wirkungsdauer blind oder taub (nach deiner Wahl). Das Ziel wiederholt den Rettungswurf am Ende jedes seiner Züge.
+  Bei einem Verwenden von Zauberplätzen höheren Grades: Erfolg endet der Zauber. Für jeden Zauberplatzgrad über dem 2. kannst
+  du auf eine weitere Kreatur zielen.'
+source_book: SRD 5.2 DE

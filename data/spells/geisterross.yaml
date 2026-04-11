@@ -1,0 +1,19 @@
+id: geisterross
+type: spell
+template: spell
+name: Geisterross
+lang: de
+level: 3
+school: Illusionszauber
+casting_time: 1 Minute oder Ritual
+range: 9 Meter
+components: V, G
+duration: 1 Stunde
+description: In einem freien Bereich deiner Wahl in Reichweite, den du sehen kannst, erscheint eine große, quasi reale, pferdeartige
+  Kreatur. Du bestimmst das Erscheinungsbild der Kreatur. Sie ist stets mit einem Sattel und Zaumzeug ausgerüstet. Durch diesen
+  Zauber erschaffene Ausrüstung löst sich in Rauch auf, wenn sie weiter als drei Meter vom Ross entfernt wird. Für die Wirkungsdauer
+  kann eine Kreatur deiner Wahl (auch du selbst) auf dem Ross reiten. Reitpferds Die Kreatur verwendet den Wertekasten eines
+  (siehe „Monster“), verfügt jedoch über eine Bewegungsrate von 30 Metern und kann in einer Stunde 20,8 Kilometer zurücklegen.
+  Wenn der Zauber endet, verblasst das Ross allmählich, und der Reiter hat eine Minute zum Absteigen Zeit. Wenn das Ross Schaden
+  erleidet, endet der Zauber vorzeitig.
+source_book: SRD 5.2 DE

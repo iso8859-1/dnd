@@ -1,0 +1,18 @@
+id: unheimliches-schicksal
+type: spell
+template: spell
+name: Unheimliches Schicksal
+lang: de
+level: 9
+school: Illusionszauber
+casting_time: Aktion
+range: 36 Meter
+components: V, G
+duration: Konzentration, bis zu 1 Minute
+description: Du versuchst, illusionäre Schrecken im Geiste anderer zu erzeugen. Jede Kreatur deiner Wahl in einer Kugel mit
+  einem Radius von neun Metern um einen Punkt in Reichweite führt einen Weisheitsrettungswurf aus. Misslingt der Wurf, so
+  erleidet die Kreatur 10W10 psychischen Schaden und ist für die Wirkungsdauer verängstigt. Bei einem erfolgreichen Rettungswurf
+  erleidet die Kreatur nur halb so viel Schaden. Ein verängstigtes Ziel führt am Ende jedes seiner Züge einen Weisheitsrettungswurf
+  aus. Misslingt der Wurf, so erleidet es 5W10 psychischen Schaden. Bei einem erfolgreichen Rettungswurf endet der Zauber
+  bei diesem Ziel.
+source_book: SRD 5.2 DE

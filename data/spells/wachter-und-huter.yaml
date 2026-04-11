@@ -1,0 +1,32 @@
+id: wachter-und-huter
+type: spell
+template: spell
+name: Wächter und Hüter
+lang: de
+level: 6
+school: Bannzauber
+casting_time: 1 Stunde
+range: Berührung
+components: V, G, M (ein Silberstab im Wert von mindestens 10 GM)
+duration: 24 Stunden
+description: 'Du erschaffst einen Schutz, der einen Bereich von bis zu 225 Quadratmetern auf dem Boden abdeckt. Der geschützte
+  Bereich kann bis zu sechs Meter hoch sein. Du kannst ihn als Quadrat mit 15 Metern Kantenlänge, als hundert aneinandergrenzende
+  Quadrate mit 1,5 Metern Kantenlänge oder als 25 aneinandergrenzende Quadrate mit drei Metern Kantenlänge formen. Wenn du
+  diesen Zauber wirkst, kannst du Individuen bestimmen, die von seinen Effekten nicht betroffen sind. Du kannst auch ein Kennwort
+  festlegen, das den Sprecher gegen die Effekte immunisiert, wenn es im Abstand von bis zu 1,5 Metern vom geschützten Bereich
+  ausgesprochen wird. Magie bannen Der Zauber erzeugt im geschützten Bereich die Wächter und Hüter unten genannten Effekte.  hat
+  keinen Effekt auf  selbst, aber jeder der Wächter und folgenden Effekte kann gebannt werden. Werden Hüter alle vier Effekte
+  gebannt, so endet . Wenn du den Zauber 365 Tage lang täglich auf denselben Bereich wirkst, bleibt er wirksam, Korridore:
+  bis seine Effekte aufgelöst werden. Alle geschützten Korridore sind mit Nebel erfüllt und dadurch komplett verschleiert.
+  Außerdem besteht an jeder Kreuzung oder Abzweigung eine Chance von 50 Prozent, dass eine Kreatur (außer dir selbst) glaubt,
+  in die Treppen: entgegengesetzte Richtung zu gehen. Alle Treppen im geschützten Bereich Netz werden von der Decke bis zum
+  Boden von Spinnen- netzen blockiert, so wie beim Zauber . Wenn Wächter und Hüter die Fäden zerstört werden, wachsen sie
+  für die Wirkungsdauer von  innerhalb Türen: von zehn Minuten nach. Alle Türen im geschützten Bereich sind auf Arkanes Schloss
+  magische Art verschlossen, wie durch den Zauber . Außerdem kannst du bis zu zehn Türen mit einer Illusion verbergen, sodass
+  sie als Andere Zaubereffekte: normale Wand erscheinen. Platziere einen der Tanzende Lichter folgenden magischen Effekte
+  im geschützten Bereich: • in vier Korridoren mit Wächter und Hüter einem einfachen Muster, das die Lichter für die Wirkungsdauer
+  von Magischer Mund wiederholen Stinkende Wolke  Wächter • an zwei Orten und Hüter • an zwei Orten (solange wirkt, kehren
+  die Dämpfe nach zehn Minuten zurück, wenn sie aufgelöst werden) Windstoß • in einem Korridor oder Raum (der Wind weht für
+  die Wirkungsdauer Einflüsterung kontinuierlich) • in einem Würfel mit 1,5 Metern Kantenlänge. Jede Kreatur, die den Würfel
+  betritt, erhält die Einflüsterung mental'
+source_book: SRD 5.2 DE

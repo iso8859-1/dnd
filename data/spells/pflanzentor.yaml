@@ -1,0 +1,16 @@
+id: pflanzentor
+type: spell
+template: spell
+name: Pflanzentor
+lang: de
+level: 6
+school: Beschwörungszauber
+casting_time: Aktion
+range: 3 Meter
+components: V, G
+duration: 1 Minute
+description: Dieser Zauber erschafft eine magische Verbindung zwischen einer unbelebten Pflanze von mindestens großer Größe
+  in Reichweite und einer anderen Pflanze in beliebiger Entfernung auf derselben Existenzebene. Du musst die Zielpflanze mindestens
+  einmal gesehen oder berührt haben. Für die Wirkungsdauer kann jede Kreatur die verzauberte Pflanze betreten und steigt dann
+  aus der Zielpflanze wieder heraus. Dafür benötigt sie 1,5 Meter ihrer Bewegungsrate.
+source_book: SRD 5.2 DE

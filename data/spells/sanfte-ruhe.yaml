@@ -1,0 +1,15 @@
+id: sanfte-ruhe
+type: spell
+template: spell
+name: Sanfte Ruhe
+lang: de
+level: 2
+school: Nekromantiezauber
+casting_time: Aktion oder Ritual
+range: Berührung
+components: V, G, M (2 Kupfermünzen, die der Zauber verbraucht)
+duration: 10 Tage
+description: Du berührst einen Leichnam oder andere sterbliche Überreste. Für die Wirkungsdauer ist das Ziel vor Verwesung
+  geschützt und kann nicht untot werden. Der Zauber verlängert dadurch auch die Dauer, in der das Ziel wiederbelebt werden
+  kann, da die Tote erwecken Tage unter dem Einfluss dieses Zaubers bei Zaubern wie  nicht als verstrichene Zeit zählen.
+source_book: SRD 5.2 DE

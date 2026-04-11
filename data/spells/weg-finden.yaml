@@ -1,0 +1,17 @@
+id: weg-finden
+type: spell
+template: spell
+name: Weg finden
+lang: de
+level: 6
+school: Erkenntniszauber
+casting_time: 1 Minute
+range: Selbst
+components: V, G, M (ein Satz Weissagungsgegenstände wie Karten oder Runen im Wert von mindestens 100 GM)
+duration: Konzentration, bis zu 1 Tag
+description: Du spürst auf magische Art den direktesten physischen Weg zu einem Ort, den du nennst. Der Ort muss dir bekannt
+  sein. Der Zauber misslingt, wenn du ein Ziel auf einer anderen Existenzebene, ein bewegtes Ziel (beispielsweise eine mobile
+  Festung) oder ein unspezifisches Ziel (beispiels- weise „Hort eines grünen Drachen“) nennst. Während der Wirkungsdauer weißt
+  du, wie weit der Zielort entfernt ist und in welcher Richtung er liegt, sofern du dich auf derselben Existenzebene befindest.
+  Wann immer du unterwegs eine Wahl zwischen verschiedenen Wegen hast, weißt du, welcher Weg der direkteste ist.
+source_book: SRD 5.2 DE

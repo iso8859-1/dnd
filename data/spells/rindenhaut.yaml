@@ -1,0 +1,14 @@
+id: rindenhaut
+type: spell
+template: spell
+name: Rindenhaut
+lang: de
+level: 2
+school: Verwandlungszauber
+casting_time: Bonusaktion
+range: Berührung
+components: V, G, M (eine Handvoll Rinde)
+duration: 1 Stunde
+description: Du berührst eine bereitwillige Kreatur. Für die Wirkungsdauer nimmt die Haut des Ziels ein rindenartiges Erscheinungsbild
+  an, und das Ziel erhält eine Rüstungsklasse von 17, sofern seine RK niedriger ist.
+source_book: SRD 5.2 DE

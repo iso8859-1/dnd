@@ -1,0 +1,16 @@
+id: todesschutz
+type: spell
+template: spell
+name: Todesschutz
+lang: de
+level: 4
+school: Bannzauber
+casting_time: Aktion
+range: Berührung
+components: V, G
+duration: 8 Stunden
+description: Du berührst eine Kreatur und verleihst ihr einen gewissen Schutz vor dem Tod. Wenn die Trefferpunkte des Ziels
+  während der Wirkungsdauer erstmals auf 0 sinken würden, sinken sie stattdessen auf 1 Trefferpunkt, und der Zauber endet.
+  Erleidet das Ziel während der Wirkungsdauer einen Effekt, der es sofort töten würde, ohne Schaden zu bewirken, so ist das
+  Ziel nicht von diesem Effekt betroffen, und der Zauber endet.
+source_book: SRD 5.2 DE

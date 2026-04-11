@@ -1,0 +1,14 @@
+id: spruhende-farben
+type: spell
+template: spell
+name: Sprühende Farben
+lang: de
+level: 1
+school: Illusionszauber
+casting_time: Aktion
+range: Selbst
+components: V, G, M (eine Prise bunter Sand)
+duration: Unmittelbar
+description: Du entfesselst schillernde bunte Lichter. Jede Kreatur in einem von dir ausgehenden Kegel von 4,5 Metern muss
+  einen Konstitutionsrettungswurf bestehen, oder sie ist bis zum Ende deines nächsten Zugs blind.
+source_book: SRD 5.2 DE

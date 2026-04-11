@@ -1,0 +1,16 @@
+id: spinnenklettern
+type: spell
+template: spell
+name: Spinnenklettern
+lang: de
+level: 2
+school: Verwandlungszauber
+casting_time: Aktion
+range: Berührung
+components: V, G, M (etwas Pech und eine Spinne)
+duration: Konzentration, bis zu 1 Stunde
+description: 'Eine bereitwillige Kreatur, die du berührst, erhält für die Wirkungsdauer die Fähigkeit, sich in alle Richtungen
+  und mit freien Händen über senkrechte Oberflächen sowie an Decken zu bewegen. Außerdem erhält das Ziel eine Kletterbewegungsrate
+  Verwenden von Zauberplätzen höheren Grades: in Höhe seiner Bewegungsrate. Für jeden Zauberplatzgrad über dem 2. kannst du
+  auf eine weitere Kreatur zielen.'
+source_book: SRD 5.2 DE

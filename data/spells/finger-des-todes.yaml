@@ -1,0 +1,16 @@
+id: finger-des-todes
+type: spell
+template: spell
+name: Finger des Todes
+lang: de
+level: 7
+school: Nekromantiezauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G
+duration: Unmittelbar
+description: Du entfesselst negative Energie auf eine Kreatur in Reichweite, die du sehen kannst. Das Ziel führt einen Konstitutionsrettungswurf
+  aus. Misslingt der Wurf, so erleidet das Ziel 7W8+30 nekrotischen Schaden, anderenfalls die Hälfte. Wenn ein Humanoide durch
+  diesen Zauber getötet Zombie wird, steht er zu Beginn deines nächsten Zugs als (siehe „Monster“) wieder auf und folgt deinen
+  verbalen Befehlen.
+source_book: SRD 5.2 DE

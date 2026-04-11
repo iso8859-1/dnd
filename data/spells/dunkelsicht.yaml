@@ -1,0 +1,14 @@
+id: dunkelsicht
+type: spell
+template: spell
+name: Dunkelsicht
+lang: de
+level: 2
+school: Verwandlungszauber
+casting_time: Aktion
+range: Berührung
+components: V, G, M (eine getrocknete Karotte)
+duration: 8 Stunden
+description: Für die Wirkungsdauer hat eine bereitwillige Kreatur, die du berührst, Dunkelsicht mit einer Reichweite von 45
+  Metern.
+source_book: SRD 5.2 DE

@@ -1,0 +1,32 @@
+id: verbundeter-aus-den-ebenen
+type: spell
+template: spell
+name: Verbündeter aus den Ebenen
+lang: de
+level: 6
+school: Beschwörungszauber
+casting_time: 10 Minuten
+range: 18 Meter
+components: V, G
+duration: Unmittelbar
+description: Du erflehst den Beistand eines außerweltlichen Wesens. Dieses Wesen muss dir bekannt sein - eine Gottheit, ein
+  Dämonenprinz oder ein anderes Wesen von kosmischer Macht. Es schickt ein ihm treu ergebenes celestisches Wesen, einen Elementar
+  oder einen Unhold, um dir zu helfen. Diese Kreatur erscheint in einem freien Bereich in Reichweite. Kennst du den Namen
+  einer bestimmten Kreatur, so kannst du ihn aussprechen, wenn du diesen Zauber wirkst, um diese Kreatur zu erbitten. Du könntest
+  jedoch nach Wahl des SL trotzdem eine andere Kreatur erhalten. Wenn die Kreatur erscheint, ist sie nicht gezwungen, sich
+  auf eine bestimmte Weise zu verhalten. Du kannst sie bitten, einen Dienst gegen Bezahlung auszuführen. Sie ist dazu jedoch
+  nicht verpflichtet. Die Aufgabe kann einfach oder komplex sein, von „Fliege uns über den Abgrund!“ oder „Hilf uns im Kampf!“
+  bis zu „Spioniere unsere Feinde aus!“ oder „Beschütze uns, während wir in das Gewölbe vordringen!“. Du musst mit der Kreatur
+  kommunizieren können, damit du um ihre Dienste feilschen kannst. Die Bezahlung kann auf verschiedene Arten erfolgen. Ein
+  celestisches Wesen verlangt möglicherweise eine beträchtliche Spende von Gold oder magischen Gegenständen an einen verbündeten
+  Tempel, während ein Unhold ein lebendiges Opfer oder einen Schatz erwartet. Manche Kreaturen erwarten für ihre Dienste,
+  dass du im Gegenzug eine Mission für sie erfüllst. Eine Aufgabe, die in Minuten gemessen wird, erfordert eine Bezahlung
+  von 100 GM pro Minute. Eine Aufgabe, die in Stunden gemessen wird, kostet 1.000 GM pro Stunde. Eine Aufgabe, die in Tagen
+  gemessen wird (höchstens zehn Tage), erfordert 10.000 GM pro Tag. Der SL kann diese Bezahlung an die Umstände anpassen,
+  unter denen du den Zauber wirkst. Steht die Aufgabe im Einklang mit dem Ethos der Kreatur, so kann die Bezahlung halbiert
+  werden oder sogar entfallen. Ungefährliche Aufgaben erfordern meist nur die Hälfte der genannten Bezahlung, während besonders
+  gefährliche Aufgaben eine größere Spende benötigen. Kreaturen nehmen selten Aufgaben an, die selbstmörderisch erscheinen.
+  Wenn die Kreatur den Auftrag abgeschlossen hat oder die vereinbarte Dauer des Dienstes endet, erstattet die Kreatur dir
+  Bericht, sofern möglich, und kehrt dann auf ihre Heimatebene zurück. Wenn du dich mit der Kreatur nicht auf einen Preis
+  für ihren Dienst einigen kannst, kehrt sie sofort auf ihre Heimatebene zurück.
+source_book: SRD 5.2 DE

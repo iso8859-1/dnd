@@ -1,0 +1,18 @@
+id: zone-der-wahrheit
+type: spell
+template: spell
+name: Zone der Wahrheit
+lang: de
+level: 2
+school: Verzauberungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G
+duration: 10 Minuten
+description: Du erschaffst in einer Kugel mit einem Radius von 4,5 Metern um einen Punkt in Reichweite eine magische Zone,
+  die vor Täuschung schützt. Für die Wirkungsdauer führt jede Kreatur, die den Bereich des Zaubers in einem Zug erstmals betritt
+  oder den Zug darin beginnt, einen Charismarettungswurf aus. Misslingt der Wurf, so kann die Kreatur innerhalb des Radius
+  nicht lügen. Du weißt, ob eine Kreatur diesen Rettungswurf bestanden hat. Eine betroffene Kreatur ist sich des Zaubers bewusst
+  und kann Antworten auf Fragen vermeiden, auf die sie sonst mit einer Lüge antworten würde. In diesem Fall kann sie ausweichend
+  antworten, muss aber bei der Wahrheit bleiben.
+source_book: SRD 5.2 DE

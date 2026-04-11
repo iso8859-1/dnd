@@ -1,0 +1,16 @@
+id: fesseln
+type: spell
+template: spell
+name: Fesseln
+lang: de
+level: 2
+school: Verzauberungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G
+duration: Konzentration, bis zu 1 Minute
+description: Du intonierst eine ablenkende Folge von Worten. Kreaturen deiner Wahl in Reichweite, die du sehen kannst, führen
+  einen Weisheitsrettungswurf aus. Jede Kreatur, gegen die du oder deine Gefährten kämpfen, besteht diesen Rettungswurf automatisch.
+  Misslingt der Wurf, so hat das Ziel einen Malus von -10 auf Weisheitswürfe (Wahrnehmung) sowie auf Passive Wahrnehmung,
+  bis der Zauber endet.
+source_book: SRD 5.2 DE

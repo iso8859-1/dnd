@@ -1,0 +1,16 @@
+id: feuerpfeil
+type: spell
+template: spell
+name: Feuerpfeil
+lang: de
+level: 0
+school: Hervorrufung
+casting_time: Aktion
+range: 36 Meter
+components: V, G
+duration: Unmittelbar
+description: 'Du schleuderst einen Feuerfunken auf eine Kreatur oder einen Gegenstand in Reichweite. Führe einen Fernkampf-Zauberangriff
+  gegen das Ziel aus. Bei einem Treffer erleidet das Ziel 1W10 Feuerschaden. Der Zauber setzt brennbare Gegenstände in Brand,
+  die er trifft und die nicht getragen oder gehalten Zaubertrick-Aufwertung: werden. Der Schaden wird um jeweils 1W10 erhöht,
+  wenn du die 5. (2W10), die 11. (3W10) und die 17. (4W10) Stufe erreichst.'
+source_book: SRD 5.2 DE

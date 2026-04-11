@@ -1,0 +1,15 @@
+id: sprachen-verstehen
+type: spell
+template: spell
+name: Sprachen verstehen
+lang: de
+level: 1
+school: Erkenntniszauber
+casting_time: Aktion oder Ritual
+range: Selbst
+components: V, G, M (je eine Prise Ruß und Salz)
+duration: 1 Stunde
+description: Für die Wirkungsdauer verstehst du die wörtliche Bedeutung jeder Sprache, die du hörst oder liest. Außerdem verstehst
+  du jede Schriftsprache, die du liest, sofern du die Oberfläche berührst, auf der die Worte geschrieben stehen. Eine Seite
+  Text zu lesen dauert etwa eine Minute. Dieser Zauber entschlüsselt weder Symbole noch Geheimbotschaften.
+source_book: SRD 5.2 DE

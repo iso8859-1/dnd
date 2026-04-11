@@ -1,0 +1,19 @@
+id: drachen-herbeirufen
+type: spell
+template: spell
+name: Drachen herbeirufen
+lang: de
+level: 5
+school: Beschwörungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G, M (ein Gegenstand mit eingraviertem Drachenbildnis im Wert von mindestens 500 GM)
+duration: Konzentration, bis zu 1 Stunde
+description: 'Du rufst einen Drachengeist herbei. Er erscheint in einem freien Bereich in Reichweite, den du sehen Drakonischen
+  Geists kannst, und verwendet den Wertekasten eines . Die Kreatur verschwindet, wenn ihre Trefferpunkte auf 0 sinken oder
+  der Zauber endet. Die Kreatur ist mit dir und deinen Verbündeten verbündet. Im Kampf nutzt sie deinen Initiativewert und
+  ist direkt nach dir am Zug. Sie gehorcht deinen mündlichen Befehlen (keine Aktion deinerseits erforderlich). Befiehlst du
+  ihr nichts, so führt sie die Ausweichaktion aus und nutzt ihre Bewegung, Verwenden von Zauberplätzen höheren Grades: um
+  Gefahren zu vermeiden. Verwende den Zauberplatzgrad als Zaubergrad im Wertekasten. MODRWMODRWMODRW S 19+4+4G 14+2+2K 17+3+3
+  täeSon I 10+0+0W 14+2+2C 14+2+2 nteIha Merkmale Aktionen'
+source_book: SRD 5.2 DE

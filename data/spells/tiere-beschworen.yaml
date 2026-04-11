@@ -1,0 +1,22 @@
+id: tiere-beschworen
+type: spell
+template: spell
+name: Tiere beschwören
+lang: de
+level: 3
+school: Beschwörungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G
+duration: Konzentration, bis zu 10 Minuten
+description: 'Du beschwörst Naturgeister. Diese nehmen die Form eines großen Rudels geisterhafter, immaterieller Tiere in
+  einem freien Bereich in Reichweite an, den du sehen kannst. Das Rudel bleibt für die Wirkungsdauer bestehen. Du wählst die
+  Tierform der Geister aus, beispielsweise Wölfe, Schlangen oder Vögel. Du bist bei Stärkerettungswürfen im Vorteil, solange
+  du dich im Abstand von bis zu 1,5 Metern vom Rudel befindest. Wenn du dich in deinem Zug bewegst, kannst du auch das Rudel
+  um bis zu neun Meter in einen freien Bereich bewegen, den du sehen kannst. Wann immer das Rudel sich einer Kreatur, die
+  du sehen kannst, auf höchstens drei Meter nähert, und wann immer eine Kreatur, die du sehen kannst, einen Bereich im Abstand
+  von bis zu drei Metern vom Rudel betritt oder ihren Zug dort beendet, kannst du die Kreatur zu einem Geschicklichkeitsrettungswurf
+  zwingen. Misslingt der Wurf, so erleidet die Kreatur 3W10 Hiebschaden. Eine Kreatur kann diesen Verwenden von Zauberplätzen
+  höheren Grades: Rettungswurf nur einmal pro Zug ausführen. Für jeden Zauberplatzgrad über dem 3. wird der Schaden um 1W10
+  erhöht.'
+source_book: SRD 5.2 DE

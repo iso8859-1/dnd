@@ -1,0 +1,16 @@
+id: strahlendes-niederstrecken
+type: spell
+template: spell
+name: Strahlendes Niederstrecken
+lang: de
+level: 2
+school: Verwandlungszauber
+casting_time: Bonusaktion, die du sofort ausführst,
+range: Selbst
+components: V
+duration: Konzentration, bis zu 1 Minute
+description: 'wenn du eine Kreatur mit einer Nahkampfwaffe oder einem waffenlosen Angriff getroffen hast Das Ziel des Schlags
+  erleidet zusätzlich 2W6 gleißenden Schaden. Bis der Zauber endet, spendet das Ziel in einem Radius von 1,5 Metern helles
+  Licht, Angriffswürfe gegen es sind im Vorteil, und es kann Verwenden von Zauberplätzen höheren Grades: nicht unsichtbar
+  werden. Für jeden Zauberplatzgrad über dem 2. wird der Schaden um 1W6 erhöht.'
+source_book: SRD 5.2 DE

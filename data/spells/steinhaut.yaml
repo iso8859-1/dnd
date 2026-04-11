@@ -1,0 +1,13 @@
+id: steinhaut
+type: spell
+template: spell
+name: Steinhaut
+lang: de
+level: 4
+school: Verwandlungszauber
+casting_time: Aktion
+range: Berührung
+components: V, G, M (Diamantstaub im Wert von mindestens 100 GM, den der Zauber verbraucht)
+duration: Konzentration, bis zu 1 Stunde
+description: Bis der Zauber endet, ist eine bereitwillige Kreatur, die du berührst, gegen Hieb-, Stich- und Wuchtschaden resistent.
+source_book: SRD 5.2 DE

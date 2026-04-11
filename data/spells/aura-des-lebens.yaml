@@ -1,0 +1,15 @@
+id: aura-des-lebens
+type: spell
+template: spell
+name: Aura des Lebens
+lang: de
+level: 4
+school: Bannzauber
+casting_time: Aktion
+range: Selbst
+components: V
+duration: Konzentration, bis zu 10 Minuten
+description: Für die Wirkungsdauer geht eine Aura in einer Ausströmung von neun Metern von dir aus. In der Aura seid du und
+  deine Verbündeten gegen nekrotischen Schaden resistent, und eure Treffer- punktemaxima können nicht verringert werden. Wenn
+  ein Verbündeter mit 0 Trefferpunkten seinen Zug in der Aura beginnt, erhält er 1 Trefferpunkt zurück.
+source_book: SRD 5.2 DE

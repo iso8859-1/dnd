@@ -1,0 +1,16 @@
+id: gegenzauber
+type: spell
+template: spell
+name: Gegenzauber
+lang: de
+level: 3
+school: Bannzauber
+casting_time: Reaktion, die du ausführst, wenn du siehst, wie eine Kreatur im Abstand von bis zu 18 Metern von dir einen Zauber
+  mit Gesten, Material oder Verbalkomponenten wirkt
+range: 18 Meter
+components: G
+duration: Unmittelbar
+description: Du versuchst, eine Kreatur beim Wirken eines Zaubers zu unterbrechen. Die Kreatur führt einen Konstitutionsrettungswurf
+  aus. Misslingt der Wurf, so löst der Zauber sich ohne Effekt auf, und die Aktion, Bonusaktion oder Reaktion, mit der er
+  gewirkt wurde, ist vergeudet. Wenn der Zauber mit einem Zauberplatz gewirkt wurde, so wird dieser nicht verbraucht.
+source_book: SRD 5.2 DE

@@ -1,0 +1,15 @@
+id: unauffindbarkeit
+type: spell
+template: spell
+name: Unauffindbarkeit
+lang: de
+level: 3
+school: Bannzauber
+casting_time: Aktion
+range: Berührung
+components: V, G, M (eine Prise Diamantstaub im Wert von mindestens 25 GM, den der Zauber verbraucht)
+duration: 8 Stunden
+description: Du berührst ein Ziel, um es für die Wirkungsdauer vor Erkenntniszaubern zu verstecken. Das Ziel kann eine bereitwillige
+  Kreatur, ein Ort oder ein Gegenstand sein. Es darf in keiner Abmessung größer als drei Meter sein. Es kann weder durch Erkenntniszauber
+  noch durch magische Ausspähungssensoren wahrgenommen werden.
+source_book: SRD 5.2 DE

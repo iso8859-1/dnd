@@ -1,0 +1,16 @@
+id: leicht
+type: spell
+template: spell
+name: Leicht
+lang: de
+level: 0
+school: Hervorrufung
+casting_time: Aktion
+range: Berührung
+components: V, M (ein Glühwürmchen oder phosphoreszierendes Moos)
+duration: 1 Stunde
+description: Du berührst einen Gegenstand von höchstens großer Größe, der nicht von jemand anderem getragen oder gehalten
+  wird. Für die Wirkungsdauer spendet dieser Gegenstand in einem Radius von sechs Metern helles Licht und in einem Radius
+  von weiteren sechs Metern dämmriges Licht. Du kannst die Farbe des Lichts frei wählen. Wird der Gegenstand mit etwas Undurchsichtigem
+  abgedeckt, so wird das Licht blockiert. Der Zauber endet vorzeitig, wenn du ihn erneut wirkst.
+source_book: SRD 5.2 DE

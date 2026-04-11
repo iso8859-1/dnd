@@ -1,0 +1,19 @@
+id: verbergen
+type: spell
+template: spell
+name: Verbergen
+lang: de
+level: 7
+school: Verwandlungszauber
+casting_time: Aktion
+range: Berührung
+components: V, G, M (Edelsteinpulver im Wert von mindestens 5.000 GM, das der Zauber verbraucht)
+duration: Bis der Zauber gebannt wird
+description: 'Du verbirgst einen Gegenstand oder eine bereitwillige Kreatur auf magische Art, indem du das Ziel berührst.
+  Für die Wirkungsdauer ist das Ziel unsichtbar und kann nicht Ziel von Erkenntniszaubern werden, von Magie aufgespürt oder
+  magisch aus der Ferne betrachtet werden. Wenn das Ziel eine Kreatur ist, fällt es in einen scheintoten Zustand: Es ist bewusstlos,
+  altert nicht und benötigt weder Nahrung noch Wasser noch Luft. Du kannst eine Bedingung festlegen, durch die der Zauber
+  vorzeitig endet. Dabei hast du freie Wahl, solange die Bedingung im Abstand von bis zu 1,6 Kilometern um das Ziel eintritt
+  oder sichtbar ist. Beispiele dafür wären „Nach 1.000 Jahren“ oder „Wenn die Tarraske erwacht“. Dieser Zauber endet auch
+  dann, wenn das Ziel Schaden erleidet.'
+source_book: SRD 5.2 DE

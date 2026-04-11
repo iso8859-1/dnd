@@ -1,0 +1,17 @@
+id: schutz-vor-gut-und-bose
+type: spell
+template: spell
+name: Schutz vor Gut und Böse
+lang: de
+level: 1
+school: Bannzauber
+casting_time: Aktion
+range: Berührung
+components: V, G, M (eine Flasche Weihwasser im Wert von mindestens 25 GM, die der Zauber verbraucht)
+duration: Konzentration, bis zu 10 Minuten
+description: 'Für die Wirkungsdauer ist eine bereitwillige Kreatur, die du berührst, vor bestimmten Kreaturentypen geschützt:
+  vor Aberrationen, celestischen Wesen, Elementaren, Feenwesen, Unholden und Untoten. Der Schutz gewährt mehrere Vorzüge:
+  Angriffswürfe von Kreaturen dieses Typs sind gegen das Ziel im Nachteil. Außerdem kann das Ziel nicht von Kreaturen dieses
+  Typs besessen, bezaubert oder verängstigt werden. Wenn das Ziel bereits von einer solchen Kreatur besessen, bezaubert oder
+  verängstigt ist, so ist es bei jedem neuen Rettungswurf gegen den entsprechenden Effekt im Vorteil.'
+source_book: SRD 5.2 DE

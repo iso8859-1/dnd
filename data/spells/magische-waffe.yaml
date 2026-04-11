@@ -1,0 +1,16 @@
+id: magische-waffe
+type: spell
+template: spell
+name: Magische Waffe
+lang: de
+level: 2
+school: Verwandlungszauber
+casting_time: Bonusaktion
+range: Berührung
+components: V, G
+duration: 1 Stunde
+description: 'Du berührst eine nichtmagische Waffe. Für die Wirkungsdauer ist diese Waffe eine magische Waffe mit einem Bonus
+  von +1 auf Angriffs- und Schadenswürfe. Der Zauber endet vorzeitig, wenn Verwenden von Zauberplätzen höheren Grades: du
+  ihn erneut wirkst. Bei einem Zauberplatz des 3. bis 5. Grades wird der Bonus auf +2 erhöht. Bei einem Zauberplatz ab dem
+  6. Grad wird der Bonus auf +3 erhöht.'
+source_book: SRD 5.2 DE

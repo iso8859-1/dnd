@@ -1,0 +1,19 @@
+id: dunkelheit
+type: spell
+template: spell
+name: Dunkelheit
+lang: de
+level: 2
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, M (Fledermausfell und ein Kohlenstück)
+duration: Konzentration, bis zu 10 Minuten
+description: Für die Wirkungsdauer breitet sich magische Dunkelheit von einem Punkt in Reichweite zu einer Kugel mit einem
+  Radius von 4,5 Metern aus. Sie kann weder mit Dunkelsicht durchdrungen noch durch nichtmagische Lichtquellen erhellt werden.
+  Alternativ kannst du den Zauber auf einen Gegenstand wirken, der nicht getragen oder gehalten wird. In diesem Fall erfüllt
+  die Dunkelheit eine Ausströmung von 4,5 Metern, die vom Gegenstand ausgeht. Wird der Gegenstand mit etwas Undurchsichtigem
+  wie einer Schüssel oder einem Helm bedeckt, so wird die Dunkelheit blockiert. Wenn sich der Wirkungsbereich dieses Zaubers
+  mit einem Bereich hellen oder dämmrigen Lichts überschneidet, das durch einen Zauber des höchstens 2. Grades erzeugt wurde,
+  so wird der andere Zauber gebannt.
+source_book: SRD 5.2 DE

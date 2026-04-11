@@ -1,0 +1,20 @@
+id: druidenkunst
+type: spell
+template: spell
+name: Druidenkunst
+lang: de
+level: 0
+school: Verwandlung
+casting_time: Aktion
+range: 9 Meter
+components: V, G
+duration: Unmittelbar
+description: 'Du flüsterst den Geistern der Natur zu und erzeugst in Reichweite einen der folgenden magischen Wettersensor:
+  Effekte. Du erschaffst einen winzigen, harmlosen sensorischen Effekt, der das Wetter an deinem Aufenthaltsort in den nächsten
+  24 Stunden vorhersagt. Der Effekt kann sich als goldene Kugel für einen wolkenlosen Himmel, als Wolke für Regen, als Schneeflocken
+  für Schnee oder dergleichen manifestieren. Dieser Effekt hält eine Runde Erblühen: lang an. Du bewirkst, dass sofort eine
+  Blume erblüht, sich eine Samenkapsel oder eine Sensorischer Effekt: Blattknospe öffnet. Du erzeugst einen harmlosen sensorischen
+  Effekt, beispielsweise fallende Blätter, geisterhafte tanzende Feenwesen, eine sanfte Brise, die Geräusche eines Tieres
+  oder leichten Stinktiergeruch. Der Effekt muss in einen Feuerspiel: Würfel mit 1,5 Metern Kantenlänge passen. Du entzündest
+  oder löschst eine Kerze, eine Fackel oder ein Lagerfeuer.'
+source_book: SRD 5.2 DE

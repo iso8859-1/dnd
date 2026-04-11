@@ -1,0 +1,14 @@
+id: schild-des-glaubens
+type: spell
+template: spell
+name: Schild des Glaubens
+lang: de
+level: 1
+school: Bannzauber
+casting_time: Bonusaktion
+range: 18 Meter
+components: V, G, M (eine Gebetsschriftrolle)
+duration: Konzentration, bis zu 10 Minuten
+description: Ein schimmerndes Feld umgibt eine Kreatur deiner Wahl in Reichweite und gewährt ihr für die Wirkungsdauer einen
+  Bonus von +2 auf ihre RK.
+source_book: SRD 5.2 DE

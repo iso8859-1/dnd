@@ -1,0 +1,16 @@
+id: brennende-hande
+type: spell
+template: spell
+name: Brennende Hände
+lang: de
+level: 1
+school: Hervorrufungszauber
+casting_time: Aktion
+range: Selbst
+components: V, G
+duration: Unmittelbar
+description: 'Du verschießt ein dünnes Flammenband. Jede Kreatur in einem Kegel von 4,5 Metern führt einen Geschicklichkeitsrettungswurf
+  aus. Misslingt der Wurf, so erleidet sie 3W6 Feuerschaden, anderenfalls die Hälfte. Brennbare Gegenstände im Kegel, die
+  nicht getragen oder gehalten werden, beginnen zu Verwenden von Zauberplätzen höheren Grades: brennen. Für jeden Zauberplatzgrad
+  über dem 1. wird der Schaden um 1W6 erhöht.'
+source_book: SRD 5.2 DE

@@ -1,0 +1,15 @@
+id: sprung
+type: spell
+template: spell
+name: Sprung
+lang: de
+level: 1
+school: Verwandlungszauber
+casting_time: Bonusaktion
+range: Berührung
+components: V, G, M (Hinterbein einer Heuschrecke)
+duration: 1 Minute
+description: 'Du berührst eine bereitwillige Kreatur. Für die Wirkungsdauer kann diese Kreatur in jedem ihrer Züge bis zu
+  neun Meter weit springen, indem sie Verwenden von Zauberplätzen höheren Grades: drei Meter ihrer Bewegungsrate verbraucht.
+  Für jeden Zauberplatzgrad über dem 1. kannst du auf eine weitere Kreatur zielen.'
+source_book: SRD 5.2 DE

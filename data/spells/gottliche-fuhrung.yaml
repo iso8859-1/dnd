@@ -1,0 +1,14 @@
+id: gottliche-fuhrung
+type: spell
+template: spell
+name: Göttliche Führung
+lang: de
+level: 0
+school: Erkenntnis
+casting_time: Aktion
+range: Berührung
+components: V, G
+duration: Konzentration, bis zu 1 Minute
+description: Du berührst eine bereitwillige Kreatur und wählst eine Fertigkeit aus. Bis der Zauber endet, fügt die Kreatur
+  jedem Attributswurf, der die ausgewählte Fertigkeit verwendet, 1W4 hinzu.
+source_book: SRD 5.2 DE

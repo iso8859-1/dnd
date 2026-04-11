@@ -1,0 +1,15 @@
+id: massen-heilung
+type: spell
+template: spell
+name: Massen-Heilung
+lang: de
+level: 9
+school: Bannzauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G
+duration: Unmittelbar
+description: Von dir strömt eine Flut aus heilender Energie zu Kreaturen um dich herum. Du kannst bis zu 700 Trefferpunkte
+  wiederherstellen und nach deiner Wahl auf eine beliebige Anzahl von Kreaturen in Reichweite verteilen, die du sehen kannst.
+  Von diesem Zauber geheilte Kreaturen werden außerdem von den Zuständen Blind, Taub und Vergiftet befreit.
+source_book: SRD 5.2 DE

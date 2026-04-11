@@ -1,0 +1,14 @@
+id: regeneration
+type: spell
+template: spell
+name: Regeneration
+lang: de
+level: 7
+school: Verwandlungszauber
+casting_time: 1 Minute
+range: Berührung
+components: V, G, M (eine Gebetsmühle)
+duration: 1 Stunde
+description: Eine Kreatur, die du berührst, erhält 4W8+15 Trefferpunkte zurück. Für die Wirkungsdauer erhält das Ziel zu Beginn
+  jedes seiner Züge 1 Trefferpunkt zurück, und fehlende Gliedmaßen wachsen nach zwei Minuten nach.
+source_book: SRD 5.2 DE

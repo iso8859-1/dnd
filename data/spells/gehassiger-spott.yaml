@@ -1,0 +1,16 @@
+id: gehassiger-spott
+type: spell
+template: spell
+name: Gehässiger Spott
+lang: de
+level: 0
+school: Verzauberung
+casting_time: Aktion
+range: 18 Meter
+components: V
+duration: Unmittelbar
+description: 'Du entfesselst eine Reihe von Beleidigungen mit subtilen Verzauberungen auf eine Kreatur in Reichweite, die
+  du hören oder sehen kannst. Das Ziel muss einen Weisheitsrettungswurf bestehen, oder es erleidet 1W6 psychischen Schaden
+  und ist beim nächsten Angriffswurf vor dem Ende seines Zaubertrick-Aufwertung: nächsten Zugs im Nachteil. Der Schaden wird
+  um jeweils 1W6 erhöht, wenn du die 5. (2W6), die 11. (3W6) und die 17. (4W6) Stufe erreichst.'
+source_book: SRD 5.2 DE

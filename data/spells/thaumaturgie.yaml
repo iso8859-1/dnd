@@ -1,0 +1,21 @@
+id: thaumaturgie
+type: spell
+template: spell
+name: Thaumaturgie
+lang: de
+level: 0
+school: Verwandlung
+casting_time: Aktion
+range: 9 Meter
+components: V
+duration: Bis zu 1 Minute
+description: 'Du manifestierst in Reichweite ein kleines Wunder. Du bewirkst in Reichweite einen der unten beschrie- benen
+  Effekte. Wenn du diesen Zauber mehrmals wirkst, können bis zu drei seiner einminütigen Effekte gleichzeitig wirken. Du kannst
+  einen solchen Beben: Effekt verwerfen (keine Aktion erforderlich). Du bewirkst ein harmloses Erdbeben, Dröhnende Stimme:
+  das eine Minute lang andauert. Deine Stimme ertönt eine Minute lang bis zu dreimal so laut wie sonst. Für die Wirkungsdauer
+  bist du bei Charismawürfen Feuerspiel: (Einschüchtern) im Vorteil. Du lässt eine Minute lang Flammen auflodern, stärker
+  oder schwächer leuchten oder Phantomgeräusch: ihre Farbe ändern. Du erzeugst ein unmittelbares Geräusch, das von einem Punkt
+  deiner Wahl in Reichweite ausgeht, beispielsweise Donnergrollen, Unsichtbare Hand: Rabenkrächzen oder bedrohliches Flüstern.
+  Du lässt unmittelbar eine unverschlossene Tür oder ein unverschlossenes Veränderte Augen: Fenster auffliegen oder zuschlagen.
+  Du veränderst für eine Minute das Aussehen deiner Augen.'
+source_book: SRD 5.2 DE

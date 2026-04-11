@@ -1,0 +1,16 @@
+id: blitz
+type: spell
+template: spell
+name: Blitz
+lang: de
+level: 3
+school: Hervorrufungszauber
+casting_time: Aktion
+range: Selbst
+components: V, G, M (ein Stück Fell und ein Kristallstab)
+duration: Unmittelbar
+description: 'Du schleuderst in einer 30 Meter langen und 1,5 Meter breiten Linie, die von dir ausgeht, einen Blitz in eine
+  Richtung deiner Wahl. Jede Kreatur in der Linie führt einen Geschicklichkeitsrettungswurf aus. Misslingt der Wurf, so erleidet
+  sie 8W6 Verwenden von Zauberplätzen höheren Grades: Blitzschaden, anderenfalls die Hälfte. Für jeden Zauberplatzgrad über
+  dem 3. wird der Schaden um 1W6 erhöht.'
+source_book: SRD 5.2 DE

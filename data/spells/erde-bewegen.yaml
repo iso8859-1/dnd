@@ -1,0 +1,24 @@
+id: erde-bewegen
+type: spell
+template: spell
+name: Erde bewegen
+lang: de
+level: 6
+school: Verwandlungszauber
+casting_time: Aktion
+range: 36 Meter
+components: V, G, M (eine Miniaturschaufel)
+duration: Konzentration, bis zu 2 Stunden
+description: Wähle einen viereckigen Bereich des Geländes in Reichweite mit einer Seitenlänge von höchstens zwölf Metern aus.
+  Für die Wirkungsdauer kannst du Erde, Lehm oder Sand in dem Bereich beliebig umformen. Du kannst den Bereich anheben oder
+  absenken, einen Graben erschaffen oder zuschütten, eine Mauer errichten oder niederreißen oder eine Säule errichten. Das
+  Ausmaß dieser Änderungen darf die Hälfte der größten Abmessung des Bereichs nicht überschreiten. Beeinflusst du beispielsweise
+  einen Bereich mit einer Seitenlänge von zwölf Metern, so kannst du eine bis zu sechs Meter hohe Säule erschaffen, den Bereich
+  um bis zu sechs Meter anheben oder absenken, einen Graben mit bis zu sechs Metern Tiefe ausheben und so weiter. Es dauert
+  zehn Minuten, diese Änderungen zu bewirken. Da die Veränderung des Geländes langsam erfolgt, können Kreaturen im Bereich
+  normalerweise nicht durch die Bodenbewegung gefangen oder verletzt werden. Nach jeweils zehn Minuten Konzentration auf den
+  Zauber kannst du einen neuen Bereich in Reichweite auswählen und beeinflussen. Dieser Zauber kann weder Naturgestein noch
+  Steingebäude beeinflussen. Felsen und Gebäude verschieben sich, um sich dem neuen Gelände anzupassen. Wenn deine Veränderung
+  des Geländes ein Gebäude instabil macht, so stürzt es möglicherweise ein. Dieser Zauber hat keinen direkten Einfluss auf
+  Pflanzenwachstum. Die bewegte Erde nimmt Pflanzen mit sich.
+source_book: SRD 5.2 DE

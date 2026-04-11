@@ -1,0 +1,15 @@
+id: fireball
+type: spell
+template: zauber-v1
+name: Fireball
+lang: en
+level: 3
+school: Evocation
+casting_time: 1 action
+range: 150 ft
+components: V, S, M
+duration: Instantaneous
+description: |
+  A bright streak flashes from your pointing finger to a point you choose...
+edition: "5e"
+source_book: "SRD 5.1"

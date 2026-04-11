@@ -1,0 +1,28 @@
+id: untote-erschaffen
+type: spell
+template: spell
+name: Untote erschaffen
+lang: de
+level: 6
+school: Nekromantiezauber
+casting_time: 1 Minute
+range: 3 Meter
+components: V, G, M (je ein schwarzer Onyx im Wert von mindestens 150 GM für jeden Leichnam)
+duration: Unmittelbar
+description: 'Du kannst diesen Zauber nur nachts wirken. Wähle bis zu drei Leichen von Humanoiden kleiner Ghul oder mittelgroßer
+  Größe in Reichweite aus. Jede Leiche wird zu einem  unter deiner Kontrolle (den Wertekasten findest du unter „Monster“).
+  Als Bonusaktion in jedem deiner Züge kannst du jede untote Kreatur, die du mit diesem Zauber erschaffen hast und die sich
+  im Abstand von bis zu 36 Metern von dir befindet, mental befehligen. Handelt es sich um mehrere Kreaturen, so kannst du
+  beliebig viele von ihnen gleichzeitig befehligen, wobei jeweils der gleiche Befehl erteilt wird. Du entscheidest über die
+  Aktion und die Bewegung der Kreatur in ihrem nächsten Zug. Alternativ kannst du einen allgemeinen Befehl erteilen, beispielsweise
+  einen bestimmten Ort zu bewachen. Wenn du keine Befehle erteilst, führt die Kreatur die Ausweichaktion aus und bewegt sich
+  nur, um Schaden zu vermeiden. Sobald die Kreatur einen Befehl erhalten hat, führt sie ihn aus, bis die Aufgabe abgeschlossen
+  ist. Die Kreatur steht 24 Stunden lang unter deiner Kontrolle. Danach folgt sie keinem deiner Befehle mehr. Um die Kontrolle
+  über die Kreatur für weitere 24 Stunden zu behalten, musst du diesen Zauber erneut auf die Kreatur wirken, ehe die ersten
+  24 Stunden abgelaufen sind. In diesem Fall verlängerst du die Kontrolle über bis zu drei Kreaturen, die du mit diesem Zauber
+  erschaffen Verwenden von Zauberplätzen höheren Grades: hast, anstatt eine neue Kreatur zu erschaffen. Ghule Bei einem Zauberplatz
+  des 7. Grades kannst du vier erschaffen oder wieder unter deine Kontrolle GhuleGrule bringen. Bei einem Zauberplatz des
+  8. Grades Gruftschrecken kannst du fünf  oder zwei  oder zwei erschaffen oder wieder unter GhuleGrule deine Kontrolle bringen.
+  Bei einem Zauberplatz des GruftschreckenMumien 9. Grades kannst du sechs  oder drei oder drei  oder zwei erschaffen oder
+  wieder unter deine Kontrolle bringen. Die jeweiligen Wertekästen findest du unter „Monster“.'
+source_book: SRD 5.2 DE

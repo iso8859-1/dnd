@@ -1,0 +1,17 @@
+id: sengendes-niederstrecken
+type: spell
+template: spell
+name: Sengendes Niederstrecken
+lang: de
+level: 1
+school: Hervorrufungszauber
+casting_time: Bonusaktion, die du sofort ausführst,
+range: Selbst
+components: V
+duration: 1 Minute
+description: 'wenn du ein Ziel mit einer Nahkampfwaffe oder einem waffenlosen Angriff getroffen hast Wenn du das Ziel triffst,
+  erleidet es zusätzlich 1W6 Feuerschaden durch den Angriff. Für die Wirkungsdauer erleidet das Ziel zu Beginn jedes seiner
+  Züge 1W6 Feuerschaden und führt dann einen Konstitutionsrettungswurf aus. Misslingt der Wurf, so wirkt der Zauber weiter.
+  Bei einem Verwenden von Zauberplätzen höheren Grades: erfolgreichen Rettungswurf endet der Zauber. Für jeden Zauberplatzgrad
+  über dem 1. wird jeder Schaden um 1W6 erhöht.'
+source_book: SRD 5.2 DE

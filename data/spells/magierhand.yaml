@@ -1,0 +1,19 @@
+id: magierhand
+type: spell
+template: spell
+name: Magierhand
+lang: de
+level: 0
+school: Beschwörung
+casting_time: Aktion
+range: 9 Meter
+components: V, G
+duration: 1 Minute
+description: An einem Punkt deiner Wahl in Reichweite erscheint eine geisterhafte schwebende Hand. Sie bleibt für die Wirkungsdauer
+  bestehen. Die Hand verschwindet, wenn sie weiter als neun Meter von dir entfernt ist oder du den Zauber erneut wirkst. Wenn
+  du den Zauber wirkst, kannst du mithilfe der Hand mit Gegenständen interagieren, unverschlossene Türen oder Behälter öffnen,
+  Gegenstände in einem Behälter verstauen oder daraus hervorholen oder den Inhalt einer Phiole ausgießen. In deinen folgenden
+  Zügen kannst du die Hand als magische Aktion erneut auf diese Art kontrollieren. Als Teil dieser Aktion kannst du die Hand
+  bis zu neun Meter weit bewegen. Die Hand kann nicht angreifen, keine magischen Gegenstände aktivieren und nicht mehr als
+  fünf Kilogramm Gewicht tragen.
+source_book: SRD 5.2 DE

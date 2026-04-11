@@ -1,0 +1,17 @@
+id: durre
+type: spell
+template: spell
+name: Dürre
+lang: de
+level: 4
+school: Nekromantiezauber
+casting_time: Aktion
+range: 9 Meter
+components: V, G
+duration: Unmittelbar
+description: 'Eine Kreatur in Reichweite, die du sehen kannst, führt einen Konstitutionsrettungswurf aus. Misslingt der Wurf,
+  so erleidet sie 8W8 nekrotischen Schaden, anderenfalls die Hälfte. Bei Pflanzenkreaturen misslingt der Rettungswurf automatisch.
+  Ziele alternativ auf eine nichtmagische Pflanze, die keine Kreatur ist (beispielsweise Baum oder Strauch). Sie führt keinen
+  Rettungswurf aus, sondern verdorrt und stirbt. Verwenden von Zauberplätzen höheren Grades: Für jeden Zauberplatzgrad über
+  dem 4. wird der Schaden um 1W8 erhöht.'
+source_book: SRD 5.2 DE

@@ -1,0 +1,16 @@
+id: wort-der-macht-heilung
+type: spell
+template: spell
+name: 'Wort der Macht: Heilung'
+lang: de
+level: 9
+school: Verzauberungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V
+duration: Unmittelbar
+description: Du sprichst ein Wort der Macht, um eine Kreatur in Reichweite, die du sehen kannst, mit einer Welle heilender
+  Energie zu umhüllen. Das Ziel erhält sämtliche Trefferpunkte zurück. Wenn die Kreatur betäubt, bezaubert, gelähmt, verängstigt
+  oder vergiftet ist, endet dieser Zustand. Wenn die Kreatur den Zustand Liegend hat, kann sie ihre Reaktion verwenden, um
+  aufzustehen.
+source_book: SRD 5.2 DE

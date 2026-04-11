@@ -1,0 +1,18 @@
+id: gedankendorn
+type: spell
+template: spell
+name: Gedankendorn
+lang: de
+level: 2
+school: Erkenntniszauber
+casting_time: Aktion
+range: 36 Meter
+components: S
+duration: Konzentration, bis zu 1 Stunde
+description: 'Du treibst einer Kreatur in Reichweite, die du sehen kannst, einen desorientierenden Stachel psionischer Energie
+  in den Geist. Das Ziel führt einen Weisheitsrettungswurf aus. Misslingt der Wurf, so erleidet es 3W8 psychischen Schaden,
+  anderenfalls die Hälfte. Misslingt der Wurf, so kennst du außerdem stets den Aufenthaltsort des Ziels, bis der Zauber endet,
+  sofern ihr euch beide auf derselben Existenzebene befindet. Solange du über dieses Wissen verfügst, kann das Ziel sich nicht
+  vor dir verstecken, und wenn es unsichtbar ist, gibt Verwenden von Zauberplätzen höheren Grades: ihm dieser Zustand gegen
+  dich keine Vorzüge. Für jeden Zauberplatzgrad über dem 2. wird der Schaden um 1W8 erhöht.'
+source_book: SRD 5.2 DE

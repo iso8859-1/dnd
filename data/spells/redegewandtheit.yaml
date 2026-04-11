@@ -1,0 +1,14 @@
+id: redegewandtheit
+type: spell
+template: spell
+name: Redegewandtheit
+lang: de
+level: 8
+school: Verzauberungszauber
+casting_time: Aktion
+range: Selbst
+components: V
+duration: 1 Stunde
+description: Für die Wirkungsdauer kannst du das Ergebnis deiner Charismawürfe durch eine 15 ersetzen. Magie, die ermittelt,
+  ob du die Wahrheit sagst, zeigt stets an, dass du die Wahrheit sagst - egal, was du in Wirklichkeit von dir gibst.
+source_book: SRD 5.2 DE

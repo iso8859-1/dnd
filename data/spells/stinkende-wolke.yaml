@@ -1,0 +1,17 @@
+id: stinkende-wolke
+type: spell
+template: spell
+name: Stinkende Wolke
+lang: de
+level: 3
+school: Beschwörungszauber
+casting_time: Aktion
+range: 27 Meter
+components: V, G, M (ein faules Ei)
+duration: Konzentration, bis zu 1 Minute
+description: Du erschaffst eine Kugel mit einem Radius von sechs Metern um einen Punkt in Reichweite, die mit gelbem, übelriechendem
+  Gas gefüllt ist. Diese Gaswolke ist komplett verschleiert. Sie bleibt Windstoß für die Wirkungsdauer in der Luft, oder bis
+  starker Wind (wie solcher durch ) sie auflöst. Jede Kreatur, die ihren Zug in der Kugel beginnt, muss einen Konstitutionsrettungswurf
+  bestehen, oder sie ist bis zum Ende des aktuellen Zugs vergiftet. Eine auf diese Art vergiftete Kreatur kann weder eine
+  Aktion noch eine Bonusaktion ausführen.
+source_book: SRD 5.2 DE

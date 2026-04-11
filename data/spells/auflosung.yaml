@@ -1,0 +1,21 @@
+id: auflosung
+type: spell
+template: spell
+name: Auflösung
+lang: de
+level: 6
+school: Verwandlungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G, M (ein Magnetstein und Staub)
+duration: Unmittelbar
+description: 'Du verschießt einen dünnen grünen Strahl auf ein Ziel in Reichweite, das du sehen kannst. Das Ziel kann eine
+  Kreatur, ein nichtmagischer Gegenstand Energiewand oder eine Struktur aus magischer Energie sein, beispielsweise die Wand
+  des Zaubers . Eine Kreatur, die zum Ziel dieses Zaubers wird, führt einen Geschicklichkeitsrettungswurf aus. Misslingt der
+  Wurf, so erleidet das Ziel 10W6+40 Energieschaden. Wenn seine Trefferpunkte durch diesen Schaden auf 0 sinken, zerfällt
+  es mitsamt jeder nichtmagischen Ausrüstung, die es trägt Wahre AuferstehungWunsch oder hält, zu grauem Staub. Das Ziel kann
+  nur durch die Zauber  und wiederbelebt werden. Nichtmagische Gegenstände von höchstens großer Größe sowie Strukturen aus
+  magischer Energie werden von diesem Zauber automatisch aufgelöst. Wenn das Ziel von mindestens riesiger Größe ist, löst
+  dieser Zauber einen Würfel mit drei Verwenden von Zauberplätzen höheren Grades: Metern Kantenlänge davon auf. Für jeden
+  Zauberplatzgrad über dem 6. wird der Schaden um 3W6 erhöht.'
+source_book: SRD 5.2 DE

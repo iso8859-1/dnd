@@ -1,0 +1,17 @@
+id: irrgarten
+type: spell
+template: spell
+name: Irrgarten
+lang: de
+level: 8
+school: Beschwörungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G
+duration: Konzentration, bis zu 10 Minuten
+description: Du verbannst eine Kreatur in Reichweite, die du sehen kannst, auf eine labyrinthartige Halbebene. Sie bleibt
+  für die Wirkungsdauer dort, oder bis sie dem Irrgarten entkommt. Das Ziel kann die Studieren-Aktion ausführen, um zu entkommen
+  zu versuchen. Dazu führt es einen SG-20-Intelligenzwurf (Nachforschungen) aus. Bei einem Erfolg entkommt es, und der Zauber
+  endet. Wenn der Zauber endet, erscheint das Ziel in dem Bereich, aus dem es wegteleportiert wurde, oder im nächstgelegenen
+  freien Bereich wieder, falls der ursprüngliche inzwischen besetzt ist.
+source_book: SRD 5.2 DE

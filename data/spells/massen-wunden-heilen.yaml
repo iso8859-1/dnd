@@ -1,0 +1,16 @@
+id: massen-wunden-heilen
+type: spell
+template: spell
+name: Massen-Wunden heilen
+lang: de
+level: 5
+school: Bannzauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G
+duration: Unmittelbar
+description: 'Von einem Punkt deiner Wahl in Reichweite geht eine Woge heilender Energie aus. Wähle bis zu sechs Kreaturen
+  innerhalb einer Kugel mit einem Radius von neun Metern um den Zielort aus. Jedes Ziel erhält Trefferpunkte in Höhe von 5W8
+  plus deinem Verwenden von Zauberplätzen höheren Grades: Zauberwirken-Attributsmodifikator zurück. Für jeden Zauberplatzgrad
+  über dem 5. wird die Heilung um 1W8 Trefferpunkte erhöht.'
+source_book: SRD 5.2 DE

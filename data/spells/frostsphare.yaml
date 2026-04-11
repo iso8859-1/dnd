@@ -1,0 +1,24 @@
+id: frostsphare
+type: spell
+template: spell
+name: Frostsphäre
+lang: de
+level: 6
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 90 Meter
+components: V, G, M (eine MiniaturKristallkugel)
+duration: Unmittelbar
+description: 'Du verschießt eine eisige Kugel an einen Punkt deiner Wahl in Reichweite, wo sie zu einer Kugel mit einem Radius
+  von 18 Metern explodiert. Jede Kreatur in diesem Bereich führt einen Konstitutions- rettungswurf aus. Misslingt der Wurf,
+  so erleidet sie 10W6 Kälteschaden, anderenfalls die Hälfte. Wenn die Kugel ein Gewässer trifft, so gefriert dieses in einem
+  quadratischen Bereich von neun Metern Kantenlänge bis in eine Tiefe von 15 Zentimetern. Das Eis bleibt eine Minute lang
+  bestehen. Kreaturen, die an der Oberfläche des gefrorenen Wassers schwimmen, werden im Eis gefangen und sind festgesetzt.
+  Eine gefangene Kreatur kann als Aktion einen Stärkewurf (Athletik) gegen deinen Zauberrettungswurf-SG ausführen, um sich
+  zu befreien. Du musst die Kugel nach dem Wirken des Zaubers nicht sofort verschießen. In diesem Fall erscheint eine kleine
+  kühle Kugel von der Größe eines Schleudersteins in deiner Hand. Du oder eine Kreatur, der du die Kugel gibst, kann sie jederzeit
+  bis zu zwölf Meter weit werfen oder mit einer Schleuder innerhalb ihrer Grundreichweite verschießen. Die Kugel zerbirst
+  beim Aufprall und bewirkt den gleichen Effekt wie das normale Wirken des Zaubers. Du kannst die Kugel auch ablegen, ohne
+  dass sie zerbirst. Ist sie nach einer Verwenden von Zauberplätzen höheren Grades: Minute nicht zerborsten, so explodiert
+  sie. Für jeden Zauberplatzgrad über dem 6. wird der Schaden um 1W6 erhöht.'
+source_book: SRD 5.2 DE

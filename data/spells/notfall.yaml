@@ -1,0 +1,21 @@
+id: notfall
+type: spell
+template: spell
+name: Notfall
+lang: de
+level: 6
+school: Bannzauber
+casting_time: 10 Minuten
+range: Selbst
+components: V, G, M (eine mit Edelsteinen verzierte Statuette von dir im Wert von mindestens 1.500 GM)
+duration: 10 Tage
+description: 'Wähle einen Zauber des höchstens 5. Grades aus, den du auf dich selbst wirken kannst und der einen Zeitaufwand
+  von einer Aktion hat. Du wirkst diesen Notfall Zauber (auch Notfallzauber genannt) gemeinsam mit  und verbrauchst Zauberplätze
+  für beide. Der Notfallzauber tritt allerdings erst auf einen bestimmten Auslöser hin in Kraft. Diesen Auslöser NotfallWasser
+  beschreibst du, wenn du die beiden Zauber wirkst. atmenWasser atmen Beispiel: Wirkst du  gemeinsam mit , so kannst du bestimmen,
+  dass in Kraft tritt, wenn du in Wasser oder einer ähnlichen Flüssigkeit untertauchst. Der Notfallzauber tritt sofort in
+  Kraft, wenn der Notfall Auslöser das erste Mal auftritt - ob du willst oder nicht. Danach endet . Der Zauber wirkt nur auf
+  dich, selbst wenn er normalerweise auch auf andere Ziele gewirkt Notfall werden könnte. Du kannst immer nur jeweils einen
+  Notfall -Zauber verwenden. Wirkst du diesen Zauber Notfall erneut, so endet der Effekt eines anderen - Zaubers auf dich.  endet
+  auch dann, wenn du die Materialkomponente nicht mehr bei dir hast.'
+source_book: SRD 5.2 DE

@@ -1,0 +1,18 @@
+id: donnerwoge
+type: spell
+template: spell
+name: Donnerwoge
+lang: de
+level: 1
+school: Hervorrufungszauber
+casting_time: Aktion
+range: Selbst
+components: V, G
+duration: Unmittelbar
+description: 'Du entfesselst eine Welle aus donnernder Energie. Alle Kreaturen in einem Würfel mit 4,5 Metern Kantenlänge,
+  der von dir ausgeht, führen einen Konstitutionsrettungswurf aus. Misslingt der Wurf, so erleidet eine Kreatur 2W8 Schallschaden
+  und wird drei Meter weit von dir weggestoßen. Bei einem erfolgreichen Rettungswurf erleidet die Kreatur nur halb so viel
+  Schaden. Außerdem werden Gegenstände, die sich vollständig innerhalb des Würfels befinden und nicht fixiert sind, drei Meter
+  weit von dir weggestoßen, und der Donnerschlag ist im Abstand von bis zu 90 Metern Verwenden von Zauberplätzen höheren Grades:
+  zu hören. Für jeden Zauberplatzgrad über dem 1. wird der Schaden um 1W8 erhöht.'
+source_book: SRD 5.2 DE

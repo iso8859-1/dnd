@@ -1,0 +1,15 @@
+id: sengender-strahl
+type: spell
+template: spell
+name: Sengender Strahl
+lang: de
+level: 2
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 36 Meter
+components: V, G
+duration: Unmittelbar
+description: 'Du schleuderst drei feurige Strahlen. Du kannst sie auf ein Ziel oder auf mehrere Ziele in Reichweite schleudern.
+  Führe für jeden Strahl einen Fernkampf- Zauberangriff aus. Bei einem Treffer erleidet das Verwenden von Zauberplätzen höheren
+  Grades: Ziel 2W6 Feuerschaden pro Strahl. Für jeden Zauberplatzgrad über dem 2. kannst du einen zusätzlichen Strahl erzeugen.'
+source_book: SRD 5.2 DE

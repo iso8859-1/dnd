@@ -1,0 +1,17 @@
+id: schmieren
+type: spell
+template: spell
+name: Schmieren
+lang: de
+level: 1
+school: Beschwörungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G, M (ein Stück Schweineschwarte oder Butter)
+duration: 1 Minute
+description: In einem quadratischen Bereich mit drei Metern Kantenlänge um einen Punkt in Reichweite bedeckt nichtbrennbares
+  Fett den Boden und macht ihn für die Wirkungsdauer zu schwierigem Gelände. Wenn das Schmierfett erscheint, muss jede Kreatur
+  in diesem Bereich einen Geschicklichkeits- rettungswurf bestehen, oder sie rutscht aus und stürzt hin, sodass sie den Zustand
+  Liegend hat. Auch Kreaturen, die den Bereich betreten oder ihren Zug darin beginnen, müssen diesen Rettungswurf bestehen,
+  um nicht auszurutschen.
+source_book: SRD 5.2 DE

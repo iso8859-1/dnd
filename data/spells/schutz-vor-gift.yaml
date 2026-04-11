@@ -1,0 +1,14 @@
+id: schutz-vor-gift
+type: spell
+template: spell
+name: Schutz vor Gift
+lang: de
+level: 2
+school: Bannzauber
+casting_time: Aktion
+range: Berührung
+components: V, G
+duration: 1 Stunde
+description: Du berührst eine Kreatur und beendest bei ihr den Zustand Vergiftet. Für die Wirkungsdauer ist das Ziel bei Rettungswürfen
+  zum Vermeiden oder Beenden des Zustands Vergiftet im Vorteil und gegen Giftschaden resistent.
+source_book: SRD 5.2 DE

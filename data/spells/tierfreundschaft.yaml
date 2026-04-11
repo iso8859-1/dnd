@@ -1,0 +1,15 @@
+id: tierfreundschaft
+type: spell
+template: spell
+name: Tierfreundschaft
+lang: de
+level: 1
+school: Verzauberungszauber
+casting_time: Aktion
+range: 9 Meter
+components: V, G, M (ein Happen Nahrung)
+duration: 24 Stunden
+description: 'Ziele auf ein Tier in Reichweite, das du sehen kannst. Das Ziel muss einen Weisheitsrettungswurf bestehen, oder
+  es ist für die Wirkungsdauer bezaubert. Wenn du oder einer deiner Verbündeten dem Ziel Schaden Verwenden von Zauberplätzen
+  höheren Grades: zufügt, endet der Zauber. Für jeden Zauberplatzgrad über dem 1. kannst du auf ein weiteres Tier zielen.'
+source_book: SRD 5.2 DE

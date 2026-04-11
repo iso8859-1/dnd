@@ -1,0 +1,19 @@
+id: sofortige-beschworung
+type: spell
+template: spell
+name: Sofortige Beschwörung
+lang: de
+level: 6
+school: Beschwörungszauber
+casting_time: 1 Minute oder Ritual
+range: Berührung
+components: V, G, M (ein Saphir im Wert von mindestens 1.000 GM)
+duration: Bis der Zauber gebannt wird
+description: Du berührst den Saphir, den du zum Wirken verwendest, sowie einen Gegenstand, der höchstens 4,5 Kilogramm wiegt
+  und keine größere Abmessung als 1,8 Meter hat. Der Zauber hinterlässt eine unsichtbare Markierung am Gegenstand und schreibt
+  den Namen des Gegenstands unsichtbar in den Saphir ein. Jedes Mal, wenn du diesen Zauber wirkst, musst du einen anderen
+  Saphir verwenden. Danach kannst du eine magische Aktion ausführen, um den Namen des Gegenstands auszusprechen und den Saphir
+  zu zerstören. Der Gegenstand erscheint unabhängig von seiner physischen oder planaren Entfernung sofort in deiner Hand,
+  und der Zauber endet. Wenn eine andere Kreatur den Gegenstand hält oder trägt, wird er nicht transportiert, wenn der Saphir
+  zerstört wird. Stattdessen erfährst du, wer die Kreatur ist, die ihn bei sich hat, und wo sie sich aktuell befindet.
+source_book: SRD 5.2 DE

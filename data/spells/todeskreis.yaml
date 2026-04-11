@@ -1,0 +1,16 @@
+id: todeskreis
+type: spell
+template: spell
+name: Todeskreis
+lang: de
+level: 6
+school: Nekromantiezauber
+casting_time: Aktion
+range: 45 Meter
+components: V, G, M (Pulver einer zerstoßenen schwarzen Perle im Wert von mindestens 500 GM)
+duration: Unmittelbar
+description: 'Von einem Punkt deiner Wahl in Reichweite breitet sich negative Energie zu einer Kugel mit einem Radius von
+  18 Metern aus. Jede Kreatur in diesem Bereich führt einen Konstitutionsrettungswurf aus. Misslingt der Wurf, so erleidet
+  sie 8W8 nekrotischen Verwenden von Zauberplätzen höheren Grades: Schaden, anderenfalls die Hälfte. Für jeden Zauberplatzgrad
+  über dem 6. wird der Schaden um 2W8 erhöht.'
+source_book: SRD 5.2 DE

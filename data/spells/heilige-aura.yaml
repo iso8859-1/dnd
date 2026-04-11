@@ -1,0 +1,16 @@
+id: heilige-aura
+type: spell
+template: spell
+name: Heilige Aura
+lang: de
+level: 8
+school: Bannzauber
+casting_time: Aktion
+range: Selbst
+components: V, G, M (eine Reliquie im Wert von mindestens 1.000 GM)
+duration: Konzentration, bis zu 1 Minute
+description: Für die Wirkungsdauer geht eine Ausströmung von neun Metern von dir aus. In der Aura sind Kreaturen deiner Wahl
+  bei allen Rettungswürfen im Vorteil, und andere Kreaturen sind bei Angriffswürfen gegen sie im Nachteil. Wenn außerdem ein
+  Unhold oder ein Untoter eine betroffene Kreatur mit einem Nahkampfangriffswurf trifft, muss der Angreifer einen Konstitutionsrettungswurf
+  bestehen, oder er ist bis zum Ende seines nächsten Zugs blind.
+source_book: SRD 5.2 DE

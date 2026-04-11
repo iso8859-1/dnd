@@ -1,0 +1,15 @@
+id: spurloses-gehen
+type: spell
+template: spell
+name: Spurloses Gehen
+lang: de
+level: 2
+school: Bannzauber
+casting_time: Aktion
+range: Selbst
+components: V, G, M (Asche eines Mistelzweigs)
+duration: Konzentration, bis zu 1 Stunde
+description: Von dir geht für die Wirkungsdauer eine verhüllende Aura in einer Ausströmung von neun Metern aus. Du und jede
+  Kreatur deiner Wahl habt in der Aura einen Bonus von +10 auf Geschicklichkeitswürfe (Heimlichkeit), und ihr hinterlasst
+  keine Spuren.
+source_book: SRD 5.2 DE

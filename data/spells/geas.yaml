@@ -1,0 +1,21 @@
+id: geas
+type: spell
+template: spell
+name: Geas
+lang: de
+level: 5
+school: Verzauberungszauber
+casting_time: 1 Minute
+range: 18 Meter
+components: V
+duration: 30 Tage
+description: 'Du erteilst einer Kreatur in Reichweite, die du sehen kannst, den verbalen Befehl, eine Aufgabe zu erfüllen
+  oder eine bestimmte Aktion oder Handlungsrichtung deiner Wahl zu unterlassen. Das Ziel muss einen Weisheitsrettungswurf
+  bestehen, oder es ist für die Wirkungsdauer bezaubert. Es besteht den Rettungswurf automatisch, wenn es deinen Befehl nicht
+  verstehen kann. Die bezauberte Kreatur erleidet 5W10 psychischen Schaden, wenn sie sich deinem Befehl gegensätzlich verhält.
+  Sie kann diesen Schaden höchstens einmal täglich erleiden. Du kannst einen beliebigen Befehl erteilen, jedoch keine Handlungen,
+  die zum sicheren Tod führen würden. Erteilst du einen selbstmörderischen Fluch brechenVollständige Befehl, so endet der
+  Zauber. GenesungWunsch Auch die Zauber , Verwenden von Zauberplätzen höheren Grades: oder  beenden den Zauber. Bei einem
+  Zauberplatz des 7. oder 8. Grades beträgt die Wirkungsdauer 365 Tage. Bei einem Zauberplatz des 9. Grades hält der Zauber
+  an, bis er durch einen der oben genannten Zauber gebannt wird.'
+source_book: SRD 5.2 DE

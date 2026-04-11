@@ -1,0 +1,25 @@
+id: reittier-finden
+type: spell
+template: spell
+name: Reittier finden
+lang: de
+level: 2
+school: Beschwörungszauber
+casting_time: Aktion
+range: 9 Meter
+components: V, G
+duration: Unmittelbar
+description: 'Du rufst ein außerweltliches Wesen herbei, das sich als treues Reittier in einem freien Bereich deiner außerweltlichen
+  Reittieres Wahl in Reichweite manifestiert. Es verwendet den Wertekasten eines . Wenn du bereits über ein Reittier durch
+  diesen Zauber verfügst, wird dieses durch das neue ersetzt. Das Reittier sieht aus wie ein reittaugliches Tier deiner Wahl
+  - beispielsweise ein Pferd, ein Kamel, ein Schreckenswolf oder ein Elch. Wann immer du diesen Zauber wirkst, wählst du den
+  Kreaturentyp des Reittieres aus: celestisches Wesen, Feenwesen oder Unhold. Der Typ beeinflusst bestimmte Kampf: Merkmale
+  im Wertekasten. Das Reittier ist mit dir und deinen Verbündeten verbündet. Im Kampf nutzt es deinen Initiativewert und fungiert
+  als kontrolliertes Reittier, während du es reitest (wie in den Regeln zu berittenem Kampf definiert). Wenn du kampfunfähig
+  bist, ist das Reittier unmittelbar nach dir am Zug, agiert unabhängig und fokussiert sich darauf, dich Verschwinden des
+  Reittieres: zu beschützen. Das Reittier verschwindet, wenn seine Trefferpunkte auf 0 sinken oder wenn du stirbst. Wenn es
+  verschwindet, hinterlässt es alles, was es getragen oder gehalten hat. Wenn du diesen Zauber erneut wirkst, entscheidest
+  du, ob du erneut das verschwundene Reittier oder Verwenden von Zauberplätzen höheren Grades: ein anderes herbeirufst. Verwende
+  den Zauberplatzgrad als Zaubergrad im Wertekasten. MODRWMODRWMODRW S 18+4+4G 12+1+1K 14+2+2 täeSon I 6-2-2W 12+1+1C 8-1-1
+  nteIha Merkmale Aktionen Bonusaktionen'
+source_book: SRD 5.2 DE

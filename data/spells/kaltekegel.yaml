@@ -1,0 +1,16 @@
+id: kaltekegel
+type: spell
+template: spell
+name: Kältekegel
+lang: de
+level: 5
+school: Hervorrufungszauber
+casting_time: Aktion
+range: Selbst
+components: V, G, M (ein kleiner Kegel aus Kristall oder Glas)
+duration: Unmittelbar
+description: 'Du entfesselst einen Stoß eiskalter Luft. Jede Kreatur in einem Kegel von 18 Metern, der von dir ausgeht, führt
+  einen Konstitutionsrettungswurf aus. Misslingt der Wurf, so erleidet sie 8W8 Kälteschaden, anderenfalls die Hälfte. Wird
+  eine Kreatur durch diesen Zauber getötet, so wird sie zu Verwenden von Zauberplätzen höheren Grades: einer gefrorenen Statue,
+  bis sie auftaut. Für jeden Zauberplatzgrad über dem 5. wird der Schaden um 1W8 erhöht.'
+source_book: SRD 5.2 DE

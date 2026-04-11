@@ -1,0 +1,14 @@
+id: wasser-atmen
+type: spell
+template: spell
+name: Wasser atmen
+lang: de
+level: 3
+school: Verwandlungszauber
+casting_time: Aktion oder Ritual
+range: 9 Meter
+components: V, G, M (ein kurzes Schilfrohr)
+duration: 24 Stunden
+description: Bis zu zehn bereitwillige Kreaturen deiner Wahl in Reichweite können für die Wirkungsdauer unter Wasser atmen.
+  Betroffene Kreaturen verfügen weiterhin über ihre normale Atmung.
+source_book: SRD 5.2 DE

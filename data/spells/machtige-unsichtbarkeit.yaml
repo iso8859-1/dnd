@@ -1,0 +1,13 @@
+id: machtige-unsichtbarkeit
+type: spell
+template: spell
+name: Mächtige Unsichtbarkeit
+lang: de
+level: 4
+school: Illusionszauber
+casting_time: Aktion
+range: Berührung
+components: V, G
+duration: Konzentration, bis zu 1 Minute
+description: Eine Kreatur, die du berührst, wird unsichtbar, bis der Zauber endet.
+source_book: SRD 5.2 DE

@@ -1,0 +1,26 @@
+id: regenbogenspiel
+type: spell
+template: spell
+name: Regenbogenspiel
+lang: de
+level: 7
+school: Hervorrufungszauber
+casting_time: Aktion
+range: Selbst
+components: V, G
+duration: Unmittelbar
+description: 'Du verschießt in einem Kegel von 18 Metern acht Lichtstrahlen. Alle Kreaturen im Kegel führen einen Geschicklichkeitsrettungswurf
+  aus. Würfle für jedes Ziel mit 1W8, um die Farbe des Strahls zu ermitteln, der es trifft (Effekt siehe RTaebgeellneb „oRgeegennsbtroaghenlesntrahlen“).
+  1W8Strahl 1Rot: Misslungener Rettungswurf: 12W6 Feuerschaden. Erfolgreicher Rettungswurf: Halb so viel Schaden. 2Orange:
+  Misslungener Rettungswurf: 12W6 Säureschaden. Erfolgreicher Rettungswurf: Halb so viel Schaden. 3Gelb: Misslungener Rettungswurf:
+  12W6 Blitzschaden. Erfolgreicher Rettungswurf: Halb so viel Schaden. 4Grün: Misslungener Rettungswurf: 12W6 Giftschaden.
+  Erfolgreicher Rettungswurf: Halb so viel Schaden. 5Blau: Misslungener Rettungswurf: 12W6 Kälteschaden. Erfolgreicher Rettungswurf:
+  Halb so viel Schaden. 6Indigoblau: Misslungener Rettungswurf: Das Ziel ist festgesetzt und führt am Ende jedes seiner Züge
+  einen Konstitutionsrettungswurf aus. Bei drei erfolgreichen Rettungswürfen endet der Zustand. Bei drei misslungenen Rettungswürfen
+  wird das Ziel versteinert, bis es durch einen Effekt wie den des Zaubers Vollständige Genesung befreit wird. Die Erfolge
+  und Misserfolge müssen nicht aufeinanderfolgen. Notiere einfach beide, bis das Ziel drei von einem hat. 7Violett: Misslungener
+  Rettungswurf: Das Ziel ist blind und führt zu Beginn deines nächsten Zugs einen Weisheitsrettungswurf aus. Bei einem erfolgreichen
+  Rettungswurf endet der Zustand. Misslingt der Wurf, so endet der Zustand, und die Kreatur wird auf eine andere Existenzebene
+  (nach Wahl des SL) teleportiert. 8Besonders: Das Ziel wird von zwei Strahlen getroffen. Würfle zweimal. Bei einem Ergebnis
+  von 8 würfelst du erneut.'
+source_book: SRD 5.2 DE

@@ -1,0 +1,16 @@
+id: schutzhulle-gegen-lebendes
+type: spell
+template: spell
+name: Schutzhülle gegen Lebendes
+lang: de
+level: 5
+school: Bannzauber
+casting_time: Aktion
+range: Selbst
+components: V, G
+duration: Konzentration, bis zu 1 Stunde
+description: Für die Wirkungsdauer geht eine Aura in einer Ausströmung von drei Metern von dir aus. Die Aura verhindert, dass
+  Kreaturen außer Konstrukten und Untoten sich hineinbewegen oder hineingreifen. Sie können jedoch Zauber hineinwirken und
+  mit Fernkampfwaffen oder Waffen mit Reichweite durch die Barriere angreifen. Wenn du dich so bewegst, dass eine betroffene
+  Kreatur die Barriere passieren muss, endet der Zauber.
+source_book: SRD 5.2 DE

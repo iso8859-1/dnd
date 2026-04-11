@@ -1,0 +1,17 @@
+id: identifizieren
+type: spell
+template: spell
+name: Identifizieren
+lang: de
+level: 1
+school: Erkenntniszauber
+casting_time: 1 Minute oder Ritual
+range: Berührung
+components: V, G, M (eine Perle im Wert von mindestens 100 GM)
+duration: Unmittelbar
+description: Du berührst einen Gegenstand, solange du den Zauber wirkst. Falls es sich um einen magischen Gegenstand handelt,
+  erkennst du seine Eigen- schaften und ihre Anwendung, und du weißt, ob er Einstimmung erfordert und wie viele Ladungen er
+  besitzt, falls zutreffend. Du erfährst, ob aktuell Zauber auf den Gegenstand wirken, und wenn ja, welche. Falls der Gegenstand
+  durch einen Zauber erzeugt wurde, erfährst du dessen Namen. Wenn du stattdessen beim Wirken des Zaubers eine Kreatur durchgehend
+  berührst, erfährst du, von welchen Zaubern sie derzeit betroffen ist, falls zutreffend.
+source_book: SRD 5.2 DE

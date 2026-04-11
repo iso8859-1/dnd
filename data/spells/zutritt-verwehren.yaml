@@ -1,0 +1,24 @@
+id: zutritt-verwehren
+type: spell
+template: spell
+name: Zutritt verwehren
+lang: de
+level: 6
+school: Bannzauber
+casting_time: 10 Minuten oder Ritual
+range: Berührung
+components: V, G, M (Rubinstaub im Wert von mindestens 1.000 GM)
+duration: 1 Tag
+description: 'Du erschaffst einen Schutz gegen magische Reisen, der einen Bereich von bis zu 3.700 Quadratmetern mit einer
+  Höhe von bis zu neun Metern über dem Boden abdeckt. Für die Wirkungsdauer können Tor sich Kreaturen weder in den Bereich
+  teleportieren noch Portale wie durch den Zauber  verwenden, um in den Bereich zu gelangen. Der Zauber schützt den Bereich
+  gegen Ebenenreisen und verhindert damit, dass Kreaturen aus der Astralebene, der Ebenenwechsel Ätherebene, der Feenwildnis,
+  dem Schattensaum oder mit dem Zauber  in den Bereich gelangen. Außerdem fügt der Zauber Kreaturentypen, die du beim Wirken
+  bestimmst, Schaden zu. Wähle mindestens einen der folgenden Kreaturentypen aus: Aberrationen, celestische Wesen, Feenwesen,
+  Unholde und Untote. Wenn eine Kreatur eines ausgewählten Typs den Bereich des Zaubers in einem Zug erstmals betritt oder
+  ihren Zug darin beendet, erleidet sie 5W10 gleißenden oder nekrotischen Schaden (nach deiner Wahl beim Wirken des Zaubers).
+  Du kannst ein Kennwort festlegen, wenn du den Zauber wirkst. Spricht eine Kreatur das Kennwort aus, wenn sie den Bereich
+  betritt, so erleidet sie durch den Zauber keinen Schaden. Zutritt verwehren Der Bereich des Zaubers kann sich nicht mit
+  dem Zutritt verwehren Bereich eines anderen Zaubers überschneiden. Wenn du  30 Tage lang am selben Ort wirkst, bleibt der
+  Effekt bestehen, bis er gebannt wird. Die Materialkomponenten werden beim letzten Wirken verbraucht.'
+source_book: SRD 5.2 DE

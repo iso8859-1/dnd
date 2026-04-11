@@ -1,0 +1,14 @@
+id: nebelschritt
+type: spell
+template: spell
+name: Nebelschritt
+lang: de
+level: 2
+school: Beschwörungszauber
+casting_time: Bonusaktion
+range: Selbst
+components: V
+duration: Unmittelbar
+description: Du bist kurz von einem silbrigen Nebel umgeben und teleportierst dich bis zu neun Meter weit in einen freien
+  Bereich, den du sehen kannst.
+source_book: SRD 5.2 DE

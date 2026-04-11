@@ -1,0 +1,16 @@
+id: vollstandige-genesung
+type: spell
+template: spell
+name: Vollständige Genesung
+lang: de
+level: 5
+school: Bannzauber
+casting_time: Aktion
+range: Berührung
+components: V, G, M (Diamantstaub im Wert von mindestens 100 GM, den der Zauber verbraucht)
+duration: Unmittelbar
+description: 'Du berührst eine Kreatur und hebst auf magische Art einen der folgenden Effekte bei ihr auf: • 1 Erschöpfungsstufe
+  • Einen der Zustände Bezaubert oder Versteinert • Einen Fluch oder die Einstimmung des Ziels auf einen verfluchten magischen
+  Gegenstand • Jegliche Verringerung eines der Attributswerte des Ziels • Jegliche Verringerung des Trefferpunkte- maximums
+  des Ziels'
+source_book: SRD 5.2 DE

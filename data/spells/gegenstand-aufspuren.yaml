@@ -1,0 +1,19 @@
+id: gegenstand-aufspuren
+type: spell
+template: spell
+name: Gegenstand aufspüren
+lang: de
+level: 2
+school: Erkenntniszauber
+casting_time: Aktion
+range: Selbst
+components: V, G, M (ein gegabelter Zweig)
+duration: Konzentration, bis zu 10 Minuten
+description: Beschreibe oder nenne einen Gegenstand, mit dem du vertraut bist. Sofern der Gegenstand sich im Abstand von bis
+  zu 300 Metern von dir befindet, spürst du, in welcher Richtung sein Aufenthaltsort liegt. Wenn sich der Gegenstand in Bewegung
+  befindet, weißt du, in welche Richtung er bewegt wird. Der Zauber kann einen bestimmtem dir bekannten Gegenstand aufspüren,
+  sofern du diesen mindestens einmal aus der Nähe - aus höchstens neun Metern Entfernung - gesehen hast. Alternativ kann der
+  Zauber den nächstgelegenen Gegenstand einer bestimmten Art aufspüren, wie eine bestimmte Art von Kleidung, Möbel, Schmuck,
+  Waffe oder Werkzeug. Dieser Zauber kann den Gegenstand nicht aufspüren, wenn Blei den direkten Weg zwischen dir und dem
+  Gegenstand blockiert - egal, welche Dicke das Blei hat es hat.
+source_book: SRD 5.2 DE

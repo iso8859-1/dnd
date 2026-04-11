@@ -1,0 +1,16 @@
+id: botschaft
+type: spell
+template: spell
+name: Botschaft
+lang: de
+level: 0
+school: Verwandlung
+casting_time: Aktion
+range: 36 Meter
+components: G, M (ein Stück Kupferdraht)
+duration: 1 Runde
+description: Du deutest auf eine Kreatur in Reichweite und flüsterst eine Botschaft. Das Ziel (und nur dieses) hört die Botschaft
+  und kann mit einem Flüstern antworten, das nur du hörst. Du kannst diesen Zauber durch massive Gegenstände hindurch wirken,
+  wenn du mit dem Ziel vertraut bist und weißt, dass es sich hinter der Barriere befindet. Magische Stille, 30 Zentimeter
+  Stein, Metall oder Holz sowie dünnes Bleiblech blockieren den Zauber.
+source_book: SRD 5.2 DE

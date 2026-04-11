@@ -1,0 +1,16 @@
+id: schild
+type: spell
+template: spell
+name: Schild
+lang: de
+level: 1
+school: Bannzauber
+casting_time: Reaktion, die du ausführst, wenn du von einem Angriffswurf getroffen oder als Ziel des Zaubers Magisches Geschoss
+  ausgewählt wirst
+range: Selbst
+components: V, G
+duration: 1 Runde
+description: Eine nicht wahrnehmbare Barriere aus magischer Energie schützt dich. Bis zum Beginn deines nächsten Zugs hast
+  du einen Bonus von +5 auf deine RK (auch Magisches Geschoss gegen den auslösenden Angriff), und du erleidest keinen Schaden
+  durch .
+source_book: SRD 5.2 DE

@@ -1,0 +1,17 @@
+id: eismesser
+type: spell
+template: spell
+name: Eismesser
+lang: de
+level: 1
+school: Beschwörungszauber
+casting_time: Aktion
+range: 18 Meter
+components: G, M (ein Tropfen Wasser oder ein Stück Eis)
+duration: Unmittelbar
+description: 'Du erzeugst eine Eisscherbe und schleuderst sie auf eine Kreatur in Reichweite. Führe einen Fernkampf- Zauberangriff
+  gegen das Ziel aus. Bei einem Treffer erleidet das Ziel 1W10 Stichschaden. Nach dem Wurf explodiert die Scherbe, ob sie
+  getroffen hat oder nicht. Das Ziel und jede Kreatur im Abstand von bis zu 1,5 Metern von ihm müssen einen Geschicklichkeitsrettungswurf
+  bestehen, oder sie Verwenden von Zauberplätzen höheren Grades: erleiden 2W6 Kälteschaden. Für jeden Zauberplatzgrad über
+  dem 1. wird der Kälteschaden um 1W6 erhöht.'
+source_book: SRD 5.2 DE

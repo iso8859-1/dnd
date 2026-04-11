@@ -1,0 +1,17 @@
+id: furcht
+type: spell
+template: spell
+name: Furcht
+lang: de
+level: 3
+school: Illusionszauber
+casting_time: Aktion
+range: Selbst
+components: V, G, M (eine weiße Feder)
+duration: Konzentration, bis zu 1 Minute
+description: Jede Kreatur in einem Kegel von neun Metern muss einen Weisheitsrettungswurf bestehen, oder sie lässt fallen,
+  was auch immer sie hält, und ist für die Wirkungsdauer verängstigt. Eine verängstigte Kreatur führt in jedem ihrer Züge
+  die Spurt-Aktion aus und entfernt sich auf dem sichersten Weg von dir, sofern möglich. Beendet eine Kreatur ihren Zug in
+  einem Bereich, in dem du nicht in ihrer Sichtlinie bist, führt sie einen Weisheitsrettungswurf aus. Bei einem erfolgreichen
+  Rettungswurf endet der Zauber bei der Kreatur.
+source_book: SRD 5.2 DE

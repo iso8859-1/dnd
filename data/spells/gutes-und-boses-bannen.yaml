@@ -1,0 +1,20 @@
+id: gutes-und-boses-bannen
+type: spell
+template: spell
+name: Gutes und Böses bannen
+lang: de
+level: 5
+school: Bannzauber
+casting_time: Aktion
+range: Selbst
+components: V, G, M (Silber und Eisenpulver)
+duration: Konzentration, bis zu 1 Minute
+description: 'Für die Wirkungsdauer sind celestische Wesen, Elementare, Feenwesen, Unholde und Untote bei Angriffswürfen gegen
+  dich im Nachteil. Du kannst den Zauber vorzeitig beenden, indem du einen der Vertreiben: folgenden besonderen Effekte verwendest:
+  Als magische Aktion zielst du auf eine Kreatur im Abstand von bis zu 1,5 Metern von dir, die du sehen kannst und die einen
+  der genannten Kreaturentypen hat. Das Ziel muss einen Charismarettungswurf bestehen, oder es wird auf seine Heimatebene
+  verbannt, sofern es sich nicht bereits dort befindet. Untote werden in den Schattensaum und Feenwesen in die Feenwildnis
+  verbannt, sofern sie sich nicht schon auf ihrer Verzauberungsmagie brechen: Heimatebene befinden. Als magische Aktion berührst
+  du eine Kreatur in Reichweite, die von mindestens einer solchen Kreatur bezaubert, verängstigt oder besessen ist. Das Ziel
+  ist nun nicht mehr von solchen Kreaturen besessen, bezaubert oder verängstigt.'
+source_book: SRD 5.2 DE

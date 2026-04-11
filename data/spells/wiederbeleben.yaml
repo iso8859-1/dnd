@@ -1,0 +1,15 @@
+id: wiederbeleben
+type: spell
+template: spell
+name: Wiederbeleben
+lang: de
+level: 3
+school: Nekromantiezauber
+casting_time: Aktion
+range: Berührung
+components: V, G, M (ein Diamant im Wert von mindestens 300 GM, den der Zauber verbraucht)
+duration: Unmittelbar
+description: Du berührst eine Kreatur, die innerhalb der letzten Minute gestorben ist. Diese Kreatur wird mit 1 Trefferpunkt
+  wiederbelebt. Dieser Zauber kann keine Kreaturen wiederbeleben, die an Altersschwäche gestorben sind, und stellt auch keine
+  fehlenden Körperteile wieder her.
+source_book: SRD 5.2 DE

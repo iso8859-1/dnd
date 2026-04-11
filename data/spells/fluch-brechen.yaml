@@ -1,0 +1,15 @@
+id: fluch-brechen
+type: spell
+template: spell
+name: Fluch brechen
+lang: de
+level: 3
+school: Bannzauber
+casting_time: Aktion
+range: Berührung
+components: V, G
+duration: Unmittelbar
+description: Auf deine Berührung hin enden alle Flüche, die auf eine Kreatur oder einen Gegenstand wirken. Ist ein verfluchter
+  Gegenstand magisch, so bleibt der Fluch zwar bestehen, aber der Zauber bricht die Einstimmung des Besitzers, sodass der
+  Gegenstand entfernt oder weggeworfen werden kann.
+source_book: SRD 5.2 DE

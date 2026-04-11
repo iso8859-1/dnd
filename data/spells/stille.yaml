@@ -1,0 +1,16 @@
+id: stille
+type: spell
+template: spell
+name: Stille
+lang: de
+level: 2
+school: Illusionszauber
+casting_time: Aktion oder Ritual
+range: 36 Meter
+components: V, G
+duration: Konzentration, bis zu 10 Minuten
+description: Für die Wirkungsdauer kann in einer Kugel mit einem Radius von sechs Metern kein Geräusch erzeugt werden, und
+  kein Geräusch kann in die Kugel dringen. Die Kugel wird an einem Ort deiner Wahl in Reichweite erzeugt. Alle Kreaturen und
+  Gegenstände, die sich vollständig in der Kugel befinden, sind taub und gegen Schallschaden immun. In der Kugel können keine
+  Zauber mit Verbalkomponente gewirkt werden.
+source_book: SRD 5.2 DE

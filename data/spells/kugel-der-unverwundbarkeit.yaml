@@ -1,0 +1,18 @@
+id: kugel-der-unverwundbarkeit
+type: spell
+template: spell
+name: Kugel der Unverwundbarkeit
+lang: de
+level: 6
+school: Bannzauber
+casting_time: Aktion
+range: Selbst
+components: V, G, M (eine Glasperle)
+duration: Konzentration, bis zu 1 Minute
+description: 'In einer Ausströmung von drei Metern erscheint für die Wirkungsdauer eine unbewegliche schimmernde Barriere
+  um dich herum. Jeder Zauber des höchstens 5. Grades, der von außerhalb der Barriere gewirkt wird, hat keinen Effekt auf
+  Kreaturen oder Gegenstände im Innern. Ein solcher Zauber kann Kreaturen und Gegenstände innerhalb der Barriere zum Ziel
+  haben, hat jedoch keinen Effekt auf sie. Gleichermaßen ist der Bereich innerhalb der Barriere von Wirkungsbereichen Verwenden
+  von Zauberplätzen höheren Grades: solcher Zauber ausgeschlossen. Für jeden Zauberplatzgrad über dem 6. blockiert die Barriere
+  einen Grad höhere Zauber.'
+source_book: SRD 5.2 DE

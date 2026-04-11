@@ -1,0 +1,23 @@
+id: taschenspielerei
+type: spell
+template: spell
+name: Taschenspielerei
+lang: de
+level: 0
+school: Verwandlung
+casting_time: Aktion
+range: 3 Meter
+components: V, G
+duration: Bis zu 1 Stunde
+description: 'Du erzeugst einen magischen Effekt in Reichweite. Wähle den Effekt aus den Optionen unten aus. Wenn du diesen
+  Zauber mehrmals wirkst, können bis zu Sensorischer Effekt: drei der langfristigen Effekte gleichzeitig aktiv sein. Du erzeugst
+  einen unmittel- baren, harmlosen sensorischen Effekt, beispielsweise einen Funkenregen, einen Windstoß, eine leise Feuerspiel:
+  Melodie oder einen merkwürdigen Geruch. Du entzündest oder löschst unmittelbar Sauber oder schmutzig: eine Kerze, eine Fackel
+  oder ein kleines Lagerfeuer. Du kannst unmittelbar einen Gegenstand, der nicht größer als ein Würfel mit 30 Zentimetern
+  Metern Kantenlänge ist, säubern oder verschmutzen. Einfache Sinneswahrnehmung: Du kannst unbelebtes Material, das nicht
+  größer als ein Würfel mit 30 Zentimetern Metern Kantenlänge ist, abkühlen, Magisches Zeichen: erhitzen oder würzen. Dies
+  hält eine Stunde lang an. Du lässt eine Stunde lang einen Farbfleck, ein Mal oder ein Symbol auf einem Einfache Schöpfung:
+  Gegenstand oder einer Oberfläche erscheinen. Du erzeugst ein nicht- magisches Schmuckstück oder ein illusionäres Bild, das
+  in deine Hand passt. Es bleibt bis zum Ende deines nächsten Zugs bestehen. Diese Schöpfung kann keinen Schaden bewirken
+  und hat keinen Geldwert.'
+source_book: SRD 5.2 DE

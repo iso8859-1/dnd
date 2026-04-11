@@ -1,0 +1,18 @@
+id: tanzende-lichter
+type: spell
+template: spell
+name: Tanzende Lichter
+lang: de
+level: 0
+school: Illusion
+casting_time: Aktion
+range: 36 Meter
+components: V, G, M (etwas Phosphor)
+duration: Konzentration, bis zu 1 Minute
+description: Du kannst bis zu vier Lichter in Fackelgröße in Reichweite erzeugen und als Fackeln, Laternen oder Leuchtkugeln
+  erscheinen lassen, die für die Wirkungsdauer in der Luft schweben. Alternativ kannst du die vier Lichter zu einer leuchtenden,
+  vage humanoiden Gestalt von mittelgroßer Größe kombinieren. Unabhängig von der Form spendet jedes Licht dämmriges Licht
+  in einem Radius von drei Metern. Als Bonusaktion kannst du die Lichter bis zu 18 Meter weit in einen Bereich in Reichweite
+  bewegen. Jedes Licht muss sich im Abstand von bis zu sechs Metern von einem anderen durch diesen Zauber erzeugten Licht
+  befinden. Wenn ein Licht die Reichweite des Zaubers verlässt, erlischt es.
+source_book: SRD 5.2 DE

@@ -1,0 +1,15 @@
+id: wort-der-macht-betaubung
+type: spell
+template: spell
+name: 'Wort der Macht: Betäubung'
+lang: de
+level: 8
+school: Verzauberungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V
+duration: Unmittelbar
+description: Du überwältigst den Verstand einer Kreatur in Reichweite, die du sehen kannst. Wenn das Ziel höchstens 150 Trefferpunkte
+  hat, wird es betäubt. Anderenfalls beträgt seine Bewegungsrate bis zum Beginn deines nächsten Zugs 0. Das betäubte Ziel
+  führt am Ende jedes seiner Züge einen Konstitutionsrettungswurf aus. Bei einem Erfolg endet der Zustand bei ihm.
+source_book: SRD 5.2 DE

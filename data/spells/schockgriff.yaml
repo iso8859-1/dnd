@@ -1,0 +1,16 @@
+id: schockgriff
+type: spell
+template: spell
+name: Schockgriff
+lang: de
+level: 0
+school: Hervorrufung
+casting_time: Aktion
+range: Berührung
+components: V, G
+duration: Unmittelbar
+description: 'Von dir springt ein Blitz auf eine Kreatur über, die du zu berühren versuchst. Führe einen Nahkampf- Zauberangriff
+  gegen das Ziel aus. Bei einem Treffer erleidet das Ziel 1W8 Blitzschaden und kann bis zum Beginn seines nächsten Zugs keine
+  Zaubertrick-Aufwertung: Gelegenheitsangriffe ausführen. Der Schaden wird um jeweils 1W8 erhöht, wenn du die 5. (2W8), die
+  11. (3W8) und die 17. (4W8) Stufe erreichst.'
+source_book: SRD 5.2 DE

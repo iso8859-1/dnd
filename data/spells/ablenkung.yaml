@@ -1,0 +1,17 @@
+id: ablenkung
+type: spell
+template: spell
+name: Ablenkung
+lang: de
+level: 5
+school: Illusionszauber
+casting_time: Aktion
+range: Selbst
+components: S
+duration: Konzentration, bis zu 1 Stunde
+description: Du wirst unsichtbar, und gleichzeitig erscheint in deinem Bereich ein illusionärer Doppelgänger von dir. Dieser
+  bleibt für die Wirkungsdauer bestehen, doch deine Unsichtbarkeit endet, sobald du einen Angriffswurf ausführst, Schaden
+  bewirkst oder einen Zauber wirkst. Als magische Aktion kannst du deinen illusionären Doppelgänger bis zu deiner doppelten
+  Bewegungs rate bewegen und ihn gestikulieren, sprechen und auf eine beliebige Art handeln lassen. Er ist immateriell und
+  unverwundbar. Du kannst durch seine Augen sehen und durch seine Ohren hören, als befändest du dich am selben Ort.
+source_book: SRD 5.2 DE

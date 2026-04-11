@@ -1,0 +1,22 @@
+id: ausserlichkeiten
+type: spell
+template: spell
+name: Äußerlichkeiten
+lang: de
+level: 5
+school: Illusionszauber
+casting_time: Aktion
+range: 9 Meter
+components: V, G
+duration: 8 Stunden
+description: Du verleihst jeder Kreatur deiner Wahl in Reichweite, die du sehen kannst, ein illusionäres Erscheinungsbild.
+  Ein nicht bereitwilliges Ziel kann einen Charismarettungswurf ausführen. Bei einem Erfolg ist es nicht von diesem Effekt
+  betroffen. Du kannst den Zielen dasselbe Erscheinungsbild oder unterschiedliche geben. Der Zauber kann das Erscheinungsbild
+  von Körpern sowie Ausrüstung der Ziele verändern. Du kannst jede Kreatur 30 Zentimeter größer oder kleiner sowie schwerer
+  oder leichter erscheinen lassen. Das neue Erscheinungsbild eines Ziels muss die gleiche Grundanordnung von Gliedmaßen haben.
+  Abgesehen davon sind die Einzelheiten der Illusion dir überlassen. Der Zauber bleibt für die Wirkungsdauer bestehen. Einer
+  genauen körperlichen Untersuchung halten die Veränderungen dieser Illusion nicht stand. Nutzt du diesen Zauber beispielsweise,
+  um einer Kreatur einen Hut aufzusetzen, so durchdringen Gegenstände diesen einfach. Eine Kreatur, die die Studieren-Aktion
+  ausführt, um ein Ziel zu untersuchen, kann einen Intelligenzwurf (Nachforschungen) gegen deinen Zauberrettungswurf-SG ausführen.
+  Bei einem Erfolg weiß sie, dass das Ziel verkleidet wurde.
+source_book: SRD 5.2 DE

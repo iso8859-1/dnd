@@ -1,0 +1,16 @@
+id: hollischer-tadel
+type: spell
+template: spell
+name: Höllischer Tadel
+lang: de
+level: 1
+school: Hervorrufungszauber
+casting_time: Reaktion, die du ausführst, wenn du Schaden durch eine Kreatur im Abstand von bis zu 18 Metern von dir erlitten
+  hast, die du sehen kannst
+range: 18 Meter
+components: V, G
+duration: Unmittelbar
+description: 'Die Kreatur, die dir Schaden zugefügt hat, ist kurz von grünen Flammen umgeben. Sie führt einen Geschicklichkeitsrettungswurf
+  aus. Misslingt der Wurf, so erleidet sie 2W10 Feuerschaden, Verwenden von Zauberplätzen höheren Grades: anderenfalls die
+  Hälfte. Für jeden Zauberplatzgrad über dem 1. wird der Schaden um 1W10 erhöht.'
+source_book: SRD 5.2 DE

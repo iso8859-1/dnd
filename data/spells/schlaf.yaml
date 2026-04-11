@@ -1,0 +1,18 @@
+id: schlaf
+type: spell
+template: spell
+name: Schlaf
+lang: de
+level: 1
+school: Verzauberungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G, M (eine Prise Sand oder Rosenblütenblätter)
+duration: Konzentration, bis zu 1 Minute
+description: Jede Kreatur deiner Wahl in einer Kugel mit einem Radius von 1,5 Metern um einen Punkt in Reichweite muss einen
+  Weisheitsrettungswurf bestehen, oder es ist bis zum Ende seines nächsten Zugs kampfunfähig und muss den Rettungswurf dann
+  wiederholen. Wenn das Ziel auch beim zweiten Rettungswurf scheitert, ist es für die Wirkungsdauer bewusstlos. Der Zauber
+  endet bei einem Ziel, wenn es Schaden erleidet oder jemand im Abstand von bis zu 1,5 Metern von ihm eine Aktion ausführt,
+  um es zu schütteln. Kreaturen, die wie Elfen nicht schlafen oder die gegen den Zustand Erschöpft immun sind, bestehen Rettungswürfe
+  gegen diesen Zauber automatisch.
+source_book: SRD 5.2 DE

@@ -1,0 +1,18 @@
+id: wasser-erschaffen-oder-zerstoren
+type: spell
+template: spell
+name: Wasser erschaffen oder zerstören
+lang: de
+level: 1
+school: Verwandlungszauber
+casting_time: Aktion
+range: 9 Meter
+components: V, G, M (eine Mischung aus Wasser und Sand)
+duration: Unmittelbar
+description: 'Wasser erschaffen: Du führst eine der folgenden Handlungen aus: Du erschaffst bis zu 40 Liter sauberes Wasser
+  in einem offenen Behälter in Reichweite. Alternativ geht das Wasser als Regen in einem Würfel mit neun Metern Kantenlänge
+  in Reichweite nieder und löscht dort offene Wasser zerstören: Flammen. Du zerstörst bis zu 40 Liter Wasser in einem offenen
+  Behälter in Reichweite. Alternativ zerstörst du Nebel in einem Würfel mit Verwenden von Zauberplätzen höheren Grades: neun
+  Metern Kantenlänge in Reichweite. Für jeden Zauberplatzgrad über dem 1. kannst du zusätzliche 40 Liter Wasser erschaffen
+  oder zerstören oder die Kantenlänge des Würfels um 1,5 Meter erhöhen.'
+source_book: SRD 5.2 DE

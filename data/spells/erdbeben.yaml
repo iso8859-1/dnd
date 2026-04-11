@@ -1,0 +1,27 @@
+id: erdbeben
+type: spell
+template: spell
+name: Erdbeben
+lang: de
+level: 8
+school: Verwandlungszauber
+casting_time: Aktion
+range: 150 Meter
+components: V, G, M (ein geborstener Stein)
+duration: Konzentration, bis zu 1 Minute
+description: 'Wähle einen Punkt in Reichweite auf dem Boden aus, den du sehen kannst. Für die Wirkungsdauer erschüttert ein
+  gewaltiges Beben die Erde in einem Radius von 30 Metern um diesen Punkt. Der Boden dort ist schwieriges Gelände. Wenn du
+  diesen Zauber wirkst, sowie am Ende jedes deiner Züge während der Wirkungsdauer, führt jede Kreatur auf dem Boden in dem
+  Bereich einen Geschicklichkeitsrettungswurf aus. Misslingt der Wurf, so wird die Kreatur umgestoßen und hat den Zustand
+  Liegend, und ihre Konzentration ist unterbrochen. Du kannst außerdem die folgenden Effekte Erdspalten: bewirken. Am Ende
+  des Zugs, in dem du den Zauber wirkst, öffnen sich insgesamt 1W6 Erdspalten im Wirkungsbereich. Du wählst die Orte der Erdspalten
+  aus. Sie können sich nicht unter Gebäuden öffnen. Jede Erdspalte ist 1W10 mal drei Meter tief, drei Meter breit und erstreckt
+  sich von einem Rand des Wirkungsbereichs zu einem anderen. Eine Kreatur, die sich im Bereich einer Erdspalte befindet, muss
+  einen Geschicklichkeitsrettungswurf bestehen, oder sie fällt hinein. Ist der Rettungswurf erfolgreich, so bewegt die Kreatur
+  sich mit dem Rand der Gebäude: Erdspalte, während sich diese öffnet. Wenn du den Zauber wirkst, sowie am Ende jedes deiner
+  Züge für die Wirkungsdauer, fügt das Beben allen Gebäuden, die den Boden im Wirkungsbereich berühren, 50 Wuchtschaden zu.
+  Wenn die Trefferpunkte eines Gebäudes auf 0 sinken, stürzt das Gebäude ein. Jede Kreatur im Abstand von bis zur halben Höhe
+  des Gebäudes führt einen Geschicklichkeits- rettungswurf aus. Misslingt der Wurf, so erleidet die Kreatur 12W6 Wuchtschaden,
+  wird umgestoßen und ist unter den Trümmern begraben. Sie muss einen SG-20-Stärkewurf (Athletik) als Aktion bestehen, um
+  sich zu befreien. Bei einem erfolgreichen Rettungswurf erleidet die Kreatur nur halb so viel Schaden.'
+source_book: SRD 5.2 DE

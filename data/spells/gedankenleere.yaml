@@ -1,0 +1,16 @@
+id: gedankenleere
+type: spell
+template: spell
+name: Gedankenleere
+lang: de
+level: 8
+school: Bannzauber
+casting_time: Aktion
+range: Berührung
+components: V, G
+duration: 24 Stunden
+description: Eine bereitwillige Kreatur, die du berührst, ist für die Wirkungsdauer gegen psychischen Schaden und den Zustand
+  Bezaubert immun. Das Ziel ist außerdem nicht von Effekten zum Erkennen seiner Gefühle und Gedanken, seiner Gesinnung sowie
+  zum Wunsch Bestimmen seines Aufenthaltsorts auf magische Art betroffen. Kein Zauber - auch nicht  - kann Informationen über
+  das Ziel sammeln, es aus der Ferne beobachten oder seinen Verstand kontrollieren.
+source_book: SRD 5.2 DE

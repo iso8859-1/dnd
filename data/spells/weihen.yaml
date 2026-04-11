@@ -1,0 +1,30 @@
+id: weihen
+type: spell
+template: spell
+name: Weihen
+lang: de
+level: 5
+school: Bannzauber
+casting_time: 24 Stunden
+range: Berührung
+components: V, G, M (Weihrauch im Wert von mindestens 1.000 GM, den der Zauber verbraucht)
+duration: Bis der Zauber gebannt wird
+description: 'Du berührst einen Punkt und erfüllst den Bereich um ihn herum mit heiliger oder unheiliger Macht. Der Bereich
+  kann einen Radius von bis zu 18 Metern Weihen haben. Wenn dazu ein Bereich gehört, der bereits unter dem Effekt von  steht,
+  misslingt der Zauber. Geheiligter Schutz: Im betroffenen Bereich wirken folgende Effekte. Wähle beliebige der folgenden
+  Kreaturentypen aus: Aberration, celestisches Wesen, Elementar, Feenwesen, Unhold oder Untoter. Kreaturen des ausgewählten
+  Typs können den Bereich nicht willentlich betreten, und Kreaturen innerhalb des Bereichs, die von solchen Wesen besessen,
+  bezaubert oder verängstigt sind, sind innerhalb des Bereichs nicht von ihnen besessen, Zusätzlicher Effekt: bezaubert oder
+  verängstigt. Du bindest einen zusätzlichen Anfälligkeit: Effekt aus der folgenden Liste an den Bereich: Kreaturen der von
+  dir ausgewählten Typen sind anfällig für eine Schadensart deiner Dunkelheit: Wahl, solange sie sich im Bereich aufhalten.
+  Dunkelheit erfüllt den Bereich. Weder natürliches noch magisches Licht durch Zauber eines niedrigeren Grades als dem dieses
+  Zaubers Extradimensionale Interferenz: kann den Bereich erhellen. Kreaturen der von dir ausgewählten Typen können nicht
+  mittels Teleportation oder auf extradimensionale oder interplanare Art in den Bereich oder aus ihm Friedliche Ruhe: heraus
+  gelangen. Leichen innerhalb des Bereichs Furcht: können nicht in Untote verwandelt werden. Kreaturen der von dir ausgewählten
+  Typen sind verängstigt, solange sie sich im Bereich Mut: aufhalten. Kreaturen der von dir ausgewählten Typen können nicht
+  verängstigt werden, solange sie sich Resistenz: im Bereich aufhalten. Kreaturen der von dir ausgewählten Typen sind resistent
+  gegen eine Schadensart Stille: deiner Wahl, solange sie sich im Bereich aufhalten. Geräusche können weder in den Bereich
+  Tageslicht: hinein- noch aus ihm herausdringen. Helles Licht erfüllt den Bereich. Magische Dunkelheit durch Zauber eines
+  niedrigeren Grades als dem dieses Zaubers kann den Bereich Zungen: nicht verdunkeln. Kreaturen der von dir ausgewählten
+  Typen können mit allen anderen Kreaturen im Bereich kommunizieren, auch wenn sie keine gemeinsame Sprache sprechen.'
+source_book: SRD 5.2 DE

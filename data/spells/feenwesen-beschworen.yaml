@@ -1,0 +1,21 @@
+id: feenwesen-beschworen
+type: spell
+template: spell
+name: Feenwesen beschwören
+lang: de
+level: 6
+school: Beschwörungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G
+duration: Konzentration, bis zu 10 Minuten
+description: 'Du beschwörst einen mittelgroßen Geist aus der Feenwildnis in einem freien Bereich in Reichweite, den du sehen
+  kannst. Der Geist bleibt für die Wirkungsdauer bestehen und gleicht einem Feenwesen deiner Wahl. Wenn der Geist erscheint,
+  kannst du einen Nahkampf-Zauberangriff gegen eine Kreatur im Abstand von bis zu 1,5 Metern vom Geist ausführen. Bei einem
+  Treffer erleidet das Ziel psychischen Schaden in Höhe von 3W12 plus deinem Zauberwirken-Attributsmodifikator. Außerdem ist
+  das Ziel bis zum Beginn deines nächsten Zugs verängstigt. Dabei seid sowohl du als auch der Geist die Quelle seiner Angst.
+  Als Bonusaktion in deinen folgenden Zügen kannst du den Geist in einen freien Bereich im Abstand von bis zu neun Metern
+  von seinem ursprünglichen Bereich teleportieren, den du sehen kannst, und den Angriff gegen eine Kreatur im Abstand von
+  bis zu Verwenden von Zauberplätzen höheren Grades: 1,5 Metern vom Geist ausführen. Für jeden Zauberplatzgrad über dem 6.
+  wird der Schaden um 1W12 erhöht.'
+source_book: SRD 5.2 DE

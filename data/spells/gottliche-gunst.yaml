@@ -1,0 +1,14 @@
+id: gottliche-gunst
+type: spell
+template: spell
+name: Göttliche Gunst
+lang: de
+level: 1
+school: Verwandlungszauber
+casting_time: Bonusaktion
+range: Selbst
+components: V, G
+duration: 1 Minute
+description: Für die Wirkungsdauer bewirkst du mit Angriffen, die du mit Waffen ausführst, bei jedem Treffer zusätzlich 1W4
+  gleißenden Schaden.
+source_book: SRD 5.2 DE

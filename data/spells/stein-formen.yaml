@@ -1,0 +1,18 @@
+id: stein-formen
+type: spell
+template: spell
+name: Stein formen
+lang: de
+level: 4
+school: Verwandlungszauber
+casting_time: Aktion
+range: Berührung
+components: V, G, M (weicher Lehm)
+duration: Unmittelbar
+description: Du berührst einen steinernen Gegenstand von höchstens mittelgroßer Größe oder einen Abschnitt aus Stein, der
+  in keiner Abmessung größer als 1,5 Meter sein darf, und verformst ihn nach deinen Wünschen. Du könntest beispielsweise eine
+  Waffe, eine Statue oder eine Truhe aus einem Felsbrocken formen oder einen kleinen Durchgang in einer Mauer schaffen, die
+  höchstens 1,5 Meter dick ist. Du könntest auch eine Steintür oder ihren Rahmen teilweise umformen, um sie zu versiegeln.
+  Der von dir erschaffene Gegenstand kann bis zu zwei Scharniere und einen Riegel besitzen, feinere mechanische Details sind
+  jedoch nicht möglich.
+source_book: SRD 5.2 DE

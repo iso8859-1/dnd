@@ -1,0 +1,13 @@
+id: rascher-ruckzug
+type: spell
+template: spell
+name: Rascher Rückzug
+lang: de
+level: 1
+school: Verwandlungszauber
+casting_time: Bonusaktion
+range: Selbst
+components: V, G
+duration: Konzentration, bis zu 10 Minuten
+description: Du führst die Spurt-Aktion aus, und bis der Zauber endet, kannst du sie erneut als Bonusaktion ausführen.
+source_book: SRD 5.2 DE

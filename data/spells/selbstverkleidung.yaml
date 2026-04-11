@@ -1,0 +1,20 @@
+id: selbstverkleidung
+type: spell
+template: spell
+name: Selbstverkleidung
+lang: de
+level: 1
+school: Illusionszauber
+casting_time: Aktion
+range: Selbst
+components: V, G
+duration: 1 Stunde
+description: Du veränderst dein Aussehen einschließlich Kleidung, Rüstung, Waffen und anderer Habseligkeiten, bis der Zauber
+  endet oder du ihn mit einer Aktion beendest. Du kannst 30 Zentimeter größer oder kleiner sowie schwerer oder leichter erscheinen.
+  Allerdings musst du eine Gestalt mit der gleichen Grundanordnung von Gliedmaßen annehmen. Abgesehen davon sind die Einzelheiten
+  der Illusion dir überlassen. Einer genauen körperlichen Untersuchung halten die Veränderungen dieser Illusion nicht stand.
+  Wenn du diesen Zauber beispielsweise nutzt, um dir einen Hut aufzusetzen, durchdringen Gegenstände diesen einfach. Will
+  jemand den Hut berühren, so fühlt er dort nichts. Um deine Verkleidung als solche zu erkennen, muss eine Kreatur die Studieren-Aktion
+  ausführen, um dein Erscheinungsbild zu untersuchen, und einen Intelligenzwurf (Nachforschungen) gegen deinen Zauberrettungswurf-SG
+  bestehen.
+source_book: SRD 5.2 DE

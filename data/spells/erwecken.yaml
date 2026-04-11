@@ -1,0 +1,20 @@
+id: erwecken
+type: spell
+template: spell
+name: Erwecken
+lang: de
+level: 5
+school: Verwandlungszauber
+casting_time: 8 Stunden
+range: Berührung
+components: V, G, M (ein Achat im Wert von mindestens 1.000 GM, den der Zauber verbraucht)
+duration: Unmittelbar
+description: Du verbringst den Zeitaufwand damit, magische Pfade in einen kostbaren Edelstein zu zeichnen, und berührst anschließend
+  ein Ziel. Beim Ziel muss es sich um ein Tier, um eine Pflanzenkreatur mit einem Intelligenzwert von höchstens 3 oder um
+  eine natürliche Pflanze handeln, die keine Kreatur ist. Das Ziel erhält einen Intelligenzwert von 10 sowie die Fähigkeit,
+  eine dir bekannte Sprache zu sprechen. Wenn es sich um eine natürliche Pflanze handelt, wird diese zu einer Pflanzenkreatur,
+  die ihre Wurzeln, Triebe, Ranken und Ähnliches bewegen kann und Sinne ähnlich denen eines erwachten Buschs Menschen hat.
+  Dein SL wählt geeignete Spielwerte erwachten Baums aus, beispielsweise die des  oder des  im Monsterhandbuch. Die erweckte
+  Kreatur ist bezaubert. Die Bezau- berung endet nach 30 Tagen, oder wenn du oder deine Verbündeten der Kreatur Schaden zufügen.
+  Wenn die Bezauberung endet, wählt die Kreatur ihre Haltung dir gegenüber aus.
+source_book: SRD 5.2 DE

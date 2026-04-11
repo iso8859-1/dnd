@@ -1,0 +1,17 @@
+id: monster-bezaubern
+type: spell
+template: spell
+name: Monster bezaubern
+lang: de
+level: 4
+school: Verzauberungszauber
+casting_time: Aktion
+range: 9 Meter
+components: V, G
+duration: 1 Stunde
+description: 'Eine Kreatur in Reichweite, die du sehen kannst, führt einen Weisheitsrettungswurf aus. Dabei ist sie im Vorteil,
+  wenn du oder deine Verbündeten gegen sie kämpfen. Misslingt der Wurf, so ist das Ziel bezaubert, bis der Zauber endet oder
+  du oder deine Verbündeten ihm Schaden zufügen. Die bezauberte Kreatur ist dir freundlich gesinnt. Nach Ende des Zaubers
+  weiß das Ziel, dass es von dir bezaubert Verwenden von Zauberplätzen höheren Grades: wurde. Für jeden Zauberplatzgrad über
+  dem 4. kannst du auf eine weitere Kreatur zielen.'
+source_book: SRD 5.2 DE

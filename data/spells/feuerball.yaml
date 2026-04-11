@@ -1,0 +1,17 @@
+id: feuerball
+type: spell
+template: spell
+name: Feuerball
+lang: de
+level: 3
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 45 Meter
+components: V, G, M (eine Kugel aus Fledermaus Guano und Schwefel)
+duration: Unmittelbar
+description: 'Du verschießt einen hellen Lichtstrahl auf einen Punkt deiner Wahl in Reichweite, wo er unter dumpfem Grollen
+  zu einer Flammenexplosion detoniert. Jede Kreatur in einer Kugel mit einem Radius von sechs Metern um diesen Punkt führt
+  einen Geschicklichkeitsrettungswurf aus. Misslingt der Wurf, so erleidet sie 8W6 Feuerschaden, anderenfalls die Hälfte.
+  Brennbare Gegenstände im Bereich, die nicht getragen oder gehalten werden, beginnen zu Verwenden von Zauberplätzen höheren
+  Grades: brennen. Für jeden Zauberplatzgrad über dem 3. wird der Schaden um 1W6 erhöht.'
+source_book: SRD 5.2 DE

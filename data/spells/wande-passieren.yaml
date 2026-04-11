@@ -1,0 +1,17 @@
+id: wande-passieren
+type: spell
+template: spell
+name: Wände passieren
+lang: de
+level: 5
+school: Verwandlungszauber
+casting_time: Aktion
+range: 9 Meter
+components: V, G, M (eine Prise Sesamkörner)
+duration: 1 Stunde
+description: 'An einem Punkt in Reichweite auf einer Oberfläche aus Holz, Gips oder Stein (beispielsweise eine Mauer, eine
+  Decke oder ein Fußboden), den du sehen kannst, erscheint ein Durchgang, der für die Wirkungsdauer bestehen bleibt. Du bestimmst
+  die Ausmaße des Durchgangs: höchstens 1,5 Meter breit, 2,4 Meter hoch und sechs Meter tief. Der Durchgang macht das umgebende
+  Gebäude nicht instabil. Wenn der Durchgang verschwindet, gelangen sämtliche Kreaturen und Gegenstände, die sich noch darin
+  befinden, in den freien Bereich, der der Oberfläche, auf die der Zauber gewirkt wurde, am nächsten liegt.'
+source_book: SRD 5.2 DE

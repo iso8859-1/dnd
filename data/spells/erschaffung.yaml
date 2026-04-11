@@ -1,0 +1,21 @@
+id: erschaffung
+type: spell
+template: spell
+name: Erschaffung
+lang: de
+level: 5
+school: Illusionszauber
+casting_time: 1 Minute
+range: 9 Meter
+components: V, G, M (ein Farbpinsel)
+duration: Besonders
+description: 'Du ziehst Fäden aus Schattenmaterial aus dem Schattensaum und erschaffst einen Gegenstand in Reichweite. Es
+  kann sich entweder um einen Gegenstand aus pflanzlichem Material (Textilien, Seil, Holz und dergleichen) oder um einen Gegenstand
+  aus mineralischem Material (Stein, Kristall, Metall und dergleichen) handeln. Der Gegenstand darf nicht größer als ein Würfel
+  mit 1,5 Metern Kantenlänge sein und muss aus einem Material bestehen sowie eine Form besitzen, die du bereits gesehen hast.
+  Die Wirkungsdauer des Zaubers hängt vom Material des Gegenstands ab, wie in der Tabelle „Materialien“ dargestellt. Besteht
+  der Gegenstand aus mehreren Materialien, so verwende die kürzeste Wirkungsdauer. Wenn ein mit diesem Zauber erschaffener
+  Gegenstand als Materialkomponente für einen anderen Zauber verwendet wird, misslingt Mdear taenrdiaerliee Znauber. MaterialDauer
+  Pflanzliches Material24 Stunden Stein oder Kristall12 Stunden Edelmetalle1 Stunde Edelsteine10 Minuten Adamant oder Mithral1
+  Minute Verwenden von Zauberplätzen höheren Grades: Für jeden Zauberplatzgrad über dem 5. wird der Würfel um 1,5 Meter vergrößert.'
+source_book: SRD 5.2 DE

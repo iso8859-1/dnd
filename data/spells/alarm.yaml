@@ -1,0 +1,19 @@
+id: alarm
+type: spell
+template: spell
+name: Alarm
+lang: de
+level: 1
+school: Bannzauber
+casting_time: 1 Minute oder Ritual
+range: 9 Meter
+components: V, G, M (Glocke und Silberdraht)
+duration: 8 Stunden
+description: 'Du erschaffst einen Alarm gegen Eindringen. Wähle eine Tür, ein Fenster oder einen Bereich in Reichweite aus,
+  der nicht größer als ein Würfel mit sechs Metern Kantenlänge sein darf. Für die Wirkungsdauer warnt dich ein Alarm, wann
+  immer eine Kreatur den geschützten Bereich berührt oder in ihn eindringt. Wenn du den Zauber wirkst, kannst du Kreaturen
+  bestimmen, die den Alarm nicht auslösen. Außerdem wählst du aus, ob der Akustischer Alarm: Alarm akustisch oder mental erfolgt:
+  Der Alarm erzeugt im Abstand von bis zu 18 Metern vom geschützten Bereich Mentaler Alarm: zehn Sekunden lang das Geräusch
+  einer Handglocke. Du wirst von einem mentalen Ping gewarnt, wenn du dich im Abstand von bis zu 1,6 Kilometern vom geschützten
+  Bereich befindest. Dieser Ping weckt dich, wenn du schläfst.'
+source_book: SRD 5.2 DE

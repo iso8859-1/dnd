@@ -1,0 +1,18 @@
+id: insektenplage
+type: spell
+template: spell
+name: Insektenplage
+lang: de
+level: 5
+school: Beschwörungszauber
+casting_time: Aktion
+range: 90 Meter
+components: V, G, M (eine Heuschrecke)
+duration: Konzentration, bis zu 10 Minuten
+description: 'In einer Kugel mit einem Radius von sechs Metern um einen Punkt deiner Wahl in Reichweite erscheint ein Heuschreckenschwarm.
+  Die Kugel bleibt für die Wirkungsdauer bestehen. Ihr Bereich ist leicht verschleiert sowie schwieriges Gelände. Wenn der
+  Schwarm erscheint, führt jede Kreatur darin einen Konstitutionsrettungswurf aus. Misslingt der Wurf, so erleidet sie 4W10
+  Stichschaden, anderenfalls die Hälfte. Wenn eine Kreatur den Bereich des Zaubers in einem Zug erstmals betritt oder ihren
+  Zug darin beendet, führt sie diesen Rettungswurf ebenfalls aus. Eine Kreatur kann diesen Rettungswurf nur Verwenden von
+  Zauberplätzen höheren Grades: einmal pro Zug ausführen. Für jeden Zauberplatzgrad über dem 5. wird der Schaden um 1W10 erhöht.'
+source_book: SRD 5.2 DE

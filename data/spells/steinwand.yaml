@@ -1,0 +1,29 @@
+id: steinwand
+type: spell
+template: spell
+name: Steinwand
+lang: de
+level: 5
+school: Hervorrufungszauber
+casting_time: Aktion
+range: 36 Meter
+components: V, G, M (ein Granitwürfel)
+duration: Konzentration, bis zu 10 Minuten
+description: An einem Punkt deiner Wahl in Reichweite erscheint eine nichtmagische Wand aus massivem Stein. Sie ist 15 Zentimeter
+  dick und besteht aus zehn quadratischen Platten mit jeweils drei Metern Kantenlänge. Jede Platte muss an mindestens eine
+  andere angrenzen. Alternativ kannst du drei Meter mal sechs Meter große Platten erschaffen, die nur 7,5 Zentimeter dick
+  sind. Erschaffst du die Wand so, dass sie den Bereich einer Kreatur durchdringt, so wird die Kreatur auf eine Seite der
+  Wand (nach deiner Wahl) gestoßen. Wenn eine Kreatur auf allen Seiten von der Wand umschlossen (oder zwischen der Wand und
+  einer anderen soliden Oberfläche eingeschlossen) wäre, kann diese Kreatur einen Geschicklich keitsrettungswurf ausführen.
+  Bei einem Erfolg kann sie ihre Reaktion verwenden, um sich bis zu ihrer Bewegungsrate zu bewegen, sodass sie nicht mehr
+  eingeschlossen ist. Die Wand kann jede gewünschte Form annehmen, jedoch nicht denselben Bereich wie eine Kreatur oder ein
+  Gegenstand einnehmen. Sie muss nicht senkrecht sein oder auf festem Untergrund stehen. Allerdings muss sie mit bestehendem
+  Stein verschmelzen und von ihm getragen werden. Somit kannst du diesen Zauber verwenden, um eine Schlucht zu überwinden
+  oder eine Rampe zu erschaffen. Wenn du eine Brücke von mehr als sechs Metern Länge erschaffen willst, musst du die halbe
+  Größe jeder Platte für Stützpfeiler verbrauchen. Du kannst die Steinwand grob formen, um Wehranlagen und dergleichen zu
+  erschaffen. Die Wand ist ein Gegenstand aus Stein, der beschädigt und somit durchbrochen werden kann. Jede Platte besitzt
+  eine RK von 15, 30 Trefferpunkte pro 2,5 Zentimetern Dicke und ist gegen Gift- und psychischen Schaden immun. Wenn die Trefferpunkte
+  einer Platte auf 0 sinken, wird sie zerstört, was angrenzende Platten nach Ermessen des SL zum Einsturz bringen könnte.
+  Konzentrierst du dich für die gesamte Wirkungs- dauer auf diesen Zauber, so wird die Wand dauerhaft und kann nicht gebannt
+  werden. Anderenfalls verschwindet sie, wenn der Zauber endet.
+source_book: SRD 5.2 DE

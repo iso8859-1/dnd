@@ -1,0 +1,22 @@
+id: traum
+type: spell
+template: spell
+name: Traum
+lang: de
+level: 5
+school: Illusionszauber
+casting_time: 1 Minute
+range: Besonders
+components: V, G, M (eine Handvoll Sand)
+duration: 8 Stunden
+description: Du zielst auf eine Kreatur, die du kennst und die sich auf derselben Existenzebene befindet wie du. Der Zauber
+  versetzt dich selbst oder eine bereitwillige Kreatur, die du berührst, in eine Trance, um als Traumbote zu fungieren. In
+  der Trance ist der Bote kampfunfähig und hat eine Bewegungsrate von 0. Wenn das Ziel schläft, erscheint der Bote in seinen
+  Träumen und kann für die Wirkungsdauer des Zaubers mit ihm sprechen. Der Bote kann zudem die Umgebung des Traums gestalten
+  und Landschaften, Gegenstände oder andere Bilder erschaffen. Der Bote kann die Trance und damit den Zauber jederzeit beenden.
+  Das Ziel erinnert sich beim Aufwachen genau an den Traum. Ist das Ziel wach, wenn du den Zauber wirkst, so weiß der Bote
+  dies und kann entweder die Trance (und den Zauber) beenden oder warten, bis das Ziel schläft, und dann in dessen Träumen
+  erscheinen. Du kannst den Boten für das Ziel furchteinflößend erscheinen lassen. In diesem Fall kann der Bote eine Nachricht
+  von höchstens zehn Worten übermitteln. Dann führt das Ziel einen Weisheitsrettungswurf aus. Misslingt der Wurf, so gewährt
+  die Rast dem Ziel keine Vorzüge, und es erleidet beim Erwachen 3W6 psychischen Schaden.
+source_book: SRD 5.2 DE

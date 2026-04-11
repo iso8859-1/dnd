@@ -1,0 +1,16 @@
+id: ausbessern
+type: spell
+template: spell
+name: Ausbessern
+lang: de
+level: 0
+school: Verwandlung
+casting_time: 1 Minute
+range: Berührung
+components: V, G, M (zwei Magnetsteine)
+duration: Unmittelbar
+description: Dieser Zauber repariert einen Gegenstand, den du berührst und der eine Bruchstelle oder einen Riss hat, beispielsweise
+  ein kaputtes Kettenglied, einen zerbrochenen Schlüssel, einen zerrissenen Umhang oder einen lecken Weinschlauch. Wenn der
+  Riss oder die Bruchstelle in keiner Abmessung größer als 30 Zentimeter ist, wird nicht mehr zu erkennen sein, dass der Gegenstand
+  beschädigt war. Dieser Zauber kann magische Gegenstände physisch reparieren, deren Magie jedoch nicht wiederherstellen.
+source_book: SRD 5.2 DE

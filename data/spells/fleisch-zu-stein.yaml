@@ -1,0 +1,20 @@
+id: fleisch-zu-stein
+type: spell
+template: spell
+name: Fleisch zu Stein
+lang: de
+level: 6
+school: Verwandlungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G, M (eine SchreckhahnFeder)
+duration: Konzentration, bis zu 1 Minute
+description: Du versuchst, eine Kreatur in Reichweite, die du sehen kannst, in Stein zu verwandeln. Das Ziel führt einen Konstitutionsrettungswurf
+  aus. Misslingt der Wurf, so ist es für die Wirkungsdauer festgesetzt. Bei einem erfolgreichen Rettungswurf beträgt seine
+  Bewegungsrate bis zum Beginn deines nächsten Zugs 0. Konstrukte bestehen den Rettungswurf automatisch. Eine festgesetzte
+  Kreatur führt am Ende jedes ihrer Züge einen weiteren Konstitutionsrettungs- wurf aus. Bei drei erfolgreichen Rettungswürfen
+  endet dieser Zauber. Bei drei Misserfolgen wird sie zu Stein und hat für die Wirkungsdauer den Zustand Versteinert. Die
+  Erfolge und Misserfolge müssen nicht aufeinanderfolgen. Notiere einfach beide, bis das Ziel drei von einem hat. Wenn du
+  dich für die gesamte Wirkungsdauer auf diesen Zauber konzentrierst, versteinert Vollständige Genesung die Kreatur, bis der
+  Effekt durch den Zauber oder ähnliche Magie aufgehoben wird.
+source_book: SRD 5.2 DE

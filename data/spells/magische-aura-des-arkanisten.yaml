@@ -1,0 +1,21 @@
+id: magische-aura-des-arkanisten
+type: spell
+template: spell
+name: Magische Aura des Arkanisten
+lang: de
+level: 2
+school: Illusionszauber
+casting_time: Aktion
+range: Berührung
+components: V, G, M (ein kleines Quadrat aus Seide)
+duration: 24 Stunden
+description: 'Du berührst eine bereitwillige Kreatur oder einen Gegenstand, der nicht getragen oder gehalten wird, und platzierst
+  eine Illusion auf dem Ziel. Eine Kreatur erhält den Effekt Maskierung, ein Gegenstand den Effekt Falsche Aura (beide Effekte
+  siehe unten). Der Effekt bleibt für die Wirkungsdauer bestehen. Wenn du diesen Zauber 30 Tage lang täglich auf dasselbe
+  Ziel wirkst, bleibt die Illusion bestehen, Maskierung (Kreatur): bis sie gebannt wird. Wähle einen Kreaturentyp aus, der
+  nicht dem tatsächlichen Typ des Ziels entspricht. Andere Zauber und magische Effekte behandeln das Ziel, als wäre es eine
+  Kreatur des Falsche Aura (Gegenstand): ausgewählten Typs. Du veränderst die Magie entdecken Art, wie das Ziel für Zauber
+  und magische Effekte wie  erscheint, die magische Auren entdecken. Du kannst einen nichtmagischen Gegenstand magisch, einen
+  magischen Gegenstand nichtmagisch erscheinen lassen oder die magische Aura des Gegenstands so manipulieren, dass er einer
+  Schule der Magie deiner Wahl anzugehören scheint.'
+source_book: SRD 5.2 DE

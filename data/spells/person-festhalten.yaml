@@ -1,0 +1,16 @@
+id: person-festhalten
+type: spell
+template: spell
+name: Person festhalten
+lang: de
+level: 2
+school: Verzauberungszauber
+casting_time: Aktion
+range: 18 Meter
+components: V, G, M (ein gerades Stück Eisen)
+duration: Konzentration, bis zu 1 Minute
+description: 'Wähle einen Humanoiden in Reichweite aus, den du sehen kannst. Das Ziel muss einen Weisheitsrettungswurf bestehen,
+  oder es ist für die Wirkungsdauer gelähmt. Das Ziel wiederholt den Rettungswurf am Ende jedes seiner Züge. Verwenden von
+  Zauberplätzen höheren Grades: Bei einem Erfolg endet der Zauber. Für jeden Zauberplatzgrad über dem 2. kannst du auf einen
+  weiteren Humanoiden zielen.'
+source_book: SRD 5.2 DE
