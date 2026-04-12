@@ -1,0 +1,8 @@
+id: vergiftet-zustand
+type: rule
+template: rule-v1
+name: Vergiftet (Zustand)
+lang: de
+description: 'Wenn du den Zustand Vergiftet hast, wirkt Beeinträchtigte Attributs-
+  und Angriffswürfe: folgender Effekt auf dich:'
+source_book: SRD 5.2.1

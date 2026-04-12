@@ -1,0 +1,11 @@
+id: ritual
+type: rule
+template: rule-v1
+name: Ritual
+lang: de
+description: Wenn du einen Zauber vorbereitet hast, der als Ritual gekennzeichnet
+  ist, kannst du diesen Zauber als Ritual wirken. Es dauert zehn Minuten länger als
+  sonst, die Ritualversion eines Zaubers zu wirken. Außerdem wird kein Zauberplatz
+  verbraucht, was bedeutet, dass die Ritualversion Siehe auch nicht auf höheren Graden
+  gewirkt werden kann.
+source_book: SRD 5.2.1

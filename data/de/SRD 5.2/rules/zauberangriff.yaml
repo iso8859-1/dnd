@@ -1,0 +1,9 @@
+id: zauberangriff
+type: rule
+template: rule-v1
+name: Zauberangriff
+lang: de
+description: „Zauber“ beschriebenen Eigenschaften. Ein Zauberangriff ist ein Angriffswurf,
+  der im Siehe auch Rahmen eines Zaubers oder eines anderen magische Effekts ausgeführt
+  wird. „Zauber“ („Zauber wirken“).
+source_book: SRD 5.2.1

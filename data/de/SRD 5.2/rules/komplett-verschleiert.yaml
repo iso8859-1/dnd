@@ -1,0 +1,8 @@
+id: komplett-verschleiert
+type: rule
+template: rule-v1
+name: Komplett verschleiert
+lang: de
+description: Stärkewurf (Athletik) erfordern. Siehe auch In komplett verschleierten
+  Bereichen hast du den Zustand Blind. „Blind“, „Dunkelheit“
+source_book: SRD 5.2.1

@@ -1,0 +1,8 @@
+id: dammriges-licht
+type: rule
+template: rule-v1
+name: Dämmriges Licht
+lang: de
+description: „Charaktererstellung“. Siehe auch Ein Bereich mit dämmrigem Licht ist
+  leicht verschleiert. „Leicht verschleiert“
+source_book: SRD 5.2.1

@@ -1,0 +1,9 @@
+id: charakterbogen
+type: rule
+template: rule-v1
+name: Charakterbogen
+lang: de
+description: es erstickt oder durch Wasser gelöscht wird. Ein Charakterbogen ist ein
+  Blatt Papier oder Siehe auch ein digitales Dokument, mit dem du die Daten deines
+  Charakters nachverfolgst.
+source_book: SRD 5.2.1

@@ -1,0 +1,10 @@
+id: bezaubert-zustand
+type: rule
+template: rule-v1
+name: Bezaubert (Zustand)
+lang: de
+description: 'nicht wahr. Wenn du den Zustand Bezaubert hast, wirken Kein Schaden
+  am Zauberwirker: folgende Effekte auf dich: Du kannst den Zauberwirker weder angreifen
+  noch als Ziel schädigender Fähigkeiten und magischer Effekte Sozialer Vorteil: auswählen.
+  Der Zauberwirker ist bei Attributswürfen, die soziale Interaktionen mit'
+source_book: SRD 5.2.1

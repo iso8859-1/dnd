@@ -1,0 +1,8 @@
+id: nahkampfreichweite
+type: rule
+template: rule-v1
+name: Nahkampfreichweite
+lang: de
+description: „Die Spielregeln“ („W20-Prüfungen“). Kreaturen haben eine Reichweite
+  von 1,5 Metern,
+source_book: SRD 5.2.1

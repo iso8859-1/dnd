@@ -1,0 +1,13 @@
+id: initiative
+type: rule
+template: rule-v1
+name: Initiative
+lang: de
+description: Tischbein als Knüppel behandeln. Die Initiative bestimmt die Reihenfolge
+  der Züge während eines Kampfs. In den Kampfregeln unter „Die Spielregeln“ wird erläutert,
+  wie die Initiative ausgewürfelt wird. Manchmal könnte der SL bestimmen, dass die
+  Kampfteilnehmer ihre Initiativewerte verwenden, anstatt die Initiative auszuwürfeln.
+  Dein Initiativewert entspricht 10 plus deinem Geschicklichkeitsmodifikator. Wenn
+  du bei Initiativewürfen im Vorteil bist, erhöhe deinen Initiativewert um 5. Wenn
+  du bei Initiativewürfen Siehe auch im Nachteil bist, verringere deinen Initiativewert
+source_book: SRD 5.2.1

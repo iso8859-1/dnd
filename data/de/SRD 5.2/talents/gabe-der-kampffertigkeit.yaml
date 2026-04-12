@@ -1,0 +1,12 @@
+id: gabe-der-kampffertigkeit
+type: talent
+template: talent-v1
+name: Gabe der Kampffertigkeit
+lang: de
+description: 'Du erhältst folgende Vorzüge: Attributswerterhöhung: Ein Attributswert
+  deiner Wahl wird um 1 Punkt erhöht (auf höchstens 30). Unübertroffenes Zielen: Wenn
+  du bei einem Angriffswurf nicht triffst, kannst du den Wurf in einen Treffer verwandeln.
+  Wenn du diesen Vorzug angewendet hast, ist dies erst nach Beginn deines nächsten
+  Zugs erneut möglich.'
+source_book: SRD 5.2.1
+typ: 'Epische-Gabe-Talent (Voraussetzung: min. 19. Stufe)'

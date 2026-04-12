@@ -1,0 +1,11 @@
+id: kampf-mit-grossen-waffen
+type: talent
+template: talent-v1
+name: Kampf mit großen Waffen
+lang: de
+description: Wenn du den Schaden eines Angriffs mit einer Nahkampfwaffe auswürfelst,
+  die du mit beiden Händen hältst, kannst du alle Ergebnisse des Schadensw ürfels
+  von 1 oder 2 als 3 werten. Die Waffe muss die Eigenschaft Zweihändig oder Vielseitig
+  besitzen, damit du diesen Vorzug erhältst.
+source_book: SRD 5.2.1
+typ: 'Kampfstil-Talent (Voraussetzung: Kampfstil-Merkmal)'

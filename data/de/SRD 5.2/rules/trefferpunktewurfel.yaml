@@ -1,0 +1,11 @@
+id: trefferpunktewurfel
+type: rule
+template: rule-v1
+name: Trefferpunktewürfel
+lang: de
+description: „Die Spielregeln“ („Schaden und Heilung“). Trefferpunktewürfel oder kurz
+  Trefferwürfel helfen, das Trefferpunktemaximum eines Spieler- charakters zu ermitteln,
+  wie unter „Charakterer- stellung“ erläutert. Auch die meisten Monster haben Trefferwürfel.
+  Kreaturen können während Siehe auch einer kurzen Rast Trefferwürfel verbrauchen,
+  um Trefferpunkte zurückzuerhalten.
+source_book: SRD 5.2.1

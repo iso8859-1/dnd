@@ -1,0 +1,9 @@
+id: verteidigung
+type: talent
+template: talent-v1
+name: Verteidigung
+lang: de
+description: Wenn du leichte, mittelschwere oder schwere Rüstung trägst, erhältst
+  du einen Bonus von +1 auf die Rüstungsklasse.
+source_book: SRD 5.2.1
+typ: 'Kampfstil-Talent (Voraussetzung: Kampfstil-Merkmal)'

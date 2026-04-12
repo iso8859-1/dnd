@@ -1,0 +1,9 @@
+id: kugel-wirkungsbereich
+type: rule
+template: rule-v1
+name: Kugel (Wirkungsbereich)
+lang: de
+description: Eine Kugel ist ein Wirkungsbereich, der von einem Ursprungspunkt in geraden
+  Linien in alle Richtungen ausgeht. Der Effekt, der die Kugel erzeugt, definiert
+  die Wirkungsdistanz als Radius der Kugel. Der Ursprungspunkt der Kugel ist im Wirkungs-
+source_book: SRD 5.2.1

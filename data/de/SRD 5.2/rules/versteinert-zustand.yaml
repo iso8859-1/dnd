@@ -1,0 +1,16 @@
+id: versteinert-zustand
+type: rule
+template: rule-v1
+name: Versteinert (Zustand)
+lang: de
+description: 'oder du wirkst einen Zauber mit Verbalkomponente. Wenn du den Zustand
+  Versteinert hast, wirken In unbelebte Substanz verwandelt: folgende Effekte auf
+  dich: Du wirst mit allen nichtmagischen Gegenständen, die du trägst oder hältst,
+  in eine massive unbelebte Substanz (normalerweise Stein) verwandelt. Dein Gewicht
+  erhöht sich auf das Zehnfache, und du hörst auf Kampfunfähig: zu altern. Keine Bewegungsrate:
+  Du hast den Zustand Kampfunfähig. Deine Bewegungsrate Beeinträchtigte Angriffe:
+  beträgt 0 und kann nicht erhöht werden. Angriffswürfe gegen Beeinträchtigte Rettungswürfe:
+  dich sind im Vorteil. Du scheiterst bei Stärke- und Geschicklichkeitsrettungswürfen
+  Resistenz gegen Schaden: automatisch. Du bist gegen alle Immunität gegen Gift: Schadensarten
+  resistent. Du bist gegen den Zustand'
+source_book: SRD 5.2.1

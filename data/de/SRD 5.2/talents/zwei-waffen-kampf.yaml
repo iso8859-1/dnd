@@ -1,0 +1,10 @@
+id: zwei-waffen-kampf
+type: talent
+template: talent-v1
+name: Zwei-Waffen-Kampf
+lang: de
+description: Wenn du als Ergebnis der Eigenschaft Leicht einer Waffe einen zusätzlichen
+  Angriff ausführst, kannst du dem Angriffsschaden deinen Attributs modifikator hinzufügen,
+  sofern du dies nicht
+source_book: SRD 5.2.1
+typ: 'Kampfstil-Talent (Voraussetzung: Kampfstil-Merkmal)'

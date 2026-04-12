@@ -1,0 +1,10 @@
+id: grabbewegungsrate
+type: rule
+template: rule-v1
+name: Grabbewegungsrate
+lang: de
+description: Effekt sich zuerst ereignet. Kreaturen mit Grabbewegungsrate können ihre
+  Bewegung ganz oder teilweise verwenden, um sich durch Sand, Erde, Schlamm oder Eis
+  zu bewegen. Sie können sich nicht durch massives Siehe auch Gestein graben, sofern
+  sie nicht über ein Merkmal verfügen, das ihnen dies gestattet. „Bewegungsrate“.
+source_book: SRD 5.2.1

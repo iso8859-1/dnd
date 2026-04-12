@@ -1,0 +1,9 @@
+id: resistenz
+type: rule
+template: rule-v1
+name: Resistenz
+lang: de
+description: („Aktionen“). Wenn du gegen eine Schadensart resistent bist, ist der
+  Schaden dieser Art gegen dich halbiert Siehe auch (abgerundet). Die Resistenz wird
+  pro Instanz des Schadens nur einmal angewendet.
+source_book: SRD 5.2.1

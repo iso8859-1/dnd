@@ -1,0 +1,14 @@
+id: gabe-des-unwiderstehlichen-angriffs
+type: talent
+template: talent-v1
+name: Gabe des Unwiderstehlichen Angriffs
+lang: de
+description: 'Du erhältst folgende Vorzüge: Attributswerterhöhung: Dein Stärke- oder
+  dein Geschicklichkeitswert wird um 1 Punkt erhöht (auf höchstens 30). Verteidigung
+  überwinden: Jeder Hieb-, Stichund Wuchtschaden, den du bewirkst, ignoriert entsprechende
+  Resistenzen. Überwältigender Schlag: Wenn du bei einem Angriffswurf mit dem W20
+  eine 20 würfelst, kannst du dem Ziel zusätzlichen Schaden in Höhe des durch dieses
+  Talent erhöhten Attributswerts zufügen. Der zusätzliche Schaden ist von der gleichen
+  Art wie der Schaden des Angriffs.'
+source_book: SRD 5.2.1
+typ: 'Epische-Gabe-Talent (Voraussetzung: min. 19. Stufe)'

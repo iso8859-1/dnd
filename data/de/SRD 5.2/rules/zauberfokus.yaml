@@ -1,0 +1,11 @@
+id: zauberfokus
+type: rule
+template: rule-v1
+name: Zauberfokus
+lang: de
+description: Ein Zauberfokus ist ein Gegenstand, den bestimmte Kreaturen anstelle
+  der Materialkomponenten eines Zaubers verwenden können, sofern diese Materialien
+  vom Zauber nicht verbraucht werden und keine Kosten für sie angegeben sind. Manche
+  Klassen erlauben ihren Mitgliedern, bestimmte Siehe auch Arten von Zauberfokussen
+  zu verwenden.
+source_book: SRD 5.2.1

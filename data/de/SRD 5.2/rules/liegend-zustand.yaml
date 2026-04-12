@@ -1,0 +1,14 @@
+id: liegend-zustand
+type: rule
+template: rule-v1
+name: Liegend (Zustand)
+lang: de
+description: '(„Erkundung“). Wenn du den Zustand Liegend hast, wirken folgende Eingeschränkte
+  Bewegung: Effekte auf dich: Deine einzigen Bewegungsmöglichkeiten bestehen darin,
+  entweder zu kriechen oder Bewegung in Höhe der Hälfte deiner Bewegungsrate (abgerundet)
+  zu verbrauchen, um aufzustehen und den Zustand damit zu beenden. Wenn deine Bewegungsrate
+  Beeinträchtigte Angriffe: 0 beträgt, kannst du nicht aufstehen. Du bist bei Angriffs-
+  würfen im Nachteil. Angriffswürfe gegen dich sind im Vorteil, wenn der Angreifer
+  sich im Abstand von bis zu 1,5 Metern von dir befindet. Anderenfalls sind Angriffswürfe
+  gegen dich im Nachteil.'
+source_book: SRD 5.2.1

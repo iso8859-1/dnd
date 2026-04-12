@@ -1,0 +1,9 @@
+id: schwieriges-gelande
+type: rule
+template: rule-v1
+name: Schwieriges Gelände
+lang: de
+description: '„Fliegen“. Wenn ein Bereich schwieriges Gelände ist, kostet jeder Meter
+  Bewegung in diesem Bereich einen zusätzlichen Meter Bewegungsrate. Beispiel: Eine
+  Bewegung von 1,5 Metern in schwierigem Gelände kostet drei Meter Bewegungsrate.'
+source_book: SRD 5.2.1

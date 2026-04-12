@@ -1,0 +1,18 @@
+id: helfen-aktion
+type: rule
+template: rule-v1
+name: Helfen (Aktion)
+lang: de
+description: 'weitergibst, der keine hat. Wenn du die Helfen-Aktion ausführst, vollziehst
+  Einen Attributswurf unterstützen: du eine der folgenden Handlungen: Wähle eine deiner
+  Übungen in einer Fertigkeit oder im Umgang mit Werkzeug sowie einen Verbündeten
+  aus, der dir nahe genug ist, dass du ihn verbal oder physisch unterstützen kannst,
+  wenn er einen Attributswurf ausführt. Der Verbündete ist bei seinem nächsten Attributswurf
+  mit der ausgewählten Fertigkeit oder dem ausgewählten Werkzeug im Vorteil. Dieser
+  Vorzug gilt nur, wenn der Verbündete ihn vor Beginn deines nächsten Zugs einsetzt.
+  Der SL entscheidet, ob deine Hilfe Einen Angriffswurf unterstützen: möglich ist.
+  Du lenkst einen Gegner im Abstand von bis zu 1,5 Metern von dir vorübergehend ab,
+  sodass der nächste Angriffswurf eines deiner Verbündeten gegen ihn im Vorteil ist.
+  Dieser Vorzug gilt nur, wenn der Verbündete ihn vor Beginn deines nächsten Zugs
+  einsetzt.'
+source_book: SRD 5.2.1

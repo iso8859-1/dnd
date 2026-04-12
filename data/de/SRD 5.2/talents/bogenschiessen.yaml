@@ -1,0 +1,8 @@
+id: bogenschiessen
+type: talent
+template: talent-v1
+name: Bogenschießen
+lang: de
+description: Du erhältst einen Bonus von +2 auf alle Angriffswürfe mit Fernkampfwaffen.
+source_book: SRD 5.2.1
+typ: 'Kampfstil-Talent (Voraussetzung: Kampfstil-Merkmal)'

@@ -1,0 +1,13 @@
+id: rettungswurf
+type: rule
+template: rule-v1
+name: Rettungswurf
+lang: de
+description: „Die Spielregeln“ („Schaden und Heilung“). Ein Rettungswurf (RW) repräsentiert
+  den Versuch, Gefahren zu entgehen oder zu widerstehen. Normalerweise führst du nur
+  dann einen Rettungs- wurf aus, wenn eine Regel dies erfordert. Du kannst beschließen,
+  den Rettungswurf misslingen zu lassen, ohne zu würfeln. Das Ergebnis eines Rettungswurfs
+  ist im Effekt beschrieben, der ihn stattfinden lässt. Wenn ein Ziel zu einem Rettungswurf
+  gezwungen wird, den entsprechenden Attributswert jedoch Siehe auch nicht hat, misslingt
+  der Rettungswurf automatisch. „Die Spielregeln“ („W20-Prüfungen“).
+source_book: SRD 5.2.1

@@ -1,0 +1,20 @@
+id: eingeweihter-der-magie
+type: talent
+template: talent-v1
+name: Eingeweihter der Magie
+lang: de
+description: 'Du erhältst folgende Vorzüge: Zwei Zaubertricks: Du beherrschst zwei
+  Zauber- tricks deiner Wahl aus der Zauberliste des Druiden, des Klerikers oder des
+  Magiers. Dein Attribut zum Wirken der Zauber dieses Talents ist Intelligenz, Weisheit
+  oder Charisma (wähle aus, wenn du dieses Talent auswählst). Zauber des 1. Grades:
+  Wähle einen Zauber des 1. Grades von der Liste aus, die du für die Zaubertricks
+  dieses Talents ausgewählt hast. Du hast diesen Zauber stets vorbereitet. Du kannst
+  ihn einmal wirken, ohne einen Zauberplatz zu verbrauchen. Diese Fähigkeit erhältst
+  du nach einer langen Rast zurück. Du kannst den Zauber auch mit einem beliebigen
+  verfügbaren Zauberplatz wirken. Zauberwechsel: Wann immer du eine neue Stufe erhältst,
+  kannst du einen der Zauber, die du für dieses Talent ausgewählt hast, durch einen
+  anderen Zauber des gleichen Grades von der ausgewählten Zauberliste ersetzen. Kann
+  wiederholt werden: Du kannst dieses Talent mehr als einmal verwenden, aber du musst
+  jedes Mal eine andere Zauberliste auswählen.'
+source_book: SRD 5.2.1
+typ: Herkunftstalent

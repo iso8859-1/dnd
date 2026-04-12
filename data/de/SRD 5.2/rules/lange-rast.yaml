@@ -1,0 +1,12 @@
+id: lange-rast
+type: rule
+template: rule-v1
+name: Lange Rast
+lang: de
+description: Vorzüge. Eine lange Rast ist eine ausgedehnte Ruhepause von mindestens
+  acht Stunden, die jeder Kreatur zur Verfügung steht. Während einer langen Rast schläfst
+  du mindestens sechs Stunden lang und führst höchstens zwei Stunden lang leichte
+  Aktivitäten wie Lesen, Reden, Essen oder Wache halten aus. Während du schläfst,
+  hast du den Zustand Bewusstlos. Hast du eine lange Rast beendest, so musst du mindestens
+  16 Stunden warten, ehe du die nächste beginnst.
+source_book: SRD 5.2.1

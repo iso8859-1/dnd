@@ -1,0 +1,13 @@
+id: zustand
+type: rule
+template: rule-v1
+name: Zustand
+lang: de
+description: 'werden. Ein Zustand ist ein vorübergehender Spielstatus. In der Definition
+  des Zustands ist angegeben, wie er auf die betroffene Kreatur wirkt. Verschiedene
+  Regeln definieren, wie ein Zustand beendet werden kann. In diesem Glossar werden
+  folgende Zustände BetäubtFestgesetztTaub definiert: BewusstlosGelähmtUnsichtbar
+  BezaubertGepacktVerängstigt BlindKampfunfähigVergiftet ErschöpftLiegendVersteinert
+  Ein Zustand kann sich nicht auf sich selbst addieren: Entweder hat eine Kreatur
+  einen bestimmten Zustand, oder sie hat ihn nicht. Die einzige Ausnahme dieser'
+source_book: SRD 5.2.1

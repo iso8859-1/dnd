@@ -1,0 +1,8 @@
+id: immunitat
+type: rule
+template: rule-v1
+name: Immunität
+lang: de
+description: räumlichen Gegebenheiten Echos. Wenn du gegen eine Schadensart oder einen
+  Zustand immun bist, kannst du davon in keiner
+source_book: SRD 5.2.1

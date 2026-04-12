@@ -1,0 +1,8 @@
+id: besetzter-bereich
+type: rule
+template: rule-v1
+name: Besetzter Bereich
+lang: de
+description: Zauber beendet werden. Ein Bereich ist besetzt, wenn sich eine Kreatur
+  darin befindet oder er vollständig mit Gegenständen angefüllt ist.
+source_book: SRD 5.2.1

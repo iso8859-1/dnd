@@ -1,0 +1,12 @@
+id: gabe-der-zaubererinnerung
+type: talent
+template: talent-v1
+name: Gabe der Zaubererinnerung
+lang: de
+description: 'Du erhältst folgende Vorzüge: Attributswerterhöhung: Dein Intelligenz-,
+  dein Weisheits- oder dein Charismawert wird um 1 Punkt erhöht (auf maximal 30).
+  Freies Zauberwirken: Wann immer du einen Zauber mit einem Zauberplatz des 1. bis
+  4. Grades wirkst, würfle mit 1W4. Wenn das Würfelergebnis dem Grad des Zauberplatzes
+  entspricht, so wird dieser nicht verbraucht.'
+source_book: SRD 5.2.1
+typ: 'Epische-Gabe-Talent (Voraussetzung: min. 19. Stufe, Merkmal Zauberwirken)'

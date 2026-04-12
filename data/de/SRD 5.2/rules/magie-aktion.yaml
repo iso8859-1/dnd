@@ -1,0 +1,13 @@
+id: magie-aktion
+type: rule
+template: rule-v1
+name: Magie (Aktion)
+lang: de
+description: beschließt dies. Wenn du eine magische Aktion ausführst, wirkst du einen
+  Zauber mit dem Zeitaufwand von einer Aktion oder verwendest ein Merkmal oder einen
+  magischen Gegenstand, bei dem eine magische Aktion zum Aktivieren erforderlich ist.
+  Wenn du einen Zauber wirkst, dessen Zeitauf- wand mindestens eine Minute beträgt,
+  musst du die magische Aktion in jedem Zug während des Zeitaufwands ausführen und
+  währenddessen deine Konzentration aufrechterhalten. Wird deine Konzentration unterbrochen,
+  so misslingt der Siehe auch Zauber. In diesem Fall wird der Zauberplatz nicht
+source_book: SRD 5.2.1

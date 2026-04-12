@@ -1,0 +1,8 @@
+id: spielercharakter
+type: rule
+template: rule-v1
+name: Spielercharakter
+lang: de
+description: (Athletik) erfordern. Siehe auch Ein Spielercharakter ist ein Charakter,
+  der von einem Spieler kontrolliert wird.
+source_book: SRD 5.2.1

@@ -1,0 +1,12 @@
+id: erschutterungssinn
+type: rule
+template: rule-v1
+name: Erschütterungssinn
+lang: de
+description: fungsstufen mehr hast, endet der Zustand. Eine Kreatur mit Erschütterungssinn
+  kennt den Ort von Kreaturen und bewegten Gegenständen innerhalb einer bestimmten
+  Reichweite, sofern sie und die erkannten Ziele beide in Kontakt mit derselben Oberfläche
+  (dem Boden, einer Wand, einer Decke) oder derselben Flüssigkeit sind. Erschütterungssinn
+  kann keine Kreaturen oder Gegenstände in der Luft erspüren und zählt nicht als Form
+  der Sicht.
+source_book: SRD 5.2.1

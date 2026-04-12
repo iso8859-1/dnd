@@ -28,19 +28,17 @@ def test_load_card_valid(fixture_path: Path) -> None:
 
 
 def test_load_card_missing_required_field(tmp_path: Path) -> None:
-    # All required fields except 'level'
-    missing_level = tmp_path / "no_level.yaml"
-    missing_level.write_text(
-        "id: x\ntype: spell\ntemplate: t\nname: X\nlang: en\n"
-        "school: Evoc\ncasting_time: 1a\nrange: 10ft\ncomponents: V\n"
-        "duration: 1r\ndescription: d\n",
+    # `description` is required for every card type
+    missing_desc = tmp_path / "no_description.yaml"
+    missing_desc.write_text(
+        "id: x\ntype: talent\ntemplate: talent-v1\nname: X\nlang: de\n",
         encoding="utf-8",
     )
     with pytest.raises(ValidationError) as exc_info:
-        load_card(missing_level)
+        load_card(missing_desc)
     err = str(exc_info.value)
-    assert "level" in err
-    assert str(missing_level) in err
+    assert "description" in err
+    assert str(missing_desc) in err
 
 
 def test_load_card_malformed_yaml_raises_yaml_parse_error(fixture_path: Path) -> None:

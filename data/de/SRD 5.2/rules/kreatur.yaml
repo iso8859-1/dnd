@@ -1,0 +1,8 @@
+id: kreatur
+type: rule
+template: rule-v1
+name: Kreatur
+lang: de
+description: endet, wenn du kampfunfähig wirst oder stirbst. Siehe auch Alle Wesen
+  im Spiel einschließlich der Spieler-
+source_book: SRD 5.2.1

@@ -27,8 +27,14 @@ __all__ = ["register_fonts", "compose_pdf"]
 _MM_TO_PT: float = 72.0 / 25.4
 _CARDS_PER_PAGE: int = CARDS_PER_ROW  # 4 strips per A4 landscape page
 
-# Design tokens
-_VIOLET: tuple[float, float, float] = (0.75, 0.62, 0.85)  # pastel violet
+# Per-type header/border colours (RGB 0–1)
+_CARD_COLORS: dict[str, tuple[float, float, float]] = {
+    "spell":  (0.75, 0.62, 0.85),  # pastel violet
+    "talent": (0.62, 0.62, 0.65),  # pastel grey
+    "rule":   (0.62, 0.62, 0.65),  # pastel grey
+}
+_DEFAULT_COLOR: tuple[float, float, float] = (0.62, 0.62, 0.65)
+
 _HEADER_MM: float = 7.5   # header band height
 _BORDER_PT: float = 2.0   # border stroke width
 
@@ -36,7 +42,7 @@ _BORDER_PT: float = 2.0   # border stroke width
 _WRAP_7PT: int = 40
 _WRAP_6PT: int = 48
 
-# Field rows drawn in the front-face content area
+# Field rows drawn in the spell front-face content area
 _FIELDS: list[tuple[str, str]] = [
     ("Zeit", "casting_time"),
     ("Reichweite", "range"),
@@ -48,6 +54,11 @@ _FIELDS: list[tuple[str, str]] = [
 def _mm(mm: float) -> float:
     """Convert millimetres to ReportLab points."""
     return mm * _MM_TO_PT
+
+
+def _card_color(card_type: str) -> tuple[float, float, float]:
+    """Return the header/border colour for the given card type."""
+    return _CARD_COLORS.get(card_type, _DEFAULT_COLOR)
 
 
 def _wrap(text: str, max_chars: int) -> list[str]:
@@ -117,14 +128,11 @@ def compose_pdf(cards: list[CardData], output_path: Path | BytesIO) -> None:
 # ── Drawing helpers ────────────────────────────────────────────────────────────
 
 def _fill_header(
-    c: Any, x: float, y_top: float, w: float, h: float, r: float
+    c: Any, x: float, y_top: float, w: float, h: float, r: float,
+    color: tuple[float, float, float],
 ) -> None:
-    """Fill a header band in pastel violet with rounded top corners.
-
-    The bottom edge is kept straight by overdrawing the rounded bottom corners
-    of the roundRect with a plain rect of height r.
-    """
-    rv, gv, bv = _VIOLET
+    """Fill a header band with rounded top corners and a straight bottom edge."""
+    rv, gv, bv = color
     c.setFillColorRGB(rv, gv, bv)
     # Rounded rect gives rounded corners on all 4 sides of the band
     c.roundRect(x, y_top - h, w, h, r, stroke=0, fill=1)
@@ -133,18 +141,22 @@ def _fill_header(
 
 
 def _half_border(
-    c: Any, x: float, y: float, w: float, h: float, r: float
+    c: Any, x: float, y: float, w: float, h: float, r: float,
+    color: tuple[float, float, float],
 ) -> None:
-    """Draw the 2pt pastel-violet rounded border for one card half."""
-    rv, gv, bv = _VIOLET
+    """Draw the 2pt rounded border for one card half."""
+    rv, gv, bv = color
     c.setLineWidth(_BORDER_PT)
     c.setStrokeColorRGB(rv, gv, bv)
     c.roundRect(x, y, w, h, r, stroke=1, fill=0)
 
 
-def _draw_sparkle(c: Any, cx: float, cy: float, r: float) -> None:
-    """Draw a 4-pointed star in pastel violet at (cx, cy) with outer radius r."""
-    rv, gv, bv = _VIOLET
+def _draw_sparkle(
+    c: Any, cx: float, cy: float, r: float,
+    color: tuple[float, float, float],
+) -> None:
+    """Draw a 4-pointed star at (cx, cy) with outer radius r."""
+    rv, gv, bv = color
     c.setFillColorRGB(rv, gv, bv)
     p = c.beginPath()
     inner = r * 0.38
@@ -161,9 +173,12 @@ def _draw_sparkle(c: Any, cx: float, cy: float, r: float) -> None:
     c.drawPath(p, stroke=0, fill=1)
 
 
-def _draw_spellbook_icon(c: Any, cx: float, cy: float, size: float) -> None:
-    """Draw a stylised spellbook in pastel violet, centred at (cx, cy)."""
-    rv, gv, bv = _VIOLET
+def _draw_spellbook_icon(
+    c: Any, cx: float, cy: float, size: float,
+    color: tuple[float, float, float],
+) -> None:
+    """Draw a stylised spellbook centred at (cx, cy)."""
+    rv, gv, bv = color
     dv = rv * 0.72, gv * 0.72, bv * 0.72  # darker shade for spine / outline
 
     bw = size * 0.68
@@ -195,7 +210,94 @@ def _draw_spellbook_icon(c: Any, cx: float, cy: float, size: float) -> None:
         c.line(lx0, py, lx1, py)
 
     # Sparkle above book
-    _draw_sparkle(c, cx, by + bh + size * 0.20, size * 0.15)
+    _draw_sparkle(c, cx, by + bh + size * 0.20, size * 0.15, color)
+
+
+def _draw_shield_icon(
+    c: Any, cx: float, cy: float, size: float,
+    color: tuple[float, float, float],
+) -> None:
+    """Draw a pointed shield icon centred at (cx, cy)."""
+    rv, gv, bv = color
+    dv = rv * 0.72, gv * 0.72, bv * 0.72
+    sw = size * 0.70
+    sh = size * 0.85
+    sx = cx - sw / 2
+    sy = cy - sh / 2
+
+    # Shield body: top rectangle + bottom triangle pointing down
+    p = c.beginPath()
+    p.moveTo(sx, sy + sh * 0.55)            # bottom-left of rect portion
+    p.lineTo(sx, sy + sh)                   # top-left
+    p.lineTo(sx + sw, sy + sh)              # top-right
+    p.lineTo(sx + sw, sy + sh * 0.55)       # bottom-right of rect portion
+    p.lineTo(cx, sy)                        # bottom point
+    p.close()
+    c.setFillColorRGB(rv, gv, bv)
+    c.setStrokeColorRGB(*dv)
+    c.setLineWidth(1.2)
+    c.drawPath(p, stroke=1, fill=1)
+
+    # Cross symbol (white lines)
+    c.setStrokeColorRGB(1.0, 1.0, 1.0)
+    c.setLineWidth(1.5)
+    mid_y = sy + sh * 0.72
+    c.line(cx, sy + sh * 0.48, cx, sy + sh * 0.96)        # vertical
+    c.line(sx + sw * 0.22, mid_y, sx + sw * 0.78, mid_y)  # horizontal
+
+    _draw_sparkle(c, cx, sy - size * 0.18, size * 0.14, color)
+
+
+def _draw_scroll_icon(
+    c: Any, cx: float, cy: float, size: float,
+    color: tuple[float, float, float],
+) -> None:
+    """Draw a rolled scroll icon centred at (cx, cy)."""
+    rv, gv, bv = color
+    dv = rv * 0.72, gv * 0.72, bv * 0.72
+    rw = size * 0.68
+    rh = size * 0.80
+    roll = size * 0.10   # rolled-end height
+    rx = cx - rw / 2
+    ry = cy - rh / 2
+
+    # Scroll body fill
+    c.setFillColorRGB(rv, gv, bv)
+    c.rect(rx, ry + roll, rw, rh - 2 * roll, stroke=0, fill=1)
+
+    # Rolled ends (ellipses approximated with filled roundRects)
+    c.roundRect(rx, ry + rh - roll * 2, rw, roll * 2, roll * 0.8,
+                stroke=0, fill=1)
+    c.roundRect(rx, ry, rw, roll * 2, roll * 0.8, stroke=0, fill=1)
+
+    # Outline
+    c.setLineWidth(1.2)
+    c.setStrokeColorRGB(*dv)
+    c.roundRect(rx, ry, rw, rh, roll * 0.5, stroke=1, fill=0)
+
+    # Text lines (white)
+    c.setStrokeColorRGB(1.0, 1.0, 1.0)
+    c.setLineWidth(0.8)
+    lx0 = rx + rw * 0.12
+    lx1 = rx + rw * 0.88
+    for frac in (0.35, 0.52, 0.69):
+        py = ry + rh * frac
+        c.line(lx0, py, lx1, py)
+
+    _draw_sparkle(c, cx, ry - size * 0.18, size * 0.14, color)
+
+
+def _draw_back_icon(
+    c: Any, cx: float, cy: float, size: float,
+    card_type: str, color: tuple[float, float, float],
+) -> None:
+    """Dispatch to the correct back-face icon based on card type."""
+    if card_type == "spell":
+        _draw_spellbook_icon(c, cx, cy, size, color)
+    elif card_type == "talent":
+        _draw_shield_icon(c, cx, cy, size, color)
+    else:
+        _draw_scroll_icon(c, cx, cy, size, color)
 
 
 # ── Main strip drawing ─────────────────────────────────────────────────────────
@@ -205,21 +307,15 @@ def _draw_strip(
 ) -> None:
     """Draw both card faces onto the portrait strip.
 
-    Top half    (y+fold_h → y+h): front face — violet header with title,
-                                   then spell fields, then description.
+    Top half    (y+fold_h → y+h): front face — header with title,
+                                   then type-specific content.
     Bottom half (y → y+fold_h):   back face — drawn rotated 180° so it
                                    reads correctly after a forward fold.
-                                   Contains a matching violet header and a
-                                   centred spellbook icon.
+                                   Contains a matching header and a
+                                   centred type-specific icon.
 
     Two separate rounded borders (one per half) ensure all four corners of
     the folded card are rounded after the plotter cuts each half.
-
-    Back-face rotation logic:
-      translate(x+w, y+fold_h) + rotate(180°) maps local (lx, ly) to
-      page (x+w-lx, y+fold_h-ly).  drawString at local (pad, fold_h-offset)
-      places text at page (x+w-pad, y+offset); the text extends page-leftward
-      which, after the forward fold's left-right mirror, reads left-to-right.
     """
     fold_h = _mm(CARD_FOLDED_HEIGHT_MM)   # 249.45 pt
     r = _mm(CARD_CORNER_RADIUS_MM)
@@ -228,14 +324,15 @@ def _draw_strip(
     line7 = 11.0                          # line height for 7 pt text
     line6 = 8.0                           # line height for 6 pt text
 
-    level_school = f"Stufe {ctx['level']} \u00b7 {ctx['school']}"
+    card_type = str(ctx.get("type", "spell"))
+    color = _card_color(card_type)
 
     # ── Front face ─────────────────────────────────────────────────────────────
     front_top = y + h
     front_bottom = y + fold_h
 
-    _fill_header(c, x, front_top, w, header_h, r)
-    _half_border(c, x, front_bottom, w, fold_h, r)
+    _fill_header(c, x, front_top, w, header_h, r, color)
+    _half_border(c, x, front_bottom, w, fold_h, r, color)
 
     # Title — white text centred vertically in header
     c.setFillColorRGB(1.0, 1.0, 1.0)
@@ -244,25 +341,60 @@ def _draw_strip(
 
     # Content fields — black text below header
     c.setFillColorRGB(0.0, 0.0, 0.0)
-    line_y = front_top - header_h
-    c.setFont("Helvetica", 7)
-    line_y -= 10
-    c.drawString(x + pad, line_y, level_school)
 
-    for label, key in _FIELDS:
-        for line in _wrap(f"{label}: {ctx[key]}", _WRAP_7PT):
-            line_y -= line7
+    if card_type == "spell":
+        # ── Spell front face ────────────────────────────────────────────────────
+        level_school = f"Stufe {ctx['level']} \u00b7 {ctx['school']}"
+        line_y = front_top - header_h
+        c.setFont("Helvetica", 7)
+        line_y -= 10
+        c.drawString(x + pad, line_y, level_school)
+
+        for label, key in _FIELDS:
+            for line in _wrap(f"{label}: {ctx[key]}", _WRAP_7PT):
+                line_y -= line7
+                if line_y < front_bottom + 4:
+                    break
+                c.drawString(x + pad, line_y, line)
+
+        c.setFont("Helvetica", 6)
+        line_y -= 6
+        for dl in _wrap(str(ctx["description"]), _WRAP_6PT):
+            line_y -= line6
             if line_y < front_bottom + 4:
                 break
-            c.drawString(x + pad, line_y, line)
+            c.drawString(x + pad, line_y, dl)
+    else:
+        # ── Generic front face (talent / rule) ──────────────────────────────────
+        # typ (category), then description, then source_book at bottom
+        line_y = front_top - header_h
+        if ctx.get("typ"):
+            c.setFont("Helvetica-Oblique", 7)
+            line_y -= 10
+            for tl in _wrap(str(ctx["typ"]), _WRAP_7PT):
+                c.drawString(x + pad, line_y, tl)
+                line_y -= line7
+                if line_y < front_bottom + 4:
+                    break
+        else:
+            line_y -= 6
 
-    c.setFont("Helvetica", 6)
-    line_y -= 6
-    for dl in _wrap(str(ctx["description"]), _WRAP_6PT):
-        line_y -= line6
-        if line_y < front_bottom + 4:
-            break
-        c.drawString(x + pad, line_y, dl)
+        c.setFont("Helvetica", 6)
+        line_y -= 4
+        src = ctx.get("source_book")
+        # Reserve space for source_book line at bottom
+        bottom_reserve = (front_bottom + 4 + line6 + 4) if src else (front_bottom + 4)
+        for dl in _wrap(str(ctx["description"]), _WRAP_6PT):
+            line_y -= line6
+            if line_y < bottom_reserve:
+                break
+            c.drawString(x + pad, line_y, dl)
+
+        if src:
+            c.setFont("Helvetica", 6)
+            c.setFillColorRGB(0.4, 0.4, 0.4)
+            c.drawString(x + pad, front_bottom + 6, str(src))
+            c.setFillColorRGB(0.0, 0.0, 0.0)
 
     # ── Fold guide ─────────────────────────────────────────────────────────────
     c.setLineWidth(0.25)
@@ -280,15 +412,15 @@ def _draw_strip(
     c.translate(x + w, y + fold_h)
     c.rotate(180)
 
-    _fill_header(c, 0.0, fold_h, w, header_h, r)
-    _half_border(c, 0.0, 0.0, w, fold_h, r)
+    _fill_header(c, 0.0, fold_h, w, header_h, r, color)
+    _half_border(c, 0.0, 0.0, w, fold_h, r, color)
 
     # Title in back header
     c.setFillColorRGB(1.0, 1.0, 1.0)
     c.setFont("Helvetica-Bold", 9)
     c.drawString(pad, fold_h - header_h / 2 - 3, str(ctx["name"]))
 
-    # Spellbook icon centred in the back content area
-    _draw_spellbook_icon(c, w / 2, (fold_h - header_h) / 2, _mm(22))
+    # Type-specific icon centred in the back content area
+    _draw_back_icon(c, w / 2, (fold_h - header_h) / 2, _mm(22), card_type, color)
 
     c.restoreState()

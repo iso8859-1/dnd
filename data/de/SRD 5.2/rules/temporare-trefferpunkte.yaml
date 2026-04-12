@@ -1,0 +1,9 @@
+id: temporare-trefferpunkte
+type: rule
+template: rule-v1
+name: Temporäre Trefferpunkte
+lang: de
+description: sehen können musst. Temporäre Trefferpunkte werden durch bestimmte Siehe
+  auch Effekte gewährt. Sie fungieren als Puffer, um weniger echte Trefferpunkte zu
+  verlieren.
+source_book: SRD 5.2.1

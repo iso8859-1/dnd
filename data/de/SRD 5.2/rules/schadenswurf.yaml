@@ -1,0 +1,9 @@
+id: schadenswurf
+type: rule
+template: rule-v1
+name: Schadenswurf
+lang: de
+description: so erleidet er diesen gesamten Schaden. Ein Schadenswurf ist ein Würfelwurf,
+  der von Siehe auch relevanten Modifikatoren beeinflusst wird und einem Ziel Schaden
+  zufügt.
+source_book: SRD 5.2.1

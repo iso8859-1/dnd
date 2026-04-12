@@ -1,0 +1,14 @@
+id: beeinflussen-aktion
+type: rule
+template: rule-v1
+name: Beeinflussen (Aktion)
+lang: de
+description: 'bist oder deine Bewegungsrate 0 beträgt. Mit der Beeinflussen-Aktion
+  kannst du ein Monster zu etwas drängen. Beschreibe oder stelle rollenspie- lerisch
+  dar, wie du mit dem Monster kommunizierst. Versuchst du, es zu täuschen, einzuschüchtern,
+  zu amüsieren oder zu überreden? Der SL bestimmt dann, ob das Monster bereitwillig,
+  nicht bereitwillig oder zögerlich auf deine Interaktion reagiert. Daraus ergibt
+  sich, ob ein Attributswurf erforderlich ist, Bereitwillig: wie unten erläutert.
+  Wenn deine Beeinflussung mit den Interessen des Monsters übereinstimmt, ist kein
+  Attributswurf erforderlich: Das Monster kommt deinen Wünschen auf seine Art nach.'
+source_book: SRD 5.2.1

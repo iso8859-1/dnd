@@ -1,0 +1,10 @@
+id: betaubt-zustand
+type: rule
+template: rule-v1
+name: Betäubt (Zustand)
+lang: de
+description: 'Wenn du den Zustand Betäubt hast, wirken Kampfunfähig: folgende Effekte
+  auf dich: Du hast den Zustand Beeinträchtigte Rettungswürfe: Kampfunfähig. Du scheiterst
+  bei Stärke- und Geschicklichkeitsrettungswürfen Beeinträchtigte Angriffe: automatisch.
+  Angriffswürfe gegen'
+source_book: SRD 5.2.1

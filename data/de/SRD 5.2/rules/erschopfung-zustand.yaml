@@ -1,0 +1,15 @@
+id: erschopfung-zustand
+type: rule
+template: rule-v1
+name: Erschöpfung (Zustand)
+lang: de
+description: 'Charakters erhöht. „Stufenaufstiege“. Wenn du den Zustand Erschöpft
+  hast, wirken Erschöpfungsstufen: folgende Effekte auf dich: Dieser Zustand ist kumulativ.
+  Wann immer er auf dich wirkt, erhältst du 1 Erschöpfungsstufe hinzu. Wenn du sechs
+  Beeinträchtigte W20-Prüfungen: Erschöpfungsstufen hast, stirbst du. Wenn du eine
+  W20-Prüfung ausführst, ist das Ergebnis um einen Betrag in doppelter Höhe deiner
+  Verringerte Bewegungsrate: Erschöpfungsstufen verringert. Deine Bewegungs- rate
+  ist um eine Anzahl von Metern in Höhe des Erschöpfungsstufen entfernen: 1,5-Fachen
+  deiner Erschöpfungsstufe verringert. Wenn du eine lange Rast abschließt, wird eine
+  deiner Erschöp- fungsstufen entfernt. Sobald du keine Erschöp-'
+source_book: SRD 5.2.1

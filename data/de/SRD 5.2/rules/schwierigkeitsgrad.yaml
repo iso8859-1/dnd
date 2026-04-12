@@ -1,0 +1,8 @@
+id: schwierigkeitsgrad
+type: rule
+template: rule-v1
+name: Schwierigkeitsgrad
+lang: de
+description: Der Schwierigkeitsgrad (SG) ist der Zielwert für Siehe auch einen Attributswurf
+  oder einen Rettungswurf.
+source_book: SRD 5.2.1

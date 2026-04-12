@@ -1,0 +1,11 @@
+id: fliegen
+type: rule
+template: rule-v1
+name: Fliegen
+lang: de
+description: Geschicklichkeitsrettungswürfen im Nachteil. Verschiedene Effekte können
+  eine Kreatur flugfähig machen. Wenn du im Flug einen der Zustände Kampfunfähig oder
+  Liegend erhältst oder deine Flugbewegungsrate auf 0 sinkt, stürzt du ab. Siehe auch
+  Du kannst unter diesen Umständen in der Luft bleiben, sofern du schweben kannst.
+  „Flugbewegungsrate“ und „Stürzen“.
+source_book: SRD 5.2.1

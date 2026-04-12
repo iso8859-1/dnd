@@ -1,0 +1,9 @@
+id: abrunden
+type: rule
+template: rule-v1
+name: Abrunden
+lang: de
+description: „Begegnung“. Wenn eine Zahl im Spiel multipliziert oder geteilt wird,
+  rundest du das Ergebnis gegebenenfalls ab. Selbst bei Dezimalstellen größer als
+  fünf wird abgerundet. Manche Regeln machen eine Ausnahme
+source_book: SRD 5.2.1

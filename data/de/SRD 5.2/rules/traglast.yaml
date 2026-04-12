@@ -1,0 +1,14 @@
+id: traglast
+type: rule
+template: rule-v1
+name: Traglast
+lang: de
+description: Deine Größe und dein Stärkewert bestimmen das maximale Gewicht in Kilogramm,
+  das du tragen kannst, wie in der Tabelle „Traglast“ dargestellt. In der Tabelle
+  ist außerdem aufgeführt, welches Gewicht du höchstens ziehen, anheben und schieben
+  kannst. Wenn du ein Gewicht ziehst, anhebst oder schiebst, das deine Traglast überschreitet,
+  beträgt Tderiangel aBsetwegungsrate höchstens 1,5 Meter. Anheben/ KreaturengrößeTragenSchieben/Ziehen
+  WinzigStä. × 3,75 kgStä. × 7,5 kg Klein/MittelgroßStä. × 7,5 kgStä. × 15 kg GroßStä.
+  × 15 kgStä. × 30 kg RiesigStä. × 30 kgStä. × 60 kg GigantischStä. × 60 kgStä. ×
+  120 kg
+source_book: SRD 5.2.1

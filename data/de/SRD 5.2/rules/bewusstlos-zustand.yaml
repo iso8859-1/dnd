@@ -1,0 +1,10 @@
+id: bewusstlos-zustand
+type: rule
+template: rule-v1
+name: Bewusstlos (Zustand)
+lang: de
+description: 'ebenfalls halbiert. Wenn du den Zustand Bewusstlos hast, wirken Inert:
+  folgende Effekte auf dich: Du hast die Zustände Kampfunfähig und Liegend, und du
+  lässt fallen, was immer du gehalten hast. Wenn dieser Zustand endet, bist du weiterhin
+  liegend.'
+source_book: SRD 5.2.1

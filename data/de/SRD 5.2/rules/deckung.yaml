@@ -1,0 +1,13 @@
+id: deckung
+type: rule
+template: rule-v1
+name: Deckung
+lang: de
+description: 'und „Die Spielregeln“ („Erkundung“). Deckung bietet einem Ziel dahinter
+  ein gewisses Maß an Schutz. Es gibt drei Deckungsgrade, von denen jeder dem Ziel
+  einen anderen Vorzug bietet: Teildeckung (Bonus von +2 auf RK und Geschick- lichkeitsrettungswürfe),
+  Dreivierteldeckung (Bonus von +5 auf RK und Geschicklichkeitsrettungs- würfe) und
+  vollständige Deckung (das Ziel kann nicht direkt anvisiert werden). Für ein Ziel
+  hinter Siehe auch verschiedenen Deckungsgraden gilt nur der Grad, der den höchsten
+  Schutz bietet.'
+source_book: SRD 5.2.1

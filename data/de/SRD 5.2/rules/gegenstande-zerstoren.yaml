@@ -1,0 +1,13 @@
+id: gegenstande-zerstoren
+type: rule
+template: rule-v1
+name: Gegenstände zerstören
+lang: de
+description: '„Gegenstände zerstören“. Gegenstände können durch Angriffe und manche
+  Zauber beschädigt werden. Dabei gelten die Regeln unten. Wenn ein Gegenstand besonders
+  empfindlich ist, kann der SL einer Kreatur gestatten, ihn mit der Angriffs- oder
+  Verwenden-Aktion automatisch zu Rüstungsklasse: zerstören. In der Tabelle „Rüstungsklasse
+  eines Gegenstands“ findest du RK-Vorschläge für Rveürsstcuhniegdseknlea sMseat eeriniaelise
+  nG.egenstands RKMaterialRKMaterial 11Papier, Seil, Stoff19Eisen, Stahl 13Eis, Glas,
+  Kristall21Mithral 15Holz23Adamant 17Stein'
+source_book: SRD 5.2.1

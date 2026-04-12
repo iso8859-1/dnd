@@ -1,0 +1,16 @@
+id: konzentration
+type: rule
+template: rule-v1
+name: Konzentration
+lang: de
+description: 'und „Die Spielregeln“ („Erkundung“). Manche Zauber und andere Effekte
+  erfordern Konzentration, um aktiv zu bleiben. Dies ist in ihrer Beschreibung angegeben.
+  Wenn der Wirker des Effekts seine Konzentration verliert, endet der Effekt. Hat
+  der Effekt eine maximale Wirkungsdauer, so ist in der Beschreibung des Effekts angegeben,
+  wie lange der Wirker sich auf ihn konzentrieren kann: „Bis zu 1 Minute“, „1 Stunde“
+  oder eine andere Dauer. Der Wirker kann seine Konzentration jederzeit beenden –
+  dazu ist keine Aktion erforderlich. Folgende Faktoren stören Weiterer Effekt, der
+  Konzentration erfordert: oder beenden die Konzentration: Du verlierst die Konzentration
+  auf einen Effekt, sobald du einen Zauber oder einen sonstigen Effekt wirkst, der
+  ebenfalls Konzentration erfordert.'
+source_book: SRD 5.2.1

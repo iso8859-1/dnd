@@ -1,0 +1,13 @@
+id: gepackt-zustand
+type: rule
+template: rule-v1
+name: Gepackt (Zustand)
+lang: de
+description: '„Die Spielregeln“ („Kampf“). Wenn du den Zustand Gepackt hast, wirken
+  folgende Keine Bewegungsrate: Effekte auf dich: Deine Bewegungsrate Beeinträchtigte
+  Angriffe: beträgt 0 und kann nicht erhöht werden. Du bist bei Angriffs- würfen gegen
+  alle Ziele außer der Kreatur, die dich Beweglich: gepackt hält, im Nachteil. Die
+  Kreatur, die dich gepackt hält, kann dich ziehen oder tragen, wenn sie sich bewegt.
+  Allerdings kostet sie dies doppelt so viel Bewegung, sofern du nicht winzig oder
+  um mindestens zwei'
+source_book: SRD 5.2.1

@@ -1,0 +1,9 @@
+id: todesrettungswurf
+type: rule
+template: rule-v1
+name: Todesrettungswurf
+lang: de
+description: „Die Spielregeln“ („Schaden und Heilung“). Wenn Spielercharakter seinen
+  Zug mit 0 Treffer- Siehe auch punkten beginnt, muss er einen Todesrettungswurf ausführen.
+  „Die Spielregeln“ („Schaden
+source_book: SRD 5.2.1

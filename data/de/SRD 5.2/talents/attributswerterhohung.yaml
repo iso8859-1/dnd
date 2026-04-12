@@ -1,0 +1,10 @@
+id: attributswerterhohung
+type: talent
+template: talent-v1
+name: Attributswerterhöhung
+lang: de
+description: 'Erhöhe einen Attributswert deiner Wahl um 2 Punkte oder zwei Attributswerte
+  deiner Wahl um je 1 Punkt. Kein Attribut kann dadurch einen Wert von 20 überschreiten.
+  Kann wiederholt werden: Du kannst dieses Talent mehr als einmal verwenden.'
+source_book: SRD 5.2.1
+typ: 'Allgemeines Talent (Voraussetzung: min. 4. Stufe)'

@@ -25,13 +25,16 @@ class CardData(BaseModel):
     template: str
     name: str
     lang: Language
-    level: int
-    school: str
-    casting_time: str
-    range: str
-    components: str
-    duration: str
-    description: str
+    # Spell-specific — None for talent/rule cards
+    level: Optional[int] = None
+    school: Optional[str] = None
+    casting_time: Optional[str] = None
+    range: Optional[str] = None
+    components: Optional[str] = None
+    duration: Optional[str] = None
+    # Shared optional fields
+    typ: Optional[str] = None          # talent category string
+    description: str                   # required for all types
     edition: Optional[str] = None
     source_book: Optional[str] = None
 

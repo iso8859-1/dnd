@@ -1,0 +1,10 @@
+id: spurt-aktion
+type: rule
+template: rule-v1
+name: Spurt (Aktion)
+lang: de
+description: 'und „Weitsprung“. Wenn du die Spurt-Aktion ausführst, erhältst du für
+  diesen Zug zusätzliche Bewegung. Dieser Zuwachs entspricht der Höhe deiner Bewegungsrate
+  einschließlich relevanter Modifikatoren. Beispiel: Bei einer Bewegungsrate von neun
+  Metern kannst du dich mit einem Spurt insgesamt bis zu 18 Meter'
+source_book: SRD 5.2.1

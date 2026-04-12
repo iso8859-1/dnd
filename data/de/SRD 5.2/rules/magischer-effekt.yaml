@@ -1,0 +1,9 @@
+id: magischer-effekt
+type: rule
+template: rule-v1
+name: Magischer Effekt
+lang: de
+description: verbraucht. „Konzentration“. Ein Effekt ist magisch, wenn er durch einen
+  Zauber, einen magischen Gegenstand oder ein Phänomen erzeugt wird, das durch eine
+  Regel als magisch
+source_book: SRD 5.2.1

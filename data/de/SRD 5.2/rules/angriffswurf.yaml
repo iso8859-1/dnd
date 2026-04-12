@@ -1,0 +1,8 @@
+id: angriffswurf
+type: rule
+template: rule-v1
+name: Angriffswurf
+lang: de
+description: Ein Angriffswurf ist eine W20-Prüfung, die einen Siehe auch Angriff mit
+  einer Waffe, einen waffenlosen Angriff oder einen Zauberangriff repräsentiert.
+source_book: SRD 5.2.1

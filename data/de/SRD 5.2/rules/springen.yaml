@@ -1,0 +1,8 @@
+id: springen
+type: rule
+template: rule-v1
+name: Springen
+lang: de
+description: „Charaktererstellung“. Beim Springen kannst du entweder einen Siehe auch
+  Hochsprung (vertikal) oder einen Weitsprung (horizontal) ausführen. „Hochsprung“
+source_book: SRD 5.2.1

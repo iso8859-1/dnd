@@ -1,0 +1,11 @@
+id: schadensarten
+type: rule
+template: rule-v1
+name: Schadensarten
+lang: de
+description: lassen. Angriffe und andere schädliche Effekte bewirken unterschiedliche
+  Schadensarten. Die Schadensarten weisen zwar keine eigenen Regeln auf, doch es gibt
+  andere Regeln wie die für Resistenzen, die auf Schadensarten basieren. Die Tabelle
+  „Schadensarten“ bietet Beispiele, um dem SL zu helfen, neuen Effekten passende Schadensarten
+  zuzuweisen.
+source_book: SRD 5.2.1

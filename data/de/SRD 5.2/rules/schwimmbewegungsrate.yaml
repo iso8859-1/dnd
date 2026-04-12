@@ -1,0 +1,9 @@
+id: schwimmbewegungsrate
+type: rule
+template: rule-v1
+name: Schwimmbewegungsrate
+lang: de
+description: „Die Spielregeln“ („W20-Prüfungen“). Eine Schwimmbewegungsrate kann verwendet
+  werden, um zu schwimmen, ohne die zusätzliche Siehe auch Bewegung zu benötigen,
+  die dabei normalerweise anfällt. „Bewegungsrate“ und
+source_book: SRD 5.2.1

@@ -1,0 +1,10 @@
+id: vorteil
+type: rule
+template: rule-v1
+name: Vorteil
+lang: de
+description: misslingt der Zauber. Wenn du bei einer W20-Prüfung im Vorteil bist,
+  würfle mit zwei W20 und verwende das höhere Ergebnis. Für einen Würfelwurf kann
+  nur jeweils ein Vorteil gelten. Vorteil und Nachteil, die für Siehe auch denselben
+  Wurf gelten, heben einander auf.
+source_book: SRD 5.2.1

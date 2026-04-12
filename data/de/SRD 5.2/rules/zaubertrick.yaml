@@ -1,0 +1,8 @@
+id: zaubertrick
+type: rule
+template: rule-v1
+name: Zaubertrick
+lang: de
+description: „Zauber“ („Zauber wirken“). Ein Zaubertrick ist ein Zauber des 0. Grades,
+  der Siehe auch gewirkt werden kann, ohne einen Zauberplatz zu
+source_book: SRD 5.2.1

@@ -66,7 +66,8 @@ development_status:
   epic-3-retrospective: optional
 
   # ─── Epic 4: Seed Data & Polish ───────────────────────────────────────────
-  epic-4: backlog
+  epic-4: in-progress
   4-1-english-srd-spell-seed-data: backlog
   4-2-shell-completion-verification-and-example-deck-yaml: backlog
+  4-3-talent-and-rule-card-type: review
   epic-4-retrospective: optional

@@ -1,0 +1,12 @@
+id: gelegenheitsangriffe
+type: rule
+template: rule-v1
+name: Gelegenheitsangriffe
+lang: de
+description: von dir befindet. Wenn eine Kreatur, die du sehen kannst, mithilfe ihrer
+  Aktion, ihrer Bonusaktion, ihrer Reaktion oder einer ihrer Bewegungsraten deine
+  Reichweite verlässt, kannst du einen Gelegenheitsangriff ausführen. Nutze dazu eine
+  Reaktion, um einen Nahkampfangriff mit einer Waffe oder einen waffenlosen Angriff
+  gegen die provozierende Kreatur auszuführen. Der Angriff erfolgt unmittelbar, Siehe
+  auch bevor die Kreatur deine Reichweite verlässt.
+source_book: SRD 5.2.1

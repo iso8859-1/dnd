@@ -110,6 +110,32 @@ def test_render_card_contains_all_required_fields(
     assert required.issubset(ctx.keys())
 
 
+def test_render_card_talent_context(tmp_path: Path) -> None:
+    """render_card for a talent card includes typ; spell fields are None."""
+    (tmp_path / "talent-v1.jinja2").write_text(
+        "{{ name }}\n{{ description }}\n", encoding="utf-8"
+    )
+    card = CardData(
+        id="ringer",
+        type="talent",
+        template="talent-v1",
+        name="Ringer",
+        lang=Language.DE,
+        description="Vorzüge.",
+        typ="Allgemeines Talent",
+    )
+    with patch("dnd_cards.renderer._TEMPLATES_DIR", tmp_path):
+        ctx = render_card(card, "talent-v1")
+
+    assert ctx["typ"] == "Allgemeines Talent"
+    assert ctx["level"] is None
+    assert ctx["school"] is None
+    assert ctx["casting_time"] is None
+    assert ctx["range"] is None
+    assert ctx["components"] is None
+    assert ctx["duration"] is None
+
+
 def test_render_card_optional_fields_none_when_absent(tmp_path: Path) -> None:
     (tmp_path / "zauber-v1.jinja2").write_text("{{ name }}", encoding="utf-8")
     minimal_card = CardData(

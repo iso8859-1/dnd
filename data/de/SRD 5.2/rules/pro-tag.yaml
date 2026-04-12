@@ -1,0 +1,9 @@
+id: pro-tag
+type: rule
+template: rule-v1
+name: Pro Tag
+lang: de
+description: im Vorteil ist, beträgt der Wert 19. Wenn eine Regel besagt, dass du
+  etwas eine bestimmte Anzahl von Malen pro Tag anwenden kannst, so bedeutet dies,
+  dass du nach Verbrauch dieser Anzahl eine lange Rast beenden musst,
+source_book: SRD 5.2.1

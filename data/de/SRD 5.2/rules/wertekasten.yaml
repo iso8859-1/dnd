@@ -1,0 +1,24 @@
+id: wertekasten
+type: rule
+template: rule-v1
+name: Wertekasten
+lang: de
+description: 'du mit dem Hindernis. Ein Wertekasten enthält die Spielwerte eines Monsters.
+  Jeder Wertekasten enthält nach dem Größe: Namen des Monsters folgende Informationen:
+  Die möglichen Größenkategorien lauten Siehe auch Winzig, Klein, Mittelgroß, Groß,
+  Riesig und Kreaturentyp: Gigantisch. „Größe“. In diesem Eintrag ist die Kreaturen-
+  Siehe auch familie des Monsters angegeben, gegebenenfalls mit beschreibenden Bezeichnungen.
+  Gesinnung: „Kreaturentyp“. Die Gesinnung ist ein Vorschlag für Siehe auch das Monster.
+  Der SL bestimmt seine tatsächliche RK, Initiative und TP: Gesinnung. „Gesinnung“.
+  Diese Einträge nennen Rüstungsklasse, Initiative und Trefferpunkte des Monsters,
+  jeweils unter „Die Spielregeln“ beschrieben. Hinter den Trefferpunkten sind die
+  Trefferpunktewürfel des Monsters in Klammern angegeben, außerdem gegebenenfalls
+  der Beitrag seiner Konstitution zu seinen Trefferpunkten. Nach dem Initiativemodifikator
+  ist ein Initiativewert genannt. Manche Kreaturen, die auf magische Art erzeugt wurden,
+  haben weder Trefferwürfel- noch Bewegungsrate: Initiativeinformationen. Hier sind
+  Bewegungsrate Siehe auch und vorhandene besondere Bewegungsraten des Monsters aufgeführt.
+  „Flugbewegungsrate“, „Grabbewegungsrate“, „Kletterbewegungsrate“ Attributswerte:
+  und „Schwimmbewegungsrate“. Die Attributswerte, Modifikatoren und Rettungswurfmodifikatoren
+  eines Monsters, jeweils unter „Die Spielregeln“ beschrieben, lassen sich einer Tabelle
+  entnehmen.'
+source_book: SRD 5.2.1

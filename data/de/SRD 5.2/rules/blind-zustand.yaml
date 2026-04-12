@@ -1,0 +1,10 @@
+id: blind-zustand
+type: rule
+template: rule-v1
+name: Blind (Zustand)
+lang: de
+description: 'dir betreffen, im Vorteil. Wenn du den Zustand Blind hast, wirken folgende
+  Nicht sehfähig: Effekte auf dich: Eine blinde Kreatur kann nicht sehen, und jeder
+  Attributswurf, der Sicht erfordert, Beeinträchtigte Angriffe: misslingt automatisch.
+  Angriffswürfe gegen dich sind im Vorteil, und deine Angriffswürfe sind'
+source_book: SRD 5.2.1

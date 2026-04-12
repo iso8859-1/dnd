@@ -1,0 +1,22 @@
+id: vorbereiten-aktion
+type: rule
+template: rule-v1
+name: Vorbereiten (Aktion)
+lang: de
+description: 'Du führst die Vorbereiten-Aktion aus, um auf bestimmte Umstände zu warten,
+  ehe du handelst. Dazu führst du in deinem Zug diese Aktion aus, die dich dann vor
+  Beginn deines nächstes Zugs handeln lässt, indem du deine Reaktion ausführst. Zunächst
+  musst du festlegen, welcher wahrnehm- bare Umstand deine Reaktion auslösen soll.
+  Dann legst du fest, welche Handlung du vollziehen willst, wenn der Umstand eintritt.
+  Dies kann eine Aktion, aber auch eine Bewegung bis zum vollen Umfang deiner Bewegungsrate
+  sein. Beispiel: „Wenn der Kultist die Falltür betritt, bediene ich den Hebel, der
+  sie öffnet“. Oder: „Wenn der Zombie sich neben mich stellt, bewege ich mich weg.“
+  Wenn der Auslöser eintritt, kannst du entweder deine Reaktion unmittelbar danach
+  ausführen oder den Auslöser ignorieren. Bereitest du einen Zauberspruch vor, so
+  wirkst du ihn wie gewohnt (und verbrauchst dabei die erforderlichen Ressourcen),
+  setzt seinen Effekt aber erst dann mit deiner Reaktion frei, wenn der Auslöser eintritt.
+  Es können nur Zauber mit einem Zeitaufwand von einer Aktion vorbereitet werden,
+  und das Aufrechterhalten ihrer Magie erfordert Konzentration, die du bis zum Beginn
+  deines nächsten Zugs aufrechterhalten kannst. Wenn deine Konzentration unterbrochen
+  wird,'
+source_book: SRD 5.2.1

@@ -1,0 +1,8 @@
+id: improvisierte-waffen
+type: rule
+template: rule-v1
+name: Improvisierte Waffen
+lang: de
+description: Weise beeinflusst werden. Eine improvisierte Waffe ist ein Gegenstand,
+  der behelfsmäßig als Waffe geführt wird,
+source_book: SRD 5.2.1

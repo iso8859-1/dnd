@@ -1,0 +1,18 @@
+id: weitsprung
+type: rule
+template: rule-v1
+name: Weitsprung
+lang: de
+description: Bei einem Weitsprung springst du bis zu einer Anzahl von Metern, die
+  einem Drittel deines Stärkewerts entspricht, sofern du unmittelbar vor dem Sprung
+  mindestens drei Meter zurückgelegt hast. Bei einem Weitsprung aus dem Stand kannst
+  du nur halb so weit springen. In beiden Fällen kostet dich jeder gesprungene Meter
+  einen Meter deiner Bewegungsrate. Wenn du in schwierigem Gelände landest, musst
+  du einen SG-10-Geschicklichkeitswurf (Akrobatik) bestehen, um auf den Füßen zu landen.
+  Bei einem Misserfolg hast du den Zustand Liegend. Diese Weitsprung-Regel geht davon
+  aus, dass die Höhe des Sprungs keine Rolle spielt (wie bei einem Sprung über einen
+  Fluss oder eine Felsspalte). Der SL kann einen erfolgreichen SG-10-Stärkewurf (Athletik)
+  von dir verlangen, wenn du ein niedriges Hindernis wie eine Hecke oder eine niedrige
+  Mauer (nicht höher als ein Viertel deiner Sprungdistanz) überwinden willst. Misslingt
+  der Wurf, so kollidierst
+source_book: SRD 5.2.1

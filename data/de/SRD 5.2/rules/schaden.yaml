@@ -1,0 +1,8 @@
+id: schaden
+type: rule
+template: rule-v1
+name: Schaden
+lang: de
+description: „Rettungswurf“. Schaden repräsentiert Wirkungen, die eine Kreatur oder
+  einen Gegenstand Trefferpunkte verlieren
+source_book: SRD 5.2.1

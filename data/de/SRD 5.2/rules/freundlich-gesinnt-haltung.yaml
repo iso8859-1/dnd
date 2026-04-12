@@ -1,0 +1,9 @@
+id: freundlich-gesinnt-haltung
+type: rule
+template: rule-v1
+name: Freundlich gesinnt (Haltung)
+lang: de
+description: Gegenständen angefüllt ist. Eine freundlich gesinnte Kreatur steht dir
+  positiv gegenüber. Du bist bei Attributswürfen zum Siehe auch Beeinflussen von Kreaturen,
+  die dir freundlich
+source_book: SRD 5.2.1

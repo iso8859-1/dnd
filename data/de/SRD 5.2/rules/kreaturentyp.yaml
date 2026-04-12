@@ -1,0 +1,12 @@
+id: kreaturentyp
+type: rule
+template: rule-v1
+name: Kreaturentyp
+lang: de
+description: '(Heilkunde) Erste Hilfe leistet. Alle Kreaturen einschließlich der Spielercharaktere
+  weisen in den Regeln ein Schlagwort auf, das ihren Kreaturentyp bezeichnet. Die
+  meisten Spieler- charaktere haben den Kreaturentyp Humanoide. AberrationHumanoideSchlick
+  Es gibt folgende Kreaturentypen im Spiel: CelestischKonstruktTier DracheMonstrositätUnhold
+  ElementarPflanzeUntoter FeenwesenRiese Die Typen haben keine eigenen Regeln, doch
+  manche Regeln im Spiel wirken bei unterschiedlichen'
+source_book: SRD 5.2.1

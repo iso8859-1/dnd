@@ -1,0 +1,9 @@
+id: sturz-gefahr
+type: rule
+template: rule-v1
+name: Sturz (Gefahr)
+lang: de
+description: Am Ende eines Sturzes erleidet eine Kreatur 1W6 Wuchtschaden pro drei
+  Meter, die sie gestürzt ist (höchstens 20W6). Nach dem Sturz hat sie den Zustand
+  Liegend, sofern sie den Schaden durch den Sturz nicht vermeiden konnte.
+source_book: SRD 5.2.1

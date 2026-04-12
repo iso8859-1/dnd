@@ -1,0 +1,7 @@
+id: helles-licht
+type: rule
+template: rule-v1
+name: Helles Licht
+lang: de
+description: Siehe auch Eine normale Beleuchtung gilt als helles Licht.
+source_book: SRD 5.2.1

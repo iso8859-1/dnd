@@ -1,0 +1,8 @@
+id: kampagne
+type: rule
+template: rule-v1
+name: Kampagne
+lang: de
+description: um 5. „Die Spielregeln“ („Kampf“). Siehe auch Eine Kampagne besteht aus
+  einer Reihe einzelner
+source_book: SRD 5.2.1

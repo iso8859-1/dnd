@@ -1,0 +1,10 @@
+id: ubung
+type: rule
+template: rule-v1
+name: Übung
+lang: de
+description: „Die Spielregeln“ („Kampf“). Wenn du Übung in etwas hast, kannst du jeder
+  W20-Prüfung, die du damit ausführst, deinen Übungsbonus hinzufügen. Eine Kreatur
+  könnte Übung in einer Fertigkeit, einem Rettungswurf Siehe auch oder im Umgang mit
+  einer Waffe oder einem Werkzeug haben. „Die Spielregeln“ („Übung“).
+source_book: SRD 5.2.1

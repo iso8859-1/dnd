@@ -1,0 +1,11 @@
+id: trefferpunkte
+type: rule
+template: rule-v1
+name: Trefferpunkte
+lang: de
+description: Trefferpunkte (TP) sind ein Maß dafür, wie schwierig es ist, eine Kreatur
+  zu töten oder einen Gegenstand zu zerstören. Schaden verringert Trefferpunkte, Heilung
+  stellt Trefferpunkte wieder her. Deine Trefferpunkte können dein Trefferpunktemaximum
+  nicht überschreiten, Siehe auch und du kannst nicht weniger als 0 Trefferpunkte
+  haben. „Gegenstände zerstören“ und
+source_book: SRD 5.2.1

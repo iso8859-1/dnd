@@ -1,0 +1,11 @@
+id: kampfunfahig-zustand
+type: rule
+template: rule-v1
+name: Kampfunfähig (Zustand)
+lang: de
+description: 'Abenteuer. „Abenteuer“. Wenn du den Zustand Kampfunfähig hast, wirken
+  Inaktiv: folgende Effekte auf dich: Du kannst keine Aktionen, Bonusaktionen Keine
+  Konzentration: oder Reaktionen ausführen. Deine Konzentration ist Stumm: unterbrochen.
+  Überrascht: Du kannst nicht sprechen. Wenn du beim Auswürfeln der Initiative kampfunfähig
+  bist, so bist du bei diesem Wurf im Nachteil.'
+source_book: SRD 5.2.1

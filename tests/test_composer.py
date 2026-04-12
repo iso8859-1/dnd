@@ -41,6 +41,7 @@ def _fake_ctx(card: CardData, template_name: str) -> dict[str, object]:  # noqa:
         "range": card.range,
         "components": card.components,
         "duration": card.duration,
+        "typ": card.typ,
         "description": card.description,
         "edition": card.edition,
         "source_book": card.source_book,
@@ -104,3 +105,36 @@ def test_compose_pdf_path_output(spell_card: CardData, tmp_path: Path) -> None:
         compose_pdf([spell_card], out)
     assert out.exists()
     assert out.stat().st_size > 0
+
+
+def test_compose_pdf_talent_card_no_error(tmp_path: Path) -> None:
+    """Talent card (no spell fields) renders without error."""
+    talent = CardData(
+        id="ringer",
+        type="talent",
+        template="talent-v1",
+        name="Ringer",
+        lang=Language.EN,
+        description="Du erhältst folgende Vorzüge.",
+        typ="Allgemeines Talent",
+    )
+    buf = BytesIO()
+    with patch("dnd_cards.composer.render_card", side_effect=_fake_ctx):
+        compose_pdf([talent], buf)
+    assert buf.tell() > 0
+
+
+def test_compose_pdf_rule_card_no_error(tmp_path: Path) -> None:
+    """Rule card renders without error."""
+    rule = CardData(
+        id="abenteuer",
+        type="rule",
+        template="rule-v1",
+        name="Abenteuer",
+        lang=Language.EN,
+        description="Ein Abenteuer ist eine Serie von Begegnungen.",
+    )
+    buf = BytesIO()
+    with patch("dnd_cards.composer.render_card", side_effect=_fake_ctx):
+        compose_pdf([rule], buf)
+    assert buf.tell() > 0

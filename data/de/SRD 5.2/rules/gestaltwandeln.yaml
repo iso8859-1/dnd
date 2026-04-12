@@ -1,0 +1,11 @@
+id: gestaltwandeln
+type: rule
+template: rule-v1
+name: Gestaltwandeln
+lang: de
+description: („Deinen Charakter erstellen“). Verwandlung Wenn ein Effekt dich verwandelt,
+  beispielsweise Tiergestalt oder der Zauber , ist in der Beschreibung des Effekts
+  angegeben, was mit dir geschieht. Sofern in der Beschreibung nicht anders angegeben,
+  werden alle Effekte, die gerade auf dich wirken – Zustände, Zauber, Flüche und dergleichen
+  – von einer Gestalt auf die andere übertragen. Wenn du stirbst, verwandelst du
+source_book: SRD 5.2.1

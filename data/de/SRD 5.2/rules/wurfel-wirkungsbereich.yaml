@@ -1,0 +1,11 @@
+id: wurfel-wirkungsbereich
+type: rule
+template: rule-v1
+name: Würfel (Wirkungsbereich)
+lang: de
+description: zugewandten Seite des Hindernisses platziert. Ein Würfel ist ein Wirkungsbereich,
+  der in geraden Linien von einem Ursprungspunkt an einer beliebigen Stelle auf einer
+  der Würfelseiten ausgeht. Der Effekt, der den Würfel erzeugt, definiert dessen Größe
+  in Form seiner Kantenlänge. Der Ursprungspunkt eines Würfels ist nicht im Wirkungsbereich
+  enthalten, es sei denn, der Wirker
+source_book: SRD 5.2.1

@@ -1,0 +1,7 @@
+id: blutig
+type: rule
+template: rule-v1
+name: Blutig
+lang: de
+description: Unsichtbar sehen. Eine Kreatur ist blutig, solange sie höchstens
+source_book: SRD 5.2.1

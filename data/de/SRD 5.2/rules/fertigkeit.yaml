@@ -1,0 +1,10 @@
+id: fertigkeit
+type: rule
+template: rule-v1
+name: Fertigkeit
+lang: de
+description: gesinnt sind, im Nachteil. „Beeinflussen“. Eine Fertigkeit ist ein Spezialgebiet,
+  das mit einem Attributswurf assoziiert ist. Wenn du Übung in einer Fertigkeit hast
+  und einen Attributswurf ausführst, der mit dieser Fertigkeit assoziiert ist, Siehe
+  auch kannst du dem Ergebnis deinen Übungsbonus
+source_book: SRD 5.2.1

@@ -1,0 +1,9 @@
+id: haltung
+type: rule
+template: rule-v1
+name: Haltung
+lang: de
+description: '(„Kampf“). Monster haben Spielercharakteren gegenüber eine anfängliche
+  Haltung: Sie können ihnen Siehe auch gegenüber freundlich gesinnt, feindlich gesinnt
+  oder gleichgültig sein. „Feindlich gesinnt“, „Freundlich gesinnt“, „Gleichgültig“'
+source_book: SRD 5.2.1

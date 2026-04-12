@@ -1,0 +1,10 @@
+id: begabt
+type: talent
+template: talent-v1
+name: Begabt
+lang: de
+description: 'Du bist in drei Fertigkeiten oder Werkzeugen deiner Wahl in beliebiger
+  Kombination geübt. Kann wiederholt werden: Du kannst dieses Talent mehr als einmal
+  verwenden.'
+source_book: SRD 5.2.1
+typ: Herkunftstalent
