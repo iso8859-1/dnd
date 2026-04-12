@@ -1,5 +1,5 @@
 # generated: 2026-04-11
-# last_updated: 2026-04-11  # story 1-2 moved to ready-for-dev
+# last_updated: 2026-04-12  # story 2-1 created; epic-2 set to in-progress
 # project: dnd
 # project_key: NOKEY
 # tracking_system: file-system
@@ -35,7 +35,7 @@
 # - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
 
 generated: 2026-04-11
-last_updated: 2026-04-11
+last_updated: 2026-04-12
 project: dnd
 project_key: NOKEY
 tracking_system: file-system
@@ -52,11 +52,11 @@ development_status:
   epic-1-retrospective: optional
 
   # ─── Epic 2: Core PDF Generation ──────────────────────────────────────────
-  epic-2: backlog
-  2-1-deck-profile-model-and-basic-loader: backlog
-  2-2-jinja2-template-system-and-spell-card-renderer: backlog
-  2-3-pdf-composer-layout-engine: backlog
-  2-4-generate-subcommand-end-to-end: backlog
+  epic-2: in-progress
+  2-1-deck-profile-model-and-basic-loader: review
+  2-2-jinja2-template-system-and-spell-card-renderer: review
+  2-3-pdf-composer-layout-engine: review
+  2-4-generate-subcommand-end-to-end: review
   epic-2-retrospective: optional
 
   # ─── Epic 3: Deck Profiles & Validation ───────────────────────────────────

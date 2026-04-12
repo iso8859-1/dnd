@@ -1,0 +1,5 @@
+name: Beispiel-Deck
+cards:
+  spells/feuerball: 1
+  spells/blitz: 1
+  spells/magisches-geschoss: 1

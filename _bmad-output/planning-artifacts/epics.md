@@ -27,8 +27,8 @@ FR7: User can specify print quantity per card ID in a deck profile
 FR8: User can create multiple named deck profiles for different characters or purposes
 FR9: User can update a deck profile by editing its YAML file
 FR10: User can generate a print-ready PDF from a deck profile via a CLI command
-FR11: System renders each card as a fold-strip (126×88mm) on the output page
-FR12: System arranges card strips in a 2×4 grid per A4 page
+FR11: System renders each card as a fold-strip (176×63mm landscape) on the output page; fold at 88mm mid-point produces a 63×88mm Magic-card-sized reference card
+FR12: System arranges card strips in a 1×4 grid per A4 page (4 cards per page)
 FR13: System includes plotter-ready crop marks on each card strip
 FR14: System produces PDF output at 100% scale, requiring no printer scaling adjustment
 FR15: System applies the template referenced in each card's YAML when rendering that card
@@ -384,7 +384,7 @@ So that card appearance is controlled by a file I can edit without touching any 
 ### Story 2.3: PDF Composer — Layout Engine
 
 As Tobias,
-I want each card rendered as a 126×88mm fold-strip on an A4 page in a 2×4 grid with crop marks,
+I want each card rendered as a 176×63mm landscape fold-strip on an A4 page in a 1×4 grid with crop marks,
 So that I can print, fold, and laminate the output into Magic card-sized reference cards.
 
 **Acceptance Criteria:**
@@ -392,19 +392,20 @@ So that I can print, fold, and laminate the output into Magic card-sized referen
 **Given** a list of `CardData` objects passed to `composer.compose_pdf(cards: list[CardData], output_path: Path) -> None`
 **When** the function runs
 **Then** for each card: `renderer.render_card(card, card.template)` is called to get the context dict
-**And** the context is used to draw text onto a 126×88mm strip on the canvas
+**And** the context is used to draw text onto a 176×63mm landscape strip on the canvas
 
-**Given** up to 8 cards
+**Given** up to 4 cards
 **When** `compose_pdf()` is called
-**Then** a single A4 portrait page (210×297mm) is produced with cards in a 2-column × 4-row grid
+**Then** a single A4 portrait page (210×297mm) is produced with cards in a 1-column × 4-row grid
 
-**Given** 9 or more cards
+**Given** 5 or more cards
 **When** `compose_pdf()` is called
-**Then** the PDF contains multiple A4 pages (8 cards per page; last page may be partial)
+**Then** the PDF contains multiple A4 pages (4 cards per page; last page may be partial)
 
 **Given** each card strip on the page
 **When** the PDF is rendered
 **Then** crop marks appear at all 4 corners of each strip: 0.5pt black lines, 5mm long, offset 2mm from the strip corner
+**And** a fold-guide line appears at the vertical centre of the strip (at 88mm) to mark the fold axis
 
 **Given** `compose_pdf()` is called
 **When** it executes

@@ -8,4 +8,4 @@
 - `register_fonts()` called on every command including `list` which needs no fonts — consider lazy init or call only in commands that use the PDF canvas
 - `load_card` only surfaces first Pydantic validation error — collect all errors and raise together for better UX
 - Cross-language key collision in scanner (`en/spells/fireball` and `de/spells/fireball` both produce key `spells/fireball`) — documented known gap, address in later epic when multi-language support is formalized
-- Grid layout constants don't fit A4 (2×126mm=252mm > 210mm; 4×88mm=352mm > 297mm) — resolve actual strip dimensions and page grid when implementing PDF composer in Story 2.3
+- Grid layout constants resolved 2026-04-12: strip is 176mm×63mm (landscape on A4), 1×4 grid = 4 cards/page. Magic card 63×88mm, fold at 88mm. config.py updated.

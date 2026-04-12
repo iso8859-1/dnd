@@ -7,14 +7,16 @@ from typing import NoReturn, Optional
 
 import typer
 
-from dnd_cards.composer import register_fonts
-from dnd_cards.config import DEFAULT_DATA_DIR
+from dnd_cards.composer import compose_pdf, register_fonts
+from dnd_cards.config import DEFAULT_DATA_DIR, DEFAULT_OUTPUT_DIR
 from dnd_cards.errors import (
     CardNotFoundError,
     GenerationError,
     ValidationError,
     YamlParseError,
 )
+from dnd_cards.loader import load_card, load_deck
+from dnd_cards.models import CardData
 from dnd_cards.scanner import scan_cards
 
 __all__ = ["app"]
@@ -62,17 +64,37 @@ def main(
 @app.command()
 def generate(
     deck: str = typer.Option(..., "--deck", help="Path to deck profile YAML file."),
+    output_dir: Optional[str] = typer.Option(
+        None, "--output-dir", help="Output directory for generated PDF."
+    ),
 ) -> None:
     """Generate a print-ready PDF from a deck profile."""
     try:
-        _generate_impl(deck)
+        _generate_impl(deck, output_dir)
     except Exception as exc:
         _handle_dnd_error(exc)
 
 
-def _generate_impl(deck: str) -> None:
-    """Implementation in Story 2.4."""
-    raise NotImplementedError
+def _generate_impl(deck: str, output_dir: Optional[str] = None) -> None:
+    deck_path = Path(deck)
+    card_index = scan_cards(Path(DEFAULT_DATA_DIR))
+    deck_profile = load_deck(deck_path)
+
+    cards: list[CardData] = []
+    for entry in deck_profile.entries:
+        if entry.card_key not in card_index:
+            raise CardNotFoundError(
+                f"Card not found: {entry.card_key} (deck: {deck_path})"
+            )
+        card = load_card(card_index[entry.card_key].path)
+        cards.extend([card] * entry.quantity)
+
+    out_dir = Path(output_dir) if output_dir else Path(DEFAULT_OUTPUT_DIR)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / f"{deck_path.stem}.pdf"
+
+    compose_pdf(cards, out_path)
+    typer.echo(str(out_path))
 
 
 @app.command()

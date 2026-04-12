@@ -1,8 +1,9 @@
 """Tests for cli module."""
 
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
+import pytest
 from typer.testing import CliRunner
 
 from dnd_cards.cli import app
@@ -12,6 +13,7 @@ from dnd_cards.errors import (
     ValidationError,
     YamlParseError,
 )
+from dnd_cards.models import CardData, DeckEntry, DeckProfile, Language
 from dnd_cards.scanner import CardRef
 
 runner = CliRunner()  # Typer's CliRunner always mixes stderr into output
@@ -171,3 +173,106 @@ def test_list_output_sorted_alphabetically() -> None:
     assert result.exit_code == 0
     lines = result.output.strip().splitlines()
     assert lines == ["apple [spells]", "mango [spells]", "zebra [spells]"]
+
+
+# ── Story 2.4: generate subcommand integration tests ────────────────────────
+
+@pytest.fixture
+def fake_card() -> CardData:
+    return CardData(
+        id="fireball",
+        type="spell",
+        template="zauber-v1",
+        name="Fireball",
+        lang=Language.EN,
+        level=3,
+        school="Evocation",
+        casting_time="1 action",
+        range="150 ft",
+        components="V, S, M",
+        duration="Instantaneous",
+        description="A bright streak flashes from your pointing finger.",
+    )
+
+
+def test_generate_happy_path(tmp_path: Path, fake_card: CardData) -> None:
+    deck_file = tmp_path / "lena-stufe5.yaml"
+    deck_file.write_text("name: Lena\ncards:\n  spells/fireball: 1\n", encoding="utf-8")
+    out_dir = tmp_path / "output"
+
+    fake_index = {"spells/fireball": CardRef(path=Path("data/en/spells/fireball.yaml"), card_type="spells")}
+    fake_deck = DeckProfile(name="Lena", entries=[DeckEntry(card_key="spells/fireball", quantity=1)])
+
+    with patch("dnd_cards.cli.scan_cards", return_value=fake_index), \
+         patch("dnd_cards.cli.load_deck", return_value=fake_deck), \
+         patch("dnd_cards.cli.load_card", return_value=fake_card), \
+         patch("dnd_cards.cli.compose_pdf") as mock_pdf:
+        result = runner.invoke(
+            app, ["generate", "--deck", str(deck_file), "--output-dir", str(out_dir)]
+        )
+
+    assert result.exit_code == 0
+    assert "lena-stufe5.pdf" in result.output
+    assert out_dir.is_dir()
+    mock_pdf.assert_called_once()
+
+
+def test_generate_custom_output_dir(tmp_path: Path, fake_card: CardData) -> None:
+    deck_file = tmp_path / "deck.yaml"
+    deck_file.write_text("name: Test\ncards:\n  spells/fireball: 1\n", encoding="utf-8")
+    custom_dir = tmp_path / "custom" / "nested"
+
+    fake_index = {"spells/fireball": CardRef(path=Path("data/en/spells/fireball.yaml"), card_type="spells")}
+    fake_deck = DeckProfile(name="Test", entries=[DeckEntry(card_key="spells/fireball", quantity=1)])
+
+    with patch("dnd_cards.cli.scan_cards", return_value=fake_index), \
+         patch("dnd_cards.cli.load_deck", return_value=fake_deck), \
+         patch("dnd_cards.cli.load_card", return_value=fake_card), \
+         patch("dnd_cards.cli.compose_pdf"):
+        result = runner.invoke(
+            app, ["generate", "--deck", str(deck_file), "--output-dir", str(custom_dir)]
+        )
+
+    assert result.exit_code == 0
+    assert custom_dir.is_dir()
+    assert str(custom_dir) in result.output
+
+
+def test_generate_missing_card_key_exits_1(tmp_path: Path) -> None:
+    deck_file = tmp_path / "deck.yaml"
+    deck_file.write_text("name: Test\ncards:\n  spells/nonexistent: 1\n", encoding="utf-8")
+
+    fake_deck = DeckProfile(name="Test", entries=[DeckEntry(card_key="spells/nonexistent", quantity=1)])
+
+    with patch("dnd_cards.cli.scan_cards", return_value={}), \
+         patch("dnd_cards.cli.load_deck", return_value=fake_deck):
+        result = runner.invoke(
+            app, ["generate", "--deck", str(deck_file), "--output-dir", str(tmp_path)]
+        )
+
+    assert result.exit_code == 1
+    assert "nonexistent" in result.output
+
+
+def test_generate_quantity_expansion(tmp_path: Path, fake_card: CardData) -> None:
+    """DeckEntry(quantity=2) should produce 2 copies in compose_pdf call."""
+    deck_file = tmp_path / "deck.yaml"
+    deck_file.write_text("name: Test\ncards:\n  spells/fireball: 2\n", encoding="utf-8")
+    out_dir = tmp_path / "output"
+
+    fake_index = {"spells/fireball": CardRef(path=Path("data/en/spells/fireball.yaml"), card_type="spells")}
+    fake_deck = DeckProfile(name="Test", entries=[DeckEntry(card_key="spells/fireball", quantity=2)])
+
+    mock_pdf = MagicMock()
+    with patch("dnd_cards.cli.scan_cards", return_value=fake_index), \
+         patch("dnd_cards.cli.load_deck", return_value=fake_deck), \
+         patch("dnd_cards.cli.load_card", return_value=fake_card), \
+         patch("dnd_cards.cli.compose_pdf", mock_pdf):
+        runner.invoke(
+            app, ["generate", "--deck", str(deck_file), "--output-dir", str(out_dir)]
+        )
+
+    called_cards = mock_pdf.call_args[0][0]  # first positional arg = cards list
+    assert len(called_cards) == 2
+    assert called_cards[0] is fake_card
+    assert called_cards[1] is fake_card

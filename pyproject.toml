@@ -34,6 +34,10 @@ ban-relative-imports = "all"
 strict = true
 mypy_path = "src"
 
+[[tool.mypy.overrides]]
+module = ["reportlab.*"]
+ignore_missing_imports = true
+
 [dependency-groups]
 dev = [
     "mypy>=1.20.0",

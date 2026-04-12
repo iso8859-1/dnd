@@ -1,0 +1,889 @@
+regelglossar:
+- name: Abenteuer
+  beschreibung: Es folgen Definitionen verschiedener Regeln. Ein Abenteuer ist eine Serie von Begegnungen. Siehe auch Aus
+    den beim Durchspielen erlebten Geschehnissen entwickelt sich eine Geschichte.
+  Regelbuch: SRD 5.2.1
+- name: Abrunden
+  beschreibung: „Begegnung“. Wenn eine Zahl im Spiel multipliziert oder geteilt wird, rundest du das Ergebnis gegebenenfalls
+    ab. Selbst bei Dezimalstellen größer als fünf wird abgerundet. Manche Regeln machen eine Ausnahme
+  Regelbuch: SRD 5.2.1
+- name: Aktion
+  beschreibung: 'und besagen, dass du aufrunden sollst. In deinem Zug kannst du eine Aktion ausführen. Wähle aus, ob du eine
+    der Aktionen unten Siehe auch oder eine der besonderen Aktionen ausführst, die deine Merkmale dir gewähren. „Die Spielregeln“
+    („Aktionen“). Diese Aktionen AngriffMagie wirkenSuchen sind anderswo in diesem Glossar definiert: AusweichenRückzugVerstecken
+    BeeinflussenSpurtVerwenden HelfenStudierenVorbereiten'
+  Regelbuch: SRD 5.2.1
+- name: Anfälligkeit
+  beschreibung: Wenn du anfällig für eine Schadensart bist, ist der Schaden dieser Art gegen dich verdoppelt. Siehe auch Die
+    Anfälligkeit wird pro Instanz des Schadens nur einmal angewendet. „Die Spielregeln“
+  Regelbuch: SRD 5.2.1
+- name: Angriff (Aktion)
+  beschreibung: '(„Schaden und Heilung“). Wenn du die Angriffsaktion ausführst, kannst du einen Angriffswurf mit einer Waffe
+    oder einem Waffen an- und ablegen: waffenlosen Angriff ausführen. Wenn du einen Angriff ausführst, kannst du als Teil
+    dieser Aktion eine Waffe an- oder ablegen. Tu dies entweder vor oder nach dem Angriff. Wenn du eine Waffe vor dem Angriff
+    anlegst, musst du sie bei diesem Angriff nicht zwangsläufig verwenden. Zum Anlegen einer Waffe gehört es, sie aus einer
+    Scheide zu ziehen oder sie aufzuheben. Zum Ablegen einer Waffe gehört es, sie in eine Scheide zu stecken, sie zu verstauen
+    oder Bewegung zwischen Angriffen: fallenzulassen. Wenn du dich in deinem Zug bewegst und ein Merkmal wie Zusätzlicher
+    Angriff hast, das dir mehr als einen Angriff als Teil der Angriffsaktion gewährt, kannst du die Bewegung teilweise oder
+    ganz nutzen, um dich zwischen deinen Angriffen zu bewegen.'
+  Regelbuch: SRD 5.2.1
+- name: Angriffswurf
+  beschreibung: Ein Angriffswurf ist eine W20-Prüfung, die einen Siehe auch Angriff mit einer Waffe, einen waffenlosen Angriff
+    oder einen Zauberangriff repräsentiert.
+  Regelbuch: SRD 5.2.1
+- name: Attributswert und -modifikator
+  beschreibung: '„Die Spielregeln“ („W20-Prüfungen“). Eine Kreatur hat sechs Attributswerte mit entspre- chenden Modifikatoren:
+    Stärke, Geschick lichkeit, Konstitution, Intelligenz, Weisheit und Charisma. Füge den Modifikator hinzu, wenn du eine
+    W20-Prüfung mit dem jeweiligen Attribut ausführst oder von Siehe auch einer Regel aufgefordert wirst, ihn hinzuzufügen.'
+  Regelbuch: SRD 5.2.1
+- name: Attributswurf
+  beschreibung: „Die Spielregeln“ („Die sechs Attribute“). Ein Attributswurf ist eine W20-Prüfung, die den Einsatz von einem
+    der sechs Attribute (oder einer bestimmten Fertigkeit, die mit einem Attribut Siehe auch assoziiert ist) repräsentiert,
+    um eine Herausforde- rung zu überwinden. „Die Spielregeln“
+  Regelbuch: SRD 5.2.1
+- name: Ausströmung (Wirkungsbereich)
+  beschreibung: („W20-Prüfungen“ und „Übung“). Eine Ausströmung ist ein Wirkungsbereich, der von einer Kreatur oder einem
+    Gegenstand in geraden Linien in alle Richtungen ausgeht. Der Effekt, der die Ausströmung erzeugt, definiert deren Wirkungsdistanz.
+    Eine Ausströmung bewegt sich mit ihrem Ursprung (Kreatur oder Gegenstand), sofern sie kein unmittelbarer oder ortsfester
+    Effekt ist. Der Ursprung ist nicht im Wirkungsbereich
+  Regelbuch: SRD 5.2.1
+- name: Ausweichen (Aktion)
+  beschreibung: 'enthalten, es sei denn, der Wirker beschließt dies. Die Ausweichaktion bietet dir die folgenden Vorzüge:
+    Bis zum Beginn deines nächsten Zugs ist jeder Angriffswurf gegen dich im Nachteil, sofern du den Angreifer sehen kannst,
+    und du bist bei Geschicklichkeitsrettungswürfen im Vorteil. Du verlierst diese Vorzüge, wenn du kampfunfähig'
+  Regelbuch: SRD 5.2.1
+- name: Beeinflussen (Aktion)
+  beschreibung: 'bist oder deine Bewegungsrate 0 beträgt. Mit der Beeinflussen-Aktion kannst du ein Monster zu etwas drängen.
+    Beschreibe oder stelle rollenspie- lerisch dar, wie du mit dem Monster kommunizierst. Versuchst du, es zu täuschen, einzuschüchtern,
+    zu amüsieren oder zu überreden? Der SL bestimmt dann, ob das Monster bereitwillig, nicht bereitwillig oder zögerlich auf
+    deine Interaktion reagiert. Daraus ergibt sich, ob ein Attributswurf erforderlich ist, Bereitwillig: wie unten erläutert.
+    Wenn deine Beeinflussung mit den Interessen des Monsters übereinstimmt, ist kein Attributswurf erforderlich: Das Monster
+    kommt deinen Wünschen auf seine Art nach.'
+  Regelbuch: SRD 5.2.1
+- name: Begegnung
+  beschreibung: 'Eine Begegnung ist eine Szene in einem Abenteuer, die Teil von mindestens einer der drei Säulen des Siehe
+    auch Spiels ist: soziale Interaktion, Erkundung oder Kampf. „Die Spielregeln“ („Soziale'
+  Regelbuch: SRD 5.2.1
+- name: Besessenheit
+  beschreibung: Interaktion“, „Erkundung“ und „Kampf“). Manche Effekte bewirken, dass eine Kreatur von einem anderen Wesen
+    besessen ist. Der Effekt der Inbesitznahme definiert, wie die Besessenheit Schutz vor Gut und Böse funktioniert. Besessenheit
+    kann durch den Zauber Gutes und Böses bannen verhindert und durch den
+  Regelbuch: SRD 5.2.1
+- name: Besetzter Bereich
+  beschreibung: Zauber beendet werden. Ein Bereich ist besetzt, wenn sich eine Kreatur darin befindet oder er vollständig
+    mit Gegenständen angefüllt ist.
+  Regelbuch: SRD 5.2.1
+- name: Betäubt (Zustand)
+  beschreibung: 'Wenn du den Zustand Betäubt hast, wirken Kampfunfähig: folgende Effekte auf dich: Du hast den Zustand Beeinträchtigte
+    Rettungswürfe: Kampfunfähig. Du scheiterst bei Stärke- und Geschicklichkeitsrettungswürfen Beeinträchtigte Angriffe: automatisch.
+    Angriffswürfe gegen'
+  Regelbuch: SRD 5.2.1
+- name: Bewegungsrate
+  beschreibung: 'dich sind im Vorteil. Eine Kreatur hat eine Bewegungsrate. Diese ist die Strecke in Metern, die die Kreatur
+    höchstens Siehe auch zurücklegen kann, wenn sie sich in ihrem Zug bewegt. „Fliegen“, „Klettern“, „Kriechen“, „Schwimmen“,
+    „Springen“ und „Die Spielregeln“ Besondere Bewegungsraten: („Kampf“). Manche Kreaturen haben besondere Bewegungsraten
+    wie eine Flug-, Grab-, Kletter- oder Schwimmbewegungsrate, wie jeweils in diesem Glossar definiert. Wenn du mehrere Bewegungsraten
+    hast, wähle eine aus, wenn du dich bewegst. Du kannst in deinem Zug zwischen deinen Bewegungsraten wechseln. Ziehe bei
+    jedem Wechsel die Entfernung, die du bereits zurückgelegt hast, von der neuen Bewegungsrate ab. Das Ergebnis bestimmt,
+    wie weit du dich noch bewegen kannst. Ist das Ergebnis 0 oder negativ, so kannst du dich im aktuellen Zug nicht mehr bewegen.
+    Beispiel: Falls du über eine Bewegungsrate von neun Metern und eine Flugbewegungsrate von zwölf Metern verfügst, könntest
+    du drei Meter weit fliegen, drei Meter weit gehen und dich dann wieder in die Luft erheben, um sechs Meter weit Änderungen
+    deiner Bewegungsraten: zu fliegen. Wenn ein Effekt deine Bewegungsrate vorübergehend erhöht oder verringert, werden besondere
+    Bewegungsraten für die gleiche Dauer um den gleichen Betrag erhöht oder verringert. Beispiel: Wenn deine Bewegungs- rate
+    auf 0 verringert ist und du eine Kletterbewe- gungsrate hast, wird diese ebenfalls auf 0 verringert. Wenn deine Bewegungsrate
+    halbiert wird und du über eine Flugbewegungsrate verfügst, wird diese'
+  Regelbuch: SRD 5.2.1
+- name: Bewusstlos (Zustand)
+  beschreibung: 'ebenfalls halbiert. Wenn du den Zustand Bewusstlos hast, wirken Inert: folgende Effekte auf dich: Du hast
+    die Zustände Kampfunfähig und Liegend, und du lässt fallen, was immer du gehalten hast. Wenn dieser Zustand endet, bist
+    du weiterhin liegend.'
+  Regelbuch: SRD 5.2.1
+- name: Bezaubert (Zustand)
+  beschreibung: 'nicht wahr. Wenn du den Zustand Bezaubert hast, wirken Kein Schaden am Zauberwirker: folgende Effekte auf
+    dich: Du kannst den Zauberwirker weder angreifen noch als Ziel schädigender Fähigkeiten und magischer Effekte Sozialer
+    Vorteil: auswählen. Der Zauberwirker ist bei Attributswürfen, die soziale Interaktionen mit'
+  Regelbuch: SRD 5.2.1
+- name: Blind (Zustand)
+  beschreibung: 'dir betreffen, im Vorteil. Wenn du den Zustand Blind hast, wirken folgende Nicht sehfähig: Effekte auf dich:
+    Eine blinde Kreatur kann nicht sehen, und jeder Attributswurf, der Sicht erfordert, Beeinträchtigte Angriffe: misslingt
+    automatisch. Angriffswürfe gegen dich sind im Vorteil, und deine Angriffswürfe sind'
+  Regelbuch: SRD 5.2.1
+- name: Blindsicht
+  beschreibung: im Nachteil. Blindsicht erlaubt dir, auf eine bestimmte Reichweite zu sehen, ohne physische Sicht zu benötigen.
+    Auf diese Reichweite kannst du auch bei Dunkelheit oder im Zustand Blind alles sehen, was sich nicht in vollständiger
+    Deckung befindet. Du kannst sogar Kreaturen und Gegenstände mit dem Zustand
+  Regelbuch: SRD 5.2.1
+- name: Blutig
+  beschreibung: Unsichtbar sehen. Eine Kreatur ist blutig, solange sie höchstens
+  Regelbuch: SRD 5.2.1
+- name: Bonusaktion
+  beschreibung: die Hälfte ihrer Trefferpunkte hat. Eine Bonusaktion ist eine besondere Aktion, die du im selben Zug ausführen
+    kannst, in dem du auch eine Aktion ausführst. Du kannst höchstens eine Bonusaktion pro Zug ausführen, und dies nur Siehe
+    auch dann, wenn eine Regel es ausdrücklich besagt. „Die Spielregeln“ („Aktionen“).
+  Regelbuch: SRD 5.2.1
+- name: Brand (Gefahr)
+  beschreibung: Brennende Kreaturen und Gegenstände erleiden zu Beginn jedes ihrer Züge 1W4 Feuerschaden. Du kannst dich als
+    Aktion selbst löschen, indem du dir den Zustand Liegend gibst und dich auf dem Boden rollst. Das Feuer erlischt auch,
+    wenn
+  Regelbuch: SRD 5.2.1
+- name: Charakterbogen
+  beschreibung: es erstickt oder durch Wasser gelöscht wird. Ein Charakterbogen ist ein Blatt Papier oder Siehe auch ein digitales
+    Dokument, mit dem du die Daten deines Charakters nachverfolgst.
+  Regelbuch: SRD 5.2.1
+- name: Dämmriges Licht
+  beschreibung: „Charaktererstellung“. Siehe auch Ein Bereich mit dämmrigem Licht ist leicht verschleiert. „Leicht verschleiert“
+  Regelbuch: SRD 5.2.1
+- name: Deckung
+  beschreibung: 'und „Die Spielregeln“ („Erkundung“). Deckung bietet einem Ziel dahinter ein gewisses Maß an Schutz. Es gibt
+    drei Deckungsgrade, von denen jeder dem Ziel einen anderen Vorzug bietet: Teildeckung (Bonus von +2 auf RK und Geschick-
+    lichkeitsrettungswürfe), Dreivierteldeckung (Bonus von +5 auf RK und Geschicklichkeitsrettungs- würfe) und vollständige
+    Deckung (das Ziel kann nicht direkt anvisiert werden). Für ein Ziel hinter Siehe auch verschiedenen Deckungsgraden gilt
+    nur der Grad, der den höchsten Schutz bietet.'
+  Regelbuch: SRD 5.2.1
+- name: Dehydrierung (Gefahr)
+  beschreibung: „Die Spielregeln“ („Kampf“). Kreaturen benötigen täglich eine gewisse Menge von Wasser je nach ihrer Größe,
+    wie in der Tabelle „Täglicher Wasserbedarf“ dargestellt. Eine Kreatur, die weniger als die Hälfte der täglich erforderlichen
+    Wassermenge trinkt, erhält am Ende des Tages eine Erschöpfungsstufe. Erschöpfung durch Dehydrierung kann nicht entfernt
+    werden, ehe Siehe auch die Kreatur nicht die vollständige Tagesmenge Tanä gWliacshseerr tWrinaksts.e rbedarf „Erschöpfung“.
+    GrößeWassermengeGrößeWassermenge Winzig1 LiterGroß16 Liter Klein4 LiterRiesig64 Liter Mittel4 LiterGigantisch256 Liter
+  Regelbuch: SRD 5.2.1
+- name: Dunkelheit
+  beschreibung: Siehe auch Dunkle Bereiche sind komplett verschleiert. „Komplett verschleiert“ und „Die Spielregeln“ („Erkundung“).
+  Regelbuch: SRD 5.2.1
+- name: Dunkelsicht
+  beschreibung: Wenn du Dunkelsicht hast, kannst du auf die angegebene Reichweite bei dämmrigem Licht sehen wie bei hellem
+    Licht und bei Dunkelheit Siehe auch wie bei dämmrigem Licht. Farben nimmst du bei Dunkelheit nur als Graustufen wahr.
+  Regelbuch: SRD 5.2.1
+- name: Einstimmung
+  beschreibung: '„Die Spielregeln“ („Erkundung“). Manche magischen Gegenstände erfordern, dass eine bestimmte Bindung an sie
+    hergestellt wird, ehe ihre magischen Eigenschaften genutzt werden können: Dies ist die sogenannte Einstimmung. Siehe auch
+    Eine Kreatur kann auf höchstens drei magische Gegenstände zugleich eingestimmt sein.'
+  Regelbuch: SRD 5.2.1
+- name: Erfahrungspunkte
+  beschreibung: „Ausrüstung“ („Magische Gegenstände“). Charaktere verdienen Erfahrungspunkte (EP), wenn sie Herausforderungen
+    meistern und Aben- teuer abschließen. Die EP werden vom Spielleiter verliehen. Wenn die EP eines Charakters bestimmte
+    Siehe auch Schwellenwerte erreichen, wird die Stufe des
+  Regelbuch: SRD 5.2.1
+- name: Erschöpfung (Zustand)
+  beschreibung: 'Charakters erhöht. „Stufenaufstiege“. Wenn du den Zustand Erschöpft hast, wirken Erschöpfungsstufen: folgende
+    Effekte auf dich: Dieser Zustand ist kumulativ. Wann immer er auf dich wirkt, erhältst du 1 Erschöpfungsstufe hinzu. Wenn
+    du sechs Beeinträchtigte W20-Prüfungen: Erschöpfungsstufen hast, stirbst du. Wenn du eine W20-Prüfung ausführst, ist das
+    Ergebnis um einen Betrag in doppelter Höhe deiner Verringerte Bewegungsrate: Erschöpfungsstufen verringert. Deine Bewegungs-
+    rate ist um eine Anzahl von Metern in Höhe des Erschöpfungsstufen entfernen: 1,5-Fachen deiner Erschöpfungsstufe verringert.
+    Wenn du eine lange Rast abschließt, wird eine deiner Erschöp- fungsstufen entfernt. Sobald du keine Erschöp-'
+  Regelbuch: SRD 5.2.1
+- name: Erschütterungssinn
+  beschreibung: fungsstufen mehr hast, endet der Zustand. Eine Kreatur mit Erschütterungssinn kennt den Ort von Kreaturen
+    und bewegten Gegenständen innerhalb einer bestimmten Reichweite, sofern sie und die erkannten Ziele beide in Kontakt mit
+    derselben Oberfläche (dem Boden, einer Wand, einer Decke) oder derselben Flüssigkeit sind. Erschütterungssinn kann keine
+    Kreaturen oder Gegenstände in der Luft erspüren und zählt nicht als Form der Sicht.
+  Regelbuch: SRD 5.2.1
+- name: Erstickung (Gefahr)
+  beschreibung: Eine Kreatur kann für eine Zeitspanne die Luft anhalten, die ihrem Konstitutionsmodifikator plus 1 in Minuten
+    entspricht (mindestens 30 Sekunden). Danach setzt die Erstickung ein. Solange eine Kreatur keine Luft bekommt oder erstickt,
+    erhält sie am Ende jedes ihrer Züge eine Erschöpfungsstufe. Sobald sie wieder atmen kann, werden alle Erschöpfungsstufen
+  Regelbuch: SRD 5.2.1
+- name: Expertise
+  beschreibung: entfernt, die sie durch die Erstickung erhalten hat. Expertise ist ein Merkmal, das deine Anwendung von Fertigkeiten
+    verbessert, in denen du Übung hast. Wenn du einen Attributswurf mit einer Fertigkeit ausführst, in der du Übung und Expertise
+    hast, ist dein Übungsbonus bei diesem Wurf verdoppelt, sofern der Bonus nicht schon durch ein anderes Merkmal verdoppelt
+    wird. Wenn du Expertise erhältst, dann in einer Fertigkeit, in der du Übung hast. Du kannst nur einmal Expertise in einer
+    Fertigkeit haben, in der Siehe auch du Übung hast.
+  Regelbuch: SRD 5.2.1
+- name: Feindlich gesinnt (Haltung)
+  beschreibung: „Die Spielregeln“ („Übung“). Eine feindlich gesinnte Kreatur steht dir negativ gegenüber. Du bist bei Attributswürfen
+    zum Siehe auch Beeinflussen von Kreaturen, die dir feindlich
+  Regelbuch: SRD 5.2.1
+- name: Fertigkeit
+  beschreibung: gesinnt sind, im Nachteil. „Beeinflussen“. Eine Fertigkeit ist ein Spezialgebiet, das mit einem Attributswurf
+    assoziiert ist. Wenn du Übung in einer Fertigkeit hast und einen Attributswurf ausführst, der mit dieser Fertigkeit assoziiert
+    ist, Siehe auch kannst du dem Ergebnis deinen Übungsbonus
+  Regelbuch: SRD 5.2.1
+- name: Festgesetzt (Zustand)
+  beschreibung: 'hinzufügen. „Die Spielregeln“ („Übung“). Wenn du den Zustand Festgesetzt hast, wirken Keine Bewegungsrate:
+    folgende Effekte auf dich: Deine Bewegungsrate Beeinträchtigte Angriffe: beträgt 0 und kann nicht erhöht werden. Angriffswürfe
+    gegen dich sind im Vorteil, und deine Angriffswürfe sind Beeinträchtigte Rettungswürfe: im Nachteil. Du bist bei'
+  Regelbuch: SRD 5.2.1
+- name: Fliegen
+  beschreibung: Geschicklichkeitsrettungswürfen im Nachteil. Verschiedene Effekte können eine Kreatur flugfähig machen. Wenn
+    du im Flug einen der Zustände Kampfunfähig oder Liegend erhältst oder deine Flugbewegungsrate auf 0 sinkt, stürzt du ab.
+    Siehe auch Du kannst unter diesen Umständen in der Luft bleiben, sofern du schweben kannst. „Flugbewegungsrate“ und „Stürzen“.
+  Regelbuch: SRD 5.2.1
+- name: Flüche
+  beschreibung: Durch manche Effekte im Spiel wird eine Kreatur oder ein Gegenstand verflucht. Der Effekt, der den Fluch brechen
+    Fluch bewirkt, definiert dessen Auswirkungen. Vollständige Genesung Flüche können durch die Zauber und sowie andere magische
+    Effekte entfernt werden, die ausdrücklich Flüche
+  Regelbuch: SRD 5.2.1
+- name: Flugbewegungsrate
+  beschreibung: beenden. Eine Flugbewegungsrate kann verwendet werden, um sich durch die Luft zu bewegen. Mit einer Siehe
+    auch Flugbewegungsrate kannst du in der Luft bleiben, bis du landest, abstürzt oder stirbst.
+  Regelbuch: SRD 5.2.1
+- name: Freier Bereich
+  beschreibung: „Bewegungsrate“ und „Fliegen“. Ein Bereich ist frei, wenn sich keine Kreaturen darin aufhalten und er nicht
+    vollständig mit
+  Regelbuch: SRD 5.2.1
+- name: Freundlich gesinnt (Haltung)
+  beschreibung: Gegenständen angefüllt ist. Eine freundlich gesinnte Kreatur steht dir positiv gegenüber. Du bist bei Attributswürfen
+    zum Siehe auch Beeinflussen von Kreaturen, die dir freundlich
+  Regelbuch: SRD 5.2.1
+- name: Gefahr
+  beschreibung: gesinnt sind, im Vorteil. „Beeinflussen“. Siehe auch Gefahren resultieren aus der Umgebung. „Brand“, „Dehydrierung“,
+    „Erstickung“, „Sturz“ und
+  Regelbuch: SRD 5.2.1
+- name: Gegenstand
+  beschreibung: „Unterernährung“. Ein Gegenstand ist ein unbelebtes, klar abgrenzbares Ding. Zusammengesetzte Dinge wie Gebäude
+    Siehe auch bestehen aus mehr als einem Gegenstand.
+  Regelbuch: SRD 5.2.1
+- name: Gegenstände zerstören
+  beschreibung: '„Gegenstände zerstören“. Gegenstände können durch Angriffe und manche Zauber beschädigt werden. Dabei gelten
+    die Regeln unten. Wenn ein Gegenstand besonders empfindlich ist, kann der SL einer Kreatur gestatten, ihn mit der Angriffs-
+    oder Verwenden-Aktion automatisch zu Rüstungsklasse: zerstören. In der Tabelle „Rüstungsklasse eines Gegenstands“ findest
+    du RK-Vorschläge für Rveürsstcuhniegdseknlea sMseat eeriniaelise nG.egenstands RKMaterialRKMaterial 11Papier, Seil, Stoff19Eisen,
+    Stahl 13Eis, Glas, Kristall21Mithral 15Holz23Adamant 17Stein'
+  Regelbuch: SRD 5.2.1
+- name: Gegner
+  beschreibung: und er scheitert bei allen Rettungswürfen. Eine Kreatur ist dein Gegner, wenn sie im Kampf gegen dich kämpft,
+    dir aktiv schaden will oder von den Regeln oder vom SL als dein Gegner bestimmt
+  Regelbuch: SRD 5.2.1
+- name: Gelähmt (Zustand)
+  beschreibung: 'wurde. Wenn du den Zustand Gelähmt hast, wirken Kampfunfähig: folgende Effekte auf dich: Du hast den Zustand
+    Keine Bewegungsrate: Kampfunfähig. Deine Bewegungsrate Beeinträchtigte Rettungswürfe: beträgt 0 und kann nicht erhöht
+    werden. Du scheiterst bei Stärke- und Geschicklichkeitsrettungswürfen automatisch.'
+  Regelbuch: SRD 5.2.1
+- name: Gelegenheitsangriffe
+  beschreibung: von dir befindet. Wenn eine Kreatur, die du sehen kannst, mithilfe ihrer Aktion, ihrer Bonusaktion, ihrer
+    Reaktion oder einer ihrer Bewegungsraten deine Reichweite verlässt, kannst du einen Gelegenheitsangriff ausführen. Nutze
+    dazu eine Reaktion, um einen Nahkampfangriff mit einer Waffe oder einen waffenlosen Angriff gegen die provozierende Kreatur
+    auszuführen. Der Angriff erfolgt unmittelbar, Siehe auch bevor die Kreatur deine Reichweite verlässt.
+  Regelbuch: SRD 5.2.1
+- name: Gepackt (Zustand)
+  beschreibung: '„Die Spielregeln“ („Kampf“). Wenn du den Zustand Gepackt hast, wirken folgende Keine Bewegungsrate: Effekte
+    auf dich: Deine Bewegungsrate Beeinträchtigte Angriffe: beträgt 0 und kann nicht erhöht werden. Du bist bei Angriffs-
+    würfen gegen alle Ziele außer der Kreatur, die dich Beweglich: gepackt hält, im Nachteil. Die Kreatur, die dich gepackt
+    hält, kann dich ziehen oder tragen, wenn sie sich bewegt. Allerdings kostet sie dies doppelt so viel Bewegung, sofern
+    du nicht winzig oder um mindestens zwei'
+  Regelbuch: SRD 5.2.1
+- name: Gepackt halten
+  beschreibung: 'Kategorien kleiner als sie bist. Eine Kreatur kann eine andere Kreatur packen und festhalten. Charaktere
+    tun dies üblicherweise im Rahmen eines waffenlosen Angriffs. Viele Monster haben besondere Angriffe, die ihnen gestatten,
+    ihre Siehe auch Beute rasch zu packen. Wird eine Kreatur gepackt, so gelten die nachstehenden Regeln. Zustand Gepackt:
+    „Gepackt“ und „Waffenloser Angriff“. Wird eine Kreatur erfolgreich Eine gepackte Kreatur pro Hand: gepackt, so hat sie
+    den Zustand Gepackt. Eine Kreatur muss eine freie Hand haben, um eine andere Kreatur packen zu können. Manche Wertekästen
+    und Spieleffekte gestatten einer Kreatur, ein Ziel mithilfe eines Tentakels, eines Mauls oder eines anderen Körperteils
+    zu packen. Welchen Körperteil auch immer eine Kreatur einsetzt, sie kann damit nur jeweils eine Kreatur gepackt halten,
+    und sie kann diesen Körperteil nicht verwenden, um auf eine andere Kreatur zu zielen, es sei denn, sie Den Zustand Gepackt
+    beenden: beendet zuvor den Haltegriff. Eine gepackte Kreatur kann ihre Aktion verwenden, um einen Stärkewurf (Athletik)
+    oder Geschicklichkeitswurf'
+  Regelbuch: SRD 5.2.1
+- name: Gesinnung
+  beschreibung: 'Ziel jederzeit loslassen (keine Aktion erforderlich). Die Gesinnung einer Kreatur beschreibt ihre grundsätzlichen
+    ethischen Ansichten und Ideale. Sie ist eine Kombination aus zwei Faktoren: der moralischen Haltung (gut, böse, neutral)
+    und der Einstellung zum Gesetz (rechtschaffen, chaotisch, neutral). Diese Faktoren erlauben neun mögliche Siehe auch Kombinationen,
+    beispielsweise rechtschaffen gut oder neutral böse. „Charaktererstellung“'
+  Regelbuch: SRD 5.2.1
+- name: Gestaltwandeln
+  beschreibung: („Deinen Charakter erstellen“). Verwandlung Wenn ein Effekt dich verwandelt, beispielsweise Tiergestalt oder
+    der Zauber , ist in der Beschreibung des Effekts angegeben, was mit dir geschieht. Sofern in der Beschreibung nicht anders
+    angegeben, werden alle Effekte, die gerade auf dich wirken – Zustände, Zauber, Flüche und dergleichen – von einer Gestalt
+    auf die andere übertragen. Wenn du stirbst, verwandelst du
+  Regelbuch: SRD 5.2.1
+- name: Gleichgültig (Haltung)
+  beschreibung: dich in deine wahre Gestalt zurück. Wenn eine Kreatur dir gegenüber gleichgültig ist, hat sie kein Interesse
+    daran, dir zu helfen Siehe auch oder dich zu beeinträchtigen. Gleichgültig ist die Standardhaltung von Monstern.
+  Regelbuch: SRD 5.2.1
+- name: Gleichzeitige Effekte
+  beschreibung: '„Beeinflussen“. Wenn in einem Zug mehrere Dinge zugleich passieren, entscheidet die Person am Spieltisch,
+    die gerade am Zug ist – Spieler oder SL –, in welcher Reihenfolge diese Dinge geschehen. Beispiel: Wenn zu Beginn des
+    Zugs eines Spielercharakters zwei Effekte auftreten, entscheidet der Spieler, welcher'
+  Regelbuch: SRD 5.2.1
+- name: Grabbewegungsrate
+  beschreibung: Effekt sich zuerst ereignet. Kreaturen mit Grabbewegungsrate können ihre Bewegung ganz oder teilweise verwenden,
+    um sich durch Sand, Erde, Schlamm oder Eis zu bewegen. Sie können sich nicht durch massives Siehe auch Gestein graben,
+    sofern sie nicht über ein Merkmal verfügen, das ihnen dies gestattet. „Bewegungsrate“.
+  Regelbuch: SRD 5.2.1
+- name: Größe
+  beschreibung: 'Kreaturen sowie Gegenstände gehören jeweils zu einer Größenkategorie: Winzig, Klein, Mittelgroß, Groß, Riesig
+    oder Gigantisch. Die Größe einer Kreatur bestimmt, wie viel Platz die Kreatur im Siehe auch Kampf einnimmt. Die Größe
+    eines Gegenstands beeinflusst seine Trefferpunkte. „Gegenstände zerstören“ und „Die Spielregeln“'
+  Regelbuch: SRD 5.2.1
+- name: Haltung
+  beschreibung: '(„Kampf“). Monster haben Spielercharakteren gegenüber eine anfängliche Haltung: Sie können ihnen Siehe auch
+    gegenüber freundlich gesinnt, feindlich gesinnt oder gleichgültig sein. „Feindlich gesinnt“, „Freundlich gesinnt“, „Gleichgültig“'
+  Regelbuch: SRD 5.2.1
+- name: Heilung
+  beschreibung: und „Beeinflussen“. Siehe auch Heilung besteht darin, dass du Trefferpunkte zurückerhältst. „Die Spielregeln“
+  Regelbuch: SRD 5.2.1
+- name: Heldische Inspiration
+  beschreibung: („Schaden und Heilung“). Wenn du als Spielercharakter Heldische Inspiration hast, kannst du sie verbrauchen,
+    um mit einem Würfel sofort nach dem Wurf erneut zu würfeln. In diesem Fall musst du das neue Ergebnis verwenden. Verfügst
+    du über Heldische Inspiration und erhältst dann noch weitere, so geht diese verloren, sofern du sie nicht an einen Spielercharakter
+  Regelbuch: SRD 5.2.1
+- name: Helfen (Aktion)
+  beschreibung: 'weitergibst, der keine hat. Wenn du die Helfen-Aktion ausführst, vollziehst Einen Attributswurf unterstützen:
+    du eine der folgenden Handlungen: Wähle eine deiner Übungen in einer Fertigkeit oder im Umgang mit Werkzeug sowie einen
+    Verbündeten aus, der dir nahe genug ist, dass du ihn verbal oder physisch unterstützen kannst, wenn er einen Attributswurf
+    ausführt. Der Verbündete ist bei seinem nächsten Attributswurf mit der ausgewählten Fertigkeit oder dem ausgewählten Werkzeug
+    im Vorteil. Dieser Vorzug gilt nur, wenn der Verbündete ihn vor Beginn deines nächsten Zugs einsetzt. Der SL entscheidet,
+    ob deine Hilfe Einen Angriffswurf unterstützen: möglich ist. Du lenkst einen Gegner im Abstand von bis zu 1,5 Metern von
+    dir vorübergehend ab, sodass der nächste Angriffswurf eines deiner Verbündeten gegen ihn im Vorteil ist. Dieser Vorzug
+    gilt nur, wenn der Verbündete ihn vor Beginn deines nächsten Zugs einsetzt.'
+  Regelbuch: SRD 5.2.1
+- name: Helles Licht
+  beschreibung: Siehe auch Eine normale Beleuchtung gilt als helles Licht.
+  Regelbuch: SRD 5.2.1
+- name: Herausforderungsgrad
+  beschreibung: „Die Spielregeln“ („Erkundung“). Der Herausforderungsgrad (HG) fasst zusammen, wie gefährlich ein Monster
+    für eine Gruppe von vier Spielercharakteren ist. Vergleiche den HG des Monsters mit der Stufe der Charaktere. Ist der
+    HG höher, so ist das Monster wahrscheinlich eine Bedrohung. Ist der HG niedriger, so ist das Monster wahrscheinlich keine
+    große Bedrohung. Die Umstände und die Anzahl der Spielercharaktere haben erheblichen Einfluss darauf, wie gefährlich ein
+    Monster im Spiel tatsächlich ist. Der Abschnitt „Werkzeugkasten fürs Spiel“ („Kampfbegegnungen“) enthält Ratschläge für
+    den SL, wie der HG beim Planen Siehe auch möglicher Kampfbegegnungen zu verwenden ist.
+  Regelbuch: SRD 5.2.1
+- name: Hochsprung
+  beschreibung: „Wertekasten“. Bei einem Hochsprung springst du eine Anzahl von Metern empor. Sie entspricht einem Drittel
+    der Summe aus deinem Stärkemodifikator + 3, sofern du unmittelbar vor dem Sprung mindestens drei Meter zurückgelegt hast.
+    Bei einem Hochsprung aus dem Stand kannst du nur halb so hoch springen. In beiden Fällen kostet dich jeder gesprungene
+    Meter einen Meter deiner Bewegungsrate. Du kannst deine Arme während eines Sprungs um die Hälfte deiner Größe nach oben
+    strecken. So kannst du mit den Händen eine Höhe erreichen, die deiner Sprunghöhe plus deiner 1,5-fachen
+  Regelbuch: SRD 5.2.1
+- name: Illusionen
+  beschreibung: 'Körpergröße entspricht. Manche Zauber und anderen Effekte erzeugen magische Illusionen. Ein solcher Effekt
+    definiert, was die Illusion tut und welche Sinne oder mentalen Bereiche sie täuscht. Wenn eine Illusion sich im Raum manifestiert,
+    ist sie körperlos und hat kein Gewicht, doch sie wirkt von der Umgebung betroffen, als wäre sie real, sofern der hervorrufende
+    Effekt nichts anderes angibt. Beispiel: Die visuelle Illusion einer Kreatur wirft Schatten und verursacht Reflexionen,
+    und Wind scheint sie zu beeinflussen. Entsprechend erzeugt eine akustische Illusion bei passenden'
+  Regelbuch: SRD 5.2.1
+- name: Immunität
+  beschreibung: räumlichen Gegebenheiten Echos. Wenn du gegen eine Schadensart oder einen Zustand immun bist, kannst du davon
+    in keiner
+  Regelbuch: SRD 5.2.1
+- name: Improvisierte Waffen
+  beschreibung: Weise beeinflusst werden. Eine improvisierte Waffe ist ein Gegenstand, der behelfsmäßig als Waffe geführt
+    wird,
+  Regelbuch: SRD 5.2.1
+- name: Initiative
+  beschreibung: Tischbein als Knüppel behandeln. Die Initiative bestimmt die Reihenfolge der Züge während eines Kampfs. In
+    den Kampfregeln unter „Die Spielregeln“ wird erläutert, wie die Initiative ausgewürfelt wird. Manchmal könnte der SL bestimmen,
+    dass die Kampfteilnehmer ihre Initiativewerte verwenden, anstatt die Initiative auszuwürfeln. Dein Initiativewert entspricht
+    10 plus deinem Geschicklichkeitsmodifikator. Wenn du bei Initiativewürfen im Vorteil bist, erhöhe deinen Initiativewert
+    um 5. Wenn du bei Initiativewürfen Siehe auch im Nachteil bist, verringere deinen Initiativewert
+  Regelbuch: SRD 5.2.1
+- name: Kampagne
+  beschreibung: um 5. „Die Spielregeln“ („Kampf“). Siehe auch Eine Kampagne besteht aus einer Reihe einzelner
+  Regelbuch: SRD 5.2.1
+- name: Kampfunfähig (Zustand)
+  beschreibung: 'Abenteuer. „Abenteuer“. Wenn du den Zustand Kampfunfähig hast, wirken Inaktiv: folgende Effekte auf dich:
+    Du kannst keine Aktionen, Bonusaktionen Keine Konzentration: oder Reaktionen ausführen. Deine Konzentration ist Stumm:
+    unterbrochen. Überrascht: Du kannst nicht sprechen. Wenn du beim Auswürfeln der Initiative kampfunfähig bist, so bist
+    du bei diesem Wurf im Nachteil.'
+  Regelbuch: SRD 5.2.1
+- name: Kegel (Wirkungsbereich)
+  beschreibung: 'Ein Kegel ist ein Wirkungsbereich, der von einem Ursprungspunkt in geraden Linien in einer Richtung nach
+    Wahl des Wirkers ausgeht. Die Breite eines Kegels an einem beliebigen Punkt auf seiner Länge entspricht dem Abstand dieses
+    Punkts vom Ursprungspunkt. Beispiel: Ein Kegel ist an einem Punkt auf seiner Länge, der 4,5 Meter vom Ursprungspunkt entfernt
+    liegt, 4,5 Meter breit. Der Effekt, der den Kegel erzeugt, definiert dessen maximale Länge. Der Ursprungspunkt eines Kegels
+    ist nicht im Wirkungsbereich enthalten, es sei denn, der Wirker'
+  Regelbuch: SRD 5.2.1
+- name: Kletterbewegungsrate
+  beschreibung: beschließt dies. Du kannst eine Kletterbewegungsrate anstatt der normalen Bewegungsrate verwenden, um dich
+    an vertikalen Oberflächen zu bewegen, ohne die zusätzliche Bewegung zu benötigen, Siehe auch die beim Klettern normalerweise
+    anfällt.
+  Regelbuch: SRD 5.2.1
+- name: Klettern
+  beschreibung: „Bewegungsrate“ und „Klettern“. Beim Klettern kostet dich jeder Meter, den du zurücklegst, einen zusätzlichen
+    Meter Bewegungsrate (zwei zusätzliche Meter in schwierigem Gelände). Du kannst diese zusätzlichen Kosten ignorieren, wenn
+    du über eine Kletterbewegungsrate verfügst und sie beim Klettern verwendest. Nach Ermessen des SL kann das Klettern an
+    rutschigen Oberflächen oder solchen mit wenigen Griffmöglichkeiten einen erfolgreichen SG-15-
+  Regelbuch: SRD 5.2.1
+- name: Komplett verschleiert
+  beschreibung: Stärkewurf (Athletik) erfordern. Siehe auch In komplett verschleierten Bereichen hast du den Zustand Blind.
+    „Blind“, „Dunkelheit“
+  Regelbuch: SRD 5.2.1
+- name: Konzentration
+  beschreibung: 'und „Die Spielregeln“ („Erkundung“). Manche Zauber und andere Effekte erfordern Konzentration, um aktiv zu
+    bleiben. Dies ist in ihrer Beschreibung angegeben. Wenn der Wirker des Effekts seine Konzentration verliert, endet der
+    Effekt. Hat der Effekt eine maximale Wirkungsdauer, so ist in der Beschreibung des Effekts angegeben, wie lange der Wirker
+    sich auf ihn konzentrieren kann: „Bis zu 1 Minute“, „1 Stunde“ oder eine andere Dauer. Der Wirker kann seine Konzentration
+    jederzeit beenden – dazu ist keine Aktion erforderlich. Folgende Faktoren stören Weiterer Effekt, der Konzentration erfordert:
+    oder beenden die Konzentration: Du verlierst die Konzentration auf einen Effekt, sobald du einen Zauber oder einen sonstigen
+    Effekt wirkst, der ebenfalls Konzentration erfordert.'
+  Regelbuch: SRD 5.2.1
+- name: Kreatur
+  beschreibung: endet, wenn du kampfunfähig wirst oder stirbst. Siehe auch Alle Wesen im Spiel einschließlich der Spieler-
+  Regelbuch: SRD 5.2.1
+- name: Kreaturen in den Zustand Bewusstlos versetzen
+  beschreibung: charaktere sind Kreaturen. „Kreaturentyp“. Wenn du die Trefferpunkte einer Kreatur mit einem Nahkampfangriff
+    auf 0 senken würdest, kannst du sie stattdessen auf 1 Trefferpunkt senken. In diesem Fall hat die Kreatur den Zustand
+    Bewusstlos und beginnt eine kurze Rast. Die Kreatur bleibt bewusstlos, bis sie Treffer- punkte zurückerhält, oder bis
+    ihr jemand mit einer Aktion und einem erfolgreichen SG-10-Weisheitswurf
+  Regelbuch: SRD 5.2.1
+- name: Kreaturentyp
+  beschreibung: '(Heilkunde) Erste Hilfe leistet. Alle Kreaturen einschließlich der Spielercharaktere weisen in den Regeln
+    ein Schlagwort auf, das ihren Kreaturentyp bezeichnet. Die meisten Spieler- charaktere haben den Kreaturentyp Humanoide.
+    AberrationHumanoideSchlick Es gibt folgende Kreaturentypen im Spiel: CelestischKonstruktTier DracheMonstrositätUnhold
+    ElementarPflanzeUntoter FeenwesenRiese Die Typen haben keine eigenen Regeln, doch manche Regeln im Spiel wirken bei unterschiedlichen'
+  Regelbuch: SRD 5.2.1
+- name: Kriechen
+  beschreibung: Kreaturentypen verschieden. Wenn du kriechst, kostet dich jeder Meter, den du zurücklegst, einen zusätzlichen
+    Meter Bewegungsrate Siehe auch (zwei zusätzliche Meter in schwierigem Gelände).
+  Regelbuch: SRD 5.2.1
+- name: Kritischer Treffer
+  beschreibung: „Bewegungsrate“. Wenn du beim W20-Angriffswurf eine 20 würfelst, erzielst du einen kritischen Treffer, und
+    der Angriff trifft unabhängig von etwaigen Modifikatoren und der RK des Ziels. Bei einem kritischen Treffer kannst du
+    mit zusätzlichen Würfeln würfeln, um den Schaden zu bestimmen, den das Ziel durch den Angriff erleidet. Würfle zweimal
+    mit allen Schadenswürfeln Siehe auch des Angriffs und addiere die Ergebnisse. Wende dann die relevanten Modifikatoren
+    an. „Die Spielregeln“ („Schaden und Heilung“).
+  Regelbuch: SRD 5.2.1
+- name: Kugel (Wirkungsbereich)
+  beschreibung: Eine Kugel ist ein Wirkungsbereich, der von einem Ursprungspunkt in geraden Linien in alle Richtungen ausgeht.
+    Der Effekt, der die Kugel erzeugt, definiert die Wirkungsdistanz als Radius der Kugel. Der Ursprungspunkt der Kugel ist
+    im Wirkungs-
+  Regelbuch: SRD 5.2.1
+- name: Kurze Rast
+  beschreibung: 'bereich des Zaubers enthalten. Eine kurze Rast ist eine einstündige Ruhepause, während der eine Kreatur höchstens
+    leichte Aktivitäten wie Lesen, Reden, Essen oder Wache halten ausführt. Du musst mindestens einen Treffer punkt haben,
+    um eine kurze Rast zu Vorzüge der Rast: beginnen. Wenn du die Rast beendest, Trefferpunktewürfel verbrauchen: erhältst
+    du die folgenden Vorzüge: Du kannst mindestens einen deiner Trefferpunktewürfel verbrauchen, um Trefferpunkte zurückzuerhalten.
+    Würfle mit jedem Trefferpunktewürfel, den du auf diese Art verbrauchst, und füge dem Ergebnis deinen Konstitutionsmodifikator
+    hinzu. Du erhältst Trefferpunkte in der Höhe des Gesamtergebnisses zurück (mindestens 1). Du kannst nach jedem Wurf entscheiden,
+    ob du einen weiteren Treffer punktewürfel verbrauchen Besonderes Merkmal: willst. Manche Merkmale werden durch eine kurze
+    Rast aufgeladen. Wenn du ein solches Merkmal hast, wird es wie in seiner Die Rast unterbrechen: Beschreibung angegeben
+    aufgeladen. Eine kurze Rast kann auf folgende Arten unterbrochen werden: • Initiative auswürfeln • Einen Zauber wirken,
+    der kein Zaubertrick ist • Schaden erleiden Eine unterbrochene kurze Rast gewährt keine'
+  Regelbuch: SRD 5.2.1
+- name: Lange Rast
+  beschreibung: Vorzüge. Eine lange Rast ist eine ausgedehnte Ruhepause von mindestens acht Stunden, die jeder Kreatur zur
+    Verfügung steht. Während einer langen Rast schläfst du mindestens sechs Stunden lang und führst höchstens zwei Stunden
+    lang leichte Aktivitäten wie Lesen, Reden, Essen oder Wache halten aus. Während du schläfst, hast du den Zustand Bewusstlos.
+    Hast du eine lange Rast beendest, so musst du mindestens 16 Stunden warten, ehe du die nächste beginnst.
+  Regelbuch: SRD 5.2.1
+- name: Leicht verschleiert
+  beschreibung: erforderlich, um diese zu beenden. Du bist bei Weisheitswürfen (Wahrnehmung) Siehe auch im Nachteil, die du
+    ausführst, um etwas in einem leicht verschleierten Bereich zu sehen. „Dämmriges Licht“ und „Die Spielregeln“
+  Regelbuch: SRD 5.2.1
+- name: Liegend (Zustand)
+  beschreibung: '(„Erkundung“). Wenn du den Zustand Liegend hast, wirken folgende Eingeschränkte Bewegung: Effekte auf dich:
+    Deine einzigen Bewegungsmöglichkeiten bestehen darin, entweder zu kriechen oder Bewegung in Höhe der Hälfte deiner Bewegungsrate
+    (abgerundet) zu verbrauchen, um aufzustehen und den Zustand damit zu beenden. Wenn deine Bewegungsrate Beeinträchtigte
+    Angriffe: 0 beträgt, kannst du nicht aufstehen. Du bist bei Angriffs- würfen im Nachteil. Angriffswürfe gegen dich sind
+    im Vorteil, wenn der Angreifer sich im Abstand von bis zu 1,5 Metern von dir befindet. Anderenfalls sind Angriffswürfe
+    gegen dich im Nachteil.'
+  Regelbuch: SRD 5.2.1
+- name: Linie (Wirkungsbereich)
+  beschreibung: Eine Linie ist ein Wirkungsbereich, der in gerader Linie von einem Ursprungspunkt ausgeht. Länge und Breite
+    dieses Wirkungsbereichs sind in der Beschreibung definiert. Der Effekt, der die Linie erzeugt, definiert ihre Länge und
+    Breite. Der Ursprungspunkt einer Linie ist nicht im Wirkungsbereich enthalten, es sei denn, der Wirker
+  Regelbuch: SRD 5.2.1
+- name: Magie (Aktion)
+  beschreibung: beschließt dies. Wenn du eine magische Aktion ausführst, wirkst du einen Zauber mit dem Zeitaufwand von einer
+    Aktion oder verwendest ein Merkmal oder einen magischen Gegenstand, bei dem eine magische Aktion zum Aktivieren erforderlich
+    ist. Wenn du einen Zauber wirkst, dessen Zeitauf- wand mindestens eine Minute beträgt, musst du die magische Aktion in
+    jedem Zug während des Zeitaufwands ausführen und währenddessen deine Konzentration aufrechterhalten. Wird deine Konzentration
+    unterbrochen, so misslingt der Siehe auch Zauber. In diesem Fall wird der Zauberplatz nicht
+  Regelbuch: SRD 5.2.1
+- name: Magischer Effekt
+  beschreibung: verbraucht. „Konzentration“. Ein Effekt ist magisch, wenn er durch einen Zauber, einen magischen Gegenstand
+    oder ein Phänomen erzeugt wird, das durch eine Regel als magisch
+  Regelbuch: SRD 5.2.1
+- name: Monster
+  beschreibung: klassifiziert ist. Ein Monster ist eine vom SL kontrollierte Kreatur – Siehe auch auch dann, wenn die Kreatur
+    wohlwollend ist.
+  Regelbuch: SRD 5.2.1
+- name: Nachteil
+  beschreibung: „Kreatur“ und „NSC“. Wenn du bei einer W20-Prüfung im Nachteil bist, würfle mit zwei W20 und verwende das
+    niedrigere Ergebnis. Für einen Würfelwurf kann nur jeweils ein Nachteil gelten. Vorteil und Nachteil, die für Siehe auch
+    denselben Wurf gelten, heben einander auf.
+  Regelbuch: SRD 5.2.1
+- name: Nahkampfreichweite
+  beschreibung: „Die Spielregeln“ („W20-Prüfungen“). Kreaturen haben eine Reichweite von 1,5 Metern,
+  Regelbuch: SRD 5.2.1
+- name: Nichtspielercharakter
+  beschreibung: sofern keine Regel etwas anderes besagt. Ein Nichtspielercharakter (NSC) ist ein Monster, Siehe auch das einen
+    Personennamen und eine eigene
+  Regelbuch: SRD 5.2.1
+- name: Passive Wahrnehmung
+  beschreibung: Persönlichkeit hat. „Monster“. Passive Wahrnehmung ist ein Wert, der für die allgemeine Aufmerksamkeit einer
+    Kreatur ihrer Umgebung gegenüber steht. Der SL verwendet
+  Regelbuch: SRD 5.2.1
+- name: Pro Tag
+  beschreibung: im Vorteil ist, beträgt der Wert 19. Wenn eine Regel besagt, dass du etwas eine bestimmte Anzahl von Malen
+    pro Tag anwenden kannst, so bedeutet dies, dass du nach Verbrauch dieser Anzahl eine lange Rast beenden musst,
+  Regelbuch: SRD 5.2.1
+- name: Reaktion
+  beschreibung: um es erneut anwenden zu können. Eine Reaktion ist eine besondere Aktion, die als Antwort auf einen in der
+    Beschreibung der Reaktion definierten Auslöser erfolgt. Du kannst eine Reaktion auch während des Zugs einer anderen Kreatur
+    ausführen. Wenn du sie in deinem Zug ausführst, kannst du dies auch dann tun, wenn du bereits eine Aktion, eine Bonusaktion
+    oder beides ausgeführt hast. Wenn du eine Reaktion ausgeführt hast, kannst du bis zum Beginn deines nächsten Zugs keine
+    weitere Reaktion ausführen. Siehe auch Der Gelegenheitsangriff ist eine Reaktion, die allen Kreaturen zur Verfügung steht.
+    „Gelegenheitsangriffe“ und „Die Spielregeln“
+  Regelbuch: SRD 5.2.1
+- name: Resistenz
+  beschreibung: („Aktionen“). Wenn du gegen eine Schadensart resistent bist, ist der Schaden dieser Art gegen dich halbiert
+    Siehe auch (abgerundet). Die Resistenz wird pro Instanz des Schadens nur einmal angewendet.
+  Regelbuch: SRD 5.2.1
+- name: Rettungswurf
+  beschreibung: „Die Spielregeln“ („Schaden und Heilung“). Ein Rettungswurf (RW) repräsentiert den Versuch, Gefahren zu entgehen
+    oder zu widerstehen. Normalerweise führst du nur dann einen Rettungs- wurf aus, wenn eine Regel dies erfordert. Du kannst
+    beschließen, den Rettungswurf misslingen zu lassen, ohne zu würfeln. Das Ergebnis eines Rettungswurfs ist im Effekt beschrieben,
+    der ihn stattfinden lässt. Wenn ein Ziel zu einem Rettungswurf gezwungen wird, den entsprechenden Attributswert jedoch
+    Siehe auch nicht hat, misslingt der Rettungswurf automatisch. „Die Spielregeln“ („W20-Prüfungen“).
+  Regelbuch: SRD 5.2.1
+- name: Ritual
+  beschreibung: Wenn du einen Zauber vorbereitet hast, der als Ritual gekennzeichnet ist, kannst du diesen Zauber als Ritual
+    wirken. Es dauert zehn Minuten länger als sonst, die Ritualversion eines Zaubers zu wirken. Außerdem wird kein Zauberplatz
+    verbraucht, was bedeutet, dass die Ritualversion Siehe auch nicht auf höheren Graden gewirkt werden kann.
+  Regelbuch: SRD 5.2.1
+- name: Rückzug (Aktion)
+  beschreibung: „Zauber“. Wenn du die Rückzug-Aktion ausführst, provoziert deine Bewegung in diesem Zug
+  Regelbuch: SRD 5.2.1
+- name: Rüstungsklasse
+  beschreibung: keine Gelegenheitsangriffe. Die Rüstungsklasse (RK) ist der Zielwert eines Angriffswurfs. Die RK repräsentiert,
+    wie schwierig es ist, ein Ziel zu treffen. Deine Basis-RK berechnet sich aus 10 plus deinem Geschicklichkeitsmodifikator.
+    Wenn eine Regel dir eine andere Berechnung der Basis-RK gibt, wählst du aus, welche Berechnung du nutzen Siehe auch willst.
+    Du kannst nicht mehr als eine verwenden.
+  Regelbuch: SRD 5.2.1
+- name: Rüstungsvertrautheit
+  beschreibung: '„Angriffswurf“. Rüstungsvertrautheit erlaubt dir, Rüstung einer bestimmten Kategorie zu tragen, ohne die
+    folgenden Nachteile zu erleiden: Wenn du leichte, mittelschwere oder schwere Rüstung trägst, mit der du nicht vertraut
+    bist, so bist du bei jeder W20-Prüfung im Nachteil, die Stärke oder Geschicklichkeit einbezieht, und du kannst keine Zauber
+    wirken. Wenn du einen Schild führst, Siehe auch mit dem du nicht vertraut bist, kannst du seinen Rüstungsklassenbonus
+    nicht nutzen.'
+  Regelbuch: SRD 5.2.1
+- name: RW
+  beschreibung: „Nachteil“ und „Ausrüstung“ („Rüstung“). Siehe auch „RW“ ist die Abkürzung von „Rettungswurf“.
+  Regelbuch: SRD 5.2.1
+- name: Schaden
+  beschreibung: „Rettungswurf“. Schaden repräsentiert Wirkungen, die eine Kreatur oder einen Gegenstand Trefferpunkte verlieren
+  Regelbuch: SRD 5.2.1
+- name: Schadensarten
+  beschreibung: lassen. Angriffe und andere schädliche Effekte bewirken unterschiedliche Schadensarten. Die Schadensarten
+    weisen zwar keine eigenen Regeln auf, doch es gibt andere Regeln wie die für Resistenzen, die auf Schadensarten basieren.
+    Die Tabelle „Schadensarten“ bietet Beispiele, um dem SL zu helfen, neuen Effekten passende Schadensarten zuzuweisen.
+  Regelbuch: SRD 5.2.1
+- name: Schadensschwellenwert
+  beschreibung: 'Kreaturen und Gegenstände mit Schadens- schwellen wert sind gegen alle Schadensarten immun, es sei denn,
+    sie erleiden durch einen einzigen Angriff oder Effekt so viel Schaden, dass der Schadensschwellenwert erreicht oder überschritten
+    wird. In diesem Fall erleiden sie den gesamten entsprechenden Schaden. Jeglicher Schaden, der den Schadensschwellenwert
+    unterschreitet, gilt als oberflächlich und verringert keine Trefferpunkte. Beispiel: Wenn ein Gegenstand einen Schadensschwellenwert
+    von 10 hat, erleidet er keinen Schaden, wenn ihm 9 Schaden zugefügt wird, da dieser Schaden den Schwellenwert nicht erreicht.
+    Erleidet dieser Gegenstand 11 Schaden,'
+  Regelbuch: SRD 5.2.1
+- name: Schadenswurf
+  beschreibung: so erleidet er diesen gesamten Schaden. Ein Schadenswurf ist ein Würfelwurf, der von Siehe auch relevanten
+    Modifikatoren beeinflusst wird und einem Ziel Schaden zufügt.
+  Regelbuch: SRD 5.2.1
+- name: Schweben
+  beschreibung: „Die Spielregeln“ („Schaden und Heilung“). Manche Kreaturen können schweben, wie in ihren Wertekästen vermerkt,
+    und manche Zauber und andere Effekte gewähren die Fähigkeit zu schweben. Während des Flugs zu schweben verhindert, Siehe
+    auch dass du unter bestimmten Umständen abstürzt.
+  Regelbuch: SRD 5.2.1
+- name: Schwieriges Gelände
+  beschreibung: '„Fliegen“. Wenn ein Bereich schwieriges Gelände ist, kostet jeder Meter Bewegung in diesem Bereich einen
+    zusätzlichen Meter Bewegungsrate. Beispiel: Eine Bewegung von 1,5 Metern in schwierigem Gelände kostet drei Meter Bewegungsrate.'
+  Regelbuch: SRD 5.2.1
+- name: Schwierigkeitsgrad
+  beschreibung: Der Schwierigkeitsgrad (SG) ist der Zielwert für Siehe auch einen Attributswurf oder einen Rettungswurf.
+  Regelbuch: SRD 5.2.1
+- name: Schwimmbewegungsrate
+  beschreibung: „Die Spielregeln“ („W20-Prüfungen“). Eine Schwimmbewegungsrate kann verwendet werden, um zu schwimmen, ohne
+    die zusätzliche Siehe auch Bewegung zu benötigen, die dabei normalerweise anfällt. „Bewegungsrate“ und
+  Regelbuch: SRD 5.2.1
+- name: Schwimmen
+  beschreibung: „Schwimmen“. Beim Schwimmen kostet dich jeder Meter, den du zurücklegst, einen zusätzlichen Meter Bewegungsrate
+    (zwei zusätzliche Meter in schwierigem Gelände). Du kannst diese zusätzlichen Kosten ignorieren, wenn du über eine Schwimmbewegungsrate
+    verfügst und sie beim Schwimmen verwendest. Nach Ermessen des SL kann jede Strecke in rauem Gewässer einen erfolgreichen
+    SG-15-Stärkewurf
+  Regelbuch: SRD 5.2.1
+- name: Spielercharakter
+  beschreibung: (Athletik) erfordern. Siehe auch Ein Spielercharakter ist ein Charakter, der von einem Spieler kontrolliert
+    wird.
+  Regelbuch: SRD 5.2.1
+- name: Springen
+  beschreibung: „Charaktererstellung“. Beim Springen kannst du entweder einen Siehe auch Hochsprung (vertikal) oder einen
+    Weitsprung (horizontal) ausführen. „Hochsprung“
+  Regelbuch: SRD 5.2.1
+- name: Spurt (Aktion)
+  beschreibung: 'und „Weitsprung“. Wenn du die Spurt-Aktion ausführst, erhältst du für diesen Zug zusätzliche Bewegung. Dieser
+    Zuwachs entspricht der Höhe deiner Bewegungsrate einschließlich relevanter Modifikatoren. Beispiel: Bei einer Bewegungsrate
+    von neun Metern kannst du dich mit einem Spurt insgesamt bis zu 18 Meter'
+  Regelbuch: SRD 5.2.1
+- name: Stabil
+  beschreibung: „Bewegungsrate“. Eine Kreatur ist stabil, wenn sie zwar 0 Treffer- Siehe auch punkte hat, aber keine Todesrettungswürfe
+    ausführen muss. „Die Spielregeln“
+  Regelbuch: SRD 5.2.1
+- name: Studieren (Aktion)
+  beschreibung: („Schaden und Heilung“). Wenn du die Studieren-Aktion ausführst, führst du einen Intelligenzwurf aus, um deine
+    Erinnerung, ein Buch, einen Hinweis oder eine andere Wissensquelle zu studieren und Erkenntnisse über wichtige Informationen
+    zu erzielen. Die Tabelle „Wissensgebiete“ enthält Vorschläge, welche Fertigkeiten zu den verschiedenen Wissens- Wgebisiesteenns
+    pgaesbsieent.e FertigkeitGebiete Arkane Zauber, magische Gegenstände, Kundemystische Symbole, magische Traditionen, Existenzebenen
+    und bestimmte Kreaturen (Aberrationen, Elementare, Feenwesen, Konstrukte und Monstrositäten) GeschichteHistorische Ereignisse
+    und Völker, vergangene Zivilisationen, Kriege und bestimmte Kreaturen (Riesen und Humanoiden). NachforFallen, Geheimschriften,
+    Rätsel und schungenApparaturen NaturkundeGelände, Flora, Wetter und bestimmte Kreaturen (Drachen, Pflanzen, Schlicke,
+    Tiere) ReligionGottheiten, religiöse Hierarchien und Riten, heilige Symbole, Kulte und bestimmte Kreaturen (celestische
+    Wesen, Unholde und Untote)
+  Regelbuch: SRD 5.2.1
+- name: Sturz (Gefahr)
+  beschreibung: Am Ende eines Sturzes erleidet eine Kreatur 1W6 Wuchtschaden pro drei Meter, die sie gestürzt ist (höchstens
+    20W6). Nach dem Sturz hat sie den Zustand Liegend, sofern sie den Schaden durch den Sturz nicht vermeiden konnte.
+  Regelbuch: SRD 5.2.1
+- name: Suchen (Aktion)
+  beschreibung: Bei einem Erfolg wird der Fallschaden halbiert. Wenn du die Suchen-Aktion ausführst, führst du einen Weisheitswurf
+    aus, um etwas zu finden oder zu erfahren, was nicht offenkundig ist. In der Tabelle „Suchen“ findest du Vorschläge, welche
+    Fertigkeiten bei dieser Aktion gelten – je nachdem, was du finden Swuilclshte.n FertigkeitSuche nach ... HeilkundeKrankheit
+    oder Todesursache einer Kreatur Motiv erkennenGeisteszustand einer Kreatur ÜberlebenskunstSpuren oder Nahrung WahrnehmungVerborgene
+    Kreatur/verborgener Gegenstand
+  Regelbuch: SRD 5.2.1
+- name: Taub (Zustand)
+  beschreibung: 'Wenn du den Zustand Taub hast, wirkt folgender Nicht hörfähig: Effekt auf dich: Du kannst nicht hören, und
+    jeder Attributswurf, der Hörvermögen erfordert,'
+  Regelbuch: SRD 5.2.1
+- name: Telepathie
+  beschreibung: misslingt automatisch. Telepathie ist eine magische Fähigkeit, die Kreaturen gestattet, auf eine bestimmte
+    Reichweite mental mit anderen Kreaturen zu kommunizieren. Sofern keine Regel etwas anderes besagt, muss die kontaktierte
+    Kreatur keine Sprache mit dem Telepathen teilen, um die Kommunikation zu verstehen. Sie muss jedoch mindestens eine Sprache
+    verstehen oder selbst telepathisch sein. Der Telepath braucht die kontaktierte Kreatur nicht zu sehen, und er kann den
+    telepathischen Kontakt jederzeit herstellen oder beenden (keine Aktion erforderlich). Der telepathische Kontakt kann nicht
+    begonnen werden oder bricht sofort ab, wenn der Telepath oder die andere Kreatur kampfunfähig wird. Der Kontakt bricht
+    auch dann ab, wenn die kontaktierte Kreatur die Reichweite der Telepathie verlässt oder der Telepath eine andere Kreatur
+    in Reichweite kontaktiert. Kreaturen ohne Telepathie können telepathische Nachrichten empfangen, jedoch selbst kein telepathisches
+    Gespräch beginnen. Wenn ein telepathisches Gespräch beginnt, kann der Nicht- Telepath mental mit dem Telepathen kommunizieren,
+    bis die telepathische Verbindung endet.
+  Regelbuch: SRD 5.2.1
+- name: Teleportation
+  beschreibung: Teleportation ist eine besondere Art von magischem Transport. Wenn du dich teleportierst, verschwindest du
+    und erscheinst unmittelbar irgendwo anders, ohne dich durch den Raum dazwischen bewegt zu haben. Dieser Transport verbraucht
+    keine Bewegung, sofern nicht eine Regel etwas anderes besagt. Teleportation provoziert niemals Gelegenheitsangriffe. Wenn
+    du dich teleportierst, wird jede Ausrüstung, die du trägst oder hältst, mit dir teleportiert. Berührst du während der
+    Teleportation eine andere Kreatur, so wird diese Kreatur nicht mit dir teleportiert, sofern beim Teleportationseffekt
+    nicht anders vermerkt. Wenn der Zielbereich der Teleportation von einer anderen Kreatur besetzt oder von einem massiven
+    Hindernis blockiert ist, erscheinst du stattdessen im nächsten freien Bereich deiner Wahl. In der Beschreibung des Teleportationseffekts
+    erfährst du, ob du den Zielort der Teleportation
+  Regelbuch: SRD 5.2.1
+- name: Temporäre Trefferpunkte
+  beschreibung: sehen können musst. Temporäre Trefferpunkte werden durch bestimmte Siehe auch Effekte gewährt. Sie fungieren
+    als Puffer, um weniger echte Trefferpunkte zu verlieren.
+  Regelbuch: SRD 5.2.1
+- name: Todesrettungswurf
+  beschreibung: „Die Spielregeln“ („Schaden und Heilung“). Wenn Spielercharakter seinen Zug mit 0 Treffer- Siehe auch punkten
+    beginnt, muss er einen Todesrettungswurf ausführen. „Die Spielregeln“ („Schaden
+  Regelbuch: SRD 5.2.1
+- name: Tot
+  beschreibung: und Heilung“). Eine tote Kreatur hat keine Trefferpunkte und kann Tote erwecken auch keine zurückerhalten,
+    sofern sie nicht zunächst Wiederbeleben durch Magie wie die Zauber oder wiederbelebt wird. Wenn ein solcher Zauber gewirkt
+    wird, weiß der Geist, wer ihn wirkt, und kann sich weigern. Der Geist einer toten Kreatur hat den Körper verlassen und
+    sich auf die Äußeren Ebenen begeben. Um die Kreatur wiederzubeleben, muss der Geist zurückgerufen werden. Wenn die Kreatur
+    ins Leben zurückkehrt, werden ihre aktuellen Trefferpunkte durch den wiederbelebenden Effekt bestimmt. Sofern nicht anders
+    angegeben, wirken alle Zustände, magischen Krankheiten und Flüche auf die wiederbelebte Kreatur, die auch zum Zeitpunkt
+    ihres Todes auf sie gewirkt haben, sofern die jeweiligen Wirkungsdauern noch nicht abgelaufen sind. Wenn die Kreatur mit
+    Erschöpfungsstufen gestorben ist, kehrt sie mit einer Erschöpfungsstufe weniger ins Leben zurück. War die Kreatur auf
+    mindestens einen magischen Gegenstand eingestimmt, so ist sie dies jetzt nicht mehr.
+  Regelbuch: SRD 5.2.1
+- name: Traglast
+  beschreibung: Deine Größe und dein Stärkewert bestimmen das maximale Gewicht in Kilogramm, das du tragen kannst, wie in
+    der Tabelle „Traglast“ dargestellt. In der Tabelle ist außerdem aufgeführt, welches Gewicht du höchstens ziehen, anheben
+    und schieben kannst. Wenn du ein Gewicht ziehst, anhebst oder schiebst, das deine Traglast überschreitet, beträgt Tderiangel
+    aBsetwegungsrate höchstens 1,5 Meter. Anheben/ KreaturengrößeTragenSchieben/Ziehen WinzigStä. × 3,75 kgStä. × 7,5 kg Klein/MittelgroßStä.
+    × 7,5 kgStä. × 15 kg GroßStä. × 15 kgStä. × 30 kg RiesigStä. × 30 kgStä. × 60 kg GigantischStä. × 60 kgStä. × 120 kg
+  Regelbuch: SRD 5.2.1
+- name: Trefferpunkte
+  beschreibung: Trefferpunkte (TP) sind ein Maß dafür, wie schwierig es ist, eine Kreatur zu töten oder einen Gegenstand zu
+    zerstören. Schaden verringert Trefferpunkte, Heilung stellt Trefferpunkte wieder her. Deine Trefferpunkte können dein
+    Trefferpunktemaximum nicht überschreiten, Siehe auch und du kannst nicht weniger als 0 Trefferpunkte haben. „Gegenstände
+    zerstören“ und
+  Regelbuch: SRD 5.2.1
+- name: Trefferpunktewürfel
+  beschreibung: „Die Spielregeln“ („Schaden und Heilung“). Trefferpunktewürfel oder kurz Trefferwürfel helfen, das Trefferpunktemaximum
+    eines Spieler- charakters zu ermitteln, wie unter „Charakterer- stellung“ erläutert. Auch die meisten Monster haben Trefferwürfel.
+    Kreaturen können während Siehe auch einer kurzen Rast Trefferwürfel verbrauchen, um Trefferpunkte zurückzuerhalten.
+  Regelbuch: SRD 5.2.1
+- name: Überraschung
+  beschreibung: „Kurze Rast“. Wenn eine Kreatur nicht mit einem Kampf Siehe auch gerechnet hat, wird sie überrascht und damit
+    bei ihrem Initiativewurf im Nachteil.
+  Regelbuch: SRD 5.2.1
+- name: Übung
+  beschreibung: „Die Spielregeln“ („Kampf“). Wenn du Übung in etwas hast, kannst du jeder W20-Prüfung, die du damit ausführst,
+    deinen Übungsbonus hinzufügen. Eine Kreatur könnte Übung in einer Fertigkeit, einem Rettungswurf Siehe auch oder im Umgang
+    mit einer Waffe oder einem Werkzeug haben. „Die Spielregeln“ („Übung“).
+  Regelbuch: SRD 5.2.1
+- name: Unsichtbar (Zustand)
+  beschreibung: 'Wenn du den Zustand Unsichtbar hast, wirken Überraschung: folgende Effekte auf dich: Wenn du beim Auswürfeln
+    der Initiative unsichtbar bist, so bist du bei diesem Verborgen: Wurf im Vorteil. Du bist nicht von Effekten betroffen,
+    die erfordern, dass du gesehen wirst, sofern der Effektwirker keine Möglichkeiten hat, dich trotz deiner Unsichtbarkeit
+    zu sehen. Ausrüstung, Beeinträchtigte Angriffe: die du trägst oder hältst, ist ebenfalls verborgen. Angriffswürfe gegen
+    dich sind im Nachteil, und du bist bei deinen Angriffswürfen im Vorteil. Wenn eine Kreatur Möglichkeiten hat, dich trotz
+    deiner Unsichtbarkeit zu sehen, erhältst du diesen Vorzug gegen diese'
+  Regelbuch: SRD 5.2.1
+- name: Unterernährung (Gefahr)
+  beschreibung: Kreatur nicht. Kreaturen benötigen täglich eine gewisse Menge von Nahrung je nach ihrer Größe, wie in der
+    Tabelle „Täglicher Nahrungsbedarf“ dargestellt. Eine Kreatur, die weniger als die Hälfte der täglich erforderlichen Nahrungsmenge
+    zu sich nimmt, muss einen SG-10- Konstitutionsrettungswurf bestehen, oder sie erhält am Ende des Tages eine Erschöpfungsstufe.
+    Eine Kreatur, die fünf Tage lang nichts isst, erhält am Ende des fünften Tages automatisch eine Erschöpfungs stufe sowie
+    am Ende jedes weiteren Tages ohne Nahrung eine zusätzliche Erschöpfungsstufe. Erschöpfung durch Unterernährung kann nicht
+    entfernt werden, ehe die Kreatur nicht die Siehe auch vollständige Tagesmenge an Nahrung zu sich nimmt. Täglicher „NErashcrhuönpfgusnbge“d.arf
+    GrößeNahrungGrößeNahrung Winzig125 GrammGroß2 Kilogramm Klein500 GrammRiesig8 Kilogramm Mittel500 GrammGigantisch32 Kilogramm
+  Regelbuch: SRD 5.2.1
+- name: Verängstigt (Zustand)
+  beschreibung: 'Wenn du den Zustand Verängstigt hast, wirken Beeinträchtigte Attributs- und Angriffswürfe: folgende Effekte
+    auf dich: Du bist bei Attributs- und Angriffswürfen im Nachteil, solange du dich in der Sichtlinie der Quelle deiner Keine
+    Annäherung möglich: Furcht befindest. Du kannst dich nicht'
+  Regelbuch: SRD 5.2.1
+- name: Verbündeter
+  beschreibung: willentlich auf die Quelle deiner Furcht zubewegen. Eine Kreatur ist dein Verbündeter, wenn sie Mitglied deiner
+    Abenteurergruppe oder dein Freund ist, im Kampf auf deiner Seite steht oder von den Regeln oder vom SL als dein Verbündeter
+    bestimmt wurde.
+  Regelbuch: SRD 5.2.1
+- name: Vergiftet (Zustand)
+  beschreibung: 'Wenn du den Zustand Vergiftet hast, wirkt Beeinträchtigte Attributs- und Angriffswürfe: folgender Effekt
+    auf dich:'
+  Regelbuch: SRD 5.2.1
+- name: Verstecken (Aktion)
+  beschreibung: 'Du bist bei Angriffs- und Attributswürfen im Nachteil. Mit der Verstecken-Aktion versuchst du dich zu verbergen.
+    Dazu musst du einen SG-15-Geschick- lichkeitswurf (Heimlichkeit) bestehen, während du entweder komplett verschleiert bist
+    oder dich hinter Dreivierteldeckung oder vollständiger Deckung befindest. Außerdem darfst du dich nicht in der Sichtlinie
+    von Gegnern befinden: Kannst du eine Kreatur sehen, so kannst du beurteilen, ob sie dich ebenfalls sehen kann. Bei einem
+    Erfolg hast du den Zustand Unsichtbar, solange du versteckt bist. Notiere das Gesamtergebnis deines Wurfs – es dient als
+    SG für Kreaturen, die versuchen, dich mit einem Weisheitswurf (Wahrnehmung) aufzuspüren. Du hörst sofort auf, versteckt
+    zu sein, wenn eines der folgenden Ereignisse eintritt: Du machst ein Geräusch, das lauter als ein Flüstern ist, ein Gegner
+    spürt dich auf, du führst einen Angriffswurf aus,'
+  Regelbuch: SRD 5.2.1
+- name: Versteinert (Zustand)
+  beschreibung: 'oder du wirkst einen Zauber mit Verbalkomponente. Wenn du den Zustand Versteinert hast, wirken In unbelebte
+    Substanz verwandelt: folgende Effekte auf dich: Du wirst mit allen nichtmagischen Gegenständen, die du trägst oder hältst,
+    in eine massive unbelebte Substanz (normalerweise Stein) verwandelt. Dein Gewicht erhöht sich auf das Zehnfache, und du
+    hörst auf Kampfunfähig: zu altern. Keine Bewegungsrate: Du hast den Zustand Kampfunfähig. Deine Bewegungsrate Beeinträchtigte
+    Angriffe: beträgt 0 und kann nicht erhöht werden. Angriffswürfe gegen Beeinträchtigte Rettungswürfe: dich sind im Vorteil.
+    Du scheiterst bei Stärke- und Geschicklichkeitsrettungswürfen Resistenz gegen Schaden: automatisch. Du bist gegen alle
+    Immunität gegen Gift: Schadensarten resistent. Du bist gegen den Zustand'
+  Regelbuch: SRD 5.2.1
+- name: Verwenden (Aktion)
+  beschreibung: Vergiftet immun. Normalerweise interagierst du im Rahmen einer anderen Aktion mit Gegenständen – wenn du beispielsweise
+    im Rahmen der Angriffsaktion das Schwert ziehst. Wenn eine Aktion erforderlich ist, um einen Gegenstand zu verwenden,
+    führst du die Verwenden-Aktion aus.
+  Regelbuch: SRD 5.2.1
+- name: Vorbereiten (Aktion)
+  beschreibung: 'Du führst die Vorbereiten-Aktion aus, um auf bestimmte Umstände zu warten, ehe du handelst. Dazu führst du
+    in deinem Zug diese Aktion aus, die dich dann vor Beginn deines nächstes Zugs handeln lässt, indem du deine Reaktion ausführst.
+    Zunächst musst du festlegen, welcher wahrnehm- bare Umstand deine Reaktion auslösen soll. Dann legst du fest, welche Handlung
+    du vollziehen willst, wenn der Umstand eintritt. Dies kann eine Aktion, aber auch eine Bewegung bis zum vollen Umfang
+    deiner Bewegungsrate sein. Beispiel: „Wenn der Kultist die Falltür betritt, bediene ich den Hebel, der sie öffnet“. Oder:
+    „Wenn der Zombie sich neben mich stellt, bewege ich mich weg.“ Wenn der Auslöser eintritt, kannst du entweder deine Reaktion
+    unmittelbar danach ausführen oder den Auslöser ignorieren. Bereitest du einen Zauberspruch vor, so wirkst du ihn wie gewohnt
+    (und verbrauchst dabei die erforderlichen Ressourcen), setzt seinen Effekt aber erst dann mit deiner Reaktion frei, wenn
+    der Auslöser eintritt. Es können nur Zauber mit einem Zeitaufwand von einer Aktion vorbereitet werden, und das Aufrechterhalten
+    ihrer Magie erfordert Konzentration, die du bis zum Beginn deines nächsten Zugs aufrechterhalten kannst. Wenn deine Konzentration
+    unterbrochen wird,'
+  Regelbuch: SRD 5.2.1
+- name: Vorteil
+  beschreibung: misslingt der Zauber. Wenn du bei einer W20-Prüfung im Vorteil bist, würfle mit zwei W20 und verwende das
+    höhere Ergebnis. Für einen Würfelwurf kann nur jeweils ein Vorteil gelten. Vorteil und Nachteil, die für Siehe auch denselben
+    Wurf gelten, heben einander auf.
+  Regelbuch: SRD 5.2.1
+- name: W20-Prüfung
+  beschreibung: '„Die Spielregeln“ („W20-Prüfungen“). W20-Prüfungen umfassen die drei wichtigsten W20-Würfe des Spiels: Attributswürfe,
+    Angriffs- würfe und Rettungswürfe. Wenn etwas im Spiel W20-Prüfungen beeinflusst, so gilt dies für alle drei Arten. Der
+    SL bestimmt, ob eine W20-Prüfung Siehe auch unter den gegebenen Umständen angebracht ist.'
+  Regelbuch: SRD 5.2.1
+- name: Waffe
+  beschreibung: „Die Spielregeln“ („W20-Prüfungen“). Eine Waffe ist ein Gegenstand aus einer der Siehe auch Kategorien Einfache
+    Waffe und Kriegswaffe.
+  Regelbuch: SRD 5.2.1
+- name: Waffenangriff
+  beschreibung: „Ausrüstung“ („Waffen“). Siehe auch Ein Waffenangriff ist ein Angriffswurf, der mit einer Waffe ausgeführt
+    wird. „Waffe“.
+  Regelbuch: SRD 5.2.1
+- name: Waffenloser Angriff
+  beschreibung: 'Anstatt einer Waffe kannst du als Nahkampfangriff auch einen Fausthieb, einen Tritt, einen Kopfstoß oder
+    einen ähnlich kraftvollen Hieb einsetzen. Nach den Spielbegriffen ist dies ein waffenloser Angriff – ein Nahkampfangriff,
+    bei dem du deinen Körper einsetzt, um einem Ziel im Abstand von bis zu 1,5 Metern von dir Schaden zuzufügen, um es zu
+    packen oder zu stoßen. Wann immer du deinen waffenlosen Angriff einsetzt, wähle als Effekt eine der folgenden Schaden:
+    Optionen aus: Du führst einen Angriffswurf gegen das Ziel aus. Dein Bonus auf den Wurf entspricht deinem Stärkemodifikator
+    plus deinem Übungsbonus. Bei einem Treffer erleidet das Ziel Wuchtschaden in Höhe von 1 plus deinem Packen: Stärkemodifikator.
+    Das Ziel muss einen Stärke- oder Geschicklichkeitsrettungswurf (nach seiner Wahl) bestehen, oder es wird gepackt. Der
+    SG für den Rettungswurf und alle Befreiungsversuche entspricht 8 plus deinem Stärkemodifikator plus deinem Übungsbonus.
+    Du kannst ein Ziel nur dann packen, wenn es um höchstens eine Kategorie Siehe auch größer als du ist und du eine Hand
+    frei hast, um Stoßen: damit zuzupacken. „Gepackt halten“. Das Ziel muss einen Stärke- oder Geschicklichkeitsrettungswurf
+    (nach seiner Wahl) bestehen, anderenfalls stößt du es entweder 1,5 Meter von dir weg, oder du stößt es um, sodass es den
+    Zustand Liegend hat. Der SG für den Rettungswurf entspricht 8 plus deinem Stärkemodifikator plus deinem Übungsbonus. Ein
+    solcher Stoß ist nur dann möglich, wenn das Ziel um höchstens eine Kategorie'
+  Regelbuch: SRD 5.2.1
+- name: Wahrer Blick
+  beschreibung: 'größer als du ist. Wenn du über Wahrer Blick verfügst, ist dein Sehvermögen auf eine bestimmte Reichweite
+    verbessert. Auf diese Reichweite durchdringt Dunkelheit: deine Sicht Folgendes: Du kannst in normaler sowie Unsichtbarkeit:
+    magischer Dunkelheit sehen. Du kannst Kreaturen und Gegenstände sehen, die den Zustand Unsichtbar Visuelle Illusionen:
+    haben. Visuelle Illusionen erscheinen dir durchsichtig, und Rettungswürfe gegen sie Verwandlungen: bestehst du automatisch.
+    Du erkennst die wahre Gestalt aller Kreaturen und Gegenstände, die du siehst Ätherebene: und die durch Magie verwandelt
+    wurden. Du kannst in die Ätherebene blicken.'
+  Regelbuch: SRD 5.2.1
+- name: Weitsprung
+  beschreibung: Bei einem Weitsprung springst du bis zu einer Anzahl von Metern, die einem Drittel deines Stärkewerts entspricht,
+    sofern du unmittelbar vor dem Sprung mindestens drei Meter zurückgelegt hast. Bei einem Weitsprung aus dem Stand kannst
+    du nur halb so weit springen. In beiden Fällen kostet dich jeder gesprungene Meter einen Meter deiner Bewegungsrate. Wenn
+    du in schwierigem Gelände landest, musst du einen SG-10-Geschicklichkeitswurf (Akrobatik) bestehen, um auf den Füßen zu
+    landen. Bei einem Misserfolg hast du den Zustand Liegend. Diese Weitsprung-Regel geht davon aus, dass die Höhe des Sprungs
+    keine Rolle spielt (wie bei einem Sprung über einen Fluss oder eine Felsspalte). Der SL kann einen erfolgreichen SG-10-Stärkewurf
+    (Athletik) von dir verlangen, wenn du ein niedriges Hindernis wie eine Hecke oder eine niedrige Mauer (nicht höher als
+    ein Viertel deiner Sprungdistanz) überwinden willst. Misslingt der Wurf, so kollidierst
+  Regelbuch: SRD 5.2.1
+- name: Wertekasten
+  beschreibung: 'du mit dem Hindernis. Ein Wertekasten enthält die Spielwerte eines Monsters. Jeder Wertekasten enthält nach
+    dem Größe: Namen des Monsters folgende Informationen: Die möglichen Größenkategorien lauten Siehe auch Winzig, Klein,
+    Mittelgroß, Groß, Riesig und Kreaturentyp: Gigantisch. „Größe“. In diesem Eintrag ist die Kreaturen- Siehe auch familie
+    des Monsters angegeben, gegebenenfalls mit beschreibenden Bezeichnungen. Gesinnung: „Kreaturentyp“. Die Gesinnung ist
+    ein Vorschlag für Siehe auch das Monster. Der SL bestimmt seine tatsächliche RK, Initiative und TP: Gesinnung. „Gesinnung“.
+    Diese Einträge nennen Rüstungsklasse, Initiative und Trefferpunkte des Monsters, jeweils unter „Die Spielregeln“ beschrieben.
+    Hinter den Trefferpunkten sind die Trefferpunktewürfel des Monsters in Klammern angegeben, außerdem gegebenenfalls der
+    Beitrag seiner Konstitution zu seinen Trefferpunkten. Nach dem Initiativemodifikator ist ein Initiativewert genannt. Manche
+    Kreaturen, die auf magische Art erzeugt wurden, haben weder Trefferwürfel- noch Bewegungsrate: Initiativeinformationen.
+    Hier sind Bewegungsrate Siehe auch und vorhandene besondere Bewegungsraten des Monsters aufgeführt. „Flugbewegungsrate“,
+    „Grabbewegungsrate“, „Kletterbewegungsrate“ Attributswerte: und „Schwimmbewegungsrate“. Die Attributswerte, Modifikatoren
+    und Rettungswurfmodifikatoren eines Monsters, jeweils unter „Die Spielregeln“ beschrieben, lassen sich einer Tabelle entnehmen.'
+  Regelbuch: SRD 5.2.1
+- name: Wirkungsbereich
+  beschreibung: 'beides verwendet. In den Beschreibungen vieler Zauber und anderer Merkmale ist ein Wirkungsbereich angegeben,
+    der üblicherweise eine von sechs Formen annimmt. Diese Formen sind ebenfalls in diesem Glossar AusströmungKugelWürfel
+    definiert: KegelLinieZylinder Jeder Wirkungsbereich hat einen Ursprungspunkt – jenen Ort, von dem der Effekt des Zaubers
+    ausgeht. Die Regeln der jeweiligen Form legen fest, wo sich der Ursprungspunkt befindet. Wenn alle geraden Linien vom
+    Ursprungspunkt zu einem bestimmten Ort im Wirkungsbereich blockiert sind, ist dieser Ort nicht im Wirkungsbereich enthalten.
+    Siehe auch Ein Hindernis muss vollständige Deckung bieten, um eine Linie zu blockieren. „Deckung“. Platziert der Wirker
+    eines Wirkungsbereichs diesen an einem Punkt, den er nicht sehen kann, und liegt zwischen ihm und diesem Punkt ein Hindernis
+    wie eine Mauer, so wird der Ursprungs- punkt des Wirkungsbereichs auf der dem Wirker'
+  Regelbuch: SRD 5.2.1
+- name: Würfel (Wirkungsbereich)
+  beschreibung: zugewandten Seite des Hindernisses platziert. Ein Würfel ist ein Wirkungsbereich, der in geraden Linien von
+    einem Ursprungspunkt an einer beliebigen Stelle auf einer der Würfelseiten ausgeht. Der Effekt, der den Würfel erzeugt,
+    definiert dessen Größe in Form seiner Kantenlänge. Der Ursprungspunkt eines Würfels ist nicht im Wirkungsbereich enthalten,
+    es sei denn, der Wirker
+  Regelbuch: SRD 5.2.1
+- name: Zauber
+  beschreibung: beschließt dies. Ein Zauber ist ein magischer Effekt mit den unter
+  Regelbuch: SRD 5.2.1
+- name: Zauberangriff
+  beschreibung: „Zauber“ beschriebenen Eigenschaften. Ein Zauberangriff ist ein Angriffswurf, der im Siehe auch Rahmen eines
+    Zaubers oder eines anderen magische Effekts ausgeführt wird. „Zauber“ („Zauber wirken“).
+  Regelbuch: SRD 5.2.1
+- name: Zauberfokus
+  beschreibung: Ein Zauberfokus ist ein Gegenstand, den bestimmte Kreaturen anstelle der Materialkomponenten eines Zaubers
+    verwenden können, sofern diese Materialien vom Zauber nicht verbraucht werden und keine Kosten für sie angegeben sind.
+    Manche Klassen erlauben ihren Mitgliedern, bestimmte Siehe auch Arten von Zauberfokussen zu verwenden.
+  Regelbuch: SRD 5.2.1
+- name: Zaubertrick
+  beschreibung: „Zauber“ („Zauber wirken“). Ein Zaubertrick ist ein Zauber des 0. Grades, der Siehe auch gewirkt werden kann,
+    ohne einen Zauberplatz zu
+  Regelbuch: SRD 5.2.1
+- name: Ziel
+  beschreibung: verbrauchen. „Zauber“. Ziel sind Kreaturen oder Gegenstände, gegen die sich ein Angriffswurf richtet, die
+    zu einem Rettungswurf gezwungen oder für die Effekte eines Zaubers oder sonstigen Phänomens ausgewählt
+  Regelbuch: SRD 5.2.1
+- name: Zustand
+  beschreibung: 'werden. Ein Zustand ist ein vorübergehender Spielstatus. In der Definition des Zustands ist angegeben, wie
+    er auf die betroffene Kreatur wirkt. Verschiedene Regeln definieren, wie ein Zustand beendet werden kann. In diesem Glossar
+    werden folgende Zustände BetäubtFestgesetztTaub definiert: BewusstlosGelähmtUnsichtbar BezaubertGepacktVerängstigt BlindKampfunfähigVergiftet
+    ErschöpftLiegendVersteinert Ein Zustand kann sich nicht auf sich selbst addieren: Entweder hat eine Kreatur einen bestimmten
+    Zustand, oder sie hat ihn nicht. Die einzige Ausnahme dieser'
+  Regelbuch: SRD 5.2.1
+- name: Zylinder (Wirkungsbereich)
+  beschreibung: Regel ist der Zustand Erschöpft. Ein Zylinder ist ein Wirkungsbereich, der in geraden Linien von einem Ursprungspunkt
+    in der Mitte einer der kreisförmigen Stirnseiten des Zylinders ausgeht. Der Effekt, der den Zylinder erzeugt, definiert
+    den Radius der Zylinderbasis sowie die Höhe des Zylinders. Der Ursprungspunkt des Zylinders ist im Wirkungsbereich des
+    Zaubers enthalten.
+  Regelbuch: SRD 5.2.1

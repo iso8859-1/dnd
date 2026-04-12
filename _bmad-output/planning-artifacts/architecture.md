@@ -251,7 +251,7 @@ dnd-cards/
 │       ├── loader.py           # FR1-4, FR17-19 — PyYAML parse + Pydantic validate
 │       ├── scanner.py          # FR2, FR5, FR22-23 — data/ tree scan, card index (paths only)
 │       ├── renderer.py         # FR15, FR24-26 — Jinja2 template rendering (autoescape=False)
-│       └── composer.py         # FR10-14, FR16 — ReportLab PDF, register_fonts(), try/finally
+│       └── composer.py         # FR10-14, FR16 — ReportLab PDF, register_fonts(), try/finally; 1×4 grid, 176×63mm strips
 │
 └── tests/
     ├── conftest.py             # shared fixtures: CardData, DeckProfile, tmp paths
@@ -295,7 +295,7 @@ markers = ["slow: marks tests as slow (deselect with -m 'not slow')"]
 | Scanner ↔ Loader | Scanner returns `dict[str, Path]` only — no YAML parsing |
 | YAML ↔ Models | `loader.py`: PyYAML dict → `model_validate()` → frozen Pydantic model |
 | Templates ↔ Renderer | Jinja2 env rooted at `templates/`; `autoescape=False` |
-| Composer ↔ Canvas | Canvas injected as parameter; `.save()` in `try/finally`; `str(path)` at call site |
+| Composer ↔ Canvas | Canvas injected as parameter; `.save()` in `try/finally`; `str(path)` at call site; 176×63mm strips, 1×4 grid, 4 cards/page |
 | Fonts ↔ ReportLab | `register_fonts()` in `composer.py`, called once at CLI startup; global state isolated |
 
 ### Data Flow
