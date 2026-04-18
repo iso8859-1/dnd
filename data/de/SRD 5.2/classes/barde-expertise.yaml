@@ -1,0 +1,10 @@
+id: barde-expertise
+type: class_feature
+class: Barde
+lang: de
+level: 2
+name: Expertise
+description: Du erhältst Expertise (siehe „Regelglossar“) in zwei Fertigkeiten deiner Wahl, in denen du geübt bist. Auftreten
+  und Überzeugen werden empfohlen, wenn du in ihnen geübt bist. Auf der 9. Stufe erhältst du Expertise in zwei weiteren Fertigkeiten
+  deiner Wahl, in denen du geübt bist.
+source_book: SRD 5.2.1

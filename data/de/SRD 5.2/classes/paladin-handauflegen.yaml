@@ -1,0 +1,13 @@
+id: paladin-handauflegen
+type: class_feature
+class: Paladin
+lang: de
+level: 1
+name: Handauflegen
+description: Deine gesegnete Berührung kann Wunden heilen. Du hast einen Vorrat an Heilkraft, der nach einer langen Rast aufgefüllt
+  wird. Mit diesem Vorrat kannst du das Fünffache deiner Paladinstufe an Trefferpunkten wiederherstellen. Als Bonusaktion
+  kannst du eine Kreatur (auch dich selbst) berühren und Kraft aus deinem Vorrat an Heilkraft ziehen, um bei der Kreatur höchstens
+  so viele Trefferpunkte wiederherzustellen, wie noch im Vorrat vorhanden sind. Du kannst auch 5 Trefferpunkte aus dem Vorrat
+  an Heilkraft verbrauchen, um den Zustand Vergiftet von der Kreatur zu entfernen. Diese Punkte werden nicht als Trefferpunkte
+  der Kreatur wiederhergestellt.
+source_book: SRD 5.2.1

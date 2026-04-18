@@ -1,0 +1,12 @@
+id: monch-betaubender-schlag
+type: class_feature
+class: Mönch
+lang: de
+level: 5
+name: Betäubender Schlag
+description: Einmal pro Zug kannst du, wenn du eine Kreatur mit einer Mönchswaffe oder einem waffenlosen Angriff triffst,
+  1 Fokuspunkt verbrauchen, um einen Betäubenden Schlag zu versuchen. Das Ziel muss einen Konstitutionsrettungswurf ausführen.
+  Misslingt der Wurf, so ist das Ziel bis zum Beginn deines nächsten Zugs betäubt. Bei einem erfolgreichen Rettungswurf ist
+  die Bewegungsrate des Ziels bis zum Beginn deines nächsten Zugs halbiert, und der nächste Angriffswurf gegen das Ziel während
+  dieser Dauer ist im Vorteil.
+source_book: SRD 5.2.1

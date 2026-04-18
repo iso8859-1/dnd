@@ -1,0 +1,9 @@
+id: monch-sturz-abfedern
+type: class_feature
+class: Mönch
+lang: de
+level: 4
+name: Sturz abfedern
+description: Wenn du stürzt, kannst du eine Reaktion ausführen, um den Sturzschaden um einen Betrag in Höhe des Fünffachen
+  deiner Mönchsstufe zu verringern.
+source_book: SRD 5.2.1

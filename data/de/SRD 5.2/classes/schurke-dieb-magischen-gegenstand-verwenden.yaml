@@ -1,0 +1,15 @@
+id: schurke-dieb-magischen-gegenstand-verwenden
+type: class_feature
+class: Schurke
+lang: de
+level: 13
+name: Magischen Gegenstand verwenden
+description: 'Du hast gelernt, magische Gegenstände optimal Einstimmung: zu nutzen, was dir folgende Vorzüge gewährt: Du kannst
+  dich auf bis zu vier Ladungen: magische Gegenstände auf einmal einstimmen. Wann immer du eine Eigenschaft eines magischen
+  Gegenstands verwendest, die Ladungen verbraucht, würfle mit 1W6. Bei einem Ergebnis von 6 verwendest du die Eigenschaft,
+  ohne eine Schriftrollen: Zauberschriftrollen Ladung zu verbrauchen. Du kannst alle verwenden, und dein Attribut zum Wirken
+  der Zauber ist Intelligenz. Zaubertricks und Zauber des 1. Grades kannst du zuverlässig wirken. Wenn die Schriftrolle einen
+  Zauber höheren Grades enthält, musst du zunächst einen Intelligenzwurf (Arkane Kunde) bestehen (SG 10 plus Zaubergrad).
+  Bei einem Erfolg wirkst du den Zauber von der Schriftrolle. Misslingt der Wurf, so löst die Schriftrolle sich auf.'
+source_book: SRD 5.2.1
+subclass: Dieb

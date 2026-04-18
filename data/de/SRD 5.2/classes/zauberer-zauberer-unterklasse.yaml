@@ -1,0 +1,11 @@
+id: zauberer-zauberer-unterklasse
+type: class_feature
+class: Zauberer
+lang: de
+level: 3
+name: Zauberer-Unterklasse
+description: Du erhältst eine Zauberer‑Unterklasse deiner Wahl. Die Unterklasse Drakonische Zauberei wird nach der Beschreibung
+  dieser Klasse erläutert. Unterklassen sind Spezialisierungen, die dir auf bestimmten Zaubererstufen Merkmale gewähren. Du
+  erhältst für den Rest deiner Laufbahn alle Merkmale deiner Unterklasse, die zu deiner aktuellen Zaubererstufe oder den niedrigeren
+  Stufen gehören.
+source_book: SRD 5.2.1

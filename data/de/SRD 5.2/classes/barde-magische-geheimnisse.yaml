@@ -1,0 +1,12 @@
+id: barde-magische-geheimnisse
+type: class_feature
+class: Barde
+lang: de
+level: 10
+name: Magische Geheimnisse
+description: Du hast die Geheimnisse verschiedener magischer Traditionen erfahren. Wann immer du eine Bardenstufe (einschließlich
+  dieser Stufe) erreichst und sich die Anzahl vorbereiteter Zauber in der Tabelle „Bardenmerkmale“ erhöht, kannst du beliebige
+  deiner vorbereiteten Zauber von den Zauberlisten des Barden, des Druiden, des Klerikers und des Magiers auswählen. Die ausgewählten
+  Zauber zählen bei dir als Bardenzauber (die Zauberlisten findest du in den Abschnitten der Klassen). Wann immer du außerdem
+  einen für diese Klasse vorbereiteten Zauber ersetzt, kannst du ihn mit einem Zauber von diesen Listen ersetzen.
+source_book: SRD 5.2.1

@@ -1,0 +1,9 @@
+id: kampfer-taktischer-meister
+type: class_feature
+class: Kämpfer
+lang: de
+level: 9
+name: Taktischer Meister
+description: Wenn du mit einer Waffe angreifst, deren Meister‑ schaftseigenschaft du nutzen kannst, so kannst du die Eigenschaft
+  bei diesem Angriff durch eine der Eigenschaften Auslaugen, Stoßen oder Verlangsa‑ men ersetzen.
+source_book: SRD 5.2.1

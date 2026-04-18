@@ -1,0 +1,10 @@
+id: barde-quelle-der-inspiration
+type: class_feature
+class: Barde
+lang: de
+level: 5
+name: Quelle der Inspiration
+description: Du erhältst alle verbrauchten Anwendungen der Bardischen Inspiration nach einer kurzen oder langen Rast zurück.
+  Außerdem kannst du einen Zauberplatz verbrauchen (keine Aktion erforderlich), um eine verbrauchte Anwendung von Bardische
+  Inspiration zurückzuerhalten.
+source_book: SRD 5.2.1

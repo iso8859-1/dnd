@@ -1,0 +1,11 @@
+id: schurke-waffenbeherrschung
+type: class_feature
+class: Schurke
+lang: de
+level: 1
+name: Waffenbeherrschung
+description: 'Deine Vertrautheit mit Waffen erlaubt dir, die Meisterschaftseigenschaften zweier Waffenarten deiner Wahl zu
+  verwenden, sofern du Übung im Umgang mit diesen hast, beispielsweise Dolche und Kurzbögen. Wann immer du eine lange Rast
+  beendest, kannst du die Art der ausgewählten Waffen ändern. Beispiel: Du könntest beschließen, die Meisterschaftseigenschaft
+  von Krummsäbeln und Kurzschwertern zu verwenden.'
+source_book: SRD 5.2.1

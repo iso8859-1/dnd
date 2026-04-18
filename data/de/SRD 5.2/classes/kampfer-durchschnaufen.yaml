@@ -1,0 +1,12 @@
+id: kampfer-durchschnaufen
+type: class_feature
+class: Kämpfer
+lang: de
+level: 1
+name: Durchschnaufen
+description: Du hast einen gewissen Vorrat an körperlicher und geistiger Ausdauer zur Verfügung. Als Bonusaktion kannst du
+  Trefferpunkte in Höhe von 1W10 plus deiner Kämpferstufe zurückerhalten. Du kannst dieses Merkmal zweimal anwenden. Nach
+  einer kurzen Rast erhältst du eine verbrauchte Anwendung zurück. Nach einer langen Rast erhältst du alle verbrauchten Anwendungen
+  zurück. Wenn du bestimmte Kämpferstufen erreichst, erhältst du mehr Anwendungen dieses Merkmals, wie in der Spalte „Durchschnaufen“
+  der Tabelle „Kämpfermerkmale“ dargestellt.
+source_book: SRD 5.2.1

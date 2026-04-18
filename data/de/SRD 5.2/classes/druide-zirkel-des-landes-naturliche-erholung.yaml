@@ -1,0 +1,16 @@
+id: druide-zirkel-des-landes-naturliche-erholung
+type: class_feature
+class: Druide
+lang: de
+level: 6
+name: Natürliche Erholung
+description: 'Du kannst einen deiner vorbereiteten Zauber ab dem 1. Grad deines Merkmals Zauber des Zirkels wirken, ohne einen
+  Zauberplatz zu verbrauchen. Du musst eine lange Rast beenden, bevor du dies erneut tun kannst. Außerdem kannst du dir nach
+  einer kurzen Rast verbrauchte Zauberplätze aussuchen, die du zurückerhältst. Die Zauberplätze dürfen zusammen nur eine Gradzahl
+  besitzen, die höchstens der Hälfte deiner Druidenstufe entspricht (aufgerundet), und keiner von ihnen darf den 6. Grad oder
+  höher aufweisen. Beispiel: Wenn du ein Druide der 6. Stufe bist, kannst du Zauberplätze zurückerhalten, deren Grade sich
+  auf bis zu 3 addieren. Du kannst also entweder einen Zauberplatz des 3. Grades, zwei Zauberplätze des 1. und einen Zauberplatz
+  des 2. Grades oder drei Zauberplätze des 1. Grades zurückerhalten. Du kannst dieses Merkmal erst nach einer langen Rast
+  erneut verwenden.'
+source_book: SRD 5.2.1
+subclass: Zirkel des Landes

@@ -1,0 +1,10 @@
+id: druide-zirkel-des-landes-zirkelzauber-des-landes
+type: class_feature
+class: Druide
+lang: de
+level: 3
+name: Zirkelzauber des Landes
+description: 'Wann immer du eine lange Rast beendest, wähle ein Art des Landes aus: gemäßigt, polar, trocken oder tropisch.
+  Konsultiere die Tabelle des ausgewählten Typs unten. Die Zauber, die für deine Druidenstufe'
+source_book: SRD 5.2.1
+subclass: Zirkel des Landes

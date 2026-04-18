@@ -1,0 +1,11 @@
+id: zauberer-drakonische-zauberei-elementare-affinitat
+type: class_feature
+class: Zauberer
+lang: de
+level: 6
+name: Elementare Affinität
+description: 'Deine drakonische Magie hat eine Affinität mit der Schadensart, die mit Drachen assoziiert ist. Wähle eine der
+  folgenden Arten aus: Blitz, Feuer, Gift, Kälte oder Säure. Du bist gegen diese Schadensart resistent, und wenn du einen
+  Zauber wirkst, der Schaden dieser Art bewirkt, kannst du einem Schadenswurf dieses Zaubers deinen Charismamodifikator hinzufügen.'
+source_book: SRD 5.2.1
+subclass: Drakonische Zauberei

@@ -1,0 +1,10 @@
+id: kampfer-tatendrang
+type: class_feature
+class: Kämpfer
+lang: de
+level: 2
+name: Tatendrang
+description: Du kannst kurzzeitig deine normalen Grenzen überwinden. In deinem Zug kannst du eine zusätzliche Aktion (außer
+  der magischen Aktion) ausführen. Du kannst dieses Merkmal erst nach einer kurzen oder langen Rast erneut verwenden. Ab 17.
+  Stufe kannst du Tatendrang zweimal vor einer Rast, jedoch nur einmal pro Zug einsetzen.
+source_book: SRD 5.2.1

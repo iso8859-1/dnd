@@ -1,0 +1,14 @@
+id: hexenmeister-mystisches-arkanum
+type: class_feature
+class: Hexenmeister
+lang: de
+level: 11
+name: Mystisches Arkanum
+description: Dein Schutzherr gewährt dir ein magisches Geheimnis, das Arkanum genannt wird. Wähle einen Hexenmeisterzauber
+  des 6. Grades als dieses Arkanum aus. Du kannst diesen Arkanum‑Zauber einmal wirken, ohne einen Zauberplatz zu verbrauchen,
+  ihn dann aber erst nach einer langen Rast erneut auf diese Art wirken. Wie in der Tabelle „Hexenmeistermerkmale“ dargestellt,
+  erhältst du je einen weiteren Hexen‑ meisterzauber deiner Wahl, der auf diese Art gewirkt werden kann, wenn du die 13. (Zauber
+  des 7. Grades), die 15. (Zauber des 8. Grades) und die 17. (Zauber des 9. Grades) Hexenmeisterstufe erreichst. Du erhältst
+  alle verbrauchten Anwendungen von Mystisches Arkanum nach einer langen Rast zurück. Wann immer du eine Hexenmeisterstufe
+  erhältst, kannst du einen deiner Arkanum‑Zauber durch einen anderen Hexenmeisterzauber des gleichen Grades ersetzen.
+source_book: SRD 5.2.1

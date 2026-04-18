@@ -1,0 +1,10 @@
+id: paladin-schwur-der-hingabe-aura-der-hingabe
+type: class_feature
+class: Paladin
+lang: de
+level: 7
+name: Aura der Hingabe
+description: Du und deine Verbündeten innerhalb deiner Aura des Schutzes seid gegen den Zustand Bezaubert immun. Wenn ein
+  bezauberter Verbündeter die Aura betritt, hat der Zustand keine Wirkung auf ihn, solange er sich innerhalb der Aura aufhält.
+source_book: SRD 5.2.1
+subclass: Schwur der Hingabe

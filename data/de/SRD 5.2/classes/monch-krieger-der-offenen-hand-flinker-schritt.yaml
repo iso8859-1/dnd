@@ -1,0 +1,10 @@
+id: monch-krieger-der-offenen-hand-flinker-schritt
+type: class_feature
+class: Mönch
+lang: de
+level: 11
+name: Flinker Schritt
+description: Wenn du eine andere Bonusaktion als Windschritt ausführst, kannst du Windschritt sofort nach der Bonusaktion
+  ebenfalls ausführen.
+source_book: SRD 5.2.1
+subclass: Krieger der Offenen Hand

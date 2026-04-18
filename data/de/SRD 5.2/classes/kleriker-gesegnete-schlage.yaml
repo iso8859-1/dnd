@@ -1,0 +1,12 @@
+id: kleriker-gesegnete-schlage
+type: class_feature
+class: Kleriker
+lang: de
+level: 7
+name: Gesegnete Schläge
+description: 'Göttliche Macht erfüllt dich im Kampf. Du erhältst eine der folgenden Optionen nach deiner Wahl (wenn du eine
+  der Optionen von einer Kleriker‑ Unterklasse aus einem älteren Buch erhältst, verwende nur die Option, die du für dieses
+  Merkmal Göttlicher Schlag: auswählst). Einmal in jedem deiner Züge kannst du, wenn du eine Kreatur bei einem Angriffswurf
+  mit einer Waffe triffst, dem Ziel zusätzlich 1W8 gleißenden oder nekrotischen Verstärkte Zaubertricks: Schaden (nach deiner
+  Wahl) zufügen. Füge dem Schaden, den du mit Klerikerzaubertricks bewirkst, deinen Weisheitsmodifikator hinzu.'
+source_book: SRD 5.2.1

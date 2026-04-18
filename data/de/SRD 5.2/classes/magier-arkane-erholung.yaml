@@ -1,0 +1,13 @@
+id: magier-arkane-erholung
+type: class_feature
+class: Magier
+lang: de
+level: 1
+name: Arkane Erholung
+description: 'Durch das Studium deines Zauberbuchs kannst du einen Teil deiner magischen Energie zurückerhalten. Nach einer
+  kurzen Rast kannst du dir verbrauchte Zauberplätze aussuchen, die du zurückerhältst. Die Zauberplätze dürfen zusammen nur
+  eine Gradzahl besitzen, die höchstens der Hälfte deiner Magierstufe entspricht (aufgerundet), und keiner der Zauberplätze
+  darf den 6. Grad oder höher aufweisen. Beispiel: Wenn du ein Magier der 4. Stufe bist, kannst du Zauberplätze im Wert von
+  zwei Graden zurückerhalten: entweder einen Zauberplatz des 2. oder zwei Zauberplätze des 1. Grades. Du kannst dieses Merkmal
+  erst nach einer langen Rast erneut verwenden.'
+source_book: SRD 5.2.1

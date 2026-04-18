@@ -1,0 +1,11 @@
+id: waldlaufer-jager-beute-des-uberlegenen-jagers
+type: class_feature
+class: Waldläufer
+lang: de
+level: 11
+name: Beute des überlegenen Jägers
+description: Zeichen des Jägers Einmal pro Zug kannst du, wenn du einer mit deinem markierten Kreatur Schaden zufügst, den
+  zusätzlichen Schaden des Zaubers noch einer weiteren Kreatur im Abstand von bis zu neun Metern vom ersten Ziel zufügen,
+  die du sehen kannst.
+source_book: SRD 5.2.1
+subclass: Jäger

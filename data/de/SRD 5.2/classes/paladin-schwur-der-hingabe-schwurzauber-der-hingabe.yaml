@@ -1,0 +1,10 @@
+id: paladin-schwur-der-hingabe-schwurzauber-der-hingabe
+type: class_feature
+class: Paladin
+lang: de
+level: 3
+name: Schwurzauber der Hingabe
+description: Dank der Magie deines Schwurs hast du stets bestimmte Zauber vorbereitet. Wenn du die in der Tabelle „Schwurzauber
+  der Hingabe“ angegebenen Paladinstufen erreichst, hast du fortan stets die
+source_book: SRD 5.2.1
+subclass: Schwur der Hingabe

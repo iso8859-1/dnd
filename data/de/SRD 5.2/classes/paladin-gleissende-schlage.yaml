@@ -1,0 +1,9 @@
+id: paladin-gleissende-schlage
+type: class_feature
+class: Paladin
+lang: de
+level: 11
+name: Gleißende Schläge
+description: Deine Schläge haben jetzt übernatürliche Macht. Wenn du ein Ziel mit einer Nahkampfwaffe oder einem waffenlosen
+  Angriff triffst, erleidet es zusätzlich 1W8 gleißenden Schaden.
+source_book: SRD 5.2.1

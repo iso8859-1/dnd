@@ -1,0 +1,10 @@
+id: monch-entrinnen
+type: class_feature
+class: Mönch
+lang: de
+level: 7
+name: Entrinnen
+description: Bist du einem Effekt ausgesetzt, der dir einen Geschicklichkeitsrettungswurf erlaubt, um den Schaden zu halbieren,
+  so erleidest du stattdessen bei einem Erfolg gar keinen und bei einem Misserfolg den halben Schaden. Du erhältst den Vorzug
+  dieses Merkmals nicht, wenn du kampfunfähig bist.
+source_book: SRD 5.2.1

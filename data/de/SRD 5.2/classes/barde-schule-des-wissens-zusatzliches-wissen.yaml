@@ -1,0 +1,9 @@
+id: barde-schule-des-wissens-zusatzliches-wissen
+type: class_feature
+class: Barde
+lang: de
+level: 3
+name: Zusätzliches Wissen
+description: Du erhältst Übung im Umgang mit drei Fertigkeiten deiner Wahl.
+source_book: SRD 5.2.1
+subclass: Schule des Wissens

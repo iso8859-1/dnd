@@ -1,0 +1,9 @@
+id: schurke-unglaubliches-ausweichen
+type: class_feature
+class: Schurke
+lang: de
+level: 5
+name: Unglaubliches Ausweichen
+description: Trifft dich ein Angreifer, den du sehen kannst, mit einem Angriffswurf, so kannst du eine Reaktion ausführen,
+  um den Schaden des Angriffs zu halbieren (abgerundet).
+source_book: SRD 5.2.1

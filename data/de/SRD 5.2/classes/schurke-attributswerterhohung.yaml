@@ -1,0 +1,9 @@
+id: schurke-attributswerterhohung
+type: class_feature
+class: Schurke
+lang: de
+level: 4
+name: Attributswerterhöhung
+description: Du erhältst das Talent Attributswerterhöhung (siehe „Talente“) oder ein anderes Talent deiner Wahl, für das du
+  qualifiziert bist. Du erhältst dieses Merkmal auf der 8., 10., 12. und 16. Schurkenstufe erneut.
+source_book: SRD 5.2.1

@@ -1,0 +1,9 @@
+id: schurke-verbesserter-raffinierter-schlag
+type: class_feature
+class: Schurke
+lang: de
+level: 11
+name: Verbesserter Raffinierter Schlag
+description: Wenn du mit Hinterhältiger Angriff Schaden bewirkst, kannst du bis zu zwei der folgenden Effekte von Raffinierter
+  Schlag hinzufügen, sofern du die jeweiligen Würfelkosten bezahlst.
+source_book: SRD 5.2.1

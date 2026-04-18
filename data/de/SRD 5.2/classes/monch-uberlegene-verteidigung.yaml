@@ -1,0 +1,9 @@
+id: monch-uberlegene-verteidigung
+type: class_feature
+class: Mönch
+lang: de
+level: 18
+name: Überlegene Verteidigung
+description: Zu Beginn deines Zugs kannst du 3 Fokuspunkte verbrauchen, um dich eine Minute lang – oder bis du kampfunfähig
+  wirst – vor Schaden zu schützen. In dieser Zeit bist du gegen alle Schadensarten außer Energieschaden resistent.
+source_book: SRD 5.2.1

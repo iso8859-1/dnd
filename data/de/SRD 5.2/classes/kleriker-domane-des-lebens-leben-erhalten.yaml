@@ -1,0 +1,13 @@
+id: kleriker-domane-des-lebens-leben-erhalten
+type: class_feature
+class: Kleriker
+lang: de
+level: 3
+name: Leben erhalten
+description: Als magische Aktion zeigst du dein heiliges Symbol und verbrauchst eine Anwendung von Göttliche Macht fokussieren,
+  um heilende Energie zu beschwören, mit der sich eine Anzahl von Trefferpunkten in Höhe des Fünffachen deiner Klerikerstufe
+  wiederherstellen lässt. Wähle Kreaturen im Abstand von bis zu neun Metern von dir aus, die blutig sind (auch du selbst kannst
+  ein Ziel sein), und teile diese Trefferpunkte unter ihnen auf. Dieses Merkmal kann keine Trefferpunkte über die Hälfte des
+  Trefferpunktemaximums hinaus wiederherstellen.
+source_book: SRD 5.2.1
+subclass: Domäne des Lebens

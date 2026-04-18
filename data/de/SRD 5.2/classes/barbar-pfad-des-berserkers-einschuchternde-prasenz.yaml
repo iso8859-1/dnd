@@ -1,0 +1,14 @@
+id: barbar-pfad-des-berserkers-einschuchternde-prasenz
+type: class_feature
+class: Barbar
+lang: de
+level: 14
+name: Einschüchternde Präsenz
+description: Als Bonusaktion kannst du andere mit deiner bedrohlichen Präsenz und deiner Urmacht in Panik versetzen. In diesem
+  Fall muss jede Kreatur deiner Wahl in einer Ausströmung von neun Metern, die von dir ausgeht, einen Weisheitsrettungswurf
+  (SG 8 plus dein Stärkemodifikator plus dein Übungsbonus) ausführen. Misslingt der Wurf, so ist die Kreatur eine Minute lang
+  verängstigt. Die verängstigte Kreatur wiederholt den Rettungswurf am Ende jedes ihrer Züge. Bei einem Erfolg endet der Effekt.
+  Wenn du dieses Merkmal verwendet hast, kannst du dies erst nach einer langen Rast erneut tun, sofern du nicht eine Anwendung
+  deines Kampfrauschs zum Wiederherstellen verbrauchst (keine Aktion erforderlich). sind in der Tabelle „Bardenmerkmale“ aufgeführt.
+source_book: SRD 5.2.1
+subclass: Pfad des Berserkers

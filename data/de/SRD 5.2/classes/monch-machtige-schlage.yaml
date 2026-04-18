@@ -1,0 +1,9 @@
+id: monch-machtige-schlage
+type: class_feature
+class: Mönch
+lang: de
+level: 6
+name: Mächtige Schläge
+description: Wann immer du mit deinem waffenlosen Angriff Schaden bewirkst, kannst du damit auch Energie‑ schaden oder die
+  normale Schadensart (nach deiner Wahl) bewirken.
+source_book: SRD 5.2.1

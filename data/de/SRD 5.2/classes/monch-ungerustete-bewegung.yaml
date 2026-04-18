@@ -1,0 +1,9 @@
+id: monch-ungerustete-bewegung
+type: class_feature
+class: Mönch
+lang: de
+level: 2
+name: Ungerüstete Bewegung
+description: Deine Bewegungsrate erhöht sich um drei Meter, sofern du weder Rüstung noch Schild trägst. Dieser Bonus erhöht
+  sich, wenn du bestimmte Mönchsstufen erreichst, wie in der Tabelle „Mönchsmerkmale“ angegeben.
+source_book: SRD 5.2.1

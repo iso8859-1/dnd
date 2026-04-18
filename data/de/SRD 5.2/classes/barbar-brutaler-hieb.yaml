@@ -1,0 +1,15 @@
+id: barbar-brutaler-hieb
+type: class_feature
+class: Barbar
+lang: de
+level: 9
+name: Brutaler Hieb
+description: 'Wenn du Rücksichtsloser Angriff einsetzt, kannst du in deinem Zug bei einem stärkebasierten Angriffswurf deiner
+  Wahl auf den Vorteil verzichten. Der ausgewählte Angriffswurf darf nicht im Nachteil sein. Wenn der ausgewählte Angriffswurf
+  trifft, erleidet das Ziel zusätzlich 1W10 Schaden des Typs, den auch die Waffe oder der waffenlose Angriff bewirkt, und
+  du kannst einen Effekt des Brutalen Hiebs deiner Wahl Kraftvoller Hieb: bewirken. Folgende Effekte stehen zur Auswahl: Das
+  Ziel wird in gerader Linie 4,5 Meter weit von dir weggestoßen. Du kannst dich dann um bis zur Hälfte deiner Bewegungsrate
+  in gerader Linie auf das Ziel zubewegen, ohne Schenkelhieb: Gelegenheitsangriffe zu provozieren. Die Bewegungsrate des Ziels
+  ist bis zum Beginn deines nächsten Zugs um 4,5 Meter verringert. Es kann immer nur ein Schenkelhieb wirken – jeweils der
+  letzte.'
+source_book: SRD 5.2.1

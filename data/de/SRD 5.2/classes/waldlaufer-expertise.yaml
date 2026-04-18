@@ -1,0 +1,9 @@
+id: waldlaufer-expertise
+type: class_feature
+class: Waldläufer
+lang: de
+level: 9
+name: Expertise
+description: Wähle zwei deiner Fertigkeiten aus, in denen du geübt bist, aber keine Expertise hast. Du erhältst Expertise
+  in diesen Fertigkeiten.
+source_book: SRD 5.2.1

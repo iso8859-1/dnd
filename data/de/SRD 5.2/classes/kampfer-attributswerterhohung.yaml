@@ -1,0 +1,9 @@
+id: kampfer-attributswerterhohung
+type: class_feature
+class: Kämpfer
+lang: de
+level: 4
+name: Attributswerterhöhung
+description: Du erhältst das Talent Attributswerterhöhung (siehe „Talente“) oder ein anderes Talent deiner Wahl, für das du
+  qualifiziert bist. Du erhältst dieses Merkmal auf der 6., 8., 12., 14. und 16. Kämpferstufe erneut.
+source_book: SRD 5.2.1

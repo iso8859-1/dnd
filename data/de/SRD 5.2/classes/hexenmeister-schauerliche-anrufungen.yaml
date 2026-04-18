@@ -1,0 +1,17 @@
+id: hexenmeister-schauerliche-anrufungen
+type: class_feature
+class: Hexenmeister
+lang: de
+level: 1
+name: Schauerliche Anrufungen
+description: 'Du bist auf Schauerliche Anrufungen gestoßen, auf verbotenes Wissen, das dich mit einem dauerhaften magischen
+  Attribut oder anderen Lektionen versehen hat. Du erhältst eine Anrufung deiner Wahl, beispielsweise Pakt des Buches. Die
+  Anrufungen sind im Abschnitt „Schauerliche‑ Anrufung‑Optionen“ weiter hinten in dieser Voraussetzungen: Klassenbeschreibung
+  erläutert. Wenn eine Anrufung eine Voraussetzung hat, musst du diese erfüllen, um die Anrufung zu erlernen. Beispiel: Wenn
+  eine Anrufung erfordert, dass du ein Hexenmeister ab der 5. Stufe bist, kannst du diese Anrufung erst auswählen, wenn du
+  die 5. Hexenmeisterstufe Anrufungen erlangen und ersetzen: erreicht hast. Wann immer du eine Hexenmeisterstufe erhältst,
+  kannst du eine deiner Anrufungen durch eine andere ersetzen, für die du qualifiziert bist. Du kannst eine Anrufung nicht
+  ersetzen, wenn sie die Voraussetzung für eine andere Anrufung ist, über die du verfügst. Wenn du bestimmte Hexenmeisterstufen
+  erreichst, erhältst du weitere Anrufungen deiner Wahl, wie in der Spalte „Bekannte Anrufungen“ in der Tabelle „Hexenmeistermerkmale“
+  dargestellt. Du kannst eine Anrufung nicht mehrfach auswählen, sofern in ihrer Beschreibung nicht anders angegeben.'
+source_book: SRD 5.2.1

@@ -1,0 +1,11 @@
+id: schurke-dieb-ausserordentliches-schleichen
+type: class_feature
+class: Schurke
+lang: de
+level: 9
+name: Außerordentliches Schleichen
+description: 'Heimlicher Angriff (Kosten: 1W6): Du erhältst bei Raffinierter Schlag folgende Option: Wenn du aufgrund der
+  Verstecken‑Aktion unsichtbar bist, wird die Unsichtbarkeit nicht durch diesen Angriff beendet, sofern du den Zug hinter
+  Dreivierteldeckung oder vollständiger Deckung beendest.'
+source_book: SRD 5.2.1
+subclass: Dieb

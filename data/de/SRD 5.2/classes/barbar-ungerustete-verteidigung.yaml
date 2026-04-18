@@ -1,0 +1,9 @@
+id: barbar-ungerustete-verteidigung
+type: class_feature
+class: Barbar
+lang: de
+level: 1
+name: Ungerüstete Verteidigung
+description: Wenn du keine Rüstung trägst, entspricht deine Basis‑Rüstungsklasse 10 plus deinem Geschick‑ lichkeitsmodifikator
+  plus deinem Konstitutions- modifikator. Von diesem Vorzug profitierst du auch, wenn du einen Schild verwendest.
+source_book: SRD 5.2.1

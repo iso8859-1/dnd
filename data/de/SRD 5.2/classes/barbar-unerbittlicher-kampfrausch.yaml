@@ -1,0 +1,11 @@
+id: barbar-unerbittlicher-kampfrausch
+type: class_feature
+class: Barbar
+lang: de
+level: 11
+name: Unerbittlicher Kampfrausch
+description: Dein Kampfrausch versetzt dich in die Lage, trotz schwerer Verletzungen weiterzukämpfen. Wenn deine Trefferpunkte
+  auf 0 sinken, während du im Kampfrausch bist, stirbst du nicht sofort, sondern führst einen SG‑10‑Konstitutionsrettungswurf
+  aus. Bei einem Erfolg erhältst du Trefferpunkte in doppelter Höhe deiner Barbarenstufe. Jedes Mal, wenn du dieses Merkmal
+  nutzt, erhöht sich der SG um 5. Nach einer kurzen oder langen Rast sinkt der SG wieder auf 10.
+source_book: SRD 5.2.1

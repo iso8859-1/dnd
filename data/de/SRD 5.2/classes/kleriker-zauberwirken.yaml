@@ -1,0 +1,29 @@
+id: kleriker-zauberwirken
+type: class_feature
+class: Kleriker
+lang: de
+level: 1
+name: Zauberwirken
+description: 'Du hast gelernt, durch Gebete und Meditation Zauber zu wirken. Die Regeln zum Zauberwirken findest du unter
+  „Zauber“. Folgende Informationen erklären, wie du diese Regeln mit den Kleriker‑ zaubern verwendest, die in der Zauberliste
+  des Klerikers weiter hinten in dieser Klassen‑ Zaubertricks: beschreibung aufgeführt sind. Du beherrschst drei Zaubertricks
+  Göttliche Führung Heilige Flamme Thaumaturgie deiner Wahl aus der Zauberliste des Klerikers. , und werden empfohlen. Wann
+  immer du eine Klerikerstufe erhältst, kannst du einen deiner Zaubertricks mit einem anderen Zaubertrick deiner Wahl aus
+  der Zauberliste des Klerikers ersetzen. Wenn du die 4. und 10. Klerikerstufe erreichst, erlernst du einen weiteren Zaubertrick
+  deiner Wahl aus der Zauberliste des Klerikers, wie in der Spalte „Zaubertricks“ der Tabelle „Klerikermerkmale“ Zauberplätze:
+  dargestellt. Die Tabelle „Klerikermerkmale“ zeigt, wie viele Zauberplätze dir zum Wirken deiner Zauber ab dem 1. Grad zur
+  Verfügung stehen. Du erhältst alle verbrauchten Zauberplätze nach Vorbereitete Zauber ab dem 1. Grad: einer langen Rast
+  zurück. Du bereitest die Liste der Zauber ab dem 1. Grad vor, die dir mit diesem Merkmal zur Verfügung stehen. Wähle zu
+  Lenkendes Geschoss Schild des Beginn vier Zauber des 1. Grades aus der Zauberliste Glaubens Segnen Wunden heilen des Klerikers
+  aus. , , und werden empfohlen. Die Anzahl der Zauber auf deiner Liste erhöht sich, wenn du weitere Klerikerstufen erhältst,
+  wie in der Spalte „Vorbereitete Zauber“ der Tabelle „Klerikermerkmale“ dargestellt. Wann immer sich diese Anzahl erhöht,
+  wählst du zusätzliche Zauber aus der Zauberliste des Klerikers aus, bis die Anzahl von Zaubern auf deiner Liste der Anzahl
+  entspricht, die in der Tabelle aufgeführt ist. Der Grad der ausgewählten Zauber muss dem der verfügbaren Zauberplätze entsprechen.
+  Beispiel: Wenn du ein Kleriker der 3. Stufe bist, kann deine Liste vorbereiteter Zauber sechs Zauber des 1. und 2. Grades
+  in beliebiger Kombination enthalten. Wenn ein anderes Klerikermerkmal dir Zauber gibt, die du stets vorbereitet hast, zählen
+  diese Zauber nicht bei der Anzahl von Zaubern, die du mit diesem Merkmal vorbereiten kannst. Ansonsten zählen diese Zauber
+  jedoch als Klerikerzauber Deine vorbereiteten Zauber ändern: für dich. Wann immer du eine lange Rast beendest, kannst du
+  deine Liste vorbereiteter Zauber ändern und beliebige Zauber von der Liste mit anderen Klerikerzaubern ersetzen, für die
+  du Zauberplätze hast. Attribut zum Zauberwirken: Dein Attribut zum Zauberfokus: Wirken der Klerikerzauber ist Weisheit.
+  Du kannst ein heiliges Symbol als Zauberfokus für deine Klerikerzauber verwenden.'
+source_book: SRD 5.2.1

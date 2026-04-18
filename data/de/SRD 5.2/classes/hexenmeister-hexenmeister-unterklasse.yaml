@@ -1,0 +1,11 @@
+id: hexenmeister-hexenmeister-unterklasse
+type: class_feature
+class: Hexenmeister
+lang: de
+level: 3
+name: Hexenmeister-Unterklasse
+description: Du erhältst eine Hexenmeister‑Unterklasse deiner Wahl. Die Unterklasse Unhold‑Schutzherr wird nach der Beschreibung
+  dieser Klasse erläutert. Unterklassen sind Spezialisierungen, die dir auf bestimmten Hexenmeisterstufen Merkmale gewähren.
+  Du erhältst für den Rest deiner Laufbahn alle Merkmale deiner Unterklasse, die zu deiner aktuellen Hexenmeisterstufe oder
+  den niedrigeren Stufen gehören.
+source_book: SRD 5.2.1

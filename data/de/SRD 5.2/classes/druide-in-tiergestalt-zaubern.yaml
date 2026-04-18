@@ -1,0 +1,9 @@
+id: druide-in-tiergestalt-zaubern
+type: class_feature
+class: Druide
+lang: de
+level: 18
+name: In Tiergestalt zaubern
+description: Wenn du Tiergestalt verwendest, kannst du in Tiergestalt Zauber wirken, sofern diese weder Materialkomponenten
+  mit angegebenen Kosten erfordern noch Materialkomponenten verbrauchen.
+source_book: SRD 5.2.1

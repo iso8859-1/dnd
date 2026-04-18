@@ -1,0 +1,13 @@
+id: druide-zirkel-des-landes-heiligtum-der-natur
+type: class_feature
+class: Druide
+lang: de
+level: 14
+name: Heiligtum der Natur
+description: Als magische Aktion kannst du eine Anwendung von Tiergestalt verbrauchen und in einem Würfel mit 4,5 Metern Kantenlänge
+  auf dem Boden im Abstand von bis zu 36 Metern von dir geisterhafte Bäume und Ranken erscheinen lassen. Sie bleiben eine
+  Minute lang bestehen, oder bis du kampfunfähig wirst oder stirbst. Du und deine Verbündete habt in diesem Bereich Teildeckung,
+  und deine Verbündeten erhalten die aktuelle Resistenz deines Schutzes der Natur, während sie sich dort befinden. Als Bonusaktion
+  kannst du den Würfel um bis zu 18 Meter an einen Punkt auf dem Boden im Abstand von bis zu 36 Metern von dir verschieben.
+source_book: SRD 5.2.1
+subclass: Zirkel des Landes

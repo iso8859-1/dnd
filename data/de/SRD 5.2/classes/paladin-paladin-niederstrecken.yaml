@@ -1,0 +1,9 @@
+id: paladin-paladin-niederstrecken
+type: class_feature
+class: Paladin
+lang: de
+level: 2
+name: Paladin-Niederstrecken
+description: Göttliches Niederstrecken Du hast den Zauber stets vorbereitet. Du kannst diesen Zauber wirken, ohne einen Zauberplatz
+  zu verbrauchen, kannst ihn aber erst nach einer langen Rast erneut auf diese Art wirken.
+source_book: SRD 5.2.1

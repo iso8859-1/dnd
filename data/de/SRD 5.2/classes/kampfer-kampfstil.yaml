@@ -1,0 +1,10 @@
+id: kampfer-kampfstil
+type: class_feature
+class: Kämpfer
+lang: de
+level: 1
+name: Kampfstil
+description: Du hast deine Kampfkünste verfeinert und erhältst ein Kampfstil‑Talent deiner Wahl (siehe „Talente“). Verteidigung
+  wird empfohlen. Wann immer du eine Kämpferstufe erhältst, kannst du das ausgewählte Talent durch ein anderes Kampfstil‑Talent
+  ersetzen.
+source_book: SRD 5.2.1

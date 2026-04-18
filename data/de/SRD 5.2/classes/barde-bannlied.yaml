@@ -1,0 +1,11 @@
+id: barde-bannlied
+type: class_feature
+class: Barde
+lang: de
+level: 7
+name: Bannlied
+description: Du kannst Musiknoten oder Worte der Macht verwenden, um Effekte zu unterbrechen, die den Verstand beeinflussen.
+  Wenn du oder eine Kreatur im Abstand von bis zu neun Metern von dir bei einem Rettungswurf gegen einen Effekt scheitert,
+  der die Zustände Bezaubert oder Verängstigt bewirkt, kannst du eine Reaktion ausführen, um den Rettungswurf erneut auszuführen.
+  Bei diesem neuen Rettungswurf bist du im Vorteil.
+source_book: SRD 5.2.1

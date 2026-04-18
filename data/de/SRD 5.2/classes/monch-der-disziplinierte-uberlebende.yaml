@@ -1,0 +1,10 @@
+id: monch-der-disziplinierte-uberlebende
+type: class_feature
+class: Mönch
+lang: de
+level: 14
+name: Der disziplinierte Überlebende
+description: Deine körperliche und mentale Disziplin gibt dir Übung in allen Rettungswürfen. Außerdem kannst du, wann immer
+  du bei einem Rettungswurf scheiterst, 1 Fokuspunkt verbrauchen, um erneut zu würfeln. In diesem Fall musst du das neue Ergebnis
+  verwenden.
+source_book: SRD 5.2.1

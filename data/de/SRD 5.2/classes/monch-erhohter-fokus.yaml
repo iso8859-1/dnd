@@ -1,0 +1,13 @@
+id: monch-erhohter-fokus
+type: class_feature
+class: Mönch
+lang: de
+level: 10
+name: Erhöhter Fokus
+description: 'Geduldige Verteidigung, Schlaghagel und Windschritt Schlaghagel: erhalten folgende Vorzüge. Du kannst 1 Fokuspunkt
+  ver‑ brauchen, um Schlaghagel einzusetzen und damit Geduldige Verteidigung: drei waffenlose Angriffe statt zwei auszuführen.
+  Wenn du einen Fokus‑ punkt verbrauchst, um Geduldige Verteidigung einzusetzen, erhältst du eine Anzahl von temporären Trefferpunkten
+  in Höhe von zwei Würfen mit Windschritt: deinem Kampfkünste-Würfel. Wenn du einen Fokuspunkt verbrauchst, um Windschritt
+  einzusetzen, kannst du eine bereitwillige Kreatur im Abstand von bis zu 1,5 Metern von dir und von höchstens großer Größe
+  auswählen. Diese Kreatur bewegt sich bis zum Ende deines Zugs mit dir. Die Bewegung der Kreatur provoziert keine Gelegenheitsangriffe.'
+source_book: SRD 5.2.1

@@ -1,0 +1,15 @@
+id: monch-angriffe-umleiten
+type: class_feature
+class: Mönch
+lang: de
+level: 3
+name: Angriffe umleiten
+description: Wenn ein Angriffswurf dich trifft und dir Hieb‑, Stich‑ oder Wuchtschaden zufügt, kannst du eine Reaktion ausführen,
+  um den Gesamtschaden des Angriffs zu verringern. Die Verringerung entspricht 1W10 plus deinem Geschicklichkeitsmodifikator
+  plus deiner Mönchsstufe. Wird der Schaden auf 0 verringert, so kannst du 1 Fokuspunkt verbrauchen, um einen Teil der Angriffsenergie
+  umzuleiten. Wenn der Angriff ein Nahkampfangriff war, wähle dazu eine Kreatur im Abstand von bis zu 1,5 Metern von dir aus,
+  die du sehen kannst. Wenn der Angriff ein Fernkampfangriff war, wähle eine Kreatur im Abstand von bis zu 18 Metern von dir
+  aus, die du sehen kannst und die nicht über vollständige Deckung verfügt. Diese Kreatur muss einen Geschicklichkeitsrettungswurf
+  bestehen, oder sie erleidet Schaden in Höhe von zwei Würfen mit deinem Kampfkünste-Würfel plus deinem Geschicklichkeitsmodifikator.
+  Die Schadensart entspricht der des Angriffs.
+source_book: SRD 5.2.1

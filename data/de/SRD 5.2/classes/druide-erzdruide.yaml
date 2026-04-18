@@ -1,0 +1,14 @@
+id: druide-erzdruide
+type: class_feature
+class: Druide
+lang: de
+level: 20
+name: Erzdruide
+description: 'Die Lebenskraft der Natur gedeiht in dir und Ausdauernde Tiergestalt: gewährt dir folgende Vorzüge: Wann immer
+  du die Initiative auswürfelst und keine Anwendungen von Tiergestalt übrig hast, erhältst du eine verbrauchte Naturmagier:
+  Anwendung zurück. Du kannst Anwendungen von Tiergestalt in einen Zauberplatz umwandeln (keine Aktion erforderlich). Wähle
+  eine Anzahl von unverbrauchten Anwendungen von Tiergestalt aus und wandle sie in einen einzigen Zauberplatz um, wobei jede
+  Anwendung zwei Zauberplatzgrade beiträgt. Beispiel: Wenn du zwei Anwendungen von Tiergestalt umwandelst, erhältst du einen
+  Zauberplatz des 4. Grades. Du kannst diesen Vorzug Langlebigkeit: erst nach einer langen Rast erneut verwenden. Die Urmagie,
+  die du wirkst, lässt dich langsamer altern. Wenn zehn Jahre vergehen,'
+source_book: SRD 5.2.1

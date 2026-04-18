@@ -1,0 +1,8 @@
+id: kampfer-zwei-zusatzliche-angriffe
+type: class_feature
+class: Kämpfer
+lang: de
+level: 11
+name: Zwei zusätzliche Angriffe
+description: Du kannst jetzt dreimal angreifen, wenn du in deinem Zug eine Angriffsaktion ausführst.
+source_book: SRD 5.2.1

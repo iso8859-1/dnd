@@ -1,0 +1,15 @@
+id: waldlaufer-jager-beute-des-jagers
+type: class_feature
+class: Waldläufer
+lang: de
+level: 3
+name: Beute des Jägers
+description: 'Du erhältst eine der folgenden Merkmal‑Optionen nach deiner Wahl. Wann immer du eine kurze oder lange Rast beendest,
+  kannst du die ausgewählte Hordenbrecher: Option durch eine andere ersetzen. Einmal in jedem deiner Züge kannst du, wenn
+  du einen Waffenangriff ausführst, einen weiteren Angriff auf eine andere Kreatur im Abstand von bis zu 1,5 Metern vom ursprünglichen
+  Ziel sowie innerhalb der Waffenreichweite ausführen, sofern du die andere Kreatur in diesem Zug noch Kolossschlächter: nicht
+  angegriffen hast. Deine Hartnäckigkeit kann selbst die zähesten Gegner zermürben. Wenn du eine Kreatur mit einer Waffe triffst,
+  bewirkt diese zusätzlich 1W8 Schaden, sofern das Ziel nicht mehr all seine Trefferpunkte hat. Du kannst diesen zusätzlichen
+  Schaden nur einmal pro Zug bewirken.'
+source_book: SRD 5.2.1
+subclass: Jäger

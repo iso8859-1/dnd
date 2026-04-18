@@ -1,0 +1,8 @@
+id: barbar-schnelle-bewegung
+type: class_feature
+class: Barbar
+lang: de
+level: 5
+name: Schnelle Bewegung
+description: Deine Bewegungsrate erhöht sich um drei Meter, sofern du keine schwere Rüstung trägst.
+source_book: SRD 5.2.1

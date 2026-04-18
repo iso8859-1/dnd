@@ -1,0 +1,13 @@
+id: magier-zaubermeisterschaft
+type: class_feature
+class: Magier
+lang: de
+level: 18
+name: Zaubermeisterschaft
+description: Du beherrschst bestimmte Zauber derart meisterhaft, dass du sie beliebig oft wirken kannst. Wähle einen Zauber
+  des 1. und einen Zauber des 2. Grades aus deinem Zauberbuch aus, die den Zeitaufwand von einer Aktion haben. Du hast diese
+  Zauber stets vorbereitet und kannst sie auf dem niedrigsten Grad wirken, ohne einen Zauberplatz zu verbrauchen. Um einen
+  der Zauber auf einem höheren Grad zu wirken, musst du einen Zauberplatz verbrauchen. Wann immer du eine lange Rast beendest,
+  kannst du dein Zauberbuch studieren und einen dieser Zauber durch einen passenden Zauber des gleichen Grades aus dem Buch
+  ersetzen.
+source_book: SRD 5.2.1

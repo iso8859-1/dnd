@@ -1,0 +1,9 @@
+id: schurke-verlassliches-talent
+type: class_feature
+class: Schurke
+lang: de
+level: 7
+name: Verlässliches Talent
+description: Wann immer du einen Attributswurf ausführst, der eine deiner Übungen in Fertigkeiten oder im Umgang mit Werkzeug
+  nutzt, kannst du ein W20‑ Ergebnis von 9 oder darunter als 10 werten.
+source_book: SRD 5.2.1

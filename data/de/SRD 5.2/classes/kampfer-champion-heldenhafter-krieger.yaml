@@ -1,0 +1,10 @@
+id: kampfer-champion-heldenhafter-krieger
+type: class_feature
+class: Kämpfer
+lang: de
+level: 10
+name: Heldenhafter Krieger
+description: Der Nervenkitzel der Schlacht treibt dich zum Sieg. Im Kampf kannst du dir selbst Heldische Inspiration geben,
+  wann immer du deinen Zug ohne diese beginnst.
+source_book: SRD 5.2.1
+subclass: Champion

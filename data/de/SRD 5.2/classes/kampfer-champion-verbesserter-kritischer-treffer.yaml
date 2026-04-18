@@ -1,0 +1,10 @@
+id: kampfer-champion-verbesserter-kritischer-treffer
+type: class_feature
+class: Kämpfer
+lang: de
+level: 3
+name: Verbesserter kritischer Treffer
+description: Deine Angriffswürfe mit Waffen und deine waffenlosen Angriffe bewirken kritische Treffer, wenn du mit dem W20
+  eine 19 oder eine 20 würfelst.
+source_book: SRD 5.2.1
+subclass: Champion

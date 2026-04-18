@@ -1,0 +1,12 @@
+id: kleriker-gottliche-ordnung
+type: class_feature
+class: Kleriker
+lang: de
+level: 1
+name: Göttliche Ordnung
+description: 'Du hast dich nach deiner Wahl einer der folgenden Beschützer: heiligen Rollen verschrieben. Du wurdest für den
+  Kampf ausgebildet, daher hast du Übung im Umgang mit Kriegswaffen Thaumaturg: und Vertrautheit mit schwerer Rüstung. Du
+  kennst einen zusätzlichen Zaubertrick aus der Zauberliste des Klerikers. Außerdem gibt dir deine mystische Verbindung mit
+  dem Göttlichen einen Bonus auf deine Intelligenz‑ würfe (Arkane Kunde oder Religion). Dieser Bonus entspricht deinem Weisheitsmodifikator
+  (mindestens +1).'
+source_book: SRD 5.2.1

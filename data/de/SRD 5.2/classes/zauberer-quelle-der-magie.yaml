@@ -1,0 +1,17 @@
+id: zauberer-quelle-der-magie
+type: class_feature
+class: Zauberer
+lang: de
+level: 2
+name: Quelle der Magie
+description: 'Du kannst die Quelle der Magie nutzen, die du in dir trägst. Diese Quelle wird durch Zaubereipunkte repräsentiert,
+  die eine Vielzahl magischer Effekte ermöglichen. Du besitzt 2 Zaubereipunkte und erhältst weitere auf höheren Stufen, wie
+  in der Spalte „Zaubereipunkte“ der Tabelle „Zauberermerkmale“ angegeben. Du kannst nicht mehr Zaubereipunkte besitzen, als
+  für deine Stufe in der Tabelle angegeben sind. Du erhältst alle verbrauchten Zaubereipunkte nach einer langen Rast zurück.
+  Du kannst deine Zaubereipunkte verwenden, um die Optionen unten sowie andere Merkmale wie Metamagie einzusetzen, welche
+  diese Punkte Zauberplätze in Zaubereipunkte umwandeln: nutzen. Du kannst einen Zauberplatz verbrauchen, um eine Anzahl von
+  Zaubereipunkten in Höhe des Zauberplatzgrades zu erhalten (keine Aktion erforderlich). Zauberplätze erschaffen: Als Bonusaktion
+  kannst du in deinem Zug unverbrauchte Zaubereipunkte in einen Zauberplatz umwandeln. In der Tabelle „Zauberplätze erschaffen“
+  sind die Kosten von Zauber‑ plätzen bestimmter Grade sowie die zum Umwandeln erforderliche Zaubererstufe angegeben. Du kannst
+  Zauberplätze des höchstens 5. Grades erzeugen. Alle mit diesem Merkmal erschaffenen Zauberplätze'
+source_book: SRD 5.2.1

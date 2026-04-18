@@ -1,0 +1,10 @@
+id: hexenmeister-unhold-schutzherr-widerstandskraft-des-unholds
+type: class_feature
+class: Hexenmeister
+lang: de
+level: 10
+name: Widerstandskraft des Unholds
+description: Wähle eine Schadensart außer Energie aus, wann immer du eine kurze oder lange Rast beendest. Du bist gegen diese
+  Schadensart resistent, bis du mit diesem Merkmal eine andere auswählst.
+source_book: SRD 5.2.1
+subclass: Unhold-Schutzherr

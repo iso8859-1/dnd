@@ -1,0 +1,10 @@
+id: barbar-raserei
+deprecated: true
+replaced_by: barbar-pfad-des-berserkers-raserei
+type: class_feature
+class: Barbar
+lang: de
+level: 3
+name: Raserei
+note: Superseded by barbar-pfad-des-berserkers-raserei
+source_book: SRD 5.2.1

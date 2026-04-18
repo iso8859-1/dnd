@@ -1,0 +1,10 @@
+id: hexenmeister-magische-raffinesse
+type: class_feature
+class: Hexenmeister
+lang: de
+level: 2
+name: Magische Raffinesse
+description: Du kannst eine Minute lang einen esoterischen Ritus ausführen. Danach erhältst du verbrauchte Paktmagie‑Zauberplätze
+  zurück, jedoch höchstens eine Anzahl in Höhe der Hälfte deines Maximums (aufgerundet). Du kannst dieses Merkmal erst nach
+  einer langen Rast erneut verwenden.
+source_book: SRD 5.2.1

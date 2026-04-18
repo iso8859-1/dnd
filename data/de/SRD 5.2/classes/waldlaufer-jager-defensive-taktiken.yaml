@@ -1,0 +1,12 @@
+id: waldlaufer-jager-defensive-taktiken
+type: class_feature
+class: Waldläufer
+lang: de
+level: 7
+name: Defensive Taktiken
+description: 'Du erhältst eine der folgenden Merkmal‑Optionen nach deiner Wahl. Wann immer du eine kurze oder lange Rast beendest,
+  kannst du die ausgewählte Der Horde entkommen: Option durch eine andere ersetzen. Gelegenheitsangriffe Verteidigung gegen
+  Mehrfachangriffe: auf dich sind im Nachteil. Wenn eine Kreatur dich mit einem Angriffswurf trifft, ist sie in diesem Zug
+  bei allen anderen Angriffswürfen gegen dich im Nachteil.'
+source_book: SRD 5.2.1
+subclass: Jäger

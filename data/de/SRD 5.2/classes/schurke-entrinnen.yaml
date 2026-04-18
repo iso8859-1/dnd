@@ -1,0 +1,10 @@
+id: schurke-entrinnen
+type: class_feature
+class: Schurke
+lang: de
+level: 7
+name: Entrinnen
+description: Du kannst bestimmten Gefahren geschickt ausweichen. Bist du einem Effekt ausgesetzt, der dir einen Geschicklichkeitsrettungswurf
+  erlaubt, um den Schaden zu halbieren, so erleidest du stattdessen bei einem Erfolg gar keinen und bei einem Misserfolg den
+  halben Schaden. Du kannst dieses Merkmal nicht einsetzen, wenn du kampfunfähig bist.
+source_book: SRD 5.2.1

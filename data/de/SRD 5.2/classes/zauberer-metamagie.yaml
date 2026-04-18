@@ -1,0 +1,14 @@
+id: zauberer-metamagie
+type: class_feature
+class: Zauberer
+lang: de
+level: 2
+name: Metamagie
+description: Deine Magie kommt aus deinem Inneren, daher kannst du deine Zauber nach deinen Wünschen ändern. Du erhältst zwei
+  Metamagie‑Optionen deiner Wahl unter „Metamagie‑Optionen“ weiter hinten in der Beschreibung dieser Klasse. Die ausgewählten
+  Optionen verwendest du, um Zauber, die du wirkst, vorübergehend zu ändern. Zum Verwenden einer Option musst du die jeweils
+  angegebene Anzahl von Zaubereipunkten verbrauchen. Du kannst nur eine Metamagie‑Option auf einen Zauber anwenden, den du
+  wirkst, sofern bei der jeweiligen Option nicht anders angegeben. Wann immer du eine Zaubererstufe erhältst, kannst du eine
+  der Metamagie‑Optionen durch eine ersetzen, die du noch nicht kennst. Auf der 10. und 17. Zaubererstufe erhältst du jeweils
+  zwei weitere Optionen.
+source_book: SRD 5.2.1

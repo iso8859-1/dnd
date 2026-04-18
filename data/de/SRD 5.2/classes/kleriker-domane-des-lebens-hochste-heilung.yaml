@@ -1,0 +1,12 @@
+id: kleriker-domane-des-lebens-hochste-heilung
+type: class_feature
+class: Kleriker
+lang: de
+level: 17
+name: Höchste Heilung
+description: Wenn du normalerweise mit mindestens einen Würfel würfeln würdest, um mit einem Zauber oder Göttliche Macht fokussieren
+  Trefferpunkte einer Kreatur wiederherzustellen, so verwendest du stattdessen die höchstmöglichen Ergebnisse der Würfel.
+  Anstatt beispielsweise mit einem Zauber 2W6 Trefferpunkte bei einer Kreatur wiederherzustellen, stellst du 12 Trefferpunkte
+  wieder her. aufgeführt.
+source_book: SRD 5.2.1
+subclass: Domäne des Lebens

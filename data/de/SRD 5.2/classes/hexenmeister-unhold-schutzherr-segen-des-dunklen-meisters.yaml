@@ -1,0 +1,11 @@
+id: hexenmeister-unhold-schutzherr-segen-des-dunklen-meisters
+type: class_feature
+class: Hexenmeister
+lang: de
+level: 3
+name: Segen des Dunklen Meisters
+description: Wenn du die Trefferpunkte eines Gegners auf 0 verringerst, erhältst du temporäre Trefferpunkte in Höhe deines
+  Charismamodifikator plus deiner Hexenmeisterstufe (mindestens 1 temporärer Trefferpunkt). Du erhältst diesen Vorzug ebenfalls,
+  wenn jemand anders die Trefferpunkte eines Gegners im Abstand von bis zu drei Metern von dir auf 0 verringert.
+source_book: SRD 5.2.1
+subclass: Unhold-Schutzherr

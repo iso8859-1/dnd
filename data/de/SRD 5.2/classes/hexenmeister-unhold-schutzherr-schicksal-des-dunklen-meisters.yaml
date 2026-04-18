@@ -1,0 +1,13 @@
+id: hexenmeister-unhold-schutzherr-schicksal-des-dunklen-meisters
+type: class_feature
+class: Hexenmeister
+lang: de
+level: 6
+name: Schicksal des Dunklen Meisters
+description: Du kannst deinen Unhold‑Schutzherrn bitten, das Schicksal zu deinen Gunsten zu ändern. Wenn du einen Attributs‑
+  oder Rettungswurf ausführst, kannst du dieses Merkmal anwenden, um dem Wurf 1W10 hinzuzufügen. Dies kannst du tun, nachdem
+  der Wurf ausgeführt wurde, aber bevor die Effekte des Wurfs auftreten. Die Anzahl der möglichen Anwendungen dieses Merkmals
+  entspricht deinem Charismamodifikator (mindestens einmal), doch du kannst es nicht öfter als einmal pro Würfelwurf anwenden.
+  Du erhältst alle verbrauchten Anwendungen nach einer langen Rast zurück.
+source_book: SRD 5.2.1
+subclass: Unhold-Schutzherr

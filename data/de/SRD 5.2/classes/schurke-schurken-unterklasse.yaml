@@ -1,0 +1,11 @@
+id: schurke-schurken-unterklasse
+type: class_feature
+class: Schurke
+lang: de
+level: 3
+name: Schurken-Unterklasse
+description: Du erhältst eine Schurken‑Unterklasse deiner Wahl. Die Unterklasse Dieb wird nach der Beschreibung dieser Klasse
+  erläutert. Unterklassen sind Spezialisierungen, die dir auf bestimmten Schurkenstufen Merkmale gewähren. Du erhältst für
+  den Rest deiner Laufbahn alle Merkmale deiner Unterklasse, die zu deiner aktuellen Schurkenstufe oder den niedrigeren Stufen
+  gehören.
+source_book: SRD 5.2.1

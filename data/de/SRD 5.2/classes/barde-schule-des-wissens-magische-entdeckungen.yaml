@@ -1,0 +1,13 @@
+id: barde-schule-des-wissens-magische-entdeckungen
+type: class_feature
+class: Barde
+lang: de
+level: 6
+name: Magische Entdeckungen
+description: Du erlernst zwei Zauber deiner Wahl. Diese Zauber dürfen aus der Zauberliste des Druiden, des Klerikers und des
+  Magiers oder einer Kombination daraus stammen (die Zauberlisten findest du in den Abschnitten der Klassen). Die ausgewählten
+  Zauber müssen Zaubertricks oder Zauber sein, für die du Zauberplätze hast, wie in der Tabelle „Bardenmerkmale“ dargestellt.
+  Du hast die ausgewählten Zauber stets vorbereitet. Wann immer du eine Bardenstufe erhältst, kannst du einen der Zauber mit
+  einem anderen Zauber ersetzen, der diese Voraussetzungen erfüllt.
+source_book: SRD 5.2.1
+subclass: Schule des Wissens

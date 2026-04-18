@@ -1,0 +1,11 @@
+id: druide-wilde-wiederkehr
+type: class_feature
+class: Druide
+lang: de
+level: 5
+name: Wilde Wiederkehr
+description: Einmal in jedem deiner Züge kannst du, wenn keine Anwendungen von Tiergestalt mehr übrig sind, eine Anwendung
+  wiederherstellen, indem du einen Zauberplatz verbrauchst (keine Aktion erforderlich). Außerdem kannst du eine Anwendung
+  von Tiergestalt verbrauchen (keine Aktion erforderlich) um dir einen Zauberplatz des 1. Grades zu geben. Dies kannst du
+  erst nach einer langen Rast wiederholen.
+source_book: SRD 5.2.1

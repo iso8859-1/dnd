@@ -1,0 +1,22 @@
+id: barbar-kampfrausch
+type: class_feature
+class: Barbar
+lang: de
+level: 1
+name: Kampfrausch
+description: 'Eine Urmacht namens Kampfrausch gewährt dir außergewöhnliche Macht und Zähigkeit. Du kannst dich als Bonusaktion
+  in Kampfrausch versetzen, sofern du keine schwere Rüstung trägst. Wie oft du dies tun kannst, ist in der Spalte „Kampfrausch“
+  der Tabelle „Barbarenmerkmale“ nach Barbarenstufe aufgeführt. Nach einer kurzen Rast erhältst du eine verbrauchte Anwendung
+  zurück. Nach einer langen Rast erhältst du alle verbrauchten Anwendungen zurück. Solange dein Kampfrausch aktiv ist, gelten
+  für ihn Schadensresistenz: folgende Regeln: Du bist gegen Hieb‑, Stich‑ Kampfrausch-Schaden: und Wuchtschaden resistent.
+  Wenn du einen Angriff ausführst, der Stärke erfordert – entweder mit einer Waffe oder als waffenlosen Angriff –, und dem
+  Ziel Schaden zufügst, erhältst du einen Bonus auf den Schaden, der sich erhöht, wenn du Barbarenstufen hinzugewinnst. Dies
+  ist in der Spalte „Kampfrausch‑ Schaden“ der Tabelle „Barbarenmerkmale“ Stärkevorteil: aufgeführt. Du bist bei Stärkewürfen
+  und Keine Konzentration und keine Zauber: Stärkerettungswürfen im Vorteil. Du kannst keine Konzentration aufrechterhalten
+  Wirkungsdauer: und keine Zauber wirken. Der Kampfrausch währt bis zum Ende deines nächsten Zugs und endet vorzeitig, wenn
+  du schwere Rüstung anlegst oder kampfunfähig wirst. Wenn dein Kampfrausch in deinem nächsten Zug noch aktiv ist, kannst
+  du ihn um eine weitere Runde verlängern, indem du eine der folgenden Handlungen ausführst: • Führe einen Angriffswurf gegen
+  einen Gegner aus. • Zwinge einen Gegner, einen Rettungswurf auszuführen. • Führe eine Bonusaktion aus, um deinen Kampfrausch
+  zu verlängern. Wann immer der Kampfrausch verlängert wird, währt er bis zum Ende deines nächsten Zugs. Du kannst einen Kampfrausch
+  bis zu zehn Minuten lang aufrechterhalten.'
+source_book: SRD 5.2.1

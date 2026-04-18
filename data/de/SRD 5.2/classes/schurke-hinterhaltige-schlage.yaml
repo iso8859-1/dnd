@@ -1,0 +1,14 @@
+id: schurke-hinterhaltige-schlage
+type: class_feature
+class: Schurke
+lang: de
+level: 14
+name: Hinterhältige Schläge
+description: 'Du hast dich in neuen Methoden geübt, deinen Hinterhältigen Angriff auf besonders verschlagene Art auszuführen.
+  Nun stehen folgende Effekte von Irritieren (Kosten: 2W6): Raffinierter Schlag zur Auswahl: Das Ziel muss einen Konstitutionsrettungswurf
+  bestehen, oder es kann in seinem nächsten Zug nur eine der folgenden Handlungen vollziehen: sich bewegen, eine Aktion Lahmlegen
+  (Kosten: 6W6): ausführen oder eine Bonusaktion ausführen. Das Ziel muss einen Konstitutionsrettungswurf bestehen, andernfalls
+  ist es eine Minute lang – oder bis es Schaden erleidet – bewusstlos. Das bewusstlose Ziel wiederholt den Rettungswurf am
+  Ende jedes seiner Züge. Bei einem Verdunkeln (Kosten: 3W6): Erfolg endet der Effekt. Das Ziel muss einen Geschicklichkeitsrettungswurf
+  bestehen, oder es ist bis zum Ende seines nächsten Zugs blind.'
+source_book: SRD 5.2.1

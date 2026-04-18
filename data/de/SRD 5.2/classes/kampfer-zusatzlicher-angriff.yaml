@@ -1,0 +1,8 @@
+id: kampfer-zusatzlicher-angriff
+type: class_feature
+class: Kämpfer
+lang: de
+level: 5
+name: Zusätzlicher Angriff
+description: Du kannst jetzt zweimal angreifen, wenn du in deinem Zug eine Angriffsaktion ausführst.
+source_book: SRD 5.2.1

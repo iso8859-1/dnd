@@ -1,0 +1,11 @@
+id: schurke-dieb-reflexe-eines-diebes
+type: class_feature
+class: Schurke
+lang: de
+level: 17
+name: Reflexe eines Diebes
+description: Du bist versiert darin, Hinterhalte zu legen und rasch aus Gefahren zu entkommen. In der ersten Runde jedes Kampfs
+  kannst du zwei Züge ausführen. Du führst den ersten Zug mit deiner normalen Initiative und den zweiten Zug mit deiner Initiative
+  minus 10 aus.
+source_book: SRD 5.2.1
+subclass: Dieb

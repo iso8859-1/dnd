@@ -1,0 +1,12 @@
+id: magier-hervorrufer-zauber-formen
+type: class_feature
+class: Magier
+lang: de
+level: 6
+name: Zauber formen
+description: Du kannst innerhalb der Effekte deiner Hervor‑ rufungszauber Bereiche von relativer Sicherheit erzeugen. Wenn
+  du einen Hervorrufungszauber wirkst, der andere Kreaturen betrifft, die du sehen kannst, so kannst du eine Anzahl dieser
+  Kreaturen in Höhe von 1 plus Zaubergrad auswählen. Die aus‑ gewählten Kreaturen bestehen ihren Rettungswurf gegen deinen
+  Zauber automatisch und erleiden keinen Schaden, wenn sie normalerweise die Hälfte des Schadens erleiden würden.
+source_book: SRD 5.2.1
+subclass: Hervorrufer

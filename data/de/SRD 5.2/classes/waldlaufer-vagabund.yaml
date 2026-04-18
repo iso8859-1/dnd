@@ -1,0 +1,9 @@
+id: waldlaufer-vagabund
+type: class_feature
+class: Waldläufer
+lang: de
+level: 6
+name: Vagabund
+description: Deine Bewegungsrate erhöht sich um drei Meter, sofern du keine schwere Rüstung trägst. Außerdem hast du eine
+  Kletterbewegungsrate und eine Schwimmbewegungsrate in Höhe deiner Bewegungsrate.
+source_book: SRD 5.2.1

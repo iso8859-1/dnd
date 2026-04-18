@@ -1,0 +1,14 @@
+id: paladin-schwur-der-hingabe-heilige-waffe
+type: class_feature
+class: Paladin
+lang: de
+level: 3
+name: Heilige Waffe
+description: Wenn du die Angriffsaktion ausführst, kannst du eine Anwendung von Göttliche Macht fokussieren verbrauchen, um
+  eine Nahkampfwaffe, die du hältst, mit positiver Energie zu versehen. Deinen Angriffswürfen mit dieser Waffe fügst du zehn
+  Minuten lang – oder bis du dieses Merkmal erneut einsetzt – deinen Charismamodifikator hinzu (mindestens +1), und bei jedem
+  Treffer mit der Waffe bewirkst du ihre normale Schadensart oder gleißenden Schaden. Außerdem spendet die Waffe in einem
+  Radius von sechs Metern helles Licht und in einem Radius von weiteren sechs Metern dämmriges Licht. Du kannst diesen Effekt
+  vorzeitig beenden (keine Aktion erforderlich). Der Effekt endet auch, wenn du die Waffe nicht trägst.
+source_book: SRD 5.2.1
+subclass: Schwur der Hingabe

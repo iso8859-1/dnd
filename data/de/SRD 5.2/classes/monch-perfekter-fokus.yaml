@@ -1,0 +1,9 @@
+id: monch-perfekter-fokus
+type: class_feature
+class: Mönch
+lang: de
+level: 15
+name: Perfekter Fokus
+description: Wenn du die Initiative auswürfelst und nicht Unglaublicher Stoffwechsel verwendest, erhältst du verbrauchte Fokuspunkte
+  zurück, bis du 4 davon hast, sofern du höchstens 3 Punkte hast.
+source_book: SRD 5.2.1

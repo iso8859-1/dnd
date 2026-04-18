@@ -1,0 +1,11 @@
+id: monch-monch-unterklasse
+type: class_feature
+class: Mönch
+lang: de
+level: 3
+name: Mönch-Unterklasse
+description: Du erhältst eine Mönch‑Unterklasse deiner Wahl. Die Unterklasse Krieger der Offenen Hand wird nach der Beschreibung
+  dieser Klasse erläutert. Unterklassen sind Spezialisierungen, die dir auf bestimmten Mönchsstufen Merkmale gewähren. Du
+  erhältst für den Rest deiner Laufbahn alle Merkmale deiner Unterklasse, die zu deiner aktuellen Mönchsstufe oder den niedrigeren
+  Stufen gehören.
+source_book: SRD 5.2.1

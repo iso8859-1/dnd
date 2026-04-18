@@ -1,0 +1,10 @@
+id: kleriker-domane-des-lebens-domanenzauber-des-lebens
+type: class_feature
+class: Kleriker
+lang: de
+level: 3
+name: Domänenzauber des Lebens
+description: Deine Verbindung mit dieser göttlichen Domäne sorgt dafür, dass du bestimmte Zauber stets bereithalten kannst.
+  Wenn du eine Klerikerstufe erreichst, die in der Tabelle „Domänenzauber des Lebens“ aufgeführt ist, hast du die aufgeführten
+source_book: SRD 5.2.1
+subclass: Domäne des Lebens

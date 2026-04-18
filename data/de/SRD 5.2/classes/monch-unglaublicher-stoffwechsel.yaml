@@ -1,0 +1,10 @@
+id: monch-unglaublicher-stoffwechsel
+type: class_feature
+class: Mönch
+lang: de
+level: 2
+name: Unglaublicher Stoffwechsel
+description: Wenn du die Initiative auswürfelst, kannst du alle verbrauchten Fokuspunkte zurückerhalten. Würfle dazu mit deinem
+  Kampfkünste-Würfel. Du erhältst eine Anzahl von Trefferpunkten in Höhe deiner Mönchsstufe plus des Ergebnisses zurück. Du
+  kannst dieses Merkmal erst nach einer langen Rast erneut verwenden.
+source_book: SRD 5.2.1

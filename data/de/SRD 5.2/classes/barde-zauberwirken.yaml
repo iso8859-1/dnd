@@ -1,0 +1,28 @@
+id: barde-zauberwirken
+type: class_feature
+class: Barde
+lang: de
+level: 1
+name: Zauberwirken
+description: 'Du hast gelernt, durch deine bardischen Künste Zauber zu wirken. Die Regeln zum Zauberwirken findest du unter
+  „Zauber“. Folgende Informationen erklären, wie du diese Regeln mit den Barden‑ zaubern verwendest, die in der Zauberliste
+  des Barden weiter hinten in dieser Klassenbeschreibung Zaubertricks: aufgeführt sind. Du beherrschst zwei Zaubertricks Gehässiger
+  Spott Tanzende Lichter deiner Wahl aus der Zauberliste des Barden. und werden empfohlen. Wann immer du eine Bardenstufe
+  erhältst, kannst du einen deiner Zaubertricks mit einem anderen Zaubertrick deiner Wahl aus der Zauberliste des Barden ersetzen.
+  Wenn du die 4. und 10. Bardenstufe erreichst, erlernst du einen weiteren Zaubertrick deiner Wahl aus der Zauberliste des
+  Barden, wie in der Spalte „Zaubertricks“ der Tabelle „Bardenmerkmale“ Zauberplätze: dargestellt. Die Tabelle „Bardenmerkmale“
+  zeigt, wie viele Zauberplätze dir zum Wirken deiner Zauber ab dem 1. Grad zur Verfügung stehen. Du erhältst alle verbrauchten
+  Zauberplätze nach einer langen Rast zurück. Vorbereitete Zauber ab dem 1. Grad: Du bereitest die Liste der Zauber ab dem
+  1. Grad vor, die dir mit diesem Merkmal zur Verfügung stehen. Wähle zu Dissonantes Flüstern Heilendes Wort Beginn vier Zauber
+  des 1. Grades aus der Zauberliste Person bezaubern Sprühende Farben des Barden aus. , , und werden empfohlen. Die Anzahl
+  der Zauber auf deiner Liste erhöht sich, wenn du weitere Bardenstufen erhältst, wie in der Spalte „Vorbereitete Zauber“
+  der Tabelle „Bardenmerkmale“ dargestellt. Wann immer sich diese Anzahl erhöht, wählst du zusätzliche Zauber aus der Zauberliste
+  des Barden aus, bis die Anzahl von Zaubern auf deiner Liste der Anzahl entspricht, die in der Tabelle aufgeführt ist. Der
+  Grad der ausgewählten Zauber muss dem der verfügbaren Zauberplätze entsprechen. Beispiel: Wenn du ein Barde der 3. Stufe
+  bist, kann deine Liste vorbereiteter Zauber sechs Zauber des 1. und 2. Grades in beliebiger Kombination enthalten. Wenn
+  ein anderes Bardenmerkmal dir Zauber gibt, die du stets vorbereitet hast, zählen diese Zauber nicht bei der Anzahl von Zaubern,
+  die du mit diesem Merkmal vorbereiten kannst. Ansonsten zählen diese Deine vorbereiteten Zauber ändern: Zauber jedoch als
+  Bardenzauber für dich. Wann immer du eine Bardenstufe erhältst, kannst du einen der Zauber auf deiner Liste mit einem anderen
+  Barden‑ Attribut zum Zauberwirken: zauber ersetzen, für den du Zauberplätze hast. Dein Attribut zum Zauberfokus: Wirken
+  der Bardenzauber ist Charisma. Du kannst ein Musikinstrument als Zauberfokus für deine Bardenzauber verwenden.'
+source_book: SRD 5.2.1

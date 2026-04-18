@@ -1,0 +1,11 @@
+id: kampfer-kampfer-unterklasse
+type: class_feature
+class: Kämpfer
+lang: de
+level: 3
+name: Kämpfer-Unterklasse
+description: Du erhältst eine Kämpfer‑Unterklasse deiner Wahl. Die Unterklasse Champion wird nach der Beschreibung dieser
+  Klasse erläutert. Unterklassen sind Spezialisierungen, die dir auf bestimmten Kämpferstufen Merkmale gewähren. Du erhältst
+  für den Rest deiner Laufbahn alle Merkmale deiner Unterklasse, die zu deiner aktuellen Kämpferstufe oder den niedrigeren
+  Stufen gehören.
+source_book: SRD 5.2.1

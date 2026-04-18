@@ -1,0 +1,14 @@
+id: schurke-hinterhaltiger-angriff
+type: class_feature
+class: Schurke
+lang: de
+level: 1
+name: Hinterhältiger Angriff
+description: Du weißt, wie man die Ablenkung eines Gegners ausnutzt und subtil zuschlägt. Einmal pro Zug kannst du einer Kreatur,
+  die du mit einem Angriffswurf triffst, 1W6 zusätzlichen Schaden zufügen, sofern du beim Wurf im Vorteil bist und eine Finesse‑
+  oder Fernkampfwaffe einsetzt. Der zusätzliche Schaden ist von der gleichen Art wie der Schaden der Waffe. Es ist kein Vorteil
+  beim Angriffswurf erforderlich, wenn mindestens einer deiner Verbündeten sich im Abstand von bis zu 1,5 Metern vom Ziel
+  befindet, sofern der Verbündete nicht kampfunfähig ist und du beim Angriffswurf nicht im Nachteil bist. Der zusätzliche
+  Schaden wird erhöht, wenn du weitere Schurkenstufen erhältst, wie in der Spalte „Hinterhältiger Angriff“ der Tabelle „Schurkenmerkmale“
+  dargestellt.
+source_book: SRD 5.2.1

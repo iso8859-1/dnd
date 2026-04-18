@@ -1,0 +1,36 @@
+id: magier-zauberwirken
+type: class_feature
+class: Magier
+lang: de
+level: 1
+name: Zauberwirken
+description: 'Als Student arkaner Magie hast du gelernt, Zauber zu wirken. Die Regeln zum Zauberwirken findest du unter „Zauber“.
+  Folgende Informationen erklären, wie du diese Regeln mit den Magierzaubern verwendest, die in der Zauberliste des Magiers
+  weiter hinten in dieser Klassenbeschreibung aufgeführt sind. Zaubertricks: Kältestrahl Licht Magierhand Du kennst drei Magierzaubertricks
+  deiner Wahl. , und werden empfohlen. Wann immer du eine lange Rast beendest, kannst du einen deiner Zaubertricks dieses
+  Merkmals durch einen anderen Magierzaubertrick deiner Wahl ersetzen. Auf der 4. und 10. Magierstufe erlernst du jeweils
+  einen weiteren Magierzaubertrick deiner Wahl, wie in der Spalte „Zaubertricks“ der Tabelle Zauberbuch: „Magiermerkmale“
+  dargestellt. Die Krönung deiner magischen Ausbildung bestand in der Erschaffung eines Buchs – deines Zauberbuchs. Dieses
+  ist ein winziger Gegenstand, der 1,5 Kilogramm wiegt, 100 Seiten Identifizieren enthält und nur von dir oder jemandem, der
+  den Zauber wirkt, gelesen werden kann. Du bestimmst Erscheinungsbild und Materialien des Buchs. Lege fest, ob es sich beispielsweise
+  um einen Folianten mit Blattgold oder eine Sammlung von verzwirnten Pergamentseiten handelt. Das Buch enthält die Zauber
+  ab dem 1. Grad, die Donnerwoge Federfall du kennst. Es beginnt mit sechs Magierzaubern des Magie entdecken Magierrüstung
+  Magisches Geschoss 1. Grades nach deiner Wahl. , , Schlaf , , und werden empfohlen. Wann immer du nach der 1. Magierstufe
+  eine weitere erhältst, kannst du deinem Zauberbuch zwei neue Magierzauber nach deiner Wahl hinzufügen. Die Zauber müssen
+  einen Grad aufweisen, für den du Zauberplätze entsprechend der Tabelle „Magier‑ merkmale“ verfügbar hast. Sie sind der Höhepunkt
+  Zauberplätze: deiner regelmäßigen arkanen Forschungen. Die Tabelle „Magiermerkmale“ zeigt, wie viele Zauberplätze dir zum
+  Wirken deiner Zauber ab dem 1. Grad zur Verfügung stehen. Du erhältst alle verbrauchten Zauberplätze nach Vorbereitete Zauber
+  ab dem 1. Grad: einer langen Rast zurück. Du bereitest die Liste der Zauber ab dem 1. Grad vor, die dir mit diesem Merkmal
+  zur Verfügung stehen. Wähle dazu vier Zauber aus deinem Zauberbuch aus. Der Grad der ausgewählten Zauber muss dem der verfügbaren
+  Zauberplätze entsprechen. Die Anzahl der Zauber auf deiner Liste erhöht sich, wenn du weitere Magierstufen erhältst, wie
+  in der Spalte „Vorbereitete Zauber“ der Tabelle „Magiermerkmale“ dargestellt. Wann immer sich diese Anzahl erhöht, wählst
+  du zusätzliche Magierzauber aus, bis die Anzahl von Zaubern auf deiner Liste der Anzahl in der Tabelle entspricht. Der Grad
+  der ausgewählten Zauber muss dem der verfügbaren Zauberplätze entsprechen. Beispiel: Wenn du ein Magier der 3. Stufe bist,
+  kann deine Liste vorbereiteter Zauber sechs Zauber des 1. und 2. Grades aus deinem Zauberbuch in beliebiger Kombination
+  enthalten. Wenn ein anderes Magiermerkmal dir Zauber gibt, die du stets vorbereitet hast, zählen diese Zauber nicht bei
+  der Anzahl von Zaubern, die du mit diesem Merkmal vorbereiten kannst. Ansonsten zählen Deine vorbereiteten Zauber ändern:
+  diese Zauber jedoch als Magierzauber für dich. Wann immer du eine lange Rast beendest, kannst du deine Liste vorbereiteter
+  Zauber ändern und beliebige Zauber von der Liste mit anderen Zaubern aus Attribut zum Zauberwirken: deinem Zauberbuch ersetzen.
+  Dein Attribut zum Zauberfokus: Wirken der Magierzauber ist Intelligenz. Du kannst einen arkanen Fokus oder dein Zauberbuch
+  als Zauberfokus für deine Magierzauber verwenden.'
+source_book: SRD 5.2.1

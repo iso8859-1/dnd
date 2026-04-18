@@ -1,0 +1,15 @@
+id: paladin-schwur-der-hingabe-heiliger-nimbus
+type: class_feature
+class: Paladin
+lang: de
+level: 20
+name: Heiliger Nimbus
+description: 'Als Bonusaktion kannst du deine Aura des Schutzes mit heiliger Macht versehen, welche zehn Minuten lang – oder
+  bis du sie beendest (keine Aktion erforderlich) – die unten beschriebenen Vorzüge gewährt. Du kannst dieses Merkmal erst
+  nach einer langen Rast erneut verwenden. Alternativ kannst du die Anwendung wiederherstellen, indem du einen Zauberplatz
+  des 5. Grades verbrauchst Gleißender Schaden: (keine Aktion erforderlich). Wann immer ein Gegner seinen Zug in der Aura
+  beginnt, erleidet er gleißenden Schaden in Höhe deines Charismamodifikators plus Heiliger Schutz: deines Übungsbonus. Du
+  bist bei allen Rettungswürfen im Vorteil, zu denen Unholde oder Untote dich Sonnenlicht: zwingen. Die Aura ist von hellem
+  Licht erfüllt, bei dem es sich um Sonnenlicht handelt. aufgeführt.'
+source_book: SRD 5.2.1
+subclass: Schwur der Hingabe

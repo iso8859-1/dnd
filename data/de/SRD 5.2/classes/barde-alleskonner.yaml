@@ -1,0 +1,10 @@
+id: barde-alleskonner
+type: class_feature
+class: Barde
+lang: de
+level: 2
+name: Alleskönner
+description: 'Du kannst die Hälfte deines Übungsbonus (abgerundet) jedem Attributswurf hinzufügen, der eine Fertigkeit verwendet,
+  in der du nicht geübt bist, und der folglich sonst nicht deinen Übungsbonus nutzen würde. Beispiel: Wenn du einen Stärkewurf
+  (Athletik) ausführst und in Athletik nicht geübt bist, kannst du dem Ergebnis die Hälfte deines Übungsbonus hinzufügen.'
+source_book: SRD 5.2.1

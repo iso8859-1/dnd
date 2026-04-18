@@ -1,0 +1,12 @@
+id: magier-hervorrufer-kraftvoller-zaubertrick
+type: class_feature
+class: Magier
+lang: de
+level: 3
+name: Kraftvoller Zaubertrick
+description: Deine Schadenszaubertricks wirken auch auf Kreaturen, welche die volle Wucht deiner magischen Angriffe zu vermeiden
+  versuchen. Wenn du einen Zaubertrick auf eine Kreatur wirkst und dein Angriffswurf misslingt, oder wenn das Ziel einen Rettungswurf
+  gegen den Zaubertrick besteht, erleidet das Ziel dennoch die Hälfte des Schadens (sofern der Zaubertrick Schaden bewirkt),
+  jedoch keine zusätzliche Effekte.
+source_book: SRD 5.2.1
+subclass: Hervorrufer

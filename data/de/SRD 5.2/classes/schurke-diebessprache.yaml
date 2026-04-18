@@ -1,0 +1,10 @@
+id: schurke-diebessprache
+type: class_feature
+class: Schurke
+lang: de
+level: 1
+name: Diebessprache
+description: Du hast verschiedene Sprachen in den Gemeinschaften gelernt, in denen du dir deine Schurkentalente zugelegt hast.
+  Du beherrschst die Diebessprache und eine andere Sprache deiner Wahl, die du aus den Sprachentabellen unter „Charaktererstellung“
+  auswählen kannst.
+source_book: SRD 5.2.1

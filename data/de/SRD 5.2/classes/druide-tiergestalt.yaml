@@ -1,0 +1,35 @@
+id: druide-tiergestalt
+type: class_feature
+class: Druide
+lang: de
+level: 2
+name: Tiergestalt
+description: 'Die Mächte der Natur erlauben dir, die Gestalt eines Tieres anzunehmen. Als Bonusaktion nimmst du eine Tiergestalt
+  an, die du für dieses Merkmal erlernt hast (siehe „Bekannte Gestalten“ unten). Du bleibst für eine Anzahl von Stunden in
+  Höhe der Hälfte deiner Druidenstufe in dieser Gestalt, oder bis du Tiergestalt erneut wirkst, kampfunfähig wirst oder stirbst.
+  Du kannst die Gestalt auch als Anzahl der Anwendungen: Bonusaktion vorzeitig aufgeben. Du kannst Tiergestalt zweimal einsetzen.
+  Nach einer kurzen Rast erhältst du eine verbrauchte Anwendung zurück. Nach einer langen Rast erhältst du alle verbrauchten
+  Anwendungen zurück. Du erhältst zusätzliche Anwendungen, wenn du bestimmte Druidenstufen erreichst, wie in der Spalte „Tiergestalt“
+  der Tabelle „Druidenmerkmale“ dargestellt. Bekannte Gestalten: Du kennst vier Tiergestalten für dieses Merkmal, ausgewählt
+  aus Tieren, die höchstens einen Herausforderungsgrad von 1/4 und Ratte, keine Flugbewegungsrate haben (Optionen siehe Reitpferd,
+  Spinne Wolf Wertekästen unter „Tiere“ unter „Monster“). und werden empfohlen. Wann immer du eine lange Rast beendest, kannst
+  du eine deiner bekannten Gestalten durch eine andere Gestalt ersetzen, welche die Bedingungen erfüllt. Wenn du bestimmte
+  Druidenstufen erreichst, werden die Anzahl deiner bekannten Gestalten sowie der maximale Herausforderungsgrad dieser Gestalten
+  erhöht, wie in der Tabelle „Tiergestalten“ dargestellt. Außerdem kannst du ab 8. Stufe Gestalten mit Flugbewegungsrate annehmen.
+  Beim Auswählen deiner bekannten Gestalten kannst du in anderen Quellen nach Tieren suchen, die in Frage kommen, wenn der
+  Spielleiter dir dies Regeln bei verwandelter Gestalt: In verwandelter Gestalt behältst du deine Persönlichkeit, deine Erinnerungen
+  und deine Sprechfähigkeit bei, und Temporäre Trefferpunkte: es gelten folgende Regeln: Wenn du Tiergestalt annimmst, erhältst
+  du eine Anzahl von temporären Spielwerte: Trefferpunkten in Höhe deiner Druidenstufe. Deine Spielwerte werden durch den
+  Wertekasten des Tieres ersetzt, aber du behältst deinen Kreaturentyp, deine Trefferpunkte, deine Trefferpunktewürfel, deine
+  Werte für Intelligenz, Weisheit und Charisma, deine Klassenmerkmale, deine Sprachen und deine Talente bei. Außerdem behältst
+  du Übung in Fertigkeiten und Rettungswürfen bei und wendest deinen entsprechenden Übungsbonus an. Übung der Kreatur kommen
+  noch dazu. Wenn ein Fertigkeits- oder Rettungswurfmodifikator im Wertekasten des Tieres höher als deiner ist, Kein Zauberwirken:
+  verwendest du den im Wertekasten. Du kannst keine Zauber wirken, aber der Gestaltwandel unterbricht nicht deine Konzentration
+  oder beeinträchtigt auf andere Weise einen Zauber, den du bereits Gegenstände: gewirkt hast. Deine Fähigkeit, mit Gegenständen
+  zu interagieren, wird von den Gliedmaßen der Tiergestalt bestimmt statt von deinen. Außerdem entscheidest du, ob deine Ausrüstung
+  an Ort und Stelle zu Boden fällt, mit deiner neuen Gestalt verschmilzt oder von ihr getragen wird. Getragene Ausrüstung
+  funktioniert wie gewohnt, aber der SL entscheidet je nach Größe und Gestalt der Kreatur, ob die Ausrüstung ihr etwas nutzt.
+  Deine Ausrüstung verändert weder Größe noch Form, um sich an die neue Gestalt anzupassen. Jede Ausrüstung, die in der neuen
+  Gestalt nicht getragen werden kann, muss entweder zu Boden fallen oder mit der Gestalt verschmelzen. Ausrüstung, die mit
+  der Gestalt verschmilzt, hat keinen Effekt, solange du diese Gestalt beibehältst.'
+source_book: SRD 5.2.1

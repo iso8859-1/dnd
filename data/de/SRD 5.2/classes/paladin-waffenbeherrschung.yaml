@@ -1,0 +1,11 @@
+id: paladin-waffenbeherrschung
+type: class_feature
+class: Paladin
+lang: de
+level: 1
+name: Waffenbeherrschung
+description: 'Deine Vertrautheit mit Waffen erlaubt dir, die Meisterschaftseigenschaften zweier Waffenarten deiner Wahl zu
+  verwenden, sofern du Übung im Umgang mit diesen hast, beispielsweise Langschwerter und Wurfspeere. Wann immer du eine lange
+  Rast beendest, kannst du die Art der ausgewählten Waffen ändern. Beispiel: Du könntest beschließen, die Meisterschaftseigen‑
+  schaft von Hellebarden und Flegeln zu verwenden.'
+source_book: SRD 5.2.1

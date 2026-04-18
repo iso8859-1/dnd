@@ -1,0 +1,12 @@
+id: zauberer-drakonische-zauberei-drachenflugel
+type: class_feature
+class: Zauberer
+lang: de
+level: 14
+name: Drachenflügel
+description: Als Bonusaktion kannst du drakonische Flügel auf deinem Rücken erscheinen lassen. Sie bleiben eine Stunde lang
+  bestehen, oder bis du sie verwirfst (keine Aktion erforderlich). Für die Wirkungsdauer hast du eine Flugbewegungsrate von
+  18 Metern. Du kannst dieses Merkmal erst nach einer langen Rast erneut verwenden, es sei denn, du verbrauchst 3 Zaubereipunkte
+  (keine Aktion erforderlich), um die Anwendung wiederherzustellen.
+source_book: SRD 5.2.1
+subclass: Drakonische Zauberei

@@ -1,0 +1,11 @@
+id: schurke-dieb-kletteraffe
+type: class_feature
+class: Schurke
+lang: de
+level: 3
+name: Kletteraffe
+description: 'Du bist darin ausgebildet, an besonders schwierig zu erreichende Orte zu gelangen, was dir diese Kletterer:
+  Vorzüge gewährt: Du erhältst eine Kletterbewegungsrate Springer: in Höhe deiner Bewegungsrate. Du kannst deine Sprungdistanz
+  anhand deiner Geschicklichkeit anstatt deiner Stärke bestimmen.'
+source_book: SRD 5.2.1
+subclass: Dieb

@@ -1,0 +1,11 @@
+id: kleriker-domane-des-lebens-gesegneter-heiler
+type: class_feature
+class: Kleriker
+lang: de
+level: 6
+name: Gesegneter Heiler
+description: Die Heilzauber, die du auf andere wirkst, wirken auch auf dich. Sofort, nachdem du einen Zauber mit einem Zauberplatz
+  gewirkt hast, der Trefferpunkte bei mindestens einer Kreatur außer dir selbst wiederherstellt, erhältst du Trefferpunkte
+  in Höhe von 2 plus Zauberplatzgrad zurück.
+source_book: SRD 5.2.1
+subclass: Domäne des Lebens

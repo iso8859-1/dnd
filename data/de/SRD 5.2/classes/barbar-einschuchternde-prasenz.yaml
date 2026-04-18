@@ -1,0 +1,10 @@
+id: barbar-einschuchternde-prasenz
+deprecated: true
+replaced_by: barbar-pfad-des-berserkers-einschuchternde-prasenz
+type: class_feature
+class: Barbar
+lang: de
+level: 14
+name: Einschüchternde Präsenz
+note: Superseded by barbar-pfad-des-berserkers-einschuchternde-prasenz
+source_book: SRD 5.2.1

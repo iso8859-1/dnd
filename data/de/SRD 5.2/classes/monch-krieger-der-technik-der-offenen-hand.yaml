@@ -1,0 +1,10 @@
+id: monch-krieger-der-technik-der-offenen-hand
+deprecated: true
+replaced_by: monch-krieger-der-offenen-hand-technik-der-offenen-hand
+type: class_feature
+class: Mönch
+lang: de
+level: 3
+name: Technik der Offenen Hand
+note: Superseded by monch-krieger-der-offenen-hand-technik-der-offenen-hand
+source_book: SRD 5.2.1

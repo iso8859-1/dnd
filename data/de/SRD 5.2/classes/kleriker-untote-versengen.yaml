@@ -1,0 +1,10 @@
+id: kleriker-untote-versengen
+type: class_feature
+class: Kleriker
+lang: de
+level: 5
+name: Untote versengen
+description: Wann immer du Untote vertreiben einsetzt, kannst du mit einer Anzahl von W8 in Höhe deines Weisheitsmodifikators
+  (mindestens 1W8) würfeln. Jeder Untote, dessen Rettungswurf gegen diesen Einsatz von Untote vertreiben misslingt, erleidet
+  gleißenden Schaden in Höhe des Gesamtergebnisses. Dieser Schaden beendet nicht den Effekt von Untote vertreiben.
+source_book: SRD 5.2.1

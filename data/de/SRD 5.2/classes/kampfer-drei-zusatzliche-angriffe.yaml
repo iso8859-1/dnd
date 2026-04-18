@@ -1,0 +1,8 @@
+id: kampfer-drei-zusatzliche-angriffe
+type: class_feature
+class: Kämpfer
+lang: de
+level: 20
+name: Drei zusätzliche Angriffe
+description: Du kannst jetzt viermal angreifen, wenn du in Krone des Siegers.
+source_book: SRD 5.2.1

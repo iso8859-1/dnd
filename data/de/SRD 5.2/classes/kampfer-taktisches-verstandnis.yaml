@@ -1,0 +1,11 @@
+id: kampfer-taktisches-verstandnis
+type: class_feature
+class: Kämpfer
+lang: de
+level: 2
+name: Taktisches Verständnis
+description: Du hast auf dem Schlachtfeld sowie anderswo einen ausgeprägten Sinn für Taktik. Wenn du bei einem Attributswurf
+  scheiterst, kannst du eine Anwendung von Durchschnaufen verbrauchen, um einen Erfolg anzustreben. Anstatt Trefferpunkte
+  zurückzuerhalten, würfelst du mit 1W10, fügst das Ergebnis dem Attributswurf hinzu und machst so aus dem Misserfolg möglicherweise
+  einen Erfolg. Misslingt der Wurf dennoch, so wird diese Anwendung von Durchschnaufen nicht verbraucht.
+source_book: SRD 5.2.1

@@ -1,0 +1,16 @@
+id: monch-krieger-der-offenen-hand-vibrierende-handflache
+type: class_feature
+class: Mönch
+lang: de
+level: 17
+name: Vibrierende Handfläche
+description: Du erhältst die Fähigkeit, tödliche Vibrationen im Körper einer anderen Kreatur auszulösen. Wenn du eine Kreatur
+  mit einem waffenlosen Angriff triffst, kannst du vier Fokuspunkte verbrauchen, um diese nicht spürbaren Vibrationen zu erzeugen.
+  Sie dauern eine Anzahl von Tagen an, die deiner Mönchsstufe entspricht. Die Vibrationen sind harmlos, solange du keine Aktion
+  ausführst, um sie zu beenden. Wenn du alternativ in deinem Zug die Angriffsaktion ausführst, kannst du auf einen der Angriffe
+  verzichten, um die Vibrationen zu beenden. Dazu musst du dich auf derselben Existenzebene befinden wie das Ziel. Wenn du
+  die Vibrationen beendest, muss das Ziel einen Konstitutionsrettungswurf ausführen. Misslingt der Wurf, so erleidet das Ziel
+  10W12 Energieschaden, anderenfalls die Hälfte. Du kannst dieses Merkmal immer nur auf jeweils eine Kreatur wirken. Du kannst
+  die Vibrationen auch harmlos beenden (keine Aktion erforderlich). aufgeführt.
+source_book: SRD 5.2.1
+subclass: Krieger der Offenen Hand

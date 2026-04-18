@@ -1,0 +1,26 @@
+id: kleriker-gottliche-macht-fokussieren
+type: class_feature
+class: Kleriker
+lang: de
+level: 2
+name: Göttliche Macht fokussieren
+description: 'Du kannst göttliche Energie direkt von den Äußeren Ebenen kanalisieren, um magische Effekte zu wirken. Du beginnst
+  mit zwei solchen Effekten: Göttlicher Funke und Untote vertreiben (beide unten beschrieben). Wann immer du Göttliche Macht
+  fokussieren dieser Klasse einsetzt, wählst du aus, welchen Effekt von Göttliche Macht fokussieren dieser Klasse du bewirkst.
+  Auf höheren Klerikerstufen erhältst du zusätzliche Optionen für Effekte. Du kannst Göttliche Macht fokussieren dieser Klasse
+  zweimal anwenden. Wenn du eine kurze Rast beendest, erhältst du eine verbrauchte Anwendung zurück. Du erhältst alle verbrauchten
+  Anwendungen nach einer langen Rast zurück. Wenn du bestimmte Klerikerstufen erreichst, erhältst du zusätzliche Anwendungen,
+  wie in der Spalte „Göttliche Macht fokussieren“ der Tabelle „Klerikermerkmale“ dargestellt. Wenn ein Effekt von Göttliche
+  Macht fokussieren einen Rettungswurf erfordert, entspricht der SG dem Zauberrettungswurf‑SG des Merkmals Göttlicher Funke:
+  Zauberwirken dieser Klasse. Als magische Aktion richtest du dein heiliges Symbol auf eine andere Kreatur im Abstand von
+  bis zu neun Metern von dir, die du sehen kannst, und fokussierst göttliche Energie auf sie. Würfle mit 1W8 und füge deinen
+  Weisheitsmodifikator hinzu. Nach deiner Wahl stellt die Kreatur entweder Trefferpunkte in Höhe des Gesamtergebnisses wieder
+  her, oder sie ist zu einem Konstitutionsrettungswurf gezwungen. Misslingt der Wurf, so erleidet die Kreatur gleißenden oder
+  nekrotischen Schaden (nach deiner Wahl) in Höhe des Gesamtergebnisses. Bei einem erfolgreichen Rettungswurf erleidet die
+  Kreatur halb so viel Schaden (abgerundet). Du würfelst mit jeweils einem zusätzlichen W8, wenn du die 7. (2W8), die 13.
+  (3W8) und die 18. Untote vertreiben: (4W8) Klerikerstufe erreicht hast. Als magische Aktion präsentierst du dein heiliges
+  Symbol und rügst untote Kreaturen. Jeder Untote deiner Wahl im Abstand von bis zu neun Metern von dir muss einen Weisheitsrettungswurf
+  ausführen. Misslingt der Wurf, so ist die Kreatur eine Minute lang verängstigt und kampfunfähig. Während dieser Dauer versucht
+  sie in ihren Zügen, sich so weit wie möglich von dir zu entfernen. Dieser Effekt endet vorzeitig, wenn die Kreatur Schaden
+  erleidet, wenn du kampfunfähig wirst oder wenn du stirbst.'
+source_book: SRD 5.2.1
