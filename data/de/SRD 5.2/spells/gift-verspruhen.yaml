@@ -9,7 +9,7 @@ casting_time: Aktion
 range: 9 Meter
 components: V, G
 duration: Unmittelbar
-description: 'Du sprühst giftigen Nebel auf eine Kreatur in Reichweite. Führe einen Fernkampf-Zauberangriff gegen das Ziel
+description: 'Du sprühst giftigen Nebel auf eine Kreatur in Reichweite. Führe einen Fernkampf‑Zauberangriff gegen das Ziel
   aus. Bei einem Treffer erleidet das Zaubertrick-Aufwertung: Ziel 1W12 Giftschaden. Der Schaden wird um jeweils 1W12 erhöht,
   wenn du die 5. (2W12), die 11. (3W12) und die 17. (4W12) Stufe erreichst.'
 source_book: SRD 5.2 DE

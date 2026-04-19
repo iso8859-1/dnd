@@ -3,7 +3,7 @@ type: class_feature
 class: Schurke
 lang: de
 level: 5
-name: Raffinierter Schlag
+name: Raffinierter Schlag (Schurke)
 description: 'Du hast raffinierte Methoden entwickelt, deinen Hinterhältigen Angriff einzusetzen. Wenn du mit diesem Schaden
   bewirkst, kannst du einen der folgenden Effekte von Raffinierter Schlag hinzufügen. Jeder Effekt hat Würfelkosten in Form
   der Schadenswürfel für Hinterhältiger Angriff, auf die du verzichten musst, um den Effekt hinzuzufügen. Du musst diese Würfel

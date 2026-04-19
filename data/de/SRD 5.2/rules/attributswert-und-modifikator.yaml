@@ -3,9 +3,7 @@ type: rule
 template: rule-v1
 name: Attributswert und -modifikator
 lang: de
-description: '„Die Spielregeln“ („W20-Prüfungen“). Eine Kreatur hat sechs Attributswerte
-  mit entspre- chenden Modifikatoren: Stärke, Geschick lichkeit, Konstitution, Intelligenz,
-  Weisheit und Charisma. Füge den Modifikator hinzu, wenn du eine W20-Prüfung mit
-  dem jeweiligen Attribut ausführst oder von Siehe auch einer Regel aufgefordert wirst,
-  ihn hinzuzufügen.'
+description: 'Eine Kreatur hat sechs Attributswerte mit entspre- chenden Modifikatoren: Stärke, Geschick lichkeit, Konstitution,
+  Intelligenz, Weisheit und Charisma. Füge den Modifikator hinzu, wenn du eine W20-Prüfung mit dem jeweiligen Attribut ausführst
+  oder von Siehe auch einer Regel aufgefordert wirst, ihn hinzuzufügen. „Die Spielregeln“ („Die sechs Attribute“).'
 source_book: SRD 5.2.1

@@ -3,7 +3,7 @@ type: class_feature
 class: Barbar
 lang: de
 level: 6
-name: Geistloser Kampfrausch
+name: Geistloser Kampfrausch (Pfad des Berserkers)
 description: Im Kampfrausch bist du gegen die Zustände Bezaubert und Verängstigt immun. Wenn du zu Beginn des Kampfrauschs
   bezaubert oder verängstigt bist, endet der Zustand.
 source_book: SRD 5.2.1

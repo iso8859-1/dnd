@@ -3,7 +3,7 @@ type: class_feature
 class: Kämpfer
 lang: de
 level: 5
-name: Taktikwechsel
+name: Taktikwechsel (Kämpfer)
 description: Wann immer du Durchschnaufen mit einer Bonus‑ aktion aktivierst, kannst du bis zur Hälfte deiner Bewegungsrate
   nutzen, ohne Gelegenheitsangriffe zu provozieren.
 source_book: SRD 5.2.1

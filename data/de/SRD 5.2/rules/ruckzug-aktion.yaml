@@ -3,6 +3,5 @@ type: rule
 template: rule-v1
 name: Rückzug (Aktion)
 lang: de
-description: „Zauber“. Wenn du die Rückzug-Aktion ausführst, provoziert deine Bewegung
-  in diesem Zug
+description: Wenn du die Rückzug-Aktion ausführst, provoziert deine Bewegung in diesem Zug keine Gelegenheitsangriffe.
 source_book: SRD 5.2.1

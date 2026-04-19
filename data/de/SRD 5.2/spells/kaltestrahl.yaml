@@ -9,7 +9,7 @@ casting_time: Aktion
 range: 18 Meter
 components: V, G
 duration: Unmittelbar
-description: 'Ein eisiger Strahl blau-weißen Lichts schießt auf eine Kreatur in Reichweite zu. Führe einen Fernkampf-Zauberangriff
+description: 'Ein eisiger Strahl blau‑weißen Lichts schießt auf eine Kreatur in Reichweite zu. Führe einen Fernkampf‑Zauberangriff
   gegen das Ziel aus. Bei einem Treffer erleidet es 1W8 Kälteschaden, und seine Bewegungsrate ist bis zum Beginn Zaubertrick-Aufwertung:
   deines nächsten Zugs um drei Meter verringert. Der Schaden wird um jeweils 1W8 erhöht, wenn du die 5. (2W8), die 11. (3W8)
   und die 17. (4W8) Stufe erreichst.'

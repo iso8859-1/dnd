@@ -3,6 +3,6 @@ type: rule
 template: rule-v1
 name: Taub (Zustand)
 lang: de
-description: 'Wenn du den Zustand Taub hast, wirkt folgender Nicht hörfähig: Effekt
-  auf dich: Du kannst nicht hören, und jeder Attributswurf, der Hörvermögen erfordert,'
+description: 'Wenn du den Zustand Taub hast, wirkt folgender Nicht hörfähig: Effekt auf dich: Du kannst nicht hören, und jeder
+  Attributswurf, der Hörvermögen erfordert, misslingt automatisch.'
 source_book: SRD 5.2.1

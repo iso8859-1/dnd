@@ -3,7 +3,7 @@ type: class_feature
 class: Paladin
 lang: de
 level: 3
-name: Heilige Waffe
+name: Heilige Waffe (Schwur der Hingabe)
 description: Wenn du die Angriffsaktion ausführst, kannst du eine Anwendung von Göttliche Macht fokussieren verbrauchen, um
   eine Nahkampfwaffe, die du hältst, mit positiver Energie zu versehen. Deinen Angriffswürfen mit dieser Waffe fügst du zehn
   Minuten lang – oder bis du dieses Merkmal erneut einsetzt – deinen Charismamodifikator hinzu (mindestens +1), und bei jedem

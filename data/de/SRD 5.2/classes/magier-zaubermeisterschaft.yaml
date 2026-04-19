@@ -3,7 +3,7 @@ type: class_feature
 class: Magier
 lang: de
 level: 18
-name: Zaubermeisterschaft
+name: Zaubermeisterschaft (Magier)
 description: Du beherrschst bestimmte Zauber derart meisterhaft, dass du sie beliebig oft wirken kannst. Wähle einen Zauber
   des 1. und einen Zauber des 2. Grades aus deinem Zauberbuch aus, die den Zeitaufwand von einer Aktion haben. Du hast diese
   Zauber stets vorbereitet und kannst sie auf dem niedrigsten Grad wirken, ohne einen Zauberplatz zu verbrauchen. Um einen

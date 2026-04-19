@@ -29,9 +29,10 @@ _CARDS_PER_PAGE: int = CARDS_PER_ROW  # 4 strips per A4 landscape page
 
 # Per-type header/border colours (RGB 0–1)
 _CARD_COLORS: dict[str, tuple[float, float, float]] = {
-    "spell":  (0.75, 0.62, 0.85),  # pastel violet
-    "talent": (0.62, 0.62, 0.65),  # pastel grey
-    "rule":   (0.62, 0.62, 0.65),  # pastel grey
+    "spell":         (0.75, 0.62, 0.85),  # pastel violet
+    "talent":        (0.62, 0.62, 0.65),  # pastel grey
+    "rule":          (0.62, 0.62, 0.65),  # pastel grey
+    "class_feature": (0.85, 0.75, 0.55),  # warm amber/gold
 }
 _DEFAULT_COLOR: tuple[float, float, float] = (0.62, 0.62, 0.65)
 
@@ -287,6 +288,48 @@ def _draw_scroll_icon(
     _draw_sparkle(c, cx, ry - size * 0.18, size * 0.14, color)
 
 
+def _draw_sword_icon(
+    c: Any, cx: float, cy: float, size: float,
+    color: tuple[float, float, float],
+) -> None:
+    """Draw a stylised sword centred at (cx, cy)."""
+    rv, gv, bv = color
+    dv = rv * 0.72, gv * 0.72, bv * 0.72
+    blade_w = size * 0.15
+    blade_h = size * 0.75
+    guard_w = size * 0.55
+    guard_h = size * 0.12
+    grip_w = size * 0.10
+    grip_h = size * 0.28
+
+    by = cy - blade_h * 0.35
+
+    # Blade (triangle pointing up)
+    p = c.beginPath()
+    p.moveTo(cx, by + blade_h)           # tip
+    p.lineTo(cx - blade_w / 2, by)       # bottom-left
+    p.lineTo(cx + blade_w / 2, by)       # bottom-right
+    p.close()
+    c.setFillColorRGB(rv, gv, bv)
+    c.setStrokeColorRGB(*dv)
+    c.setLineWidth(1.0)
+    c.drawPath(p, stroke=1, fill=1)
+
+    # Guard (crosspiece)
+    gx = cx - guard_w / 2
+    gy = by - guard_h / 2
+    c.setFillColorRGB(*dv)
+    c.rect(gx, gy, guard_w, guard_h, stroke=0, fill=1)
+
+    # Grip
+    grx = cx - grip_w / 2
+    gry = gy - grip_h
+    c.setFillColorRGB(rv * 0.85, gv * 0.85, bv * 0.75)
+    c.roundRect(grx, gry, grip_w, grip_h, grip_w * 0.3, stroke=0, fill=1)
+
+    _draw_sparkle(c, cx, by + blade_h + size * 0.12, size * 0.14, color)
+
+
 def _draw_back_icon(
     c: Any, cx: float, cy: float, size: float,
     card_type: str, color: tuple[float, float, float],
@@ -296,6 +339,8 @@ def _draw_back_icon(
         _draw_spellbook_icon(c, cx, cy, size, color)
     elif card_type == "talent":
         _draw_shield_icon(c, cx, cy, size, color)
+    elif card_type == "class_feature":
+        _draw_sword_icon(c, cx, cy, size, color)
     else:
         _draw_scroll_icon(c, cx, cy, size, color)
 
@@ -365,10 +410,20 @@ def _draw_strip(
                 break
             c.drawString(x + pad, line_y, dl)
     else:
-        # ── Generic front face (talent / rule) ──────────────────────────────────
-        # typ (category), then description, then source_book at bottom
+        # ── Generic front face (talent / rule / class_feature) ──────────────────
         line_y = front_top - header_h
-        if ctx.get("typ"):
+        if card_type == "class_feature":
+            cls = ctx.get("class_name") or ""
+            lvl = ctx.get("level")
+            class_line = f"{cls} · Stufe {lvl}" if lvl is not None else str(cls)
+            sub = ctx.get("subclass")
+            c.setFont("Helvetica-Oblique", 7)
+            line_y -= 10
+            c.drawString(x + pad, line_y, class_line)
+            if sub:
+                line_y -= line7
+                c.drawString(x + pad, line_y, f"({sub})")
+        elif ctx.get("typ"):
             c.setFont("Helvetica-Oblique", 7)
             line_y -= 10
             for tl in _wrap(str(ctx["typ"]), _WRAP_7PT):

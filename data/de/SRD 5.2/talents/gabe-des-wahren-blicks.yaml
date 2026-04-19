@@ -3,8 +3,7 @@ type: talent
 template: talent-v1
 name: Gabe des Wahren Blicks
 lang: de
-description: 'Du erhältst folgende Vorzüge: Attributswerterhöhung: Ein Attributswert
-  deiner Wahl wird um 1 Punkt erhöht (auf höchstens 30). Wahrer Blick: Du hast Wahrer
-  Blick mit einer Reichweite von 18 Metern.'
+description: 'Du erhältst folgende Vorzüge: Attributswerterhöhung: Ein Attributswert deiner Wahl wird um 1 Punkt erhöht (auf
+  höchstens 30). Wahrer Blick: Du hast Wahrer Blick mit einer Reichweite von 18 Metern.'
 source_book: SRD 5.2.1
 typ: 'Epische-Gabe-Talent (Voraussetzung: min. 19. Stufe)'

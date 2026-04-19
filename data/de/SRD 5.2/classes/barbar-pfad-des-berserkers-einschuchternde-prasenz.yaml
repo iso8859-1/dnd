@@ -3,7 +3,7 @@ type: class_feature
 class: Barbar
 lang: de
 level: 14
-name: Einschüchternde Präsenz
+name: Einschüchternde Präsenz (Pfad des Berserkers)
 description: Als Bonusaktion kannst du andere mit deiner bedrohlichen Präsenz und deiner Urmacht in Panik versetzen. In diesem
   Fall muss jede Kreatur deiner Wahl in einer Ausströmung von neun Metern, die von dir ausgeht, einen Weisheitsrettungswurf
   (SG 8 plus dein Stärkemodifikator plus dein Übungsbonus) ausführen. Misslingt der Wurf, so ist die Kreatur eine Minute lang

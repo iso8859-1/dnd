@@ -3,7 +3,7 @@ type: class_feature
 class: Schurke
 lang: de
 level: 2
-name: Raffinierte Aktion
+name: Raffinierte Aktion (Schurke)
 description: 'Dank deiner Auffassungsgabe und deiner Beweglichkeit kannst du dich besonders schnell bewegen und rasch handeln.
   In deinem Zug kannst du eine der folgenden Aktionen als Bonusaktion ausführen: Rückzug, Spurt oder Verstecken.'
 source_book: SRD 5.2.1

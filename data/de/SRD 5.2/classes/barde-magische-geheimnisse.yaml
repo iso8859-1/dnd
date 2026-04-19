@@ -3,7 +3,7 @@ type: class_feature
 class: Barde
 lang: de
 level: 10
-name: Magische Geheimnisse
+name: Magische Geheimnisse (Barde)
 description: Du hast die Geheimnisse verschiedener magischer Traditionen erfahren. Wann immer du eine Bardenstufe (einschließlich
   dieser Stufe) erreichst und sich die Anzahl vorbereiteter Zauber in der Tabelle „Bardenmerkmale“ erhöht, kannst du beliebige
   deiner vorbereiteten Zauber von den Zauberlisten des Barden, des Druiden, des Klerikers und des Magiers auswählen. Die ausgewählten

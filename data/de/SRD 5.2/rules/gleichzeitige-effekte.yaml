@@ -3,8 +3,7 @@ type: rule
 template: rule-v1
 name: Gleichzeitige Effekte
 lang: de
-description: '„Beeinflussen“. Wenn in einem Zug mehrere Dinge zugleich passieren,
-  entscheidet die Person am Spieltisch, die gerade am Zug ist – Spieler oder SL –,
-  in welcher Reihenfolge diese Dinge geschehen. Beispiel: Wenn zu Beginn des Zugs
-  eines Spielercharakters zwei Effekte auftreten, entscheidet der Spieler, welcher'
+description: 'Wenn in einem Zug mehrere Dinge zugleich passieren, entscheidet die Person am Spieltisch, die gerade am Zug
+  ist – Spieler oder SL –, in welcher Reihenfolge diese Dinge geschehen. Beispiel: Wenn zu Beginn des Zugs eines Spielercharakters
+  zwei Effekte auftreten, entscheidet der Spieler, welcher Effekt sich zuerst ereignet.'
 source_book: SRD 5.2.1

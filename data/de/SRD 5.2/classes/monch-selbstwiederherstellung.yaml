@@ -3,7 +3,7 @@ type: class_feature
 class: Mönch
 lang: de
 level: 10
-name: Selbstwiederherstellung
+name: Selbstwiederherstellung (Mönch)
 description: 'Durch schiere Willenskraft kannst du am Ende jedes deiner Züge einen der folgenden Zustände von dir selbst entfernen:
   Bezaubert, Verängstigt oder Vergiftet. Außerdem erhältst du keine Erschöpfungsstufen, wenn du keine Nahrung und keine Flüssigkeit
   zu dir nimmst.'

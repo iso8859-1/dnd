@@ -3,11 +3,9 @@ type: rule
 template: rule-v1
 name: Expertise
 lang: de
-description: entfernt, die sie durch die Erstickung erhalten hat. Expertise ist ein
-  Merkmal, das deine Anwendung von Fertigkeiten verbessert, in denen du Übung hast.
-  Wenn du einen Attributswurf mit einer Fertigkeit ausführst, in der du Übung und
-  Expertise hast, ist dein Übungsbonus bei diesem Wurf verdoppelt, sofern der Bonus
-  nicht schon durch ein anderes Merkmal verdoppelt wird. Wenn du Expertise erhältst,
-  dann in einer Fertigkeit, in der du Übung hast. Du kannst nur einmal Expertise in
-  einer Fertigkeit haben, in der Siehe auch du Übung hast.
+description: Expertise ist ein Merkmal, das deine Anwendung von Fertigkeiten verbessert, in denen du Übung hast. Wenn du einen
+  Attributswurf mit einer Fertigkeit ausführst, in der du Übung und Expertise hast, ist dein Übungsbonus bei diesem Wurf verdoppelt,
+  sofern der Bonus nicht schon durch ein anderes Merkmal verdoppelt wird. Wenn du Expertise erhältst, dann in einer Fertigkeit,
+  in der du Übung hast. Du kannst nur einmal Expertise in einer Fertigkeit haben, in der Siehe auch du Übung hast. „Die Spielregeln“
+  („Übung“).
 source_book: SRD 5.2.1

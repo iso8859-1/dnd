@@ -3,7 +3,6 @@ type: rule
 template: rule-v1
 name: Gegner
 lang: de
-description: und er scheitert bei allen Rettungswürfen. Eine Kreatur ist dein Gegner,
-  wenn sie im Kampf gegen dich kämpft, dir aktiv schaden will oder von den Regeln
-  oder vom SL als dein Gegner bestimmt
+description: Eine Kreatur ist dein Gegner, wenn sie im Kampf gegen dich kämpft, dir aktiv schaden will oder von den Regeln
+  oder vom SL als dein Gegner bestimmt wurde.
 source_book: SRD 5.2.1

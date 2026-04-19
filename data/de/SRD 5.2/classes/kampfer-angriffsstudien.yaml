@@ -3,7 +3,7 @@ type: class_feature
 class: Kämpfer
 lang: de
 level: 13
-name: Angriffsstudien
+name: Angriffsstudien (Kämpfer)
 description: Du studierst deine Gegner und lernst aus jedem Angriff, den du ausführst. Wenn du bei einem Angriffswurf gegen
   eine Kreatur scheiterst, bist du bei deinem nächsten Angriffswurf gegen diese Kreatur vor Ende deines nächsten Zugs im Vorteil.
 source_book: SRD 5.2.1

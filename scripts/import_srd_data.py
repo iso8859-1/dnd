@@ -7,29 +7,15 @@ Usage (from project root):
 
 from __future__ import annotations
 
-import re
 from pathlib import Path
 from typing import Any
 
 import yaml
 
+from dnd_cards.tui import slugify
+
 SRD_DIR = Path("SRDs")
 DATA_BASE = Path("data") / "de" / "SRD 5.2"
-
-_UMLAUT: dict[str, str] = {
-    "ä": "a", "ö": "o", "ü": "u",
-    "Ä": "a", "Ö": "o", "Ü": "u",
-    "ß": "ss",
-}
-_UMLAUT_TABLE = str.maketrans(_UMLAUT)
-
-
-def slugify(name: str) -> str:
-    """Lowercase slug: transliterate German umlauts, spaces→hyphens, strip specials."""
-    s = name.translate(_UMLAUT_TABLE).lower()
-    s = re.sub(r"[^a-z0-9\s-]", "", s)
-    s = re.sub(r"\s+", "-", s.strip())
-    return re.sub(r"-+", "-", s).strip("-")
 
 
 def _write_card(out_dir: Path, card: dict[str, Any]) -> None:

@@ -3,8 +3,7 @@ type: talent
 template: talent-v1
 name: Wilder Angreifer
 lang: de
-description: Du bist darin ausgebildet, besonders schadens intensive Schläge auszuführen.
-  Einmal pro Zug kannst du, wenn du ein Ziel mit einer Waffe triffst, zweimal mit
-  den Schadenswürfeln der Waffe würfeln und dir eins der Ergebnisse aussuchen.
+description: Du bist darin ausgebildet, besonders schadens intensive Schläge auszuführen. Einmal pro Zug kannst du, wenn du
+  ein Ziel mit einer Waffe triffst, zweimal mit den Schadenswürfeln der Waffe würfeln und dir eins der Ergebnisse aussuchen.
 source_book: SRD 5.2.1
 typ: Herkunftstalent

@@ -3,7 +3,7 @@ type: class_feature
 class: Hexenmeister
 lang: de
 level: 9
-name: Schutzherrn kontaktieren
+name: Schutzherrn kontaktieren (Hexenmeister)
 description: Bisher hast du deinen Schutzherrn normalerweise durch Mittler angesprochen. Jetzt kannst du direkt Kontakt zu
   anderen Ebenen mit ihm kommunizieren und hast den Zauber stets vorbereitet. Mit diesem Merkmal kannst du zur Kontaktherstellung
   den Zauber wirken, ohne einen Zauberplatz zu verbrauchen, und bestehst den Rettungswurf des Zaubers automatisch. Du kannst

@@ -3,6 +3,14 @@ type: rule
 template: rule-v1
 name: Improvisierte Waffen
 lang: de
-description: Weise beeinflusst werden. Eine improvisierte Waffe ist ein Gegenstand,
-  der behelfsmäßig als Waffe geführt wird,
+description: 'Eine improvisierte Waffe ist ein Gegenstand, der behelfsmäßig als Waffe geführt wird, beispielsweise eine zerbrochene
+  Flasche, ein Tischbein oder eine Bratpfanne. Auch einfache Waffen und Kriegswaffen gelten als improvisierte Waffen, wenn
+  sie anders als vorgesehen verwendet werden. Wenn beispielsweise mit einer Fernkampfwaffe ein Nahkampfangriff ausgeführt
+  oder eine Nahkampfwaffe ohne Wurfwaffe-Eigenschaft geworfen wird, so zählt sie bei diesem Angriff als improvisierte Waffe.
+  Für improvisierte Waffen gelten die nachstehenden Übung: Regeln. Du fügst Angriffswürfen mit einer improvisierten Waffe
+  nicht deinen Übungsbonus Schaden: hinzu. Bei einem Treffer bewirkt die Waffe 1W4 Schaden einer Art, die dem SL beim jeweiligen
+  Reichweite: Gegenstand passend erscheint. Wird die Waffe geworfen, so liegt die Grundreichweite bei sechs Metern und die
+  Waffenäquivalente: Maximalreichweite bei 18 Metern. Wenn eine improvisierte Waffe an eine einfache Waffe oder eine Kriegswaffe
+  erinnert, kann der SL bestimmen, dass sie wie diese Waffe funktioniert. In dem Fall gelten die Regeln dieser Waffe. Beispielsweise
+  könnte der SL ein Tischbein als Knüppel behandeln.'
 source_book: SRD 5.2.1

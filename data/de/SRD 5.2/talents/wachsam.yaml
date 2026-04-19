@@ -3,10 +3,9 @@ type: talent
 template: talent-v1
 name: Wachsam
 lang: de
-description: 'Du erhältst folgende Vorzüge: Initiative-Übung: Wenn du die Initiative
-  auswür- felst, kannst du dem Ergebnis deinen Übungsbonus hinzufügen. Initiativetausch:
-  Sofort nach dem Auswürfeln der Initiative kannst du deine Initiative mit der eines
-  bereitwilligen Verbündeten im selben Kampf tauschen. Der Tausch ist nicht möglich,
-  wenn mindestens einer von euch beiden kampfunfähig ist.'
+description: 'Du erhältst folgende Vorzüge: Initiative-Übung: Wenn du die Initiative auswür- felst, kannst du dem Ergebnis
+  deinen Übungsbonus hinzufügen. Initiativetausch: Sofort nach dem Auswürfeln der Initiative kannst du deine Initiative mit
+  der eines bereitwilligen Verbündeten im selben Kampf tauschen. Der Tausch ist nicht möglich, wenn mindestens einer von euch
+  beiden kampfunfähig ist.'
 source_book: SRD 5.2.1
 typ: Herkunftstalent

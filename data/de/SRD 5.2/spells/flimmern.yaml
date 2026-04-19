@@ -9,13 +9,13 @@ casting_time: Aktion
 range: Selbst
 components: V, G
 duration: 1 Minute
-description: Würfle während der Wirkungsdauer am Ende jedes deiner Züge mit 1W6. Bei einem Ergebnis von 4-6 verschwindest
+description: Würfle während der Wirkungsdauer am Ende jedes deiner Züge mit 1W6. Bei einem Ergebnis von 4–6 verschwindest
   du von deiner aktuellen Existenzebene und erscheinst auf der Ätherebene (der Zauber endet sofort, wenn du dich bereits auf
   dieser Ebene befindest). Von der Ätherebene aus kannst du die Ebene, die du verlassen hast, wahrnehmen. Du siehst sie jedoch
   nur in Graustufen, und deine Sichtweite beträgt höchstens 18 Meter. Du kannst nur andere Kreaturen auf der Ätherebene beeinflussen
   oder von ihnen beeinflusst werden. Kreaturen auf der anderen Ebene können dich nicht wahrnehmen, es sei denn, eine Spezialfähigkeit
-  erlaubt ihnen, Dinge auf der Ätherebene wahrzunehmen. Du kehrst zu Beginn deines nächsten Zugs - oder wenn der Zauber endet,
-  während du dich auf der Ätherebene befindest - auf die andere Ebene zurück. Du kehrst in einen freien Bereich deiner Wahl,
+  erlaubt ihnen, Dinge auf der Ätherebene wahrzunehmen. Du kehrst zu Beginn deines nächsten Zugs – oder wenn der Zauber endet,
+  während du dich auf der Ätherebene befindest – auf die andere Ebene zurück. Du kehrst in einen freien Bereich deiner Wahl,
   den du sehen kannst, im Abstand von bis zu drei Metern vom Bereich zurück, den du verlassen hast. Ist innerhalb dieser Reichweite
   kein freier Bereich vorhanden, so erscheinst du im nächstgelegenen freien Bereich.
 source_book: SRD 5.2 DE

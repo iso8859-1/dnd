@@ -3,7 +3,7 @@ type: class_feature
 class: Paladin
 lang: de
 level: 14
-name: Erquickende Berührung
+name: Erquickende Berührung (Paladin)
 description: 'Wenn du Handauflegen auf eine Kreatur wirkst, kannst du zusätzlich mindestens einen der folgenden Zustände von
   der Kreatur entfernen: Betäubt, Bezaubert, Blind, Gelähmt, Taub oder Verängstigt. Du musst für jeden dieser Zustände, den
   du entfernen willst, 5 Trefferpunkte aus dem Vorrat an Heilkraft von Handauflegen verbrauchen. Diese Punkte werden nicht

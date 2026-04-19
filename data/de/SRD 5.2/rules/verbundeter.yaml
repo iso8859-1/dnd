@@ -3,8 +3,6 @@ type: rule
 template: rule-v1
 name: Verbündeter
 lang: de
-description: willentlich auf die Quelle deiner Furcht zubewegen. Eine Kreatur ist
-  dein Verbündeter, wenn sie Mitglied deiner Abenteurergruppe oder dein Freund ist,
-  im Kampf auf deiner Seite steht oder von den Regeln oder vom SL als dein Verbündeter
-  bestimmt wurde.
+description: Eine Kreatur ist dein Verbündeter, wenn sie Mitglied deiner Abenteurergruppe oder dein Freund ist, im Kampf auf
+  deiner Seite steht oder von den Regeln oder vom SL als dein Verbündeter bestimmt wurde.
 source_book: SRD 5.2.1

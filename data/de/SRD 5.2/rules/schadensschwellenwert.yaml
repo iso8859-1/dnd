@@ -3,12 +3,10 @@ type: rule
 template: rule-v1
 name: Schadensschwellenwert
 lang: de
-description: 'Kreaturen und Gegenstände mit Schadens- schwellen wert sind gegen alle
-  Schadensarten immun, es sei denn, sie erleiden durch einen einzigen Angriff oder
-  Effekt so viel Schaden, dass der Schadensschwellenwert erreicht oder überschritten
-  wird. In diesem Fall erleiden sie den gesamten entsprechenden Schaden. Jeglicher
-  Schaden, der den Schadensschwellenwert unterschreitet, gilt als oberflächlich und
-  verringert keine Trefferpunkte. Beispiel: Wenn ein Gegenstand einen Schadensschwellenwert
-  von 10 hat, erleidet er keinen Schaden, wenn ihm 9 Schaden zugefügt wird, da dieser
-  Schaden den Schwellenwert nicht erreicht. Erleidet dieser Gegenstand 11 Schaden,'
+description: 'Kreaturen und Gegenstände mit Schadens- schwellen wert sind gegen alle Schadensarten immun, es sei denn, sie
+  erleiden durch einen einzigen Angriff oder Effekt so viel Schaden, dass der Schadensschwellenwert erreicht oder überschritten
+  wird. In diesem Fall erleiden sie den gesamten entsprechenden Schaden. Jeglicher Schaden, der den Schadensschwellenwert
+  unterschreitet, gilt als oberflächlich und verringert keine Trefferpunkte. Beispiel: Wenn ein Gegenstand einen Schadensschwellenwert
+  von 10 hat, erleidet er keinen Schaden, wenn ihm 9 Schaden zugefügt wird, da dieser Schaden den Schwellenwert nicht erreicht.
+  Erleidet dieser Gegenstand 11 Schaden, so erleidet er diesen gesamten Schaden.'
 source_book: SRD 5.2.1

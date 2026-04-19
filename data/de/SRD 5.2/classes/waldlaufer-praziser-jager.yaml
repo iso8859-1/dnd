@@ -3,7 +3,7 @@ type: class_feature
 class: Waldläufer
 lang: de
 level: 17
-name: Präziser Jäger
+name: Präziser Jäger (Waldläufer)
 description: Zeichen des Jägers Du bist bei Angriffswürfen gegen die Kreatur, die aktuell von deinem Zauber markiert ist,
   im Vorteil.
 source_book: SRD 5.2.1

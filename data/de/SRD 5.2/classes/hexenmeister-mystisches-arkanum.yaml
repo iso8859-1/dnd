@@ -3,7 +3,7 @@ type: class_feature
 class: Hexenmeister
 lang: de
 level: 11
-name: Mystisches Arkanum
+name: Mystisches Arkanum (Hexenmeister)
 description: Dein Schutzherr gewährt dir ein magisches Geheimnis, das Arkanum genannt wird. Wähle einen Hexenmeisterzauber
   des 6. Grades als dieses Arkanum aus. Du kannst diesen Arkanum‑Zauber einmal wirken, ohne einen Zauberplatz zu verbrauchen,
   ihn dann aber erst nach einer langen Rast erneut auf diese Art wirken. Wie in der Tabelle „Hexenmeistermerkmale“ dargestellt,

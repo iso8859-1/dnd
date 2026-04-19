@@ -3,7 +3,7 @@ type: class_feature
 class: Zauberer
 lang: de
 level: 3
-name: Drakonische Zauber
+name: Drakonische Zauber (Drakonische Zauberei)
 description: Wenn du eine Zaubererstufe erreichst, die in der Tabelle „Drakonische Zauber“ aufgeführt ist, hast
 source_book: SRD 5.2.1
 subclass: Drakonische Zauberei

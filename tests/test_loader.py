@@ -137,6 +137,26 @@ def test_load_deck_malformed_yaml_raises_yaml_parse_error(tmp_path: Path) -> Non
     assert "line" in err
 
 
+def test_load_card_class_feature_no_template(tmp_path: Path) -> None:
+    """Class feature YAML without 'template' field loads with auto-injected template."""
+    yaml_path = tmp_path / "kampfrausch.yaml"
+    yaml_path.write_text(
+        "id: barbar-kampfrausch\n"
+        "type: class_feature\n"
+        "class: Barbar\n"
+        "lang: de\n"
+        "level: 1\n"
+        "name: Kampfrausch\n"
+        "description: Eine Urmacht...\n"
+        "source_book: SRD 5.2.1\n",
+        encoding="utf-8",
+    )
+    card = load_card(yaml_path)
+    assert card.template == "class-feature-v1"
+    assert card.class_name == "Barbar"
+    assert card.level == 1
+
+
 def test_load_deck_missing_name_raises_validation_error(tmp_path: Path) -> None:
     deck_file = tmp_path / "no_name.yaml"
     deck_file.write_text("cards:\n  spells/fireball: 1\n", encoding="utf-8")

@@ -3,7 +3,7 @@ type: class_feature
 class: Kleriker
 lang: de
 level: 3
-name: Leben erhalten
+name: Leben erhalten (Domäne des Lebens)
 description: Als magische Aktion zeigst du dein heiliges Symbol und verbrauchst eine Anwendung von Göttliche Macht fokussieren,
   um heilende Energie zu beschwören, mit der sich eine Anzahl von Trefferpunkten in Höhe des Fünffachen deiner Klerikerstufe
   wiederherstellen lässt. Wähle Kreaturen im Abstand von bis zu neun Metern von dir aus, die blutig sind (auch du selbst kannst

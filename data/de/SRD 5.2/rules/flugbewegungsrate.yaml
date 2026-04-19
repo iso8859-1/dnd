@@ -3,7 +3,6 @@ type: rule
 template: rule-v1
 name: Flugbewegungsrate
 lang: de
-description: beenden. Eine Flugbewegungsrate kann verwendet werden, um sich durch
-  die Luft zu bewegen. Mit einer Siehe auch Flugbewegungsrate kannst du in der Luft
-  bleiben, bis du landest, abstürzt oder stirbst.
+description: Eine Flugbewegungsrate kann verwendet werden, um sich durch die Luft zu bewegen. Mit einer Siehe auch Flugbewegungsrate
+  kannst du in der Luft bleiben, bis du landest, abstürzt oder stirbst. „Bewegungsrate“ und „Fliegen“.
 source_book: SRD 5.2.1

@@ -1,16 +1,50 @@
-talente:
+allgemeine_talente:
 - name: Attributswerterhöhung
   typ: 'Allgemeines Talent (Voraussetzung: min. 4. Stufe)'
-  beschreibung: 'Erhöhe einen Attributswert deiner Wahl um 2 Punkte oder zwei Attributswerte deiner Wahl um je 1 Punkt. Kein
-    Attribut kann dadurch einen Wert von 20 überschreiten. Kann wiederholt werden: Du kannst dieses Talent mehr als einmal
-    verwenden.'
-  Regelbuch: SRD 5.2.1
+  beschreibung: 'Erhöhe einen Attributswert deiner Wahl um
+
+    2 Punkte oder zwei Attributswerte deiner Wahl
+
+    um je 1 Punkt. Kein Attribut kann dadurch einen
+
+    Wert von 20 überschreiten.
+
+    Kann wiederholt werden: Du kannst dieses
+
+    Talent mehr als einmal verwenden.'
+  rule book: SRD 5.2.1
 - name: Ringer
   typ: 'Allgemeines Talent (Voraussetzung: min. 4. Stufe, min. Stärke oder Geschicklichkeit 13)'
-  beschreibung: 'Du erhältst folgende Vorzüge: Attributswerterhöhung: Dein Stärke- oder dein Geschicklichkeitswert wird um
-    1 Punkt erhöht (auf höchstens 20). Zuschlagen und packen: Wenn du eine Kreatur als Teil der Angriffsaktion in deinem Zug
-    mit einem waffenlosen Angriff triffst, kannst du sowohl den Schaden bewirken als auch die Packen-Option verwenden. Du
-    kannst diesen Vorzug nur einmal pro Zug anwenden. Angriffsvorteil: Du bist bei Angriffswürfen gegen eine Kreatur, die
-    du gepackt hältst, im Vorteil. Flinker Ringer: Du musst keine zusätzliche Bewegung verbrauchen, wenn du eine Kreatur bewegst,
-    die du gepackt hältst, sofern die Kreatur'
-  Regelbuch: SRD 5.2.1
+  beschreibung: 'Du erhältst folgende Vorzüge:
+
+    Attributswerterhöhung: Dein Stärke- oder dein
+
+    Geschicklichkeitswert wird um 1 Punkt erhöht
+
+    (auf höchstens 20).
+
+
+    Zuschlagen und packen: Wenn du eine Kreatur
+
+    als Teil der Angriffsaktion in deinem Zug mit einem
+
+    waffenlosen Angriff triffst, kannst du sowohl den
+
+    Schaden bewirken als auch die Packen-Option
+
+    verwenden. Du kannst diesen Vorzug nur einmal
+
+    pro Zug anwenden.
+
+    Angriffsvorteil: Du bist bei Angriffswürfen gegen
+
+    eine Kreatur, die du gepackt hältst, im Vorteil.
+
+    Flinker Ringer: Du musst keine zusätzliche
+
+    Bewegung verbrauchen, wenn du eine Kreatur
+
+    bewegst, die du gepackt hältst, sofern die Kreatur
+
+    höchstens so groß ist wie du.'
+  rule book: SRD 5.2.1

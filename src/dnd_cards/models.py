@@ -3,7 +3,7 @@
 from enum import Enum
 from typing import Optional
 
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 __all__ = ["Language", "CardData", "DeckProfile", "DeckEntry"]
 
@@ -18,7 +18,7 @@ class Language(str, Enum):
 class CardData(BaseModel):
     """Parsed and validated card data from a YAML file."""
 
-    model_config = ConfigDict(frozen=True)
+    model_config = ConfigDict(frozen=True, populate_by_name=True)
 
     id: str
     type: str
@@ -37,6 +37,9 @@ class CardData(BaseModel):
     description: str                   # required for all types
     edition: Optional[str] = None
     source_book: Optional[str] = None
+    # Class feature fields
+    class_name: Optional[str] = Field(default=None, alias="class")
+    subclass: Optional[str] = None
 
 
 class DeckEntry(BaseModel):

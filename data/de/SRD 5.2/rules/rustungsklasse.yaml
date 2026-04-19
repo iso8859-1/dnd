@@ -3,9 +3,8 @@ type: rule
 template: rule-v1
 name: Rüstungsklasse
 lang: de
-description: keine Gelegenheitsangriffe. Die Rüstungsklasse (RK) ist der Zielwert
-  eines Angriffswurfs. Die RK repräsentiert, wie schwierig es ist, ein Ziel zu treffen.
-  Deine Basis-RK berechnet sich aus 10 plus deinem Geschicklichkeitsmodifikator. Wenn
-  eine Regel dir eine andere Berechnung der Basis-RK gibt, wählst du aus, welche Berechnung
-  du nutzen Siehe auch willst. Du kannst nicht mehr als eine verwenden.
+description: Die Rüstungsklasse (RK) ist der Zielwert eines Angriffswurfs. Die RK repräsentiert, wie schwierig es ist, ein
+  Ziel zu treffen. Deine Basis-RK berechnet sich aus 10 plus deinem Geschicklichkeitsmodifikator. Wenn eine Regel dir eine
+  andere Berechnung der Basis-RK gibt, wählst du aus, welche Berechnung du nutzen Siehe auch willst. Du kannst nicht mehr
+  als eine verwenden. „Angriffswurf“.
 source_book: SRD 5.2.1

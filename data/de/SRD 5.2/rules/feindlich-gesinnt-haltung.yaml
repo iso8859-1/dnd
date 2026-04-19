@@ -3,7 +3,6 @@ type: rule
 template: rule-v1
 name: Feindlich gesinnt (Haltung)
 lang: de
-description: „Die Spielregeln“ („Übung“). Eine feindlich gesinnte Kreatur steht dir
-  negativ gegenüber. Du bist bei Attributswürfen zum Siehe auch Beeinflussen von Kreaturen,
-  die dir feindlich
+description: Eine feindlich gesinnte Kreatur steht dir negativ gegenüber. Du bist bei Attributswürfen zum Siehe auch Beeinflussen
+  von Kreaturen, die dir feindlich gesinnt sind, im Nachteil. „Beeinflussen“.
 source_book: SRD 5.2.1

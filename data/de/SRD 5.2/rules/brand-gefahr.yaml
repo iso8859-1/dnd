@@ -3,7 +3,7 @@ type: rule
 template: rule-v1
 name: Brand (Gefahr)
 lang: de
-description: Brennende Kreaturen und Gegenstände erleiden zu Beginn jedes ihrer Züge
-  1W4 Feuerschaden. Du kannst dich als Aktion selbst löschen, indem du dir den Zustand
-  Liegend gibst und dich auf dem Boden rollst. Das Feuer erlischt auch, wenn
+description: Brennende Kreaturen und Gegenstände erleiden zu Beginn jedes ihrer Züge 1W4 Feuerschaden. Du kannst dich als
+  Aktion selbst löschen, indem du dir den Zustand Liegend gibst und dich auf dem Boden rollst. Das Feuer erlischt auch, wenn
+  es erstickt oder durch Wasser gelöscht wird.
 source_book: SRD 5.2.1

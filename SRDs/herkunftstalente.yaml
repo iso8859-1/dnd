@@ -1,30 +1,92 @@
-talente:
+herkunftstalente:
 - name: Begabt
   typ: Herkunftstalent
-  beschreibung: 'Du bist in drei Fertigkeiten oder Werkzeugen deiner Wahl in beliebiger Kombination geübt. Kann wiederholt
-    werden: Du kannst dieses Talent mehr als einmal verwenden.'
-  Regelbuch: SRD 5.2.1
+  beschreibung: 'Du bist in drei Fertigkeiten oder Werkzeugen deiner
+
+    Wahl in beliebiger Kombination geübt.
+
+    Kann wiederholt werden: Du kannst dieses Talent
+
+    mehr als einmal verwenden.'
+  rule book: SRD 5.2.1
 - name: Eingeweihter der Magie
   typ: Herkunftstalent
-  beschreibung: 'Du erhältst folgende Vorzüge: Zwei Zaubertricks: Du beherrschst zwei Zauber- tricks deiner Wahl aus der Zauberliste
-    des Druiden, des Klerikers oder des Magiers. Dein Attribut zum Wirken der Zauber dieses Talents ist Intelligenz, Weisheit
-    oder Charisma (wähle aus, wenn du dieses Talent auswählst). Zauber des 1. Grades: Wähle einen Zauber des 1. Grades von
-    der Liste aus, die du für die Zaubertricks dieses Talents ausgewählt hast. Du hast diesen Zauber stets vorbereitet. Du
-    kannst ihn einmal wirken, ohne einen Zauberplatz zu verbrauchen. Diese Fähigkeit erhältst du nach einer langen Rast zurück.
-    Du kannst den Zauber auch mit einem beliebigen verfügbaren Zauberplatz wirken. Zauberwechsel: Wann immer du eine neue
-    Stufe erhältst, kannst du einen der Zauber, die du für dieses Talent ausgewählt hast, durch einen anderen Zauber des gleichen
-    Grades von der ausgewählten Zauberliste ersetzen. Kann wiederholt werden: Du kannst dieses Talent mehr als einmal verwenden,
-    aber du musst jedes Mal eine andere Zauberliste auswählen.'
-  Regelbuch: SRD 5.2.1
+  beschreibung: 'Du erhältst folgende Vorzüge:
+
+    Zwei Zaubertricks: Du beherrschst zwei Zauber-
+
+    tricks deiner Wahl aus der Zauberliste des Druiden,
+
+    des Klerikers oder des Magiers. Dein Attribut zum
+
+    Wirken der Zauber dieses Talents ist Intelligenz,
+
+    Weisheit oder Charisma (wähle aus, wenn du dieses
+
+    Talent auswählst).
+
+
+    Zauber des 1. Grades: Wähle einen Zauber des
+
+    1. Grades von der Liste aus, die du für die Zaubertricks
+
+    dieses Talents ausgewählt hast. Du hast diesen
+
+    Zauber stets vorbereitet. Du kannst ihn einmal
+
+    wirken, ohne einen Zauberplatz zu verbrauchen.
+
+    Diese Fähigkeit erhältst du nach einer langen Rast
+
+    zurück. Du kannst den Zauber auch mit einem
+
+    beliebigen verfügbaren Zauberplatz wirken.
+
+    Zauberwechsel: Wann immer du eine neue Stufe
+
+    erhältst, kannst du einen der Zauber, die du für
+
+    dieses Talent ausgewählt hast, durch einen anderen
+
+    Zauber des gleichen Grades von der ausgewählten
+
+    Zauberliste ersetzen.
+
+    Kann wiederholt werden: Du kannst dieses
+
+    Talent mehr als einmal verwenden, aber du musst
+
+    jedes Mal eine andere Zauberliste auswählen.'
+  rule book: SRD 5.2.1
 - name: Wachsam
   typ: Herkunftstalent
-  beschreibung: 'Du erhältst folgende Vorzüge: Initiative-Übung: Wenn du die Initiative auswür- felst, kannst du dem Ergebnis
-    deinen Übungsbonus hinzufügen. Initiativetausch: Sofort nach dem Auswürfeln der Initiative kannst du deine Initiative
-    mit der eines bereitwilligen Verbündeten im selben Kampf tauschen. Der Tausch ist nicht möglich, wenn mindestens einer
-    von euch beiden kampfunfähig ist.'
-  Regelbuch: SRD 5.2.1
+  beschreibung: 'Du erhältst folgende Vorzüge:
+
+    Initiative-Übung: Wenn du die Initiative auswür-
+
+    felst, kannst du dem Ergebnis deinen Übungsbonus
+
+    hinzufügen.
+
+    Initiativetausch: Sofort nach dem Auswürfeln
+
+    der Initiative kannst du deine Initiative mit der
+
+    eines bereitwilligen Verbündeten im selben Kampf
+
+    tauschen. Der Tausch ist nicht möglich, wenn
+
+    mindestens einer von euch beiden kampfunfähig ist.'
+  rule book: SRD 5.2.1
 - name: Wilder Angreifer
   typ: Herkunftstalent
-  beschreibung: Du bist darin ausgebildet, besonders schadens intensive Schläge auszuführen. Einmal pro Zug kannst du, wenn
-    du ein Ziel mit einer Waffe triffst, zweimal mit den Schadenswürfeln der Waffe würfeln und dir eins der Ergebnisse aussuchen.
-  Regelbuch: SRD 5.2.1
+  beschreibung: 'Du bist darin ausgebildet, besonders schadens
+
+    intensive Schläge auszuführen. Einmal pro Zug
+
+    kannst du, wenn du ein Ziel mit einer Waffe triffst,
+
+    zweimal mit den Schadenswürfeln der Waffe
+
+    würfeln und dir eins der Ergebnisse aussuchen.'
+  rule book: SRD 5.2.1

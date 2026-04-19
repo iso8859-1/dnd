@@ -3,6 +3,5 @@ type: rule
 template: rule-v1
 name: Dunkelheit
 lang: de
-description: Siehe auch Dunkle Bereiche sind komplett verschleiert. „Komplett verschleiert“
-  und „Die Spielregeln“ („Erkundung“).
+description: Siehe auch Dunkle Bereiche sind komplett verschleiert. „Komplett verschleiert“ und „Die Spielregeln“ („Erkundung“).
 source_book: SRD 5.2.1

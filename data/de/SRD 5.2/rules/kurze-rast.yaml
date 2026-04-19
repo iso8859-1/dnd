@@ -3,19 +3,14 @@ type: rule
 template: rule-v1
 name: Kurze Rast
 lang: de
-description: 'bereich des Zaubers enthalten. Eine kurze Rast ist eine einstündige
-  Ruhepause, während der eine Kreatur höchstens leichte Aktivitäten wie Lesen, Reden,
-  Essen oder Wache halten ausführt. Du musst mindestens einen Treffer punkt haben,
-  um eine kurze Rast zu Vorzüge der Rast: beginnen. Wenn du die Rast beendest, Trefferpunktewürfel
-  verbrauchen: erhältst du die folgenden Vorzüge: Du kannst mindestens einen deiner
-  Trefferpunktewürfel verbrauchen, um Trefferpunkte zurückzuerhalten. Würfle mit jedem
-  Trefferpunktewürfel, den du auf diese Art verbrauchst, und füge dem Ergebnis deinen
-  Konstitutionsmodifikator hinzu. Du erhältst Trefferpunkte in der Höhe des Gesamtergebnisses
-  zurück (mindestens 1). Du kannst nach jedem Wurf entscheiden, ob du einen weiteren
-  Treffer punktewürfel verbrauchen Besonderes Merkmal: willst. Manche Merkmale werden
-  durch eine kurze Rast aufgeladen. Wenn du ein solches Merkmal hast, wird es wie
-  in seiner Die Rast unterbrechen: Beschreibung angegeben aufgeladen. Eine kurze Rast
-  kann auf folgende Arten unterbrochen werden: • Initiative auswürfeln • Einen Zauber
-  wirken, der kein Zaubertrick ist • Schaden erleiden Eine unterbrochene kurze Rast
-  gewährt keine'
+description: 'Eine kurze Rast ist eine einstündige Ruhepause, während der eine Kreatur höchstens leichte Aktivitäten wie Lesen,
+  Reden, Essen oder Wache halten ausführt. Du musst mindestens einen Treffer punkt haben, um eine kurze Rast zu Vorzüge der
+  Rast: beginnen. Wenn du die Rast beendest, Trefferpunktewürfel verbrauchen: erhältst du die folgenden Vorzüge: Du kannst
+  mindestens einen deiner Trefferpunktewürfel verbrauchen, um Trefferpunkte zurückzuerhalten. Würfle mit jedem Trefferpunktewürfel,
+  den du auf diese Art verbrauchst, und füge dem Ergebnis deinen Konstitutionsmodifikator hinzu. Du erhältst Trefferpunkte
+  in der Höhe des Gesamtergebnisses zurück (mindestens 1). Du kannst nach jedem Wurf entscheiden, ob du einen weiteren Treffer
+  punktewürfel verbrauchen Besonderes Merkmal: willst. Manche Merkmale werden durch eine kurze Rast aufgeladen. Wenn du ein
+  solches Merkmal hast, wird es wie in seiner Die Rast unterbrechen: Beschreibung angegeben aufgeladen. Eine kurze Rast kann
+  auf folgende Arten unterbrochen werden: • Initiative auswürfeln • Einen Zauber wirken, der kein Zaubertrick ist • Schaden
+  erleiden Eine unterbrochene kurze Rast gewährt keine Vorzüge.'
 source_book: SRD 5.2.1

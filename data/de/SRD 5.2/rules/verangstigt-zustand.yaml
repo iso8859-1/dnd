@@ -3,8 +3,7 @@ type: rule
 template: rule-v1
 name: Verängstigt (Zustand)
 lang: de
-description: 'Wenn du den Zustand Verängstigt hast, wirken Beeinträchtigte Attributs-
-  und Angriffswürfe: folgende Effekte auf dich: Du bist bei Attributs- und Angriffswürfen
-  im Nachteil, solange du dich in der Sichtlinie der Quelle deiner Keine Annäherung
-  möglich: Furcht befindest. Du kannst dich nicht'
+description: 'Wenn du den Zustand Verängstigt hast, wirken Beeinträchtigte Attributs- und Angriffswürfe: folgende Effekte
+  auf dich: Du bist bei Attributs- und Angriffswürfen im Nachteil, solange du dich in der Sichtlinie der Quelle deiner Keine
+  Annäherung möglich: Furcht befindest. Du kannst dich nicht willentlich auf die Quelle deiner Furcht zubewegen.'
 source_book: SRD 5.2.1

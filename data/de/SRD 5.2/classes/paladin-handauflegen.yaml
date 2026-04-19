@@ -3,7 +3,7 @@ type: class_feature
 class: Paladin
 lang: de
 level: 1
-name: Handauflegen
+name: Handauflegen (Paladin)
 description: Deine gesegnete Berührung kann Wunden heilen. Du hast einen Vorrat an Heilkraft, der nach einer langen Rast aufgefüllt
   wird. Mit diesem Vorrat kannst du das Fünffache deiner Paladinstufe an Trefferpunkten wiederherstellen. Als Bonusaktion
   kannst du eine Kreatur (auch dich selbst) berühren und Kraft aus deinem Vorrat an Heilkraft ziehen, um bei der Kreatur höchstens

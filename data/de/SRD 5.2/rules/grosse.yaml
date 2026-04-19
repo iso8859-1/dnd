@@ -3,8 +3,7 @@ type: rule
 template: rule-v1
 name: Größe
 lang: de
-description: 'Kreaturen sowie Gegenstände gehören jeweils zu einer Größenkategorie:
-  Winzig, Klein, Mittelgroß, Groß, Riesig oder Gigantisch. Die Größe einer Kreatur
-  bestimmt, wie viel Platz die Kreatur im Siehe auch Kampf einnimmt. Die Größe eines
-  Gegenstands beeinflusst seine Trefferpunkte. „Gegenstände zerstören“ und „Die Spielregeln“'
+description: 'Kreaturen sowie Gegenstände gehören jeweils zu einer Größenkategorie: Winzig, Klein, Mittelgroß, Groß, Riesig
+  oder Gigantisch. Die Größe einer Kreatur bestimmt, wie viel Platz die Kreatur im Siehe auch Kampf einnimmt. Die Größe eines
+  Gegenstands beeinflusst seine Trefferpunkte. „Gegenstände zerstören“ und „Die Spielregeln“ („Kampf“).'
 source_book: SRD 5.2.1

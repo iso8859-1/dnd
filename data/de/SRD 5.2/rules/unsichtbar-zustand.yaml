@@ -3,13 +3,10 @@ type: rule
 template: rule-v1
 name: Unsichtbar (Zustand)
 lang: de
-description: 'Wenn du den Zustand Unsichtbar hast, wirken Überraschung: folgende Effekte
-  auf dich: Wenn du beim Auswürfeln der Initiative unsichtbar bist, so bist du bei
-  diesem Verborgen: Wurf im Vorteil. Du bist nicht von Effekten betroffen, die erfordern,
-  dass du gesehen wirst, sofern der Effektwirker keine Möglichkeiten hat, dich trotz
-  deiner Unsichtbarkeit zu sehen. Ausrüstung, Beeinträchtigte Angriffe: die du trägst
-  oder hältst, ist ebenfalls verborgen. Angriffswürfe gegen dich sind im Nachteil,
-  und du bist bei deinen Angriffswürfen im Vorteil. Wenn eine Kreatur Möglichkeiten
-  hat, dich trotz deiner Unsichtbarkeit zu sehen, erhältst du diesen Vorzug gegen
-  diese'
+description: 'Wenn du den Zustand Unsichtbar hast, wirken Überraschung: folgende Effekte auf dich: Wenn du beim Auswürfeln
+  der Initiative unsichtbar bist, so bist du bei diesem Verborgen: Wurf im Vorteil. Du bist nicht von Effekten betroffen,
+  die erfordern, dass du gesehen wirst, sofern der Effektwirker keine Möglichkeiten hat, dich trotz deiner Unsichtbarkeit
+  zu sehen. Ausrüstung, Beeinträchtigte Angriffe: die du trägst oder hältst, ist ebenfalls verborgen. Angriffswürfe gegen
+  dich sind im Nachteil, und du bist bei deinen Angriffswürfen im Vorteil. Wenn eine Kreatur Möglichkeiten hat, dich trotz
+  deiner Unsichtbarkeit zu sehen, erhältst du diesen Vorzug gegen diese Kreatur nicht.'
 source_book: SRD 5.2.1

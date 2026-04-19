@@ -3,7 +3,7 @@ type: class_feature
 class: Mönch
 lang: de
 level: 13
-name: Energie umleiten
+name: Energie umleiten (Mönch)
 description: Du kannst jetzt dein Merkmal Angriffe umleiten auch gegen Angriffe einsetzen, die eine beliebige andere Schadensart
   als Hieb‑, Stich‑ oder Wuchtschaden bewirken.
 source_book: SRD 5.2.1

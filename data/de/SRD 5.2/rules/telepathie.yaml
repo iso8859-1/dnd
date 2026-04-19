@@ -3,18 +3,13 @@ type: rule
 template: rule-v1
 name: Telepathie
 lang: de
-description: misslingt automatisch. Telepathie ist eine magische Fähigkeit, die Kreaturen
-  gestattet, auf eine bestimmte Reichweite mental mit anderen Kreaturen zu kommunizieren.
-  Sofern keine Regel etwas anderes besagt, muss die kontaktierte Kreatur keine Sprache
-  mit dem Telepathen teilen, um die Kommunikation zu verstehen. Sie muss jedoch mindestens
-  eine Sprache verstehen oder selbst telepathisch sein. Der Telepath braucht die kontaktierte
-  Kreatur nicht zu sehen, und er kann den telepathischen Kontakt jederzeit herstellen
-  oder beenden (keine Aktion erforderlich). Der telepathische Kontakt kann nicht begonnen
-  werden oder bricht sofort ab, wenn der Telepath oder die andere Kreatur kampfunfähig
-  wird. Der Kontakt bricht auch dann ab, wenn die kontaktierte Kreatur die Reichweite
-  der Telepathie verlässt oder der Telepath eine andere Kreatur in Reichweite kontaktiert.
-  Kreaturen ohne Telepathie können telepathische Nachrichten empfangen, jedoch selbst
-  kein telepathisches Gespräch beginnen. Wenn ein telepathisches Gespräch beginnt,
-  kann der Nicht- Telepath mental mit dem Telepathen kommunizieren, bis die telepathische
-  Verbindung endet.
+description: Telepathie ist eine magische Fähigkeit, die Kreaturen gestattet, auf eine bestimmte Reichweite mental mit anderen
+  Kreaturen zu kommunizieren. Sofern keine Regel etwas anderes besagt, muss die kontaktierte Kreatur keine Sprache mit dem
+  Telepathen teilen, um die Kommunikation zu verstehen. Sie muss jedoch mindestens eine Sprache verstehen oder selbst telepathisch
+  sein. Der Telepath braucht die kontaktierte Kreatur nicht zu sehen, und er kann den telepathischen Kontakt jederzeit herstellen
+  oder beenden (keine Aktion erforderlich). Der telepathische Kontakt kann nicht begonnen werden oder bricht sofort ab, wenn
+  der Telepath oder die andere Kreatur kampfunfähig wird. Der Kontakt bricht auch dann ab, wenn die kontaktierte Kreatur die
+  Reichweite der Telepathie verlässt oder der Telepath eine andere Kreatur in Reichweite kontaktiert. Kreaturen ohne Telepathie
+  können telepathische Nachrichten empfangen, jedoch selbst kein telepathisches Gespräch beginnen. Wenn ein telepathisches
+  Gespräch beginnt, kann der Nicht- Telepath mental mit dem Telepathen kommunizieren, bis die telepathische Verbindung endet.
 source_book: SRD 5.2.1

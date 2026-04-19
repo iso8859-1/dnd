@@ -3,7 +3,7 @@ type: class_feature
 class: Druide
 lang: de
 level: 3
-name: Beistand des Landes
+name: Beistand des Landes (Zirkel des Landes)
 description: Als magische Aktion kannst du eine Anwendung von Tiergestalt verbrauchen und einen Punkt im Abstand von bis zu
   18 Metern von dir auswählen. Um diesen Punkt erscheinen in einer Kugel mit einem Radius von drei Metern für kurze Zeit Blumen,
   die Lebenskraft spenden, sowie Dornen, die Lebenskraft entziehen. Jede Kreatur deiner Wahl in der Kugel muss einen Konstitutions‑

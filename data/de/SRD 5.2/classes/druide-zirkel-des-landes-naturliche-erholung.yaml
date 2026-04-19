@@ -3,7 +3,7 @@ type: class_feature
 class: Druide
 lang: de
 level: 6
-name: Natürliche Erholung
+name: Natürliche Erholung (Zirkel des Landes)
 description: 'Du kannst einen deiner vorbereiteten Zauber ab dem 1. Grad deines Merkmals Zauber des Zirkels wirken, ohne einen
   Zauberplatz zu verbrauchen. Du musst eine lange Rast beenden, bevor du dies erneut tun kannst. Außerdem kannst du dir nach
   einer kurzen Rast verbrauchte Zauberplätze aussuchen, die du zurückerhältst. Die Zauberplätze dürfen zusammen nur eine Gradzahl

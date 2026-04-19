@@ -3,8 +3,7 @@ type: rule
 template: rule-v1
 name: Attributswurf
 lang: de
-description: „Die Spielregeln“ („Die sechs Attribute“). Ein Attributswurf ist eine
-  W20-Prüfung, die den Einsatz von einem der sechs Attribute (oder einer bestimmten
-  Fertigkeit, die mit einem Attribut Siehe auch assoziiert ist) repräsentiert, um
-  eine Herausforde- rung zu überwinden. „Die Spielregeln“
+description: Ein Attributswurf ist eine W20-Prüfung, die den Einsatz von einem der sechs Attribute (oder einer bestimmten
+  Fertigkeit, die mit einem Attribut Siehe auch assoziiert ist) repräsentiert, um eine Herausforde- rung zu überwinden. „Die
+  Spielregeln“ („W20-Prüfungen“ und „Übung“).
 source_book: SRD 5.2.1

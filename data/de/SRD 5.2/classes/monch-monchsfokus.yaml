@@ -3,7 +3,7 @@ type: class_feature
 class: Mönch
 lang: de
 level: 2
-name: Mönchsfokus
+name: Mönchsfokus (Mönch)
 description: 'Dein Fokus und deine Vertrautheit mit Kampfkünsten gestatten dir, eine Quelle außergewöhnlicher Energie in dir
   selbst zu nutzen. Diese Energie wird durch Fokuspunkte repräsentiert. Deine Mönchsstufe bestimmt die Anzahl deiner Punkte,
   die in der Spalte „Fokuspunkte“ der Tabelle „Mönchsmerkmale“ aufgeführt sind. Du kannst diese Punkte verbrauchen, um bestimmte

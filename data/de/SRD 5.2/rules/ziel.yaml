@@ -3,7 +3,6 @@ type: rule
 template: rule-v1
 name: Ziel
 lang: de
-description: verbrauchen. „Zauber“. Ziel sind Kreaturen oder Gegenstände, gegen die
-  sich ein Angriffswurf richtet, die zu einem Rettungswurf gezwungen oder für die
-  Effekte eines Zaubers oder sonstigen Phänomens ausgewählt
+description: Ziel sind Kreaturen oder Gegenstände, gegen die sich ein Angriffswurf richtet, die zu einem Rettungswurf gezwungen
+  oder für die Effekte eines Zaubers oder sonstigen Phänomens ausgewählt werden.
 source_book: SRD 5.2.1

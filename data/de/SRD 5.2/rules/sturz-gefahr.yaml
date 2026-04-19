@@ -3,7 +3,9 @@ type: rule
 template: rule-v1
 name: Sturz (Gefahr)
 lang: de
-description: Am Ende eines Sturzes erleidet eine Kreatur 1W6 Wuchtschaden pro drei
-  Meter, die sie gestürzt ist (höchstens 20W6). Nach dem Sturz hat sie den Zustand
-  Liegend, sofern sie den Schaden durch den Sturz nicht vermeiden konnte.
+description: Am Ende eines Sturzes erleidet eine Kreatur 1W6 Wuchtschaden pro drei Meter, die sie gestürzt ist (höchstens
+  20W6). Nach dem Sturz hat sie den Zustand Liegend, sofern sie den Schaden durch den Sturz nicht vermeiden konnte. Wenn eine
+  Kreatur in Wasser oder eine andere Flüssigkeit stürzt, kann sie ihre Reaktion verwenden und einen SG-15-Geschicklichkeitswurf
+  (Akrobatik) oder -Stärkewurf (Athletik) ausführen, um mit dem Kopf oder den Füßen voran aufzukommen. Bei einem Erfolg wird
+  der Fallschaden halbiert.
 source_book: SRD 5.2.1

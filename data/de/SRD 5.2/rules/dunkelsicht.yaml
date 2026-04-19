@@ -3,7 +3,7 @@ type: rule
 template: rule-v1
 name: Dunkelsicht
 lang: de
-description: Wenn du Dunkelsicht hast, kannst du auf die angegebene Reichweite bei
-  dämmrigem Licht sehen wie bei hellem Licht und bei Dunkelheit Siehe auch wie bei
-  dämmrigem Licht. Farben nimmst du bei Dunkelheit nur als Graustufen wahr.
+description: Wenn du Dunkelsicht hast, kannst du auf die angegebene Reichweite bei dämmrigem Licht sehen wie bei hellem Licht
+  und bei Dunkelheit Siehe auch wie bei dämmrigem Licht. Farben nimmst du bei Dunkelheit nur als Graustufen wahr. „Die Spielregeln“
+  („Erkundung“).
 source_book: SRD 5.2.1

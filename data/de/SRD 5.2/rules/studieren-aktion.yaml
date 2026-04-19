@@ -3,17 +3,13 @@ type: rule
 template: rule-v1
 name: Studieren (Aktion)
 lang: de
-description: („Schaden und Heilung“). Wenn du die Studieren-Aktion ausführst, führst
-  du einen Intelligenzwurf aus, um deine Erinnerung, ein Buch, einen Hinweis oder
-  eine andere Wissensquelle zu studieren und Erkenntnisse über wichtige Informationen
-  zu erzielen. Die Tabelle „Wissensgebiete“ enthält Vorschläge, welche Fertigkeiten
-  zu den verschiedenen Wissens- Wgebisiesteenns pgaesbsieent.e FertigkeitGebiete Arkane
-  Zauber, magische Gegenstände, Kundemystische Symbole, magische Traditionen, Existenzebenen
-  und bestimmte Kreaturen (Aberrationen, Elementare, Feenwesen, Konstrukte und Monstrositäten)
-  GeschichteHistorische Ereignisse und Völker, vergangene Zivilisationen, Kriege und
-  bestimmte Kreaturen (Riesen und Humanoiden). NachforFallen, Geheimschriften, Rätsel
-  und schungenApparaturen NaturkundeGelände, Flora, Wetter und bestimmte Kreaturen
-  (Drachen, Pflanzen, Schlicke, Tiere) ReligionGottheiten, religiöse Hierarchien und
-  Riten, heilige Symbole, Kulte und bestimmte Kreaturen (celestische Wesen, Unholde
-  und Untote)
+description: Wenn du die Studieren-Aktion ausführst, führst du einen Intelligenzwurf aus, um deine Erinnerung, ein Buch, einen
+  Hinweis oder eine andere Wissensquelle zu studieren und Erkenntnisse über wichtige Informationen zu erzielen. Die Tabelle
+  „Wissensgebiete“ enthält Vorschläge, welche Fertigkeiten zu den verschiedenen Wissens- Wissensgebiete gebieten passen. Fertigkeit
+  Gebiete Arkane Zauber, magische Gegenstände, Kunde mystische Symbole, magische Traditionen, Existenzebenen und bestimmte
+  Kreaturen (Aberrationen, Elementare, Feenwesen, Konstrukte und Monstrositäten) Geschichte Historische Ereignisse und Völker,
+  vergangene Zivilisationen, Kriege und bestimmte Kreaturen (Riesen und Humanoiden). Nachfor Fallen, Geheimschriften, Rätsel
+  und schungen Apparaturen Naturkunde Gelände, Flora, Wetter und bestimmte Kreaturen (Drachen, Pflanzen, Schlicke, Tiere)
+  Religion Gottheiten, religiöse Hierarchien und Riten, heilige Symbole, Kulte und bestimmte Kreaturen (celestische Wesen,
+  Unholde und Untote)
 source_book: SRD 5.2.1

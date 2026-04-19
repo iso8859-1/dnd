@@ -3,7 +3,7 @@ type: rule
 template: rule-v1
 name: Kletterbewegungsrate
 lang: de
-description: beschließt dies. Du kannst eine Kletterbewegungsrate anstatt der normalen
-  Bewegungsrate verwenden, um dich an vertikalen Oberflächen zu bewegen, ohne die
-  zusätzliche Bewegung zu benötigen, Siehe auch die beim Klettern normalerweise anfällt.
+description: Du kannst eine Kletterbewegungsrate anstatt der normalen Bewegungsrate verwenden, um dich an vertikalen Oberflächen
+  zu bewegen, ohne die zusätzliche Bewegung zu benötigen, Siehe auch die beim Klettern normalerweise anfällt. „Bewegungsrate“
+  und „Klettern“.
 source_book: SRD 5.2.1

@@ -3,7 +3,7 @@ type: class_feature
 class: Waldläufer
 lang: de
 level: 14
-name: Naturschleier
+name: Naturschleier (Waldläufer)
 description: Du beschwörst Geister der Natur, um dich auf magische Art zu verstecken. Als Bonusaktion kannst du dir bis zum
   Ende deines nächsten Zugs den Zustand Unsichtbar verleihen. Die Anzahl der möglichen Anwendungen dieses Merkmals entspricht
   deinem Weisheitsmodifikator (mindestens einmal). Du erhältst alle verbrauchten Anwendungen nach einer langen Rast zurück.

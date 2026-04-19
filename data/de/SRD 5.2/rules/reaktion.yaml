@@ -3,12 +3,10 @@ type: rule
 template: rule-v1
 name: Reaktion
 lang: de
-description: um es erneut anwenden zu können. Eine Reaktion ist eine besondere Aktion,
-  die als Antwort auf einen in der Beschreibung der Reaktion definierten Auslöser
-  erfolgt. Du kannst eine Reaktion auch während des Zugs einer anderen Kreatur ausführen.
-  Wenn du sie in deinem Zug ausführst, kannst du dies auch dann tun, wenn du bereits
-  eine Aktion, eine Bonusaktion oder beides ausgeführt hast. Wenn du eine Reaktion
-  ausgeführt hast, kannst du bis zum Beginn deines nächsten Zugs keine weitere Reaktion
-  ausführen. Siehe auch Der Gelegenheitsangriff ist eine Reaktion, die allen Kreaturen
-  zur Verfügung steht. „Gelegenheitsangriffe“ und „Die Spielregeln“
+description: Eine Reaktion ist eine besondere Aktion, die als Antwort auf einen in der Beschreibung der Reaktion definierten
+  Auslöser erfolgt. Du kannst eine Reaktion auch während des Zugs einer anderen Kreatur ausführen. Wenn du sie in deinem Zug
+  ausführst, kannst du dies auch dann tun, wenn du bereits eine Aktion, eine Bonusaktion oder beides ausgeführt hast. Wenn
+  du eine Reaktion ausgeführt hast, kannst du bis zum Beginn deines nächsten Zugs keine weitere Reaktion ausführen. Siehe
+  auch Der Gelegenheitsangriff ist eine Reaktion, die allen Kreaturen zur Verfügung steht. „Gelegenheitsangriffe“ und „Die
+  Spielregeln“ („Aktionen“).
 source_book: SRD 5.2.1

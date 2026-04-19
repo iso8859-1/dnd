@@ -3,7 +3,7 @@ type: class_feature
 class: Kleriker
 lang: de
 level: 7
-name: Gesegnete Schläge
+name: Gesegnete Schläge (Kleriker)
 description: 'Göttliche Macht erfüllt dich im Kampf. Du erhältst eine der folgenden Optionen nach deiner Wahl (wenn du eine
   der Optionen von einer Kleriker‑ Unterklasse aus einem älteren Buch erhältst, verwende nur die Option, die du für dieses
   Merkmal Göttlicher Schlag: auswählst). Einmal in jedem deiner Züge kannst du, wenn du eine Kreatur bei einem Angriffswurf

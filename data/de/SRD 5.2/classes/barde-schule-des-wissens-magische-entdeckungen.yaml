@@ -3,7 +3,7 @@ type: class_feature
 class: Barde
 lang: de
 level: 6
-name: Magische Entdeckungen
+name: Magische Entdeckungen (Schule des Wissens)
 description: Du erlernst zwei Zauber deiner Wahl. Diese Zauber dürfen aus der Zauberliste des Druiden, des Klerikers und des
   Magiers oder einer Kombination daraus stammen (die Zauberlisten findest du in den Abschnitten der Klassen). Die ausgewählten
   Zauber müssen Zaubertricks oder Zauber sein, für die du Zauberplätze hast, wie in der Tabelle „Bardenmerkmale“ dargestellt.

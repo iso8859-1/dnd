@@ -1,5 +1,5 @@
 # generated: 2026-04-11
-# last_updated: 2026-04-12  # story 2-1 created; epic-2 set to in-progress
+# last_updated: 2026-04-18  # story 4-4 created; class feature card type
 # project: dnd
 # project_key: NOKEY
 # tracking_system: file-system
@@ -70,4 +70,10 @@ development_status:
   4-1-english-srd-spell-seed-data: backlog
   4-2-shell-completion-verification-and-example-deck-yaml: backlog
   4-3-talent-and-rule-card-type: review
+  4-4-class-feature-card-type: review
   epic-4-retrospective: optional
+
+  # ─── Epic 5: TUI Deck Builder ─────────────────────────────────────────────
+  epic-5: in-progress
+  5-1-deck-builder-tui: review
+  epic-5-retrospective: optional

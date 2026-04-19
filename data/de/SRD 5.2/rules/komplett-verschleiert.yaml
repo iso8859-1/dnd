@@ -3,6 +3,6 @@ type: rule
 template: rule-v1
 name: Komplett verschleiert
 lang: de
-description: Stärkewurf (Athletik) erfordern. Siehe auch In komplett verschleierten
-  Bereichen hast du den Zustand Blind. „Blind“, „Dunkelheit“
+description: Siehe auch In komplett verschleierten Bereichen hast du den Zustand Blind. „Blind“, „Dunkelheit“ und „Die Spielregeln“
+  („Erkundung“).
 source_book: SRD 5.2.1

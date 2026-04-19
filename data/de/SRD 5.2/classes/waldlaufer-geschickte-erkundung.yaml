@@ -3,7 +3,7 @@ type: class_feature
 class: Waldläufer
 lang: de
 level: 2
-name: Geschickte Erkundung
+name: Geschickte Erkundung (Waldläufer)
 description: 'Dank deiner Reisen erhältst du die folgenden Expertise: Vorzüge: Wähle eine deiner Fertigkeiten aus, in denen
   du geübt bist, aber keine Expertise hast. Sprachen: Du erhältst Expertise in dieser Fertigkeit. Du kennst zwei Sprachen
   deiner Wahl aus den Sprachentabellen unter „Charakterer‑ stellung“.'

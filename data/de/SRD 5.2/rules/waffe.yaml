@@ -3,6 +3,6 @@ type: rule
 template: rule-v1
 name: Waffe
 lang: de
-description: „Die Spielregeln“ („W20-Prüfungen“). Eine Waffe ist ein Gegenstand aus
-  einer der Siehe auch Kategorien Einfache Waffe und Kriegswaffe.
+description: Eine Waffe ist ein Gegenstand aus einer der Siehe auch Kategorien Einfache Waffe und Kriegswaffe. „Ausrüstung“
+  („Waffen“).
 source_book: SRD 5.2.1

@@ -3,8 +3,10 @@ type: rule
 template: rule-v1
 name: Bewusstlos (Zustand)
 lang: de
-description: 'ebenfalls halbiert. Wenn du den Zustand Bewusstlos hast, wirken Inert:
-  folgende Effekte auf dich: Du hast die Zustände Kampfunfähig und Liegend, und du
-  lässt fallen, was immer du gehalten hast. Wenn dieser Zustand endet, bist du weiterhin
-  liegend.'
+description: 'Wenn du den Zustand Bewusstlos hast, wirken Inert: folgende Effekte auf dich: Du hast die Zustände Kampfunfähig
+  und Liegend, und du lässt fallen, was immer du gehalten hast. Wenn dieser Zustand endet, bist du weiterhin liegend. Keine
+  Bewegungsrate: Deine Bewegungsrate Beeinträchtigte Angriffe: beträgt 0 und kann nicht erhöht werden. Angriffswürfe gegen
+  Beeinträchtigte Rettungswürfe: dich sind im Vorteil. Du scheiterst bei Stärke- und Geschicklichkeitsrettungswürfen Automatische
+  kritische Treffer: automatisch. Jeder Angriffs- wurf, der dich trifft, ist ein kritischer Treffer, sofern der Angreifer
+  sich im Abstand von bis zu 1,5 Metern Ohne Bewusstsein: von dir befindet. Du nimmst deine Umgebung nicht wahr.'
 source_book: SRD 5.2.1

@@ -10,6 +10,10 @@ from dnd_cards.models import CardData, DeckProfile
 
 __all__ = ["load_card", "load_deck"]
 
+_DEFAULT_TEMPLATES: dict[str, str] = {
+    "class_feature": "class-feature-v1",
+}
+
 
 def load_card(path: Path) -> CardData:
     """Parse and validate a card YAML file."""
@@ -29,6 +33,9 @@ def load_card(path: Path) -> CardData:
         raise YamlParseError(
             f"{path}: YAML file is empty or does not contain a mapping"
         )
+
+    if "template" not in raw:
+        raw["template"] = _DEFAULT_TEMPLATES.get(str(raw.get("type", "")), "")
 
     try:
         return CardData.model_validate(raw)

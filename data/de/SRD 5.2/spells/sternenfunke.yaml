@@ -9,7 +9,7 @@ casting_time: Aktion
 range: 18 Meter
 components: V, G
 duration: Unmittelbar
-description: 'Du schleuderst einen Lichtfunken auf eine Kreatur oder einen Gegenstand in Reichweite. Führe einen Fernkampf-Zauberangriff
+description: 'Du schleuderst einen Lichtfunken auf eine Kreatur oder einen Gegenstand in Reichweite. Führe einen Fernkampf‑Zauberangriff
   gegen das Ziel aus. Bei einem Treffer erleidet das Ziel 1W8 gleißenden Schaden, und bis zum Ende deines nächsten Zugs spendet
   es in einem Radius von drei Metern Zaubertrick-Aufwertung: dämmriges Licht und kann nicht unsichtbar werden. Der Schaden
   wird um jeweils 1W8 erhöht, wenn du die 5. (2W8), die 11. (3W8) und die 17. (4W8) Stufe erreichst.'

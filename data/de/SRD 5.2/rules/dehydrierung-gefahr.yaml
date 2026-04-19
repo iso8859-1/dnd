@@ -3,12 +3,9 @@ type: rule
 template: rule-v1
 name: Dehydrierung (Gefahr)
 lang: de
-description: „Die Spielregeln“ („Kampf“). Kreaturen benötigen täglich eine gewisse
-  Menge von Wasser je nach ihrer Größe, wie in der Tabelle „Täglicher Wasserbedarf“
-  dargestellt. Eine Kreatur, die weniger als die Hälfte der täglich erforderlichen
-  Wassermenge trinkt, erhält am Ende des Tages eine Erschöpfungsstufe. Erschöpfung
-  durch Dehydrierung kann nicht entfernt werden, ehe Siehe auch die Kreatur nicht
-  die vollständige Tagesmenge Tanä gWliacshseerr tWrinaksts.e rbedarf „Erschöpfung“.
-  GrößeWassermengeGrößeWassermenge Winzig1 LiterGroß16 Liter Klein4 LiterRiesig64
-  Liter Mittel4 LiterGigantisch256 Liter
+description: Kreaturen benötigen täglich eine gewisse Menge von Wasser je nach ihrer Größe, wie in der Tabelle „Täglicher
+  Wasserbedarf“ dargestellt. Eine Kreatur, die weniger als die Hälfte der täglich erforderlichen Wassermenge trinkt, erhält
+  am Ende des Tages eine Erschöpfungsstufe. Erschöpfung durch Dehydrierung kann nicht entfernt werden, ehe Siehe auch die
+  Kreatur nicht die vollständige Tagesmenge Täglicher an Wasser trinkt. Wasserbedarf „Erschöpfung“. Größe Wassermenge Größe
+  Wassermenge Winzig 1 Liter Groß 16 Liter Klein 4 Liter Riesig 64 Liter Mittel 4 Liter Gigantisch 256 Liter
 source_book: SRD 5.2.1

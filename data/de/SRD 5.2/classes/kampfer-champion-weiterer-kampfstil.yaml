@@ -3,7 +3,7 @@ type: class_feature
 class: Kämpfer
 lang: de
 level: 7
-name: Weiterer Kampfstil
+name: Weiterer Kampfstil (Champion)
 description: Du erhältst ein weiteres Kampfstil‑Talent deiner Wahl.
 source_book: SRD 5.2.1
 subclass: Champion

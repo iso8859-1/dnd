@@ -3,6 +3,6 @@ type: class_feature
 class: Hexenmeister
 lang: de
 level: 20
-name: Mystischer Meister
+name: Mystischer Meister (Hexenmeister)
 description: Wenn du Magische Raffinesse einsetzt, erhältst du alle verbrauchten Paktmagie‑Zauberplätze zurück.
 source_book: SRD 5.2.1

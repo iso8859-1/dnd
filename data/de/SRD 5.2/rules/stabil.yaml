@@ -3,6 +3,6 @@ type: rule
 template: rule-v1
 name: Stabil
 lang: de
-description: „Bewegungsrate“. Eine Kreatur ist stabil, wenn sie zwar 0 Treffer- Siehe
-  auch punkte hat, aber keine Todesrettungswürfe ausführen muss. „Die Spielregeln“
+description: Eine Kreatur ist stabil, wenn sie zwar 0 Treffer- Siehe auch punkte hat, aber keine Todesrettungswürfe ausführen
+  muss. „Die Spielregeln“ („Schaden und Heilung“).
 source_book: SRD 5.2.1

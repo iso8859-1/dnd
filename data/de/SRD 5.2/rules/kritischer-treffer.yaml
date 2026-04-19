@@ -3,10 +3,9 @@ type: rule
 template: rule-v1
 name: Kritischer Treffer
 lang: de
-description: „Bewegungsrate“. Wenn du beim W20-Angriffswurf eine 20 würfelst, erzielst
-  du einen kritischen Treffer, und der Angriff trifft unabhängig von etwaigen Modifikatoren
-  und der RK des Ziels. Bei einem kritischen Treffer kannst du mit zusätzlichen Würfeln
-  würfeln, um den Schaden zu bestimmen, den das Ziel durch den Angriff erleidet. Würfle
-  zweimal mit allen Schadenswürfeln Siehe auch des Angriffs und addiere die Ergebnisse.
-  Wende dann die relevanten Modifikatoren an. „Die Spielregeln“ („Schaden und Heilung“).
+description: Wenn du beim W20-Angriffswurf eine 20 würfelst, erzielst du einen kritischen Treffer, und der Angriff trifft
+  unabhängig von etwaigen Modifikatoren und der RK des Ziels. Bei einem kritischen Treffer kannst du mit zusätzlichen Würfeln
+  würfeln, um den Schaden zu bestimmen, den das Ziel durch den Angriff erleidet. Würfle zweimal mit allen Schadenswürfeln
+  Siehe auch des Angriffs und addiere die Ergebnisse. Wende dann die relevanten Modifikatoren an. „Die Spielregeln“ („Schaden
+  und Heilung“).
 source_book: SRD 5.2.1

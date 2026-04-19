@@ -45,5 +45,7 @@ def render_card(card: CardData, template_name: str) -> dict[str, Any]:
         "description": card.description,
         "edition": card.edition,
         "source_book": card.source_book,
+        "class_name": card.class_name,
+        "subclass": card.subclass,
     }
     return context

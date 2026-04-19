@@ -3,7 +3,7 @@ type: class_feature
 class: Kleriker
 lang: de
 level: 10
-name: Göttliche Intervention
+name: Göttliche Intervention (Kleriker)
 description: Du kannst deine Gottheit oder dein Pantheon anrufen, damit sie beziehungsweise es in deinem Sinne eingreift.
   Wähle als magische Aktion einen beliebigen Klerikerzauber des höchstens 5. Grades aus, den zu wirken keine Reaktion erfordert.
   Als Teil derselben Aktion wirkst du diesen Zauber, ohne einen Zauberplatz zu verbrauchen oder Materialkomponenten zu benötigen.

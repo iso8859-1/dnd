@@ -3,11 +3,8 @@ type: rule
 template: rule-v1
 name: Suchen (Aktion)
 lang: de
-description: Bei einem Erfolg wird der Fallschaden halbiert. Wenn du die Suchen-Aktion
-  ausführst, führst du einen Weisheitswurf aus, um etwas zu finden oder zu erfahren,
-  was nicht offenkundig ist. In der Tabelle „Suchen“ findest du Vorschläge, welche
-  Fertigkeiten bei dieser Aktion gelten – je nachdem, was du finden Swuilclshte.n
-  FertigkeitSuche nach ... HeilkundeKrankheit oder Todesursache einer Kreatur Motiv
-  erkennenGeisteszustand einer Kreatur ÜberlebenskunstSpuren oder Nahrung WahrnehmungVerborgene
-  Kreatur/verborgener Gegenstand
+description: Wenn du die Suchen-Aktion ausführst, führst du einen Weisheitswurf aus, um etwas zu finden oder zu erfahren,
+  was nicht offenkundig ist. In der Tabelle „Suchen“ findest du Vorschläge, welche Fertigkeiten bei dieser Aktion gelten –
+  je nachdem, was du finden Suchen willst. Fertigkeit Suche nach ... Heilkunde Krankheit oder Todesursache einer Kreatur Motiv
+  erkennen Geisteszustand einer Kreatur Überlebenskunst Spuren oder Nahrung Wahrnehmung Verborgene Kreatur/verborgener Gegenstand
 source_book: SRD 5.2.1

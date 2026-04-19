@@ -3,7 +3,7 @@ type: class_feature
 class: Kämpfer
 lang: de
 level: 1
-name: Waffenbeherrschung
+name: Waffenbeherrschung (Kämpfer)
 description: Deine Vertrautheit mit Waffen gestattet dir, die Meisterschaftseigenschaften dreier Arten von einfachen Waffen
   oder Kriegswaffen deiner Wahl zu verwenden. Wann immer du eine lange Rast beendest, kannst du Waffenübungen ausführen und
   eine dieser Waffenentscheidungen ändern. Wenn du bestimmte Kämpferstufen erreichst, erhältst du das Attribut zum Verwenden

@@ -3,7 +3,7 @@ type: class_feature
 class: Magier
 lang: de
 level: 5
-name: Zauber auswendig lernen
+name: Zauber auswendig lernen (Magier)
 description: Wann immer du eine kurze Rast beendest, kannst du dein Zauberbuch studieren und einen der Magier‑ zauber ab dem
   1. Grad, die du für dein Merkmal Zauberwirken vorbereitet hast, durch einen anderen Zauber ab dem 1. Grad aus dem Buch ersetzen.
 source_book: SRD 5.2.1

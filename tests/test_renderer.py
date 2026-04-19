@@ -136,6 +136,29 @@ def test_render_card_talent_context(tmp_path: Path) -> None:
     assert ctx["duration"] is None
 
 
+def test_render_card_class_feature_context(tmp_path: Path) -> None:
+    """render_card for class feature includes class_name and subclass."""
+    (tmp_path / "class-feature-v1.jinja2").write_text(
+        "{{ name }}\n{{ class_name }}\n", encoding="utf-8"
+    )
+    card = CardData(
+        id="barbar-kampfrausch",
+        type="class_feature",
+        template="class-feature-v1",
+        name="Kampfrausch",
+        lang=Language.DE,
+        description="...",
+        class_name="Barbar",
+        level=1,
+    )
+    with patch("dnd_cards.renderer._TEMPLATES_DIR", tmp_path):
+        ctx = render_card(card, "class-feature-v1")
+
+    assert ctx["class_name"] == "Barbar"
+    assert ctx["subclass"] is None
+    assert ctx["level"] == 1
+
+
 def test_render_card_optional_fields_none_when_absent(tmp_path: Path) -> None:
     (tmp_path / "zauber-v1.jinja2").write_text("{{ name }}", encoding="utf-8")
     minimal_card = CardData(

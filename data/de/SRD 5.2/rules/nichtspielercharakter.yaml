@@ -3,6 +3,6 @@ type: rule
 template: rule-v1
 name: Nichtspielercharakter
 lang: de
-description: sofern keine Regel etwas anderes besagt. Ein Nichtspielercharakter (NSC)
-  ist ein Monster, Siehe auch das einen Personennamen und eine eigene
+description: Ein Nichtspielercharakter (NSC) ist ein Monster, Siehe auch das einen Personennamen und eine eigene Persönlichkeit
+  hat. „Monster“.
 source_book: SRD 5.2.1

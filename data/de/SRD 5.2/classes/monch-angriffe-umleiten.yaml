@@ -3,7 +3,7 @@ type: class_feature
 class: Mönch
 lang: de
 level: 3
-name: Angriffe umleiten
+name: Angriffe umleiten (Mönch)
 description: Wenn ein Angriffswurf dich trifft und dir Hieb‑, Stich‑ oder Wuchtschaden zufügt, kannst du eine Reaktion ausführen,
   um den Gesamtschaden des Angriffs zu verringern. Die Verringerung entspricht 1W10 plus deinem Geschicklichkeitsmodifikator
   plus deiner Mönchsstufe. Wird der Schaden auf 0 verringert, so kannst du 1 Fokuspunkt verbrauchen, um einen Teil der Angriffsenergie

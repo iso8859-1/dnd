@@ -3,8 +3,9 @@ type: rule
 template: rule-v1
 name: Gelähmt (Zustand)
 lang: de
-description: 'wurde. Wenn du den Zustand Gelähmt hast, wirken Kampfunfähig: folgende
-  Effekte auf dich: Du hast den Zustand Keine Bewegungsrate: Kampfunfähig. Deine Bewegungsrate
-  Beeinträchtigte Rettungswürfe: beträgt 0 und kann nicht erhöht werden. Du scheiterst
-  bei Stärke- und Geschicklichkeitsrettungswürfen automatisch.'
+description: 'Wenn du den Zustand Gelähmt hast, wirken Kampfunfähig: folgende Effekte auf dich: Du hast den Zustand Keine
+  Bewegungsrate: Kampfunfähig. Deine Bewegungsrate Beeinträchtigte Rettungswürfe: beträgt 0 und kann nicht erhöht werden.
+  Du scheiterst bei Stärke- und Geschicklichkeitsrettungswürfen automatisch. Beeinträchtigte Angriffe: Angriffswürfe gegen
+  Automatische kritische Treffer: dich sind im Vorteil. Jeder Angriffs- wurf, der dich trifft, ist ein kritischer Treffer,
+  sofern der Angreifer sich im Abstand von bis zu 1,5 Metern von dir befindet.'
 source_book: SRD 5.2.1

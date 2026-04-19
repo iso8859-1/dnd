@@ -3,7 +3,7 @@ type: class_feature
 class: Waldläufer
 lang: de
 level: 3
-name: Jägerkunde
+name: Jägerkunde (Jäger)
 description: Du kannst die Kräfte der Natur beschwören, um bestimmte Stärken und Schwächen deiner Zeichen des Jägers Beute
   zu enthüllen. Wenn eine Kreatur mit deinem markiert ist, erkennst du, ob diese Kreatur Immunitäten, Resistenzen oder Anfälligkeiten
   hat, und wenn ja, welche.

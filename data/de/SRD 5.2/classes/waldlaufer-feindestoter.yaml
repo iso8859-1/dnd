@@ -3,6 +3,6 @@ type: class_feature
 class: Waldläufer
 lang: de
 level: 20
-name: Feindestöter
+name: Feindestöter (Waldläufer)
 description: Zeichen des Jägers Der Schadenswürfel deines Zaubers die sie zerstören würden.
 source_book: SRD 5.2.1

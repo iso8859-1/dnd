@@ -3,8 +3,7 @@ type: rule
 template: rule-v1
 name: Bonusaktion
 lang: de
-description: die Hälfte ihrer Trefferpunkte hat. Eine Bonusaktion ist eine besondere
-  Aktion, die du im selben Zug ausführen kannst, in dem du auch eine Aktion ausführst.
-  Du kannst höchstens eine Bonusaktion pro Zug ausführen, und dies nur Siehe auch
-  dann, wenn eine Regel es ausdrücklich besagt. „Die Spielregeln“ („Aktionen“).
+description: Eine Bonusaktion ist eine besondere Aktion, die du im selben Zug ausführen kannst, in dem du auch eine Aktion
+  ausführst. Du kannst höchstens eine Bonusaktion pro Zug ausführen, und dies nur Siehe auch dann, wenn eine Regel es ausdrücklich
+  besagt. „Die Spielregeln“ („Aktionen“).
 source_book: SRD 5.2.1

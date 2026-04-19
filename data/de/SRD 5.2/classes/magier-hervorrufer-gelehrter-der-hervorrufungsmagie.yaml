@@ -3,7 +3,7 @@ type: class_feature
 class: Magier
 lang: de
 level: 3
-name: Gelehrter der Hervorrufungsmagie
+name: Gelehrter der Hervorrufungsmagie (Hervorrufer)
 description: Wähle zwei Magierzauber der Schule der Hervorrufungsmagie des höchstens 2. Grades aus und füge sie gratis deinem
   Zauberbuch hinzu. Wann immer außerdem ein neuer Zauberplatzgrad in dieser Klasse verfügbar wird, kannst du deinem Zauberbuch
   gratis einen Magierzauber der Schule der Hervorrufungsmagie hinzufügen. Der Grad des ausgewählten Zaubers muss dem der verfügbaren

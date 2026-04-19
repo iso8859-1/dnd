@@ -3,7 +3,7 @@ type: class_feature
 class: Kleriker
 lang: de
 level: 6
-name: Gesegneter Heiler
+name: Gesegneter Heiler (Domäne des Lebens)
 description: Die Heilzauber, die du auf andere wirkst, wirken auch auf dich. Sofort, nachdem du einen Zauber mit einem Zauberplatz
   gewirkt hast, der Trefferpunkte bei mindestens einer Kreatur außer dir selbst wiederherstellt, erhältst du Trefferpunkte
   in Höhe von 2 plus Zauberplatzgrad zurück.

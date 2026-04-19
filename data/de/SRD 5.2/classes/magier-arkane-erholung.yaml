@@ -3,7 +3,7 @@ type: class_feature
 class: Magier
 lang: de
 level: 1
-name: Arkane Erholung
+name: Arkane Erholung (Magier)
 description: 'Durch das Studium deines Zauberbuchs kannst du einen Teil deiner magischen Energie zurückerhalten. Nach einer
   kurzen Rast kannst du dir verbrauchte Zauberplätze aussuchen, die du zurückerhältst. Die Zauberplätze dürfen zusammen nur
   eine Gradzahl besitzen, die höchstens der Hälfte deiner Magierstufe entspricht (aufgerundet), und keiner der Zauberplätze

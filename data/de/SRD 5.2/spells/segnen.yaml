@@ -9,7 +9,7 @@ casting_time: Aktion
 range: 9 Meter
 components: V, G, M (ein heiliges Symbol im Wert von mindestens 5 GM)
 duration: Konzentration, bis zu 1 Minute
-description: 'Du segnest bis zu drei Kreaturen in Reichweite. Wann immer ein Ziel während der Wirkungsdauer einen Angriffs-
+description: 'Du segnest bis zu drei Kreaturen in Reichweite. Wann immer ein Ziel während der Wirkungsdauer einen Angriffs‑
   oder Rettungswurf ausführt, fügt Verwenden von Zauberplätzen höheren Grades: es dem Ergebnis 1W4 hinzu. Für jeden Zauberplatzgrad
   über dem 1. kannst du auf eine weitere Kreatur zielen.'
 source_book: SRD 5.2 DE

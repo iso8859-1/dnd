@@ -3,23 +3,17 @@ type: rule
 template: rule-v1
 name: Waffenloser Angriff
 lang: de
-description: 'Anstatt einer Waffe kannst du als Nahkampfangriff auch einen Fausthieb,
-  einen Tritt, einen Kopfstoß oder einen ähnlich kraftvollen Hieb einsetzen. Nach
-  den Spielbegriffen ist dies ein waffenloser Angriff – ein Nahkampfangriff, bei dem
-  du deinen Körper einsetzt, um einem Ziel im Abstand von bis zu 1,5 Metern von dir
-  Schaden zuzufügen, um es zu packen oder zu stoßen. Wann immer du deinen waffenlosen
-  Angriff einsetzt, wähle als Effekt eine der folgenden Schaden: Optionen aus: Du
-  führst einen Angriffswurf gegen das Ziel aus. Dein Bonus auf den Wurf entspricht
-  deinem Stärkemodifikator plus deinem Übungsbonus. Bei einem Treffer erleidet das
-  Ziel Wuchtschaden in Höhe von 1 plus deinem Packen: Stärkemodifikator. Das Ziel
-  muss einen Stärke- oder Geschicklichkeitsrettungswurf (nach seiner Wahl) bestehen,
-  oder es wird gepackt. Der SG für den Rettungswurf und alle Befreiungsversuche entspricht
-  8 plus deinem Stärkemodifikator plus deinem Übungsbonus. Du kannst ein Ziel nur
-  dann packen, wenn es um höchstens eine Kategorie Siehe auch größer als du ist und
-  du eine Hand frei hast, um Stoßen: damit zuzupacken. „Gepackt halten“. Das Ziel
-  muss einen Stärke- oder Geschicklichkeitsrettungswurf (nach seiner Wahl) bestehen,
-  anderenfalls stößt du es entweder 1,5 Meter von dir weg, oder du stößt es um, sodass
-  es den Zustand Liegend hat. Der SG für den Rettungswurf entspricht 8 plus deinem
-  Stärkemodifikator plus deinem Übungsbonus. Ein solcher Stoß ist nur dann möglich,
-  wenn das Ziel um höchstens eine Kategorie'
+description: 'Anstatt einer Waffe kannst du als Nahkampfangriff auch einen Fausthieb, einen Tritt, einen Kopfstoß oder einen
+  ähnlich kraftvollen Hieb einsetzen. Nach den Spielbegriffen ist dies ein waffenloser Angriff – ein Nahkampfangriff, bei
+  dem du deinen Körper einsetzt, um einem Ziel im Abstand von bis zu 1,5 Metern von dir Schaden zuzufügen, um es zu packen
+  oder zu stoßen. Wann immer du deinen waffenlosen Angriff einsetzt, wähle als Effekt eine der folgenden Schaden: Optionen
+  aus: Du führst einen Angriffswurf gegen das Ziel aus. Dein Bonus auf den Wurf entspricht deinem Stärkemodifikator plus deinem
+  Übungsbonus. Bei einem Treffer erleidet das Ziel Wuchtschaden in Höhe von 1 plus deinem Packen: Stärkemodifikator. Das Ziel
+  muss einen Stärke- oder Geschicklichkeitsrettungswurf (nach seiner Wahl) bestehen, oder es wird gepackt. Der SG für den
+  Rettungswurf und alle Befreiungsversuche entspricht 8 plus deinem Stärkemodifikator plus deinem Übungsbonus. Du kannst ein
+  Ziel nur dann packen, wenn es um höchstens eine Kategorie Siehe auch größer als du ist und du eine Hand frei hast, um Stoßen:
+  damit zuzupacken. „Gepackt halten“. Das Ziel muss einen Stärke- oder Geschicklichkeitsrettungswurf (nach seiner Wahl) bestehen,
+  anderenfalls stößt du es entweder 1,5 Meter von dir weg, oder du stößt es um, sodass es den Zustand Liegend hat. Der SG
+  für den Rettungswurf entspricht 8 plus deinem Stärkemodifikator plus deinem Übungsbonus. Ein solcher Stoß ist nur dann möglich,
+  wenn das Ziel um höchstens eine Kategorie größer als du ist.'
 source_book: SRD 5.2.1

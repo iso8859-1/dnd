@@ -3,15 +3,12 @@ type: rule
 template: rule-v1
 name: Teleportation
 lang: de
-description: Teleportation ist eine besondere Art von magischem Transport. Wenn du
-  dich teleportierst, verschwindest du und erscheinst unmittelbar irgendwo anders,
-  ohne dich durch den Raum dazwischen bewegt zu haben. Dieser Transport verbraucht
-  keine Bewegung, sofern nicht eine Regel etwas anderes besagt. Teleportation provoziert
-  niemals Gelegenheitsangriffe. Wenn du dich teleportierst, wird jede Ausrüstung,
-  die du trägst oder hältst, mit dir teleportiert. Berührst du während der Teleportation
-  eine andere Kreatur, so wird diese Kreatur nicht mit dir teleportiert, sofern beim
-  Teleportationseffekt nicht anders vermerkt. Wenn der Zielbereich der Teleportation
-  von einer anderen Kreatur besetzt oder von einem massiven Hindernis blockiert ist,
-  erscheinst du stattdessen im nächsten freien Bereich deiner Wahl. In der Beschreibung
-  des Teleportationseffekts erfährst du, ob du den Zielort der Teleportation
+description: Teleportation ist eine besondere Art von magischem Transport. Wenn du dich teleportierst, verschwindest du und
+  erscheinst unmittelbar irgendwo anders, ohne dich durch den Raum dazwischen bewegt zu haben. Dieser Transport verbraucht
+  keine Bewegung, sofern nicht eine Regel etwas anderes besagt. Teleportation provoziert niemals Gelegenheitsangriffe. Wenn
+  du dich teleportierst, wird jede Ausrüstung, die du trägst oder hältst, mit dir teleportiert. Berührst du während der Teleportation
+  eine andere Kreatur, so wird diese Kreatur nicht mit dir teleportiert, sofern beim Teleportationseffekt nicht anders vermerkt.
+  Wenn der Zielbereich der Teleportation von einer anderen Kreatur besetzt oder von einem massiven Hindernis blockiert ist,
+  erscheinst du stattdessen im nächsten freien Bereich deiner Wahl. In der Beschreibung des Teleportationseffekts erfährst
+  du, ob du den Zielort der Teleportation sehen können musst.
 source_book: SRD 5.2.1

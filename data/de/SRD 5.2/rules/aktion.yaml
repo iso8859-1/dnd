@@ -3,9 +3,8 @@ type: rule
 template: rule-v1
 name: Aktion
 lang: de
-description: 'und besagen, dass du aufrunden sollst. In deinem Zug kannst du eine
-  Aktion ausführen. Wähle aus, ob du eine der Aktionen unten Siehe auch oder eine
-  der besonderen Aktionen ausführst, die deine Merkmale dir gewähren. „Die Spielregeln“
-  („Aktionen“). Diese Aktionen AngriffMagie wirkenSuchen sind anderswo in diesem Glossar
-  definiert: AusweichenRückzugVerstecken BeeinflussenSpurtVerwenden HelfenStudierenVorbereiten'
+description: 'In deinem Zug kannst du eine Aktion ausführen. Wähle aus, ob du eine der Aktionen unten Siehe auch oder eine
+  der besonderen Aktionen ausführst, die deine Merkmale dir gewähren. „Die Spielregeln“ („Aktionen“). Diese Aktionen Angriff
+  Magie wirken Suchen sind anderswo in diesem Glossar definiert: Ausweichen Rückzug Verstecken Beeinflussen Spurt Verwenden
+  Helfen Studieren Vorbereiten'
 source_book: SRD 5.2.1

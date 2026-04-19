@@ -3,7 +3,7 @@ type: class_feature
 class: Paladin
 lang: de
 level: 9
-name: Gegner verdammen
+name: Gegner verdammen (Paladin)
 description: 'Als magische Aktion kannst du eine Anwendung von Göttliche Macht fokussieren dieser Klasse verbrauchen, um Gegnern
   gehörige Ehrfurcht einzuflößen. Wenn du dein heiliges Symbol oder deine heilige Waffe präsentierst, kannst du auf eine Anzahl
   von Kreaturen in Höhe deines Charisma modifikators (mindestens eine Kreatur) im Abstand von bis zu 18 Metern von dir zielen,

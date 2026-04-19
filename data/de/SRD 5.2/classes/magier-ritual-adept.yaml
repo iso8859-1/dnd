@@ -3,7 +3,7 @@ type: class_feature
 class: Magier
 lang: de
 level: 1
-name: Ritual-Adept
+name: Ritual-Adept (Magier)
 description: Du kannst jeden Zauber als Ritual wirken, sofern er als Ritual gekennzeichnet und in deinem Zauberbuch enthalten
   ist. Ein solcher Zauber muss nicht vorbereitet sein, doch du musst ihn aus dem Buch lesen, um ihn auf diese Art zu wirken.
 source_book: SRD 5.2.1

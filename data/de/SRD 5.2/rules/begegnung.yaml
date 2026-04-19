@@ -3,7 +3,6 @@ type: rule
 template: rule-v1
 name: Begegnung
 lang: de
-description: 'Eine Begegnung ist eine Szene in einem Abenteuer, die Teil von mindestens
-  einer der drei Säulen des Siehe auch Spiels ist: soziale Interaktion, Erkundung
-  oder Kampf. „Die Spielregeln“ („Soziale'
+description: 'Eine Begegnung ist eine Szene in einem Abenteuer, die Teil von mindestens einer der drei Säulen des Siehe auch
+  Spiels ist: soziale Interaktion, Erkundung oder Kampf. „Die Spielregeln“ („Soziale Interaktion“, „Erkundung“ und „Kampf“).'
 source_book: SRD 5.2.1

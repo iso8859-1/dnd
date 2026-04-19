@@ -3,7 +3,6 @@ type: rule
 template: rule-v1
 name: Abenteuer
 lang: de
-description: Es folgen Definitionen verschiedener Regeln. Ein Abenteuer ist eine Serie
-  von Begegnungen. Siehe auch Aus den beim Durchspielen erlebten Geschehnissen entwickelt
-  sich eine Geschichte.
+description: Ein Abenteuer ist eine Serie von Begegnungen. Siehe auch Aus den beim Durchspielen erlebten Geschehnissen entwickelt
+  sich eine Geschichte. „Begegnung“.
 source_book: SRD 5.2.1

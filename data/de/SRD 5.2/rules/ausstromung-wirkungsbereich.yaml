@@ -3,9 +3,8 @@ type: rule
 template: rule-v1
 name: Ausströmung (Wirkungsbereich)
 lang: de
-description: („W20-Prüfungen“ und „Übung“). Eine Ausströmung ist ein Wirkungsbereich,
-  der von einer Kreatur oder einem Gegenstand in geraden Linien in alle Richtungen
-  ausgeht. Der Effekt, der die Ausströmung erzeugt, definiert deren Wirkungsdistanz.
-  Eine Ausströmung bewegt sich mit ihrem Ursprung (Kreatur oder Gegenstand), sofern
-  sie kein unmittelbarer oder ortsfester Effekt ist. Der Ursprung ist nicht im Wirkungsbereich
+description: Eine Ausströmung ist ein Wirkungsbereich, der von einer Kreatur oder einem Gegenstand in geraden Linien in alle
+  Richtungen ausgeht. Der Effekt, der die Ausströmung erzeugt, definiert deren Wirkungsdistanz. Eine Ausströmung bewegt sich
+  mit ihrem Ursprung (Kreatur oder Gegenstand), sofern sie kein unmittelbarer oder ortsfester Effekt ist. Der Ursprung ist
+  nicht im Wirkungsbereich enthalten, es sei denn, der Wirker beschließt dies.
 source_book: SRD 5.2.1

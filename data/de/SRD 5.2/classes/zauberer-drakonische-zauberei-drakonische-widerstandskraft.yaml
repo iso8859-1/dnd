@@ -3,7 +3,7 @@ type: class_feature
 class: Zauberer
 lang: de
 level: 3
-name: Drakonische Widerstandskraft
+name: Drakonische Widerstandskraft (Drakonische Zauberei)
 description: Die Magie in deinem Körper manifestiert physische Merkmale deiner drakonischen Gabe. Dein Treffer‑ punktemaximum
   wird um 3 Punkte und auf jeder höheren Zaubererstufe um 1 weiteren Punkt erhöht. Außerdem sind Teile deines Körpers drachenartig
   mit Schuppen bedeckt. Solange du keine Rüstung trägst, entspricht deine Basis‑Rüstungsklasse 10 plus deinem Geschicklichkeits‑

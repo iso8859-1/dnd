@@ -3,7 +3,7 @@ type: class_feature
 class: Barbar
 lang: de
 level: 18
-name: Unbändige Stärke
+name: Unbändige Stärke (Barbar)
 description: Wenn das Gesamtergebnis deines Stärkewurfs oder Stärkerettungswurfs unter deinem Stärkewert liegt, kannst du
   diesen statt des Gesamtergebnisses verwenden.
 source_book: SRD 5.2.1

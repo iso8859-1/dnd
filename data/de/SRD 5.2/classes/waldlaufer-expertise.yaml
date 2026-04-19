@@ -3,7 +3,7 @@ type: class_feature
 class: Waldläufer
 lang: de
 level: 9
-name: Expertise
+name: Expertise (Waldläufer)
 description: Wähle zwei deiner Fertigkeiten aus, in denen du geübt bist, aber keine Expertise hast. Du erhältst Expertise
   in diesen Fertigkeiten.
 source_book: SRD 5.2.1

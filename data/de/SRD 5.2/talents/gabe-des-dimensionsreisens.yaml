@@ -3,10 +3,8 @@ type: talent
 template: talent-v1
 name: Gabe des Dimensionsreisens
 lang: de
-description: 'Du erhältst folgende Vorzüge: Attributswerterhöhung: Ein Attributswert
-  deiner Wahl wird um 1 Punkt erhöht (auf höchstens 30). Flimmerschritte: Sofort,
-  nachdem du die Angriffs aktion oder die magische Aktion ausgeführt hast, kannst
-  du dich bis zu neun Meter weit in einen freien Bereich teleportieren, den du sehen
-  kannst.'
+description: 'Du erhältst folgende Vorzüge: Attributswerterhöhung: Ein Attributswert deiner Wahl wird um 1 Punkt erhöht (auf
+  höchstens 30). Flimmerschritte: Sofort, nachdem du die Angriffs aktion oder die magische Aktion ausgeführt hast, kannst
+  du dich bis zu neun Meter weit in einen freien Bereich teleportieren, den du sehen kannst.'
 source_book: SRD 5.2.1
 typ: 'Epische-Gabe-Talent (Voraussetzung: min. 19. Stufe)'

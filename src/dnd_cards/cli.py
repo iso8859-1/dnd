@@ -113,6 +113,18 @@ def _validate_impl(deck: str) -> None:
     raise NotImplementedError
 
 
+@app.command()
+def tui(
+    deck: Optional[str] = typer.Argument(
+        None, help="Path to existing deck YAML to edit (optional)."
+    ),
+) -> None:
+    """Interactively build or edit a deck YAML in a terminal UI."""
+    from dnd_cards.tui import run_tui  # lazy import — avoids loading Textual at startup
+
+    run_tui(deck_file=Path(deck) if deck else None)
+
+
 @app.command(name="list")
 def list_cards(
     card_type: Optional[str] = typer.Option(

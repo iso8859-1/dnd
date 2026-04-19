@@ -3,6 +3,5 @@ type: rule
 template: rule-v1
 name: Kreatur
 lang: de
-description: endet, wenn du kampfunfähig wirst oder stirbst. Siehe auch Alle Wesen
-  im Spiel einschließlich der Spieler-
+description: Siehe auch Alle Wesen im Spiel einschließlich der Spieler- charaktere sind Kreaturen. „Kreaturentyp“.
 source_book: SRD 5.2.1

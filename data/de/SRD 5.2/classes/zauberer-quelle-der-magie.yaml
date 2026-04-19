@@ -3,7 +3,7 @@ type: class_feature
 class: Zauberer
 lang: de
 level: 2
-name: Quelle der Magie
+name: Quelle der Magie (Zauberer)
 description: 'Du kannst die Quelle der Magie nutzen, die du in dir trägst. Diese Quelle wird durch Zaubereipunkte repräsentiert,
   die eine Vielzahl magischer Effekte ermöglichen. Du besitzt 2 Zaubereipunkte und erhältst weitere auf höheren Stufen, wie
   in der Spalte „Zaubereipunkte“ der Tabelle „Zauberermerkmale“ angegeben. Du kannst nicht mehr Zaubereipunkte besitzen, als

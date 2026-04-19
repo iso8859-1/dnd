@@ -3,7 +3,6 @@ type: rule
 template: rule-v1
 name: Anfälligkeit
 lang: de
-description: Wenn du anfällig für eine Schadensart bist, ist der Schaden dieser Art
-  gegen dich verdoppelt. Siehe auch Die Anfälligkeit wird pro Instanz des Schadens
-  nur einmal angewendet. „Die Spielregeln“
+description: Wenn du anfällig für eine Schadensart bist, ist der Schaden dieser Art gegen dich verdoppelt. Siehe auch Die
+  Anfälligkeit wird pro Instanz des Schadens nur einmal angewendet. „Die Spielregeln“ („Schaden und Heilung“).
 source_book: SRD 5.2.1

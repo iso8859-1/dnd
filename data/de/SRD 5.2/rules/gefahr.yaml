@@ -3,6 +3,5 @@ type: rule
 template: rule-v1
 name: Gefahr
 lang: de
-description: gesinnt sind, im Vorteil. „Beeinflussen“. Siehe auch Gefahren resultieren
-  aus der Umgebung. „Brand“, „Dehydrierung“, „Erstickung“, „Sturz“ und
+description: Siehe auch Gefahren resultieren aus der Umgebung. „Brand“, „Dehydrierung“, „Erstickung“, „Sturz“ und „Unterernährung“.
 source_book: SRD 5.2.1

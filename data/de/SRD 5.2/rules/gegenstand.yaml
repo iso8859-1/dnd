@@ -3,7 +3,6 @@ type: rule
 template: rule-v1
 name: Gegenstand
 lang: de
-description: „Unterernährung“. Ein Gegenstand ist ein unbelebtes, klar abgrenzbares
-  Ding. Zusammengesetzte Dinge wie Gebäude Siehe auch bestehen aus mehr als einem
-  Gegenstand.
+description: Ein Gegenstand ist ein unbelebtes, klar abgrenzbares Ding. Zusammengesetzte Dinge wie Gebäude Siehe auch bestehen
+  aus mehr als einem Gegenstand. „Gegenstände zerstören“.
 source_book: SRD 5.2.1

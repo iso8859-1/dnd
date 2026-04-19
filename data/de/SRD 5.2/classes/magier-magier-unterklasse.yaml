@@ -3,7 +3,7 @@ type: class_feature
 class: Magier
 lang: de
 level: 3
-name: Magier-Unterklasse
+name: Magier-Unterklasse (Magier)
 description: Du erhältst eine Magier‑Unterklasse deiner Wahl. Die Unterklasse Hervorrufer wird nach der Beschreibung dieser
   Klasse erläutert. Unterklassen sind Spezialisierungen, die dir auf bestimmten Magierstufen Merkmale gewähren. Du erhältst
   für den Rest deiner Laufbahn alle Merkmale deiner Unterklasse, die zu deiner aktuellen Magierstufe oder den niedrigeren

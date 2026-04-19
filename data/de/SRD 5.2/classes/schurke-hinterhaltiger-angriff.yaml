@@ -3,7 +3,7 @@ type: class_feature
 class: Schurke
 lang: de
 level: 1
-name: Hinterhältiger Angriff
+name: Hinterhältiger Angriff (Schurke)
 description: Du weißt, wie man die Ablenkung eines Gegners ausnutzt und subtil zuschlägt. Einmal pro Zug kannst du einer Kreatur,
   die du mit einem Angriffswurf triffst, 1W6 zusätzlichen Schaden zufügen, sofern du beim Wurf im Vorteil bist und eine Finesse‑
   oder Fernkampfwaffe einsetzt. Der zusätzliche Schaden ist von der gleichen Art wie der Schaden der Waffe. Es ist kein Vorteil

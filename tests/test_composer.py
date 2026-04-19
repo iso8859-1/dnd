@@ -45,6 +45,8 @@ def _fake_ctx(card: CardData, template_name: str) -> dict[str, object]:  # noqa:
         "description": card.description,
         "edition": card.edition,
         "source_book": card.source_book,
+        "class_name": card.class_name,
+        "subclass": card.subclass,
     }
 
 
@@ -137,4 +139,41 @@ def test_compose_pdf_rule_card_no_error(tmp_path: Path) -> None:
     buf = BytesIO()
     with patch("dnd_cards.composer.render_card", side_effect=_fake_ctx):
         compose_pdf([rule], buf)
+    assert buf.tell() > 0
+
+
+def test_compose_pdf_class_feature_no_error(tmp_path: Path) -> None:
+    """Class feature card renders without error."""
+    feat = CardData(
+        id="barbar-kampfrausch",
+        type="class_feature",
+        template="class-feature-v1",
+        name="Kampfrausch",
+        lang=Language.DE,
+        description="Eine Urmacht namens Kampfrausch...",
+        class_name="Barbar",
+        level=1,
+    )
+    buf = BytesIO()
+    with patch("dnd_cards.composer.render_card", side_effect=_fake_ctx):
+        compose_pdf([feat], buf)
+    assert buf.tell() > 0
+
+
+def test_compose_pdf_class_feature_with_subclass_no_error(tmp_path: Path) -> None:
+    """Class feature with subclass renders without error."""
+    feat = CardData(
+        id="barbar-raserei",
+        type="class_feature",
+        template="class-feature-v1",
+        name="Raserei",
+        lang=Language.DE,
+        description="...",
+        class_name="Barbar",
+        level=3,
+        subclass="Pfad des Berserkers",
+    )
+    buf = BytesIO()
+    with patch("dnd_cards.composer.render_card", side_effect=_fake_ctx):
+        compose_pdf([feat], buf)
     assert buf.tell() > 0

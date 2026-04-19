@@ -3,8 +3,7 @@ type: rule
 template: rule-v1
 name: Flüche
 lang: de
-description: Durch manche Effekte im Spiel wird eine Kreatur oder ein Gegenstand verflucht.
-  Der Effekt, der den Fluch brechen Fluch bewirkt, definiert dessen Auswirkungen.
-  Vollständige Genesung Flüche können durch die Zauber und sowie andere magische Effekte
-  entfernt werden, die ausdrücklich Flüche
+description: Durch manche Effekte im Spiel wird eine Kreatur oder ein Gegenstand verflucht. Der Effekt, der den Fluch brechen
+  Fluch bewirkt, definiert dessen Auswirkungen. Vollständige Genesung Flüche können durch die Zauber und sowie andere magische
+  Effekte entfernt werden, die ausdrücklich Flüche beenden.
 source_book: SRD 5.2.1

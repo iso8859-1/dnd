@@ -16,6 +16,7 @@ zauber:
     Bewegungs rate bewegen und ihn gestikulieren, sprechen und auf eine beliebige Art handeln lassen. Er ist immateriell und
     unverwundbar. Du kannst durch seine Augen sehen und durch seine Ohren hören, als befändest du dich am selben Ort.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Alarm
   schule: Bannzauber
   grad: 1. Grades
@@ -34,6 +35,7 @@ zauber:
     das Geräusch einer Handglocke. Du wirst von einem mentalen Ping gewarnt, wenn du dich im Abstand von bis zu 1,6 Kilometern
     vom geschützten Bereich befindest. Dieser Ping weckt dich, wenn du schläfst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Ansteckung
   schule: Nekromantiezauber
   grad: 5. Grades
@@ -52,6 +54,7 @@ zauber:
     Ziel einen Effekt erhält, der den Zustand Vergiftet beenden würde, muss es einen Konstitutionsrettungswurf bestehen, oder
     der Zustand Vergiftet endet nicht.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Antimagisches Feld
   schule: Bannzauber
   grad: 8. Grades
@@ -73,6 +76,7 @@ zauber:
     Wirkungsdauer abgezogen. Antimagisches-Feld hat innerhalb der Aura keinen Effekt. Auren, die durch mehrere ‑Zauber erzeugt
     wurden, heben einander nicht auf.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Antipathie/Sympathie
   schule: Verzauberungszauber
   grad: 8. Grades
@@ -98,6 +102,7 @@ zauber:
     Rettungs‑ wurf endet der Effekt des Ziels auf die Kreatur. Nach einem erfolgreichen Rettungswurf ist eine Kreatur eine
     Minute lang gegen den Effekt immun. Danach kann er erneut auf sie gewirkt werden.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Arkanes Auge
   schule: Erkenntniszauber
   grad: 4. Grades
@@ -113,6 +118,7 @@ zauber:
     beliebige Richtung bewegen. Außerdem kann es nicht durch massive Barrieren gelangen, jedoch Öffnungen mit mindestens 2,5
     Zentimetern Durchmesser passieren.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Arkane Hand
   schule: Hervorrufungszauber
   grad: 5. Grades
@@ -141,6 +147,7 @@ zauber:
     dem Ziel und bleibt Verwenden von Zauberplätzen höheren Grades: im Abstand von bis zu 1,5 Metern von ihm. Für jeden Zauberplatzgrad
     über dem 5. wird der Schaden der geballten Faust um 2W8 und der Schaden der greifenden Hand um 2W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Arkanes Schloss
   schule: Bannzauber
   grad: 2. Grades
@@ -156,6 +163,7 @@ zauber:
     und schließen. Du kannst auch ein Kennwort festlegen, das diesen Gegenstand im Abstand von bis zu 1,5 Metern eine Minute
     lang öffnet.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Arkanes Schwert
   schule: Hervorrufungszauber
   grad: 7. Grades
@@ -172,6 +180,7 @@ zauber:
     Attributsmodifikator. In deinen folgenden Zügen kannst du das Schwert mit einer Bonusaktion bis zu neun Meter weit an
     einen Ort bewegen, den du sehen kannst, und den Angriff gegen dasselbe oder ein anderes Ziel wiederholen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Arkane Spiegelung
   schule: Illusionszauber
   grad: 7. Grades
@@ -194,6 +203,7 @@ zauber:
     Wahrer Blick können die Illusion durchschauen und sehen das echte Gelände. Alle anderen Elemente der Illusion bleiben
     jedoch bestehen. Selbst wenn sich eine Kreatur der Illusion bewusst ist, kann sie physisch mit ihr interagieren.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Astrale Projektion
   schule: Nekromantiezauber
   grad: 9. Grades
@@ -221,6 +231,7 @@ zauber:
     Wenn der Zauber bei einem Ziel endet, das nicht tot ist, kehrt das Ziel in seinen physischen Körper zurück, und dessen
     scheintoter Zustand endet.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Ätherische Gestalten
   schule: Beschwörungszauber
   grad: 7. Grades
@@ -249,6 +260,7 @@ zauber:
     eingeschlossen) zielen. Die Kreaturen müssen sich im Abstand von bis zu drei Metern von dir befinden, wenn du diesen Zauber
     wirkst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Attribut verbessern
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -268,6 +280,7 @@ zauber:
     Attribut im Vorteil. Für jeden Zauberplatzgrad über dem 2. kannst du auf eine weitere Kreatur zielen. Du kannst für jedes
     Ziel ein anders Attribut bestimmen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Ätzkugel
   schule: Hervorrufungszauber
   grad: 4. Grades
@@ -285,6 +298,7 @@ zauber:
     höheren Grades: Kreatur nur die Hälfte des anfänglichen Schadens. Für jeden Zauberplatzgrad über dem 4. wird der anfängliche
     Schaden um 2W4 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Auferstehung
   schule: Nekromantiezauber
   grad: 7. Grades
@@ -304,6 +318,7 @@ zauber:
     365 Tagen tot ist, so belastet dich das stark. Du kannst erst nach einer langen Rast wieder Zauber wirken und bist bis
     dahin bei W20‑Prüfungen im Nachteil.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Auflösung
   schule: Verwandlungszauber
   grad: 6. Grades
@@ -324,6 +339,7 @@ zauber:
     löst dieser Zauber einen Würfel mit drei Verwenden von Zauberplätzen höheren Grades: Metern Kantenlänge davon auf. Für
     jeden Zauberplatzgrad über dem 6. wird der Schaden um 3W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Aura des Lebens
   schule: Bannzauber
   grad: 4. Grades
@@ -338,6 +354,7 @@ zauber:
     und deine Verbündeten gegen nekrotischen Schaden resistent, und eure Treffer‑ punktemaxima können nicht verringert werden.
     Wenn ein Verbündeter mit 0 Trefferpunkten seinen Zug in der Aura beginnt, erhält er 1 Trefferpunkt zurück.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Ausbessern
   schule: Verwandlung
   grad: Zaubertrick
@@ -356,6 +373,7 @@ zauber:
     der Riss oder die Bruchstelle in keiner Abmessung größer als 30 Zentimeter ist, wird nicht mehr zu erkennen sein, dass
     der Gegenstand beschädigt war. Dieser Zauber kann magische Gegenstände physisch reparieren, deren Magie jedoch nicht wiederherstellen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Äußerlichkeiten
   schule: Illusionszauber
   grad: 5. Grades
@@ -378,6 +396,7 @@ zauber:
     ausführt, um ein Ziel zu untersuchen, kann einen Intelligenzwurf (Nachforschungen) gegen deinen Zauberrettungswurf‑SG
     ausführen. Bei einem Erfolg weiß sie, dass das Ziel verkleidet wurde.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Ausspähung
   schule: Erkenntniszauber
   grad: 5. Grades
@@ -406,6 +425,7 @@ zauber:
     Anstelle einer Kreatur kannst du auf einen Ort zielen, den du schon einmal gesehen hast. In diesem Fall erscheint der
     Sensor an diesem Ort und bewegt sich nicht.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Baumwandeln
   schule: Beschwörungszauber
   grad: 5. Grades
@@ -425,6 +445,7 @@ zauber:
     du im Abstand von bis zu 1,5 Metern vom Baum, den du betreten hast. Du kannst diese Transportmöglichkeit nur einmal in
     jedem deiner Züge anwenden. Du musst jeden Zug außerhalb eines Baums beenden.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Befehl
   schule: Verzauberungszauber
   grad: 1. Grades
@@ -445,6 +466,7 @@ zauber:
     von Zauberplätzen höheren Grades: und beendet seinen Zug. Für jeden Zauberplatzgrad über dem 1. kannst du eine weitere
     Kreatur beeinflussen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Beistand
   schule: Bannzauber
   grad: 2. Grades
@@ -462,6 +484,7 @@ zauber:
     Trefferpunkte jedes Ziels um 5 Verwenden von Zauberplätzen höheren Grades: erhöht. Für jeden Zauberplatzgrad über dem
     2. werden die Trefferpunkte jedes Ziels um jeweils 5 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Bewegungsfreiheit
   schule: Bannzauber
   grad: 4. Grades
@@ -481,6 +504,7 @@ zauber:
     Verwenden von Zauberplätzen höheren Grades: die es gepackt hält) automatisch zu entkommen. Für jeden Zauberplatzgrad über
     dem 4. kannst du auf eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Bindung der Ebenen
   schule: Bannzauber
   grad: 5. Grades
@@ -508,6 +532,7 @@ zauber:
     einem Zauberplatzgrad von 6 auf zehn Tage, bei einem Zauberplatzgrad von 7 auf 30 Tage, bei einem Zauberplatzgrad von
     8 auf 180 Tage, bei einem Zauberplatzgrad von 9 auf 366 Tage.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Blindheit/Taubheit
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -525,6 +550,7 @@ zauber:
     Züge. Bei einem Verwenden von Zauberplätzen höheren Grades: Erfolg endet der Zauber. Für jeden Zauberplatzgrad über dem
     2. kannst du auf eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Blitz
   schule: Hervorrufungszauber
   grad: 3. Grades
@@ -540,6 +566,7 @@ zauber:
     so erleidet sie 8W6 Verwenden von Zauberplätzen höheren Grades: Blitzschaden, anderenfalls die Hälfte. Für jeden Zauberplatzgrad
     über dem 3. wird der Schaden um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Blitze herbeirufen
   schule: Beschwörungszauber
   grad: 3. Grades
@@ -559,6 +586,7 @@ zauber:
     neuen zu erschaffen. Unter diesen Umständen Verwenden von Zauberplätzen höheren Grades: wird der Schaden des Zaubers um
     1W10 erhöht. Für jeden Zauberplatzgrad über dem 3. wird der Schaden um 1W10 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Böser Blick
   schule: Nekromantiezauber
   grad: 6. Grades
@@ -581,6 +609,7 @@ zauber:
     endet dieser Schlaf: Effekt. Das Ziel ist bewusstlos. Es erwacht, wenn es Schaden erleidet oder eine andere Kreatur eine
     Aktion ausführt, um es wachzurütteln.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Botschaft
   schule: Verwandlung
   grad: Zaubertrick
@@ -598,6 +627,7 @@ zauber:
     wirken, wenn du mit dem Ziel vertraut bist und weißt, dass es sich hinter der Barriere befindet. Magische Stille, 30 Zentimeter
     Stein, Metall oder Holz sowie dünnes Bleiblech blockieren den Zauber.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Brennende Hände
   schule: Hervorrufungszauber
   grad: 1. Grades
@@ -613,6 +643,7 @@ zauber:
     nicht getragen oder gehalten werden, beginnen zu Verwenden von Zauberplätzen höheren Grades: brennen. Für jeden Zauberplatzgrad
     über dem 1. wird der Schaden um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Celestisches Wesen beschwören
   schule: Beschwörungszauber
   grad: 7. Grades
@@ -633,6 +664,7 @@ zauber:
     Kreatur kann von diesem Zauber nur einmal Verwenden von Zauberplätzen höheren Grades: pro Zug betroffen sein. Für jeden
     Zauberplatzgrad über dem 7. werden Heilung und Schaden um 1W12 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Chromatische Kugel
   schule: Hervorrufungszauber
   grad: 1. Grades
@@ -652,6 +684,7 @@ zauber:
     1. wird der Schaden um 1W8 erhöht. Die Kugel kann höchstens so oft springen, wie es dem Grad des verbrauchten Zauberplatzes
     entspricht, und jede Kreatur kann nur einmal das Ziel dieses Zaubers sein.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Dauerhafte Flamme
   schule: Hervorrufungszauber
   grad: 2. Grades
@@ -668,6 +701,7 @@ zauber:
     jedoch keine Wärme und verbraucht keinen Brennstoff. Die Flamme kann verdeckt oder verborgen, aber nicht erstickt oder
     gelöscht werden.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Dimensionstür
   schule: Beschwörungszauber
   grad: 4. Grades
@@ -688,6 +722,7 @@ zauber:
     deinem Zielbereich. Wenn mindestens einer von euch in einem Bereich eintreffen würde, der bereits vollständig von Gegenständen
     oder Kreaturen besetzt ist, erleidet ihr jeweils 4W6 Energieschaden, und die Teleportation misslingt.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Dissonantes Flüstern
   schule: Verzauberungszauber
   grad: 1. Grades
@@ -703,6 +738,7 @@ zauber:
     sicherste Route. Bei einem erfolgreichen Rettungswurf erleidet das Verwenden von Zauberplätzen höheren Grades: Ziel nur
     halb so viel Schaden. Für jeden Zauberplatzgrad über dem 1. wird der Schaden um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Donnerwoge
   schule: Hervorrufungszauber
   grad: 1. Grades
@@ -722,6 +758,7 @@ zauber:
     Meter weit von dir weggestoßen, und der Donnerschlag ist im Abstand von bis zu 90 Metern Verwenden von Zauberplätzen höheren
     Grades: zu hören. Für jeden Zauberplatzgrad über dem 1. wird der Schaden um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Dornenwand
   schule: Beschwörungszauber
   grad: 6. Grades
@@ -743,6 +780,7 @@ zauber:
     nur einmal pro Zug Verwenden von Zauberplätzen höheren Grades: ausführen. Für jeden Zauberplatzgrad über dem 6. werden
     beide Schadensarten um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Dornenwuchs
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -760,6 +798,7 @@ zauber:
     einen Weisheitswurf (Überlebenskunst oder Wahrnehmung) gegen deinen Zauberrettungswurf‑SG ausführen. Bei einem Erfolg
     erkennt sie das Gelände vor dem Betreten als gefährlich.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Drachen herbeirufen
   schule: Beschwörungszauber
   grad: 5. Grades
@@ -777,6 +816,7 @@ zauber:
     um Gefahren zu vermeiden. Verwende den Zauberplatzgrad als Zaubergrad im Wertekasten. MODRWMODRWMODRW S 19+4+4G 14+2+2K
     17+3+3 täeSon I 10+0+0W 14+2+2C 14+2+2 nteIha Merkmale Aktionen'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Drachenodem
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -793,6 +833,7 @@ zauber:
     höheren Grades: der ausgewählten Art, anderenfalls die Hälfte. Für jeden Zauberplatzgrad über dem 2. wird der Schaden
     um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Druidenkunst
   schule: Verwandlung
   grad: Zaubertrick
@@ -811,6 +852,7 @@ zauber:
     oder leichten Stinktiergeruch. Der Effekt muss in einen Feuerspiel: Würfel mit 1,5 Metern Kantenlänge passen. Du entzündest
     oder löschst eine Kerze, eine Fackel oder ein Lagerfeuer.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Dunkelheit
   schule: Hervorrufungszauber
   grad: 2. Grades
@@ -830,6 +872,7 @@ zauber:
     mit einem Bereich hellen oder dämmrigen Lichts überschneidet, das durch einen Zauber des höchstens 2. Grades erzeugt wurde,
     so wird der andere Zauber gebannt.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Dunkelsicht
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -845,6 +888,7 @@ zauber:
   beschreibung: Für die Wirkungsdauer hat eine bereitwillige Kreatur, die du berührst, Dunkelsicht mit einer Reichweite von
     45 Metern.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Dürre
   schule: Nekromantiezauber
   grad: 4. Grades
@@ -863,6 +907,7 @@ zauber:
     Sie führt keinen Rettungswurf aus, sondern verdorrt und stirbt. Verwenden von Zauberplätzen höheren Grades: Für jeden
     Zauberplatzgrad über dem 4. wird der Schaden um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Ebenenwechsel
   schule: Beschwörungszauber
   grad: 7. Grades
@@ -883,6 +928,7 @@ zauber:
     Existenzebene kennst, kann dich der Zauber zu diesem Kreis bringen. Ist der Kreis der Teleportation zu klein für alle
     transportieren Kreaturen, so erscheinen sie im nächsten freien Bereich neben dem Kreis.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Einfache Illusion
   schule: Illusion
   grad: Zaubertrick
@@ -906,6 +952,7 @@ zauber:
     1,5 Metern Kantenlänge sein. Es kann weder Geräu‑ sche noch Gerüche, Licht oder andere sensorische Effekte erzeugen. Physische
     Interaktionen mit dem Abbild enttarnen es als Illusion, da Dinge es einfach durchdringen können.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Einflüsterung
   schule: Verzauberungszauber
   grad: 2. Grades
@@ -927,6 +974,7 @@ zauber:
     Aktivität kann während der gesamten Wirkungsdauer fortgesetzt werden. Wenn sie jedoch in kürzerer Zeit abgeschlossen werden
     kann, endet der Zauber beim Ziel, sobald es die Aktivität ausgeführt hat.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Einkerkerung
   schule: Bannzauber
   grad: 9. Grades
@@ -957,6 +1005,7 @@ zauber:
     Sieg über ein bestimmtes Monster. Der Zauber  kann diesen Zauber nur beenden, wenn er mit einem Zauberplatz des 9. Grades
     entweder auf das Gefängnis oder auf die Komponente gewirkt wird, die beim Wirken dieses Zaubers verwendet wurde.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Einswerden mit der Natur
   schule: Erkenntniszauber
   grad: 5. Grades
@@ -977,6 +1026,7 @@ zauber:
     Orte von Gewässern Du könntest beispielsweise den Ort eines mächtigen Monsters im Bereich, den Ort von Gewässern sowie
     den Ort von Dörfern erfahren.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Eismesser
   schule: Beschwörungszauber
   grad: 1. Grades
@@ -994,6 +1044,7 @@ zauber:
     bestehen, oder sie Verwenden von Zauberplätzen höheren Grades: erleiden 2W6 Kälteschaden. Für jeden Zauberplatzgrad über
     dem 1. wird der Kälteschaden um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Eissturm
   schule: Hervorrufungszauber
   grad: 4. Grades
@@ -1011,6 +1062,7 @@ zauber:
     Ende deines nächsten Zugs zu schwierigem Verwenden von Zauberplätzen höheren Grades: Gelände. Für jeden Zauberplatzgrad
     über dem 4. wird der Wuchtschaden um 1W10 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Eiswand
   schule: Hervorrufungszauber
   grad: 6. Grades
@@ -1034,6 +1086,7 @@ zauber:
     Hälfte. Für jeden Zauberplatzgrad über dem 6. wird der Schaden, den die Wand beim Erscheinen bewirkt, um 2W6 erhöht, und
     der Schaden beim Durchqueren der eisigen Luftschicht wird um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Elementalismus
   schule: Verwandlung
   grad: Zaubertrick
@@ -1058,6 +1111,7 @@ zauber:
     kühlen Nebel, der Kreaturen und Gegenstände benetzt. Alternativ erzeugst du eine Tasse sauberen Wassers entweder in einem
     Behälter oder auf einer Oberfläche. Das Wasser ist nach einer Minute verdampft.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Elementar beschwören
   schule: Beschwörungszauber
   grad: 5. Grades
@@ -1078,6 +1132,7 @@ zauber:
     nach Art des Geists. Bei einem erfolgreichen Rettungswurf ist das Ziel nicht mehr vom Geist Verwenden von Zauberplätzen
     höheren Grades: festgesetzt. Für jeden Zauberplatzgrad über dem 5. wird der Schaden um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Energiekäfig
   schule: Hervorrufungszauber
   grad: 7. Grades
@@ -1103,6 +1158,7 @@ zauber:
     auf die Ätherebene und blockiert Magie bannen damit Reisen über diese Ebene. Dieser Zauber kann durch  nicht aufgehoben
     werden.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Energiewand
   schule: Hervorrufungszauber
   grad: 5. Grades
@@ -1122,6 +1178,7 @@ zauber:
     Sie ist gegen alle Schadensarten immun und kann Auflösung durch  nicht aufgehoben werden. Der Zauber  zerstört die Wand
     jedoch sofort. Die Wand erstreckt sich auch in die Ätherebene und blockiert damit Reisen über diese Ebene.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Erdbeben
   schule: Verwandlungszauber
   grad: 8. Grades
@@ -1150,6 +1207,7 @@ zauber:
     (Athletik) als Aktion bestehen, um sich zu befreien. Bei einem erfolgreichen Rettungswurf erleidet die Kreatur nur halb
     so viel Schaden.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Erde bewegen
   schule: Verwandlungszauber
   grad: 6. Grades
@@ -1174,6 +1232,7 @@ zauber:
     Veränderung des Geländes ein Gebäude instabil macht, so stürzt es möglicherweise ein. Dieser Zauber hat keinen direkten
     Einfluss auf Pflanzenwachstum. Die bewegte Erde nimmt Pflanzen mit sich.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Erinnerung verändern
   schule: Verzauberungszauber
   grad: 5. Grades
@@ -1205,6 +1264,7 @@ zauber:
     (7. Zauberplatzgrad), den vergangenen 365 Tagen (8. Zauberplatzgrad) oder zu einem beliebigen Zeitpunkt in der Vergangenheit
     der Kreatur (9. Zauberplatzgrad) stattgefunden hat.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Erschaffung
   schule: Illusionszauber
   grad: 5. Grades
@@ -1226,6 +1286,7 @@ zauber:
     Minute Verwenden von Zauberplätzen höheren Grades: Für jeden Zauberplatzgrad über dem 5. wird der Würfel um 1,5 Meter
     vergrößert.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Erwecken
   schule: Verwandlungszauber
   grad: 5. Grades
@@ -1245,6 +1306,7 @@ zauber:
     Die erweckte Kreatur ist bezaubert. Die Bezau‑ berung endet nach 30 Tagen, oder wenn du oder deine Verbündeten der Kreatur
     Schaden zufügen. Wenn die Bezauberung endet, wählt die Kreatur ihre Haltung dir gegenüber aus.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Explosion der Zauberei
   schule: Hervorrufung
   grad: Zaubertrick
@@ -1261,6 +1323,7 @@ zauber:
     die du dem Zauberschaden hinzufügen kannst, deinem Zauberwirken‑ Zaubertrick-Aufwertung: Attributsmodifikator. Der Schaden
     wird um jeweils 1W8 erhöht, wenn du die 5. (2W8), die 11. (3W8) und die 17. (4W8) Stufe erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Fallen finden
   schule: Erkenntniszauber
   grad: 2. Grades
@@ -1278,6 +1341,7 @@ zauber:
     Schwachstellen im Boden, keine instabilen Decken oder verborgene Senklöcher. Dieser Zauber enthüllt, dass eine Falle vorhanden
     ist, jedoch nicht, wo sie sich befindet. Du erfährst jedoch die allgemeine Art der Gefahr der Falle.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Falsches Leben
   schule: Nekromantiezauber
   grad: 1. Grades
@@ -1291,6 +1355,7 @@ zauber:
   beschreibung: 'Verwenden von Zauberplätzen höheren Grades: Du erhältst 2W4+4 temporäre Trefferpunkte. Für jeden Zauberplatzgrad
     über dem 1. erhältst du 5 zusätzliche temporäre Trefferpunkte.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Federfall
   schule: Verwandlungszauber
   grad: 1. Grades
@@ -1307,6 +1372,7 @@ zauber:
     für die Wirkungsdauer auf 18 Meter pro Runde. Wenn eine Kreatur während der Wirkungsdauer landet, erleidet sie keinen
     Schaden durch den Sturz, und der Zauber endet bei dieser Kreatur.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Feenfeuer
   schule: Hervorrufungszauber
   grad: 1. Grades
@@ -1323,6 +1389,7 @@ zauber:
     dämmriges Licht und profitieren nicht von Unsichtbarkeit. Angreifer sind bei Angriffswürfen gegen betroffene Kreaturen
     oder Gegenstände im Vorteil, sofern sie ihr Ziel sehen können.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Feenwesen beschwören
   schule: Beschwörungszauber
   grad: 6. Grades
@@ -1342,6 +1409,7 @@ zauber:
     im Abstand von bis zu Verwenden von Zauberplätzen höheren Grades: 1,5 Metern vom Geist ausführen. Für jeden Zauberplatzgrad
     über dem 6. wird der Schaden um 1W12 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Fesseln
   schule: Verzauberungszauber
   grad: 2. Grades
@@ -1357,6 +1425,7 @@ zauber:
     automatisch. Misslingt der Wurf, so hat das Ziel einen Malus von −10 auf Weisheitswürfe (Wahrnehmung) sowie auf Passive
     Wahrnehmung, bis der Zauber endet.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Fesselnder Schlag
   schule: Beschwörungszauber
   grad: 1. Grades
@@ -1374,6 +1443,7 @@ zauber:
     deinen Zauberrettungswurf‑SG ausführen. Verwenden von Zauberplätzen höheren Grades: Bei einem Erfolg endet der Zauber.
     Für jeden Zauberplatzgrad über dem 1. wird der Schaden um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Feuerball
   schule: Hervorrufungszauber
   grad: 3. Grades
@@ -1390,6 +1460,7 @@ zauber:
     Brennbare Gegenstände im Bereich, die nicht getragen oder gehalten werden, beginnen zu Verwenden von Zauberplätzen höheren
     Grades: brennen. Für jeden Zauberplatzgrad über dem 3. wird der Schaden um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Feuerpfeil
   schule: Hervorrufung
   grad: Zaubertrick
@@ -1405,6 +1476,7 @@ zauber:
     die er trifft und die nicht getragen oder gehalten Zaubertrick-Aufwertung: werden. Der Schaden wird um jeweils 1W10 erhöht,
     wenn du die 5. (2W10), die 11. (3W10) und die 17. (4W10) Stufe erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Feuerschild
   schule: Hervorrufungszauber
   grad: 4. Grades
@@ -1423,6 +1495,7 @@ zauber:
     geht der Schild außerdem in Flammen auf. Der Angreifer erleidet 2W8 Feuerschaden durch einen Wärmeschild oder 2W8 Kälteschaden
     durch einen Kälteschild.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Feuersturm
   schule: Hervorrufungszauber
   grad: 7. Grades
@@ -1439,6 +1512,7 @@ zauber:
     führt einen Geschicklichkeitsrettungswurf aus. Misslingt der Wurf, so erleidet sie 7W10 Feuerschaden, anderenfalls die
     Hälfte. Brennbare Gegenstände im Bereich, die nicht getragen oder gehalten werden, beginnen zu brennen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Feuerwand
   schule: Hervorrufungszauber
   grad: 4. Grades
@@ -1460,6 +1534,7 @@ zauber:
     von Zauberplätzen höheren Grades: Die andere Seite der Wand bewirkt keinen Schaden. Für jeden Zauberplatzgrad über dem
     4. wird der Schaden um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Finger des Todes
   schule: Nekromantiezauber
   grad: 7. Grades
@@ -1476,6 +1551,7 @@ zauber:
     Hälfte. Wenn ein Humanoide durch diesen Zauber getötet Zombie wird, steht er zu Beginn deines nächsten Zugs als (siehe
     „Monster“) wieder auf und folgt deinen verbalen Befehlen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Flammen erzeugen
   schule: Beschwörung
   grad: Zaubertrick
@@ -1492,6 +1568,7 @@ zauber:
     Führe einen Fernkampf‑ Zauberangriff aus. Bei einem Treffer erleidet das Zaubertrick-Aufwertung: Ziel 1W8 Feuerschaden.
     Der Schaden wird um jeweils 1W8 erhöht, wenn du die 5. (2W8), die 11. (3W8) und die 17. (4W8) Stufe erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Flammende Wolke
   schule: Beschwörungszauber
   grad: 8. Grades
@@ -1511,6 +1588,7 @@ zauber:
     Zug darin beendet. Eine Kreatur kann diesen Rettungswurf nur einmal pro Zug ausführen. Zu Beginn jedes deiner Züge bewegt
     sich die Wolke um drei Meter in einer Richtung deiner Wahl von dir weg.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Flammenklinge
   schule: Hervorrufungszauber
   grad: 2. Grades
@@ -1528,6 +1606,7 @@ zauber:
     in einem Radius von drei Metern helles Licht und in einem Radius von Verwenden von Zauberplätzen höheren Grades: weiteren
     drei Metern dämmriges Licht. Für jeden Zauberplatzgrad über dem 2. wird der Schaden um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Flammenkugel
   schule: Beschwörungszauber
   grad: 2. Grades
@@ -1550,6 +1629,7 @@ zauber:
     Licht sowie in einem Radius von weiteren sechs Metern Verwenden von Zauberplätzen höheren Grades: dämmriges Licht. Für
     jeden Zauberplatzgrad über dem 2. wird der Schaden um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Flammenschlag
   schule: Hervorrufungszauber
   grad: 5. Grades
@@ -1565,6 +1645,7 @@ zauber:
     Zauberplätzen höheren Grades: Hälfte. Für jeden Zauberplatzgrad über dem 5. werden Feuerschaden und gleißender Schaden
     um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Fleisch zu Stein
   schule: Verwandlungszauber
   grad: 6. Grades
@@ -1585,6 +1666,7 @@ zauber:
     einem hat. Wenn du dich für die gesamte Wirkungsdauer auf diesen Zauber konzentrierst, versteinert Vollständige Genesung
     die Kreatur, bis der Effekt durch den Zauber oder ähnliche Magie aufgehoben wird.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Flimmern
   schule: Verwandlungszauber
   grad: 3. Grades
@@ -1606,6 +1688,7 @@ zauber:
     verlassen hast. Ist innerhalb dieser Reichweite kein freier Bereich vorhanden, so erscheinst du im nächstgelegenen freien
     Bereich.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Fluch
   schule: Nekromantiezauber
   grad: 3. Grades
@@ -1627,6 +1710,7 @@ zauber:
     ab dem 5. Grad erfordert der Zauber keine Konzentration, und die Wirkungsdauer beträgt acht Stunden (Zauberplatzgrad 5–6)
     oder 24 Stunden (Zauberplatzgrad 7–8). Bei einem Zauberplatz des 9. Grades hält der Zauber an, bis er gebannt wird.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Fluch brechen
   schule: Bannzauber
   grad: 3. Grades
@@ -1643,6 +1727,7 @@ zauber:
     Gegenstand magisch, so bleibt der Fluch zwar bestehen, aber der Zauber bricht die Einstimmung des Besitzers, sodass der
     Gegenstand entfernt oder weggeworfen werden kann.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Flug
   schule: Verwandlungszauber
   grad: 3. Grades
@@ -1659,6 +1744,7 @@ zauber:
     höheren Grades: sofern es den Sturz nicht verhindern kann. Für jeden Zauberplatzgrad über dem 3. kannst du auf eine weitere
     Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Frostsphäre
   schule: Hervorrufungszauber
   grad: 6. Grades
@@ -1682,6 +1768,7 @@ zauber:
     die Kugel auch ablegen, ohne dass sie zerbirst. Ist sie nach einer Verwenden von Zauberplätzen höheren Grades: Minute
     nicht zerborsten, so explodiert sie. Für jeden Zauberplatzgrad über dem 6. wird der Schaden um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Furcht
   schule: Illusionszauber
   grad: 3. Grades
@@ -1700,6 +1787,7 @@ zauber:
     in einem Bereich, in dem du nicht in ihrer Sichtlinie bist, führt sie einen Weisheitsrettungswurf aus. Bei einem erfolgreichen
     Rettungswurf endet der Zauber bei der Kreatur.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Fürchterlicher Lachanfall
   schule: Verzauberungszauber
   grad: 1. Grades
@@ -1718,6 +1806,7 @@ zauber:
     durch Schaden ausgelöst wurde. Bei einem erfolgreichen Rettungswurf endet Verwenden von Zauberplätzen höheren Grades:
     der Zauber. Für jeden Zauberplatzgrad über dem 1. kannst du auf eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gasförmige Gestalt
   schule: Verwandlungszauber
   grad: 3. Grades
@@ -1739,6 +1828,7 @@ zauber:
     verwenden oder anderweitig mit ihnen interagieren. Außerdem kann es weder angreifen noch Zauber Verwenden von Zauberplätzen
     höheren Grades: wirken. Für jeden Zauberplatzgrad über dem 3. kannst du auf eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Geas
   schule: Verzauberungszauber
   grad: 5. Grades
@@ -1762,6 +1852,7 @@ zauber:
     Bei einem Zauberplatz des 7. oder 8. Grades beträgt die Wirkungsdauer 365 Tage. Bei einem Zauberplatz des 9. Grades hält
     der Zauber an, bis er durch einen der oben genannten Zauber gebannt wird.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gebet der Heilung
   schule: Bannzauber
   grad: 2. Grades
@@ -1777,6 +1868,7 @@ zauber:
     langen Rast Verwenden von Zauberplätzen höheren Grades: erneut Ziel dieses Zaubers werden. Für jeden Zauberplatzgrad über
     dem 2. wird die Heilung um 1W8 Trefferpunkte erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gedanken wahrnehmen
   schule: Erkenntniszauber
   grad: 2. Grades
@@ -1802,6 +1894,7 @@ zauber:
     auf seinen Verstand richtest, kann es als Aktion in seinem Zug einen Intelligenzwurf (Arkane Kunde) gegen deinen Zauberrettungswurf‑SG
     ausführen. Bei einem Erfolg endet der Zauber.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gedankendorn
   schule: Erkenntniszauber
   grad: 2. Grades
@@ -1820,6 +1913,7 @@ zauber:
     das Ziel sich nicht vor dir verstecken, und wenn es unsichtbar ist, gibt Verwenden von Zauberplätzen höheren Grades: ihm
     dieser Zustand gegen dich keine Vorzüge. Für jeden Zauberplatzgrad über dem 2. wird der Schaden um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gedankenleere
   schule: Bannzauber
   grad: 8. Grades
@@ -1835,6 +1929,7 @@ zauber:
     zum Wunsch Bestimmen seines Aufenthaltsorts auf magische Art betroffen. Kein Zauber – auch nicht  – kann Informationen
     über das Ziel sammeln, es aus der Ferne beobachten oder seinen Verstand kontrollieren.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gefühle besänftigen
   schule: Verzauberungszauber
   grad: 2. Grades
@@ -1853,6 +1948,7 @@ zauber:
     den erleidet oder sieht, dass seine Verbündeten Schaden erleiden. Wenn der Zauber endet, wird die Haltung der Kreatur
     wieder normal.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gegenstand aufspüren
   schule: Erkenntniszauber
   grad: 2. Grades
@@ -1875,6 +1971,7 @@ zauber:
     Schmuck, Waffe oder Werkzeug. Dieser Zauber kann den Gegenstand nicht aufspüren, wenn Blei den direkten Weg zwischen dir
     und dem Gegenstand blockiert – egal, welche Dicke das Blei hat es hat.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gegenstände beleben
   schule: Verwandlungszauber
   grad: 5. Grades
@@ -1902,6 +1999,7 @@ zauber:
     der Kreatur um 1W4 (höchstens mittelgroß), 1W6 (groß) oder 1W12 (riesig) erhöht. MODRWMODRWMODRW S 16+3+3G 10+0+0K 10+0+0
     täeSon I 3−4−4W 3−4−4C 1−5−5 nteIha Aktionen'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gegenzauber
   schule: Bannzauber
   grad: 3. Grades
@@ -1918,6 +2016,7 @@ zauber:
     aus. Misslingt der Wurf, so löst der Zauber sich ohne Effekt auf, und die Aktion, Bonusaktion oder Reaktion, mit der er
     gewirkt wurde, ist vergeudet. Wenn der Zauber mit einem Zauberplatz gewirkt wurde, so wird dieser nicht verbraucht.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gehässiger Spott
   schule: Verzauberung
   grad: Zaubertrick
@@ -1932,6 +2031,7 @@ zauber:
     und ist beim nächsten Angriffswurf vor dem Ende seines Zaubertrick-Aufwertung: nächsten Zugs im Nachteil. Der Schaden
     wird um jeweils 1W6 erhöht, wenn du die 5. (2W6), die 11. (3W6) und die 17. (4W6) Stufe erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Geheime Truhe
   schule: Beschwörungszauber
   grad: 4. Grades
@@ -1952,6 +2052,7 @@ zauber:
     Nachbildung zerstört wird. Wenn der Zauber endet, während sich die große Truhe auf der Ätherebene befindet, bleibt sie
     dort, bis sie von dir oder jemand anderem gefunden wird.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Geisterross
   schule: Illusionszauber
   grad: 3. Grades
@@ -1969,6 +2070,7 @@ zauber:
     20,8 Kilometer zurücklegen. Wenn der Zauber endet, verblasst das Ross allmählich, und der Reiter hat eine Minute zum Absteigen
     Zeit. Wenn das Ross Schaden erleidet, endet der Zauber vorzeitig.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gestalt verändern
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -1993,6 +2095,7 @@ zauber:
     normalen Schadens deines waffenlosen Angriffs, und du verwendest für die Angriffs‑ und Schadenswürfe deinen Zauberwirken-Attributsmodifikator
     statt Stärke.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gestaltwandel
   schule: Verwandlungszauber
   grad: 9. Grades
@@ -2015,6 +2118,7 @@ zauber:
     du, ob deine Ausrüstung zu Boden fällt oder ihre Form und Größe ändert, sodass sie zu deiner neuen Gestalt passt, solange
     du diese beibehältst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gift und Krankheit entdecken
   schule: Erkenntniszauber
   grad: 1. Grades
@@ -2032,6 +2136,7 @@ zauber:
     Der Zauber wird von 30 Zentimetern Stein, Erde oder Holz sowie von 2,5 Zentimetern Metall oder einer dünnen Bleischicht
     blockiert.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gift versprühen
   schule: Nekromantie
   grad: Zaubertrick
@@ -2048,6 +2153,7 @@ zauber:
     aus. Bei einem Treffer erleidet das Zaubertrick-Aufwertung: Ziel 1W12 Giftschaden. Der Schaden wird um jeweils 1W12 erhöht,
     wenn du die 5. (2W12), die 11. (3W12) und die 17. (4W12) Stufe erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Glyphe des Schutzes
   schule: Bannzauber
   grad: 3. Grades
@@ -2086,6 +2192,7 @@ zauber:
     Rune um 1W8 erhöht. In einer Zauberglyphe kannst du Zauber bis zum Glyphe des Schutzes Grad des Zauberplatzes speichern,
     den du zum Wirken der  verwendet hast.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Göttliche Führung
   schule: Erkenntnis
   grad: Zaubertrick
@@ -2099,6 +2206,7 @@ zauber:
   beschreibung: Du berührst eine bereitwillige Kreatur und wählst eine Fertigkeit aus. Bis der Zauber endet, fügt die Kreatur
     jedem Attributswurf, der die ausgewählte Fertigkeit verwendet, 1W4 hinzu.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Göttliche Gunst
   schule: Verwandlungszauber
   grad: 1. Grades
@@ -2111,6 +2219,7 @@ zauber:
   beschreibung: Für die Wirkungsdauer bewirkst du mit Angriffen, die du mit Waffen ausführst, bei jedem Treffer zusätzlich
     1W4 gleißenden Schaden.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Göttliches Niederstrecken
   schule: Hervorrufungszauber
   grad: 1. Grades
@@ -2125,6 +2234,7 @@ zauber:
     oder Verwenden von Zauberplätzen höheren Grades: ein Untoter ist. Für jeden Zauberplatzgrad über dem 1. wird der Schaden
     um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Göttliches Wort
   schule: Hervorrufungszauber
   grad: 7. Grades
@@ -2143,6 +2253,7 @@ zauber:
     21–30Das Ziel ist eine Stunde lang betäubt, blind und taub. 31–40Das Ziel ist zehn Minuten lang blind und taub. 41–50Das
     Ziel ist eine Minute lang taub.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gute Beeren
   schule: Beschwörungszauber
   grad: 1. Grades
@@ -2157,6 +2268,7 @@ zauber:
     eine Bonusaktion ausführen, um eine Beere zu verzehren. Dadurch wird 1 Trefferpunkt wiederhergestellt, und die Beere bietet
     der Kreatur genügend Nahrung für einen Tag. Wenn der Zauber endet, verschwinden Beeren, die nicht verzehrt wurden.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gutes und Böses bannen
   schule: Bannzauber
   grad: 5. Grades
@@ -2176,6 +2288,7 @@ zauber:
     Aktion berührst du eine Kreatur in Reichweite, die von mindestens einer solchen Kreatur bezaubert, verängstigt oder besessen
     ist. Das Ziel ist nun nicht mehr von solchen Kreaturen besessen, bezaubert oder verängstigt.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Gutes und Böses entdecken
   schule: Erkenntniszauber
   grad: 1. Grades
@@ -2191,6 +2304,7 @@ zauber:
     Zauber  in diesem Bereich aktiv ist. Der Zauber wird von 30 Zentimetern Stein, Erde oder Holz sowie von 2,5 Zentimetern
     Metall oder einer dünnen Bleischicht blockiert.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Halbebene
   schule: Beschwörungszauber
   grad: 8. Grades
@@ -2212,6 +2326,7 @@ zauber:
     außerdem Natur und Inhalt einer Halbebene bekannt, die von einer anderen Kreatur mit diesem Zauber erschaffen wurde, so
     kannst du die schattenhafte Tür stattdessen auch mit dieser Halbebene verbinden.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Hast
   schule: Verwandlungszauber
   grad: 3. Grades
@@ -2229,6 +2344,7 @@ zauber:
     Wenn der Zauber endet, ist das Ziel bis zum Ende seines nächsten Zugs kampfunfähig und hat eine Bewegungsrate von 0, weil
     es von einer Welle der Lethargie ergriffen wird.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Heilendes Wort
   schule: Bannzauber
   grad: 1. Grades
@@ -2244,6 +2360,7 @@ zauber:
     Zauberwirken‑Attributs‑ Verwenden von Zauberplätzen höheren Grades: modifikator zurück. Für jeden Zauberplatzgrad über
     dem 1. wird die Heilung um 2W4 Trefferpunkte erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Heilige Aura
   schule: Bannzauber
   grad: 8. Grades
@@ -2258,6 +2375,7 @@ zauber:
     ein Unhold oder ein Untoter eine betroffene Kreatur mit einem Nahkampfangriffswurf trifft, muss der Angreifer einen Konstitutionsrettungswurf
     bestehen, oder er ist bis zum Ende seines nächsten Zugs blind.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Heilige Flamme
   schule: Hervorrufung
   grad: Zaubertrick
@@ -2272,6 +2390,7 @@ zauber:
     bieten ihm bei diesem Rettungswurf keine Vorzüge. Zaubertrick-Aufwertung: Der Schaden wird um jeweils 1W8 erhöht, wenn
     du die 5. (2W8), die 11. (3W8) und die 17. (4W8) Stufe erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Heiliges Gespräch
   schule: Erkenntniszauber
   grad: 5. Grades
@@ -2289,6 +2408,7 @@ zauber:
     Antwort geben. Wenn du den Zauber vor einer langen Rast häufiger als einmal wirkst, erhöht dies das Risiko, keine Antwort
     zu erhalten, mit jedem Wirken nach dem ersten um jeweils 25 Prozent.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Heiligtum
   schule: Bannzauber
   grad: 1. Grades
@@ -2303,6 +2423,7 @@ zauber:
     sie ein neues Ziel auswählen, oder sie verliert den Angriff oder Zauber. Dieser Zauber schützt das Ziel nicht vor Wirkungsbereichen.
     Der Zauber endet, wenn die geschützte Kreatur einen Angriffswurf ausführt, einen Zauber wirkt oder Schaden bewirkt.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Heilung
   schule: Bannzauber
   grad: 6. Grades
@@ -2317,6 +2438,7 @@ zauber:
     Trefferpunkte zurückerhält. Außerdem beendet dieser Zauber die Zustände Blind, Taub und Vergiftet beim Ziel. Verwenden
     von Zauberplätzen höheren Grades: Für jeden Zauberplatzgrad über dem 6. wird die Heilung um 10 Trefferpunkte erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Heldenmahl
   schule: Beschwörungszauber
   grad: 6. Grades
@@ -2334,6 +2456,7 @@ zauber:
     Vorzüge, die 24 Stunden lang anhalten: Sie ist gegen Giftschaden resistent und gegen die Zustände Verängstigt und Vergiftet
     immun. Zudem wird ihr Trefferpunktemaximum um 2W10 erhöht, und sie erhält die gleiche Anzahl von Trefferpunkten dazu.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Heldenmut
   schule: Verzauberungszauber
   grad: 1. Grades
@@ -2349,6 +2472,7 @@ zauber:
     Verwenden von Zauberplätzen höheren Grades: Attributsmodifikators. Für jeden Zauberplatzgrad über dem 1. kannst du auf
     eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Hellsehen
   schule: Erkenntniszauber
   grad: 3. Grades
@@ -2369,6 +2493,7 @@ zauber:
     Bereich befinden. Als Bonusaktion kannst du zwischen Hören und Sehen wechseln. Unsichtbares sehen Eine Kreatur, die den
     Sensor sehen kann (beispiels‑ weise mit Wahrer Blick oder ), sieht eine etwa faustgroße leuchtende Kugel.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Herrliches Herrenhaus
   schule: Beschwörungszauber
   grad: 7. Grades
@@ -2396,6 +2521,7 @@ zauber:
     Zauber endet, werden alle Kreaturen und Gegenstände aus dem extradimensionalen Bereich in die freien Bereiche ausgestoßen,
     die dem Eingang am nächsten liegen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Höllischer Tadel
   schule: Hervorrufungszauber
   grad: 1. Grades
@@ -2410,6 +2536,7 @@ zauber:
     aus. Misslingt der Wurf, so erleidet sie 2W10 Feuerschaden, Verwenden von Zauberplätzen höheren Grades: anderenfalls die
     Hälfte. Für jeden Zauberplatzgrad über dem 1. wird der Schaden um 1W10 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Hüter des Glaubens
   schule: Beschwörungszauber
   grad: 4. Grades
@@ -2426,6 +2553,7 @@ zauber:
     der Wurf, so erleidet er 20 gleißenden Schaden, anderenfalls die Hälfte. Wenn der Wächter insgesamt 60 Schaden bewirkt
     hat, verschwindet er.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Hypnotisches Muster
   schule: Illusionszauber
   grad: 3. Grades
@@ -2444,6 +2572,7 @@ zauber:
     sind kampfunfähig und haben eine Bewegungsrate von 0. Der Zauber endet bei einer betroffenen Kreatur, wenn sie Schaden
     erleidet oder jemand anders eine Aktion verwendet, um die Kreatur aus ihrer Starre zu rütteln.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Identifizieren
   schule: Erkenntniszauber
   grad: 1. Grades
@@ -2460,6 +2589,7 @@ zauber:
     Gegenstand durch einen Zauber erzeugt wurde, erfährst du dessen Namen. Wenn du stattdessen beim Wirken des Zaubers eine
     Kreatur durchgehend berührst, erfährst du, von welchen Zaubern sie derzeit betroffen ist, falls zutreffend.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Illusionsschrift
   schule: Illusionszauber
   grad: 1. Grades
@@ -2479,6 +2609,7 @@ zauber:
     dir jedoch bekannt sein. Falls der Zauber gebannt wird, verschwinden sowohl die echte Schrift als auch die Illusion. Eine
     Kreatur mit Wahrer Blick kann die versteckte Nachricht lesen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Insektenplage
   schule: Beschwörungszauber
   grad: 5. Grades
@@ -2498,6 +2629,7 @@ zauber:
     Zauberplätzen höheren Grades: einmal pro Zug ausführen. Für jeden Zauberplatzgrad über dem 5. wird der Schaden um 1W10
     erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Irrgarten
   schule: Beschwörungszauber
   grad: 8. Grades
@@ -2513,6 +2645,7 @@ zauber:
     endet. Wenn der Zauber endet, erscheint das Ziel in dem Bereich, aus dem es wegteleportiert wurde, oder im nächstgelegenen
     freien Bereich wieder, falls der ursprüngliche inzwischen besetzt ist.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Kalte Hand
   schule: Nekromantie
   grad: Zaubertrick
@@ -2529,6 +2662,7 @@ zauber:
     zurückerhalten. Der Schaden wird um jeweils 1W10 erhöht, wenn du die 5. (2W10), die 11. (3W10) und die 17. (4W10) Stufe
     erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Kältekegel
   schule: Hervorrufungszauber
   grad: 5. Grades
@@ -2545,6 +2679,7 @@ zauber:
     Wird eine Kreatur durch diesen Zauber getötet, so wird sie zu Verwenden von Zauberplätzen höheren Grades: einer gefrorenen
     Statue, bis sie auftaut. Für jeden Zauberplatzgrad über dem 5. wird der Schaden um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Kältestrahl
   schule: Hervorrufung
   grad: Zaubertrick
@@ -2560,6 +2695,7 @@ zauber:
     deines nächsten Zugs um drei Meter verringert. Der Schaden wird um jeweils 1W8 erhöht, wenn du die 5. (2W8), die 11. (3W8)
     und die 17. (4W8) Stufe erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Kettenblitz
   schule: Hervorrufungszauber
   grad: 6. Grades
@@ -2577,6 +2713,7 @@ zauber:
     Verwenden von Zauberplätzen höheren Grades: Blitzschaden, anderenfalls die Hälfte. Für jeden Zauberplatzgrad über dem
     6. springt ein zusätzlicher Blitz vom ersten Ziel auf ein weiteres über.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Klingenbarriere
   schule: Hervorrufungszauber
   grad: 6. Grades
@@ -2594,6 +2731,7 @@ zauber:
     Bereich der Wand begeben oder ihren Zug darin beenden, führen den Rettungswurf aus. Jede Kreatur führt den Rettungswurf
     nur einmal pro Zug aus.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Klon
   schule: Nekromantiezauber
   grad: 8. Grades
@@ -2612,6 +2750,7 @@ zauber:
     seine Erinnerungen und Fähigkeiten, jedoch nicht seine Ausrüstung. Überreste der ursprünglichen Kreatur werden gegebenenfalls
     reglos und können nicht wiederbelebt werden, da sich die Seele der Kreatur anderswo befindet.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Klopfen
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -2631,6 +2770,7 @@ zauber:
     und geschlossen werden. Wenn du den Zauber wirkst, gibt dein Ziel ein lautes Klopfgeräusch von sich, welches bis zu 90
     Meter weit zu hören ist.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Kontakt zu anderen Ebenen
   schule: Erkenntniszauber
   grad: 5. Grades
@@ -2650,6 +2790,7 @@ zauber:
     als Antwort geben. Misslingt der Wurf, so erleidest du 6W6 psychischen Vollständige Genesung Schaden und bist kampfunfähig,
     bis du eine lange Rast beendest. Der Zauber beendet diesen Effekt.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Kreatur aufspüren
   schule: Erkenntniszauber
   grad: 4. Grades
@@ -2672,6 +2813,7 @@ zauber:
     durch die Zauber  oder , so kann dieser Zauber die Kreatur nicht aufspüren. Der Zauber kann die Kreatur auch dann nicht
     aufspüren, wenn Blei den direkten Weg zwischen dir und ihr blockiert – egal, welche Dicke das Blei hat.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Kreis der Teleportation
   schule: Beschwörungszauber
   grad: 5. Grades
@@ -2696,6 +2838,7 @@ zauber:
     zu erlernen, musst du sie eine Minute lang studieren. Wenn du diesen Zauber 365 Tage lang täglich am selben Ort wirkst,
     erschaffst du einen dauerhaften Kreis der Teleportation.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Kugel der Unverwundbarkeit
   schule: Bannzauber
   grad: 6. Grades
@@ -2713,6 +2856,7 @@ zauber:
     von Zauberplätzen höheren Grades: solcher Zauber ausgeschlossen. Für jeden Zauberplatzgrad über dem 6. blockiert die Barriere
     einen Grad höhere Zauber.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Lange Schritte
   schule: Verwandlungszauber
   grad: 1. Grades
@@ -2728,6 +2872,7 @@ zauber:
   beschreibung: 'Du berührst eine Kreatur. Für die Wirkungsdauer ist Verwenden von Zauberplätzen höheren Grades: die Bewegungsrate
     des Ziels um drei Meter erhöht. Für jeden Zauberplatzgrad über dem 1. kannst du auf eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Lautloses Trugbild
   schule: Illusionszauber
   grad: 1. Grades
@@ -2749,6 +2894,7 @@ zauber:
     erfolgreichen Intelligenzwurf (Nachforschungen) gegen deinen Zauberrettungswurf‑SG erkennen, dass es sich um eine Illusion
     handelt. Erkennt eine Kreatur die Illusion als solche, so wird das Abbild für sie durchscheinend.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Leicht
   schule: Hervorrufung
   grad: Zaubertrick
@@ -2766,6 +2912,7 @@ zauber:
     von weiteren sechs Metern dämmriges Licht. Du kannst die Farbe des Lichts frei wählen. Wird der Gegenstand mit etwas Undurchsichtigem
     abgedeckt, so wird das Licht blockiert. Der Zauber endet vorzeitig, wenn du ihn erneut wirkst.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Leid
   schule: Nekromantiezauber
   grad: 6. Grades
@@ -2780,6 +2927,7 @@ zauber:
     erlittenen nekrotischen Schadens verringert. Bei einem erfolgreichen Rettungswurf erleidet das Ziel nur halb so viel Schaden.
     Dieser Zauber kann das Trefferpunktemaximum des Ziels nicht unter 1 verringern.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Lenkendes Geschoss
   schule: Hervorrufungszauber
   grad: 1. Grades
@@ -2794,6 +2942,7 @@ zauber:
     nächsten Zugs gegen es Verwenden von Zauberplätzen höheren Grades: ausgeführt wird, ist im Vorteil. Für jeden Zauberplatzgrad
     über dem 1. wird der Schaden um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Leuchtfeuer der Hoffnung
   schule: Bannzauber
   grad: 3. Grades
@@ -2806,6 +2955,7 @@ zauber:
   beschreibung: Wähle eine beliebige Anzahl von Kreaturen in Reichweite aus. Für die Wirkungsdauer ist jedes Ziel bei Weisheits‑
     und Todesrettungswürfen im Vorteil und erhält bei jeder Heilung die höchstmögliche Anzahl von Trefferpunkten zurück.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Macht der Vorstellungskraft
   schule: Illusionszauber
   grad: 2. Grades
@@ -2831,6 +2981,7 @@ zauber:
     zufügen, sofern das Ziel sich im Bereich des Phänomens oder im Abstand von bis zu 1,5 Metern von ihm aufhält. Das Ziel
     erlebt den Schaden als von einer Art, die zur Illusion passt.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Mächtiges Trugbild
   schule: Illusionszauber
   grad: 3. Grades
@@ -2856,6 +3007,7 @@ zauber:
     durchscheinend und nimmt auch die anderen Verwenden von Zauberplätzen höheren Grades: sensorischen Eigenschaften abgeschwächt
     wahr. Bei einem Zauberplatz ab dem 4. Grad wirkt der Zauber, bis er gebannt wird, ohne dass er Konzentration erfordert.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Mächtige Unsichtbarkeit
   schule: Illusionszauber
   grad: 4. Grades
@@ -2869,6 +3021,7 @@ zauber:
   wirkungsdauer: Konzentration, bis zu 1 Minute
   beschreibung: Eine Kreatur, die du berührst, wird unsichtbar, bis der Zauber endet.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Magie bannen
   schule: Bannzauber
   grad: 3. Grades
@@ -2891,6 +3044,7 @@ zauber:
     der Zauber. Verwenden von Zauberplätzen höheren Grades: Du beendest automatisch einen Zauber, der auf das Ziel wirkt,
     wenn dessen Grad höchstens dem des Zauberplatzes entspricht, den du verwendest.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Magie entdecken
   schule: Erkenntniszauber
   grad: 1. Grades
@@ -2913,6 +3067,7 @@ zauber:
     so erkennst du dessen Schule der Magie. Der Zauber wird von 30 Zentimetern Stein, Erde oder Holz sowie von 2,5 Zentimetern
     Metall oder einer dünnen Bleischicht blockiert.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Magierhand
   schule: Beschwörung
   grad: Zaubertrick
@@ -2933,6 +3088,7 @@ zauber:
     du die Hand bis zu neun Meter weit bewegen. Die Hand kann nicht angreifen, keine magischen Gegenstände aktivieren und
     nicht mehr als fünf Kilogramm Gewicht tragen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Magierrüstung
   schule: Bannzauber
   grad: 1. Grades
@@ -2946,6 +3102,7 @@ zauber:
   beschreibung: Du berührst eine bereitwillige Kreatur, die keine Rüstung trägt. Für die Wirkungsdauer erhält das Ziel eine
     Basis‑RK von 13 plus ihrem Geschicklichkeitsmodifikator. Der Zauber endet vorzeitig, wenn das Ziel eine Rüstung anlegt.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Magische Aura des Arkanisten
   schule: Illusionszauber
   grad: 2. Grades
@@ -2965,6 +3122,7 @@ zauber:
     magisch, einen magischen Gegenstand nichtmagisch erscheinen lassen oder die magische Aura des Gegenstands so manipulieren,
     dass er einer Schule der Magie deiner Wahl anzugehören scheint.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Magisches Gefäß
   schule: Nekromantiezauber
   grad: 6. Grades
@@ -2997,6 +3155,7 @@ zauber:
     Behälter, wenn er zerstört wird, so kehrt sie in ihren Körper zurück, sofern er lebendig ist und sich im Abstand von bis
     zu 30 Metern von ihr befindet. Anderenfalls stirbt die Kreatur. Wenn der Zauber endet, wird der Behälter zerstört.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Magisches Geschoss
   schule: Hervorrufungszauber
   grad: 1. Grades
@@ -3012,6 +3171,7 @@ zauber:
     alle gleichzeitig. Du kannst bestimmen, ob sie dieselbe Verwenden von Zauberplätzen höheren Grades: oder verschiedene
     Kreaturen treffen. Für jeden Zauberplatzgrad über dem 1. erzeugt der Zauber einen weiteren Wurfpfeil.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Magischer Mund
   schule: Illusionszauber
   grad: 2. Grades
@@ -3036,6 +3196,7 @@ zauber:
     du bestimmen, dass die Botschaft übermittelt wird, sobald eine Kreatur sich dem Gegenstand auf neun Meter nähert oder
     wenn im Abstand von bis zu neun Metern vom Gegenstand eine Silberglocke geläutet wird.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Magische Waffe
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -3053,6 +3214,7 @@ zauber:
     du ihn erneut wirkst. Bei einem Zauberplatz des 3. bis 5. Grades wird der Bonus auf +2 erhöht. Bei einem Zauberplatz ab
     dem 6. Grad wird der Bonus auf +3 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Massen-Einflüsterung
   schule: Verzauberungszauber
   grad: 6. Grades
@@ -3076,6 +3238,7 @@ zauber:
     bei einem Zauber‑ platzgrad von 7 auf 10 Tage, bei einem Zauberplatz grad von 8 auf 30 Tage und bei einem Zauberplatzgrad
     von 9 auf 366 Tage.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Massen-Heilendes Wort
   schule: Bannzauber
   grad: 3. Grades
@@ -3090,6 +3253,7 @@ zauber:
     2W4 plus deinem Zauberwirken‑Attributs‑ Verwenden von Zauberplätzen höheren Grades: modifikator zurück. Für jeden Zauberplatzgrad
     über dem 3. wird die 160HSyesitluenmgr uemfe r1eWn4zd Torkeuffmerepnutn 5k.t2e. 1erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Massen-Heilung
   schule: Bannzauber
   grad: 9. Grades
@@ -3103,6 +3267,7 @@ zauber:
     wiederherstellen und nach deiner Wahl auf eine beliebige Anzahl von Kreaturen in Reichweite verteilen, die du sehen kannst.
     Von diesem Zauber geheilte Kreaturen werden außerdem von den Zuständen Blind, Taub und Vergiftet befreit.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Massen-Wunden heilen
   schule: Bannzauber
   grad: 5. Grades
@@ -3119,6 +3284,7 @@ zauber:
     5W8 plus deinem Verwenden von Zauberplätzen höheren Grades: Zauberwirken-Attributsmodifikator zurück. Für jeden Zauberplatzgrad
     über dem 5. wird die Heilung um 1W8 Trefferpunkte erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Metall erhitzen
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -3138,6 +3304,7 @@ zauber:
     sie den Gegenstand nicht fallen lässt, ist sie bis zum Beginn deines nächsten Zugs bei Verwenden von Zauberplätzen höheren
     Grades: Angriffs‑ und Attributswürfen im Nachteil. Für jeden Zauberplatzgrad über dem 2. wird der Schaden um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Meteoritenschwarm
   schule: Hervorrufungszauber
   grad: 9. Grades
@@ -3154,6 +3321,7 @@ zauber:
     Kreaturen im Wirkungsbereich von mehr als einer Feuerkugel sind nur einmal betroffen. Nichtmagische Gegenstände im Bereich,
     die nicht getragen oder gehalten werden, erleiden den gleichen Schaden und fangen Feuer, sofern sie brennbar sind.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Mit Pflanzen sprechen
   schule: Verwandlungszauber
   grad: 3. Grades
@@ -3174,6 +3342,7 @@ zauber:
     aber sie sind in der Lage, ihre Zweige, Ranken und Stiele für dich zu bewegen. Wenn sich eine Pflanzenkreatur in der Umgebung
     befindet, kannst du mit ihr kommunizieren, als würdet ihr dieselbe Sprache sprechen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Mit Stein verschmelzen
   schule: Verwandlungszauber
   grad: 3. Grades
@@ -3197,6 +3366,7 @@ zauber:
     Energieschaden. Wenn du ausgestoßen wirst, gelangst du in den freien Bereich, der deinem Eintrittspunkt am nächsten liegt,
     und hast den Zustand Liegend.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Mit Tieren sprechen
   schule: Erkenntniszauber
   grad: 1. Grades
@@ -3214,6 +3384,7 @@ zauber:
     oder Gefährtenschaft nicht viel zu sagen. Sie sind jedoch zumindest in der Lage, Informationen über nahe Orte und Monster
     sowie über Ereignisse mitzuteilen, die sie innerhalb des letzten Tages erlebt haben.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Mit Toten sprechen
   schule: Nekromantiezauber
   grad: 3. Grades
@@ -3235,6 +3406,7 @@ zauber:
     die Leiche keine neuen Informationen erhalten, weiß nichts, was nach ihrem Tod geschehen ist, und kann nicht über zukünftige
     Ereignisse mutmaßen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Mondstrahl
   schule: Hervorrufungszauber
   grad: 2. Grades
@@ -3255,6 +3427,7 @@ zauber:
     darin beendet. Eine Kreatur kann diesen Verwenden von Zauberplätzen höheren Grades: Rettungswurf nur einmal pro Zug ausführen.
     Für jeden Zauberplatzgrad über dem 2. wird der Schaden um 1W10 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Monster beherrschen
   schule: Verzauberungszauber
   grad: 8. Grades
@@ -3278,6 +3451,7 @@ zauber:
     dazu allerdings selbst eine Verwenden von Zauberplätzen höheren Grades: Reaktion ausführen. Deine Konzentration kann länger
     andauern: bei einem Zauberplatz des 9. Grades bis zu acht Stunden.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Monster bezaubern
   schule: Verzauberungszauber
   grad: 4. Grades
@@ -3297,6 +3471,7 @@ zauber:
     des Zaubers weiß das Ziel, dass es von dir bezaubert Verwenden von Zauberplätzen höheren Grades: wurde. Für jeden Zauberplatzgrad
     über dem 4. kannst du auf eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Monster festhalten
   schule: Verzauberungszauber
   grad: 5. Grades
@@ -3314,6 +3489,7 @@ zauber:
     höheren Grades: seiner Züge. Bei einem Erfolg endet der Zauber. Für jeden Zauberplatzgrad über dem 5. kannst du auf eine
     weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Nahrung und Wasser erschaffen
   schule: Beschwörungszauber
   grad: 3. Grades
@@ -3329,6 +3505,7 @@ zauber:
     und ist schlicht, aber nahrhaft. Das Wasser ist sauber. Die Nahrung verdirbt innerhalb von 24 Stunden, wenn sie nicht
     gegessen wird.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Nahrung und Wasser reinigen
   schule: Verwandlungszauber
   grad: 1. Grades
@@ -3343,6 +3520,7 @@ zauber:
   beschreibung: Du entfernst Gifte und Verderbnis aus nichtmagischen Speisen und Getränken in einer Kugel mit einem Radius
     von 1,5 Metern um einen Punkt deiner Wahl in Reichweite.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Nebelschritt
   schule: Beschwörungszauber
   grad: 2. Grades
@@ -3357,6 +3535,7 @@ zauber:
   beschreibung: Du bist kurz von einem silbrigen Nebel umgeben und teleportierst dich bis zu neun Meter weit in einen freien
     Bereich, den du sehen kannst.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Nebelwolke
   schule: Beschwörungszauber
   grad: 1. Grades
@@ -3374,6 +3553,7 @@ zauber:
     (wie solcher durch ) Verwenden von Zauberplätzen höheren Grades: sie auflöst. Für jeden Zauberplatzgrad über dem 1. wird
     der Radius des Nebels um sechs Meter erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Notfall
   schule: Bannzauber
   grad: 6. Grades
@@ -3393,6 +3573,7 @@ zauber:
     nur jeweils einen Notfall ‑Zauber verwenden. Wirkst du diesen Zauber Notfall erneut, so endet der Effekt eines anderen
     ‑ Zaubers auf dich.  endet auch dann, wenn du die Materialkomponente nicht mehr bei dir hast.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Person beherrschen
   schule: Verzauberungszauber
   grad: 5. Grades
@@ -3416,6 +3597,7 @@ zauber:
     andauern: bei einem Zauberplatz des 6. Grades bis zu zehn Minuten, bei einem Zauberplatz des 7. Grades bis zu einer Stunde
     und bei einem Zauberplatz ab dem 8. Grad bis zu acht Stunden.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Person bezaubern
   schule: Verzauberungszauber
   grad: 1. Grades
@@ -3435,6 +3617,7 @@ zauber:
     des Zaubers weiß das Ziel, dass es von dir bezaubert Verwenden von Zauberplätzen höheren Grades: wurde. Für jeden Zauberplatzgrad
     über dem 1. kannst du auf eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Person festhalten
   schule: Verzauberungszauber
   grad: 2. Grades
@@ -3454,6 +3637,7 @@ zauber:
     von Zauberplätzen höheren Grades: Bei einem Erfolg endet der Zauber. Für jeden Zauberplatzgrad über dem 2. kannst du auf
     einen weiteren Humanoiden zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Pflanzentor
   schule: Beschwörungszauber
   grad: 6. Grades
@@ -3468,6 +3652,7 @@ zauber:
     mindestens einmal gesehen oder berührt haben. Für die Wirkungsdauer kann jede Kreatur die verzauberte Pflanze betreten
     und steigt dann aus der Zielpflanze wieder heraus. Dafür benötigt sie 1,5 Meter ihrer Bewegungsrate.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Pflanzenwachstum
   schule: Verwandlungszauber
   grad: 3. Grades
@@ -3487,6 +3672,7 @@ zauber:
     Alle Pflanzen in einem Radius von 0,8 Kilometern um einen Punkt in Reichweite werden 365 Tage lang ertragreich. Bei der
     Ernte spenden sie Pflanzenwachstum doppelt so viel Nahrung wie gewöhnlich. Sie können nur von einem ‑Zauber pro Jahr profitieren.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Privates Heiligtum
   schule: Bannzauber
   grad: 4. Grades
@@ -3507,6 +3693,7 @@ zauber:
     Grades: selben Ort wirkst, wird der Effekt dauerhaft. Für jeden Zauberplatzgrad über dem 4. kannst du die Kantenlänge
     des Würfels um 30 Meter vergrößern.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Rascher Rückzug
   schule: Verwandlungszauber
   grad: 1. Grades
@@ -3520,6 +3707,7 @@ zauber:
   wirkungsdauer: Konzentration, bis zu 10 Minuten
   beschreibung: Du führst die Spurt‑Aktion aus, und bis der Zauber endet, kannst du sie erneut als Bonusaktion ausführen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Redegewandtheit
   schule: Verzauberungszauber
   grad: 8. Grades
@@ -3533,6 +3721,7 @@ zauber:
   beschreibung: Für die Wirkungsdauer kannst du das Ergebnis deiner Charismawürfe durch eine 15 ersetzen. Magie, die ermittelt,
     ob du die Wahrheit sagst, zeigt stets an, dass du die Wahrheit sagst – egal, was du in Wirklichkeit von dir gibst.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Regenbogenspiel
   schule: Hervorrufungszauber
   grad: 7. Grades
@@ -3559,6 +3748,7 @@ zauber:
     wird auf eine andere Existenzebene (nach Wahl des SL) teleportiert. 8Besonders: Das Ziel wird von zwei Strahlen getroffen.
     Würfle zweimal. Bei einem Ergebnis von 8 würfelst du erneut.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Regenbogenwand
   schule: Bannzauber
   grad: 9. Grades
@@ -3603,6 +3793,7 @@ zauber:
     wird auf eine andere Existenzebene (nach Wahl des SL) teleportiert. Zusätzliche Effekte: Diese Schicht wird durch den
     Zauber Magie bannen zerstört.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Regeneration
   schule: Verwandlungszauber
   grad: 7. Grades
@@ -3617,6 +3808,7 @@ zauber:
   beschreibung: Eine Kreatur, die du berührst, erhält 4W8+15 Trefferpunkte zurück. Für die Wirkungsdauer erhält das Ziel zu
     Beginn jedes seiner Züge 1 Trefferpunkt zurück, und fehlende Gliedmaßen wachsen nach zwei Minuten nach.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Reittier finden
   schule: Beschwörungszauber
   grad: 2. Grades
@@ -3640,6 +3832,7 @@ zauber:
     anderes herbeirufst. Verwende den Zauberplatzgrad als Zaubergrad im Wertekasten. MODRWMODRWMODRW S 18+4+4G 12+1+1K 14+2+2
     täeSon I 6−2−2W 12+1+1C 8−1−1 nteIha Merkmale Aktionen Bonusaktionen'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Rieseninsekt
   schule: Beschwörungszauber
   grad: 4. Grades
@@ -3659,6 +3852,7 @@ zauber:
     als Zaubergrad im Wertekasten. MODRWMODRWMODRW S 17+3+3G 13+1+1K 15+2+2 täeSon I 4−3−3W 14+2+2C 3−4−4 nteIha Merkmale
     Aktionen Bonusaktionen'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Rindenhaut
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -3672,6 +3866,7 @@ zauber:
   beschreibung: Du berührst eine bereitwillige Kreatur. Für die Wirkungsdauer nimmt die Haut des Ziels ein rindenartiges Erscheinungsbild
     an, und das Ziel erhält eine Rüstungsklasse von 17, sofern seine RK niedriger ist.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Sagenkunde
   schule: Erkenntniszauber
   grad: 5. Grades
@@ -3691,6 +3886,7 @@ zauber:
     korrekt, können aber nach Ermessen des SL in bildlicher Sprache oder in Versform übermittelt werden. Wenn das Objekt deines
     Interesses eigentlich nicht berühmt ist, hörst du einige traurige Posaunentöne, und der Zauber misslingt.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Sanfte Ruhe
   schule: Nekromantiezauber
   grad: 2. Grades
@@ -3706,6 +3902,7 @@ zauber:
     geschützt und kann nicht untot werden. Der Zauber verlängert dadurch auch die Dauer, in der das Ziel wiederbelebt werden
     kann, da die Tote erwecken Tage unter dem Einfluss dieses Zaubers bei Zaubern wie  nicht als verstrichene Zeit zählen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Säurepfeil
   schule: Hervorrufungszauber
   grad: 2. Grades
@@ -3721,6 +3918,7 @@ zauber:
     von Zauberplätzen höheren Grades: die Hälfte des anfänglichen Schadens zuzufügen. Für jeden Zauberplatzgrad über dem 2.
     werden anfänglicher sowie späterer Schaden jeweils um 1W4 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Säurespritzer
   schule: Hervorrufung
   grad: Zaubertrick
@@ -3736,6 +3934,7 @@ zauber:
     sie erleidet 1W6 Säureschaden. Der Schaden wird um jeweils 1W6 erhöht, wenn du die 5. (2W6), die 11. (3W6) und die 17.
     (4W6) Stufe erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schauriger Strahl
   schule: Hervorrufung
   grad: Zaubertrick
@@ -3751,6 +3950,7 @@ zauber:
     Stufe erreichst. Du kannst die Strahlen alle auf dasselbe Ziel oder auf jeweils unterschiedliche Ziele lenken. Führe für
     jeden Strahl einen eigenen Angriffswurf aus.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Scheingelände
   schule: Illusionszauber
   grad: 4. Grades
@@ -3773,6 +3973,7 @@ zauber:
     Zauberrettungswurf‑SG ausführen, um sie zu durchschauen. Wenn eine Kreatur die Illusion als solche erkennt, sieht sie
     diese als ein dem eigentlichen Gelände überlagertes vages Bild.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schild
   schule: Bannzauber
   grad: 1. Grades
@@ -3788,6 +3989,7 @@ zauber:
     du einen Bonus von +5 auf deine RK (auch Magisches Geschoss gegen den auslösenden Angriff), und du erleidest keinen Schaden
     durch .
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schild des Glaubens
   schule: Bannzauber
   grad: 1. Grades
@@ -3801,6 +4003,7 @@ zauber:
   beschreibung: Ein schimmerndes Feld umgibt eine Kreatur deiner Wahl in Reichweite und gewährt ihr für die Wirkungsdauer
     einen Bonus von +2 auf ihre RK.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schlaf
   schule: Verzauberungszauber
   grad: 1. Grades
@@ -3819,6 +4022,7 @@ zauber:
     ausführt, um es zu schütteln. Kreaturen, die wie Elfen nicht schlafen oder die gegen den Zustand Erschöpft immun sind,
     bestehen Rettungswürfe gegen diesen Zauber automatisch.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schmieren
   schule: Beschwörungszauber
   grad: 1. Grades
@@ -3835,6 +4039,7 @@ zauber:
     Zustand Liegend hat. Auch Kreaturen, die den Bereich betreten oder ihren Zug darin beginnen, müssen diesen Rettungswurf
     bestehen, um nicht auszurutschen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schneesturm
   schule: Beschwörungszauber
   grad: 3. Grades
@@ -3852,6 +4057,7 @@ zauber:
     den Zug darin beginnt, muss sie einen Geschicklichkeitsrettungswurf bestehen, oder sie stürzt hin, sodass sie liegend
     ist, und verliert ihre Konzentration.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schockgriff
   schule: Hervorrufung
   grad: Zaubertrick
@@ -3867,6 +4073,7 @@ zauber:
     keine Zaubertrick-Aufwertung: Gelegenheitsangriffe ausführen. Der Schaden wird um jeweils 1W8 erhöht, wenn du die 5. (2W8),
     die 11. (3W8) und die 17. (4W8) Stufe erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schutz vor Energie
   schule: Bannzauber
   grad: 3. Grades
@@ -3883,6 +4090,7 @@ zauber:
   beschreibung: 'Für die Wirkungsdauer ist eine bereitwillige Kreatur, die du berührst, gegen eine Schadensart deiner Wahl
     resistent: Blitz, Feuer, Kälte, Säure oder Schall.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schutz vor Gift
   schule: Bannzauber
   grad: 2. Grades
@@ -3898,6 +4106,7 @@ zauber:
   beschreibung: Du berührst eine Kreatur und beendest bei ihr den Zustand Vergiftet. Für die Wirkungsdauer ist das Ziel bei
     Rettungswürfen zum Vermeiden oder Beenden des Zustands Vergiftet im Vorteil und gegen Giftschaden resistent.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schutz vor Gut und Böse
   schule: Bannzauber
   grad: 1. Grades
@@ -3917,6 +4126,7 @@ zauber:
     Typs besessen, bezaubert oder verängstigt werden. Wenn das Ziel bereits von einer solchen Kreatur besessen, bezaubert
     oder verängstigt ist, so ist es bei jedem neuen Rettungswurf gegen den entsprechenden Effekt im Vorteil.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schützendes Band
   schule: Bannzauber
   grad: 2. Grades
@@ -3935,6 +4145,7 @@ zauber:
     auf 0 sinken oder ihr euch weiter als 18 Meter voneinander entfernt. Der Zauber endet auch, wenn er auf einen der beiden
     Beteiligten erneut gewirkt wird.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schutzgeister
   schule: Beschwörungszauber
   grad: 3. Grades
@@ -3955,6 +4166,7 @@ zauber:
     höheren Grades: Rettungswurf nur einmal pro Zug ausführen. Für jeden Zauberplatzgrad über dem 3. wird der Schaden um 1W8
     erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schutzhülle gegen Lebendes
   schule: Bannzauber
   grad: 5. Grades
@@ -3969,6 +4181,7 @@ zauber:
     und mit Fernkampfwaffen oder Waffen mit Reichweite durch die Barriere angreifen. Wenn du dich so bewegst, dass eine betroffene
     Kreatur die Barriere passieren muss, endet der Zauber.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schutzkreis
   schule: Bannzauber
   grad: 3. Grades
@@ -3992,6 +4205,7 @@ zauber:
     ausgewählten Typs den Zylinder nicht verlassen können und Ziele außerhalb des Zylinders Verwenden von Zauberplätzen höheren
     Grades: geschützt sind. Für jeden Zauberplatzgrad über dem 3. wird die Wirkungsdauer um eine Stunde erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schwache Elementare beschwören
   schule: Beschwörungszauber
   grad: 4. Grades
@@ -4008,6 +4222,7 @@ zauber:
     ausführst). Außerdem ist der Boden innerhalb der Ausströmung Verwenden von Zauberplätzen höheren Grades: schwieriges Gelände
     für deine Gegner. Für jeden Zauberplatzgrad über dem 4. wird der Schaden um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schwache Genesung
   schule: Bannzauber
   grad: 2. Grades
@@ -4023,6 +4238,7 @@ zauber:
   wirkungsdauer: Unmittelbar
   beschreibung: 'Du berührst eine Kreatur und beendest einen Zustand bei ihr: Blind, Gelähmt, Taub oder Vergiftet.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schwächestrahl
   schule: Nekromantiezauber
   grad: 2. Grades
@@ -4039,6 +4255,7 @@ zauber:
     im Nachteil. Während dieser Dauer zieht es außerdem 1W8 von all seinen Schadenswürfen ab. Das Ziel wiederholt den Rettungswurf
     am Ende jedes seiner Züge. Bei einem Erfolg endet der Zauber.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schwarze Tentakel
   schule: Beschwörungszauber
   grad: 4. Grades
@@ -4055,6 +4272,7 @@ zauber:
     den Rettungswurf aus. Jede Kreatur führt den Rettungswurf nur einmal pro Zug aus. Eine festgesetzte Kreatur kann als Aktion
     einen Stärkewurf (Athletik) gegen deinen Zauberrettungs‑ wurf‑SG ausführen. Bei einem Erfolg endet der Zustand bei ihr.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schweben
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -4074,6 +4292,7 @@ zauber:
     Bewegung anheben oder absenken. Anderenfalls kannst du das Ziel mit einer magischen Aktion bewegen. Dabei musst du die
     Reichweite des Zaubers einhalten. Wenn der Zauber endet und das Ziel noch schwebt, sinkt es sanft zu Boden.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schwebende Scheibe
   schule: Beschwörungszauber
   grad: 1. Grades
@@ -4094,6 +4313,7 @@ zauber:
     erschaffen wurde. Wenn du dich um mehr als 30 Meter von der Scheibe entfernst (meist, weil sie sich nicht um ein Hindernis
     bewegen kann, um dir zu folgen), endet der Zauber.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Schwerkraft umkehren
   schule: Verwandlungszauber
   grad: 7. Grades
@@ -4114,6 +4334,7 @@ zauber:
     das Ziel für die Wirkungsdauer schwebend dort. Wenn der Zauber endet, fallen betroffene Gegenstände und Kreaturen nach
     unten.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Segnen
   schule: Verzauberungszauber
   grad: 1. Grades
@@ -4128,6 +4349,7 @@ zauber:
     oder Rettungswurf ausführt, fügt Verwenden von Zauberplätzen höheren Grades: es dem Ergebnis 1W4 hinzu. Für jeden Zauberplatzgrad
     über dem 1. kannst du auf eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Seiltrick
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -4145,6 +4367,7 @@ zauber:
     Raum weder von innen noch von außen durchdringen. Kreaturen im Raum können jedoch durch das Portal nach draußen blicken.
     Alles, was im Raum enthalten ist, fällt heraus, wenn der Zauber endet.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Selbstverkleidung
   schule: Illusionszauber
   grad: 1. Grades
@@ -4165,6 +4388,7 @@ zauber:
     eine Kreatur die Studieren‑Aktion ausführen, um dein Erscheinungsbild zu untersuchen, und einen Intelligenzwurf (Nachforschungen)
     gegen deinen Zauberrettungswurf‑SG bestehen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Sengender Strahl
   schule: Hervorrufungszauber
   grad: 2. Grades
@@ -4180,6 +4404,7 @@ zauber:
     höheren Grades: Ziel 2W6 Feuerschaden pro Strahl. Für jeden Zauberplatzgrad über dem 2. kannst du einen zusätzlichen Strahl
     erzeugen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Sengendes Niederstrecken
   schule: Hervorrufungszauber
   grad: 1. Grades
@@ -4195,6 +4420,7 @@ zauber:
     Bei einem Verwenden von Zauberplätzen höheren Grades: erfolgreichen Rettungswurf endet der Zauber. Für jeden Zauberplatzgrad
     über dem 1. wird jeder Schaden um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Shillelagh
   schule: Verwandlung
   grad: Zaubertrick
@@ -4211,6 +4437,7 @@ zauber:
     wenn du ihn erneut Zaubertrick-Aufwertung: wirkst oder die Waffe loslässt. Der Schadenswürfel ändert sich, wenn du die
     5. (W10), die 11. (W12) und die 17. (2W6) Stufe erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Simulakrum
   schule: Illusionszauber
   grad: 7. Grades
@@ -4232,6 +4459,7 @@ zauber:
     zu 1,5 Metern von dir bleiben. Das Simulakrum bleibt bestehen, bis seine Trefferpunkte auf 0 sinken. Dann wird es wieder
     zu Schnee oder Eis und schmilzt. Wirkst du diesen Zauber erneut, so wird das vorige Simulakrum sofort zerstört.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Sofortige Beschwörung
   schule: Beschwörungszauber
   grad: 6. Grades
@@ -4250,6 +4478,7 @@ zauber:
     wenn der Saphir zerstört wird. Stattdessen erfährst du, wer die Kreatur ist, die ihn bei sich hat, und wo sie sich aktuell
     befindet.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Sonnenfeuer
   schule: Hervorrufungszauber
   grad: 8. Grades
@@ -4268,6 +4497,7 @@ zauber:
     so viel Schaden. Eine von diesem Zauber geblendete Kreatur führt am Ende jedes ihrer Züge einen weiteren Konstitutionsrettungswurf
     aus. Bei einem Erfolg endet der Effekt bei ihr. Dieser Zauber bannt durch beliebige Zauber erschaffene Dunkelheit im Bereich.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Sonnenstrahl
   schule: Hervorrufungszauber
   grad: 6. Grades
@@ -4287,6 +4517,7 @@ zauber:
     die Wirkungsdauer erstrahlt ein heller Funke über dir. Er spendet in einem Radius von neun Metern helles Licht und in
     einem Radius von weiteren neun Metern dämmriges Licht. Beim Licht handelt es sich um Sonnenlicht.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Spätzündender Feuerball
   schule: Hervorrufungszauber
   grad: 7. Grades
@@ -4309,6 +4540,7 @@ zauber:
     Gegenstände im Explosionsbereich, die nicht Verwenden von Zauberplätzen höheren Grades: getragen oder gehalten werden,
     zu brennen. Für jeden Zauberplatzgrad über dem 7. wird der Grundschaden um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Spiegelbilder
   schule: Illusionszauber
   grad: 2. Grades
@@ -4329,6 +4561,7 @@ zauber:
     zerstört wurden, endet der Zauber. Eine Kreatur ist von diesem Zauber nicht betroffen, wenn sie den Zustand Blind hat
     oder aber über Blindsicht oder Wahrer Blick verfügt.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Spinnenklettern
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -4345,6 +4578,7 @@ zauber:
     Verwenden von Zauberplätzen höheren Grades: in Höhe seiner Bewegungsrate. Für jeden Zauberplatzgrad über dem 2. kannst
     du auf eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Spinnennetz
   schule: Beschwörungszauber
   grad: 2. Grades
@@ -4367,6 +4601,7 @@ zauber:
     innerhalb von einer Runde, wenn sie mit Feuer in Kontakt kommen, und fügen dabei allen Kreaturen, die ihren Zug im Feuer
     beginnen, 2W4 Feuerschaden zu.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Sprachen verstehen
   schule: Erkenntniszauber
   grad: 1. Grades
@@ -4383,6 +4618,7 @@ zauber:
     verstehst du jede Schriftsprache, die du liest, sofern du die Oberfläche berührst, auf der die Worte geschrieben stehen.
     Eine Seite Text zu lesen dauert etwa eine Minute. Dieser Zauber entschlüsselt weder Symbole noch Geheimbotschaften.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Sprühende Farben
   schule: Illusionszauber
   grad: 1. Grades
@@ -4397,6 +4633,7 @@ zauber:
   beschreibung: Du entfesselst schillernde bunte Lichter. Jede Kreatur in einem von dir ausgehenden Kegel von 4,5 Metern muss
     einen Konstitutionsrettungswurf bestehen, oder sie ist bis zum Ende deines nächsten Zugs blind.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Sprung
   schule: Verwandlungszauber
   grad: 1. Grades
@@ -4413,6 +4650,7 @@ zauber:
     zu neun Meter weit springen, indem sie Verwenden von Zauberplätzen höheren Grades: drei Meter ihrer Bewegungsrate verbraucht.
     Für jeden Zauberplatzgrad über dem 1. kannst du auf eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Spurloses Gehen
   schule: Bannzauber
   grad: 2. Grades
@@ -4427,6 +4665,7 @@ zauber:
     jede Kreatur deiner Wahl habt in der Aura einen Bonus von +10 auf Geschicklichkeitswürfe (Heimlichkeit), und ihr hinterlasst
     keine Spuren.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Stein formen
   schule: Verwandlungszauber
   grad: 4. Grades
@@ -4445,6 +4684,7 @@ zauber:
     Der von dir erschaffene Gegenstand kann bis zu zwei Scharniere und einen Riegel besitzen, feinere mechanische Details
     sind jedoch nicht möglich.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Steinhaut
   schule: Verwandlungszauber
   grad: 4. Grades
@@ -4460,6 +4700,7 @@ zauber:
   beschreibung: Bis der Zauber endet, ist eine bereitwillige Kreatur, die du berührst, gegen Hieb‑, Stich‑ und Wuchtschaden
     resistent.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Steinwand
   schule: Hervorrufungszauber
   grad: 5. Grades
@@ -4489,6 +4730,7 @@ zauber:
     bringen könnte. Konzentrierst du dich für die gesamte Wirkungs‑ dauer auf diesen Zauber, so wird die Wand dauerhaft und
     kann nicht gebannt werden. Anderenfalls verschwindet sie, wenn der Zauber endet.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Sternenfunke
   schule: Hervorrufung
   grad: Zaubertrick
@@ -4504,6 +4746,7 @@ zauber:
     spendet es in einem Radius von drei Metern Zaubertrick-Aufwertung: dämmriges Licht und kann nicht unsichtbar werden. Der
     Schaden wird um jeweils 1W8 erhöht, wenn du die 5. (2W8), die 11. (3W8) und die 17. (4W8) Stufe erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Stille
   schule: Illusionszauber
   grad: 2. Grades
@@ -4520,6 +4763,7 @@ zauber:
     und Gegenstände, die sich vollständig in der Kugel befinden, sind taub und gegen Schallschaden immun. In der Kugel können
     keine Zauber mit Verbalkomponente gewirkt werden.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Stinkende Wolke
   schule: Beschwörungszauber
   grad: 3. Grades
@@ -4537,6 +4781,7 @@ zauber:
     bestehen, oder sie ist bis zum Ende des aktuellen Zugs vergiftet. Eine auf diese Art vergiftete Kreatur kann weder eine
     Aktion noch eine Bonusaktion ausführen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Strahl der Übelkeit
   schule: Nekromantiezauber
   grad: 1. Grades
@@ -4551,6 +4796,7 @@ zauber:
     gegen das Ziel aus. Bei einem Treffer erleidet das Ziel 2W8 Giftschaden und ist bis zum Verwenden von Zauberplätzen höheren
     Grades: Ende deines nächsten Zugs vergiftet. Für jeden Zauberplatzgrad über dem 1. wird der Schaden um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Strahlendes Niederstrecken
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -4565,6 +4811,7 @@ zauber:
     Licht, Angriffswürfe gegen es sind im Vorteil, und es kann Verwenden von Zauberplätzen höheren Grades: nicht unsichtbar
     werden. Für jeden Zauberplatzgrad über dem 2. wird der Schaden um 1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Sturm der Vergeltung
   schule: Beschwörungszauber
   grad: 9. Grades
@@ -4585,6 +4832,7 @@ zauber:
     erleidet 1W6 Kälteschaden. Bis der Zauber endet, ist der Bereich schwieriges Gelände sowie komplett verschleiert, Fernkampfangriffe
     mit Waffen sind darin nicht möglich, und es fegen starke Stürme hindurch.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Symbol
   schule: Bannzauber
   grad: 7. Grades
@@ -4624,6 +4872,7 @@ zauber:
     der Wurf, so streitet sich das Ziel eine Minute lang mit anderen Kreaturen. Während dieser Zeit ist es nicht zu sinnvollen
     Gesprächen in der Lage und bei Angriffs‑ sowie Attributswürfen im Nachteil.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Tageslicht
   schule: Hervorrufungszauber
   grad: 3. Grades
@@ -4645,6 +4894,7 @@ zauber:
     Wirkungsbereich dieses Zaubers mit einem Bereich von Dunkelheit überschneidet, der durch einen Zauber des höchstens 3.
     Grades erzeugt wurde, so wird der andere Zauber gebannt.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Tanzende Lichter
   schule: Illusion
   grad: Zaubertrick
@@ -4663,6 +4913,7 @@ zauber:
     bewegen. Jedes Licht muss sich im Abstand von bis zu sechs Metern von einem anderen durch diesen Zauber erzeugten Licht
     befinden. Wenn ein Licht die Reichweite des Zaubers verlässt, erlischt es.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Taschenspielerei
   schule: Verwandlung
   grad: Zaubertrick
@@ -4687,6 +4938,7 @@ zauber:
     illusionäres Bild, das in deine Hand passt. Es bleibt bis zum Ende deines nächsten Zugs bestehen. Diese Schöpfung kann
     keinen Schaden bewirken und hat keinen Geldwert.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Telekinese
   schule: Verwandlungszauber
   grad: 5. Grades
@@ -4712,6 +4964,7 @@ zauber:
     neun Meter in eine beliebige Richtung in Reichweite des Zaubers. Du kannst mit deinem telekinetischen Griff Gegenstände
     präzise steuern, beispielsweise ein einfaches Werkzeug verwenden.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Telepathische Bindung
   schule: Erkenntniszauber
   grad: 5. Grades
@@ -4728,6 +4981,7 @@ zauber:
     unabhängig davon, ob sie eine gemeinsame Sprache sprechen. Die Kommunikation ist auf jede Entfernung möglich, reicht allerdings
     nicht bis auf andere Existenzebenen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Teleportieren
   schule: Beschwörungszauber
   grad: 7. Grades
@@ -4766,6 +5020,7 @@ zauber:
     Osten, 2: Südosten, 3: Süden, 4: Südwesten, 5: Westen, 6: Nordwesten, Am Zielort: 7: Norden, 8: Nordosten. Du erscheinst
     mit deiner Gruppe (oder dem Gegenstand) dort, wo du hinwolltest.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Thaumaturgie
   schule: Verwandlung
   grad: Zaubertrick
@@ -4785,6 +5040,7 @@ zauber:
     Flüstern. Du lässt unmittelbar eine unverschlossene Tür oder ein unverschlossenes Veränderte Augen: Fenster auffliegen
     oder zuschlagen. Du veränderst für eine Minute das Aussehen deiner Augen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Tier beherrschen
   schule: Verzauberungszauber
   grad: 4. Grades
@@ -4808,6 +5064,7 @@ zauber:
     bei einem Zauberplatz des 5. Grades bis zu zehn Minuten, bei einem Zauberplatz des 6. Grades bis zu einer Stunde und bei
     einem Zauberplatz ab dem 7. Grad bis zu acht Stunden.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Tierbote
   schule: Verzauberungszauber
   grad: 2. Grades
@@ -4830,6 +5087,7 @@ zauber:
     an dem du den Zauber gewirkt Verwenden von Zauberplätzen höheren Grades: hast. Für jeden Zauberplatzgrad über dem 2. wird
     die Wirkungsdauer des Zaubers um 48 Stunden erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Tiere beschwören
   schule: Beschwörungszauber
   grad: 3. Grades
@@ -4851,6 +5109,7 @@ zauber:
     höheren Grades: Rettungswurf nur einmal pro Zug ausführen. Für jeden Zauberplatzgrad über dem 3. wird der Schaden um 1W10
     erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Tiere oder Pflanzen aufspüren
   schule: Erkenntniszauber
   grad: 2. Grades
@@ -4866,6 +5125,7 @@ zauber:
     in welcher Entfernung und Richtung im Abstand von bis zu acht Kilometern sich die nächste Kreatur dieser Art befindet,
     sofern vorhanden.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Tierform
   schule: Verwandlungszauber
   grad: 8. Grades
@@ -4886,6 +5146,7 @@ zauber:
     von Trefferpunkten der neuen Gestalt entspricht. Nach der Wirkungsdauer dieses Zaubers verbleibende temporäre Treffer‑
     punkte gehen verloren. Die Verwandlungsmagie hält für die Wirkungsdauer an, oder bis das Ziel sie als Bonusaktion beendet.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Tierfreundschaft
   schule: Verzauberungszauber
   grad: 1. Grades
@@ -4901,6 +5162,7 @@ zauber:
     oder es ist für die Wirkungsdauer bezaubert. Wenn du oder einer deiner Verbündeten dem Ziel Schaden Verwenden von Zauberplätzen
     höheren Grades: zufügt, endet der Zauber. Für jeden Zauberplatzgrad über dem 1. kannst du auf ein weiteres Tier zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Todeskreis
   schule: Nekromantiezauber
   grad: 6. Grades
@@ -4917,6 +5179,7 @@ zauber:
     sie 8W8 nekrotischen Verwenden von Zauberplätzen höheren Grades: Schaden, anderenfalls die Hälfte. Für jeden Zauberplatzgrad
     über dem 6. wird der Schaden um 2W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Todesschutz
   schule: Bannzauber
   grad: 4. Grades
@@ -4932,6 +5195,7 @@ zauber:
     Erleidet das Ziel während der Wirkungsdauer einen Effekt, der es sofort töten würde, ohne Schaden zu bewirken, so ist
     das Ziel nicht von diesem Effekt betroffen, und der Zauber endet.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Todeswolke
   schule: Beschwörungszauber
   grad: 5. Grades
@@ -4951,6 +5215,7 @@ zauber:
     Beginn jedes deiner Züge bewegt sich die Kugel Verwenden von Zauberplätzen höheren Grades: um drei Meter von dir weg.
     Für jeden Zauberplatzgrad über dem 5. wird der Schaden um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Tödliches Phantom
   schule: Illusionszauber
   grad: 4. Grades
@@ -4969,6 +5234,7 @@ zauber:
     es den psychischen Schaden erneut. Bei einem erfolgreichen Verwenden von Zauberplätzen höheren Grades: Rettungswurf endet
     der Zauber. Für jeden Zauberplatzgrad über dem 4. wird der Schaden um 1W10 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Tor
   schule: Beschwörungszauber
   grad: 9. Grades
@@ -4994,6 +5260,7 @@ zauber:
     besondere Macht über die Kreatur und sie handelt nach Ermessen des SL. Sie kann verschwinden, dich angreifen oder dir
     helfen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Tote beleben
   schule: Nekromantiezauber
   grad: 3. Grades
@@ -5020,6 +5287,7 @@ zauber:
     dem 3. erschaffst du zwei zusätzliche untote Kreaturen oder verlängerst die Kontrolle über zwei zusätzliche untote Kreaturen.
     Du benötigst für jede Kreatur eine separate Leiche oder einen separaten Knochenhaufen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Tote erwecken
   schule: Nekromantiezauber
   grad: 5. Grades
@@ -5038,6 +5306,7 @@ zauber:
     ihr Kopf, so misslingt der Zauber automatisch. Von den Toten aufzuerstehen ist eine Tortur. Das Ziel erleidet einen Malus
     von −4 auf W20- Prüfungen. Nach jeder langen Rast wird der Malus um 1 verringert, bis er 0 beträgt.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Traum
   schule: Illusionszauber
   grad: 5. Grades
@@ -5060,6 +5329,7 @@ zauber:
     eine Nachricht von höchstens zehn Worten übermitteln. Dann führt das Ziel einen Weisheitsrettungswurf aus. Misslingt der
     Wurf, so gewährt die Rast dem Ziel keine Vorzüge, und es erleidet beim Erwachen 3W6 psychischen Schaden.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Treuer Hund
   schule: Beschwörungszauber
   grad: 4. Grades
@@ -5078,6 +5348,7 @@ zauber:
     oder er erleidet 4W8 Energieschaden. In deinen folgenden Zügen kannst du eine magische Aktion ausführen, um den Hund bis
     zu neun Meter weit zu bewegen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Trugbild projizieren
   schule: Illusionszauber
   grad: 7. Grades
@@ -5099,6 +5370,7 @@ zauber:
     handelt. Erkennt eine Kreatur die Illusion als solche, so wird das Abbild für sie durchscheinend, und sämtliche Geräusche
     klingen für sie hohl.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Tsunami
   schule: Beschwörungszauber
   grad: 8. Grades
@@ -5120,6 +5392,7 @@ zauber:
     (Athletik) gegen deinen Zauberrettungswurf‑SG bestehen, um sich überhaupt bewegen zu können. Misslingt der Wurf, so kann
     die Kreatur sich nicht bewegen. Wenn eine Kreatur die Wand verlässt, fällt sie zu Boden.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Unauffindbarkeit
   schule: Bannzauber
   grad: 3. Grades
@@ -5135,6 +5408,7 @@ zauber:
     bereitwillige Kreatur, ein Ort oder ein Gegenstand sein. Es darf in keiner Abmessung größer als drei Meter sein. Es kann
     weder durch Erkenntniszauber noch durch magische Ausspähungssensoren wahrgenommen werden.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Unheimliches Schicksal
   schule: Illusionszauber
   grad: 9. Grades
@@ -5152,6 +5426,7 @@ zauber:
     aus. Misslingt der Wurf, so erleidet es 5W10 psychischen Schaden. Bei einem erfolgreichen Rettungswurf endet der Zauber
     bei diesem Ziel.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Unsichtbarer Diener
   schule: Beschwörungszauber
   grad: 1. Grades
@@ -5173,6 +5448,7 @@ zauber:
     ist. Dann wartet er auf deinen nächsten Befehl. Wenn du dem Diener befiehlst, sich für eine Aufgabe mehr als 18 Meter
     weit von dir zu entfernen, endet der Zauber.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Unsichtbares sehen
   schule: Erkenntniszauber
   grad: 2. Grades
@@ -5187,6 +5463,7 @@ zauber:
   beschreibung: Für die Wirkungsdauer siehst du unsichtbare Kreaturen und Gegenstände, als wären sie sichtbar. Du kannst zudem
     in die Ätherebene blicken. Kreaturen und Gegenstände dort erscheinen geisterhaft.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Unsichtbarkeit
   schule: Illusionszauber
   grad: 2. Grades
@@ -5203,6 +5480,7 @@ zauber:
     das Ziel einen Angriffswurf ausgeführt, Schaden bewirkt oder selbst einen Zauber Verwenden von Zauberplätzen höheren Grades:
     gewirkt hat. Für jeden Zauberplatzgrad über dem 2. kannst du auf eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Untote erschaffen
   schule: Nekromantiezauber
   grad: 6. Grades
@@ -5232,6 +5510,7 @@ zauber:
     du sechs  oder drei oder drei  oder zwei erschaffen oder wieder unter deine Kontrolle bringen. Die jeweiligen Wertekästen
     findest du unter „Monster“.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Unverwüstliche Sphäre
   schule: Bannzauber
   grad: 4. Grades
@@ -5252,6 +5531,7 @@ zauber:
     aufgehoben und bewegt werden. Wird der Zauber  auf die Kugel gewirkt, so wird die Kugel zerstört, ohne dass etwas im Inneren
     Schaden erleidet.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Unwiderstehlicher Tanz
   schule: Verzauberungszauber
   grad: 6. Grades
@@ -5270,6 +5550,7 @@ zauber:
     kann in jedem seiner Züge eine Aktion ausführen, um sich zu sammeln und den Rettungswurf zu wiederholen. Bei einem Erfolg
     endet der Zauber.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Vampirgriff
   schule: Nekromantiezauber
   grad: 3. Grades
@@ -5288,6 +5569,7 @@ zauber:
     Kreatur Verwenden von Zauberplätzen höheren Grades: zielen. Für jeden Zauberplatzgrad über dem 3. wird der Schaden um
     1W6 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Verarbeitung
   schule: Verwandlungszauber
   grad: 4. Grades
@@ -5307,6 +5589,7 @@ zauber:
     erschaffen werden. Du kannst zudem keine Gegenstände wie Schmuck, Waffen, Glas oder Rüstung erschaffen, die ein hohes
     Maß an Können erfordern, es sei denn, du hast Übung im Umgang mit dem passenden Handwerkszeug.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Verbannung
   schule: Bannzauber
   grad: 4. Grades
@@ -5328,6 +5611,7 @@ zauber:
     gelangt es an einen zufälligen Ort auf einer Ebene (nach Wahl Verwenden von Zauberplätzen höheren Grades: des SL), die
     mit seinem Kreaturentyp assoziiert ist. Für jeden Zauberplatzgrad über dem 4. kannst du auf eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Verbergen
   schule: Verwandlungszauber
   grad: 7. Grades
@@ -5345,6 +5629,7 @@ zauber:
     Ziel eintritt oder sichtbar ist. Beispiele dafür wären „Nach 1.000 Jahren“ oder „Wenn die Tarraske erwacht“. Dieser Zauber
     endet auch dann, wenn das Ziel Schaden erleidet.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Verbündeter aus den Ebenen
   schule: Beschwörungszauber
   grad: 6. Grades
@@ -5375,6 +5660,7 @@ zauber:
     Kreatur dir Bericht, sofern möglich, und kehrt dann auf ihre Heimatebene zurück. Wenn du dich mit der Kreatur nicht auf
     einen Preis für ihren Dienst einigen kannst, kehrt sie sofort auf ihre Heimatebene zurück.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Verderben
   schule: Verzauberungszauber
   grad: 1. Grades
@@ -5391,6 +5677,7 @@ zauber:
     muss es 1W4 von seinem Angriffs‑ oder Verwenden von Zauberplätzen höheren Grades: Rettungswurf abziehen. Für jeden Zauberplatzgrad
     über dem 1. kannst du auf eine weitere Kreatur zielen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Vergrößern/Verkleinern
   schule: Verwandlungszauber
   grad: 2. Grades
@@ -5416,6 +5703,7 @@ zauber:
     sowie seine waffenlosen Angriffe bewirken bei einem Treffer 1W4 Schaden weniger (der Schaden kann jedoch nicht unter 1
     verringert werden).'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Verlangsamen
   schule: Verwandlungszauber
   grad: 3. Grades
@@ -5436,6 +5724,7 @@ zauber:
     Ziel die Gesten zu langsam ausführt. Ein betroffenes Ziel wiederholt den Rettungswurf am Ende jedes seiner Züge. Bei einem
     Erfolg endet der Effekt.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Verschonung der Sterbenden
   schule: Nekromantie
   grad: Zaubertrick
@@ -5450,6 +5739,7 @@ zauber:
     nicht tot ist. Die Kreatur wird stabil. Die Reichweite wird jeweils verdoppelt, wenn du die 5. (neun Meter), die 11. (18
     Meter) und die 17. (36 Meter) Stufe erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Verschwimmen
   schule: Illusionszauber
   grad: 2. Grades
@@ -5463,6 +5753,7 @@ zauber:
   beschreibung: Dein Körper wird unscharf. Für die Wirkungsdauer sind Kreaturen bei Angriffswürfen gegen dich im Nachteil.
     Angreifer, die dich mit Blindsicht oder Wahrer Blick wahrnehmen, sind gegen diesen Effekt immun.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Verständigung
   schule: Erkenntniszauber
   grad: 3. Grades
@@ -5483,6 +5774,7 @@ zauber:
     hat, kann sie für die nächsten acht Stunden verhindern, dass du sie erneut mit diesem Zauber erreichst. Versuchst du in
     diesem Fall, ihr eine weitere Botschaft zu senden, so erfährst du, dass du blockiert wurdest, und der Zauber misslingt.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Verstricken
   schule: Beschwörungszauber
   grad: 1. Grades
@@ -5500,6 +5792,7 @@ zauber:
     gegen deinen Zauberrettungswurf‑SG ausführen. Bei einem Erfolg befreit sie sich von den greifenden Pflanzen und ist nicht
     mehr von ihnen festgesetzt.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Vertrauten finden
   schule: Beschwörungszauber
   grad: 1. Grades
@@ -5529,6 +5822,7 @@ zauber:
     haben. Wirkst du diesen Zauber, während du einen Vertrauten hast, so lässt du diesen stattdessen eine neue verfügbare
     Gestalt annehmen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Verwandlung
   schule: Verwandlungszauber
   grad: 4. Grades
@@ -5553,6 +5847,7 @@ zauber:
     Die Ausrüstung des Ziels verschmilzt mit seiner neuen Gestalt. Die Kreatur kann die Ausrüstung nicht verwenden oder anderweitig
     nutzen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Verwirrung
   schule: Verzauberungszauber
   grad: 4. Grades
@@ -5576,6 +5871,7 @@ zauber:
     Verwenden von Zauberplätzen höheren Grades: der Zauber bei diesem Ziel. Für jeden Zauberplatzgrad über dem 4. wird der
     Radius der Kugel um 1,5 Meter erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Verwünschung
   schule: Verzauberungszauber
   grad: 1. Grades
@@ -5593,6 +5889,7 @@ zauber:
     des 2. Grades bis zu vier Stunden, bei einem Zauberplatz des 3. und 4. Grades bis zu acht Stunden und bei einem Zauberplatz
     ab dem 5. Grad bis zu 24 Stunden.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Vollständige Genesung
   schule: Bannzauber
   grad: 5. Grades
@@ -5611,6 +5908,7 @@ zauber:
     Gegenstand • Jegliche Verringerung eines der Attributswerte des Ziels • Jegliche Verringerung des Trefferpunkte‑ maximums
     des Ziels'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Vorahnung
   schule: Erkenntniszauber
   grad: 2. Grades
@@ -5629,6 +5927,7 @@ zauber:
     Zauber, die das Ergebnis ändern könnten. Wenn du den Zauber vor einer langen Rast häufiger als einmal wirkst, erhöht dies
     das Risiko, keine Antwort zu erhalten, mit jedem Wirken nach dem ersten um jeweils 25 Prozent.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Voraussicht
   schule: Erkenntniszauber
   grad: 9. Grades
@@ -5645,6 +5944,7 @@ zauber:
     Zukunft zu blicken. Für die Wirkungsdauer ist das Ziel bei W20‑Prüfungen im Vorteil, und andere Kreaturen sind bei Angriffswürfen
     gegen das Ziel im Nachteil. Der Zauber endet vorzeitig, wenn du ihn erneut wirkst.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Vorbestimmtes Trugbild
   schule: Illusionszauber
   grad: 6. Grades
@@ -5669,6 +5969,7 @@ zauber:
     handelt. Erkennt eine Kreatur die Illusion als solche, so wird das Abbild für sie durchscheinend, und sämtliche Geräusche
     klingen für sie hohl.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wächter und Hüter
   schule: Bannzauber
   grad: 6. Grades
@@ -5700,6 +6001,7 @@ zauber:
     • in einem Korridor oder Raum (der Wind weht für die Wirkungsdauer Einflüsterung kontinuierlich) • in einem Würfel mit
     1,5 Metern Kantenlänge. Jede Kreatur, die den Würfel betritt, erhält die Einflüsterung mental'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Waffe des Glaubens
   schule: Hervorrufungszauber
   grad: 2. Grades
@@ -5716,6 +6018,7 @@ zauber:
     um bis zu sechs Meter bewegen und einen weiteren Angriff gegen eine Kreatur im Verwenden von Zauberplätzen höheren Grades:
     Abstand von bis zu 1,5 Metern von ihr ausführen. Für jeden Zauberplatzgrad über dem 2. wird der Schaden um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wahre Auferstehung
   schule: Nekromantiezauber
   grad: 9. Grades
@@ -5734,6 +6037,7 @@ zauber:
     In diesem Fall musst du den Namen der Kreatur aussprechen. Die Kreatur erscheint dann in einem freien Bereich deiner Wahl
     im Abstand von bis zu drei Metern von dir.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wahrer Blick
   schule: Erkenntniszauber
   grad: 6. Grades
@@ -5750,6 +6054,7 @@ zauber:
   beschreibung: Für die Wirkungsdauer hat eine bereitwillige Kreatur, die du berührst, Wahrer Blick mit einer Reichweite von
     36 Metern.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wahre Verwandlung
   schule: Verwandlungszauber
   grad: 9. Grades
@@ -5783,6 +6088,7 @@ zauber:
     denen des Gegenstands. Wenn der Zauber endet und das Ziel wieder seine ursprüngliche Gestalt annimmt, besitzt es keine
     Erinnerungen an die Zeit, die es als Gegenstand verbracht hat.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wände passieren
   schule: Verwandlungszauber
   grad: 5. Grades
@@ -5798,6 +6104,7 @@ zauber:
     das umgebende Gebäude nicht instabil. Wenn der Durchgang verschwindet, gelangen sämtliche Kreaturen und Gegenstände, die
     sich noch darin befinden, in den freien Bereich, der der Oberfläche, auf die der Zauber gewirkt wurde, am nächsten liegt.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wasser atmen
   schule: Verwandlungszauber
   grad: 3. Grades
@@ -5813,6 +6120,7 @@ zauber:
   beschreibung: Bis zu zehn bereitwillige Kreaturen deiner Wahl in Reichweite können für die Wirkungsdauer unter Wasser atmen.
     Betroffene Kreaturen verfügen weiterhin über ihre normale Atmung.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wasser erschaffen oder zerstören
   schule: Verwandlungszauber
   grad: 1. Grades
@@ -5830,6 +6138,7 @@ zauber:
     neun Metern Kantenlänge in Reichweite. Für jeden Zauberplatzgrad über dem 1. kannst du zusätzliche 40 Liter Wasser erschaffen
     oder zerstören oder die Kantenlänge des Würfels um 1,5 Meter erhöhen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wasser kontrollieren
   schule: Verwandlungszauber
   grad: 4. Grades
@@ -5866,6 +6175,7 @@ zauber:
     dann vom Strudel wegschwimmen, wenn sie zunächst eine Aktion ausführt, um sich zu entfernen, und einen Stärkewurf (Athletik)
     gegen deinen Zauberrettungswurf‑SG besteht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wasserwandeln
   schule: Verwandlungszauber
   grad: 3. Grades
@@ -5885,6 +6195,7 @@ zauber:
     der Flüssigkeit in die Flüssigkeit zu gelangen und umgekehrt. Wenn das Ziel jedoch in den Bereich fällt, gelangt es automatisch
     durch die Oberfläche in die Flüssigkeit darunter.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Weg finden
   schule: Erkenntniszauber
   grad: 6. Grades
@@ -5902,6 +6213,7 @@ zauber:
     weißt du, wie weit der Zielort entfernt ist und in welcher Richtung er liegt, sofern du dich auf derselben Existenzebene
     befindest. Wann immer du unterwegs eine Wahl zwischen verschiedenen Wegen hast, weißt du, welcher Weg der direkteste ist.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Weihen
   schule: Bannzauber
   grad: 5. Grades
@@ -5931,6 +6243,7 @@ zauber:
     von dir ausgewählten Typen können mit allen anderen Kreaturen im Bereich kommunizieren, auch wenn sie keine gemeinsame
     Sprache sprechen.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Weissagung
   schule: Erkenntniszauber
   grad: 4. Grades
@@ -5948,6 +6261,7 @@ zauber:
     ändern könnten, beispielsweise das Wirken anderer Zauber. Wenn du den Zauber vor einer langen Rast häufiger als einmal
     wirkst, erhöht dies das Risiko, keine Antwort zu erhalten, mit jedem Wirken nach dem ersten um jeweils 25 Prozent.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wesen des Waldes beschwören
   schule: Beschwörungszauber
   grad: 4. Grades
@@ -5966,6 +6280,7 @@ zauber:
     Bonusaktion Verwenden von Zauberplätzen höheren Grades: ausführen. Für jeden Zauberplatzgrad über dem 4. wird der Schaden
     um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wetterkontrolle
   schule: Verwandlungszauber
   grad: 8. Grades
@@ -5987,6 +6302,7 @@ zauber:
     Hagel oder Schnee 5Starkregen, Hagelsturm oder Schneesturm TemperaturWind StufeBedingungStufeBedingung 1Extrem heiß1Flaute
     2Heiß2Mäßiger Wind 3Warm3Starker Wind 4Kühl4Starke Böen 5Kalt5Sturm 6Eisig
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Widerstand
   schule: Banns
   grad: Zaubertrick
@@ -6002,6 +6318,7 @@ zauber:
     Typs erleidet, verringert sie den erlittenen Gesamtschaden um 1W4. Eine Kreatur kann von diesem Zauber nur einmal pro
     Zug profitieren.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wiederbeleben
   schule: Nekromantiezauber
   grad: 3. Grades
@@ -6018,6 +6335,7 @@ zauber:
     wiederbelebt. Dieser Zauber kann keine Kreaturen wiederbeleben, die an Altersschwäche gestorben sind, und stellt auch
     keine fehlenden Körperteile wieder her.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wiedergeburt
   schule: Nekromantiezauber
   grad: 5. Grades
@@ -6035,6 +6353,7 @@ zauber:
     behält die Fähigkeiten bei, die sie in der ursprünglichen Gestalt hatte, verliert jedoch die Merkmale der bisherigen Spezies
     und erhält die Merkmale der neuen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Windstoß
   schule: Hervorrufungszauber
   grad: 2. Grades
@@ -6056,6 +6375,7 @@ zauber:
     von 50 Prozent, dass sie gelöscht werden. Für die Wirkungsdauer kannst du als Bonusaktion in deinen folgenden Zügen die
     Richtung ändern, in die der Wind weht.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Windwall
   schule: Hervorrufungszauber
   grad: 3. Grades
@@ -6076,6 +6396,7 @@ zauber:
     und verfehlen ihr Ziel automatisch. Felsbrocken, die von Riesen oder Belagerungsmaschinen geschleudert werden, und ähnliche
     Geschosse sind hiervon nicht betroffen. Kreaturen in gasförmiger Gestalt können die Wand nicht passieren.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Windwandeln
   schule: Verwandlungszauber
   grad: 6. Grades
@@ -6095,6 +6416,7 @@ zauber:
     es eine Minute lang 18 Meter pro Runde hinab, bis es sicher landet. Wenn es nach einer Minute nicht landen kann, stürzt
     es die verbleibende Entfernung nach unten.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Winzige Hütte
   schule: Hervorrufungszauber
   grad: 3. Grades
@@ -6115,6 +6437,7 @@ zauber:
     ist von außen undurchsichtig und erscheint in einer Farbe deiner Wahl. Von innen ist sie durchsichtig. Der Zauber endet
     vorzeitig, wenn du die Ausströmung verlässt oder den Zauber erneut wirkst.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wirrnis
   schule: Verzauberungszauber
   grad: 8. Grades
@@ -6133,6 +6456,7 @@ zauber:
     endet der Effekt. Der Effekt kann auch Wunsch durch die Zauber , oder  beendet werden. Bei einem erfolgreichen Rettungswurf
     erleidet das Ziel nur halb so viel Schaden.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: 'Wort der Macht: Betäubung'
   schule: Verzauberungszauber
   grad: 8. Grades
@@ -6150,6 +6474,7 @@ zauber:
     betäubte Ziel führt am Ende jedes seiner Züge einen Konstitutionsrettungswurf aus. Bei einem Erfolg endet der Zustand
     bei ihm.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: 'Wort der Macht: Heilung'
   schule: Verzauberungszauber
   grad: 9. Grades
@@ -6165,6 +6490,7 @@ zauber:
     oder vergiftet ist, endet dieser Zustand. Wenn die Kreatur den Zustand Liegend hat, kann sie ihre Reaktion verwenden,
     um aufzustehen.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: 'Wort der Macht: Tod'
   schule: Verzauberungszauber
   grad: 9. Grades
@@ -6180,6 +6506,7 @@ zauber:
   beschreibung: Du nötigst eine Kreatur in Reichweite, die du sehen kannst, zum Sterben. Wenn das Ziel maximal 100 Trefferpunkte
     hat, stirbt es. Anderenfalls erleidet es 12W12 psychischen Schaden.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wort des Rückrufs
   schule: Beschwörungszauber
   grad: 6. Grades
@@ -6195,6 +6522,7 @@ zauber:
     wirkst, ohne eine Zuflucht festgelegt zu haben, hat er keinen Effekt. Du musst einen Ort, beispielsweise einen Tempel,
     als Zuflucht benennen, um diesen Zauber dort zu wirken.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wunden heilen
   schule: Bannzauber
   grad: 1. Grades
@@ -6212,6 +6540,7 @@ zauber:
     von Zauberplätzen höheren Grades: Zauberwirken-Attributsmodifikator zurück. Für jeden Zauberplatzgrad über dem 1. wird
     die Heilung um 2W8 Trefferpunkte erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wunden verursachen
   schule: Nekromantiezauber
   grad: 1. Grades
@@ -6225,6 +6554,7 @@ zauber:
     sie 2W10 nekrotischen Schaden, Verwenden von Zauberplätzen höheren Grades: anderenfalls die Hälfte. Für jeden Zauberplatzgrad
     über dem 1. wird der Schaden um 1W10 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Wunsch
   schule: Beschwörungszauber
   grad: 9. Grades
@@ -6270,6 +6600,7 @@ zauber:
     um zwei Tage. Nicht zuletzt besteht Wunsch ein Risiko von 33 Prozent, dass du den Zauber aufgrund dieser Belastung nie
     wieder wirken kannst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Zeichen des Jägers
   schule: Erkenntniszauber
   grad: 1. Grades
@@ -6287,6 +6618,7 @@ zauber:
     Deine Konzentration kann länger andauern: bei einem Zauberplatz des 3. und 4. Grades bis zu acht Stunden und bei einem
     Zauberplatz ab dem 5. Grad bis zu 24 Stunden.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Zeitstopp
   schule: Verwandlungszauber
   grad: 9. Grades
@@ -6303,6 +6635,7 @@ zauber:
     dir selbst oder einen Gegenstand beeinflusst, den jemand anders trägt oder hält. Zudem endet der Zauber, wenn du dich
     um mehr als 300 Meter von dem Ort entfernst, an dem du ihn gewirkt hast.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Zerbersten
   schule: Hervorrufungszauber
   grad: 2. Grades
@@ -6320,6 +6653,7 @@ zauber:
     die nicht getragen oder gehalten werden, erleiden Verwenden von Zauberplätzen höheren Grades: den gleichen Schaden. Für
     jeden Zauberplatzgrad über dem 2. wird der Schaden um 1W8 erhöht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Zielsicherer Schlag
   schule: Erkenntnis
   grad: Zaubertrick
@@ -6338,6 +6672,7 @@ zauber:
     der Waffe sein (nach deiner Wahl). Unabhängig davon, ob du gleißenden Schaden oder die normale Schadensart der Waffe bewirkst,
     bewirkt der Angriff zusätzlich gleißenden Schaden, wenn du die 5. (1W6), die 11. (2W6) und die 17. (3W6) Stufe erreichst.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Zone der Wahrheit
   schule: Verzauberungszauber
   grad: 2. Grades
@@ -6356,6 +6691,7 @@ zauber:
     des Zaubers bewusst und kann Antworten auf Fragen vermeiden, auf die sie sonst mit einer Lüge antworten würde. In diesem
     Fall kann sie ausweichend antworten, muss aber bei der Wahrheit bleiben.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Zungen
   schule: Erkenntniszauber
   grad: 3. Grades
@@ -6373,6 +6709,7 @@ zauber:
     zu verstehen, die sie hört oder sieht. Wenn das Ziel außerdem durch Sprache oder Gebärden kommuniziert, wird es von jeder
     Kreatur verstanden, die mindestens eine Sprache versteht und das Ziel hören oder sehen kann.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Zutritt verwehren
   schule: Bannzauber
   grad: 6. Grades
@@ -6395,6 +6732,7 @@ zauber:
     dem Zutritt verwehren Bereich eines anderen Zaubers überschneiden. Wenn du  30 Tage lang am selben Ort wirkst, bleibt
     der Effekt bestehen, bis er gebannt wird. Die Materialkomponenten werden beim letzten Wirken verbraucht.'
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1
 - name: Zwang
   schule: Verzauberungszauber
   grad: 4. Grades
@@ -6410,3 +6748,4 @@ zauber:
     wie möglich verwenden, um sich in diese Richtung zu bewegen. Dabei nimmt es die sicherste Route. Nachdem das Ziel sich
     auf diese Art bewegt hat, wiederholt es seinen Rettungswurf. Bei einem Erfolg endet der Zauber bei ihm.
   Regelbuch: SRD 5.2.1
+  rule book: SRD 5.2.1

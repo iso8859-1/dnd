@@ -3,7 +3,7 @@ type: class_feature
 class: Barbar
 lang: de
 level: 3
-name: Urwissen
+name: Urwissen (Barbar)
 description: 'Du erhältst Übung in einer weiteren Fertigkeit deiner Wahl aus der Liste von Fertigkeiten, die für Barbaren
   auf der 1. Stufe verfügbar sind. Außerdem kannst du während deines Kampfrauschs Urmacht kanalisieren, wenn du bestimmte
   Aufgaben auszuführen versuchst. Wann immer du einen Attributswurf unter Verwendung einer der folgenden Fertigkeiten ausführst,

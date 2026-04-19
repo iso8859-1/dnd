@@ -3,7 +3,7 @@ type: class_feature
 class: Barbar
 lang: de
 level: 10
-name: Vergeltung
+name: Vergeltung (Pfad des Berserkers)
 description: Wenn du Schaden durch eine Kreatur erleidest, die sich im Abstand von bis zu 1,5 Metern von dir befindet, kannst
   du als Reaktion einen Nahkampf- angriff gegen diese Kreatur ausführen und dazu eine Waffe oder einen waffenlosen Angriff
   verwenden.

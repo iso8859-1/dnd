@@ -3,7 +3,7 @@ type: class_feature
 class: Druide
 lang: de
 level: 15
-name: Verbesserte Elementare Wut
+name: Verbesserte Elementare Wut (Druide)
 description: 'Die für Elementare Wut ausgewählte Option wird Verstärkte Zaubertricks: mächtiger, wie unten beschrieben. Wenn
   du einen Druidenzaubertrick mit eine Reichweite von mindestens drei Metern wirkst, ist die Reichweite Urschlag: des Zaubers
   um 90 Meter erhöht. Der zusätzliche Schaden deines Urschlags erhöht sich auf 2W8.'

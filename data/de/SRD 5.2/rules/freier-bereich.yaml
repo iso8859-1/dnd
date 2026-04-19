@@ -3,6 +3,6 @@ type: rule
 template: rule-v1
 name: Freier Bereich
 lang: de
-description: „Bewegungsrate“ und „Fliegen“. Ein Bereich ist frei, wenn sich keine
-  Kreaturen darin aufhalten und er nicht vollständig mit
+description: Ein Bereich ist frei, wenn sich keine Kreaturen darin aufhalten und er nicht vollständig mit Gegenständen angefüllt
+  ist.
 source_book: SRD 5.2.1

@@ -3,7 +3,7 @@ type: class_feature
 class: Waldläufer
 lang: de
 level: 15
-name: Verteidigung des überlegenen Jägers
+name: Verteidigung des überlegenen Jägers (Jäger)
 description: Wenn du Schaden erleidest, kannst du eine Reaktion ausführen, um dir bis zum Ende des aktuellen Zugs Resistenz
   gegen diesen Schaden und jeden anderen Schaden der gleichen Art zu verleihen.
 source_book: SRD 5.2.1

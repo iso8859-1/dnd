@@ -3,9 +3,7 @@ type: rule
 template: rule-v1
 name: Ausweichen (Aktion)
 lang: de
-description: 'enthalten, es sei denn, der Wirker beschließt dies. Die Ausweichaktion
-  bietet dir die folgenden Vorzüge: Bis zum Beginn deines nächsten Zugs ist jeder
-  Angriffswurf gegen dich im Nachteil, sofern du den Angreifer sehen kannst, und du
-  bist bei Geschicklichkeitsrettungswürfen im Vorteil. Du verlierst diese Vorzüge,
-  wenn du kampfunfähig'
+description: 'Die Ausweichaktion bietet dir die folgenden Vorzüge: Bis zum Beginn deines nächsten Zugs ist jeder Angriffswurf
+  gegen dich im Nachteil, sofern du den Angreifer sehen kannst, und du bist bei Geschicklichkeitsrettungswürfen im Vorteil.
+  Du verlierst diese Vorzüge, wenn du kampfunfähig bist oder deine Bewegungsrate 0 beträgt.'
 source_book: SRD 5.2.1

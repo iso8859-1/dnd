@@ -3,7 +3,7 @@ type: class_feature
 class: Schurke
 lang: de
 level: 1
-name: Expertise
+name: Expertise (Schurke)
 description: Du erhältst Expertise in zwei Fertigkeiten deiner Wahl, in denen du geübt bist. Fingerfertigkeit und Heimlichkeit
   werden empfohlen, wenn du in ihnen geübt bist. Auf der 6. Schurkenstufe erhältst du Expertise in zwei weiteren Fertigkeiten
   deiner Wahl, in denen du geübt bist.

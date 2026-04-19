@@ -1,20 +1,41 @@
-talente:
+kampfstiltalente:
 - name: Bogenschießen
   typ: 'Kampfstil-Talent (Voraussetzung: Kampfstil-Merkmal)'
-  beschreibung: Du erhältst einen Bonus von +2 auf alle Angriffswürfe mit Fernkampfwaffen.
-  Regelbuch: SRD 5.2.1
+  beschreibung: 'Du erhältst einen Bonus von +2 auf alle
+
+    Angriffswürfe mit Fernkampfwaffen.'
+  rule book: SRD 5.2.1
 - name: Kampf mit großen Waffen
   typ: 'Kampfstil-Talent (Voraussetzung: Kampfstil-Merkmal)'
-  beschreibung: Wenn du den Schaden eines Angriffs mit einer Nahkampfwaffe auswürfelst, die du mit beiden Händen hältst, kannst
-    du alle Ergebnisse des Schadensw ürfels von 1 oder 2 als 3 werten. Die Waffe muss die Eigenschaft Zweihändig oder Vielseitig
-    besitzen, damit du diesen Vorzug erhältst.
-  Regelbuch: SRD 5.2.1
+  beschreibung: 'Wenn du den Schaden eines Angriffs mit einer
+
+    Nahkampfwaffe auswürfelst, die du mit beiden
+
+    Händen hältst, kannst du alle Ergebnisse des
+
+    Schadensw ürfels von 1 oder 2 als 3 werten.
+
+    Die Waffe muss die Eigenschaft Zweihändig oder
+
+    Vielseitig besitzen, damit du diesen Vorzug erhältst.'
+  rule book: SRD 5.2.1
 - name: Verteidigung
   typ: 'Kampfstil-Talent (Voraussetzung: Kampfstil-Merkmal)'
-  beschreibung: Wenn du leichte, mittelschwere oder schwere Rüstung trägst, erhältst du einen Bonus von +1 auf die Rüstungsklasse.
-  Regelbuch: SRD 5.2.1
+  beschreibung: 'Wenn du leichte, mittelschwere oder schwere
+
+    Rüstung trägst, erhältst du einen Bonus von +1
+
+    auf die Rüstungsklasse.'
+  rule book: SRD 5.2.1
 - name: Zwei-Waffen-Kampf
   typ: 'Kampfstil-Talent (Voraussetzung: Kampfstil-Merkmal)'
-  beschreibung: Wenn du als Ergebnis der Eigenschaft Leicht einer Waffe einen zusätzlichen Angriff ausführst, kannst du dem
-    Angriffsschaden deinen Attributs modifikator hinzufügen, sofern du dies nicht
-  Regelbuch: SRD 5.2.1
+  beschreibung: 'Wenn du als Ergebnis der Eigenschaft Leicht
+
+    einer Waffe einen zusätzlichen Angriff ausführst,
+
+    kannst du dem Angriffsschaden deinen Attributs
+
+    modifikator hinzufügen, sofern du dies nicht
+
+    ohnehin schon tust.'
+  rule book: SRD 5.2.1

@@ -3,7 +3,7 @@ type: class_feature
 class: Magier
 lang: de
 level: 2
-name: Gelehrter
+name: Gelehrter (Magier)
 description: 'Beim Studium der Magie hast du dich noch auf ein weiteres Fachgebiet spezialisiert. Wähle eine der folgenden
   Fertigkeiten aus, sofern du Übung darin hast: Arkane Kunde, Geschichte, Heilkunde, Nachforschungen, Naturkunde oder Religion.
   Du hast Expertise in der ausgewählten Fertigkeit.'

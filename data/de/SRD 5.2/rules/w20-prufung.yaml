@@ -3,9 +3,7 @@ type: rule
 template: rule-v1
 name: W20-Prüfung
 lang: de
-description: '„Die Spielregeln“ („W20-Prüfungen“). W20-Prüfungen umfassen die drei
-  wichtigsten W20-Würfe des Spiels: Attributswürfe, Angriffs- würfe und Rettungswürfe.
-  Wenn etwas im Spiel W20-Prüfungen beeinflusst, so gilt dies für alle drei Arten.
-  Der SL bestimmt, ob eine W20-Prüfung Siehe auch unter den gegebenen Umständen angebracht
-  ist.'
+description: 'W20-Prüfungen umfassen die drei wichtigsten W20-Würfe des Spiels: Attributswürfe, Angriffs- würfe und Rettungswürfe.
+  Wenn etwas im Spiel W20-Prüfungen beeinflusst, so gilt dies für alle drei Arten. Der SL bestimmt, ob eine W20-Prüfung Siehe
+  auch unter den gegebenen Umständen angebracht ist. „Die Spielregeln“ („W20-Prüfungen“).'
 source_book: SRD 5.2.1

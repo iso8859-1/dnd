@@ -3,8 +3,7 @@ type: rule
 template: rule-v1
 name: Einstimmung
 lang: de
-description: '„Die Spielregeln“ („Erkundung“). Manche magischen Gegenstände erfordern,
-  dass eine bestimmte Bindung an sie hergestellt wird, ehe ihre magischen Eigenschaften
-  genutzt werden können: Dies ist die sogenannte Einstimmung. Siehe auch Eine Kreatur
-  kann auf höchstens drei magische Gegenstände zugleich eingestimmt sein.'
+description: 'Manche magischen Gegenstände erfordern, dass eine bestimmte Bindung an sie hergestellt wird, ehe ihre magischen
+  Eigenschaften genutzt werden können: Dies ist die sogenannte Einstimmung. Siehe auch Eine Kreatur kann auf höchstens drei
+  magische Gegenstände zugleich eingestimmt sein. „Ausrüstung“ („Magische Gegenstände“).'
 source_book: SRD 5.2.1

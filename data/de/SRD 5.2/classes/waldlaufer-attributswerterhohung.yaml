@@ -3,7 +3,7 @@ type: class_feature
 class: Waldläufer
 lang: de
 level: 4
-name: Attributswerterhöhung
+name: Attributswerterhöhung (Waldläufer)
 description: Du erhältst das Talent Attributswerterhöhung (siehe „Talente“) oder ein anderes Talent deiner Wahl, für das du
   qualifiziert bist. Du erhältst dieses Merkmal auf der 8., 12. und 16. Waldläuferstufe erneut.
 source_book: SRD 5.2.1

@@ -3,8 +3,7 @@ type: rule
 template: rule-v1
 name: Nachteil
 lang: de
-description: „Kreatur“ und „NSC“. Wenn du bei einer W20-Prüfung im Nachteil bist,
-  würfle mit zwei W20 und verwende das niedrigere Ergebnis. Für einen Würfelwurf kann
-  nur jeweils ein Nachteil gelten. Vorteil und Nachteil, die für Siehe auch denselben
-  Wurf gelten, heben einander auf.
+description: Wenn du bei einer W20-Prüfung im Nachteil bist, würfle mit zwei W20 und verwende das niedrigere Ergebnis. Für
+  einen Würfelwurf kann nur jeweils ein Nachteil gelten. Vorteil und Nachteil, die für Siehe auch denselben Wurf gelten, heben
+  einander auf. „Die Spielregeln“ („W20-Prüfungen“).
 source_book: SRD 5.2.1

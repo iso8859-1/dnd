@@ -11,7 +11,7 @@ components: V, G, M (ein Tropfen Galle)
 duration: Unmittelbar
 description: 'Du deutest auf einen Ort in Reichweite. Dort schlägt ein leuchtender Ball aus Säure mit einem Radius von 15
   Zentimetern auf und explodiert in einer Kugel mit einem Radius von sechs Metern. Jede Kreatur in diesem Bereich führt einen
-  Geschicklichkeits- rettungswurf aus. Misslingt der Wurf, so erleidet die Kreatur 10W4 Säureschaden sowie weitere 5W4 Säureschaden
+  Geschicklichkeits‑ rettungswurf aus. Misslingt der Wurf, so erleidet die Kreatur 10W4 Säureschaden sowie weitere 5W4 Säureschaden
   am Ende ihres nächsten Zugs. Bei einem erfolgreichen Rettungswurf erleidet die Verwenden von Zauberplätzen höheren Grades:
   Kreatur nur die Hälfte des anfänglichen Schadens. Für jeden Zauberplatzgrad über dem 4. wird der anfängliche Schaden um
   2W4 erhöht.'

@@ -3,6 +3,5 @@ type: rule
 template: rule-v1
 name: RW
 lang: de
-description: „Nachteil“ und „Ausrüstung“ („Rüstung“). Siehe auch „RW“ ist die Abkürzung
-  von „Rettungswurf“.
+description: Siehe auch „RW“ ist die Abkürzung von „Rettungswurf“. „Rettungswurf“.
 source_book: SRD 5.2.1

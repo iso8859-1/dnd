@@ -3,15 +3,12 @@ type: rule
 template: rule-v1
 name: Unterernährung (Gefahr)
 lang: de
-description: Kreatur nicht. Kreaturen benötigen täglich eine gewisse Menge von Nahrung
-  je nach ihrer Größe, wie in der Tabelle „Täglicher Nahrungsbedarf“ dargestellt.
-  Eine Kreatur, die weniger als die Hälfte der täglich erforderlichen Nahrungsmenge
-  zu sich nimmt, muss einen SG-10- Konstitutionsrettungswurf bestehen, oder sie erhält
-  am Ende des Tages eine Erschöpfungsstufe. Eine Kreatur, die fünf Tage lang nichts
-  isst, erhält am Ende des fünften Tages automatisch eine Erschöpfungs stufe sowie
-  am Ende jedes weiteren Tages ohne Nahrung eine zusätzliche Erschöpfungsstufe. Erschöpfung
-  durch Unterernährung kann nicht entfernt werden, ehe die Kreatur nicht die Siehe
-  auch vollständige Tagesmenge an Nahrung zu sich nimmt. Täglicher „NErashcrhuönpfgusnbge“d.arf
-  GrößeNahrungGrößeNahrung Winzig125 GrammGroß2 Kilogramm Klein500 GrammRiesig8 Kilogramm
-  Mittel500 GrammGigantisch32 Kilogramm
+description: Kreaturen benötigen täglich eine gewisse Menge von Nahrung je nach ihrer Größe, wie in der Tabelle „Täglicher
+  Nahrungsbedarf“ dargestellt. Eine Kreatur, die weniger als die Hälfte der täglich erforderlichen Nahrungsmenge zu sich nimmt,
+  muss einen SG-10- Konstitutionsrettungswurf bestehen, oder sie erhält am Ende des Tages eine Erschöpfungsstufe. Eine Kreatur,
+  die fünf Tage lang nichts isst, erhält am Ende des fünften Tages automatisch eine Erschöpfungs stufe sowie am Ende jedes
+  weiteren Tages ohne Nahrung eine zusätzliche Erschöpfungsstufe. Erschöpfung durch Unterernährung kann nicht entfernt werden,
+  ehe die Kreatur nicht die Siehe auch vollständige Tagesmenge an Nahrung zu sich nimmt. Täglicher „Erschöpfung“. Nahrungsbedarf
+  Größe Nahrung Größe Nahrung Winzig 125 Gramm Groß 2 Kilogramm Klein 500 Gramm Riesig 8 Kilogramm Mittel 500 Gramm Gigantisch
+  32 Kilogramm
 source_book: SRD 5.2.1

@@ -3,7 +3,11 @@ type: rule
 template: rule-v1
 name: Schwieriges Gelände
 lang: de
-description: '„Fliegen“. Wenn ein Bereich schwieriges Gelände ist, kostet jeder Meter
-  Bewegung in diesem Bereich einen zusätzlichen Meter Bewegungsrate. Beispiel: Eine
-  Bewegung von 1,5 Metern in schwierigem Gelände kostet drei Meter Bewegungsrate.'
+description: 'Wenn ein Bereich schwieriges Gelände ist, kostet jeder Meter Bewegung in diesem Bereich einen zusätzlichen Meter
+  Bewegungsrate. Beispiel: Eine Bewegung von 1,5 Metern in schwierigem Gelände kostet drei Meter Bewegungsrate. Schwieriges
+  Gelände ist nicht kumulativ. Entweder ist ein Bereich schwieriges Gelände, oder er ist es nicht. Ein Bereich ist schwieriges
+  Gelände, wenn er einen der folgenden Faktoren oder etwas • Dickicht, Eis, Schutt oder viel Schnee Ähnliches enthält: • Flüssigkeit,
+  die zwischen knöchel und hüfthoch steht • Ein Gefälle von mindestens 20 Grad • Eine Kreatur, die weder von winziger Größe
+  noch dein Verbündeter ist • Möbel für Kreaturen von mindestens deiner Größenkategorie • Eine schmale Öffnung, durch die
+  Kreaturen passen, die eine Größenkategorie kleiner als du sind'
 source_book: SRD 5.2.1

@@ -3,7 +3,7 @@ type: class_feature
 class: Magier
 lang: de
 level: 10
-name: Mächtige Hervorrufung
+name: Mächtige Hervorrufung (Hervorrufer)
 description: Wann immer du einen Magierzauber von der Schule der Hervorrufungsmagie wirkst, kannst du dem Schadenswurf des
   Zaubers deinen Intelligenzmodifikator hinzufügen.
 source_book: SRD 5.2.1

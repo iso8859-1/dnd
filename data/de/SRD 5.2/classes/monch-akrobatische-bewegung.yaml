@@ -3,7 +3,7 @@ type: class_feature
 class: Mönch
 lang: de
 level: 9
-name: Akrobatische Bewegung
+name: Akrobatische Bewegung (Mönch)
 description: Sofern du weder Rüstung noch Schild trägst, erhältst du die Fähigkeit, dich in deinem Zug an vertikalen Oberflächen
   oder auf Flüssigkeiten zu bewegen, ohne zu stürzen.
 source_book: SRD 5.2.1

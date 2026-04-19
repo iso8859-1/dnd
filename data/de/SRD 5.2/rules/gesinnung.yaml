@@ -3,10 +3,8 @@ type: rule
 template: rule-v1
 name: Gesinnung
 lang: de
-description: 'Ziel jederzeit loslassen (keine Aktion erforderlich). Die Gesinnung
-  einer Kreatur beschreibt ihre grundsätzlichen ethischen Ansichten und Ideale. Sie
-  ist eine Kombination aus zwei Faktoren: der moralischen Haltung (gut, böse, neutral)
-  und der Einstellung zum Gesetz (rechtschaffen, chaotisch, neutral). Diese Faktoren
-  erlauben neun mögliche Siehe auch Kombinationen, beispielsweise rechtschaffen gut
-  oder neutral böse. „Charaktererstellung“'
+description: 'Die Gesinnung einer Kreatur beschreibt ihre grundsätzlichen ethischen Ansichten und Ideale. Sie ist eine Kombination
+  aus zwei Faktoren: der moralischen Haltung (gut, böse, neutral) und der Einstellung zum Gesetz (rechtschaffen, chaotisch,
+  neutral). Diese Faktoren erlauben neun mögliche Siehe auch Kombinationen, beispielsweise rechtschaffen gut oder neutral
+  böse. „Charaktererstellung“ („Deinen Charakter erstellen“).'
 source_book: SRD 5.2.1

@@ -3,7 +3,7 @@ type: class_feature
 class: Paladin
 lang: de
 level: 15
-name: Schützendes Niederstrecken
+name: Schützendes Niederstrecken (Schwur der Hingabe)
 description: Göttliches Dein magisches Niederstrecken strahlt nun Niederstrecken schützende Energie aus. Wann immer du wirkst,
   habt du und deine Verbündeten Teildeckung, solange sie sich in deiner Aura des Schutzes aufhalten. Die Aura behält diesen
   Vorzug bis zum Beginn deines nächsten Zugs bei.

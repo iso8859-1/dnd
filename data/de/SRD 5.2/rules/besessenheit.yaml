@@ -3,8 +3,7 @@ type: rule
 template: rule-v1
 name: Besessenheit
 lang: de
-description: Interaktion“, „Erkundung“ und „Kampf“). Manche Effekte bewirken, dass
-  eine Kreatur von einem anderen Wesen besessen ist. Der Effekt der Inbesitznahme
-  definiert, wie die Besessenheit Schutz vor Gut und Böse funktioniert. Besessenheit
-  kann durch den Zauber Gutes und Böses bannen verhindert und durch den
+description: Manche Effekte bewirken, dass eine Kreatur von einem anderen Wesen besessen ist. Der Effekt der Inbesitznahme
+  definiert, wie die Besessenheit Schutz vor Gut und Böse funktioniert. Besessenheit kann durch den Zauber Gutes und Böses
+  bannen verhindert und durch den Zauber beendet werden.
 source_book: SRD 5.2.1

@@ -3,7 +3,7 @@ type: class_feature
 class: Barbar
 lang: de
 level: 3
-name: Raserei
+name: Raserei (Pfad des Berserkers)
 description: Wenn du im Kampfrausch deinen Rücksichtslosen Angriff einsetzt, fügst du dem ersten Ziel, das du in deinem Zug
   mit einem stärkebasierten Angriff triffst, zusätzlichen Schaden zu. Ermittle den zusätzlichen Schaden, indem du mit einer
   Anzahl von W6 in Höhe deines Kampfrausch‑ Schadensbonus würfelst und ihre Summe hinzufügst. Der Schaden ist vom selben Typ

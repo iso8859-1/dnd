@@ -3,8 +3,7 @@ type: rule
 template: rule-v1
 name: Schweben
 lang: de
-description: „Die Spielregeln“ („Schaden und Heilung“). Manche Kreaturen können schweben,
-  wie in ihren Wertekästen vermerkt, und manche Zauber und andere Effekte gewähren
-  die Fähigkeit zu schweben. Während des Flugs zu schweben verhindert, Siehe auch
-  dass du unter bestimmten Umständen abstürzt.
+description: Manche Kreaturen können schweben, wie in ihren Wertekästen vermerkt, und manche Zauber und andere Effekte gewähren
+  die Fähigkeit zu schweben. Während des Flugs zu schweben verhindert, Siehe auch dass du unter bestimmten Umständen abstürzt.
+  „Fliegen“.
 source_book: SRD 5.2.1

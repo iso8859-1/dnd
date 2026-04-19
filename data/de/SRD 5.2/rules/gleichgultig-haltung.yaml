@@ -3,7 +3,6 @@ type: rule
 template: rule-v1
 name: Gleichgültig (Haltung)
 lang: de
-description: dich in deine wahre Gestalt zurück. Wenn eine Kreatur dir gegenüber gleichgültig
-  ist, hat sie kein Interesse daran, dir zu helfen Siehe auch oder dich zu beeinträchtigen.
-  Gleichgültig ist die Standardhaltung von Monstern.
+description: Wenn eine Kreatur dir gegenüber gleichgültig ist, hat sie kein Interesse daran, dir zu helfen Siehe auch oder
+  dich zu beeinträchtigen. Gleichgültig ist die Standardhaltung von Monstern. „Beeinflussen“.
 source_book: SRD 5.2.1

@@ -3,5 +3,5 @@ type: rule
 template: rule-v1
 name: Zauber
 lang: de
-description: beschließt dies. Ein Zauber ist ein magischer Effekt mit den unter
+description: Ein Zauber ist ein magischer Effekt mit den unter „Zauber“ beschriebenen Eigenschaften.
 source_book: SRD 5.2.1

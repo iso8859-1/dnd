@@ -3,6 +3,5 @@ type: rule
 template: rule-v1
 name: Immunität
 lang: de
-description: räumlichen Gegebenheiten Echos. Wenn du gegen eine Schadensart oder einen
-  Zustand immun bist, kannst du davon in keiner
+description: Wenn du gegen eine Schadensart oder einen Zustand immun bist, kannst du davon in keiner Weise beeinflusst werden.
 source_book: SRD 5.2.1

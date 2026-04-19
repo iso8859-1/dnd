@@ -3,7 +3,7 @@ type: class_feature
 class: Magier
 lang: de
 level: 20
-name: Lieblingszauber
+name: Lieblingszauber (Magier)
 description: Wähle zwei Zauber des 3. Grades aus deinem Zauberbuch als Lieblingszauber aus. Du hast diese Zauber stets vorbereitet
   und kannst sie jeweils einmal auf dem 3. Grad wirken, ohne einen Zauberplatz zu verbrauchen. Du kannst dies erst nach einer
   kurzen oder langen Rast erneut tun. Um einen der Zauber auf einem höheren Grad zu sie zu ihrem eigenen Vorteil ein.

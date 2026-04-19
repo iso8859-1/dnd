@@ -3,7 +3,7 @@ type: class_feature
 class: Schurke
 lang: de
 level: 3
-name: Zielsicher
+name: Zielsicher (Schurke)
 description: Als Bonusaktion bewirkst du, dass dein nächster Angriffswurf im aktuellen Zug im Vorteil ist. Du kannst dieses
   Merkmal nur anwenden, wenn du dich in diesem Zug noch nicht bewegt hast. Nach der Bonusaktion beträgt deine Bewegungsrate
   bis zum Ende des Zugs 0.

@@ -3,7 +3,7 @@ type: class_feature
 class: Mönch
 lang: de
 level: 3
-name: Technik der Offenen Hand
+name: Technik der Offenen Hand (Krieger der Offenen Hand)
 description: 'Jedes Mal, wenn du eine Kreatur mit einem durch Schlaghagel gewährten Angriff triffst, kannst du Verdattern:
   einen der folgenden Effekte auf das Ziel wirken: Das Ziel kann bis zum Beginn seines Stoßen: nächsten Zugs keine Gelegenheitsangriffe
   ausführen. Das Ziel muss einen Stärkerettungswurf bestehen, oder es wird bis zu 4,5 Meter weit von dir Umstoßen: weggestoßen.

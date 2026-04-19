@@ -3,8 +3,7 @@ type: rule
 template: rule-v1
 name: Erfahrungspunkte
 lang: de
-description: „Ausrüstung“ („Magische Gegenstände“). Charaktere verdienen Erfahrungspunkte
-  (EP), wenn sie Herausforderungen meistern und Aben- teuer abschließen. Die EP werden
-  vom Spielleiter verliehen. Wenn die EP eines Charakters bestimmte Siehe auch Schwellenwerte
-  erreichen, wird die Stufe des
+description: Charaktere verdienen Erfahrungspunkte (EP), wenn sie Herausforderungen meistern und Aben- teuer abschließen.
+  Die EP werden vom Spielleiter verliehen. Wenn die EP eines Charakters bestimmte Siehe auch Schwellenwerte erreichen, wird
+  die Stufe des Charakters erhöht. „Stufenaufstiege“.
 source_book: SRD 5.2.1

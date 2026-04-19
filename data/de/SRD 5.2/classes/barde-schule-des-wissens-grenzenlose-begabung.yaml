@@ -3,7 +3,7 @@ type: class_feature
 class: Barde
 lang: de
 level: 14
-name: Grenzenlose Begabung
+name: Grenzenlose Begabung (Schule des Wissens)
 description: Wenn du bei einem Attributs‑ oder Angriffswurf scheiterst, kannst du eine Anwendung von Bardische Inspiration
   verbrauchen, mit dem Bardische‑ Inspiration‑Würfel würfeln, das Ergebnis dem W20 hinzufügen und so aus dem Misserfolg möglicherweise
   einen Erfolg machen. Misslingt der Wurf, so wird die Bardische Inspiration nicht verbraucht.

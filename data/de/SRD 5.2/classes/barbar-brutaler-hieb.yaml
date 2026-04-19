@@ -3,7 +3,7 @@ type: class_feature
 class: Barbar
 lang: de
 level: 9
-name: Brutaler Hieb
+name: Brutaler Hieb (Barbar)
 description: 'Wenn du Rücksichtsloser Angriff einsetzt, kannst du in deinem Zug bei einem stärkebasierten Angriffswurf deiner
   Wahl auf den Vorteil verzichten. Der ausgewählte Angriffswurf darf nicht im Nachteil sein. Wenn der ausgewählte Angriffswurf
   trifft, erleidet das Ziel zusätzlich 1W10 Schaden des Typs, den auch die Waffe oder der waffenlose Angriff bewirkt, und

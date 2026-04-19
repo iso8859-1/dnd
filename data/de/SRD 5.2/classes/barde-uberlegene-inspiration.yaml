@@ -3,7 +3,7 @@ type: class_feature
 class: Barde
 lang: de
 level: 18
-name: Überlegene Inspiration
+name: Überlegene Inspiration (Barde)
 description: Wenn du die Initiative auswürfelst, erhältst du verbrauchte Anwendungen Bardischer Inspiration zurück, bis du
   zwei Anwendungen hast (sofern du weniger als zwei hast).
 source_book: SRD 5.2.1

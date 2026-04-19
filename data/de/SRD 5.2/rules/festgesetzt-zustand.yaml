@@ -3,9 +3,7 @@ type: rule
 template: rule-v1
 name: Festgesetzt (Zustand)
 lang: de
-description: 'hinzufügen. „Die Spielregeln“ („Übung“). Wenn du den Zustand Festgesetzt
-  hast, wirken Keine Bewegungsrate: folgende Effekte auf dich: Deine Bewegungsrate
-  Beeinträchtigte Angriffe: beträgt 0 und kann nicht erhöht werden. Angriffswürfe
-  gegen dich sind im Vorteil, und deine Angriffswürfe sind Beeinträchtigte Rettungswürfe:
-  im Nachteil. Du bist bei'
+description: 'Wenn du den Zustand Festgesetzt hast, wirken Keine Bewegungsrate: folgende Effekte auf dich: Deine Bewegungsrate
+  Beeinträchtigte Angriffe: beträgt 0 und kann nicht erhöht werden. Angriffswürfe gegen dich sind im Vorteil, und deine Angriffswürfe
+  sind Beeinträchtigte Rettungswürfe: im Nachteil. Du bist bei Geschicklichkeitsrettungswürfen im Nachteil.'
 source_book: SRD 5.2.1

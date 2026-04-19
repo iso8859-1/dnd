@@ -3,7 +3,6 @@ type: rule
 template: rule-v1
 name: Leicht verschleiert
 lang: de
-description: erforderlich, um diese zu beenden. Du bist bei Weisheitswürfen (Wahrnehmung)
-  Siehe auch im Nachteil, die du ausführst, um etwas in einem leicht verschleierten
-  Bereich zu sehen. „Dämmriges Licht“ und „Die Spielregeln“
+description: Du bist bei Weisheitswürfen (Wahrnehmung) Siehe auch im Nachteil, die du ausführst, um etwas in einem leicht
+  verschleierten Bereich zu sehen. „Dämmriges Licht“ und „Die Spielregeln“ („Erkundung“).
 source_book: SRD 5.2.1

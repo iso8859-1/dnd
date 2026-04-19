@@ -3,7 +3,6 @@ type: rule
 template: rule-v1
 name: Kriechen
 lang: de
-description: Kreaturentypen verschieden. Wenn du kriechst, kostet dich jeder Meter,
-  den du zurücklegst, einen zusätzlichen Meter Bewegungsrate Siehe auch (zwei zusätzliche
-  Meter in schwierigem Gelände).
+description: Wenn du kriechst, kostet dich jeder Meter, den du zurücklegst, einen zusätzlichen Meter Bewegungsrate Siehe auch
+  (zwei zusätzliche Meter in schwierigem Gelände). „Bewegungsrate“.
 source_book: SRD 5.2.1

@@ -3,22 +3,38 @@ type: rule
 template: rule-v1
 name: Wertekasten
 lang: de
-description: 'du mit dem Hindernis. Ein Wertekasten enthält die Spielwerte eines Monsters.
-  Jeder Wertekasten enthält nach dem Größe: Namen des Monsters folgende Informationen:
-  Die möglichen Größenkategorien lauten Siehe auch Winzig, Klein, Mittelgroß, Groß,
-  Riesig und Kreaturentyp: Gigantisch. „Größe“. In diesem Eintrag ist die Kreaturen-
-  Siehe auch familie des Monsters angegeben, gegebenenfalls mit beschreibenden Bezeichnungen.
-  Gesinnung: „Kreaturentyp“. Die Gesinnung ist ein Vorschlag für Siehe auch das Monster.
-  Der SL bestimmt seine tatsächliche RK, Initiative und TP: Gesinnung. „Gesinnung“.
-  Diese Einträge nennen Rüstungsklasse, Initiative und Trefferpunkte des Monsters,
-  jeweils unter „Die Spielregeln“ beschrieben. Hinter den Trefferpunkten sind die
-  Trefferpunktewürfel des Monsters in Klammern angegeben, außerdem gegebenenfalls
-  der Beitrag seiner Konstitution zu seinen Trefferpunkten. Nach dem Initiativemodifikator
-  ist ein Initiativewert genannt. Manche Kreaturen, die auf magische Art erzeugt wurden,
-  haben weder Trefferwürfel- noch Bewegungsrate: Initiativeinformationen. Hier sind
-  Bewegungsrate Siehe auch und vorhandene besondere Bewegungsraten des Monsters aufgeführt.
-  „Flugbewegungsrate“, „Grabbewegungsrate“, „Kletterbewegungsrate“ Attributswerte:
-  und „Schwimmbewegungsrate“. Die Attributswerte, Modifikatoren und Rettungswurfmodifikatoren
-  eines Monsters, jeweils unter „Die Spielregeln“ beschrieben, lassen sich einer Tabelle
-  entnehmen.'
+description: 'Ein Wertekasten enthält die Spielwerte eines Monsters. Jeder Wertekasten enthält nach dem Größe: Namen des Monsters
+  folgende Informationen: Die möglichen Größenkategorien lauten Siehe auch Winzig, Klein, Mittelgroß, Groß, Riesig und Kreaturentyp:
+  Gigantisch. „Größe“. In diesem Eintrag ist die Kreaturen- Siehe auch familie des Monsters angegeben, gegebenenfalls mit
+  beschreibenden Bezeichnungen. Gesinnung: „Kreaturentyp“. Die Gesinnung ist ein Vorschlag für Siehe auch das Monster. Der
+  SL bestimmt seine tatsächliche RK, Initiative und TP: Gesinnung. „Gesinnung“. Diese Einträge nennen Rüstungsklasse, Initiative
+  und Trefferpunkte des Monsters, jeweils unter „Die Spielregeln“ beschrieben. Hinter den Trefferpunkten sind die Trefferpunktewürfel
+  des Monsters in Klammern angegeben, außerdem gegebenenfalls der Beitrag seiner Konstitution zu seinen Trefferpunkten. Nach
+  dem Initiativemodifikator ist ein Initiativewert genannt. Manche Kreaturen, die auf magische Art erzeugt wurden, haben weder
+  Trefferwürfel- noch Bewegungsrate: Initiativeinformationen. Hier sind Bewegungsrate Siehe auch und vorhandene besondere
+  Bewegungsraten des Monsters aufgeführt. „Flugbewegungsrate“, „Grabbewegungsrate“, „Kletterbewegungsrate“ Attributswerte:
+  und „Schwimmbewegungsrate“. Die Attributswerte, Modifikatoren und Rettungswurfmodifikatoren eines Monsters, jeweils unter
+  „Die Spielregeln“ beschrieben, lassen sich einer Tabelle entnehmen. Fertigkeiten: Dieser Eintrag führt Fertigkeiten Siehe
+  auch und vorhandene Übungen des Monsters auf. Resistenzen und Anfälligkeiten: „Die Spielregeln“ („Übung“). Diese Einträge
+  Siehe auch listen die vorhandenen Resistenzen und Anfällig- keiten des Monsters auf. „Resistenz“ Immunitäten: und „Anfälligkeit“.
+  In diesem Abschnitt sind die Siehe auch Schadens- und Zustandsimmunitäten eines Monsters Ausrüstung: angegeben, sofern vorhanden.
+  „Immunität“. Wenn das Monster über Ausrüstung verfügt, die weggegeben oder genommen werden Sinne: kann, ist sie in diesem
+  Eintrag aufgeführt. Dieser Eintrag nennt die Spezialsinne Siehe auch des Monsters, beispielsweise Dunkelsicht, sowie seine
+  passive Wahrnehmung. „Passive Sprachen: Wahrnehmung“. In diesem Eintrag sind alle Sprachen HG: aufgeführt, die das Monster
+  kennt. Der Herausforderungsgrad fasst zusammen, wie groß die Bedrohung durch das Monster ist. Unter „Monster“ ist dieser
+  Wert genauer beschrieben. Danach sind die Erfahrungspunkte, die Charaktere bei einem Sieg über das Monster erhalten, sowie
+  der Übungsbonus des Monsters aufgeführt. Manche Siehe auch Kreaturen, die auf magische Art erzeugt wurden, haben keinen
+  HG. „Herausforderungsgrad“ Merkmale: und „Erfahrungspunkte“. Hierbei handelt es sich um Merkmale des Monsters, die entweder
+  immer oder in bestimmte Aktionen: Situationen aktiv sind. Das Monster kann die hier aufgeführten Siehe auch Aktionen zusätzlich
+  zu den in diesem Glossar beschriebenen ausführen. „Die Spielregeln“ Bonusaktionen: („Aktionen“). Wenn dem Monster Bonus-
+  aktionen zur Verfügung stehen, sind diese hier Reaktionen: aufgeführt. Wenn das Monster besondere Reaktionen ausführen kann,
+  sind diese hier Angriffsnotation: aufgeführt. Der Eintrag zu einem Monster- angriff beginnt mit der Information, ob es sich
+  um einen Nahkampf- oder einen Fernkampfangriff handelt, gefolgt vom Bonus des Angriffswurfs, den Reichweiten und der Wirkung
+  eines Treffers. Ein Angriff wird jeweils gegen ein Ziel ausgeführt, Rettungswurf-Effektnotation: sofern es in seinem Eintrag
+  nicht anders vermerkt ist. Wenn ein Effekt einen Rettungswurf erzwingt, werden im Eintrag des Effekts zunächst Art und SG
+  des erforderlichen Rettungswurfs genannt, dann wird beschrieben, welche Kreaturen den Rettungswurf ausführen müssen und
+  was geschieht, wenn sie den Rettungs- wurf bestehen oder dabei scheitern. Schadensnotation: Im Wertekasten werden für jede
+  Schadensinstanz üblicherweise sowohl eine fixe Zahl als auch ein Würfelausdruck angegeben. Beispiel: Ein Angriff könnte
+  bei einem Treffer 4 (1W4+2) Schaden bewirken. Der SL bestimmt, ob die fixe Zahl oder der Würfelausdruck in Klammern verwendet
+  werden. Es wird nicht beides verwendet.'
 source_book: SRD 5.2.1

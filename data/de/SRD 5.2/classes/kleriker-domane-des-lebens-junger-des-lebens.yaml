@@ -3,7 +3,7 @@ type: class_feature
 class: Kleriker
 lang: de
 level: 3
-name: Jünger des Lebens
+name: Jünger des Lebens (Domäne des Lebens)
 description: Wenn ein Zauber, den du mit einem Zauberplatz wirkst, Trefferpunkte bei einer Kreatur wiederherstellt, erhält
   diese Kreatur in dem Zug, in dem du den Zauber wirkst, zusätzliche Trefferpunkte zurück. Die zusätzlichen Trefferpunkte
   betragen 2 plus Zauberplatzgrad.

@@ -3,6 +3,5 @@ type: rule
 template: rule-v1
 name: Heilung
 lang: de
-description: und „Beeinflussen“. Siehe auch Heilung besteht darin, dass du Trefferpunkte
-  zurückerhältst. „Die Spielregeln“
+description: Siehe auch Heilung besteht darin, dass du Trefferpunkte zurückerhältst. „Die Spielregeln“ („Schaden und Heilung“).
 source_book: SRD 5.2.1

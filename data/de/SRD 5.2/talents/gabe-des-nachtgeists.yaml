@@ -3,11 +3,9 @@ type: talent
 template: talent-v1
 name: Gabe des Nachtgeists
 lang: de
-description: 'Du erhältst folgende Vorzüge: Attributswerterhöhung: Ein Attributswert
-  deiner Wahl wird um 1 Punkt erhöht (auf höchstens 30). Schattentarnung: In dämmrigem
-  Licht oder Dunkelheit kannst du dich als Bonusaktion unsichtbar machen. Der Zustand
-  endet sofort, nachdem du eine Aktion, eine Bonusaktion oder eine Reaktion ausgeführt
-  hast. Schattige Gestalt: In dämmrigem Licht oder Dunkelheit bist du gegen alle Schadensarten
-  außer Gleißend und Psychisch resistent.'
+description: 'Du erhältst folgende Vorzüge: Attributswerterhöhung: Ein Attributswert deiner Wahl wird um 1 Punkt erhöht (auf
+  höchstens 30). Schattentarnung: In dämmrigem Licht oder Dunkelheit kannst du dich als Bonusaktion unsichtbar machen. Der
+  Zustand endet sofort, nachdem du eine Aktion, eine Bonusaktion oder eine Reaktion ausgeführt hast. Schattige Gestalt: In
+  dämmrigem Licht oder Dunkelheit bist du gegen alle Schadensarten außer Gleißend und Psychisch resistent.'
 source_book: SRD 5.2.1
 typ: 'Epische-Gabe-Talent (Voraussetzung: min. 19. Stufe)'

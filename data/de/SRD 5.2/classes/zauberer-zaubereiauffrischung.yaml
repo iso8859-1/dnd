@@ -3,7 +3,7 @@ type: class_feature
 class: Zauberer
 lang: de
 level: 5
-name: Zaubereiauffrischung
+name: Zaubereiauffrischung (Zauberer)
 description: Verbrauchte Zaubereipunkte erhältst du nach einer kurzen Rast zurück, jedoch höchstens eine Anzahl in Höhe der
   Hälfte deiner Zaubererstufe (abgerundet). Du kannst dieses Merkmal erst nach einer langen Rast erneut verwenden.
 source_book: SRD 5.2.1

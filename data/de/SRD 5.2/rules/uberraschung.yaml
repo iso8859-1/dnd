@@ -3,6 +3,6 @@ type: rule
 template: rule-v1
 name: Überraschung
 lang: de
-description: „Kurze Rast“. Wenn eine Kreatur nicht mit einem Kampf Siehe auch gerechnet
-  hat, wird sie überrascht und damit bei ihrem Initiativewurf im Nachteil.
+description: Wenn eine Kreatur nicht mit einem Kampf Siehe auch gerechnet hat, wird sie überrascht und damit bei ihrem Initiativewurf
+  im Nachteil. „Die Spielregeln“ („Kampf“).
 source_book: SRD 5.2.1

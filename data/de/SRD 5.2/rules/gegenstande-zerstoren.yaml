@@ -3,11 +3,22 @@ type: rule
 template: rule-v1
 name: Gegenstände zerstören
 lang: de
-description: '„Gegenstände zerstören“. Gegenstände können durch Angriffe und manche
-  Zauber beschädigt werden. Dabei gelten die Regeln unten. Wenn ein Gegenstand besonders
-  empfindlich ist, kann der SL einer Kreatur gestatten, ihn mit der Angriffs- oder
-  Verwenden-Aktion automatisch zu Rüstungsklasse: zerstören. In der Tabelle „Rüstungsklasse
-  eines Gegenstands“ findest du RK-Vorschläge für Rveürsstcuhniegdseknlea sMseat eeriniaelise
-  nG.egenstands RKMaterialRKMaterial 11Papier, Seil, Stoff19Eisen, Stahl 13Eis, Glas,
-  Kristall21Mithral 15Holz23Adamant 17Stein'
+description: 'Gegenstände können durch Angriffe und manche Zauber beschädigt werden. Dabei gelten die Regeln unten. Wenn ein
+  Gegenstand besonders empfindlich ist, kann der SL einer Kreatur gestatten, ihn mit der Angriffs- oder Verwenden-Aktion automatisch
+  zu Rüstungsklasse: zerstören. In der Tabelle „Rüstungsklasse eines Gegenstands“ findest du RK-Vorschläge für Rüstungsklasse
+  verschiedene Materialien. eines Gegenstands RK Material RK Material 11 Papier, Seil, Stoff 19 Eisen, Stahl 13 Eis, Glas,
+  Kristall 21 Mithral 15 Holz 23 Adamant 17 Stein Trefferpunkte: Ein Gegenstand wird zerstört, wenn seine Trefferpunkte auf
+  0 sinken. In der Tabelle „Trefferpunkte eines Gegenstands“ findest du Vorschläge für die Trefferpunkte zerbrechlicher sowie
+  stabiler Gegenstände von höchstens großer Größe. Wenn du die Trefferpunkte eines riesigen oder gigantischen Gegenstands
+  nachverfolgen willst, unterteile den Gegenstand in Abschnitte von höchstens großer Größe und verfolge deren Trefferpunkte
+  jeweils separat. Der SL bestimmt, ob das Zerstören eines Teils von einem Gegenstand den Trefferpunkte gesamten Gegenstand
+  eines Gegenstands einstürzen lässt. Größe Zerbrechlich Stabil Winzig (Flasche, Schloss) 2 (1W4) 5 (2W4) Klein (Laute, Truhe)
+  3 (1W6) 10 (3W6) Mittelgroß 4 (1W8) 18 (4W8) (Fass, Kronleuchter) Groß (Esstisch, Karren) 5 (1W10) 27 (5W10) Schadensarten
+  und Gegenstände: Gegenstände sind immer gegen Gift und psychischen Schaden immun. Der SL könnte entscheiden, dass manche
+  Schadensarten bei einem Gegenstand besonders effektiv oder ineffektiv sind. Beispielsweise eignet sich Wuchtschaden gut,
+  um Gegenstände zu zerschmettern, jedoch schlecht, um etwas zu zerschneiden. Gegenstände aus Papier oder Stoff Schadensschwellenwert:
+  könnten anfällig für Feuerschaden sein. Große Gegenstände wie Burgmauern haben oft zusätzliche Widerstandskraft, Siehe auch
+  die von einem Schadensschwellenwert repräsentiert Keine Attributswerte: wird. „Schadensschwellenwert“. Gegenstände haben
+  keine Attributswerte, es sei denn, eine Regel weist ihnen solche Werte zu. Ohne Attributswerte kann ein Gegenstand keine
+  Attributswürfe ausführen, und er scheitert bei allen Rettungswürfen.'
 source_book: SRD 5.2.1

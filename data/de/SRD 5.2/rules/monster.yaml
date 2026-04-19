@@ -3,6 +3,6 @@ type: rule
 template: rule-v1
 name: Monster
 lang: de
-description: klassifiziert ist. Ein Monster ist eine vom SL kontrollierte Kreatur
-  – Siehe auch auch dann, wenn die Kreatur wohlwollend ist.
+description: Ein Monster ist eine vom SL kontrollierte Kreatur – Siehe auch auch dann, wenn die Kreatur wohlwollend ist. „Kreatur“
+  und „NSC“.
 source_book: SRD 5.2.1

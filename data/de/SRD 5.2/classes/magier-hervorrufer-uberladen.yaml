@@ -3,7 +3,7 @@ type: class_feature
 class: Magier
 lang: de
 level: 14
-name: Überladen
+name: Überladen (Hervorrufer)
 description: Du kannst die Macht deiner Zauber erhöhen. Wenn du einen Magierzauber mit einem Zauberplatz des 1. bis 5. Grades
   wirkst und der Zauber Schaden bewirkt, kannst du mit diesem Zauber in dem Zug, in dem du ihn wirkst, maximalen Schaden bewirken.
   Beim ersten Mal hat dies keine nachteiligen Effekte für dich. Wenn du dieses Merkmal jedoch vor Ende einer langen Rast erneut

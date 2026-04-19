@@ -3,7 +3,7 @@ type: class_feature
 class: Kämpfer
 lang: de
 level: 15
-name: Überlegener kritischer Treffer
+name: Überlegener kritischer Treffer (Champion)
 description: Deine Angriffswürfe mit Waffen und deine waffenlosen Angriffe bewirken ab sofort kritische Treffer, wenn du mit
   dem W20 ein Ergebnis von 18–20 würfelst.
 source_book: SRD 5.2.1
