@@ -1,0 +1,53 @@
+id: wyvern
+type: monster
+name: Wyvern
+lang: de
+groesse: Groß
+typ: Drache
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+0'
+initiative_wert: 10
+tp: 127
+tp_formel: 15W10+45
+bewegungsrate: 9 m, Fliegen 24 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+fertigkeiten: Wahrnehmung +4
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 14
+sprachen: −
+hg: 6
+ep: 2300
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Wyvern führt einen Bissangriff und einen Stachelangriff aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 13 (2W8+4) Stichschaden.'
+- name: 'Stachel:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 11 (2W6+4) Stichschaden plus 24 (7W6) Giftschaden, und
+    das Ziel ist bis zum Beginn des nächsten Zugs des Wyvern vergiftet.'

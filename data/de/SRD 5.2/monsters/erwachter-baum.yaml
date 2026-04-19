@@ -1,0 +1,48 @@
+id: erwachter-baum
+type: monster
+name: Erwachter Baum
+lang: de
+groesse: Riesig
+typ: Pflanze
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 13
+initiative: −2 (8)
+tp: 59
+tp_formel: 7W12+14
+bewegungsrate: 6 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 6
+    mod: −2
+    rw: −2
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+resistenzen: Stich, Wucht
+anfaelligkeiten: Feuer
+sinne: Passive Wahrnehmung 10
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Hieb:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 3 m. Treffer: 14 (3W6+4) Wuchtschaden.'

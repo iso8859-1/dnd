@@ -1,0 +1,59 @@
+id: riesenoktopus
+type: monster
+name: Riesenoktopus
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 11
+initiative: '+1'
+initiative_wert: 11
+tp: 45
+tp_formel: 7W10+7
+bewegungsrate: 3 m, Schwimmen 18 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 4
+    mod: −3
+    rw: −3
+fertigkeiten: Heimlichkeit +5, Wahrnehmung +4
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
+sprachen: −
+hg: 1
+ep: 200
+ub: '+2'
+merkmale:
+- name: 'Wasser atmen:'
+  beschreibung: Der Oktopus kann nur unter Wasser atmen. Er kann außerhalb des Wassers eine Stunde lang den Atem anhalten.
+aktionen:
+- name: 'Tentakel:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 3 m. Treffer: 10 (2W6+3) Wuchtschaden. Wenn das Ziel eine Kreatur von
+    höchstens mittelgroßer Größe ist, wird es von allen acht Tentakeln gepackt (Flucht-SG 13): Das gepackte Ziel ist außerdem
+    festgesetzt.'
+reaktionen:
+- name: 'Tintenwolke (1-mal täglich):'
+  beschreibung: 'Auslöser: Der Oktopus befindet sich unter Wasser und erleidet Schaden. Antwort: Der Oktopus stößt Tinte in
+    einem Würfel von drei Metern Kantenlänge um sich selbst aus und legt dann eine Strecke von bis zu seiner Schwimmbewegungsrate
+    zurück. Der Würfel ist ein komplett verschleierter Bereich, bis eine Minute vergangen ist oder bis eine starke Strömung
+    oder ein ähnlicher Effekt die Tinte verwirbelt.'

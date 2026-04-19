@@ -1,0 +1,54 @@
+id: riesenhai
+type: monster
+name: Riesenhai
+lang: de
+groesse: Riesig
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 92
+tp_formel: 8W12+40
+bewegungsrate: 1,5 m, Schwimmen 18 m
+attribute:
+  sta:
+    wert: 23
+    mod: '+6'
+    rw: '+6'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+fertigkeiten: Wahrnehmung +3
+sinne: Blindsicht 18 m; Passive Wahrnehmung 13
+sprachen: −
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Wasser atmen:'
+  beschreibung: Der Hai kann nur unter Wasser atmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Hai führt zwei Bissangriffe aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +9 (im Vorteil, wenn die Trefferpunkte des Ziels nicht vollständig sind), Reichweite
+    1,5 m. Treffer: 22 (3W10+6) Stichschaden.'

@@ -1,0 +1,63 @@
+id: baumhirte
+type: monster
+name: Baumhirte
+lang: de
+groesse: Riesig
+typ: Pflanze
+gesinnung: chaotisch gut
+source_book: SRD 5.2.1
+rk: 16
+initiative: '+3'
+initiative_wert: 13
+tp: 138
+tp_formel: 12W12+60
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 23
+    mod: '+6'
+    rw: '+6'
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  cha:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+resistenzen: Stich, Wucht
+anfaelligkeiten: Feuer
+sinne: Passive Wahrnehmung 13
+sprachen: Druidisch, Elfisch, Gemeinsprache, Sylvanisch
+hg: 9
+ep: 5000
+ub: '+4'
+merkmale:
+- name: 'Belagerungsmonster:'
+  beschreibung: Der Baumhirte fügt Gegenständen und Gebäuden doppelten Schaden zu.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Baumhirte führt zwei Hieban- griffe aus.
+- name: 'Hieb:'
+  beschreibung: 'Nahkampfangriffswurf: +10, Reichweite 1,5 m. Treffer: 16 (3W6+6) Wuchtschaden.'
+- name: 'Rindenhagel:'
+  beschreibung: 'Fernkampfangriffswurf: +10, Reichweite 54 m. Treffer: 28 (4W10+6) Stichschaden.'
+- name: 'Bäume beleben (1-mal täglich):'
+  beschreibung: Der Baumhirte belebt auf magische Art bis zu zwei Bäume im Abstand von bis zu 18 Metern von sich, die er sehen
+    kann. Jeder Baum verwendet den Wertekasten des Baumhirten , hat allerdings einen Intelligenz- und einen Charismawert von
+    1, kann nicht sprechen, und diese Aktion steht ihm nicht zur Verfügung. Der Baum ist unmittelbar nach dem Baumhirten beim
+    selben Initiativewert am Zug und gehorcht dem Baumhirten. Ein Baum bleibt belebt, bis ein Tag vergangen ist, bis er stirbt,
+    bis er weiter als 36 Meter vom Baumhirten entfernt ist oder bis der Baumhirte stirbt. In diesem Fall versucht er, sich
+    wieder zu verwurzeln.

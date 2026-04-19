@@ -1,0 +1,53 @@
+id: allosaurus
+type: monster
+name: Allosaurus
+lang: de
+groesse: Groß
+typ: Tier (Dinosaurier)
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+1'
+initiative_wert: 11
+tp: 51
+tp_formel: 6W10+18
+bewegungsrate: 18 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+fertigkeiten: Wahrnehmung +5
+sinne: Passive Wahrnehmung 15
+sprachen: −
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 15 (2W10+4) Stichschaden.'
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 8 (1W8+4) Hiebschaden. Wenn das Ziel eine Kreatur von
+    höchstens großer Größe ist und der Allosaurus sich unmittelbar vor dem Treffer mindestens neun Meter weit in gerader Linie
+    auf das Ziel zubewegt hat, wird das Ziel umgestoßen und hat den Zustand Liegend, und der Allosaurus kann einen Bissangriff
+    gegen es ausführen.'

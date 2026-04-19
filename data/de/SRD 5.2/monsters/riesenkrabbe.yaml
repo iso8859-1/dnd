@@ -1,0 +1,52 @@
+id: riesenkrabbe
+type: monster
+name: Riesenkrabbe
+lang: de
+groesse: Mittelgroß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+1'
+initiative_wert: 11
+tp: 13
+tp_formel: 3W8
+bewegungsrate: 9 m, Schwimmen 9 m
+attribute:
+  sta:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 9
+    mod: −1
+    rw: −1
+  cha:
+    wert: 3
+    mod: −4
+    rw: −4
+fertigkeiten: Heimlichkeit +3
+sinne: Blindsicht 9 m; Passive Wahrnehmung 9
+sprachen: −
+hg: 1/8
+ep: 25
+ub: '+2'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Die Krabbe kann Luft und Wasser atmen.
+aktionen:
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +3, Reichweite 1,5 m. Treffer: 4 (1W6+1) Wuchtschaden. Wenn das Ziel eine Kreatur von
+    höchstens mittelgroßer Größe ist, wird es von einer der beiden Klauen gepackt (Flucht-SG 11).'

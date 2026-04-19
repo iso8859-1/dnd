@@ -1,0 +1,61 @@
+id: seiler
+type: monster
+name: Seiler
+lang: de
+groesse: Groß
+typ: Aberration
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 20
+initiative: '+5'
+initiative_wert: 15
+tp: 93
+tp_formel: 11W10+33
+bewegungsrate: 3 m, Klettern 6 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 7
+    mod: −2
+    rw: −2
+  wei:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+fertigkeiten: Heimlichkeit +5, Wahrnehmung +6
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 16
+sprachen: −
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Spinnenklettern:'
+  beschreibung: Der Seiler kann ohne Attributswürfe schwierige Oberflächen erklimmen und sich an Decken entlang bewegen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Seiler führt zwei Tentakelangriffe aus, setzt Einholen ein und führt zwei Bissangriffe aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 17 (3W8+4) Stichschaden.'
+- name: 'Tentakel:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 18 m. Treffer: Das Ziel wird von einem der sechs Tentakel gepackt (Flucht-SG
+    14). Solange es gepackt bleibt, ist es außerdem vergiftet. Das Tentakel kann beschädigt werden (er besitzt eine RK von
+    20, 10 TP und ist gegen Gift- und psychischen Schaden immun). Wird das Tentakel zerstört, so muss er eine gepackte Kreatur
+    loslassen. Wird das Tentakel beschädigt, so erleidet der Seiler dadurch keinen Schaden. Ein zerstörtes Tentakel wächst
+    zu Beginn des nächsten Zugs des Seilers nach.'
+- name: 'Einholen:'
+  beschreibung: Der Seiler zieht jede Kreatur, die er gepackt hält, bis zu neun Meter weit in gerader Linie auf sich zu.

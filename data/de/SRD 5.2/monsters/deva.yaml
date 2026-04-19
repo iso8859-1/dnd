@@ -1,0 +1,66 @@
+id: deva
+type: monster
+name: Deva
+lang: de
+typ: Mittelgroßes celestisches Wesen (Engel)
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+4'
+initiative_wert: 14
+tp: 229
+tp_formel: 27W8+108
+bewegungsrate: 9 m, Fliegen 27 m (Schweben)
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  wei:
+    wert: 20
+    mod: '+5'
+    rw: '+9'
+  cha:
+    wert: 20
+    mod: '+5'
+    rw: '+9'
+fertigkeiten: Motiv erkennen +9, Wahrnehmung +9
+immunitaeten: Bezaubert, Erschöpft, Verängstigt
+resistenzen: Gleißend
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 19
+sprachen: Alle; Telepathie auf 36 m
+hg: 10
+ep: 5900
+ub: '+4'
+merkmale:
+- name: 'Erhabene Genesung:'
+  beschreibung: Wenn der Deva außerhalb des Bergs Celestia stirbt, verschwindet sein Körper. Der Deva erhält sofort einen
+    neuen Körper, der mit allen Trefferpunkten irgendwo am Berg Celestia aufersteht.
+- name: 'Magieresistenz:'
+  beschreibung: Der Deva ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Deva führt zwei Heiliger- Streitkolben-Angriffe aus.
+- name: 'Heiliger Streitkolben:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reichweite 1,5 m. Treffer: 7 (1W6+4) Wuchtschaden plus 18 (4W8) gleißender Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Deva wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 17): Beliebig oft: Gestaltwandel (nur in Tier- oder humanoider Gestalt; durch den
+    Zauber werden keine temporären Trefferpunkte erhalten, und zum Aufrechterhalten des Zaubers sind weder Konzentration noch
+    temporäre Trefferpunkte erforderlich), Gutes und Böses entdecken Je 1-mal täglich: Heiliges Gespräch , Tote erwecken'
+bonusaktionen:
+- name: 'Göttlicher Beistand (2-mal täglich):'
+  beschreibung: Der Deva wirkt einen der Zauber Fluch brechen , Schwache Genesung oder Wunden heilen . Sein Attribut zum Zauberwirken
+    ist dasselbe wie beim Ausführen der Zauberwirken- Aktion.

@@ -1,0 +1,56 @@
+id: druide
+type: monster
+name: Druide
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide (Druide)
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+1'
+initiative_wert: 11
+tp: 44
+tp_formel: 8W8+8
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heilkunde +5, Naturkunde +3,
+ausruestung: Beschlagene Lederrüstung
+sinne: Passive Wahrnehmung 15
+sprachen: Druidisch, Gemeinsprache, Sylvanisch
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Druide führt zwei Angriffe mit Rankenstab oder Grüner Funke in beliebiger Kombination aus.
+- name: 'Rankenstab:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 7 (1W8+3) Wuchtschaden plus 2 (1W4) Giftschaden.'
+- name: 'Grüner Funke:'
+  beschreibung: 'Fernkampfangriffswurf: +5, Reichweite 27 m. Treffer: 10 (3W6) gleißender Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Druide wirkt einen der folgenden Zauber mit Weisheit als Attribut zum Zauberwirken (Zauberrettungswurf-SG
+    13): Beliebig oft: Druidenkunst , Mit Tieren sprechen Je 2-mal täglich: Donnerwoge , Verstricken Je 1-mal täglich: Lange
+    Schritte , Mondstrahl , Tierbote'

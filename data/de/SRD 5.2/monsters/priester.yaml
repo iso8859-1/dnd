@@ -1,0 +1,59 @@
+id: priester
+type: monster
+name: Priester
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide (Kleriker)
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+0'
+initiative_wert: 10
+tp: 38
+tp_formel: 7W8+7
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  cha:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+fertigkeiten: Heilkunde +7, Religion +5, Wahrnehmung +5
+ausruestung: Heiliges Symbol, Kettenhemd, Streitkolben
+sinne: Passive Wahrnehmung 15
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Priester führt zwei Angriffe mit Streitkolben oder Gleißende Flamme in beliebiger Kombination aus.
+- name: 'Streitkolben:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 6 (1W6+3) Wuchtschaden plus 5 (2W4) gleißender Schaden.'
+- name: 'Gleißende Flamme:'
+  beschreibung: 'Fernkampfangriffswurf: +5, Reichweite 18 m. Treffer: 11 (2W10) gleißender Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Priester wirkt einen der folgenden Zauber mit Weisheit als Attribut zum Zauberwirken (Zauberrettungswurf-SG
+    13): Beliebig oft: Licht , Thaumaturgie Je 1-mal täglich: Schutzgeister'
+bonusaktionen:
+- name: 'Göttlicher Beistand (3-mal täglich):'
+  beschreibung: Der Priester wirkt einen der Zauber Heilendes Wort , Magie bannen , Schwache Genesung oder Segnen . Sein Attribut
+    zum Zauberwirken ist dasselbe wie beim Ausführen der Zauberwirken-Aktion.

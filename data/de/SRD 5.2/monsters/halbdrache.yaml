@@ -1,0 +1,62 @@
+id: halbdrache
+type: monster
+name: Halbdrache
+lang: de
+groesse: Mittelgroß
+typ: Drache
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+5'
+initiative_wert: 15
+tp: 105
+tp_formel: 14W8+42
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+5'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+5'
+  cha:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Athletik +7, Heimlichkeit +5,
+resistenzen: Schaden der Art, die für das Merkmal
+sinne: Blindsicht 3 m, Dunkelsicht 18 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Drakonischer Ursprung:'
+  beschreibung: 'Der Halbdrache ist mit einer Drachenart verwandt, die mit einer der folgenden Schadensarten (nach Wahl des
+    SL) assoziiert ist: Blitz, Feuer, Gift, Kälte oder Säure. Diese Entscheidung beeinflusst andere Aspekte des Wertekastens.'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Halbdrache führt zwei Klauenangriffe aus.
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 6 (1W4+4) Hiebschaden plus 7 (2W6) Schaden der Art, die
+    für das Merkmal Drakonischer Ursprung ausgewählt wurde.'
+- name: 'Drachenodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungswurf: SG 14; jede Kreatur in einem Kegel von neun Metern. Misserfolg: 28 (8W6)
+    Schaden der Art, die für das Merkmal Drakonischer Ursprung ausgewählt wurde. Erfolg: Halber Schaden.'
+bonusaktionen:
+- name: 'Sprung:'
+  beschreibung: Der Halbdrache springt bis zu neun Meter weit und verbraucht dabei nur drei Meter Bewegung.

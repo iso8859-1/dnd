@@ -1,0 +1,60 @@
+id: golddrachennestling
+type: monster
+name: Golddrachennestling
+lang: de
+groesse: Mittelgroß
+typ: Drache (metallisch)
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+4'
+initiative_wert: 14
+tp: 60
+tp_formel: 8W8+24
+bewegungsrate: 9 m, Fliegen 18 m, Schwimmen 9 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+4'
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+2'
+  cha:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +4
+immunitaeten: Feuer
+sinne: Blindsicht 3 m, Dunkelsicht 18 m;
+sprachen: Drakonisch
+hg: 3
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Drache kann Luft und Wasser atmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt zwei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 9 (1W10+4) Hiebschaden.'
+- name: 'Feuerodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungs wurf: SG 13; jede Kreatur in einem Kegel von 4,5 Metern. Misserfolg: 22 (4W10)
+    Feuerschaden. Erfolg: Halber Schaden.'
+- name: 'Schwächender Odem:'
+  beschreibung: 'Stärkerettungswurf: SG 13; jede Kreatur in einem Kegel von 4,5 Metern, die derzeit nicht von diesem Odem
+    betroffen ist. Misserfolg: Das Ziel ist bei W20-Prüfungen, die auf Stärke basieren, im Nachteil, und es zieht 2 (1W4)
+    von seinen Schadenswürfen ab. Es wiederholt den Rettungswurf am Ende jedes seiner Züge. Bei einem Erfolg endet der Effekt
+    bei ihm. Nach einer Minute besteht es den Rettungswurf automatisch.'

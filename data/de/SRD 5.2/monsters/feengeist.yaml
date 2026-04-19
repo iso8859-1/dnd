@@ -1,0 +1,58 @@
+id: feengeist
+type: monster
+name: Feengeist
+lang: de
+groesse: Winzig
+typ: Feenwesen
+gesinnung: neutral gut
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+4'
+initiative_wert: 14
+tp: 10
+tp_formel: 4W4
+bewegungsrate: 3 m, Fliegen 12 m
+attribute:
+  sta:
+    wert: 3
+    mod: −4
+    rw: −4
+  ges:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heimlichkeit +8, Wahrnehmung +3
+sinne: Passive Wahrnehmung 13
+sprachen: Elfisch, Gemeinsprache, Sylvanisch
+hg: 1/4
+ep: 50
+ub: '+2'
+aktionen:
+- name: 'Nadelschwert:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 6 (1W4+4) Stichschaden.'
+- name: 'Bezaubernder Bogen:'
+  beschreibung: 'Fernkampfangriffswurf: +6, Reichweite 12/48 m. Treffer: 1 Stichschaden, und das Ziel ist bis zum Beginn des
+    nächsten Zugs des Feengeists bezaubert.'
+- name: 'Herzsicht:'
+  beschreibung: 'Charismarettungswurf: SG 10; eine Kreatur im Abstand von bis zu 1,5 Metern vom Feengeist, die er sehen kann
+    (celestische Wesen, Unholde und Unholde scheitern automatisch). Misserfolg: Der Feengeist erkennt die Emotionen und die
+    Gesinnung des Ziels.'
+- name: 'Unsichtbarkeit:'
+  beschreibung: Der Feengeist wirkt den Zauber Unsichtbarkeit auf sich selbst mit Charisma als Attribut zum Zauberwirken,
+    ohne Zauberkomponenten zu benötigen.

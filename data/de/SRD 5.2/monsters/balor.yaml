@@ -1,0 +1,74 @@
+id: balor
+type: monster
+name: Balor
+lang: de
+groesse: Riesig
+typ: Unhold (Dämon)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 19
+initiative: '+14'
+initiative_wert: 24
+tp: 287
+tp_formel: 23W12+161
+bewegungsrate: 12 m, Fliegen 24 m
+attribute:
+  sta:
+    wert: 26
+    mod: '+8'
+    rw: '+8'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 22
+    mod: '+6'
+    rw: '+12'
+  int:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  wei:
+    wert: 16
+    mod: '+3'
+    rw: '+9'
+  cha:
+    wert: 22
+    mod: '+6'
+    rw: '+6'
+fertigkeiten: Wahrnehmung +9
+immunitaeten: Feuer, Gift; Bezaubert, Verängstigt, Vergiftet
+resistenzen: Blitz, Kälte
+sinne: Wahrer Blick 36 m; Passive Wahrnehmung 19
+sprachen: Abyssisch; Telepathie auf 36 m
+hg: 19
+ep: 22000
+ub: '+6'
+merkmale:
+- name: 'Feueraura:'
+  beschreibung: Am Ende jedes Zugs des Balors erleidet jede Kreatur in einer Ausströmung von 1,5 Metern, die vom Balor ausgeht,
+    13 (3W8) Feuerschaden.
+- name: 'Legendäre Resistenz (3-mal täglich):'
+  beschreibung: Wenn der Balor bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+- name: 'Magieresistenz:'
+  beschreibung: Der Balor ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+- name: 'Todeszuckungen:'
+  beschreibung: 'Der Balor explodiert, wenn er stirbt. Geschicklichkeitsrettungswurf: SG 20; jede Kreatur in einer Ausströmung
+    von neun Metern, die vom Balor ausgeht. Misserfolg: 31 (9W6) Feuerschaden plus 31 (9W6) Energieschaden. Erfolg: Halber
+    Schaden. Erfolg oder Misserfolg: Wenn der Balor außerhalb des Abyss stirbt, erhält er sofort einen neuen Körper, der mit
+    allen Trefferpunkten irgendwo im Abyss aufersteht.'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Balor führt einen Blitzklinge- und einen Flammenpeitsche-Angriff aus.
+- name: 'Blitzklinge:'
+  beschreibung: 'Nahkampfangriffswurf: +14, Reichweite 3 m. Treffer: 21 (3W8+8) Energieschaden plus 22 (4W10) Blitzschaden,
+    und das Ziel kann bis zum Beginn des nächsten Zugs des Balors keine Reaktionen ausführen.'
+- name: 'Flammenpeitsche:'
+  beschreibung: 'Nahkampfangriffswurf: +14, Reichweite 9 m. Treffer: 18 (3W6+8) Energieschaden plus 17 (5W6) Feuerschaden.
+    Wenn das Ziel eine Kreatur von höchstens riesiger Größe ist, zieht der Balor es bis zu 7,5 Meter weit in gerader Linie
+    auf sich zu, und das Ziel wird umgestoßen und hat den Zustand Liegend.'
+bonusaktionen:
+- name: 'Teleportieren:'
+  beschreibung: Der Balor teleportiert sich oder einen bereitwilligen Dämon im Abstand von bis zu drei Metern von sich bis
+    zu 18 Meter weit in einen freien Bereich, den der Balor sehen kann.

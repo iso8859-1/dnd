@@ -1,0 +1,79 @@
+id: uralter-silberdrache
+type: monster
+name: Uralter Silberdrache
+lang: de
+groesse: Gigantisch
+typ: Drache (metallisch)
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 22
+initiative: '+14'
+initiative_wert: 24
+tp: 468
+tp_formel: 24W20+216
+bewegungsrate: 12 m, Fliegen 24 m
+attribute:
+  sta:
+    wert: 30
+    mod: '+10'
+    rw: '+10'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+7'
+  kon:
+    wert: 29
+    mod: '+9'
+    rw: '+9'
+  int:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+9'
+  cha:
+    wert: 26
+    mod: '+8'
+    rw: '+8'
+fertigkeiten: Geschichte +11, Heimlichkeit +7,
+immunitaeten: Kälte
+sinne: Blindsicht 18 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 23
+ep: 50000
+ub: '+7'
+merkmale:
+- name: 'Legendäre Resistenz (4-mal täglich, im Hort 5-mal täglich):'
+  beschreibung: Wenn der Drache bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus. Er kann einen Angriff durch einen Einsatz von (A) Lähmender
+    Odem oder (B) Zauberwirken ersetzen, um den Zauber Eismesser (Version des 2. Grades) zu wirken.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +17, Reichweite 4,5 m. Treffer: 19 (2W8+10) Hiebschaden plus 9 (2W8) Kälteschaden.'
+- name: 'Kälteodem (Aufladung 5–6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 24; jede Kreatur in einem Kegel von 27 Metern. Misserfolg: 67 (15W8) Kälteschaden.
+    Erfolg: Halber Schaden.'
+- name: 'Lähmender Odem:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 24; jede Kreatur in einem Kegel von 27 Metern. Erster Misserfolg: Das Ziel
+    ist bis zum Ende seines nächsten Zugs kampfunfähig. Dann wiederholt es den Rettungswurf. Zweiter Misserfolg: Das Ziel
+    ist gelähmt und wiederholt den Rettungswurf am Ende jedes seiner Züge. Bei einem Erfolg endet der Effekt bei ihm. Nach
+    einer Minute besteht es den Rettungswurf automatisch.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Drache wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 23, +15 auf Treffer mit Zauberangriffen): Beliebig oft: Eismesser (Version des 2.
+    Grades), Gestaltwandel (nur in Tier- oder humanoider Gestalt; durch den Zauber werden keine temporären Trefferpunkte erhalten,
+    und zum Aufrechterhalten des Zaubers sind weder Konzentration noch temporäre Trefferpunkte erforderlich), Magie entdecken
+    , Monster festhalten Je 1-mal täglich: Eissturm (Version des 7. Grades), Teleportieren , Wetterkontrolle , Zone der Wahrheit'
+legendaere_aktionen:
+- name: 'Anspringen:'
+  beschreibung: Der Drache legt bis zur Hälfte seiner Bewegungsrate zurück und führt einen Zerfetzen- Angriff aus.
+- name: 'Kälte:'
+  beschreibung: Der Drache setzt Zauberwirken ein, um den Zauber Monster festhalten zu wirken. Der Drache kann diese Aktion
+    erst nach Beginn seines nächsten Zugs erneut ausführen.
+- name: 'Kältesturm:'
+  beschreibung: 'Geschicklichkeitsrettungswurf: SG 23; jede Kreatur in einer 18 Meter langen, drei Meter breiten Linie. Misserfolg:
+    14 (4W6) Kälteschaden, und das Ziel wird bis zu neun Meter weit in gerader Linie vom Drachen weggestoßen. Erfolg: Nur
+    halber Schaden. Erfolg oder Misserfolg: Der Drache kann diese Aktion erst nach Beginn seines nächsten Zugs erneut ausführen.'

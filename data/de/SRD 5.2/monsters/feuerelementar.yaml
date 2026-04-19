@@ -1,0 +1,66 @@
+id: feuerelementar
+type: monster
+name: Feuerelementar
+lang: de
+groesse: Groß
+typ: Elementar
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 93
+tp_formel: 11W10+33
+bewegungsrate: 15 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+immunitaeten: Feuer, Gift; Bewusstlos, Erschöpft, Festgesetzt,
+resistenzen: Hieb, Stich, Wucht
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: Urtümlich (Ignal)
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Beleuchtung:'
+  beschreibung: Der Elementar spendet in einem Radius von neun Metern helles Licht und in einem Radius von weiteren neun Metern
+    dämmriges Licht.
+- name: 'Feueraura:'
+  beschreibung: Am Ende jedes Zugs des Elementars erleidet jede Kreatur in einer Ausströmung von drei Metern, die vom Elementar
+    ausgeht, 5 (1W10) Feuerschaden. Kreaturen und brennbare Gegenstände in der Ausströmung beginnen zu brennen.
+- name: 'Feuergestalt:'
+  beschreibung: Der Elementar kann sich durch enge Bereiche von nur 2,5 Zentimetern Durchmesser bewegen, ohne zusätzliche
+    Bewegung aufzuwenden. Außerdem kann er in den Bereich einer anderen Kreatur eindringen und dort stoppen. Wenn er in einem
+    Zug erstmals in den Bereich einer Kreatur gelangt, erleidet die Kreatur 5 (1W10) Feuerschaden.
+- name: 'Wasserempfindlichkeit:'
+  beschreibung: Je 1,5 Meter, die der Elementar sich in Wasser bewegt, oder je vier Liter Wasser, die auf ihn gegossen werden,
+    erleidet der Elementar 3 (1W6) Kälteschaden.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Elementar führt zwei Brand- Angriffe aus.
+- name: 'Brand:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 10 (2W6+3) Feuerschaden. Wenn das Ziel eine Kreatur
+    oder ein brennbarer Gegenstand ist, beginnt es zu brennen.'

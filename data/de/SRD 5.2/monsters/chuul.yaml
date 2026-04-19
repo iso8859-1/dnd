@@ -1,0 +1,62 @@
+id: chuul
+type: monster
+name: Chuul
+lang: de
+groesse: Groß
+typ: Aberration
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 16
+initiative: '+0'
+initiative_wert: 10
+tp: 76
+tp_formel: 9W10+27
+bewegungsrate: 9 m, Schwimmen 9 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+fertigkeiten: Wahrnehmung +4
+immunitaeten: Gift; Vergiftet
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
+sprachen: Versteht Tiefensprache, kann jedoch nicht
+hg: 4
+ep: 1100
+ub: '+2'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Chuul kann Luft und Wasser atmen.
+- name: 'Magie spüren:'
+  beschreibung: Der Chuul spürt Magie im Abstand von bis zu 36 Metern von sich. Dieses Merkmal ist selbst nicht magisch, funktioniert
+    aber ansonsten wie der Zauber Magie entdecken .
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Chuul führt zwei Zangenangriffe aus und setzt Lähmende Tentakel ein.
+- name: 'Zange:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 3 m. Treffer: 9 (1W10+4) Wuchtschaden. Wenn das Ziel eine Kreatur von
+    höchstens großer Größe ist, wird es von einer der zwei Zangen gepackt (Flucht-SG 14).'
+- name: 'Lähmende Tentakel:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 13; eine Kreatur, die vom Chuul gepackt wurde. Misserfolg: Das Ziel ist vergiftet
+    und wiederholt den Rettungswurf am Ende jedes seiner Züge. Bei einem Erfolg endet der Effekt bei ihm. Nach einer Minute
+    besteht es den Rettungswurf automatisch. Solange das Ziel vergiftet ist, ist es außerdem gelähmt.'

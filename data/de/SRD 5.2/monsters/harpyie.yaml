@@ -1,0 +1,57 @@
+id: harpyie
+type: monster
+name: Harpyie
+lang: de
+groesse: Mittelgroß
+typ: Monstrosität
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 11
+initiative: '+1'
+initiative_wert: 11
+tp: 38
+tp_formel: 7W8+7
+bewegungsrate: 6 m, Fliegen 12 m
+attribute:
+  sta:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 7
+    mod: −2
+    rw: −2
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+sinne: Passive Wahrnehmung 10
+sprachen: Gemeinsprache
+hg: 1
+ep: 200
+ub: '+2'
+aktionen:
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +3, Reichweite 1,5 m. Treffer: 6 (2W4+1) Hiebschaden.'
+- name: 'Verlockender Gesang:'
+  beschreibung: 'Die Harpyie singt eine magische Melodie, die erhalten bleibt, bis die Konzentration der Harpyie darauf endet.
+    Weisheitsrettungswurf: SG 11; alle Humanoiden und Riesen in einer Ausströmung von 90 Metern, die von der Harpyie ausgeht,
+    wenn der Gesang beginnt. Misserfolg: Das Ziel ist bezaubert, bis der Gesang endet, und wiederholt den Rettungswurf am
+    Ende jedes seiner Züge. Das bezauberte Ziel ist kampfunfähig und ignoriert den Verlockenden Gesang anderer Harpyien. Wenn
+    das Ziel weiter als 1,5 Meter von der Harpyie entfernt ist, bewegt es sich in seinem Zug auf dem direktesten Weg auf die
+    Harpyie zu, um sich im Abstand von bis zu 1,5 Metern von ihr aufzuhalten. Es vermeidet dabei keine Gelegenheitsangriffe.
+    Bevor das Ziel sich jedoch auf schädigendes Gelände (wie in Lava oder eine Grube) bewegt und wann immer es Schaden durch
+    eine Quelle außer der Harpyie erleidet, kann es den Rettungswurf wiederholen. Erfolg: Das Ziel ist 24 Stunden lang gegen
+    den Verlockenden Gesang dieser Harpyie immun.'

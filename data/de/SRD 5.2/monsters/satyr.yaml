@@ -1,0 +1,55 @@
+id: satyr
+type: monster
+name: Satyr
+lang: de
+groesse: Mittelgroß
+typ: Feenwesen
+gesinnung: chaotisch neutral
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 31
+tp_formel: 7W8
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Auftreten +6, Heimlichkeit +5,
+sinne: Passive Wahrnehmung 12
+sprachen: Elfisch, Gemeinsprache, Sylvanisch
+hg: 1/2
+ep: 100
+ub: '+2'
+merkmale:
+- name: 'Magieresistenz:'
+  beschreibung: Der Satyr ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Hufe:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 5 (1W4+3) Wuchtschaden. Wenn das Ziel eine Kreatur von
+    höchstens mittelgroßer Größe ist, stößt der Satyr es bis zu drei Meter weit in gerader Linie von sich weg.'
+- name: 'Verspotten:'
+  beschreibung: 'Weisheitsrettungswurf: SG 12; eine Kreatur im Abstand von bis zu 27 Metern vom Satyr, die er sehen kann.
+    Misserfolg: 5 (1W6+2) psychischer Schaden.'

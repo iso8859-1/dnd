@@ -1,0 +1,49 @@
+id: riesendachs
+type: monster
+name: Riesendachs
+lang: de
+groesse: Mittelgroß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+0'
+initiative_wert: 10
+tp: 15
+tp_formel: 2W8+6
+bewegungsrate: 9 m, Graben 3 m
+attribute:
+  sta:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+fertigkeiten: Wahrnehmung +3
+resistenzen: Gift
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 13
+sprachen: −
+hg: 1/4
+ep: 50
+ub: '+2'
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +3, Reichweite 1,5 m. Treffer: 6 (2W4+1) Stichschaden.'

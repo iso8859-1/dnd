@@ -1,0 +1,60 @@
+id: riesenkrote
+type: monster
+name: Riesenkröte
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 11
+initiative: '+1'
+initiative_wert: 11
+tp: 39
+tp_formel: 6W10+6
+bewegungsrate: 9 m, Schwimmen 9 m
+attribute:
+  sta:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 3
+    mod: −4
+    rw: −4
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: −
+hg: 1
+ep: 200
+ub: '+2'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Die Kröte kann Luft und Wasser atmen.
+- name: 'Stehender Sprung:'
+  beschreibung: Die Kröte kann mit oder ohne Anlauf bis zu sechs Meter weit und bis zu drei Meter hoch springen.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 5 (1W6+2) Stichschaden plus 5 (2W4) Giftschaden. Wenn
+    das Ziel eine Kreatur von höchstens mittelgroßer Größe ist, wird es gepackt (Flucht-SG 12).'
+- name: 'Verschlucken:'
+  beschreibung: Die Kröte verschluckt ein Ziel von höchstens mittelgroßer Größe, das sie gepackt hält. Das verschluckte Ziel
+    ist nicht mehr gepackt, jedoch blind und festgesetzt. Es hat vollständige Deckung gegen Angriffe und andere Effekte von
+    außerhalb der Kröte. Außerdem erleidet das Ziel am Ende jedes Zugs der Kröte 10 (3W6) Säureschaden. Die Kröte kann jeweils
+    nur ein Ziel verschlucken und keine Bissangriffe ausführen, solange sie ein Ziel verschluckt hat. Wenn die Kröte stirbt,
+    ist die verschluckte Kreatur nicht mehr festgesetzt und kann aus dem Kadaver entkommen. Sie verbraucht dabei 1,5 Meter
+    Bewegung und hat danach den Zustand Liegend.

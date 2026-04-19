@@ -1,0 +1,64 @@
+id: sahuagin-krieger
+type: monster
+name: Sahuagin-Krieger
+lang: de
+groesse: Mittelgroß
+typ: Unhold
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+0'
+initiative_wert: 10
+tp: 22
+tp_formel: 4W8+4
+bewegungsrate: 9 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 9
+    mod: −1
+    rw: −1
+fertigkeiten: Wahrnehmung +5
+resistenzen: Kälte, Säure
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 15
+sprachen: Sahuaginisch
+hg: 1/2
+ep: 100
+ub: '+2'
+merkmale:
+- name: 'Begrenzt amphibisch:'
+  beschreibung: Der Sahuagin kann Luft und Wasser atmen, doch er muss sich mindestens einmal alle vier Stunden ganz im Wasser
+    befinden, um nicht zu ersticken.
+- name: 'Blutrausch:'
+  beschreibung: Der Sahuagin ist bei Angriffswürfen gegen jede Kreatur im Vorteil, die nicht alle Trefferpunkte hat.
+- name: 'Haifischtelepathie:'
+  beschreibung: Der Sahuagin kann auf magische Art Haie im Abstand von bis zu 36 Metern von sich kontrollieren, wozu er spezielle
+    Form von Telepathie nutzt.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Sahuagin führt zwei Klauen- angriffe aus.
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +3, Reichweite 1,5 m. Treffer: 4 (1W6+1) Hiebschaden.'
+bonusaktionen:
+- name: 'Aquatischer Sturmangriff:'
+  beschreibung: Der Sahuagin nutzt seine Schwimmbewegungsrate und bewegt sich in gerader Linie auf einen Gegner zu, den er
+    sehen kann.

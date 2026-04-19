@@ -1,0 +1,56 @@
+id: weisser-drachennestling
+type: monster
+name: Weißer Drachennestling
+lang: de
+groesse: Mittelgroß
+typ: Drache (chromatisch)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 16
+initiative: '+2'
+initiative_wert: 12
+tp: 32
+tp_formel: 5W8+10
+bewegungsrate: 9 m, Fliegen 18 m, Graben 4,5 m,
+attribute:
+  sta:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+2'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+2'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heimlichkeit +2, Wahrnehmung +4
+immunitaeten: Kälte
+sinne: Blindsicht 3 m, Dunkelsicht 18 m;
+sprachen: Drakonisch
+hg: 2
+merkmale:
+- name: 'Eisschritt:'
+  beschreibung: Der Drache kann sich über vereiste Flächen bewegen und sie erklimmen, ohne einen Attributswurf ausführen zu
+    müssen. Außerdem kostet ihn schwieriges Gelände, das aus Eis oder Schnee besteht, keine zusätzliche Bewegung.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt zwei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 6 (1W8+2) Hiebschaden plus 2 (1W4) Kälteschaden.'
+- name: 'Kälteodem (Aufladung 5–6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 12; jede Kreatur in einem Kegel von 4,5 Metern. Misserfolg: 22 (5W8) Kälteschaden.
+    Erfolg: Halber Schaden.'

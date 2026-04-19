@@ -1,0 +1,62 @@
+id: hydra
+type: monster
+name: Hydra
+lang: de
+groesse: Riesig
+typ: Monstrosität
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+4'
+initiative_wert: 14
+tp: 184
+tp_formel: 16W12+80
+bewegungsrate: 12 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Wahrnehmung +6
+immunitaeten: Betäubt, Bewusstlos, Bezaubert, Blind, Taub,
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 16
+sprachen: −
+hg: 8
+ep: 3900
+ub: '+3'
+merkmale:
+- name: 'Atem anhalten:'
+  beschreibung: Die Hydra kann eine Stunde lang den Atem anhalten.
+- name: 'Mehrere Köpfe:'
+  beschreibung: 'Die Hydra hat fünf Köpfe. Wann immer die Hydra mindestens 25 Schaden in einem einzigen Zug erleidet, stirbt
+    einer ihrer Köpfe. Sind alle Köpfe tot, so stirbt die Hydra. Bis dahin gilt: Am Ende jedes ihrer Züge wachsen der Hydra
+    für jeden Kopf, der seit ihrem letzten Zug zerstört wurde, jeweils zwei Köpfe nach, sofern die Hydra seitdem keinen Feuerschaden
+    erlitten hat. Die Hydra erhält zwölf Trefferpunkte zurück, wann immer ihr ein neuer Kopf wächst.'
+- name: 'Reaktive Köpfe:'
+  beschreibung: Für jeden Kopf über einen hinaus bekommt die Hydra eine zusätzliche Reaktion, die sie nur zu Gelegenheitsangriffen
+    einsetzen kann.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Hydra führt so viele Bissangriffe aus, wie sie Köpfe hat.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reichweite 3 m. Treffer: 10 (1W10+5) Stichschaden.'

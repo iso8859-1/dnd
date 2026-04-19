@@ -1,0 +1,75 @@
+id: geist
+type: monster
+name: Geist
+lang: de
+groesse: Mittelgroß
+typ: Untoter
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 11
+initiative: '+1'
+initiative_wert: 11
+tp: 45
+tp_formel: 10W8
+bewegungsrate: 1,5 m, Fliegen 12 m (Schweben)
+attribute:
+  sta:
+    wert: 7
+    mod: −2
+    rw: −2
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+immunitaeten: Nekrotisch, Gift; Bezaubert, Erschöpft,
+resistenzen: Blitz, Feuer, Hieb, Kälte, Säure, Schall, Stich,
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 11
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 4
+ep: 1100
+ub: '+2'
+merkmale:
+- name: 'Ätherische Sicht:'
+  beschreibung: Der Geist kann 18 Meter weit in die Ätherebene blicken, wenn er sich auf der materiellen Ebene befindet.
+- name: 'Körperlose Bewegung:'
+  beschreibung: Der Geist kann sich durch andere Kreaturen und Gegenstände bewegen, als wären sie schwieriges Gelände. Er
+    erleidet 5 (1W10) Energieschaden, wenn er den Zug in einem Gegenstand beendet.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Geist führt zwei Vernichtende- Berührung-Angriffe aus.
+- name: 'Vernichtende Berührung:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 19 (3W10+3) nekrotischer Schaden.'
+- name: 'Ätherische Gestalten:'
+  beschreibung: Der Geist wirkt den Zauber Körperlosigkeit mit Charisma als Attribut zum Zauber- wirken, ohne Zauberkomponenten
+    zu benötigen. Er ist auf der materiellen Ebene sichtbar, solange er sich an der Äthergrenze befindet, sowie umgekehrt,
+    aber er kann weder etwas auf der anderen Ebene beeinflussen noch von etwas auf der anderen Ebene beeinflusst werden.
+- name: 'Grauenhaftes Antlitz:'
+  beschreibung: 'Weisheitsrettungswurf: SG 13; jede Kreatur in einem Kegel von 18 Metern, die den Geist sehen kann und kein
+    Untoter ist. Misserfolg: 10 (2W6+3) psychischer Schaden, und das Ziel ist bis zum Beginn des nächsten Zugs des Geists
+    verängstigt. Erfolg: Das Ziel ist 24 Stunden lang gegen den Zauber Grauenhaftes Antlitz dieses Geists immun.'
+- name: 'Inbesitznahme (Aufladung 6):'
+  beschreibung: 'Charismarettungswurf: SG 13; ein Humanoide im Abstand von bis zu 1,5 Metern vom Geist, die er sehen kann.
+    Misserfolg: Der Geist verschwindet und ergreift Besitz vom Ziel. Das Ziel ist kampfunfähig und verliert die Kontrolle
+    über seinen Körper. Dieser wird nun vom Geist kontrolliert. Das Ziel behält jedoch sein Bewusstsein. Der Geist kann nicht
+    zum Ziel von Angriffen, Zaubern oder anderen Effekten werden – außer solchen, die ausdrücklich auf Untote zielen. Die
+    Spielwerte des Geists bleiben unverändert mit folgenden Ausnahmen: Der Geist verwendet die Bewegungsrate sowie die Modifikatoren
+    für Stärke, Geschicklichkeit und Konstitution des Ziels. Die Besessenheit bleibt bestehen, bis die Trefferpunkte des besessenen
+    Körpers auf 0 sinken oder der Geist ihn als Bonusaktion verlässt. Wenn die Besessenheit endet, erscheint der Geist in
+    einem freien Bereich im Abstand von bis zu 1,5 Metern vom Ziel, und das Ziel ist 24 Stunden lang gegen den Zauber Inbesitznahme
+    dieses Geists immun. Erfolg: Das Ziel ist 24 Stunden lang gegen den Zauber Inbesitznahme dieses Geists immun.'

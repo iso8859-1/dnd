@@ -1,0 +1,63 @@
+id: hezrou
+type: monster
+name: Hezrou
+lang: de
+groesse: Groß
+typ: Unhold (Dämon)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+6'
+initiative_wert: 16
+tp: 157
+tp_formel: 15W10+75
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+7'
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 20
+    mod: '+5'
+    rw: '+8'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+4'
+  cha:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+immunitaeten: Gift; Vergiftet
+resistenzen: Blitz, Feuer, Kälte
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 11
+sprachen: Abyssisch; Telepathie auf 36 m
+hg: 8
+ep: 3900
+ub: '+3'
+merkmale:
+- name: 'Dämonische Genesung:'
+  beschreibung: Wenn der Hezrou außerhalb des Abyss stirbt, löst sein Körper sich zu einer widerlichen Flüssigkeit auf. Der
+    Hezrou erhält sofort einen neuen Körper, der mit allen Trefferpunkten irgendwo im Abyss aufersteht.
+- name: 'Gestank:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 16; jede Kreatur, die ihren Zug in einer Ausströmung von drei Metern beginnt,
+    die vom Hezrou ausgeht. Misserfolg: Das Ziel ist bis zum Beginn seines nächsten Zugs vergiftet.'
+- name: 'Magieresistenz:'
+  beschreibung: Der Hezrou ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Hezrou führt drei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 6 (1W4+4) Hiebschaden plus 9 (2W8) Giftschaden.'
+bonusaktionen:
+- name: 'Sprung:'
+  beschreibung: Der Hezrou springt bis zu neun Meter weit und verbraucht dabei nur drei Meter Bewegung.

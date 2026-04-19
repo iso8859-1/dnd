@@ -1,0 +1,52 @@
+id: skelett
+type: monster
+name: Skelett
+lang: de
+groesse: Mittelgroß
+typ: Untoter
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+3'
+initiative_wert: 13
+tp: 13
+tp_formel: 2W8+4
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 8
+    mod: −1
+    rw: −1
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+immunitaeten: Gift; Erschöpft, Vergiftet
+anfaelligkeiten: Wucht
+ausruestung: Kurzbogen, Kurzschwert
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 9
+sprachen: Versteht Gemeinsprache und eine weitere
+hg: 1/4
+ep: 50
+ub: '+2'
+aktionen:
+- name: 'Kurzschwert:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 6 (1W6+3) Stichschaden.'
+- name: 'Kurzbogen:'
+  beschreibung: 'Fernkampfangriffswurf: +5, Reichweite 24/96 m. Treffer: 6 (1W6+3) Stichschaden.'

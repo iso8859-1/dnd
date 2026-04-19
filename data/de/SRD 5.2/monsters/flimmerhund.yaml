@@ -1,0 +1,51 @@
+id: flimmerhund
+type: monster
+name: Flimmerhund
+lang: de
+groesse: Mittelgroß
+typ: Feenwesen
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 22
+tp_formel: 4W8+4
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heimlichkeit +5, Wahrnehmung +5
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 15
+sprachen: Flimmerhundisch; versteht Elfisch und Sylvanisch,
+hg: 1/4
+ep: 50
+ub: '+2'
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 5 (1W4+3) Stichschaden.'
+bonusaktionen:
+- name: 'Teleportieren (Aufladung 4–6):'
+  beschreibung: Der Hund teleportiert sich bis zu zwölf Meter weit in einen freien Bereich, den er sehen kann.

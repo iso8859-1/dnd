@@ -1,0 +1,67 @@
+id: ifrit
+type: monster
+name: Ifrit
+lang: de
+groesse: Groß
+typ: Elementar (Dschinn)
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+1'
+initiative_wert: 11
+tp: 212
+tp_formel: 17W10+119
+bewegungsrate: 12 m, Fliegen 18 m (Schweben)
+attribute:
+  sta:
+    wert: 22
+    mod: '+6'
+    rw: '+6'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 24
+    mod: '+7'
+    rw: '+7'
+  int:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+6'
+  cha:
+    wert: 19
+    mod: '+4'
+    rw: '+8'
+immunitaeten: Feuer
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 12
+sprachen: Urtümlich (Ignal)
+hg: 11
+ep: 7200
+ub: '+4'
+merkmale:
+- name: 'Elementare Genesung:'
+  beschreibung: Wenn der Ifrit außerhalb der Elementarebene des Feuers stirbt, zerfällt sein Körper zu Asche. Der Ifrit erhält
+    nach 1W4 Tagen einen neuen Körper, der mit allen Trefferpunkten irgendwo auf der Elementarebene des Feuers aufersteht.
+- name: 'Magieresistenz:'
+  beschreibung: Der Ifrit ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+- name: 'Wünsche:'
+  beschreibung: Der Ifrit kennt mit 30-prozentiger Wahrscheinlichkeit den Zauber Wunsch . Wenn er ihn kennt, kann er ihn nur
+    für eine Kreatur wirken, die kein Dschinn ist und die einen Wunsch auf eine Weise kommuniziert, die der Ifrit verstehen
+    kann. Wirkt der Ifrit den Zauber für diese Kreatur, so belastet ihn der Zauber in keiner Weise. Wenn er den Zauber dreimal
+    gewirkt hat, kann er dies erst nach 365 Tagen erneut tun.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Ifrit führt drei Angriffe mit Heiße Klinge oder Flamme schleudern in beliebiger Kombination aus.
+- name: 'Heiße Klinge:'
+  beschreibung: 'Nahkampfangriffswurf: +10, Reichweite 1,5 m. Treffer: 13 (2W6+6) Hiebschaden plus 13 (2W12) Feuerschaden.'
+- name: 'Flamme schleudern:'
+  beschreibung: 'Fernkampfangriffswurf: +8, Reichweite 36 m. Treffer: 24 (7W6) Feuerschaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Ifrit wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 16): Beliebig oft: Elementalismus , Magie entdecken Je 1-mal täglich: Ebenenwechsel
+    , Feuerwand (Version des 7. Grades), Gasförmige Gestalt , Mächtiges Trugbild , Unsichtbarkeit , Zungen'

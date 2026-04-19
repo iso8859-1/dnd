@@ -1,0 +1,90 @@
+id: mumienfurst
+type: monster
+name: Mumienfürst
+lang: de
+typ: Kleiner oder mittelgroßer Untoter (Kleriker)
+gesinnung: rechtschaffen
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+10'
+initiative_wert: 20
+tp: 187
+tp_formel: 25W8+75
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+5'
+  wei:
+    wert: 19
+    mod: '+4'
+    rw: '+9'
+  cha:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+fertigkeiten: Geschichte +5, Religion +5, Wahrnehmung +9
+immunitaeten: Gift, Nekrotisch; Bezaubert, Erschöpft,
+anfaelligkeiten: Feuer
+sinne: Wahrer Blick 18 m; Passive Wahrnehmung 19
+sprachen: Gemeinsprache und drei weitere Sprachen
+hg: 15
+ep: 13000
+ub: '+5'
+merkmale:
+- name: 'Legendäre Resistenz (3-mal täglich, im Hort 4-mal täglich):'
+  beschreibung: Wenn die Mumie bei einem Rettungswurf scheitert, kann sie beschließen, ihn stattdessen zu bestehen.
+- name: 'Magieresistenz:'
+  beschreibung: Die Mumie ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+- name: 'Untote Genesung:'
+  beschreibung: Wenn die Mumie zerstört wird, ihr Herz jedoch noch intakt ist, erhält sie nach 24 Stunden einen neuen Körper,
+    der mit allen Trefferpunkten aufersteht. Der neue Körper erscheint in einem freien Bereich im Hort der Mumie. Das Herz
+    ist ein winziger Gegenstand, besitzt eine RK von 17, 10 Trefferpunkte und ist gegen alle Schadensarten bis auf Feuerschaden
+    immun.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Mumie führt einen Fäulnisfaust- oder einen Negative-Energie-kanalisieren-Angriff aus und setzt Fürchterliches
+    Starren ein.
+- name: 'Fäulnisfaust:'
+  beschreibung: 'Nahkampfangriffswurf: +9, Reichweite 1,5 m. Treffer: 15 (2W10+4) Wuchtschaden plus 10 (3W6) nekrotischer
+    Schaden. Wenn das Ziel eine Kreatur ist, wird es verflucht. Das verfluchte Ziel kann keine Trefferpunkte zurückerhalten,
+    es erhält durch eine lange Rast keine Vorzüge, und sein Trefferpunktemaximum wird alle 24 Stunden um 10 (3W6) verringert.
+    Wenn die Trefferpunkte einer Kreatur durch diesen Angriff auf 0 sinken, stirbt die Kreatur und zerfällt zu Staub.'
+- name: 'Negative Energie kanalisieren:'
+  beschreibung: 'Fernkampfangriffswurf: +9, Reichweite 18 m. Treffer: 25 (6W6+4) nekrotischer Schaden.'
+- name: 'Fürchterliches Starren:'
+  beschreibung: 'Weisheitsrettungswurf: SG 17; eine Kreatur im Abstand von bis zu 18 Metern von der Mumie, die von der Mumie
+    gesehen werden kann. Misserfolg: 25 (6W6+4) psychischer Schaden, und das Ziel ist bis zum Beginn des nächsten Zugs der
+    Mumie gelähmt.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Die Mumie wirkt einen der folgenden Zauber mit Weisheit als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 17, +9 auf Treffer mit Zauberangriffen): Beliebig oft: Magie bannen , Thaumaturgie
+    Je 1-mal täglich: Insektenplage (Version des 7. Grades), Leid , Tote beleben'
+reaktionen:
+- name: 'Wirbelwind aus Sand:'
+  beschreibung: 'Auslöser: Die Mumie wird von einem Angriffswurf getroffen. Antwort: Die Mumie fügt ihrer RK gegen diesen
+    Angriff 2 hinzu, sodass der Angriff möglicherweise misslingt, und sie teleportiert sich bis zu 18 Meter weit in einen
+    freien Bereich, den sie sehen kann. Jede Kreatur ihrer Wahl im Abstand von bis zu 1,5 Metern von ihrem Zielbereich, die
+    von ihr gesehen werden kann, ist bis zum Ende des nächsten Zugs der Mumie blind.'
+legendaere_aktionen:
+- name: 'Nekrotischer Schlag:'
+  beschreibung: Die Mumie führt einen Fäulnisfaust- oder einen Negative-Energie-kanalisieren-Angriff aus.
+- name: 'Schreckensbefehl:'
+  beschreibung: Die Mumie wirkt den Zauber Befehl (Version des 2. Grades). Ihr Attribut zum Zauberwirken ist dasselbe wie
+    beim Ausführen der Zauberwirken- Aktion. Die Mumie kann diese Aktion erst nach Beginn ihres nächsten Zugs erneut ausführen.
+- name: 'Starren:'
+  beschreibung: Die Mumie setzt Fürchterliches Starren ein. Die Mumie kann diese Aktion erst nach Beginn ihres nächsten Zugs
+    erneut ausführen.

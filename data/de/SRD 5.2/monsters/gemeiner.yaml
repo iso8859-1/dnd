@@ -1,0 +1,51 @@
+id: gemeiner
+type: monster
+name: Gemeiner
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 10
+initiative: '+0'
+initiative_wert: 10
+tp: 4
+tp_formel: 1W8
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+ausruestung: Knüppel
+sinne: Passive Wahrnehmung 10
+sprachen: Gemeinsprache
+hg: 0
+ep: 10
+ub: '+2'
+merkmale:
+- name: 'Ausbildung:'
+  beschreibung: Der Gemeine hat Übung in einer Fertigkeit nach Wahl des SL und ist im Vorteil, wann immer er einen Attributswurf
+    mit dieser Fertigkeit ausführt.
+aktionen:
+- name: 'Knüppel:'
+  beschreibung: 'Nahkampfangriffswurf: +2, Reichweite 1,5 m. Treffer: 2 (1W4) Wuchtschaden.'

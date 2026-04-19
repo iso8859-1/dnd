@@ -1,0 +1,57 @@
+id: riesenkrokodil
+type: monster
+name: Riesenkrokodil
+lang: de
+groesse: Riesig
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 14
+initiative: –1 (9)
+tp: 85
+tp_formel: 9W12+27
+bewegungsrate: 9 m, Schwimmen 15 m
+attribute:
+  sta:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  ges:
+    wert: 9
+    mod: −1
+    rw: −1
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Heimlichkeit +5
+sinne: Passive Wahrnehmung 10
+sprachen: −
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Atem anhalten:'
+  beschreibung: Das Krokodil kann eine Stunde lang den Atem anhalten.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Das Krokodil führt einen Bissangriff und einen Schwanzangriff aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reichweite 1,5 m. Treffer: 21 (3W10+5) Stichschaden. Wenn das Ziel eine Kreatur
+    von höchstens großer Größe ist, wird es gepackt (Flucht-SG 15). Das gepackte Ziel ist außerdem festgesetzt und kann nicht
+    zum Ziel vom Schwanzangriff des Krokodils werden.'
+- name: 'Schwanz:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reichweite 3 m. Treffer: 18 (3W8+5) Wuchtschaden. Wenn das Ziel eine Kreatur von
+    höchstens großer Größe ist, wird es umgestoßen und hat den Zustand Liegend.'

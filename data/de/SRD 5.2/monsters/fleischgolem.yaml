@@ -1,0 +1,67 @@
+id: fleischgolem
+type: monster
+name: Fleischgolem
+lang: de
+groesse: Mittelgroß
+typ: Konstrukt
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 9
+initiative: −1 (9)
+tp: 127
+tp_formel: 15W8+60
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 9
+    mod: −1
+    rw: −1
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+immunitaeten: Blitz, Gift; Bezaubert, Erschöpft, Gelähmt,
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: Versteht Gemeinsprache und eine weitere
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Abneigung gegen Feuer:'
+  beschreibung: Wenn der Golem Feuer- schaden erleidet, ist er bis zum Ende seines nächsten Zugs bei Angriffs- und Attributswürfen
+    im Nachteil.
+- name: 'Berserker:'
+  beschreibung: Wann immer der Golem seinen Zug blutig beginnt, würfle mit 1W6. Bei einer 6 gerät der Golem in Kampfrausch.
+    Im Kampfrausch greift der Golem die Kreatur an, die ihm am nächsten ist und die er sehen kann. Wenn sich keine Kreatur
+    in Angriffsreichweite befindet, greift der Golem einen Gegenstand an. Der Kampfrausch hält an, bis der Golem zerstört
+    wird oder nicht mehr blutig ist. Der Schöpfer des Golems kann versuchen, ihn zu besänftigen, sofern er sich im Abstand
+    von bis zu 18 Metern von ihm befindet. Dazu muss der Schöpfer eine Aktion und einen SG-15-Charismawurf (Überzeugen) ausführen,
+    und der Golem muss seinen Schöpfer hören können. Bei einem Erfolg ist der Golem bis zum Beginn seines nächsten Zugs nicht
+    mehr im Kampfrausch. Wenn er dann noch blutig ist, würfelt er sein Berserker-Merkmal erneut aus.
+- name: 'Blitzabsorption:'
+  beschreibung: Der Golem erleidet keinen Schaden durch Blitze, sondern erhält Trefferpunkte in Höhe des Blitzschadens zurück.
+- name: 'Magieresistenz:'
+  beschreibung: Der Golem ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+- name: 'Unveränderliche Gestalt:'
+  beschreibung: Der Golem kann keine andere Gestalt annehmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Golem führt zwei Hiebangriffe aus.
+- name: 'Hieb:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 13 (2W8+4) Wuchtschaden plus 4 (1W8) Blitzschaden.'

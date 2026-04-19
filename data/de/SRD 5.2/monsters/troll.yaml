@@ -1,0 +1,64 @@
+id: troll
+type: monster
+name: Troll
+lang: de
+groesse: Groß
+typ: Riese
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+1'
+initiative_wert: 11
+tp: 94
+tp_formel: 9W10+45
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 7
+    mod: −2
+    rw: −2
+  wei:
+    wert: 9
+    mod: −1
+    rw: −1
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Wahrnehmung +5
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 15
+sprachen: Riesisch
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Grässliche Gliedmaßen (4-mal täglich):'
+  beschreibung: Wenn der Troll einen Zug blutig beendet und in diesem Zug mindestens 15 Hiebschaden erlitten hat, wird eine
+    seiner Gliedmaßen abgetrennt, fällt in seinen Bereich und wird zu einer Trollgliedmaße . Die Gliedmaße handelt unmittelbar
+    nach dem Zug des Trolls. Der Troll erhält für jede fehlende Gliedmaße eine Erschöpfungsstufe, und ihm wachsen Ersatzgliedmaßen,
+    wenn er das nächste Mal Trefferpunkte zurückerhält.
+- name: 'Regeneration:'
+  beschreibung: Der Troll erhält zu Beginn jedes seiner Züge 15 Trefferpunkte zurück. Wenn der Troll Feuer- oder Säureschaden
+    erleidet, wirkt dieses Merkmal in seinem nächsten Zug nicht. Der Troll stirbt nur, wenn er seinen Zug mit 0 Trefferpunkten
+    beginnt und sich nicht regeneriert.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Troll führt drei Zerfetzen-Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 11 (2W6+4) Hiebschaden.'
+bonusaktionen:
+- name: 'Sturmangriff:'
+  beschreibung: Der Troll legt bis zur Hälfte seiner Bewegungsrate zurück und bewegt sich in gerader Linie auf einen Gegner
+    zu, den er sehen kann.

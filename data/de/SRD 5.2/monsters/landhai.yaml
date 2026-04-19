@@ -1,0 +1,58 @@
+id: landhai
+type: monster
+name: Landhai
+lang: de
+groesse: Groß
+typ: Monstrosität
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+0'
+initiative_wert: 10
+tp: 94
+tp_formel: 9W10+45
+bewegungsrate: 12 m, Graben 12 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+fertigkeiten: Wahrnehmung +6
+sinne: Dunkelsicht 18 m, Erschütterungssinn 36 m;
+sprachen: −
+hg: 5
+ep: 1800
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Landhai führt zwei Bissangriffe aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 17 (2W12+4) Stichschaden.'
+- name: 'Tödlicher Sprung:'
+  beschreibung: 'Der Landhai verbraucht 1,5 Meter Bewegung, um in einen Bereich im Abstand von bis zu 4,5 Metern von sich
+    zu springen, in welchem sich mindestens eine Kreatur von höchstens großer Größe befindet. Geschicklichkeitsrettungswurf:
+    SG 15; jede Kreatur im Zielbereich des Landhais. Misserfolg: 19 (3W12) Wuchtschaden, und das Ziel wird umgestoßen und
+    hat den Zustand Liegend. Erfolg: Halber Schaden, und das Ziel wird 1,5 Meter weit in gerader Linie vom Landhai weggestoßen.'
+bonusaktionen:
+- name: 'Sprung:'
+  beschreibung: Der Landhai springt bis zu neun Meter weit und verbraucht dabei nur drei Meter Bewegung.

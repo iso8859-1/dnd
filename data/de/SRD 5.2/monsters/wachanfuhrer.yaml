@@ -1,0 +1,52 @@
+id: wachanfuhrer
+type: monster
+name: Wachanführer
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+4'
+initiative_wert: 14
+tp: 75
+tp_formel: 10W8+30
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+fertigkeiten: Athletik +6, Wahrnehmung +4
+ausruestung: Brustplatte, Langschwert, Schild,
+sinne: Passive Wahrnehmung 14
+sprachen: Gemeinsprache
+hg: 4
+ep: 1100
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Wache führt zwei Angriffe mit Langschwert oder Wurfspeer in beliebiger Kombination aus.
+- name: 'Langschwert:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 15 (2W10+4) Hiebschaden.'
+- name: 'Wurfspeer:'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +6, Reichweite 1,5 m oder Reichweite 9/36 m. Treffer: 14 (3W6+4) Stichschaden.'

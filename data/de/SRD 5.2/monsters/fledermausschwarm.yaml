@@ -1,0 +1,56 @@
+id: fledermausschwarm
+type: monster
+name: Fledermausschwarm
+lang: de
+groesse: Groß
+typ: Schwarm winziger Tiere
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 11
+tp_formel: 2W10
+bewegungsrate: 1,5 m, Fliegen 9 m
+attribute:
+  sta:
+    wert: 5
+    mod: −3
+    rw: −3
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 4
+    mod: −3
+    rw: −3
+immunitaeten: Betäubt, Bezaubert, Festgesetzt, Gelähmt,
+resistenzen: Hieb, Stich, Wucht
+sinne: Blindsicht 18 m; Passive Wahrnehmung 11
+sprachen: −
+hg: 1/4
+ep: 50
+ub: '+2'
+merkmale:
+- name: 'Schwarm:'
+  beschreibung: Der Schwarm kann den Bereich einer anderen Kreatur besetzen und umgekehrt. Er kann sich durch jede Öffnung
+    bewegen, die groß genug für eine
+merkmale_intro: Fledermaus von winziger Größe ist. Der Schwarm kann weder Trefferpunkte zurückerhalten noch temporäre Trefferpunkte
+  erhalten.
+aktionen:
+- name: 'Bisse:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 5 (2W4) Stichschaden oder 2 (1W4) Stichschaden, wenn
+    der Schwarm blutig ist.'

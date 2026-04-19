@@ -1,0 +1,57 @@
+id: junger-gruner-drache
+type: monster
+name: Junger grüner Drache
+lang: de
+groesse: Groß
+typ: Drache (chromatisch)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+4'
+initiative_wert: 14
+tp: 136
+tp_formel: 16W10+48
+bewegungsrate: 12 m, Fliegen 24 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+4'
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+4'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Heimlichkeit +4, Täuschen +5,
+immunitaeten: Gift; Vergiftet
+sinne: Blindsicht 9 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 8
+ep: 3900
+ub: '+3'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Drache kann Luft und Wasser atmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 11 (2W6+4) Hiebschaden plus 7 (2W6) Giftschaden.'
+- name: 'Giftodem (Aufladung 5–6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 14; jede Kreatur in einem Kegel von neun Metern. Misserfolg: 42 (12W6) Giftschaden.
+    Erfolg: Halber Schaden.'

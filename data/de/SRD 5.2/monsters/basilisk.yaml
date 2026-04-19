@@ -1,0 +1,52 @@
+id: basilisk
+type: monster
+name: Basilisk
+lang: de
+groesse: Mittelgroß
+typ: Monstrosität
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 15
+initiative: −1 (9)
+tp: 52
+tp_formel: 8W8+16
+bewegungsrate: 6 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 8
+    mod: −1
+    rw: −1
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 9
+sprachen: −
+hg: 3
+ep: 700
+ub: '+2'
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 10 (2W6+3) Stichschaden plus 7 (2W6) Giftschaden.'
+bonusaktionen:
+- name: 'Versteinernder Blick (Aufladung 4–6):'
+  beschreibung: 'Konstitutions rettungswurf: SG 12; jede Kreatur in einem Kegel von neun Metern. Wenn der Basilisk im Kegel
+    seine Reflexion sieht, muss er selbst den Rettungswurf ausführen. Erster Misserfolg: Das Ziel ist festgesetzt und wiederholt
+    den Rettungswurf am Ende seines nächsten Zugs, sofern es auch dann noch festgesetzt ist. Bei einem Erfolg endet der Effekt
+    bei ihm. Zweiter Misserfolg: Das Ziel ist nicht mehr festgesetzt, sondern versteinert.'

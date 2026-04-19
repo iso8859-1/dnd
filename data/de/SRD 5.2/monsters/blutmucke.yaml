@@ -1,0 +1,50 @@
+id: blutmucke
+type: monster
+name: Blutmücke
+lang: de
+groesse: Winzig
+typ: Monstrosität
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 5
+tp_formel: 2W4
+bewegungsrate: 3 m, Fliegen 12 m
+attribute:
+  sta:
+    wert: 4
+    mod: −3
+    rw: −3
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 8
+    mod: −1
+    rw: −1
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 9
+sprachen: −
+hg: 1/8
+ep: 25
+ub: '+2'
+aktionen:
+- name: 'Saugrüssel:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 6 (1W6+3) Stichschaden, und die Blutmücke heftet sich
+    an das Ziel an. Die angeheftete Blutmücke kann keine Saugrüsselangriffe ausführen, und das Ziel erleidet zu Beginn jedes
+    Zugs der Blutmücke 5 (2W4) nekrotischen Schaden. Die Blutmücke kann sich lösen, indem sie 1,5 Meter ihrer Bewegungsrate
+    verbraucht. Das Ziel oder eine Kreatur im Abstand von bis zu 1,5 Metern von ihm kann die Blutmücke als Aktion lösen.'

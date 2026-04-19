@@ -1,0 +1,52 @@
+id: ogerzombie
+type: monster
+name: Ogerzombie
+lang: de
+groesse: Groß
+typ: Untoter
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 8
+initiative: −2 (8)
+tp: 85
+tp_formel: 9W10+36
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 6
+    mod: −2
+    rw: −2
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 6
+    mod: −2
+    rw: '+0'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+immunitaeten: Gift; Erschöpft, Vergiftet
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 8
+sprachen: Versteht Gemeinsprache und Riesisch,
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Untote Ausdauer:'
+  beschreibung: Wenn seine Trefferpunkte durch Schaden auf 0 sinken, führt der Zombie einen Konstitutionsrettungswurf aus
+    (SG 5 plus der erlittene Schaden), sofern der Schaden nicht gleißend ist oder von einem kritischen Treffer stammt. Bei
+    einem erfolgreichen Rettungswurf behält der Zombie 1 Trefferpunkt.
+aktionen:
+- name: 'Hieb:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 13 (2W8+4) Wuchtschaden.'

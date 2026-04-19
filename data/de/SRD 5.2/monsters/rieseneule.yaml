@@ -1,0 +1,54 @@
+id: rieseneule
+type: monster
+name: Rieseneule
+lang: de
+typ: Großes celestisches Wesen
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 19
+tp_formel: 3W10+3
+bewegungsrate: 1,5 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+4'
+  cha:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heimlichkeit +6, Wahrnehmung +6
+resistenzen: Gleißend, Nekrotisch
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 16
+sprachen: Celestisch; versteht Elfisch, Gemeinsprache und
+hg: 1/4
+ep: 50
+ub: '+2'
+merkmale:
+- name: 'Vorbeifliegen:'
+  beschreibung: Die Eule provoziert keine Gelegenheits- angriffe, wenn sie aus der Reichweite eines Gegners fliegt.
+aktionen:
+- name: 'Krallen:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 7 (1W10+2) Hiebschaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Die Eule wirkt einen der folgenden Zauber mit Weisheit als Attribut zum Zauberwirken, ohne Zauberkomponenten
+    zu benötigen: Beliebig oft: Gutes und Böses entdecken , Magie entdecken Je 1-mal täglich: Hellsehen'

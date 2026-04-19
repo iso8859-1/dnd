@@ -1,0 +1,53 @@
+id: minotaurus-von-baphomet
+type: monster
+name: Minotaurus von Baphomet
+lang: de
+groesse: Groß
+typ: Monstrosität
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+0'
+initiative_wert: 10
+tp: 85
+tp_formel: 10W10+30
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  cha:
+    wert: 9
+    mod: −1
+    rw: −1
+fertigkeiten: Überlebenskunst +7, Wahrnehmung +7
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 17
+sprachen: Abyssisch
+hg: 3
+ep: 700
+ub: '+2'
+aktionen:
+- name: 'Abyssische Glefe:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 3 m. Treffer: 10 (1W12+4) Hiebschaden plus 10 (3W6) nekrotischer Schaden.'
+- name: 'Zerfleischen (Aufladung 5–6):'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 18 (4W6+4) Stichschaden. Wenn das Ziel eine Kreatur
+    von höchstens großer Größe ist und der Minotaurus sich unmittelbar vor dem Treffer mindestens drei Meter weit in gerader
+    Linie auf das Ziel zubewegt hat, erleidet das Ziel zusätzlich 10 (3W6) Stichschaden, wird umgestoßen und hat den Zustand
+    Liegend.'

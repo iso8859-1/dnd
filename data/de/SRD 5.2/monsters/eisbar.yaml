@@ -1,0 +1,51 @@
+id: eisbar
+type: monster
+name: Eisbär
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 42
+tp_formel: 5W10+15
+bewegungsrate: 12 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +5
+resistenzen: Kälte
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 15
+sprachen: −
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Bär führt zwei Zerfetzen-Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 9 (1W8+5) Hiebschaden.'

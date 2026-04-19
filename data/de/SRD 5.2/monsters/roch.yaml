@@ -1,0 +1,58 @@
+id: roch
+type: monster
+name: Roch
+lang: de
+groesse: Gigantisch
+typ: Monstrosität
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+8'
+initiative_wert: 18
+tp: 248
+tp_formel: 16W20+80
+bewegungsrate: 6 m, Fliegen 36 m
+attribute:
+  sta:
+    wert: 28
+    mod: '+9'
+    rw: '+9'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+4'
+  kon:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+4'
+  cha:
+    wert: 9
+    mod: −1
+    rw: −1
+fertigkeiten: Wahrnehmung +8
+sinne: Passive Wahrnehmung 18
+sprachen: −
+hg: 11
+ep: 7200
+ub: '+4'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Roch führt zwei Schnabelangriffe aus. Er kann einen Angriff durch einen Krallenangriff ersetzen.
+- name: 'Krallen:'
+  beschreibung: 'Nahkampfangriffswurf: +13, Reichweite 1,5 m. Treffer: 23 (4W6+9) Hiebschaden. Wenn das Ziel eine Kreatur
+    von höchstens riesiger Größe ist, wird es von beiden Krallen gepackt (Flucht-SG 19). Solange es gepackt bleibt, ist es
+    außerdem festgesetzt.'
+- name: 'Schnabel:'
+  beschreibung: 'Nahkampfangriffswurf: +13, Reichweite 3 m. Treffer: 28 (3W12+9) Stichschaden.'
+bonusaktionen:
+- name: 'Herabstoßen (Aufladung 5–6):'
+  beschreibung: Wenn der Roch eine Kreatur gepackt hat, legt er bis zur Hälfte seiner Flugbewegungsrate zurück, ohne Gelegenheitsangriffe
+    zu provozieren, und lässt die Kreatur dann fallen.

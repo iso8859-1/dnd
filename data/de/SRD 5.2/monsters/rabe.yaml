@@ -1,0 +1,52 @@
+id: rabe
+type: monster
+name: Rabe
+lang: de
+groesse: Winzig
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 2
+tp_formel: 1W4
+bewegungsrate: 3 m, Fliegen 15 m
+attribute:
+  sta:
+    wert: 2
+    mod: −4
+    rw: −4
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+fertigkeiten: Wahrnehmung +3
+sinne: Passive Wahrnehmung 13
+sprachen: −
+hg: 0
+ep: 10
+ub: '+2'
+merkmale:
+- name: 'Stimmen nachahmen:'
+  beschreibung: Der Rabe kann einfache Geräusche imitieren, die er gehört hat, beispielsweise Geflüster oder Tierlaute. Wer
+    die Geräusche hört, kann sie mit einem erfolgreichen SG-10-Weisheitswurf (Motiv erkennen) als Imitationen erkennen.
+aktionen:
+- name: 'Schnabel:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 1 Stichschaden.'

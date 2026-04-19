@@ -1,0 +1,66 @@
+id: eisteufel
+type: monster
+name: Eisteufel
+lang: de
+groesse: Groß
+typ: Unhold (Teufel)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+7'
+initiative_wert: 17
+tp: 228
+tp_formel: 24W10+96
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+7'
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+9'
+  int:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+7'
+  cha:
+    wert: 18
+    mod: '+4'
+    rw: '+9'
+fertigkeiten: Motiv erkennen +7, Überzeugen +9,
+immunitaeten: Feuer, Gift, Kälte; Vergiftet
+sinne: Blindsicht 36 m; Passive Wahrnehmung 17
+sprachen: Infernalisch; Telepathie auf 36 m
+hg: 14
+ep: 11500
+ub: '+5'
+merkmale:
+- name: 'Diabolische Genesung:'
+  beschreibung: Wenn der Teufel außerhalb der Neun Höllen stirbt, löst sein Körper sich in Schwefeldampf auf. Der Teufel erhält
+    sofort einen neuen Körper, der mit allen Trefferpunkten irgendwo in den Neun Höllen aufersteht.
+- name: 'Magieresistenz:'
+  beschreibung: Der Teufel ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Teufel führt drei Eisspeer-Angriffe aus. Er kann einen Angriff durch einen Schwanzangriff ersetzen.
+- name: 'Eisspeer:'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +10, Reichweite 1,5 m oder Reichweite 9/36 m. Treffer: 14 (2W8+5) Stichschaden
+    plus 10 (3W6) Kälteschaden. Das Ziel kann bis zum Ende seines nächsten Zugs weder Bonusaktionen noch Reaktionen ausführen,
+    und seine Bewegungsrate ist um drei Meter verringert. Außerdem kann es sich in seinem Zug entweder bewegen oder eine Aktion
+    ausführen, aber nicht beides. Treffer oder Fehlschlag: Unmittelbar nach einem Fernkampfangriff kehrt der Speer auf magische
+    Art in die Hand des Teufels zurück.'
+- name: 'Schwanz:'
+  beschreibung: 'Nahkampfangriffswurf: +10, Reichweite 3 m. Treffer: 15 (3W6+5) Wuchtschaden plus 18 (4W8) Kälteschaden.'
+- name: 'Eiswand (Aufladung 6):'
+  beschreibung: Der Teufel wirkt den Zauber Eiswand (Version des 8. Grades) mit Intelligenz als Attribut zum Zauberwirken,
+    ohne Zauberkomponenten zu benötigen (Zauberrettungswurf-SG 17).

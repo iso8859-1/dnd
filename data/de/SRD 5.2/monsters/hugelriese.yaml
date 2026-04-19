@@ -1,0 +1,54 @@
+id: hugelriese
+type: monster
+name: Hügelriese
+lang: de
+groesse: Riesig
+typ: Riese
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+2'
+initiative_wert: 12
+tp: 105
+tp_formel: 10W12+40
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 9
+    mod: −1
+    rw: −1
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+fertigkeiten: Wahrnehmung +2
+sinne: Passive Wahrnehmung 12
+sprachen: Riesisch
+hg: 5
+ep: 1800
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Riese führt zwei Angriffe mit Baumknüppel oder Müllwurf in beliebiger Kombination aus.
+- name: 'Baumknüppel:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reich- weite 3 m. Treffer: 18 (3W8+5) Wuchtschaden. Wenn das Ziel eine Kreatur
+    von höchstens großer Größe ist, wird es umgestoßen und hat den Zustand Liegend.'
+- name: 'Müllwurf:'
+  beschreibung: 'Fernkampfangriffswurf: +8, Reichweite 18/72 m. Treffer: 16 (2W10+5) Wuchtschaden, und das Ziel ist bis zum
+    Ende seines nächsten Zugs vergiftet.'

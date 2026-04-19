@@ -1,0 +1,61 @@
+id: geisternaga
+type: monster
+name: Geisternaga
+lang: de
+groesse: Groß
+typ: Unhold
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+3'
+initiative_wert: 13
+tp: 135
+tp_formel: 18W10+36
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+6'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+5'
+  int:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+5'
+  cha:
+    wert: 16
+    mod: '+3'
+    rw: '+6'
+immunitaeten: Gift; Bezaubert, Vergiftet
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 12
+sprachen: Abyssisch, Gemeinsprache
+hg: 8
+ep: 3900
+ub: '+3'
+merkmale:
+- name: 'Unholdische Genesung:'
+  beschreibung: Wenn der Naga stirbt, wird er nach 1W6 Tagen wieder lebendig und erhält all seine Trefferpunkte zurück. Nur
+    der Zauber Wunsch kann verhindern, dass dieses Merkmal wirkt.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Naga führt drei Angriffe mit Biss oder Nekrotischer Strahl in beliebiger Kombination aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 7 (1W6+4) Stichschaden plus 14 (4W6) Giftschaden.'
+- name: 'Nekrotischer Strahl:'
+  beschreibung: 'Fernkampfangriffswurf: +6, Reichweite 18 m. Treffer: 21 (6W6) nekrotischer Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Naga wirkt einen der folgenden Zauber mit Intelligenz als Attribut zum Zauberwirken, ohne Gesten- oder
+    Materialkomponenten zu benötigen (Zauberrettungswurf-SG 14): Beliebig oft: Einfache Illusion , Magie entdecken , Magierhand
+    , Wasser atmen Je 2-mal täglich: Blitz (Version des 4. Grades), Dimensionstür , Gedanken wahrnehmen , Person festhalten
+    (Version des 3. Grades)'

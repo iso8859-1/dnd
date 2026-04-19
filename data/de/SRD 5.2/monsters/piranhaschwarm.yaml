@@ -1,0 +1,57 @@
+id: piranhaschwarm
+type: monster
+name: Piranhaschwarm
+lang: de
+groesse: Mittelgroß
+typ: Schwarm winziger Tiere
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 28
+tp_formel: 8W8−8
+bewegungsrate: 1,5 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 9
+    mod: −1
+    rw: −1
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 7
+    mod: −2
+    rw: −2
+  cha:
+    wert: 2
+    mod: −4
+    rw: −4
+immunitaeten: Betäubt, Bezaubert, Festgesetzt, Gelähmt,
+resistenzen: Hieb, Stich, Wucht
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 8
+sprachen: −
+hg: 1
+ep: 200
+ub: '+2'
+merkmale:
+- name: 'Schwarm:'
+  beschreibung: Der Schwarm kann den Bereich einer anderen Kreatur besetzen und umgekehrt. Er kann sich durch jede Öffnung
+    bewegen, die groß genug für einen Piranha von winziger Größe ist. Der Schwarm kann weder Trefferpunkte zurückerhalten
+    noch temporäre Trefferpunkte erhalten.
+- name: 'Wasser atmen:'
+  beschreibung: Der Schwarm kann nur unter Wasser atmen.
+aktionen:
+- name: 'Bisse:'
+  beschreibung: 'Nahkampfangriffswurf: +5 (im Vorteil, wenn die Trefferpunkte des Ziels nicht vollständig sind), Reichweite
+    1,5 m. Treffer: 8 (2W4+3) Stichschaden oder 5 (1W4+3) Stichschaden, wenn der Schwarm blutig ist.'

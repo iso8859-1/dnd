@@ -1,0 +1,63 @@
+id: goblin-boss
+type: monster
+name: Goblin-Boss
+lang: de
+groesse: Klein
+typ: Feenwesen (Goblinoide)
+gesinnung: chaotisch neutral
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+2'
+initiative_wert: 12
+tp: 21
+tp_formel: 6W6
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 8
+    mod: −1
+    rw: −1
+  cha:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heimlichkeit +6
+ausruestung: Kettenhemd, Krummsäbel, Kurzbogen, Schild
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 9
+sprachen: Gemeinsprache, Goblinisch
+hg: 1
+ep: 200
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Goblin führt zwei Angriffe mit Krummsäbel oder Kurzbogen in beliebiger Kombination aus.
+- name: 'Krummsäbel:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 5 (1W6+2) Hiebschaden plus 2 (1W4) Hiebschaden, wenn
+    der Angriffswurf im Vorteil war.'
+- name: 'Kurzbogen:'
+  beschreibung: 'Fernkampfangriffswurf: +4, Reichweite 24/96 m. Treffer: 5 (1W6+2) Stichschaden plus 2 (1W4) Stichschaden,
+    wenn der Angriffswurf im Vorteil war.'
+bonusaktionen:
+- name: 'Behändes Entkommen:'
+  beschreibung: Der Goblin führt die Rückzug- oder Verstecken-Aktion aus.
+reaktionen:
+- name: 'Angriff umlenken:'
+  beschreibung: 'Auslöser: Eine Kreatur, die der Goblin sehen kann, führt einen Angriffswurf gegen ihn aus. Antwort: Der Goblin
+    wählt einen Verbündeten von höchstens mittelgroßer Größe im Abstand von bis zu 1,5 Metern von sich aus. Mit diesem tauscht
+    er die Plätze, und der Verbündete wird statt seiner zum Ziel des Angriffs.'

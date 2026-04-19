@@ -1,0 +1,71 @@
+id: uralter-roter-drache
+type: monster
+name: Uralter roter Drache
+lang: de
+groesse: Gigantisch
+typ: Drache (chromatisch)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 22
+initiative: '+14'
+initiative_wert: 24
+tp: 507
+tp_formel: 26W20+234
+bewegungsrate: 12 m, Fliegen 24 m, Klettern 12 m
+attribute:
+  sta:
+    wert: 30
+    mod: '+10'
+    rw: '+10'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+7'
+  kon:
+    wert: 29
+    mod: '+9'
+    rw: '+9'
+  int:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+9'
+  cha:
+    wert: 27
+    mod: '+8'
+    rw: '+8'
+fertigkeiten: Heimlichkeit +7, Wahrnehmung +16
+immunitaeten: Feuer
+sinne: Blindsicht 18 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 24
+ep: 62000
+ub: '+7'
+merkmale:
+- name: 'Legendäre Resistenz (4-mal täglich, im Hort 5-mal täglich):'
+  beschreibung: Wenn der Drache bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus. Er kann einen Angriff durch einen Einsatz von Zauberwirken
+    ersetzen, um den Zauber Sengender Strahl (Version des 3. Grades) zu wirken.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +17, Reichweite 4,5 m. Treffer: 19 (2W8+10) Hiebschaden plus 10 (3W6) Feuerschaden.'
+- name: 'Feuerodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungswurf: SG 24; jede Kreatur in einem Kegel von 27 Metern. Misserfolg: 91 (26W6) Feuerschaden.
+    Erfolg: Halber Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Drache wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 23, +15 auf Treffer mit Zauberangriffen): Beliebig oft: Befehl (Version des 2. Grades),
+    Magie entdecken , Sengender Strahl (Version des 3. Grades) Je 1-mal täglich: Ausspähung , Feuerball (Version des 6. Grades)'
+legendaere_aktionen:
+- name: 'Anspringen:'
+  beschreibung: Der Drache legt bis zur Hälfte seiner Bewegungsrate zurück und führt einen Zerfetzen- Angriff aus.
+- name: 'Feurige Strahlen:'
+  beschreibung: Der Drache setzt Zauberwirken ein, um den Zauber Sengender Strahl (Version des 3. Grades) zu wirken. Der Drache
+    kann diese Aktion erst nach Beginn seines nächsten Zugs erneut ausführen.
+- name: 'Gebieterische Erscheinung:'
+  beschreibung: Der Drache setzt Zauberwirken ein, um den Zauber Befehl (Version des 2. Grades) zu wirken. Der Drache kann
+    diese Aktion erst nach Beginn seines nächsten Zugs erneut ausführen.

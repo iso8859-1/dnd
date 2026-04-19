@@ -1,0 +1,56 @@
+id: riesenseepferdchen
+type: monster
+name: Riesenseepferdchen
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+1'
+initiative_wert: 11
+tp: 16
+tp_formel: 3W10
+bewegungsrate: 1,5 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+sinne: Passive Wahrnehmung 11
+sprachen: −
+hg: 1/2
+ep: 100
+ub: '+2'
+merkmale:
+- name: 'Wasser atmen:'
+  beschreibung: Das Seepferdchen kann nur unter Wasser atmen.
+aktionen:
+- name: 'Rammen:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 9 (2W6+2) Wuchtschaden oder 11 (2W8+2) Wuchtschaden,
+    wenn das Seepferdchen sich unmittelbar vor dem Treffer mindestens sechs Meter weit in gerader Linie auf das Ziel zubewegt
+    hat.'
+bonusaktionen:
+- name: 'Blasenspurt:'
+  beschreibung: Solange das Seepferdchen sich unter Wasser befindet, legt es bis zur Hälfte seiner Schwimm- bewegungsrate
+    zurück, ohne Gelegenheitsangriffe zu provozieren.

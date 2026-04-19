@@ -1,0 +1,52 @@
+id: seepferdchen
+type: monster
+name: Seepferdchen
+lang: de
+groesse: Winzig
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+1'
+initiative_wert: 11
+tp: 1
+tp_formel: 1W4−1
+bewegungsrate: 1,5 m, Schwimmen 6 m
+attribute:
+  sta:
+    wert: 1
+    mod: −5
+    rw: −5
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 8
+    mod: −1
+    rw: −1
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 2
+    mod: −4
+    rw: −4
+fertigkeiten: Heimlichkeit +5, Wahrnehmung +2
+sinne: Passive Wahrnehmung 12
+sprachen: −
+hg: 0
+ep: 0
+ub: '+2'
+merkmale:
+- name: 'Wasser atmen:'
+  beschreibung: Das Seepferdchen kann nur unter Wasser atmen.
+aktionen:
+- name: 'Blasenspurt:'
+  beschreibung: Solange das Seepferdchen sich unter Wasser befindet, legt es bis zu seiner Schwimm- bewegungsrate zurück,
+    ohne Gelegenheitsangriffe zu provozieren.

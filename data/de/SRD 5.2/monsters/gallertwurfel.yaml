@@ -1,0 +1,70 @@
+id: gallertwurfel
+type: monster
+name: Gallertwürfel
+lang: de
+groesse: Groß
+typ: Schlick
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 6
+initiative: −4 (6)
+tp: 63
+tp_formel: 6W10+30
+bewegungsrate: 4,5 m
+attribute:
+  sta:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 3
+    mod: −4
+    rw: −4
+  kon:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 6
+    mod: −2
+    rw: −2
+  cha:
+    wert: 1
+    mod: −5
+    rw: −5
+immunitaeten: Säure; Bezaubert, Blind, Erschöpft, Liegend,
+sinne: Blindsicht 18 m; Passive Wahrnehmung 8
+sprachen: −
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Durchsichtig:'
+  beschreibung: Selbst wenn der Würfel sich in direkter Sichtlinie befindet, muss eine Kreatur einen SG-15- Weisheitswurf
+    (Wahrnehmung) bestehen, um ihn zu bemerken, sofern sie nicht beobachtet hat, dass der Würfel sich bewegt oder anderweitig
+    handelt.
+- name: 'Schlickwürfel:'
+  beschreibung: Der Würfel nimmt seinen gesamten Bereich ein und ist durchsichtig. Andere Kreaturen können in diesen Bereich
+    gelangen, werden dabei jedoch vom Würfel eingehüllt und sind beim Rettungswurf im Nachteil. Kreaturen im Würfel haben
+    vollständige Deckung. Der Würfel kann jeweils eine Kreatur von großer Größe oder bis zu vier Kreaturen von kleiner oder
+    mittelgroßer Größe enthalten. Eine Kreatur im Abstand von bis zu 1,5 Metern vom Würfel kann als Aktion eine Kreatur oder
+    einen Gegenstand aus dem Würfel ziehen, sofern sie einen SG-12-Stärkewurf (Athletik) besteht. Die ziehende Kreatur erleidet
+    dabei 10 (3W6) Säureschaden.
+aktionen:
+- name: 'Scheinfuß:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 12 (3W6+2) Säureschaden.'
+- name: 'Einhüllen:'
+  beschreibung: 'Der Würfel nutzt seine Bewegungsrate, ohne Gelegenheitsangriffe zu provozieren. Er kann sich durch die Bereiche
+    bewegen, in denen sich Kreaturen von höchstens großer Größe befinden, sofern der Würfel in sich genügend Platz hat, um
+    diese Kreaturen aufzunehmen (siehe Merkmal Schlickwürfel). Geschicklichkeitsrettungswurf: SG 12; jede Kreatur, in deren
+    Bereich der Würfel während dieser Bewegung erstmals gelangt. Misserfolg: 10 (3W6) Säureschaden, und das Ziel wird eingehüllt.
+    Ein eingehülltes Ziel beginnt zu ersticken, kann keine Zauber mit Verbalkomponente wirken, ist festgesetzt und erleidet
+    zu Beginn jedes Zugs des Würfels 10 (3W6) Säureschaden. Bewegt sich der Würfel, so bewegt sich das eingehüllte Ziel mit
+    ihm. Das eingehüllte Ziel kann sich mit einer Aktion und einem SG-12-Stärkewurf (Athletik) zu befreien versuchen. Bei
+    einem Erfolg entkommt das Ziel und gelangt in den nächsten freien Bereich. Erfolg: Halber Schaden, und das Ziel gelangt
+    in einen freien Bereich im Abstand von bis zu 1,5 Metern vom Würfel. Ist kein freier Bereich verfügbar, so misslingt der
+    Rettungswurf stattdessen.'

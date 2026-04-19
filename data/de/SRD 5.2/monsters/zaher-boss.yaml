@@ -1,0 +1,56 @@
+id: zaher-boss
+type: monster
+name: Zäher-Boss
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 16
+initiative: '+2'
+initiative_wert: 12
+tp: 82
+tp_formel: 11W8+33
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+5'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+5'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+2'
+ausruestung: Kettenpanzer, Kriegshammer, Schwere
+sinne: Passive Wahrnehmung 10
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 4
+ep: 1100
+ub: '+2'
+merkmale:
+- name: 'Rudeltaktik:'
+  beschreibung: Der Zähe ist beim Angriffswurf gegen eine Kreatur im Vorteil, wenn sich mindestens einer seiner Verbündeten,
+    der nicht kampfunfähig ist, im Abstand von bis zu 1,5 Metern von der Kreatur befindet.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Zähe führt zwei Angriffe mit Kriegshammer oder schwerer Armbrust in beliebiger Kombination aus.
+- name: 'Kriegshammer:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 12 (2W8+3) Wuchtschaden. Wenn das Ziel eine Kreatur
+    von höchstens großer Größe ist, stößt der Zähe es bis zu drei Meter weit in gerader Linie von sich weg.'
+- name: 'Schwere Armbrust:'
+  beschreibung: 'Fernkampfangriffswurf: +4, Reichweite 30/120 m. Treffer: 13 (2W10+2) Stichschaden.'

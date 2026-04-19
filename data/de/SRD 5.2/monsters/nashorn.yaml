@@ -1,0 +1,49 @@
+id: nashorn
+type: monster
+name: Nashorn
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: –1 (9)
+tp: 45
+tp_formel: 6W10+12
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+sinne: Passive Wahrnehmung 11
+sprachen: −
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Zerfleischen:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 14 (2W8+5) Stichschaden. Wenn das Ziel eine Kreatur
+    von höchstens großer Größe ist und das Nashorn sich unmittelbar vor dem Treffer mindestens sechs Meter weit in gerader
+    Linie auf das Ziel zubewegt hat, erleidet das Ziel zusätzlich 9 (2W8) Stichschaden, wird umgestoßen und hat den Zustand
+    Liegend.'

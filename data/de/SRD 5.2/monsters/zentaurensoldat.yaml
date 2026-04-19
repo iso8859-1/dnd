@@ -1,0 +1,59 @@
+id: zentaurensoldat
+type: monster
+name: Zentaurensoldat
+lang: de
+groesse: Groß
+typ: Feenwesen
+gesinnung: neutral gut
+source_book: SRD 5.2.1
+rk: 16
+initiative: '+2'
+initiative_wert: 12
+tp: 45
+tp_formel: 6W10+12
+bewegungsrate: 15 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 9
+    mod: −1
+    rw: −1
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Athletik +6, Wahrnehmung +3
+ausruestung: Brustplatte, Langbogen, Pike
+sinne: Passive Wahrnehmung 13
+sprachen: Elfisch, Sylvanisch
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Zentaur führt zwei Angriffe mit Pike oder Langbogen in beliebiger Kombination aus.
+- name: 'Pike:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 3 m. Treffer: 9 (1W10+4) Stichschaden.'
+- name: 'Langbogen:'
+  beschreibung: 'Fernkampfangriffswurf: +4, Reichweite 45/180 m. Treffer: 6 (1W8+2) Stichschaden.'
+bonusaktionen:
+- name: 'Trampel-Sturmangriff (Aufladung 5–6):'
+  beschreibung: 'Der Zentaur nutzt seine Bewegungsrate, ohne Gelegenheitsangriffe zu provozieren, und kann sich durch die
+    Bereiche von Kreaturen und Gegenständen von höchstens mittelgroßer Größe bewegen. Jede Kreatur, in deren Bereich der Zentaur
+    gelangt, wird einmal zum Ziel des folgenden Effekts: Stärkerettungswurf: SG 14. Misserfolg: 7 (1W6+4) Wuchtschaden, und
+    das Ziel wird umgestoßen und hat den Zustand Liegend.'

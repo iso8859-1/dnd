@@ -1,0 +1,56 @@
+id: ankheg
+type: monster
+name: Ankheg
+lang: de
+groesse: Groß
+typ: Monstrosität
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+0'
+initiative_wert: 10
+tp: 45
+tp_formel: 6W10+12
+bewegungsrate: 9 m, Graben 3 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+sinne: Dunkelsicht 18 m, Erschütterungssinn 18 m;
+sprachen: −
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Tunnelbauer:'
+  beschreibung: Der Ankheg kann sich mit halber Grabbewegungsrate durch massiven Fels graben. Dabei hinterlässt er einen Tunnel
+    von drei Metern Durchmesser.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +5 (im Vorteil, wenn das Ziel vom Ankheg gepackt wurde), Reichweite 1,5 m. Treffer:
+    10 (2W6+3) Hiebschaden plus 3 (1W6) Säureschaden. Wenn das Ziel eine Kreatur von höchstens großer Größe ist, wird es gepackt
+    (Flucht-SG 13).'
+- name: 'Säure versprühen (Aufladung 6):'
+  beschreibung: 'Geschicklichkeits rettungswurf: SG 12; jede Kreatur in einer neun Meter langen, 1,5 Meter breiten Linie.
+    Misserfolg: 14 (4W6) Säureschaden. Erfolg: Halber Schaden.'

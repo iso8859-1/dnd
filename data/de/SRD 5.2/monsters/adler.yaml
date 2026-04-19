@@ -1,0 +1,48 @@
+id: adler
+type: monster
+name: Adler
+lang: de
+groesse: Klein
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 4
+tp_formel: 1W6+1
+bewegungsrate: 3 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 6
+    mod: −2
+    rw: −2
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Wahrnehmung +6
+sinne: Passive Wahrnehmung 16
+sprachen: −
+hg: 0
+ep: 10
+ub: '+2'
+aktionen:
+- name: 'Krallen:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 4 (1W4+2) Hiebschaden.'

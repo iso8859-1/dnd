@@ -1,0 +1,68 @@
+id: lehmgolem
+type: monster
+name: Lehmgolem
+lang: de
+groesse: Groß
+typ: Konstrukt
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+3'
+initiative_wert: 13
+tp: 123
+tp_formel: 13W10+52
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  ges:
+    wert: 9
+    mod: −1
+    rw: −1
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 8
+    mod: −1
+    rw: −1
+  cha:
+    wert: 1
+    mod: −5
+    rw: −5
+immunitaeten: Gift, Psychisch, Säure; Bezaubert, Erschöpft,
+resistenzen: Hieb, Stich, Wucht
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 9
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 9
+ep: 5000
+ub: '+4'
+merkmale:
+- name: 'Berserker:'
+  beschreibung: Wann immer der Golem seinen Zug blutig beginnt, würfle mit 1W6. Bei einer 6 gerät der Golem in Kampfrausch.
+    Im Kampfrausch greift der Golem die Kreatur an, die ihm am nächsten ist und die er sehen kann. Wenn sich keine Kreatur
+    in Angriffsreichweite befindet, greift der Golem einen Gegenstand an. Der Kampfrausch hält an, bis der Golem zerstört
+    wird oder nicht mehr blutig ist.
+- name: 'Magieresistenz:'
+  beschreibung: Der Golem ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+- name: 'Säureabsorption:'
+  beschreibung: Der Golem erleidet keinen Schaden durch Säure, sondern erhält Trefferpunkte in Höhe des Säureschadens zurück.
+- name: 'Unveränderliche Gestalt:'
+  beschreibung: Der Golem kann keine andere Gestalt annehmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Golem führt zwei Hiebangriffe aus. Wenn er in diesem Zug Hast verwendet hat, führt er drei Hiebangriffe
+    aus.
+- name: 'Hieb:'
+  beschreibung: 'Nahkampfangriffswurf: +9, Reichweite 4,5 m. Treffer: 10 (1W10+5) Wuchtschaden plus 6 (1W12) Säureschaden,
+    und das Trefferpunktemaximum des Ziels wird um eine Anzahl in Höhe des erlittenen Säureschadens verringert.'
+bonusaktionen:
+- name: 'Hast (Aufladung 5–6):'
+  beschreibung: Der Golem führt die Spurt- und die Rückzugaktion aus.

@@ -1,0 +1,59 @@
+id: luftelementar
+type: monster
+name: Luftelementar
+lang: de
+groesse: Groß
+typ: Elementar
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+5'
+initiative_wert: 15
+tp: 90
+tp_formel: 12W10+24
+bewegungsrate: 3 m, Fliegen 27 m (Schweben)
+attribute:
+  sta:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+immunitaeten: Gift, Schall; Bewusstlos, Erschöpft,
+resistenzen: Blitz, Hieb, Stich, Wucht
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: Urtümlich (Aural)
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Luftgestalt:'
+  beschreibung: Der Elementar kann in den Bereich einer anderen Kreatur eindringen und dort stoppen. Er kann sich durch enge
+    Bereiche von nur 2,5 Zentimetern Durchmesser bewegen, ohne zusätzliche Bewegung aufzuwenden.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Elementar führt zwei Donnernder-Hieb-Angriffe aus.
+- name: 'Donnernder Hieb:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reichweite 3 m. Treffer: 14 (2W8+5) Schallschaden.'
+- name: 'Wirbelwind (Aufladung 4–6):'
+  beschreibung: 'Stärkerettungswurf: SG 13; eine Kreatur von höchstens mittelgroßer Größe im Bereich des Elementars. Misserfolg:
+    24 (4W10+2) Schallschaden, und das Ziel wird bis zu sechs Meter weit in gerader Linie vom Elementar weg- und umgestoßen
+    und hat den Zustand Liegend. Erfolg: Nur halber Schaden.'

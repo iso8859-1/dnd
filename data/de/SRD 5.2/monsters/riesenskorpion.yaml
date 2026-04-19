@@ -1,0 +1,52 @@
+id: riesenskorpion
+type: monster
+name: Riesenskorpion
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+1'
+initiative_wert: 11
+tp: 52
+tp_formel: 7W10+14
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 9
+    mod: −1
+    rw: −1
+  cha:
+    wert: 3
+    mod: −4
+    rw: −4
+sinne: Blindsicht 18 m; Passive Wahrnehmung 9
+sprachen: −
+hg: 3
+ep: 700
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Skorpion führt zwei Klauenangriffe und einen Stachelangriff aus.
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 6 (1W6+3) Wuchtschaden. Wenn das Ziel eine Kreatur von
+    höchstens großer Größe ist, wird es von einer der beiden Klauen gepackt (Flucht-SG 13).'
+- name: 'Stachel:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 7 (1W8+3) Stichschaden plus 11 (2W10) Giftschaden.'

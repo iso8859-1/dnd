@@ -1,0 +1,62 @@
+id: piratenkapitan
+type: monster
+name: Piratenkapitän
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+7'
+initiative_wert: 17
+tp: 84
+tp_formel: 13W8+26
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+3'
+  ges:
+    wert: 18
+    mod: '+4'
+    rw: '+7'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+5'
+  cha:
+    wert: 17
+    mod: '+3'
+    rw: '+6'
+fertigkeiten: Akrobatik +7, Wahrnehmung +5
+ausruestung: Pistole, Rapier
+sinne: Passive Wahrnehmung 15
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 6
+ep: 2300
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Pirat führt drei Angriffe mit dem Rapier oder der Pistole in beliebiger Kombination aus.
+- name: 'Rapier:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 13 (2W8+4) Stichschaden, und der Pirat ist bei seinem
+    nächsten Angriffswurf vor Ende dieses Zugs im Vorteil.'
+- name: 'Pistole:'
+  beschreibung: 'Fernkampfangriffswurf: +7, Reichweite 9/27 m. Treffer: 15 (2W10+4) Stichschaden.'
+bonusaktionen:
+- name: 'Charme des Kapitäns:'
+  beschreibung: 'Weisheitsrettungswurf: SG 14; eine Kreatur im Abstand von bis zu neun Metern vom Piraten, die er sehen kann.
+    Misserfolg: Das Ziel ist bis zum Beginn des nächsten Zugs des Piraten bezaubert.'
+reaktionen:
+- name: 'Riposte:'
+  beschreibung: 'Auslöser: Der Pirat wird von einem Nahkampf- angriffswurf getroffen, während er eine Waffe hält. Antwort:
+    Der Pirat fügt seiner RK gegen diesen Angriff 3 hinzu, sodass der Angriff möglicherweise misslingt. Bei einem Misserfolg
+    führt der Pirat einen Rapier-Angriff gegen die auslösende Kreatur aus, sofern diese sich in Reichweite befindet.'

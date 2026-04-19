@@ -1,0 +1,53 @@
+id: belebter-teppich-des-erstickens
+type: monster
+name: Belebter Teppich des Erstickens
+lang: de
+groesse: Groß
+typ: Konstrukt
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+4'
+initiative_wert: 14
+tp: 27
+tp_formel: 5W10
+bewegungsrate: 3 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 3
+    mod: −4
+    rw: −4
+  cha:
+    wert: 1
+    mod: −5
+    rw: −5
+immunitaeten: Gift, Psychisch; Bezaubert, Erschöpft,
+sinne: Blindsicht 18 m; Passive Wahrnehmung 6
+sprachen: −
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Ersticken:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 10 (2W6+3) Wuchtschaden. Wenn das Ziel eine Kreatur
+    von höchstens mittelgroßer Größe ist, kann der Teppich es packen (Flucht-SG 13), statt ihm Schaden zuzufügen. Das gepackte
+    Ziel ist blind und festgesetzt. Es beginnt zu ersticken und erleidet zu Beginn jedes seiner Züge 10 (2W6+3) Wuchtschaden.
+    Der Teppich kann nur jeweils eine Kreatur ersticken. Solange der Teppich ein Ziel gepackt hält, kann er diese Aktion nicht
+    erneut ausführen, halbiert jedoch jeden Schaden, den er erleidet (abgerundet), und das Ziel erleidet die gleiche Menge
+    an Schaden.'

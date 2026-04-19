@@ -1,0 +1,52 @@
+id: zombie
+type: monster
+name: Zombie
+lang: de
+groesse: Mittelgroß
+typ: Untoter
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 8
+initiative: –2 (8)
+tp: 15
+tp_formel: 2W8+6
+bewegungsrate: 6 m
+attribute:
+  sta:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 6
+    mod: −2
+    rw: −2
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 6
+    mod: −2
+    rw: '+0'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+immunitaeten: Gift; Erschöpft, Vergiftet
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 8
+sprachen: Versteht Gemeinsprache und eine weitere
+hg: 1/4
+ep: 50
+ub: '+2'
+merkmale:
+- name: 'Untote Ausdauer:'
+  beschreibung: Wenn seine Trefferpunkte durch Schaden auf 0 sinken, führt der Zombie einen Konstitutionsrettungswurf aus
+    (SG 5 plus der erlittene Schaden), sofern der Schaden nicht gleißend ist oder von einem kritischen Treffer stammt. Bei
+    einem erfolgreichen Rettungswurf behält der Zombie 1 Trefferpunkt.
+aktionen:
+- name: 'Hieb:'
+  beschreibung: 'Nahkampfangriffswurf: +3, Reichweite 1,5 m. Treffer: 5 (1W8+1) Wuchtschaden.'

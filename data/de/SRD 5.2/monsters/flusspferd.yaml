@@ -1,0 +1,52 @@
+id: flusspferd
+type: monster
+name: Flusspferd
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 14
+initiative: −2 (8)
+tp: 82
+tp_formel: 11W10+22
+bewegungsrate: 9 m, Schwimmen 9 m
+attribute:
+  sta:
+    wert: 21
+    mod: '+5'
+    rw: '+7'
+  ges:
+    wert: 7
+    mod: −2
+    rw: −2
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 4
+    mod: −3
+    rw: −3
+fertigkeiten: Wahrnehmung +3
+sinne: Passive Wahrnehmung 13
+sprachen: −
+hg: 4
+ep: 1100
+ub: '+2'
+merkmale:
+- name: 'Atem anhalten:'
+  beschreibung: Das Flusspferd kann zehn Minuten lang den Atem anhalten.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Das Flusspferd führt zwei Bissangriffe aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 16 (2W10+5) Stichschaden.'

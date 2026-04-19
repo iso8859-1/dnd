@@ -1,0 +1,58 @@
+id: riesenaffe
+type: monster
+name: Riesenaffe
+lang: de
+groesse: Riesig
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+5'
+initiative_wert: 15
+tp: 168
+tp_formel: 16W12+64
+bewegungsrate: 12 m, Klettern 12 m
+attribute:
+  sta:
+    wert: 23
+    mod: '+6'
+    rw: '+6'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Athletik +9, Überlebenskunst +4,
+sinne: Passive Wahrnehmung 14
+sprachen: −
+hg: 7
+ep: 2900
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Riesenaffe führt zwei Faustangriffe aus.
+- name: 'Faust:'
+  beschreibung: 'Nahkampfangriffswurf: +9, Reichweite 3 m. Treffer: 22 (3W10+6) Wuchtschaden.'
+- name: 'Felsbrockenwurf (Aufladung 6):'
+  beschreibung: 'Der Riesenaffe schleudert einen Felsbrocken auf einen Punkt im Abstand von bis zu 27 Metern, den er sehen
+    kann. Geschicklichkeitsrettungswurf: SG 17; jede Kreatur in einer Kugel mit einem Radius von 1,5 Metern um diesen Punkt.
+    Misserfolg: 24 (7W6) Wuchtschaden. Wenn das Ziel eine Kreatur von höchstens großer Größe ist, wird es umgestoßen und hat
+    den Zustand Liegend. Erfolg: Nur halber Schaden.'
+bonusaktionen:
+- name: 'Sprung:'
+  beschreibung: Der Riesenaffe springt bis zu neun Meter weit und verbraucht dabei nur drei Meter Bewegung.

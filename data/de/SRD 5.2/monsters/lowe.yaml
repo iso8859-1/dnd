@@ -1,0 +1,59 @@
+id: lowe
+type: monster
+name: Löwe
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 22
+tp_formel: 4W10
+bewegungsrate: 15 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 8
+    mod: −1
+    rw: −1
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +3
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 13
+sprachen: −
+hg: 1
+ep: 200
+ub: '+2'
+merkmale:
+- name: 'Rudeltaktik:'
+  beschreibung: Der Löwe ist beim Angriffswurf gegen eine Kreatur im Vorteil, wenn sich mindestens einer seiner Verbündeten,
+    der nicht kampfunfähig ist, im Abstand von bis zu 1,5 Metern von der Kreatur befindet.
+- name: 'Sprung aus dem Lauf:'
+  beschreibung: Nach drei Metern Anlauf kann der Löwe bis zu 7,5 Meter weit springen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Löwe führt zwei Zerfetzen- Angriffe aus. Er kann einen Angriff durch einen Einsatz von Brüllen ersetzen.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 7 (1W8+3) Hiebschaden.'
+- name: 'Brüllen:'
+  beschreibung: 'Weisheitsrettungswurf: SG 11; eine Kreatur im Abstand von bis zu 4,5 Metern. Misserfolg: Das Ziel ist bis
+    zum Beginn des nächsten Zugs des Löwen verängstigt.'

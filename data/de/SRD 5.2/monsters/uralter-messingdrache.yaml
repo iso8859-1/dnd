@@ -1,0 +1,78 @@
+id: uralter-messingdrache
+type: monster
+name: Uralter Messingdrache
+lang: de
+groesse: Gigantisch
+typ: Drache (metallisch)
+gesinnung: chaotisch gut
+source_book: SRD 5.2.1
+rk: 20
+initiative: '+12'
+initiative_wert: 22
+tp: 332
+tp_formel: 19W20+133
+bewegungsrate: 12 m, Fliegen 24 m, Graben 12 m
+attribute:
+  sta:
+    wert: 27
+    mod: '+8'
+    rw: '+8'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+6'
+  kon:
+    wert: 25
+    mod: '+7'
+    rw: '+7'
+  int:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+8'
+  cha:
+    wert: 22
+    mod: '+6'
+    rw: '+6'
+fertigkeiten: Geschichte +9, Heimlichkeit +6,
+immunitaeten: Feuer
+sinne: Blindsicht 18 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 20
+ep: 25000
+ub: '+6'
+merkmale:
+- name: 'Legendäre Resistenz (4-mal täglich, im Hort 5-mal täglich):'
+  beschreibung: Wenn der Drache bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus. Er kann einen Angriff durch einen Einsatz von (A) Schlafodem
+    oder (B) Zauberwirken ersetzen, um den Zauber Sengender Strahl (Version des 3. Grades) zu wirken.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +14, Reichweite 4,5 m. Treffer: 19 (2W10+8) Hiebschaden plus 7 (2W6) Feuerschaden.'
+- name: 'Feuerodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungswurf: SG 21; jede Kreatur in einer 27 Meter langen, 1,5 Meter breiten Linie. Misserfolg:
+    58 (13W8) Feuerschaden. Erfolg: Halber Schaden.'
+- name: 'Schlafodem:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 21; jede Kreatur in einem Kegel von 27 Metern. Misserfolg: Das Ziel ist bis
+    zum Ende seines nächsten Zugs kampfunfähig. Dann wiederholt es den Rettungswurf. Zweiter Misserfolg: Das Ziel ist zehn
+    Minuten lang bewusstlos. Dieser Effekt endet beim Ziel, wenn es Schaden erleidet oder eine Kreatur im Abstand von bis
+    zu 1,5 Metern von ihm eine Aktion ausführt, um es zu wecken.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Drache wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 20): Beliebig oft: Einfache Illusion , Gestaltwandel (nur in Tier- oder humanoider
+    Gestalt; durch den Zauber werden keine temporären Trefferpunkte erhalten, und zum Aufrechterhalten des Zaubers sind weder
+    Konzentration noch temporäre Trefferpunkte erforderlich), Magie entdecken , Mit Tieren sprechen , Sengender Strahl (Version
+    des 3. Grades) Je 1-mal täglich: Gedanken wahrnehmen , Wetterkontrolle'
+legendaere_aktionen:
+- name: 'Anspringen:'
+  beschreibung: Der Drache legt bis zur Hälfte seiner Bewegungsrate zurück und führt einen Zerfetzen- Angriff aus.
+- name: 'Loderndes Licht:'
+  beschreibung: Der Drache setzt Zauberwirken ein, um den Zauber Sengender Strahl (Version des 3. Grades) zu wirken.
+- name: 'Sengende Sande:'
+  beschreibung: 'Geschicklichkeitsrettungswurf: SG 20; eine Kreatur im Abstand von bis zu 36 Metern vom Drachen, die er sehen
+    kann. Misserfolg: 36 (8W8) Feuerschaden, und die Bewegungsrate des Ziels ist bis zum Ende seines nächsten Zugs halbiert.
+    Erfolg oder Misserfolg: Der Drache kann diese Aktion erst nach Beginn seines nächsten Zugs erneut ausführen.'

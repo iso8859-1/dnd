@@ -1,0 +1,51 @@
+id: riesenelch
+type: monster
+name: Riesenelch
+lang: de
+typ: Riesiges celestisches Wesen
+gesinnung: neutral gut
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+6'
+initiative_wert: 16
+tp: 42
+tp_formel: 5W12+10
+bewegungsrate: 18 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+6'
+  ges:
+    wert: 18
+    mod: '+4'
+    rw: '+6'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 7
+    mod: −2
+    rw: −2
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Wahrnehmung +4
+resistenzen: Gleißend, Nekrotisch
+sinne: Dunkelsicht 27 m; Passive Wahrnehmung 14
+sprachen: Celestisch; versteht Elfisch, Gemeinsprache und
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Rammen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 3 m. Treffer: 11 (2W6+4) Wuchtschaden plus 5 (2W4) gleißender Schaden.
+    Wenn das Ziel eine Kreatur von höchstens riesiger Größe ist und der Elch sich unmittelbar vor dem Treffer mindestens sechs
+    Meter weit in gerader Linie auf das Ziel zubewegt hat, erleidet das Ziel zusätzlich 5 (2W4) Wuchtschaden, wird umgestoßen
+    und hat den Zustand Liegend.'

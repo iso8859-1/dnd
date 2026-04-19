@@ -1,0 +1,67 @@
+id: grune-vettel
+type: monster
+name: Grüne Vettel
+lang: de
+groesse: Mittelgroß
+typ: Feenwesen
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+1'
+initiative_wert: 11
+tp: 82
+tp_formel: 11W8+33
+bewegungsrate: 9 m, Schwimmen 9 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Arkane Kunde +5, Heimlichkeit +3,
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
+sprachen: Elfisch, Gemeinsprache, Sylvanisch
+hg: 3
+ep: 700
+ub: '+2'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Die Vettel kann Luft und Wasser atmen.
+- name: 'Stimmen nachahmen:'
+  beschreibung: Die Vettel kann Tierlaute und menschliche Stimmen nachahmen. Eine Kreatur, die diese Laute hört, erkennt sie
+    nur dann als Imitation, wenn sie einen SG-14-Weisheitswurf (Motiv erkennen) besteht.
+- name: 'Zirkelmagie:'
+  beschreibung: 'Wenn die Vettel sich im Abstand von bis zu neun Metern von mindestens zwei Vettel-Verbündeten befindet, kann
+    sie einen der folgenden Zauber mit dem normalen Zeitaufwand und Intelligenz als Attribut zum Zauberwirken wirken, ohne
+    Materialkomponenten zu benötigen (Zauberrettungswurf-SG 11): Ausspähung , Gegenstand aufspüren , Identifizieren , Unsichtbarer
+    Diener , Vertrauten finden oder Vorahnung . Die Vettel muss eine lange Rast beenden, ehe sie dieses Merkmal erneut verwenden
+    kann, um den Zauber zu wirken.'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Vettel führt zwei Klauenangriffe aus.
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 8 (1W8+4) Hiebschaden plus 3 (1W6) Giftschaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Die Vettel wirkt einen der folgenden Zauber mit Weisheit als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 12, +4 auf Treffer mit Zauberangriffen): Beliebig oft: Einfache Illusion , Selbstverkleidung
+    (Wirkungsdauer: 24 Stunden), Strahl der Übelkeit (Version des 3. Grades), Tanzende Lichter , Unsichtbarkeit (nur auf sich
+    selbst; die Vettel hinterlässt keine Spuren, wenn sie unsichtbar ist)'

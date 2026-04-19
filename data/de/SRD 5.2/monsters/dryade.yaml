@@ -1,0 +1,67 @@
+id: dryade
+type: monster
+name: Dryade
+lang: de
+groesse: Mittelgroß
+typ: Feenwesen
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 16
+initiative: '+1'
+initiative_wert: 11
+tp: 22
+tp_formel: 5W8
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+fertigkeiten: Heimlichkeit +5, Wahrnehmung +4
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
+sprachen: Elfisch, Sylvanisch
+hg: 1
+ep: 200
+ub: '+2'
+merkmale:
+- name: 'Magieresistenz:'
+  beschreibung: Die Dryade ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+- name: 'Mit Tieren und Pflanzen sprechen:'
+  beschreibung: Die Dryade kann sich mit Tieren und Pflanzen verständigen, als sprächen sie ihre Sprache.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Dryade führt einen Rankenhieb- oder einen Dornenexplosion-Angriff aus und kann Zauberwirken einsetzen,
+    um den Zauber Monster bezaubern zu wirken.
+- name: 'Rankenhieb:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 3 m. Treffer: 8 (1W8+4) Hiebschaden.'
+- name: 'Dornenexplosion:'
+  beschreibung: 'Fernkampfangriffswurf: +6, Reichweite 18 m. Treffer: 7 (1W6+4) Stichschaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Die Dryade wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 14): Beliebig oft: Druidenkunst , Monster bezaubern (wirkt 24 Stunden lang; endet
+    vorzeitig, wenn die Dryade den Zauber erneut wirkt), Tierfreundschaft Je 1-mal täglich: Spurloses Gehen , Verstricken'
+bonusaktionen:
+- name: 'Baumwandeln:'
+  beschreibung: Wenn die Dryade sich im Abstand von bis zu 1,5 Metern von einem Baum von mindestens großer Größe befindet,
+    teleportiert sie sich in einen freien Bereich im Abstand von bis zu 1,5 Metern eines zweiten Baums von mindestens großer
+    Größe, der sich im Abstand von bis zu 18 Metern vom ersten Baum befindet.

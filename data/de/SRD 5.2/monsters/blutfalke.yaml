@@ -1,0 +1,53 @@
+id: blutfalke
+type: monster
+name: Blutfalke
+lang: de
+groesse: Klein
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 7
+tp_formel: 2W6
+bewegungsrate: 3 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 6
+    mod: −2
+    rw: −2
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+fertigkeiten: Wahrnehmung +6
+sinne: Passive Wahrnehmung 16
+sprachen: −
+hg: 1/8
+ep: 25
+ub: '+2'
+merkmale:
+- name: 'Rudeltaktik:'
+  beschreibung: Der Falke ist beim Angriffswurf gegen eine Kreatur im Vorteil, wenn sich mindestens einer seiner Verbündeten,
+    der nicht kampfunfähig ist, im Abstand von bis zu 1,5 Metern von der Kreatur befindet.
+aktionen:
+- name: 'Schnabel:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 4 (1W4+2) Stichschaden oder 6 (1W8+2) Stichschaden,
+    wenn das Ziel blutig ist.'

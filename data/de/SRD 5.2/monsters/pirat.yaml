@@ -1,0 +1,52 @@
+id: pirat
+type: monster
+name: Pirat
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+5'
+initiative_wert: 15
+tp: 33
+tp_formel: 6W8+6
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+5'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 8
+    mod: −1
+    rw: −1
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 14
+    mod: '+2'
+    rw: '+4'
+ausruestung: Dolche (6), Lederrüstung
+sinne: Passive Wahrnehmung 11
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 1
+ep: 200
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Pirat führt zwei Dolchangriffe aus. Er kann einen Angriff durch einen Einsatz von Packender Elan ersetzen.
+- name: 'Dolch:'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +5, Reichweite 1,5 m oder Reichweite 6/18 m. Treffer: 5 (1W4+3) Stichschaden.'
+- name: 'Packender Elan:'
+  beschreibung: 'Weisheitsrettungswurf: SG 12; eine Kreatur im Abstand von bis zu neun Metern vom Piraten, die er sehen kann.
+    Misserfolg: Das Ziel ist bis zum Beginn des nächsten Zugs des Piraten bezaubert.'

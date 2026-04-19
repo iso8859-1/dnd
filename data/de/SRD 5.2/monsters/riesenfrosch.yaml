@@ -1,0 +1,61 @@
+id: riesenfrosch
+type: monster
+name: Riesenfrosch
+lang: de
+groesse: Mittelgroß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 11
+initiative: '+1'
+initiative_wert: 11
+tp: 18
+tp_formel: 4W8
+bewegungsrate: 9 m, Schwimmen 9 m
+attribute:
+  sta:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 3
+    mod: −4
+    rw: −4
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +2
+sinne: Dunkelsicht 9 m; Passive Wahrnehmung 12
+sprachen: −
+hg: 1/4
+ep: 50
+ub: '+2'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Frosch kann Luft und Wasser atmen.
+- name: 'Stehender Sprung:'
+  beschreibung: Der Frosch kann mit oder ohne Anlauf bis zu sechs Meter weit und bis zu drei Meter hoch springen.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +3, Reichweite 1,5 m. Treffer: 5 (1W6+2) Stichschaden. Wenn das Ziel eine Kreatur von
+    höchstens mittelgroßer Größe ist, wird es gepackt (Flucht-SG 11).'
+- name: 'Verschlucken:'
+  beschreibung: Der Frosch verschluckt ein Ziel von höchstens kleiner Größe, das er gepackt hält. Das verschluckte Ziel ist
+    nicht mehr gepackt, jedoch blind und festgesetzt. Es hat vollständige Deckung gegen Angriffe und andere Effekte von außerhalb
+    des Froschs. Während der Frosch das Ziel verschluckt, kann er keine Bissangriffe ausführen. Wenn der Frosch stirbt, ist
+    die verschluckte Kreatur nicht mehr festgesetzt und kann aus dem Kadaver entkommen. Sie verbraucht dabei 1,5 Meter Bewegung
+    und hat danach den Zustand Liegend. Am Ende des nächsten Zugs des Froschs erleidet das verschluckte Ziel 5 (2W4) Säureschaden.
+    Wenn dieser Schaden es nicht tötet, speit der Frosch es aus. Danach hat es den Zustand Liegend.

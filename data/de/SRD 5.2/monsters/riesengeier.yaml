@@ -1,0 +1,54 @@
+id: riesengeier
+type: monster
+name: Riesengeier
+lang: de
+groesse: Groß
+typ: Monstrosität
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 10
+initiative: '+0'
+initiative_wert: 10
+tp: 25
+tp_formel: 3W10+9
+bewegungsrate: 3 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Wahrnehmung +3
+resistenzen: Nekrotisch
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 13
+sprachen: Versteht Gemeinsprache, kann jedoch nicht
+hg: 1
+ep: 200
+ub: '+2'
+merkmale:
+- name: 'Rudeltaktik:'
+  beschreibung: Der Geier ist beim Angriffswurf gegen eine Kreatur im Vorteil, wenn sich mindestens einer seiner Verbündeten,
+    der nicht kampfunfähig ist, im Abstand von bis zu 1,5 Metern von der Kreatur befindet.
+aktionen:
+- name: 'Stechen:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 9 (2W6+2) Stichschaden, und das Ziel ist bis zum Ende
+    seines nächsten Zugs vergiftet.'

@@ -1,0 +1,71 @@
+id: uralter-weisser-drache
+type: monster
+name: Uralter weißer Drache
+lang: de
+groesse: Gigantisch
+typ: Drache (chromatisch)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 20
+initiative: '+12'
+initiative_wert: 22
+tp: 333
+tp_formel: 18W20+144
+bewegungsrate: 12 m, Fliegen 24 m, Graben 12 m,
+attribute:
+  sta:
+    wert: 26
+    mod: '+8'
+    rw: '+8'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+6'
+  kon:
+    wert: 26
+    mod: '+8'
+    rw: '+8'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+7'
+  cha:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+fertigkeiten: Heimlichkeit +6, Wahrnehmung +13
+immunitaeten: Kälte
+sinne: Blindsicht 18 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 20
+ep: 25000
+ub: '+6'
+merkmale:
+- name: 'Eisschritt:'
+  beschreibung: Der Drache kann sich über vereiste Flächen bewegen und sie erklimmen, ohne einen Attributswurf ausführen zu
+    müssen. Außerdem kostet ihn schwieriges Gelände, das aus Eis oder Schnee besteht, keine zusätzliche Bewegung.
+- name: 'Legendäre Resistenz (4-mal täglich, im Hort 5-mal täglich):'
+  beschreibung: Wenn der Drache bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +14, Reichweite 4,5 m. Treffer: 17 (2W8+8) Hiebschaden plus 7 (2W6) Kälteschaden.'
+- name: 'Kälteodem (Aufladung 5–6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 22; jede Kreatur in einem Kegel von 27 Metern. Misserfolg: 63 (14W8) Kälteschaden.
+    Erfolg: Halber Schaden.'
+legendaere_aktionen:
+- name: 'Anspringen:'
+  beschreibung: Der Drache legt bis zur Hälfte seiner Bewegungsrate zurück und führt einen Zerfetzen- Angriff aus.
+- name: 'Eisige Explosion:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 20; jede Kreatur in einer Kugel mit einem Radius von neun Metern um einen Punkt
+    im Abstand von bis zu 36 Metern vom Drachen, den er sehen kann. Misserfolg: 14 (4W6) Kälteschaden, und die Bewegungsrate
+    des Ziels beträgt bis zum Ende seines nächsten Zugs 0. Erfolg oder Misserfolg: Der Drache kann diese Aktion erst nach
+    Beginn seines nächsten Zugs erneut ausführen.'
+- name: 'Furchterregende Präsenz:'
+  beschreibung: Der Drache wirkt den Zauber Furcht mit Charisma als Attribut zum Zauber- wirken, ohne Materialkomponenten
+    zu benötigen (Zauberrettungswurf-SG 18). Der Drache kann diese Aktion erst nach Beginn seines nächsten Zugs erneut ausführen.

@@ -1,0 +1,48 @@
+id: riesenwiesel
+type: monster
+name: Riesenwiesel
+lang: de
+groesse: Mittelgroß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 9
+tp_formel: 2W8
+bewegungsrate: 12 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 4
+    mod: −3
+    rw: −3
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+fertigkeiten: Akrobatik +5, Heimlichkeit +5,
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 13
+sprachen: −
+hg: 1/8
+ep: 25
+ub: '+2'
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 5 (1W4+3) Stichschaden.'

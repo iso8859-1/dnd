@@ -1,0 +1,62 @@
+id: salamander
+type: monster
+name: Salamander
+lang: de
+groesse: Groß
+typ: Elementar
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+2'
+initiative_wert: 12
+tp: 90
+tp_formel: 12W10+24
+bewegungsrate: 9 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+immunitaeten: Feuer
+anfaelligkeiten: Kälte
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: Urtümlich (Ignal)
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Feueraura:'
+  beschreibung: Am Ende jedes Zugs des Salamanders erleidet jede Kreatur seiner Wahl in einer Ausströmung von 1,5 Metern,
+    die vom Salamander ausgeht, 7 (2W6) Feuerschaden.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Salamander führt zwei Flammenspeer-Angriffe aus. Er kann einen Angriff durch einen Einsatz von Umschlingen
+    ersetzen.
+- name: 'Flammenspeer:'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +7, Reichweite 1,5 m oder Reichweite 6/18 m. Treffer: 13 (2W8+4) Stichschaden
+    plus 7 (2W6) Feuerschaden. Treffer oder Fehlschlag: Unmittelbar nach einem Fernkampfangriff kehrt der Speer auf magische
+    Art in die Hand des Salamanders zurück.'
+- name: 'Umschlingen:'
+  beschreibung: 'Stärkerettungswurf: SG 15; eine Kreatur von höchstens großer Größe im Abstand von bis zu drei Metern vom
+    Salamander, die er sehen kann. Misserfolg: 11 (2W6+4) Wuchtschaden plus 7 (2W6) Feuerschaden. Das Ziel wird gepackt (Flucht-SG
+    14). Solange es gepackt bleibt, ist es außerdem festgesetzt.'

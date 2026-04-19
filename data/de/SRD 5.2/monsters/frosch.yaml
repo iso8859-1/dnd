@@ -1,0 +1,53 @@
+id: frosch
+type: monster
+name: Frosch
+lang: de
+groesse: Winzig
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 11
+initiative: '+1'
+initiative_wert: 11
+tp: 1
+tp_formel: 1W4−1
+bewegungsrate: 6 m, Schwimmen 6 m
+attribute:
+  sta:
+    wert: 1
+    mod: −5
+    rw: −5
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 8
+    mod: −1
+    rw: −1
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 8
+    mod: −1
+    rw: −1
+  cha:
+    wert: 3
+    mod: −4
+    rw: −4
+fertigkeiten: Heimlichkeit +3, Wahrnehmung +1
+sinne: Dunkelsicht 9 m; Passive Wahrnehmung 11
+sprachen: −
+hg: 0
+ep: 10
+ub: '+2'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Frosch kann Luft und Wasser atmen.
+- name: 'Stehender Sprung:'
+  beschreibung: Der Frosch kann mit oder ohne Anlauf bis zu drei Meter weit und bis zu 1,5 Meter hoch springen.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +3, Reichweite 1,5 m. Treffer: 1 Stichschaden.'

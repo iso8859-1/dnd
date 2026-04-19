@@ -1,0 +1,57 @@
+id: schwarzer-drachennestling
+type: monster
+name: Schwarzer Drachennestling
+lang: de
+groesse: Mittelgroß
+typ: Drache (chromatisch)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+4'
+initiative_wert: 14
+tp: 33
+tp_formel: 6W8+6
+bewegungsrate: 9 m, Fliegen 18 m, Schwimmen 9 m
+attribute:
+  sta:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+4'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+2'
+  cha:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +4
+immunitaeten: Säure
+sinne: Blindsicht 3 m, Dunkelsicht 18 m;
+sprachen: Drakonisch
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Drache kann Luft und Wasser atmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt zwei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 5 (1W6+2) Hiebschaden plus 2 (1W4) Säureschaden.'
+- name: 'Säureodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungswurf: SG 11; jede Kreatur in einer 4,5 Meter langen, 1,5 Meter breiten Linie. Misserfolg:
+    22 (5W8) Säureschaden. Erfolg: Halber Schaden.'

@@ -1,0 +1,47 @@
+id: pegasus
+type: monster
+name: Pegasus
+lang: de
+typ: Großes celestisches Wesen
+gesinnung: chaotisch gut
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 59
+tp_formel: 7W10+21
+bewegungsrate: 18 m, Fliegen 27 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+4'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+5'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+4'
+  cha:
+    wert: 13
+    mod: '+1'
+    rw: '+3'
+fertigkeiten: Wahrnehmung +6
+sinne: Passive Wahrnehmung 16
+sprachen: Versteht Celestisch, Elfisch, Gemeinsprache und
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Hufe:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 7 (1W6+4) Wuchtschaden plus 5 (2W4) gleißender Schaden.'

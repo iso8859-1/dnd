@@ -1,0 +1,63 @@
+id: xorn
+type: monster
+name: Xorn
+lang: de
+groesse: Mittelgroß
+typ: Elementar
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 19
+initiative: '+0'
+initiative_wert: 10
+tp: 84
+tp_formel: 8W8+48
+bewegungsrate: 6 m, Graben 6 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 22
+    mod: '+6'
+    rw: '+6'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heimlichkeit +6, Wahrnehmung +6
+immunitaeten: Gift; Gelähmt, Vergiftet, Versteinert
+sinne: Dunkelsicht 18 m, Erschütterungssinn 18 m;
+sprachen: Urtümlich (Terral)
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Erdgleiten:'
+  beschreibung: Der Xorn kann sich durch nichtmagisches, unbearbeitetes Erd- und Steinmaterial graben. Dabei beeinträchtigt
+    er das Material nicht, durch das er sich bewegt.
+- name: 'Schatzgespür:'
+  beschreibung: Der Xorn kann Edelmetalle und Edelsteine im Abstand von bis zu 18 Metern von ihm lokalisieren.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Xorn führt einen Bissangriff und drei Klauenangriffe aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 17 (4W6+3) Stichschaden.'
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 8 (1W10+3) Hiebschaden.'
+bonusaktionen:
+- name: 'Sturmangriff:'
+  beschreibung: Der Xorn nutzt seine Bewegungsrate oder Grabbewegungsrate und bewegt sich in gerader Linie auf einen Gegner
+    zu, den er sehen kann

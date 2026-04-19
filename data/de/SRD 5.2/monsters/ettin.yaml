@@ -1,0 +1,55 @@
+id: ettin
+type: monster
+name: Ettin
+lang: de
+groesse: Groß
+typ: Riese
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 12
+initiative: −1 (9)
+tp: 85
+tp_formel: 10W10+30
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 8
+    mod: −1
+    rw: −1
+fertigkeiten: Wahrnehmung +4
+immunitaeten: Betäubt, Bewusstlos, Bezaubert, Blind, Taub,
+ausruestung: Morgenstern, Streitaxt
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
+sprachen: Riesisch
+hg: 4
+ep: 1100
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Ettin führt einen Morgenstern- Angriff und einen Streitaxt-Angriff aus.
+- name: 'Morgenstern:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 14 (2W8+5) Stichschaden, und das Ziel ist bei seinem
+    nächsten Angriffswurf vor Ende seines nächsten Zugs im Nachteil.'
+- name: 'Streitaxt:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 14 (2W8+5) Hiebschaden. Wenn das Ziel eine Kreatur von
+    höchstens großer Größe ist, wird es umgestoßen und hat den Zustand Liegend.'

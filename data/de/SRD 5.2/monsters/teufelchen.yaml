@@ -1,0 +1,60 @@
+id: teufelchen
+type: monster
+name: Teufelchen
+lang: de
+groesse: Winzig
+typ: Unhold (Teufel)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 21
+tp_formel: 6W4+6
+bewegungsrate: 6 m, Fliegen 12 m
+attribute:
+  sta:
+    wert: 6
+    mod: −2
+    rw: −2
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Heimlichkeit +5, Motiv erkennen +3,
+immunitaeten: Feuer, Gift; Vergiftet
+resistenzen: Kälte
+sinne: Dunkelsicht 36 m (wird nicht durch magische
+sprachen: Gemeinsprache, Infernalisch
+hg: 1
+ep: 200
+ub: '+2'
+merkmale:
+- name: 'Magieresistenz:'
+  beschreibung: Das Teufelchen ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Stachel:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 6 (1W6+3) Stichschaden plus 7 (2W6) Giftschaden.'
+- name: 'Gestaltwandeln:'
+  beschreibung: Das Teufelchen nimmt die Gestalt eines Raben (6 m, Fliegen 18 m), einer Ratte (Bewegungsrate 6 m), einer Spinne
+    (6 m, Klettern 6 m) oder wieder seine wahre Gestalt an. Seine Spielwerte sind bis auf die Bewegungsrate in allen Formen
+    gleich. Ausrüstung, die er trägt oder hält, wird nicht verwandelt.
+- name: 'Unsichtbarkeit:'
+  beschreibung: Das Teufelchen wirkt den Zauber Unsichtbarkeit auf sich selbst mit Charisma als Attribut zum Zauberwirken,
+    ohne Zauberkomponenten zu benötigen.

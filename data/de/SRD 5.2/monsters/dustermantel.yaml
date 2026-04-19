@@ -1,0 +1,58 @@
+id: dustermantel
+type: monster
+name: Düstermantel
+lang: de
+groesse: Klein
+typ: Aberration
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 11
+initiative: '+3'
+initiative_wert: 13
+tp: 22
+tp_formel: 5W6+5
+bewegungsrate: 3 m, Fliegen 9 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+fertigkeiten: Heimlichkeit +3
+sinne: Blindsicht 18 m; Passive Wahrnehmung 10
+sprachen: −
+hg: 1/2
+ep: 100
+ub: '+2'
+aktionen:
+- name: 'Zermalmen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 6 (1W6+3) Wuchtschaden, und der Düstermantel heftet
+    sich an das Ziel an. Wenn das Ziel eine Kreatur von höchstens mittelgroßer Größe ist und der Düstermantel beim Angriffswurf
+    im Vorteil war, bedeckt der Düstermantel das Ziel. Dieses ist dann blind und beginnt zu ersticken. Während der Düstermantel
+    an das Ziel angeheftet ist, kann er nur das Ziel angreifen, ist bei seinen Angriffs- würfen jedoch im Vorteil. Seine Bewegungsrate
+    wird zu 0, und Boni auf seine Bewegungsrate bringen ihm keinen Vorzug. Der Düstermantel bewegt sich mit dem Ziel. Die
+    Kreatur kann eine Aktion ausführen und versuchen, den Düstermantel von sich zu lösen. Dies gelingt mit einem erfolgreichen
+    SG-13-Stärkewurf (Athletik). In seinem Zug kann der Düstermantel sich lösen, indem er 1,5 Meter Bewegung verbraucht.'
+- name: 'Aura der Dunkelheit (1-mal täglich):'
+  beschreibung: Magische Dunkelheit füllt eine Ausströmung von 4,5 Metern, die vom Düstermantel ausgeht. Dieser Effekt bleibt
+    bis zu zehn Minuten lang bestehen, sofern der Düstermantel sich konzentriert. Dunkelsicht kann diesen Bereich nicht durchdringen,
+    und kein Licht kann ihn erhellen.

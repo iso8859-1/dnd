@@ -1,0 +1,70 @@
+id: nalfeshnee
+type: monster
+name: Nalfeshnee
+lang: de
+groesse: Groß
+typ: Unhold (Dämon)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+5'
+initiative_wert: 15
+tp: 184
+tp_formel: 16W10+96
+bewegungsrate: 6 m, Fliegen 9 m
+attribute:
+  sta:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 22
+    mod: '+6'
+    rw: '+11'
+  int:
+    wert: 19
+    mod: '+4'
+    rw: '+9'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+6'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+7'
+immunitaeten: Gift; Verängstigt, Vergiftet
+resistenzen: Blitz, Feuer, Kälte
+sinne: Wahrer Blick 36 m; Passive Wahrnehmung 11
+sprachen: Abyssisch; Telepathie auf 36 m
+hg: 13
+ep: 10000
+ub: '+5'
+merkmale:
+- name: 'Dämonische Genesung:'
+  beschreibung: Wenn der Nalfeshnee außerhalb des Abyss stirbt, löst sein Körper sich zu einer widerlichen Flüssigkeit auf.
+    Der Nalfeshnee erhält sofort einen neuen Körper, der mit allen Trefferpunkten irgendwo im Abyss aufersteht.
+- name: 'Magieresistenz:'
+  beschreibung: Der Nalfeshnee ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Nalfeshnee führt drei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +10, Reichweite 3 m. Treffer: 16 (2W10+5) Hiebschaden plus 11 (2W10) Energieschaden.'
+- name: 'Teleportieren:'
+  beschreibung: Der Nalfeshnee teleportiert sich bis zu 36 Meter weit in einen freien Bereich, den er sehen kann.
+bonusaktionen:
+- name: 'Schreckensnimbus (Aufladung 5–6):'
+  beschreibung: 'Weisheitsrettungs wurf: SG 15; jede Kreatur in einer Ausströmung von 4,5 Metern, die vom Nalfeshnee ausgeht.
+    Misserfolg: 28 (8W6) psychischer Schaden, und das Ziel ist verängstigt, bis eine Minute vergangen ist, bis das Ziel Schaden
+    erleidet oder bis es seinen Zug beendet, ohne dass der Nalfeshnee in seiner Sichtlinie ist. Erfolg: Das Ziel ist 24 Stunden
+    lang gegen den Schreckensnimbus dieses Nalfeshnees immun.'
+reaktionen:
+- name: 'Verfolgung:'
+  beschreibung: 'Auslöser: Eine andere Kreatur, die der Nalfeshnee sehen kann, beendet im Abstand von bis zu 36 Metern vom
+    Nalfeshnee ihren Zug. Antwort: Der Nalfeshnee setzt Teleportieren ein, doch der Zielbereich muss sich im Abstand von bis
+    zu drei Metern von der auslösenden Kreatur befinden.'

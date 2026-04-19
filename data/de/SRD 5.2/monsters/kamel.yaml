@@ -1,0 +1,46 @@
+id: kamel
+type: monster
+name: Kamel
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 10
+initiative: –1 (9)
+tp: 17
+tp_formel: 2W10+6
+bewegungsrate: 15 m
+attribute:
+  sta:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+5'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: −
+hg: 1/8
+ep: 25
+ub: '+2'
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 4 (1W4+2) Wuchtschaden.'

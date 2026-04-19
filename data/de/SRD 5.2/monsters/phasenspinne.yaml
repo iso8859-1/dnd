@@ -1,0 +1,64 @@
+id: phasenspinne
+type: monster
+name: Phasenspinne
+lang: de
+groesse: Groß
+typ: Monstrosität
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+3'
+initiative_wert: 13
+tp: 45
+tp_formel: 7W10+7
+bewegungsrate: 9 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+fertigkeiten: Heimlichkeit +7
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: −
+hg: 3
+ep: 700
+ub: '+2'
+merkmale:
+- name: 'Ätherische Sicht:'
+  beschreibung: Die Spinne kann 18 Meter weit in die Ätherebene blicken, wenn sie sich auf der materiellen Ebene befindet,
+    sowie umgekehrt.
+- name: 'Netzwandler:'
+  beschreibung: Die Spinne ignoriert Bewegungsein- schränkungen durch Netze und weiß genau, wo sich andere Kreaturen aufhalten,
+    die in Kontakt mit demsel- ben Netz sind.
+- name: 'Spinnenklettern:'
+  beschreibung: Die Spinne kann ohne Attributswürfe schwierige Oberflächen erklimmen und sich an Decken entlang bewegen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Spinne führt zwei Bissangriffe aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 8 (1W10+3) Stichschaden plus 9 (2W8) Giftschaden. Wenn
+    die Trefferpunkte des Ziels durch diesen Schaden auf 0 sinken, wird das Ziel stabil und ist eine Stunde lang vergiftet.
+    Solange das Ziel vergiftet ist, ist es außerdem gelähmt.'
+bonusaktionen:
+- name: 'Ätherische Bewegung:'
+  beschreibung: Die Spinne teleportiert sich von der materiellen Ebene aus auf die Ätherebene oder umgekehrt.

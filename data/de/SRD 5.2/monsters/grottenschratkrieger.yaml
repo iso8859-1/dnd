@@ -1,0 +1,57 @@
+id: grottenschratkrieger
+type: monster
+name: Grottenschratkrieger
+lang: de
+groesse: Mittelgroß
+typ: Feenwesen (Goblinoide)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+2'
+initiative_wert: 12
+tp: 33
+tp_formel: 6W8+6
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 8
+    mod: −1
+    rw: −1
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 9
+    mod: −1
+    rw: −1
+fertigkeiten: Heimlichkeit +6, Überlebenskunst +2
+ausruestung: Fellrüstung, Leichte Hämmer (3)
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: Gemeinsprache, Goblinisch
+hg: 1
+ep: 200
+ub: '+2'
+merkmale:
+- name: 'Entführen:'
+  beschreibung: Der Grottenschrat muss keine zusätzliche Bewegung verbrauchen, um eine Kreatur zu bewegen, die er gepackt
+    hält.
+aktionen:
+- name: 'Leichter Hammer:'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +4 (im Vorteil, wenn das Ziel vom Grottenschrat gepackt wurde), Reichweite
+    3 m oder Reichweite 6/18 m. Treffer: 9 (3W4+2) Wuchtschaden.'
+- name: 'Packen:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 3 m. Treffer: 9 (2W6+2) Wuchtschaden. Wenn das Ziel eine Kreatur von
+    höchstens mittelgroßer Größe ist, wird es gepackt (Flucht-SG 12).'

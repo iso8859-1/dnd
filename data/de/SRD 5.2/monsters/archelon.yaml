@@ -1,0 +1,53 @@
+id: archelon
+type: monster
+name: Archelon
+lang: de
+groesse: Riesig
+typ: Tier (Dinosaurier)
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+3'
+initiative_wert: 13
+tp: 90
+tp_formel: 12W12+12
+bewegungsrate: 6 m, Schwimmen 24 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 4
+    mod: −3
+    rw: −3
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+fertigkeiten: Heimlichkeit +5
+sinne: Passive Wahrnehmung 12
+sprachen: −
+hg: 4
+ep: 1100
+ub: '+2'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Archelon kann Luft und Wasser atmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Archelon führt zwei Bissangriffe aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 14 (3W6+4) Stichschaden.'

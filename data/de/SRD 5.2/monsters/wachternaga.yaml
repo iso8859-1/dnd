@@ -1,0 +1,63 @@
+id: wachternaga
+type: monster
+name: Wächternaga
+lang: de
+typ: Großes celestisches Wesen
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+4'
+initiative_wert: 14
+tp: 136
+tp_formel: 16W10+48
+bewegungsrate: 12 m, Klettern 12 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 18
+    mod: '+4'
+    rw: '+8'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+7'
+  int:
+    wert: 16
+    mod: '+3'
+    rw: '+7'
+  wei:
+    wert: 19
+    mod: '+4'
+    rw: '+8'
+  cha:
+    wert: 18
+    mod: '+4'
+    rw: '+8'
+fertigkeiten: Arkane Kunde +11, Geschichte +11,
+immunitaeten: Gift; Bezaubert, Festgesetzt, Gelähmt,
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
+sprachen: Celestisch, Gemeinsprache
+hg: 10
+ep: 5900
+ub: '+4'
+merkmale:
+- name: 'Celestische Genesung:'
+  beschreibung: Wenn der Naga stirbt, wird er nach 1W6 Tagen wieder lebendig und erhält all seine Trefferpunkte zurück, sofern
+    nicht der Zauber Gutes und Böses bannen auf seine Überreste gewirkt wird.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Naga führt zwei Bissangriffe aus. Er kann beliebige Angriffe durch einen Einsatz von Giftiger Speichel
+    ersetzen.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reichweite 1,5 m. Treffer: 17 (2W12+4) Stichschaden plus 22 (4W10) Giftschaden.'
+- name: 'Giftiger Speichel:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 16; eine Kreatur im Abstand von bis zu 18 Metern vom Naga, die er sehen kann.
+    Misserfolg: 31 (7W8) Giftschaden, und das Ziel ist bis zum Beginn des nächsten Zugs des Nagas blind. Erfolg: Nur halber
+    Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Naga wirkt einen der folgenden Zauber mit Weisheit als Attribut zum Zauberwirken, ohne Gesten- oder Materialkomponenten
+    zu benötigen (Zauberrettungswurf-SG 16): Beliebig oft: Thaumaturgie Je 1-mal täglich: Flammenschlag (Version des 6. Grades),
+    Geas , Hellsehen , Wahrer Blick , Wunden heilen (Version des 6. Grades)'

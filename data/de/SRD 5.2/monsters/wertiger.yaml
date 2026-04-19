@@ -1,0 +1,66 @@
+id: wertiger
+type: monster
+name: Wertiger
+lang: de
+typ: Kleine oder mittelgroße Monstrosität (Lykanthrop)
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 120
+tp_formel: 16W8+48
+bewegungsrate: 9 m, 12 m (nur in Tigergestalt)
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +5
+ausruestung: Langbogen
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 15
+sprachen: Gemeinsprache (kann in Tigergestalt nicht
+hg: 4
+ep: 1100
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Wertiger führt zwei Angriffe mit Kratzen oder Langbogen in beliebiger Kombination aus. Er kann einen Angriff
+    durch einen Bissangriff ersetzen.
+- name: 'Biss (nur Tiger- oder hybride Gestalt):'
+  beschreibung: 'Nahkampf angriffswurf: +5, Reichweite 1,5 m. Treffer: 12 (2W8+3) Stichschaden. Wenn das Ziel ein Humanoide
+    ist, erleidet es den folgenden Effekt: Konstitutionsrettungswurf: SG 13. Misserfolg: Das Ziel wird verflucht. Wenn die
+    Trefferpunkte des verfluchten Ziels auf 0 sinken, wird es stattdessen zu einem Wertiger unter der Kontrolle des SL und
+    hat 10 Trefferpunkte. Erfolg: Das Ziel ist 24 Stunden lang gegen den Fluch dieses Wertigers immun.'
+- name: 'Kratzen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 10 (2W6+3) Hiebschaden.'
+- name: 'Langbogen (nur humanoide oder hybride Gestalt):'
+  beschreibung: 'Fernkampfangriffswurf: +4, Reichweite 45/180 m. Treffer: 11 (2W8+2) Stichschaden.'
+bonusaktionen:
+- name: 'Gestaltwandeln:'
+  beschreibung: Der Wertiger nimmt die Gestalt eines großen Tiger-Humanoiden-Hybriden, eines großen Tigers oder wieder seine
+    wahre humanoide Gestalt an. Seine Spielwerte sind abgesehen von der Größe in jeder Gestalt gleich. Ausrüstung, die er
+    trägt oder hält, wird nicht verwandelt.
+- name: 'Umherstreifen (nur Tiger- oder hybride Gestalt):'
+  beschreibung: Der Wertiger nutzt seine Bewegungsrate, ohne Gelegen- heitsangriffe zu provozieren. Am Ende dieser Bewegung
+    kann der Wertiger die Verstecken-Aktion ausführen.

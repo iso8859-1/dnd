@@ -1,0 +1,53 @@
+id: braunbar
+type: monster
+name: Braunbär
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 11
+initiative: '+1'
+initiative_wert: 11
+tp: 22
+tp_formel: 3W10+6
+bewegungsrate: 12 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Wahrnehmung +3
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 13
+sprachen: −
+hg: 1
+ep: 200
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Bär führt einen Bissangriff und einen Klauenangriff aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 7 (1W8+3) Stichschaden.'
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 5 (1W4+3) Hiebschaden. Wenn das Ziel eine Kreatur von
+    höchstens großer Größe ist, wird es umgestoßen und hat den Zustand Liegend.'

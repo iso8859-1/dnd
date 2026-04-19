@@ -1,0 +1,71 @@
+id: oni
+type: monster
+name: Oni
+lang: de
+groesse: Groß
+typ: Unhold
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+0'
+initiative_wert: 10
+tp: 119
+tp_formel: 14W10+42
+bewegungsrate: 9 m, Fliegen 9 m (Schweben)
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+3'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+6'
+  int:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+4'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+5'
+fertigkeiten: Arkane Kunde +5, Täuschen +8,
+resistenzen: Kälte
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
+sprachen: Gemeinsprache, Riesisch
+hg: 7
+ep: 2900
+ub: '+3'
+merkmale:
+- name: 'Regeneration:'
+  beschreibung: Der Oni erhält zu Beginn jedes seiner Züge 10 Trefferpunkte zurück, wenn er noch mindestens 1 Trefferpunkt
+    hat.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Oni führt zwei Klauen- oder Albtraumstrahl-Angriffe aus. Er kann einen Angriff durch einen Einsatz von
+    Zauberwirken ersetzen.
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 10 (1W12+4) Hiebschaden plus 9 (2W8) nekrotischer Schaden.'
+- name: 'Albtraumstrahl:'
+  beschreibung: 'Fernkampfangriffswurf: +5, Reichweite 18 m. Treffer: 9 (2W6+2) psychischer Schaden, und das Ziel ist bis
+    zum Beginn des nächsten Zugs des Onis verängstigt.'
+- name: 'Gestaltwandeln:'
+  beschreibung: Der Oni nimmt die Gestalt eines Humanoiden von höchstens mittelgroßer Größe, die Gestalt eines großen Riesen
+    oder wieder seine wahre Gestalt an. Seine Spielwerte sind abgesehen von der Größe in allen Gestalten gleich. Ausrüstung,
+    die er trägt oder hält, wird nicht verwandelt.
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Oni wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 13): Je 1-mal täglich: Dunkelheit , Gasförmige Gestalt , Person bezaubern (Version
+    des 2. Grades), Schlaf'
+bonusaktionen:
+- name: 'Unsichtbarkeit:'
+  beschreibung: Der Oni wirkt den Zauber Unsichtbar keit auf sich selbst, ohne Zauberkomponenten zu benötigen. Sein Attribut
+    zum Zauberwirken ist dasselbe wie beim Ausführen der Zauberwirken-Aktion.

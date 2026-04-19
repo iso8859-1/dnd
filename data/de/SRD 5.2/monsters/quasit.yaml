@@ -1,0 +1,65 @@
+id: quasit
+type: monster
+name: Quasit
+lang: de
+groesse: Winzig
+typ: Unhold (Dämon)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 25
+tp_formel: 10W4
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 5
+    mod: −3
+    rw: −3
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 7
+    mod: −2
+    rw: −2
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heimlichkeit +5
+immunitaeten: Gift, Vergiftet
+resistenzen: Blitz, Feuer, Kälte
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 10
+sprachen: Abyssisch, Gemeinsprache
+hg: 1
+ep: 200
+ub: '+2'
+merkmale:
+- name: 'Magieresistenz:'
+  beschreibung: Der Quasit ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 5 (1W4+3) Hiebschaden, und das Ziel ist bis zum Beginn
+    des nächsten Zugs des Quasiten vergiftet.'
+- name: 'Gestaltwandeln:'
+  beschreibung: Der Quasit nimmt die Gestalt einer Fledermaus (Bewegungsrate 3 m, Fliegen 12 m), einer Kröte (12 m, Schwimmen
+    12 m), eines Tausendfüßlers (12 m, Klettern 12 m) oder wieder seine wahre Gestalt an. Seine Spielwerte sind bis auf die
+    Bewegungsrate in allen Formen gleich. Ausrüstung, die er trägt oder hält, wird nicht verwandelt.
+- name: 'Unsichtbarkeit:'
+  beschreibung: Der Quasit wirkt den Zauber Unsichtbarkeit auf sich selbst mit Charisma als Attribut zum Zauberwirken, ohne
+    Zauberkomponenten zu benötigen.
+- name: 'Verängstigen (1-mal täglich):'
+  beschreibung: 'Weisheitsrettungswurf: SG 10; eine Kreatur im Abstand von bis zu sechs Metern. Misserfolg: Das Ziel ist verängstigt.
+    Das Ziel wiederholt den Rettungswurf am Ende jedes seiner Züge. Bei einem Erfolg endet der Effekt. Nach einer Minute besteht
+    es den Rettungswurf automatisch.'

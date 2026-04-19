@@ -1,0 +1,79 @@
+id: ausgewachsener-kupferdrache
+type: monster
+name: Ausgewachsener Kupferdrache
+lang: de
+groesse: Riesig
+typ: Drache (metallisch)
+gesinnung: chaotisch gut
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+11'
+initiative_wert: 21
+tp: 184
+tp_formel: 16W12+80
+bewegungsrate: 12 m, Fliegen 24 m, Klettern 12 m
+attribute:
+  sta:
+    wert: 23
+    mod: '+6'
+    rw: '+6'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+6'
+  kon:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+7'
+  cha:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+fertigkeiten: Heimlichkeit +6, Täuschen +9,
+immunitaeten: Säure
+sinne: Blindsicht 18 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 14
+ep: 11500
+ub: '+5'
+merkmale:
+- name: 'Legendäre Resistenz (3-mal täglich, im Hort 4-mal täglich):'
+  beschreibung: Wenn der Drache bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus. Er kann einen Angriff durch einen Einsatz von (A) Bremsender
+    Odem oder (B) Zauberwirken ersetzen, um den Zauber Gedankendorn (Version des 4. Grades) zu wirken.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +11, Reichweite 3 m. Treffer: 17 (2W10+6) Hiebschaden plus 4 (1W8) Säureschaden.'
+- name: 'Bremsender Odem:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 18; jede Kreatur in einem Kegel von 18 Metern. Misserfolg: Das Ziel kann keine
+    Reaktionen ausführen, und seine Bewegungsrate ist halbiert. Außerdem kann es in seinem Zug entweder eine Aktion oder eine
+    Bonusaktion ausführen, aber nicht beides. Dieser Effekt bleibt bis zum Ende seines nächsten Zugs bestehen.'
+- name: 'Säureodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungswurf: SG 18; jede Kreatur in einer 18 Meter langen, 1,5 Meter breiten Linie. Misserfolg:
+    54 (12W8) Säureschaden. Erfolg: Halber Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Drache wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 17): Beliebig oft: Einfache Illusion , Gedankendorn (Version des 4. Grades), Gestaltwandel
+    (nur in Tier- oder humanoider Gestalt; durch den Zauber werden keine temporären Trefferpunkte erhalten, und zum Aufrechterhalten
+    des Zaubers sind weder Konzentration noch temporäre Trefferpunkte erforderlich), Magie entdecken Je 1-mal täglich: Mächtiges
+    Trugbild , Vollständige Genesung'
+legendaere_aktionen:
+- name: 'Anspringen:'
+  beschreibung: Der Drache legt bis zur Hälfte seiner Bewegungsrate zurück und führt einen Zerfetzen- Angriff aus.
+- name: 'Gedankenruck:'
+  beschreibung: Der Drache setzt Zauberwirken ein, um den Zauber Gedankendorn (Version des 4. Grades) zu wirken. Der Drache
+    kann diese Aktion erst nach Beginn seines nächsten Zugs erneut ausführen.
+- name: 'Kichermagie:'
+  beschreibung: 'Charismarettungswurf: SG 17; eine Kreatur im Abstand von bis zu 27 Metern vom Drachen, die er sehen kann.
+    Misserfolg: 24 (7W6) psychischer Schaden. Das Ziel würfelt bis zum Ende seines nächsten Zugs mit 1W6, wann immer es einen
+    Attributs wurf oder Angriffswurf ausführt, und zieht das Ergebnis von der W20-Prüfung ab. Erfolg oder Misserfolg: Der
+    Drache kann diese Aktion erst nach Beginn seines nächsten Zugs erneut ausführen.'

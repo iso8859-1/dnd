@@ -1,0 +1,67 @@
+id: seevettel
+type: monster
+name: Seevettel
+lang: de
+groesse: Mittelgroß
+typ: Feenwesen
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+1'
+initiative_wert: 11
+tp: 52
+tp_formel: 7W8+21
+bewegungsrate: 9 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 11
+sprachen: Gemeinsprache, Riesisch, Urtümlich (Aqual)
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Die Vettel kann Luft und Wasser atmen.
+- name: 'Böses Erscheinungsbild:'
+  beschreibung: 'Weisheitsrettungswurf: SG 11; alle Tiere und Humanoiden, die ihren Zug im Abstand von bis zu neun Metern
+    von der Vettel beginnen und die wahre Gestalt der Vettel sehen können. Misserfolg: Das Ziel ist bis zum Beginn seines
+    nächsten Zugs verängstigt. Erfolg: Das Ziel ist 24 Stunden lang gegen das Böse Erscheinungsbild dieser Vettel immun.'
+- name: 'Zirkelmagie:'
+  beschreibung: 'Wenn die Vettel sich im Abstand von bis zu neun Metern von mindestens zwei Vettel-Verbündeten befindet, kann
+    sie einen der folgenden Zauber mit dem normalen Zeitaufwand und Intelligenz als Attribut zum Zauberwirken wirken, ohne
+    Materialkomponenten zu benötigen (Zauberrettungswurf-SG 11): Ausspähung , Gegenstand aufspüren , Identifizieren , Unsichtbarer
+    Diener , Vertrauten finden oder Vorahnung . Die Vettel muss eine lange Rast beenden, ehe sie dieses Merkmal erneut verwenden
+    kann, um den Zauber zu wirken.'
+aktionen:
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 10 (2W6+3) Hiebschaden.'
+- name: 'Illusionäres Erscheinungsbild:'
+  beschreibung: Die Vettel wirkt den Zauber Selbstverkleidung mit Konstitution als Attribut zum Zauberwirken (Zauberrettungswurf-SG
+    13). Die Wirkungsdauer des Zaubers beträgt 24 Stunden.
+- name: 'Todesstarren (Aufladung 5–6):'
+  beschreibung: 'Weisheitsrettungswurf: SG 11; eine verängstigte Kreatur im Abstand von bis zu neun Metern von der Vettel,
+    die von der Vettel gesehen werden kann. Misserfolg: Wenn das Ziel höchstens 20 Trefferpunkte hat, sinken seine Trefferpunkte
+    auf 0. Anderenfalls erleidet das Ziel 13 (3W8) psychischen Schaden.'

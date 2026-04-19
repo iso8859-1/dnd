@@ -1,0 +1,52 @@
+id: riesenfeuerkafer
+type: monster
+name: Riesenfeuerkäfer
+lang: de
+groesse: Klein
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+0'
+initiative_wert: 10
+tp: 4
+tp_formel: 1W6+1
+bewegungsrate: 9 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 8
+    mod: −1
+    rw: −1
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 7
+    mod: −2
+    rw: −2
+  cha:
+    wert: 3
+    mod: −4
+    rw: −4
+resistenzen: Feuer
+sinne: Blindsicht 9 m; Passive Wahrnehmung 8
+sprachen: −
+hg: 0
+ep: 10
+ub: '+2'
+merkmale:
+- name: 'Beleuchtung:'
+  beschreibung: Der Käfer spendet in einem Radius von drei Metern helles Licht und in einem Radius von weiteren drei Metern
+    dämmriges Licht.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +1, Reichweite 1,5 m. Treffer: 1 Feuerschaden.'

@@ -1,0 +1,63 @@
+id: werbar
+type: monster
+name: Werbär
+lang: de
+typ: Kleine oder mittelgroße Monstrosität (Lykanthrop)
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+3'
+initiative_wert: 13
+tp: 135
+tp_formel: 18W8+54
+bewegungsrate: 9 m, 12 m (nur in Bärengestalt), Klettern
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+fertigkeiten: Wahrnehmung +7
+ausruestung: Beile (4)
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 17
+sprachen: Gemeinsprache (kann in Bärengestalt nicht
+hg: 5
+ep: 1800
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Werbär führt zwei Angriffe mit Beil oder Zerfetzen in beliebiger Kombination aus. Er kann einen Angriff
+    durch einen Bissangriff ersetzen.
+- name: 'Beil (nur humanoide oder hybride Gestalt):'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +7, Reichweite 1,5 m oder Reichweite 6/18 m. Treffer: 14 (3W6+4) Hiebschaden.'
+- name: 'Biss (nur Bären- oder hybride Gestalt):'
+  beschreibung: 'Nahkampf angriffswurf: +7, Reichweite 1,5 m. Treffer: 17 (2W12+4) Stichschaden. Wenn das Ziel ein Humanoide
+    ist, erleidet es den folgenden Effekt: Konstitutionsr ettungswurf: SG 14. Misserfolg: Das Ziel wird verflucht. Wenn die
+    Trefferpunkte des verfluchten Ziels auf 0 sinken, wird es stattdessen zu einem Werbären unter der Kontrolle des SL und
+    hat 10 Trefferpunkte. Erfolg: Das Ziel ist 24 Stunden lang gegen den Fluch dieses Werbären immun.'
+- name: 'Zerfetzen (nur Bären- oder hybride Gestalt):'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 13 (2W8+4) Hiebschaden.'
+bonusaktionen:
+- name: 'Gestaltwandeln:'
+  beschreibung: Der Werbär nimmt die Gestalt eines großen Bär-Humanoiden-Hybriden, eines großen Bären oder wieder seine wahre
+    humanoide Gestalt an. Seine Spielwerte sind abgesehen von der Größe in jeder Gestalt gleich. Ausrüstung, die er trägt
+    oder hält, wird nicht verwandelt.

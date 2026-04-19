@@ -1,0 +1,68 @@
+id: vampirbrut
+type: monster
+name: Vampirbrut
+lang: de
+typ: Kleiner oder mittelgroßer Untoter
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 16
+initiative: '+3'
+initiative_wert: 13
+tp: 90
+tp_formel: 12W8+36
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+6'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+3'
+  cha:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+fertigkeiten: Heimlichkeit +6, Wahrnehmung +3
+resistenzen: Nekrotisch
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 13
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Spinnenklettern:'
+  beschreibung: Der Vampir kann ohne Attributswürfe schwierige Oberflächen erklimmen und sich an Decken entlang bewegen.
+- name: 'Vampirschwächen:'
+  beschreibung: 'Der Vampir hat folgende Schwächen: Zutritt verwehren: Der Vampir kann keine Behausung betreten, ohne von
+    einem der Bewohner eingeladen worden zu sein. Fließendes Wasser: Der Vampir erleidet 20 Säureschaden, wenn er seinen Zug
+    in fließendem Wasser beendet. Holzpflock ins Herz: Der Vampir wird zerstört, wenn ihm eine Waffe, die Stichschaden bewirkt,
+    ins Herz getrieben wird, während er kampfunfähig ist. Sonnenlicht: Der Vampir erleidet 20 gleißenden Schaden, wenn er
+    seinen Zug im Sonnenlicht beginnt. Im Sonnenlicht ist er bei Angriffs- und Attributswürfen im Nachteil.'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Vampir führt zwei Klauenangriffe aus und setzt Biss ein.
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 8 (2W4+3) Hiebschaden. Wenn das Ziel eine Kreatur von
+    höchstens mittelgroßer Größe ist, wird es von einer der beiden Klauen gepackt (Flucht-SG 13).'
+- name: 'Biss:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 14; eine Kreatur im Abstand von bis zu 1,5 Metern, die bereitwillig, festgesetzt,
+    gepackt oder kampfunfähig ist. Misserfolg: 5 (1W4+3) Stichschaden plus 10 (3W6) nekrotischer Schaden. Das Trefferpunktemaximum
+    des Ziels wird um eine Anzahl in Höhe des erlittenen nekrotischen Schadens verringert, und der Vampir erhält Trefferpunkte
+    in Höhe dieses Betrags zurück.'
+bonusaktionen:
+- name: 'Untote Wendigkeit:'
+  beschreibung: Der Vampir führt die Spurt- oder die Rückzug-Aktion aus.

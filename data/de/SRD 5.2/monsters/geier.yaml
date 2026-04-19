@@ -1,0 +1,52 @@
+id: geier
+type: monster
+name: Geier
+lang: de
+groesse: Mittelgroß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 10
+initiative: '+0'
+initiative_wert: 10
+tp: 5
+tp_formel: 1W8+1
+bewegungsrate: 3 m, Fliegen 15 m
+attribute:
+  sta:
+    wert: 7
+    mod: −2
+    rw: −2
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 4
+    mod: −3
+    rw: −3
+fertigkeiten: Wahrnehmung +3
+sinne: Passive Wahrnehmung 13
+sprachen: −
+hg: 0
+ep: 10
+ub: '+2'
+merkmale:
+- name: 'Rudeltaktik:'
+  beschreibung: Der Geier ist beim Angriffswurf gegen eine Kreatur im Vorteil, wenn sich mindestens einer seiner Verbündeten,
+    der nicht kampfunfähig ist, im Abstand von bis zu 1,5 Metern von der Kreatur befindet.
+aktionen:
+- name: 'Schnabel:'
+  beschreibung: 'Nahkampfangriffswurf: +2, Reichweite 1,5 m. Treffer: 2 (1W4) Stichschaden.'

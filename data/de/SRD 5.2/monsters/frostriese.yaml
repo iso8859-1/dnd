@@ -1,0 +1,58 @@
+id: frostriese
+type: monster
+name: Frostriese
+lang: de
+groesse: Riesig
+typ: Riese
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+2'
+initiative_wert: 12
+tp: 149
+tp_formel: 13W12+65
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 23
+    mod: '+6'
+    rw: '+6'
+  ges:
+    wert: 9
+    mod: −1
+    rw: −1
+  kon:
+    wert: 21
+    mod: '+5'
+    rw: '+8'
+  int:
+    wert: 9
+    mod: −1
+    rw: −1
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+3'
+  cha:
+    wert: 12
+    mod: '+1'
+    rw: '+4'
+fertigkeiten: Athletik +9, Wahrnehmung +3
+immunitaeten: Kälte
+sinne: Passive Wahrnehmung 13
+sprachen: Riesisch
+hg: 8
+ep: 3900
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Riese führt zwei Angriffe mit Frostaxt oder Großbogen in beliebiger Kombination aus.
+- name: 'Frostaxt:'
+  beschreibung: 'Nahkampfangriffswurf: +9, Reichweite 3 m. Treffer: 19 (2W12+6) Hiebschaden plus 9 (2W8) Kälteschaden.'
+- name: 'Großbogen:'
+  beschreibung: 'Fernkampfangriffswurf: +9, Reichweite 45/180 m. Treffer: 17 (2W10+6) Stichschaden plus 7 (2W6) Kälteschaden,
+    und die Bewegungsrate des Ziels ist bis zum Ende seines nächsten Zugs um drei Meter verringert.'
+bonusaktionen:
+- name: 'Kriegsschrei (Aufladung 5–6):'
+  beschreibung: Der Riese oder eine Kreatur seiner Wahl, die er hören oder sehen kann, erhält 16 (2W10+5) temporäre Trefferpunkte
+    und ist bis zum Beginn des nächsten Zugs des Riesen bei Angriffswürfen im Vorteil.

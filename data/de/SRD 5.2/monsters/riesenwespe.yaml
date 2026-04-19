@@ -1,0 +1,50 @@
+id: riesenwespe
+type: monster
+name: Riesenwespe
+lang: de
+groesse: Mittelgroß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+2'
+initiative_wert: 12
+tp: 22
+tp_formel: 5W8
+bewegungsrate: 3 m, Fliegen 15 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 3
+    mod: −4
+    rw: −4
+sinne: Passive Wahrnehmung 10
+sprachen: −
+hg: 1/2
+ep: 100
+ub: '+2'
+merkmale:
+- name: 'Vorbeifliegen:'
+  beschreibung: Die Wespe provoziert keine Gelegenheitsangriffe, wenn sie aus der Reichweite eines Gegners fliegt.
+aktionen:
+- name: 'Stachel:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 5 (1W6+2) Stichschaden plus 5 (2W4) Giftschaden.'

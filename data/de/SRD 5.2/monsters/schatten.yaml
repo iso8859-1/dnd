@@ -1,0 +1,62 @@
+id: schatten
+type: monster
+name: Schatten
+lang: de
+groesse: Mittelgroß
+typ: Untoter
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 27
+tp_formel: 5W8+5
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 6
+    mod: −2
+    rw: −2
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 8
+    mod: −1
+    rw: −1
+fertigkeiten: Heimlichkeit +6
+immunitaeten: Gift, Nekrotisch; Bewusstlos, Erschöpft,
+resistenzen: Blitz, Feuer, Kälte, Säure, Schall
+anfaelligkeiten: Gleißend
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: −
+hg: 1/2
+ep: 100
+ub: '+2'
+merkmale:
+- name: 'Amorph:'
+  beschreibung: Der Schatten kann sich durch enge Bereiche von nur 2,5 Zentimetern Durchmesser bewegen, ohne zusätzliche Bewegung
+    aufzuwenden.
+- name: 'Schwach im Sonnenlicht:'
+  beschreibung: Im Sonnenlicht ist der Schatten bei W20-Prüfungen im Nachteil.
+aktionen:
+- name: 'Zehrender Streich:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 5 (1W6+2) nekrotischer Schaden, und der Stärkewert des
+    Ziels wird um 1W4 verringert. Wenn sein Stärkewert dadurch auf 0 verringert wird, stirbt das Ziel. Stirbt ein Humanoide
+    durch diesen Angriff, so erhebt sich 1W4 Stunden später ein Schatten aus dem Leichnam.'
+bonusaktionen:
+- name: 'Heimlicher Schatten:'
+  beschreibung: In dämmrigem Licht oder Dunkelheit führt der Schatten die Verstecken-Aktion aus.

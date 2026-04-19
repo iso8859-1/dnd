@@ -1,0 +1,51 @@
+id: riesenwolfsspinne
+type: monster
+name: Riesenwolfsspinne
+lang: de
+groesse: Mittelgroß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 11
+tp_formel: 2W8+2
+bewegungsrate: 12 m, Klettern 12 m
+attribute:
+  sta:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 4
+    mod: −3
+    rw: −3
+fertigkeiten: Heimlichkeit +7, Wahrnehmung +3
+sinne: Blindsicht 3 m, Dunkelsicht 18 m; Passive
+sprachen: −
+hg: 1/4
+ep: 50
+ub: '+2'
+merkmale:
+- name: 'Spinnenklettern:'
+  beschreibung: Die Spinne kann ohne Attributswürfe schwierige Oberflächen erklimmen und sich an Decken entlang bewegen.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 5 (1W4+3) Stichschaden plus 5 (2W4) Giftschaden.'

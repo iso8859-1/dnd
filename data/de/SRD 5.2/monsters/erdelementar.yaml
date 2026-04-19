@@ -1,0 +1,59 @@
+id: erdelementar
+type: monster
+name: Erdelementar
+lang: de
+groesse: Groß
+typ: Elementar
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 17
+initiative: −1 (9)
+tp: 147
+tp_formel: 14W10+70
+bewegungsrate: 9 m, Graben 9 m
+attribute:
+  sta:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+immunitaeten: Gift; Bewusstlos, Erschöpft, Gelähmt,
+anfaelligkeiten: Schall
+sinne: Dunkelsicht 18 m, Erschütterungssinn 18 m;
+sprachen: Urtümlich (Terral)
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Belagerungsmonster:'
+  beschreibung: Der Elementar fügt Gegenständen und Gebäuden doppelten Schaden zu.
+- name: 'Erdgleiten:'
+  beschreibung: Der Elementar kann sich durch nichtmagisches, unbearbeitetes Erd- und Steinmaterial graben. Dabei beeinträchtigt
+    er das Material nicht, durch das er sich bewegt.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Elementar führt zwei Angriffe mit Hieb oder Steinwurf in beliebiger Kombination aus.
+- name: 'Hieb:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reichweite 3 m. Treffer: 14 (2W8+5) Wuchtschaden.'
+- name: 'Steinwurf:'
+  beschreibung: 'Fernkampfangriffswurf: +8, Reichweite 18 m. Treffer: 8 (1W6+5) Wuchtschaden. Wenn das Ziel eine Kreatur von
+    höchstens großer Größe ist, wird es umgestoßen und hat den Zustand Liegend.'

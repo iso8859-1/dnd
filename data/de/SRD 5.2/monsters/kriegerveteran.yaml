@@ -1,0 +1,56 @@
+id: kriegerveteran
+type: monster
+name: Kriegerveteran
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+3'
+initiative_wert: 13
+tp: 65
+tp_formel: 10W8+20
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Athletik +5, Wahrnehmung +2
+ausruestung: Schienenpanzer, Schwere Armbrust,
+sinne: Passive Wahrnehmung 12
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 3
+ep: 700
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Krieger führt zwei Angriffe mit dem Zweihandschwert oder der schweren Armbrust aus.
+- name: 'Zweihandschwert:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 10 (2W6+3) Hiebschaden.'
+- name: 'Schwere Armbrust:'
+  beschreibung: 'Fernkampfangriffswurf: +3, Reichweite 30/120 m. Treffer: 12 (2W10+1) Stichschaden.'
+reaktionen:
+- name: 'Parieren:'
+  beschreibung: 'Auslöser: Der Krieger wird von einem Nahkampfangriffswurf getroffen, während er eine Waffe hält. Antwort:
+    Der Krieger fügt seiner RK gegen diesen Angriff 2 hinzu, sodass der Angriff möglicherweise misslingt.'

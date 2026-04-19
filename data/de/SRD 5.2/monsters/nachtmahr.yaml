@@ -1,0 +1,57 @@
+id: nachtmahr
+type: monster
+name: Nachtmahr
+lang: de
+groesse: Groß
+typ: Unhold
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+2'
+initiative_wert: 12
+tp: 68
+tp_formel: 8W10+24
+bewegungsrate: 18 m, Fliegen 27 m (Schweben)
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+immunitaeten: Feuer
+sinne: Passive Wahrnehmung 11
+sprachen: Versteht Abyssisch, Gemeinsprache und
+hg: 3
+ep: 700
+ub: '+2'
+merkmale:
+- name: 'Beleuchtung:'
+  beschreibung: Der Nachtmahr spendet in einem Radius von drei Metern helles Licht und in einem Radius von weiteren drei Metern
+    dämmriges Licht.
+- name: 'Feuerresistenz gewähren:'
+  beschreibung: Der Nachtmahr kann einem Reiter während des Ritts Resistenz gegen Feuerschaden gewähren.
+aktionen:
+- name: 'Hufe:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 13 (2W8+4) Wuchtschaden plus 10 (3W6) Feuerschaden.'
+- name: 'Ätherischer Schritt:'
+  beschreibung: Der Nachtmahr und bis zu drei bereitwillige Kreaturen im Abstand von bis zu 1,5 Metern von ihm teleportieren
+    sich von der materiellen Ebene auf die Ätherebene oder umgekehrt.

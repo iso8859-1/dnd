@@ -1,0 +1,49 @@
+id: kreischerpilz
+type: monster
+name: Kreischerpilz
+lang: de
+groesse: Mittelgroß
+typ: Pflanze
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 5
+initiative: −5 (5)
+tp: 13
+tp_formel: 3W8
+bewegungsrate: 1,5 m
+attribute:
+  sta:
+    wert: 1
+    mod: −5
+    rw: −5
+  ges:
+    wert: 1
+    mod: −5
+    rw: −5
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 3
+    mod: −4
+    rw: −4
+  cha:
+    wert: 1
+    mod: −5
+    rw: −5
+immunitaeten: Bezaubert, Blind, Taub, Verängstigt
+sinne: Blindsicht 9 m; Passive Wahrnehmung 6
+sprachen: −
+hg: 0
+ep: 0
+ub: '+2'
+reaktionen:
+- name: 'Kreischen:'
+  beschreibung: 'Auslöser: Eine Kreatur oder eine Quelle hellen Lichts gelangt in den Bereich im Abstand von bis zu neun Metern
+    vom Kreischer. Antwort: Der Kreischer stößt einen Schrei aus, der im Abstand von bis zu 90 Metern von ihm zu hören ist
+    und andauert, bis eine Minute vergangen ist oder der Kreischer stirbt.'

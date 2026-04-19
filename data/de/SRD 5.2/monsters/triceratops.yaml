@@ -1,0 +1,51 @@
+id: triceratops
+type: monster
+name: Triceratops
+lang: de
+groesse: Riesig
+typ: Tier (Dinosaurier)
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 14
+initiative: –1 (9)
+tp: 114
+tp_formel: 12W12+36
+bewegungsrate: 15 m
+attribute:
+  sta:
+    wert: 22
+    mod: '+6'
+    rw: '+6'
+  ges:
+    wert: 9
+    mod: −1
+    rw: −1
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+sinne: Passive Wahrnehmung 10
+sprachen: −
+hg: 5
+ep: 1800
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Triceratops führt zwei Zerfleischen-Angriffe aus.
+- name: 'Zerfleischen:'
+  beschreibung: 'Nahkampfangriffswurf: +9, Reichweite 1,5 m. Treffer: 19 (2W12+6) Stichschaden. Wenn das Ziel eine Kreatur
+    von höchstens riesiger Größe ist und der Triceratops sich unmittelbar vor dem Treffer mindestens sechs Meter weit in gerader
+    Linie auf das Ziel zubewegt hat, erleidet das Ziel zusätzlich 9 (2W8) Stichschaden, wird umgestoßen und hat den Zustand
+    Liegend.'

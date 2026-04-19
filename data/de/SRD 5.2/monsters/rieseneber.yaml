@@ -1,0 +1,52 @@
+id: rieseneber
+type: monster
+name: Rieseneber
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+0'
+initiative_wert: 10
+tp: 42
+tp_formel: 5W10+15
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+5'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 7
+    mod: −2
+    rw: −2
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+sinne: Passive Wahrnehmung 8
+sprachen: −
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Blutdurst:'
+  beschreibung: Der Eber ist bei Nahkampfangriffswürfen im Vorteil, wenn er blutig ist.
+aktionen:
+- name: 'Zerfleischen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 10 (2W6+4) Stichschaden. Wenn das Ziel eine Kreatur
+    von höchstens großer Größe ist und der Eber sich unmittelbar vor dem Treffer mindestens sechs Meter weit in gerader Linie
+    auf das Ziel zubewegt hat, erleidet das Ziel zusätzlich 7 (2W6) Stichschaden, wird umgestoßen und hat den Zustand Liegend.'

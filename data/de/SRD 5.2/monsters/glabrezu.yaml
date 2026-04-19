@@ -1,0 +1,66 @@
+id: glabrezu
+type: monster
+name: Glabrezu
+lang: de
+groesse: Groß
+typ: Unhold (Dämon)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+6'
+initiative_wert: 16
+tp: 189
+tp_formel: 18W10+90
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 20
+    mod: '+5'
+    rw: '+9'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 21
+    mod: '+5'
+    rw: '+9'
+  int:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  wei:
+    wert: 17
+    mod: '+3'
+    rw: '+7'
+  cha:
+    wert: 16
+    mod: '+3'
+    rw: '+7'
+fertigkeiten: Täuschen +7, Wahrnehmung +7
+immunitaeten: Gift; Vergiftet
+resistenzen: Blitz, Feuer, Kälte
+sinne: Wahrer Blick 36 m; Passive Wahrnehmung 17
+sprachen: Abyssisch; Telepathie auf 36 m
+hg: 9
+ep: 5000
+ub: '+4'
+merkmale:
+- name: 'Dämonische Genesung:'
+  beschreibung: Wenn der Glabrezu außerhalb des Abyss stirbt, löst sein Körper sich zu einer widerlichen Flüssigkeit auf.
+    Der Glabrezu erhält sofort einen neuen Körper, der mit allen Trefferpunkten irgendwo im Abyss aufersteht.
+- name: 'Magieresistenz:'
+  beschreibung: Der Glabrezu ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Glabrezu führt zwei Zangen- angriffe aus und setzt Prügeln oder Zauberwirken ein.
+- name: 'Zange:'
+  beschreibung: 'Nahkampfangriffswurf: +9, Reichweite 3 m. Treffer: 16 (2W10+5) Hiebschaden. Wenn das Ziel eine Kreatur von
+    höchstens mittelgroßer Größe ist, wird es von einem der zwei Zangen gepackt (Flucht-SG 15).'
+- name: 'Prügeln:'
+  beschreibung: 'Geschicklichkeitsrettungswurf: SG 17; eine Kreatur, die vom Glabrezu gepackt wurde. Misserfolg: 15 (3W6+5)
+    Wuchtschaden. Erfolg: Halber Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Glabrezu wirkt einen der folgenden Zauber mit Intelligenz als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 16): Beliebig oft: Dunkelheit , Magie bannen , Magie entdecken Je 1-mal täglich:
+    Fliegen , Verwirrung , Wort der Macht: Betäubung'

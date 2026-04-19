@@ -1,0 +1,62 @@
+id: wolkenriese
+type: monster
+name: Wolkenriese
+lang: de
+groesse: Riesig
+typ: Riese
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+4'
+initiative_wert: 14
+tp: 200
+tp_formel: 16W12+96
+bewegungsrate: 12 m, Fliegen 6 m (Schweben)
+attribute:
+  sta:
+    wert: 27
+    mod: '+8'
+    rw: '+8'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 22
+    mod: '+6'
+    rw: '+10'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 16
+    mod: '+3'
+    rw: '+7'
+  cha:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+fertigkeiten: Motiv erkennen +7, Wahrnehmung +11
+sinne: Passive Wahrnehmung 21
+sprachen: Gemeinsprache, Riesisch
+hg: 9
+ep: 5000
+ub: '+4'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Riese führt zwei Angriffe mit Donnernder Streitkolben oder Gewitterwolke in beliebiger Kombination aus.
+    Er kann einen Angriff durch einen Einsatz von Zauberwirken ersetzen, um den Zauber Nebelwolke zu wirken.
+- name: 'Donnernder Streitkolben:'
+  beschreibung: 'Nahkampfangriffswurf: +12, Reichweite 3 m. Treffer: 21 (3W8+8) Wuchtschaden plus 7 (2W6) Schallschaden.'
+- name: 'Gewitterwolke:'
+  beschreibung: 'Fernkampfangriffswurf: +12, Reichweite 72 m. Treffer: 18 (3W6+8) Schallschaden, und das Ziel ist bis zum
+    Ende seines nächsten Zugs kampfunfähig.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Riese wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 15): Beliebig oft: Licht , Magie entdecken , Nebelwolke Je 1-mal täglich: Gasförmige
+    Gestalt , Telekinese , Wetterkontrolle'
+bonusaktionen:
+- name: 'Nebelschritt:'
+  beschreibung: Der Riese wirkt den Zauber Nebelschritt . Sein Attribut zum Zauberwirken ist dasselbe wie beim Ausführen der
+    Zauberwirken-Aktion.

@@ -1,0 +1,67 @@
+id: sukkubus
+type: monster
+name: Sukkubus
+lang: de
+groesse: Mittelgroß
+typ: Unhold
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+3'
+initiative_wert: 13
+tp: 71
+tp_formel: 13W8+13
+bewegungsrate: 9 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 8
+    mod: −1
+    rw: −1
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+fertigkeiten: Heimlichkeit +7, Motiv erkennen +5,
+resistenzen: Feuer, Gift, Kälte, Psychisch
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 15
+sprachen: Abyssisch, Gemeinsprache, Infernalisch;
+hg: 4
+ep: 1100
+ub: '+2'
+merkmale:
+- name: 'Inkubus-Gestalt:'
+  beschreibung: Wenn der Sukkubus eine lange Rast beendet, kann er sich in einen Inkubus verwandeln und verwendet dann dessen
+    Wertekasten statt diesen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Sukkubus führt einen Unholdische-Berührung-Angriff aus und setzt Bezaubern oder Schwächender Kuss ein.
+- name: 'Unholdische Berührung:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 16 (2W10+5) psychischer Schaden.'
+- name: 'Bezaubern:'
+  beschreibung: Der Sukkubus wirkt den Zauber Person beherrschen (Version des 8. Grades) mit Charisma als Attribut zum Zauberwirken,
+    ohne Zauberkomponenten zu benötigen (Zauberrettungswurf-SG 15).
+- name: 'Schwächender Kuss:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 15; eine vom Sukkubus bezauberte Kreatur im Abstand von bis zu 1,5 Metern vom
+    Sukkubus. Misserfolg: 13 (3W8) psychischer Schaden. Erfolg: Halber Schaden. Erfolg oder Misserfolg: Das Trefferpunktemaximum
+    des Ziels wird um eine Anzahl in Höhe des erlittenen Schadens verringert.'
+bonusaktionen:
+- name: 'Gestaltwandeln:'
+  beschreibung: Der Sukkubus nimmt die Gestalt eines Humanoiden von höchstens mittelgroßer Größe oder wieder seine wahre Gestalt
+    an. Seine Spielwerte sind in allen Formen gleich, allerdings hat er die Flugbewegungsrate nur in seiner wahren Gestalt.
+    Ausrüstung, die er trägt oder hält, wird nicht verwandelt.

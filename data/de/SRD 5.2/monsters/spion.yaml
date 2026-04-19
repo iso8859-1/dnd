@@ -1,0 +1,53 @@
+id: spion
+type: monster
+name: Spion
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+4'
+initiative_wert: 14
+tp: 27
+tp_formel: 6W8
+bewegungsrate: 9 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+fertigkeiten: Fingerfertigkeit +4, Heimlichkeit +6,
+ausruestung: Diebeswerkzeug, Handarmbrust, Kurzschwert
+sinne: Passive Wahrnehmung 16
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 1
+ep: 200
+ub: '+2'
+aktionen:
+- name: 'Kurzschwert:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 5 (1W6+2) Stichschaden plus 7 (2W6) Giftschaden.'
+- name: 'Handarmbrust:'
+  beschreibung: 'Fernkampfangriffswurf: +4, Reichweite 9/36 m. Treffer: 5 (1W6+2) Stichschaden plus 7 (2W6) Giftschaden.'
+bonusaktionen:
+- name: 'Raffinierte Aktion:'
+  beschreibung: Der Spion führt die Rückzug-, die Spurt- oder die Verstecken-Aktion aus.

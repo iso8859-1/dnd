@@ -1,0 +1,67 @@
+id: couatl
+type: monster
+name: Couatl
+lang: de
+typ: Mittelgroßes celestisches Wesen
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 19
+initiative: '+5'
+initiative_wert: 15
+tp: 60
+tp_formel: 8W8+24
+bewegungsrate: 9 m, Fliegen 27 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+5'
+  int:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  wei:
+    wert: 20
+    mod: '+5'
+    rw: '+7'
+  cha:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+immunitaeten: Gleißend, Psychisch
+resistenzen: Hieb, Stich, Wucht
+sinne: Wahrer Blick 36 m; Passive Wahrnehmung 15
+sprachen: Alle; Telepathie auf 36 m
+hg: 4
+ep: 1100
+ub: '+2'
+merkmale:
+- name: 'Abgeschirmter Geist:'
+  beschreibung: Die Gedanken des Couatls können mit keinen Methoden gelesen werden, und andere Kreaturen können nur dann telepathisch
+    mit ihm kommunizieren, wenn er es gestattet.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 11 (1W12+5) Stichschaden, und das Ziel ist bis zum Beginn
+    des nächsten Zugs des Couatls vergiftet.'
+- name: 'Umschlingen:'
+  beschreibung: 'Stärkerettungswurf: SG 15; eine Kreatur von höchstens mittelgroßer Größe im Abstand von bis zu 1,5 Metern
+    vom Couatl, die er sehen kann. Misserfolg: 8 (1W6+5) Wuchtschaden. Das Ziel wird gepackt (Flucht-SG 13). Solange es gepackt
+    bleibt, ist es außerdem festgesetzt.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Couatl wirkt einen der folgenden Zauber mit Weisheit als Attribut zum Zauberwirken, ohne Zauberkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 15): Beliebig oft: Gedanken wahrnehmen , Gestaltwandel (nur in Tier- oder humanoider
+    Gestalt; durch den Zauber werden keine temporären Trefferpunkte erhalten, und zum Aufrechterhalten des Zaubers sind weder
+    Kon zentration noch temporäre Trefferpunkte erforderlich), Gutes und Böses entdecken , Magie entdecken Je 1-mal täglich:
+    Ausspähung , Nahrung und Wasser erschaffen , Schlaf , Traum , Vollständige Genesung'
+bonusaktionen:
+- name: 'Göttlicher Beistand (2-mal täglich):'
+  beschreibung: Der Couatl wirkt einen der Zauber Heiligtum , Schwache Genesung oder Segnen , ohne Zauberkomponenten zu benötigen.
+    Sein Attribut zum Zauberwirken ist dasselbe wie beim Ausführen der Zauberwirken-Aktion.

@@ -1,0 +1,84 @@
+id: solar
+type: monster
+name: Solar
+lang: de
+typ: Großes celestisches Wesen (Engel)
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 21
+initiative: '+20'
+initiative_wert: 30
+tp: 297
+tp_formel: 22W10+176
+bewegungsrate: 15 m, Fliegen 45 m (Schweben)
+attribute:
+  sta:
+    wert: 26
+    mod: '+8'
+    rw: '+8'
+  ges:
+    wert: 22
+    mod: '+6'
+    rw: '+6'
+  kon:
+    wert: 26
+    mod: '+8'
+    rw: '+8'
+  int:
+    wert: 25
+    mod: '+7'
+    rw: '+7'
+  wei:
+    wert: 25
+    mod: '+7'
+    rw: '+7'
+  cha:
+    wert: 30
+    mod: '+10'
+    rw: '+10'
+fertigkeiten: Wahrnehmung +14
+immunitaeten: Gift, Gleißend; Bezaubert, Erschöpft,
+sinne: Wahrer Blick 36 m; Passive Wahrnehmung 24
+sprachen: Alle; Telepathie auf 36 m
+hg: 21
+ep: 33000
+ub: '+7'
+merkmale:
+- name: 'Göttliches Bewusstsein:'
+  beschreibung: Der Solar erkennt, wenn er eine Lüge hört.
+- name: 'Erhabene Genesung:'
+  beschreibung: Wenn der Solar außerhalb des Bergs Celestia stirbt, verschwindet sein Körper. Der Solar erhält sofort einen
+    neuen Körper, der mit allen Trefferpunkten irgendwo am Berg Celestia aufersteht.
+- name: 'Legendäre Resistenz (4-mal täglich):'
+  beschreibung: Wenn der Solar bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+- name: 'Magieresistenz:'
+  beschreibung: Der Solar ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Solar führt zwei Fliegendes- Schwert-Angriffe aus. Er kann einen Angriff durch einen Einsatz von Bogen
+    des Tötens ersetzen.
+- name: 'Fliegendes Schwert:'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +15, Reichweite 3 m oder Reichweite 36 m. Treffer: 22 (4W6+8) Hiebschaden
+    plus 36 (8W8) gleißender Schaden. Treffer oder Fehlschlag: Unmittelbar nach einem Fernkampfangriff kehrt das Schwert auf
+    magische Art in die Hand des Solars zurück oder schwebt im Abstand von bis zu 1,5 Metern von ihm.'
+- name: 'Bogen des Tötens:'
+  beschreibung: 'Geschicklichkeitsrettungswurf: SG 21; eine Kreatur im Abstand von bis zu 180 Metern vom Solar, die er sehen
+    kann. Misserfolg: Wenn die Kreatur höchstens 100 Trefferpunkte hat, stirbt sie. Anderenfalls erleidet das Ziel 24 (4W8+6)
+    Stichschaden plus 36 (8W8) gleißenden Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Solar wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 25): Beliebig oft: Gutes und Böses entdecken Je 1-mal täglich: Auferstehung , Gutes
+    und Böses bannen , Heiliges Gespräch , Wetterkontrolle'
+bonusaktionen:
+- name: 'Göttlicher Beistand (3-mal täglich):'
+  beschreibung: Der Solar wirkt einen der Zauber Fluch brechen , Schwache Genesung oder Wunden heilen (Version des 2. Grades).
+    Sein Attribut zum Zauberwirken ist dasselbe wie beim Ausführen der Zauberwirken-Aktion.
+legendaere_aktionen:
+- name: 'Blendender Blick:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 25; eine Kreatur im Abstand von bis zu 36 Metern vom Solar, die er sehen kann.
+    Misserfolg: Das Ziel ist eine Minute lang blind. Erfolg oder Misserfolg: Der Solar kann diese Aktion erst nach Beginn
+    seines nächsten Zugs erneut ausführen.'
+- name: 'Gleißendes Teleportieren:'
+  beschreibung: 'Der Solar teleportiert sich bis zu 18 Meter weit in einen freien Bereich, den er sehen kann. Geschicklichkeitsrettungswurf:
+    SG 25; jede Kreatur in einer Ausströmung von drei Metern, die vom Solar an seinem Zielbereich ausgeht. Misserfolg: 11
+    (2W10) gleißender Schaden. Erfolg: Halber Schaden.'

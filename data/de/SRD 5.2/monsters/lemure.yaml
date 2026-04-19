@@ -1,0 +1,53 @@
+id: lemure
+type: monster
+name: Lemure
+lang: de
+groesse: Mittelgroß
+typ: Unhold (Teufel)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 9
+initiative: −3 (7)
+tp: 9
+tp_formel: 2W8
+bewegungsrate: 6 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 5
+    mod: −3
+    rw: −3
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 3
+    mod: −4
+    rw: −4
+immunitaeten: Feuer, Gift; Bezaubert, Verängstigt, Vergiftet
+resistenzen: Kälte
+sinne: Dunkelsicht 36 m (wird nicht durch magische
+sprachen: Versteht Infernalisch, kann jedoch nicht sprechen
+hg: 0
+ep: 10
+ub: '+2'
+merkmale:
+- name: 'Höllische Genesung:'
+  beschreibung: Wenn der Lemure in den Neun Höllen stirbt, ersteht er nach 1W10 Tagen mit allen Trefferpunkten wieder auf,
+    sofern er nicht von einer Kreatur unter den Effekten des Zaubers Segnen getötet wurde oder seine Überreste mit Weihwasser
+    besprenkelt wurden.
+aktionen:
+- name: 'Böser Schleim:'
+  beschreibung: 'Nahkampfangriffswurf: +2, Reichweite 1,5 m. Treffer: 2 (1W4) Giftschaden.'

@@ -1,0 +1,74 @@
+id: uralter-gruner-drache
+type: monster
+name: Uralter grüner Drache
+lang: de
+groesse: Gigantisch
+typ: Drache (chromatisch)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 21
+initiative: '+15'
+initiative_wert: 25
+tp: 402
+tp_formel: 23W20+161
+bewegungsrate: 12 m, Fliegen 24 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 27
+    mod: '+8'
+    rw: '+8'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+8'
+  kon:
+    wert: 25
+    mod: '+7'
+    rw: '+7'
+  int:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  wei:
+    wert: 17
+    mod: '+3'
+    rw: '+10'
+  cha:
+    wert: 22
+    mod: '+6'
+    rw: '+6'
+fertigkeiten: Heimlichkeit +8, Täuschen +13,
+immunitaeten: Gift; Vergiftet
+sinne: Blindsicht 18 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 22
+ep: 41000
+ub: '+7'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Drache kann Luft und Wasser atmen.
+- name: 'Legendäre Resistenz (4-mal täglich, im Hort 5-mal täglich):'
+  beschreibung: Wenn der Drache bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus. Er kann einen Angriff durch einen Einsatz von Zauberwirken
+    ersetzen, um den Zauber Gedankendorn (Version des 5. Grades) zu wirken.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +15, Reichweite 4,5 m. Treffer: 17 (2W8+8) Hiebschaden plus 10 (3W6) Giftschaden.'
+- name: 'Giftodem (Aufladung 5–6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 22; jede Kreatur in einem Kegel von 27 Metern.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Drache wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 21): Beliebig oft: Gedankendorn (Version des 5. Grades), Magie entdecken Je 1-mal
+    täglich: Erinnerung verändern , Geas'
+aktionen_intro: 'Misserfolg: 77 (22W6) Giftschaden. Erfolg: Halber Schaden.'
+legendaere_aktionen:
+- name: 'Anspringen:'
+  beschreibung: Der Drache legt bis zur Hälfte seiner Bewegungsrate zurück und führt einen Zerfetzen- Angriff aus.
+- name: 'Gedankeninvasion:'
+  beschreibung: Der Drache setzt Zauberwirken ein, um den Zauber Gedankendorn (Version des 5. Grades) zu wirken.
+- name: 'Vergiftendes Miasma:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 21; jede Kreatur in einer Kugel mit einem Radius von neun Metern um einen Punkt
+    im Abstand von bis zu 27 Metern vom Drachen, den er sehen kann. Misserfolg: 17 (5W6) Giftschaden, und das Ziel erhält
+    bis zum Ende seines nächsten Zugs einen Malus von −2 auf seine RK. Erfolg oder Misserfolg: Der Drache kann diese Aktion
+    erst nach Beginn seines nächsten Zugs erneut ausführen.'

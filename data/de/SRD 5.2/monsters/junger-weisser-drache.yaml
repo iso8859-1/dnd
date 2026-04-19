@@ -1,0 +1,56 @@
+id: junger-weisser-drache
+type: monster
+name: Junger weißer Drache
+lang: de
+groesse: Groß
+typ: Drache (chromatisch)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+3'
+initiative_wert: 13
+tp: 123
+tp_formel: 13W10+52
+bewegungsrate: 12 m, Fliegen 24 m, Graben 6 m,
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+3'
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 6
+    mod: −2
+    rw: '2'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+3'
+  cha:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+fertigkeiten: Heimlichkeit +3, Wahrnehmung +6
+immunitaeten: Kälte
+sinne: Blindsicht 9 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 6
+merkmale:
+- name: 'Eisschritt:'
+  beschreibung: Der Drache kann sich über vereiste Flächen bewegen und sie erklimmen, ohne einen Attributswurf ausführen zu
+    müssen. Außerdem kostet ihn schwieriges Gelände, das aus Eis oder Schnee besteht, keine zusätzliche Bewegung.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 9 (2W4+4) Hiebschaden plus 2 (1W4) Kälteschaden.'
+- name: 'Kälteodem (Aufladung 5–6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 15; jede Kreatur in einem Kegel von neun Metern. Misserfolg: 40 (9W8) Kälteschaden.
+    Erfolg: Halber Schaden.'

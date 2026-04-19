@@ -1,0 +1,64 @@
+id: doppelganger
+type: monster
+name: Doppelgänger
+lang: de
+groesse: Mittelgroß
+typ: Monstrosität
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+4'
+initiative_wert: 14
+tp: 52
+tp_formel: 8W8+16
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Motiv erkennen +3, Täuschen +6
+immunitaeten: Bezaubert
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 11
+sprachen: Gemeinsprache und drei weitere Sprachen
+hg: 3
+ep: 700
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Doppelgänger führt zwei Hiebangriffe aus und setzt Verstörendes Antlitz ein, sofern verfügbar.
+- name: 'Hieb:'
+  beschreibung: 'Nahkampfangriffswurf: +6 (in der ersten Runde jedes Kampfs im Vorteil), Reichweite 1,5 m. Treffer: 11 (2W6+4)
+    Wuchtschaden.'
+- name: 'Gedanken lesen:'
+  beschreibung: Der Doppelgänger wirkt den Zauber Gedanken wahrnehmen mit Charisma als Attribut zum Zauberwirken, ohne Zauberkomponenten
+    zu benötigen (Zauberrettungswurf-SG 12).
+- name: 'Verstörendes Antlitz (Aufladung 6):'
+  beschreibung: 'Weisheitsrettungs wurf: SG 12; jede Kreatur, die den Doppelgänger sehen kann und sich in einer Ausströmung
+    von 4,5 Metern befindet, die vom Doppelgänger ausgeht. Misserfolg: Das Ziel ist verängstigt und wiederholt den Rettungswurf
+    am Ende jedes seiner Züge. Bei einem Erfolg endet der Effekt bei ihm. Nach einer Minute besteht es den Rettungswurf automatisch.'
+bonusaktionen:
+- name: 'Gestaltwandeln:'
+  beschreibung: Der Doppelgänger nimmt die Gestalt eines Humanoiden von höchstens mittelgroßer Größe oder wieder seine wahre
+    Gestalt an. Seine Spielwerte sind abgesehen von der Größe in jeder Gestalt gleich. Ausrüstung, die er trägt oder hält,
+    wird nicht verwandelt.

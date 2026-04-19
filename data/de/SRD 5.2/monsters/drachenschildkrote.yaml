@@ -1,0 +1,60 @@
+id: drachenschildkrote
+type: monster
+name: Drachenschildkröte
+lang: de
+groesse: Gigantisch
+typ: Drache
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 20
+initiative: '+6'
+initiative_wert: 16
+tp: 356
+tp_formel: 23W20+115
+bewegungsrate: 6 m, Schwimmen 15 m
+attribute:
+  sta:
+    wert: 25
+    mod: '+7'
+    rw: '+7'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 20
+    mod: '+5'
+    rw: '+11'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+7'
+  cha:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+resistenzen: Feuer
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 11
+sprachen: Drakonisch, Urtümlich (Aqual)
+hg: 17
+ep: 18000
+ub: '+6'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Drache kann Luft und Wasser atmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Bissangriffe aus. Er kann einen Angriff durch einen Schwanzangriff ersetzen.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +13, Reichweite 4,5 m. Treffer: 23 (3W10+7) Stichschaden plus 7 (2W6) Feuerschaden.
+    Unter Wasser zu sein gewährt keine Resistenz gegen diesen Feuerschaden.'
+- name: 'Schwanz:'
+  beschreibung: 'Nahkampfangriffswurf: +13, Reichweite 4,5 m. Treffer: 18 (2W10+7) Wuchtschaden. Wenn das Ziel eine Kreatur
+    von höchstens riesiger Größe ist, wird es umgestoßen und hat den Zustand Liegend.'
+- name: 'Dampfodem (Aufladung 5–6):'
+  beschreibung: 'Konstitutions rettungs wurf: SG 19; jede Kreatur in einem Kegel von 18 Metern. Misserfolg: 56 (16W6) Feuerschaden.
+    Erfolg: Halber Schaden. Erfolg oder Misserfolg: Unter Wasser zu sein gewährt keine Resistenz gegen diesen Feuerschaden.'

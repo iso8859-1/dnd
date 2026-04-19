@@ -1,0 +1,82 @@
+id: uralter-golddrache
+type: monster
+name: Uralter Golddrache
+lang: de
+groesse: Gigantisch
+typ: Drache (metallisch)
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 22
+initiative: '+16'
+initiative_wert: 26
+tp: 546
+tp_formel: 28W20+252
+bewegungsrate: 12 m, Fliegen 24 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 30
+    mod: '+10'
+    rw: '+10'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+9'
+  kon:
+    wert: 29
+    mod: '+9'
+    rw: '+9'
+  int:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  wei:
+    wert: 17
+    mod: '+3'
+    rw: '+10'
+  cha:
+    wert: 28
+    mod: '+9'
+    rw: '+9'
+fertigkeiten: Heimlichkeit +9, Motiv erkennen +10,
+immunitaeten: Feuer
+sinne: Blindsicht 18 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 24
+ep: 62000
+ub: '+7'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Drache kann Luft und Wasser atmen.
+- name: 'Legendäre Resistenz (4-mal täglich, im Hort 5-mal täglich):'
+  beschreibung: Wenn der Drache bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus. Er kann einen Angriff durch einen Einsatz von (A) Zauberwirken
+    ersetzen, um den Zauber Lenkendes Geschoss (Version des 4. Grades) zu wirken, oder (B) Schwächender Odem ersetzen.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +17 auf Treffer, Reichweite 4,5 m. Treffer: 19 (2W8+10) Hiebschaden plus 9 (2W8) Feuerschaden.'
+- name: 'Feuerodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungs wurf: SG 24; jede Kreatur in einem Kegel von 27 Metern. Misserfolg: 71 (13W10)
+    Feuerschaden. Erfolg: Halber Schaden.'
+- name: 'Schwächender Odem:'
+  beschreibung: 'Stärkerettungswurf: SG 24; jede Kreatur in einem Kegel von 27 Metern, die derzeit nicht von diesem Odem betroffen
+    ist. Misserfolg: Das Ziel ist bei W20-Prüfungen, die auf Stärke basieren, im Nachteil, und es zieht 5 (1W10) von seinen
+    Schadenswürfen ab. Es wiederholt den Rettungswurf am Ende jedes seiner Züge. Bei einem Erfolg endet der Effekt bei ihm.
+    Nach einer Minute besteht es den Rettungswurf automatisch.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Drache wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 24, +16 auf Treffer mit Zauberangriffen): Beliebig oft: Gestaltwandel (nur in Tier-
+    oder humanoider Gestalt; durch den Zauber werden keine temporären Trefferpunkte erhalten, und zum Aufrechterhalten des
+    Zaubers sind weder Konzentration noch temporäre Trefferpunkte erforderlich), Lenkendes Geschoss (Version des 4. Grades),
+    Magie entdecken Je 1-mal täglich: Flammenschlag (Version des 6. Grades), Wort des Rückrufs , Zone der Wahrheit'
+legendaere_aktionen:
+- name: 'Anspringen:'
+  beschreibung: Der Drache legt bis zur Hälfte seiner Bewegungsrate zurück und führt einen Zerfetzen- Angriff aus.
+- name: 'Lenkendes Licht:'
+  beschreibung: Der Drache setzt Zauberwirken ein, um den Zauber Lenkendes Geschoss (Version des 4. Grades) zu wirken.
+- name: 'Verbannen:'
+  beschreibung: 'Charismarettungswurf: SG 24; eine Kreatur im Abstand von bis zu 36 Metern, die der Drache sehen kann. Misserfolg:
+    24 (7W6) Energieschaden, und das Ziel ist kampfunfähig und gelangt auf eine harmlose Halbebene, wo es bis zum Beginn des
+    nächsten Zugs des Drachen verbleibt. Dann erscheint es in einem freien Bereich nach Wahl des Drachen im Abstand von bis
+    zu 36 Metern vom Drachen. Erfolg oder Misserfolg: Der Drache kann diese Aktion erst nach Beginn seines nächsten Zugs erneut
+    ausführen.'

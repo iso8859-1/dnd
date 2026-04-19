@@ -1,0 +1,51 @@
+id: panther
+type: monster
+name: Panther
+lang: de
+groesse: Mittelgroß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 13
+tp_formel: 3W8
+bewegungsrate: 15 m, Klettern 12 m
+attribute:
+  sta:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Heimlichkeit +7, Wahrnehmung +4
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
+sprachen: −
+hg: 1/4
+ep: 50
+ub: '+2'
+aktionen:
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 6 (1W6+3) Hiebschaden.'
+bonusaktionen:
+- name: 'Behändes Entkommen:'
+  beschreibung: Der Panther führt die Rückzug- oder die Verstecken-Aktion aus.

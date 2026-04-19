@@ -1,0 +1,60 @@
+id: oktopus
+type: monster
+name: Oktopus
+lang: de
+groesse: Klein
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 3
+tp_formel: 1W6
+bewegungsrate: 1,5 m, Schwimmen 9 m
+attribute:
+  sta:
+    wert: 4
+    mod: −3
+    rw: −3
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 4
+    mod: −3
+    rw: −3
+fertigkeiten: Heimlichkeit +6, Wahrnehmung +2
+sinne: Dunkelsicht 9 m; Passive Wahrnehmung 12
+sprachen: −
+hg: 0
+ep: 10
+ub: '+2'
+merkmale:
+- name: 'Kompression:'
+  beschreibung: Der Oktopus kann sich durch enge Bereiche von nur 2,5 Zentimetern Durchmesser bewegen, ohne zusätzliche Bewegung
+    aufzuwenden.
+- name: 'Wasser atmen:'
+  beschreibung: Der Oktopus kann nur unter Wasser atmen.
+aktionen:
+- name: 'Tentakel:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 1 Wuchtschaden.'
+reaktionen:
+- name: 'Tintenwolke (1-mal täglich):'
+  beschreibung: 'Auslöser: Eine Kreatur beendet ihren Zug unter Wasser im Abstand von bis zu 1,5 Metern vom Oktopus. Antwort:
+    Der Oktopus stößt Tinte in einem Würfel von 1,5 Metern Kantenlänge um sich selbst aus und legt dann eine Strecke von bis
+    zu seiner Schwimmbewegungsrate zurück. Der Würfel ist ein komplett verschleierter Bereich, bis eine Minute vergangen ist
+    oder bis eine starke Strömung oder ein ähnlicher Effekt die Tinte verwirbelt.'

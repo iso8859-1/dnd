@@ -1,0 +1,62 @@
+id: magier
+type: monster
+name: Magier
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide (Magier)
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+2'
+initiative_wert: 12
+tp: 81
+tp_formel: 18W8
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 9
+    mod: −1
+    rw: −1
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 17
+    mod: '+3'
+    rw: '+6'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+4'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Arkane Kunde +6, Geschichte +6,
+ausruestung: Zauberstab
+sinne: Passive Wahrnehmung 14
+sprachen: Gemeinsprache und drei weitere Sprachen
+hg: 6
+ep: 2300
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Erzmagier führt drei Arkane- Explosion-Angriffe aus.
+- name: 'Arkane Explosion:'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +6, Reichweite 1,5 m oder Reichweite 36 m. Treffer: 16 (3W8+3) Energieschaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Magier wirkt einen der folgenden Zauber mit Intelligenz als Attribut zum Zauberwirken (Zauberrettungswurf-SG
+    14): Beliebig oft: Licht , Magie entdecken , Magierhand , Magierrüstung (in RK enthalten), Taschenspielerei Je 2-mal täglich:
+    Feuerball (Version des 4. Grades), Unsichtbarkeit Je 1-mal täglich: Fliegen , Kältekegel'
+bonusaktionen:
+- name: 'Nebelschritt (3-mal täglich):'
+  beschreibung: Der Magier wirkt den Zauber Nebelschritt . Sein Attribut zum Zauberwirken ist dasselbe wie beim Ausführen
+    der Zauberwirken-Aktion.
+reaktionen:
+- name: 'Schutzmagie (3-mal täglich):'
+  beschreibung: Der Magier wirkt einen der Zauber Gegenzauber oder Schild als Antwort auf den Auslöser des Zaubers. Sein Attribut
+    zum Zauberwirken ist dasselbe wie beim Ausführen der Zauberwirken-Aktion.

@@ -1,0 +1,62 @@
+id: werratte
+type: monster
+name: Werratte
+lang: de
+typ: Kleine oder mittelgroße Monstrosität (Lykanthrop)
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 60
+tp_formel: 11W8+11
+bewegungsrate: 9 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 8
+    mod: −1
+    rw: −1
+fertigkeiten: Heimlichkeit +5, Wahrnehmung +4
+ausruestung: Handarmbrust
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
+sprachen: Gemeinsprache (kann in Rattengestalt nicht
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Werratte führt zwei Kratzen- oder Handarmbrust-Angriffe in beliebiger Kombination aus. Sie kann einen
+    Angriff durch einen Bissangriff ersetzen.
+- name: 'Biss (nur Ratten- oder hybride Gestalt):'
+  beschreibung: 'Nahkampf angriffswurf: +5, Reichweite 1,5 m. Treffer: 8 (2W4+3) Stichschaden. Wenn das Ziel ein Humanoide
+    ist, erleidet es den folgenden Effekt: Konstitutionsrettungswurf: SG 11. Misserfolg: Das Ziel wird verflucht. Wenn die
+    Treffer- punkte des verfluchten Ziels auf 0 sinken, wird es stattdessen zu einer Werratte unter der Kontrolle des SL und
+    hat 10 Trefferpunkte. Erfolg: Das Ziel ist 24 Stunden lang gegen den Fluch dieser Werratte immun.'
+- name: 'Kratzen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 6 (1W6+3) Hiebschaden.'
+- name: 'Handarmbrust (nur humanoide oder hybride Gestalt):'
+  beschreibung: 'Fernkampfangriffswurf: +5, Reichweite 9/36 m. Treffer: 6 (1W6+3) Stichschaden.'
+bonusaktionen:
+- name: 'Gestaltwandeln:'
+  beschreibung: Die Werratte nimmt die Gestalt eines mittelgroßen Ratte-Humanoiden-Hybriden, einer kleinen Ratte oder wieder
+    ihre wahre humanoide Gestalt an. Ihre Spielwerte sind abgesehen von der Größe in jeder Gestalt gleich. Ausrüstung, die
+    sie trägt oder hält, wird nicht verwandelt.

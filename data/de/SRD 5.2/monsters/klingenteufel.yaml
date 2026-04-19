@@ -1,0 +1,68 @@
+id: klingenteufel
+type: monster
+name: Klingenteufel
+lang: de
+groesse: Mittelgroß
+typ: Unhold (Teufel)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+3'
+initiative_wert: 13
+tp: 110
+tp_formel: 13W8+52
+bewegungsrate: 9 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+6'
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+7'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+5'
+  cha:
+    wert: 14
+    mod: '+2'
+    rw: '+5'
+fertigkeiten: Motiv erkennen +5, Täuschen +5,
+immunitaeten: Feuer, Gift; Vergiftet
+resistenzen: Kälte
+sinne: Dunkelsicht 36 m (wird nicht durch magische
+sprachen: Infernalisch; Telepathie auf 36 m
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Diabolische Genesung:'
+  beschreibung: Wenn der Teufel außerhalb der Neun Höllen stirbt, löst sein Körper sich in Schwefeldampf auf. Der Teufel erhält
+    sofort einen neuen Körper, der mit allen Trefferpunkten irgendwo in den Neun Höllen aufersteht.
+- name: 'Klingenhaut:'
+  beschreibung: Der Teufel fügt zu Beginn jedes seiner Züge jeder Kreatur, die er gepackt hält oder die ihn gepackt hält,
+    5 (1W10) Stichschaden zu.
+- name: 'Magieresistenz:'
+  beschreibung: Der Teufel ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Teufel führt einen Klauenangriff und einen Schwanzangriff aus, oder er führt zwei Flamme-schleudern-Angriffe
+    aus.
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 10 (2W6+3) Stichschaden. Wenn das Ziel eine Kreatur
+    von höchstens großer Größe ist, wird es von beiden Klauen gepackt (Flucht-SG 13).'
+- name: 'Schwanz:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 3 m. Treffer: 14 (2W10+3) Hiebschaden.'
+- name: 'Flamme schleudern:'
+  beschreibung: 'Fernkampfangriffswurf: +5, Reichweite 45 m. Treffer: 17 (5W6) Feuerschaden. Wenn das Ziel ein brennbarer
+    Gegenstand ist, der nicht getragen oder gehalten wird, fängt es Feuer.'

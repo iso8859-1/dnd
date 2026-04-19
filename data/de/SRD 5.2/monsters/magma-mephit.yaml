@@ -1,0 +1,57 @@
+id: magma-mephit
+type: monster
+name: Magma-Mephit
+lang: de
+groesse: Klein
+typ: Elementar
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 11
+initiative: '+1'
+initiative_wert: 11
+tp: 18
+tp_formel: 4W6+4
+bewegungsrate: 9 m, Fliegen 9 m
+attribute:
+  sta:
+    wert: 8
+    mod: −1
+    rw: −1
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 7
+    mod: −2
+    rw: −2
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heimlichkeit +3
+immunitaeten: Feuer, Gift; Erschöpft, Vergiftet
+anfaelligkeiten: Kälte
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: Urtümlich (Ignal, Terral)
+hg: 1/2
+ep: 100
+ub: '+2'
+merkmale:
+- name: 'Todesexplosion:'
+  beschreibung: 'Der Mephit explodiert, wenn er stirbt. Geschicklichkeitsrettungswurf: SG 11; jede Kreatur in einer Ausströmung
+    von 1,5 Metern, die vom Mephiten ausgeht. Misserfolg: 7 (2W6) Feuerschaden. Erfolg: Halber Schaden.'
+aktionen:
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +3, Reichweite 1,5 m. Treffer: 3 (1W4+1) Hiebschaden plus 3 (1W6) Feuerschaden.'
+- name: 'Feuerodem (Aufladung 6):'
+  beschreibung: 'Geschicklichkeits rettungswurf: SG 11; jede Kreatur in einem Kegel von 4,5 Metern. Misserfolg: 7 (2W6) Feuerschaden.
+    Erfolg: Halber Schaden.'

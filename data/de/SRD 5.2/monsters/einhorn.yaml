@@ -1,0 +1,72 @@
+id: einhorn
+type: monster
+name: Einhorn
+lang: de
+typ: Großes celestisches Wesen
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+8'
+initiative_wert: 18
+tp: 97
+tp_formel: 13W10+26
+bewegungsrate: 15 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  cha:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+immunitaeten: Gift; Bezaubert, Gelähmt, Vergiftet
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 13
+sprachen: Celestisch, Elfisch, Sylvanisch; Telepathie auf 36 m
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Legendäre Resistenz (3-mal täglich):'
+  beschreibung: Wenn das Einhorn bei einem Rettungswurf scheitert, kann es beschließen, ihn stattdessen zu bestehen.
+- name: 'Magieresistenz:'
+  beschreibung: Das Einhorn ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Das Einhorn führt einen Gleißendes- Horn-Angriff und einen Hufeangriff aus.
+- name: 'Gleißendes Horn:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 9 (1W10+4) gleißender Schaden.'
+- name: 'Hufe:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 11 (2W6+4) Wuchtschaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Das Einhorn wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Zauberkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 14): Beliebig oft: Druidenkunst , Gutes und Böses entdecken Je 1-mal täglich: Gefühle
+    besänftigen , Gutes und Böses bannen , Spurloses Gehen , Verstricken , Wort des Rückrufs'
+bonusaktionen:
+- name: 'Segen des Einhorns (3-mal täglich):'
+  beschreibung: Das Einhorn berührt eine andere Kreatur mit seinem Horn und wirkt einen der Zauber Schwache Genesung oder
+    Wunden heilen auf diese Kreatur. Sein Attribut zum Zauberwirken ist dasselbe wie beim Ausführen der Zauberwirken-Aktion.
+legendaere_aktionen:
+- name: 'Schimmernder Schild:'
+  beschreibung: Das Einhorn zielt auf eine Kreatur im Abstand von bis zu 18 Metern von sich, die es sehen kann. Das Ziel erhält
+    bis zum Ende des nächsten Zugs des Einhorns 10 (3W6) temporäre Trefferpunkte und einen Bonus von +2 auf seine RK. Das
+    Einhorn kann diese Aktion erst nach Beginn seines nächsten Zugs erneut ausführen.
+- name: 'Stürmendes Horn:'
+  beschreibung: Das Einhorn nutzt bis zur Hälfte seiner Bewegungsrate, ohne Gelegenheitsangriffe zu provozieren, und führt
+    einen Gleißendes-Horn-Angriff aus.

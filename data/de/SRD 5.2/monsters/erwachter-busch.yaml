@@ -1,0 +1,48 @@
+id: erwachter-busch
+type: monster
+name: Erwachter Busch
+lang: de
+groesse: Klein
+typ: Pflanze
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 9
+initiative: −1 (9)
+tp: 10
+tp_formel: 3W6
+bewegungsrate: 6 m
+attribute:
+  sta:
+    wert: 3
+    mod: −4
+    rw: −4
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+resistenzen: Stich
+anfaelligkeiten: Feuer
+sinne: Passive Wahrnehmung 10
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 0
+ep: 10
+ub: '+2'
+aktionen:
+- name: 'Harken:'
+  beschreibung: 'Nahkampfangriffswurf: +1, Reichweite 1,5 m. Treffer: 1 Hiebschaden.'

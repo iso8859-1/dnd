@@ -1,0 +1,74 @@
+id: sphinx-des-wissens
+type: monster
+name: Sphinx des Wissens
+lang: de
+typ: Großes celestisches Wesen
+gesinnung: rechtschaffen neutral
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+10'
+initiative_wert: 20
+tp: 170
+tp_formel: 20W10+60
+bewegungsrate: 12 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  wei:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  cha:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+fertigkeiten: Arkane Kunde +12, Geschichte +12,
+immunitaeten: Psychisch; Bezaubert, Verängstigt
+resistenzen: Gleißend, Nekrotisch
+sinne: Wahrer Blick 36 m; Passive Wahrnehmung 18
+sprachen: Celestisch, Gemeinsprache
+hg: 11
+ep: 7200
+ub: '+4'
+merkmale:
+- name: 'Legendäre Resistenz (3-mal täglich, im Hort 4-mal täglich):'
+  beschreibung: Wenn die Sphinx bei einem Rettungswurf scheitert, kann sie beschließen, ihn stattdessen zu bestehen.
+- name: 'Undurchschaubar:'
+  beschreibung: Ohne ihre Erlaubnis kann keine Magie die Sphinx aus der Ferne beobachten oder ihre Gedanken erkennen. Weisheitswürfe
+    (Motiv erkennen) zum Ermitteln ihrer Absichten oder ihrer Aufrichtigkeit sind im Nachteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Sphinx führt drei Klauenangriffe aus.
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reichweite 1,5 m. Treffer: 14 (3W6+4) Hiebschaden.'
+- name: 'Verstand zerfetzendes Brüllen (Aufladung 5–6):'
+  beschreibung: 'Weisheitsrettungswurf: SG 16; jeder Gegner in einer Ausströmung von 90 Metern, die von der Sphinx ausgeht.
+    Misserfolg: 35 (10W6) psychischer Schaden, und das Ziel ist bis zum Beginn des nächsten Zugs der Sphinx kampfunfähig.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Die Sphinx wirkt einen der folgenden Zauber mit Intelligenz als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 16): Beliebig oft: Einfache Illusion , Identifizieren , Magie entdecken , Magierhand
+    , Taschenspielerei Je 1-mal täglich: Ebenenwechsel , Fluch brechen , Gegenstand aufspüren , Magie bannen , Sagenkunde
+    , Zungen'
+legendaere_aktionen:
+- name: 'Arkanes Umherstreifen:'
+  beschreibung: Die Sphinx kann sich bis zu neun Meter weit in einen freien Bereich teleportieren, den sie sehen kann, und
+    dort einen Klauenangriff ausführen.
+- name: 'Gewicht der Jahre:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 16; eine Kreatur im Abstand von bis zu 36 Metern von der Sphinx, die von der
+    Sphinx gesehen werden kann. Misserfolg: Das Ziel erhält eine Erschöpfungsstufe. Solange das Ziel Erschöpfungsstufen hat,
+    erscheint es 3W10 Jahre älter. Erfolg oder Misserfolg: Die Sphinx kann diese Aktion erst nach Beginn ihres nächsten Zugs
+    erneut ausführen.'

@@ -1,0 +1,70 @@
+id: kettenteufel
+type: monster
+name: Kettenteufel
+lang: de
+groesse: Mittelgroß
+typ: Unhold (Teufel)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+5'
+initiative_wert: 15
+tp: 85
+tp_formel: 10W8+40
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+7'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+4'
+  cha:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+immunitaeten: Feuer, Gift; Vergiftet
+resistenzen: Hieb, Kälte, Stich, Wucht
+sinne: Dunkelsicht 36 m (wird nicht durch magische
+sprachen: Infernalisch; Telepathie auf 36 m
+hg: 8
+ep: 3900
+ub: '+3'
+merkmale:
+- name: 'Diabolische Genesung:'
+  beschreibung: Wenn der Teufel außerhalb der Neun Höllen stirbt, löst sein Körper sich in Schwefeldampf auf. Der Teufel erhält
+    sofort einen neuen Körper, der mit allen Trefferpunkten irgendwo in den Neun Höllen aufersteht.
+- name: 'Magieresistenz:'
+  beschreibung: Der Teufel ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Teufel führt zwei Kettenangriffe aus und setzt Infernalische Kette beschwören ein.
+- name: 'Kette:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 11 (2W6+4) Hiebschaden. Wenn das Ziel eine Kreatur von
+    höchstens großer Größe ist, wird es von einer der beiden Ketten gepackt (Flucht-SG 14). Solange es gepackt bleibt, ist
+    es außerdem festgesetzt.'
+- name: 'Infernalische Kette beschwören:'
+  beschreibung: 'Der Teufel beschwört eine feurige Kette, um eine Kreatur zu fesseln. Geschicklichkeitsrettungswurf: SG 15;
+    eine Kreatur im Abstand von bis zu 18 Metern vom Teufel, die er sehen kann. Misserfolg: 9 (2W4+4) Feuerschaden, und das
+    Ziel ist bis zum Ende des nächsten Zugs des Teufels festgesetzt. Dann verschwindet die Kette. Wenn das Ziel von höchstens
+    großer Größe ist, zieht der Teufel es bis zu neun Meter weit in gerader Linie auf sich zu. Erfolg: Die Kette verschwindet.'
+reaktionen:
+- name: 'Entnervender Blick:'
+  beschreibung: 'Auslöser: Eine Kreatur, die der Teufel sehen kann, beginnt ihren Zug im Abstand von bis zu neun Metern vom
+    Teufel und kann den Teufel sehen. Antwort – Weisheitsrettungswurf: SG 15; die auslösende Kreatur. Misserfolg: Das Ziel
+    ist bis zum Ende seines Zugs verängstigt. Erfolg: Das Ziel ist 24 Stunden lang gegen den Entnervenden Blick dieses Teufels
+    immun.'

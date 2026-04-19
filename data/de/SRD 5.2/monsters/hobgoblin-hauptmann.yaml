@@ -1,0 +1,56 @@
+id: hobgoblin-hauptmann
+type: monster
+name: Hobgoblin-Hauptmann
+lang: de
+groesse: Mittelgroß
+typ: Feenwesen (Goblinoide)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+4'
+initiative_wert: 14
+tp: 58
+tp_formel: 9W8+18
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+ausruestung: Langbogen, Plattenpanzer, Zweihandschwert
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: Gemeinsprache, Goblinisch
+hg: 3
+ep: 700
+ub: '+2'
+merkmale:
+- name: 'Aura der Autorität:'
+  beschreibung: In einer Ausströmung von drei Metern, die vom Hobgoblin ausgeht, sind der Hobgoblin und seine Verbündeten
+    bei Angriffswürfen und Rettungswürfen im Vorteil, solange der Hobgoblin nicht kampfunfähig ist.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Hobgoblin führt zwei Angriffe mit Zweihandschwert oder Langbogen in beliebiger Kombination aus.
+- name: 'Zweihandschwert:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 9 (2W6+2) Hiebschaden plus 3 (1W6) Giftschaden.'
+- name: 'Langbogen:'
+  beschreibung: 'Fernkampfangriffswurf: +4, Reichweite 45/180 m. Treffer: 6 (1W8+2) Stichschaden plus 5 (2W4) Giftschaden.'

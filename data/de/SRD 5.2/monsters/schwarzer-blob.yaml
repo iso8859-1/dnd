@@ -1,0 +1,68 @@
+id: schwarzer-blob
+type: monster
+name: Schwarzer Blob
+lang: de
+groesse: Groß
+typ: Schlick
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 7
+initiative: −3 (7)
+tp: 68
+tp_formel: 8W10+24
+bewegungsrate: 6 m, Klettern 6 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 5
+    mod: −3
+    rw: −3
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 6
+    mod: −2
+    rw: −2
+  cha:
+    wert: 1
+    mod: −5
+    rw: −5
+immunitaeten: Blitz, Hieb, Kälte, Säure; Bezaubert,
+sinne: Blindsicht 18 m; Passive Wahrnehmung 8
+sprachen: −
+hg: 4
+ep: 1100
+ub: '+2'
+merkmale:
+- name: 'Amorph:'
+  beschreibung: Der Blob kann sich durch enge Bereiche von nur 2,5 Zentimetern Durchmesser bewegen, ohne zusätzliche Bewegung
+    aufzuwenden.
+- name: 'Korrosive Form:'
+  beschreibung: Eine Kreatur, die den Blob mit einem Nahkampfangriffswurf trifft, erleidet 4 (1W8) Säureschaden. Nichtmagische
+    Geschosse werden zerstört, sobald sie den Blob getroffen und Schaden bewirkt haben. Jede nichtmagische Waffe erleidet
+    einen kumulativen Malus von −1 auf Angriffswürfe, sobald sie dem Blob Schaden zugefügt hat und in Kontakt mit ihm gekommen
+    ist. Wenn der Malus −5 erreicht, wird die Waffe zerstört. Der Malus kann aufgehoben werden, indem der Zauber Ausbessern
+    auf die Waffe gewirkt wird. Der Blob kann sich binnen einer Minute durch 60 Zentimeter starkes nichtmagisches Holz oder
+    Metall fressen.
+- name: 'Spinnenklettern:'
+  beschreibung: Der Blob kann ohne Attributswürfe schwierige Oberflächen erklimmen und sich an Decken entlang bewegen.
+aktionen:
+- name: 'Auflösender Scheinfuß:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 3 m. Treffer: 17 (4W6+3) Säureschaden. Nichtmagische Rüstung, die vom
+    Ziel getragen wird, erhält einen Malus von −1 auf die RK, die sie bietet. Die Rüstung wird zerstört, wenn der Malus ihre
+    RK auf 10 verringert. Der Malus kann aufgehoben werden, indem der Zauber Ausbessern auf die Rüstung gewirkt wird.'
+reaktionen:
+- name: 'Zerteilen:'
+  beschreibung: 'Auslöser: Der Blob ist von mittelgroßer oder großer Größe, hat mindestens 10 Trefferpunkte und wird blutig
+    oder erleidet Blitz- oder Hiebschaden. Antwort: Der Blob teilt sich in zwei neue schwarze Blobs auf. Jeder neue Blob ist
+    um eine Größenkategorie kleiner als der ursprüngliche Blob und handelt bei seiner Initiative. Die Trefferpunkte des ursprünglichen
+    Blobs werden gleichmäßig auf die neuen Blobs verteilt (abgerundet).'

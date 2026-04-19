@@ -1,0 +1,48 @@
+id: kultist
+type: monster
+name: Kultist
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+1'
+initiative_wert: 11
+tp: 9
+tp_formel: 2W8
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+2'
+  cha:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Religion +2, Täuschen +2
+ausruestung: Lederrüstung, Sichel
+sinne: Passive Wahrnehmung 10
+sprachen: Gemeinsprache
+hg: 1/8
+ep: 25
+ub: '+2'
+aktionen:
+- name: 'Ritualsichel:'
+  beschreibung: 'Nahkampfangriffswurf: +3, Reichweite 1,5 m. Treffer: 3 (1W4+1) Hiebschaden plus 1 nekrotischer Schaden.'

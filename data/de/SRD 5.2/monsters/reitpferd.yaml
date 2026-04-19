@@ -1,0 +1,47 @@
+id: reitpferd
+type: monster
+name: Reitpferd
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 11
+initiative: '+1'
+initiative_wert: 11
+tp: 13
+tp_formel: 2W10+2
+bewegungsrate: 18 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+sinne: Passive Wahrnehmung 10
+sprachen: −
+hg: 1/4
+ep: 50
+ub: '+2'
+aktionen:
+- name: 'Hufe:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 7 (1W8+3) Wuchtschaden.'

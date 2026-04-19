@@ -1,0 +1,72 @@
+id: ausgewachsener-blauer-drache
+type: monster
+name: Ausgewachsener blauer Drache
+lang: de
+groesse: Riesig
+typ: Drache (chromatisch)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 19
+initiative: '+10'
+initiative_wert: 20
+tp: 212
+tp_formel: 17W12+102
+bewegungsrate: 12 m, Fliegen 24 m, Graben 9 m
+attribute:
+  sta:
+    wert: 25
+    mod: '+7'
+    rw: '+7'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+5'
+  kon:
+    wert: 23
+    mod: '+6'
+    rw: '+6'
+  int:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+7'
+  cha:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+fertigkeiten: Heimlichkeit +5, Wahrnehmung +12
+immunitaeten: Blitz
+sinne: Blindsicht 18 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 16
+ep: 15000
+ub: '+5'
+merkmale:
+- name: 'Legendäre Resistenz (3-mal täglich, im Hort 4-mal täglich):'
+  beschreibung: Wenn der Drache bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus. Er kann einen Angriff durch einen Einsatz von Zauberwirken
+    ersetzen, um den Zauber Zerbersten zu wirken.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +12, Reichweite 3 m. Treffer: 16 (2W8+7) Hiebschaden plus 5 (1W10) Blitzschaden.'
+- name: 'Blitzodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeitsrettungs wurf: SG 19; jede Kreatur in einer 27 Meter langen, 1,5 Meter breiten Linie. Misserfolg:
+    60 (11W10) Blitzschaden. Erfolg: Halber Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Drache wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 18): Beliebig oft: Magie entdecken , Magierhand , Unsichtbarkeit , Zerbersten Je
+    1-mal täglich: Ausspähung , Verständigung'
+legendaere_aktionen:
+- name: 'Getarnter Flug:'
+  beschreibung: Der Drache setzt Zauberwirken ein, um den Zauber Unsichtbarkeit auf sich selbst zu wirken, und er kann bis
+    zur Hälfte seiner Flugbewegungsrate verwenden. Der Drache kann diese Aktion erst nach Beginn seines nächsten Zugs erneut
+    ausführen.
+- name: 'Schallknall:'
+  beschreibung: Der Drache setzt Zauberwirken ein, um den Zauber Zerbersten zu wirken. Der Drache kann diese Aktion erst nach
+    Beginn seines nächsten Zugs erneut ausführen.
+- name: 'Schwanzstreich:'
+  beschreibung: Der Drache führt einen Zerfetzen- Angriff aus.

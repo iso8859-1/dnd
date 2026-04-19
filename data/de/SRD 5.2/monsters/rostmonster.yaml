@@ -1,0 +1,66 @@
+id: rostmonster
+type: monster
+name: Rostmonster
+lang: de
+groesse: Mittelgroß
+typ: Monstrosität
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+1'
+initiative_wert: 11
+tp: 33
+tp_formel: 6W8+6
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 11
+sprachen: −
+hg: 1/2
+ep: 100
+ub: '+2'
+merkmale:
+- name: 'Eisenwitterung:'
+  beschreibung: Das Rostmonster kann eisenartiges Metall im Abstand von bis zu neun Metern von sich wittern und lokalisieren.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Das Rostmonster führt einen Bissangriff aus und setzt zweimal Antennen ein.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +3, Reichweite 1,5 m. Treffer: 5 (1W8+1) Stichschaden.'
+- name: 'Antennen:'
+  beschreibung: 'Das Rostmonster zielt auf einen nicht- magischen metallischen Gegenstand – eine Rüstung oder eine Waffe –
+    der von einer Kreatur im Abstand von bis zu 1,5 Metern von ihm getragen oder gehalten wird. Geschicklichkeitsrettungswurf:
+    SG 11; die Kreatur mit dem Gegenstand. Misserfolg: Der Gegenstand erhält einen Malus von −1 auf die RK, die er bietet
+    (Rüstung), oder auf Angriffswürfe, die mit ihm ausgeführt werden (Waffe). Eine Rüstung wird zerstört, wenn der Malus ihre
+    RK auf 10 verringert. Eine Waffe wird zerstört, wenn der Malus −5 erreicht. Der Malus kann aufgehoben werden, indem der
+    Zauber Ausbessern auf die Rüstung oder die Waffe gewirkt wird.'
+- name: 'Metall zerstören:'
+  beschreibung: Das Rostmonster berührt einen nichtmagischen metallischen Gegenstand im Abstand von bis zu 1,5 Metern von
+    sich, der weder getragen noch gehalten wird. Die Berührung zerstört einen Würfel von 30 Zentimetern Kantenlänge des Gegenstands.
+reaktionen:
+- name: 'Reflexive Antennen:'
+  beschreibung: 'Auslöser: Das Rostmonster wird von einem Angriffswurf getroffen. Antwort: Das Rostmonster setzt Antennen
+    ein.'

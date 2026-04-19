@@ -1,0 +1,94 @@
+id: tarraske
+type: monster
+name: Tarraske
+lang: de
+groesse: Gigantisch
+typ: Monstrosität (Titan)
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 25
+initiative: '+18'
+initiative_wert: 28
+tp: 697
+tp_formel: 34W20+340
+bewegungsrate: 18 m, Graben 12 m, Klettern 18 m
+attribute:
+  sta:
+    wert: 30
+    mod: '+10'
+    rw: '+10'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+9'
+  kon:
+    wert: 30
+    mod: '+10'
+    rw: '+10'
+  int:
+    wert: 3
+    mod: −4
+    rw: '+5'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+9'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+9'
+fertigkeiten: Wahrnehmung +9
+immunitaeten: Feuer, Gift; Bezaubert, Gelähmt, Taub,
+resistenzen: Hieb, Stich, Wucht
+sinne: Blindsicht 36 m; Passive Wahrnehmung 19
+sprachen: −
+hg: 30
+ep: 155000
+ub: '+9'
+merkmale:
+- name: 'Belagerungsmonster:'
+  beschreibung: Die Tarraske fügt Gegenständen und Gebäuden doppelten Schaden zu.
+- name: 'Legendäre Resistenz (6-mal täglich):'
+  beschreibung: Wenn die Tarraske bei einem Rettungswurf scheitert, kann sie beschließen, ihn stattdessen zu bestehen.
+- name: 'Magieresistenz:'
+  beschreibung: Die Tarraske ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+- name: 'Reflektierender Panzer:'
+  beschreibung: Wenn die Tarraske Ziel des Zaubers Magisches Geschoss oder eines Zaubers wird, der einen Fernkampfangriffswurf
+    erfordert, würfle mit 1W6. Bei einer 1–5 ist die Tarraske nicht betroffen. Bei einer 6 ist die Tarraske nicht betroffen
+    und wirft den Zauber zurück, sodass der Zauberwirker zum Ziel wird.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Tarraske führt einen Bissangriff oder drei andere Angriffe aus, wobei sie Klauen oder Schwanz in beliebiger
+    Kombination einsetzt.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +19, Reichweite 4,5 m. Treffer: 36 (4W12+10) Stichschaden, und das Ziel wird gepackt
+    (Flucht-SG 20). Das gepackte Ziel ist festgesetzt und kann sich nicht teleportieren.'
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +19, Reichweite 4,5 m. Treffer: 28 (4W8+10) Hiebschaden.'
+- name: 'Schwanz:'
+  beschreibung: 'Nahkampfangriffswurf: +19, Reichweite 9 m. Treffer: 23 (3W8+10) Wuchtschaden. Wenn das Ziel eine Kreatur
+    von höchstens riesiger Größe ist, wird es umgestoßen und hat den Zustand Liegend.'
+- name: 'Donnerndes Brüllen (Aufladung 5–6):'
+  beschreibung: 'Konstitutions rettungswurf: SG 27; alle Kreaturen sowie Gegenstände, die nicht getragen oder gehalten werden,
+    in einem Kegel von 45 Metern. Misserfolg: 78 (12W12) Schallschaden, und das Ziel ist bis zum Ende seines nächsten Zugs
+    taub und verängstigt. Erfolg: Nur halber Schaden.'
+bonusaktionen:
+- name: 'Verschlucken:'
+  beschreibung: 'Stärkerettungswurf: SG 27; eine Kreatur von höchstens großer Größe, die von der Tarraske gepackt wurde (die
+    Tarraske kann bis zu sechs Kreaturen verschlucken). Misserfolg: Das Ziel wird verschluckt und ist dann nicht mehr gepackt.
+    Eine verschluckte Kreatur ist blind und festgesetzt und kann nicht teleportieren. Sie hat vollständige Deckung gegen Angriffe
+    und andere Effekte von außerhalb der Tarraske und erleidet zu Beginn jedes Zugs der Tarraske 56 (16W6) Säureschaden. Erleidet
+    die Tarraske durch eine verschluckte Kreatur in einem einzigen Zug mindestens 60 Schaden, so muss sie am Ende des Zugs
+    einen SG-20-Konstitutions- rettungswurf bestehen, oder sie würgt alle verschluckten Kreaturen wieder aus. Diese fallen
+    in Bereiche im Abstand von bis zu drei Metern von der Tarraske und haben den Zustand Liegend. Wenn die Tarraske stirbt,
+    sind die verschluckten Kreaturen nicht mehr festgesetzt und können aus dem Kadaver entkommen. Sie verbrauchen dabei sechs
+    Meter Bewegung und haben danach den Zustand Liegend.'
+legendaere_aktionen:
+- name: 'Ansturm:'
+  beschreibung: Die Tarraske legt bis zur Hälfte ihrer Bewegungsrate zurück und führt einen Klauen- oder einen Schwanzangriff
+    aus.
+- name: 'Weltenerschütternde Bewegung:'
+  beschreibung: Die Tarraske nutzt ihre Bewegungsrate. Am Ende dieser Bewegung erzeugt die Tarraske in einer Ausströmung von
+    18 Metern, die von ihr ausgeht, eine unmittelbare Schockwelle. Kreaturen in diesem Bereich verlieren die Konzentration,
+    und Kreaturen von höchstens mittelgroßer Größe stürzen, sodass sie den Zustand Liegend haben. Die Tarraske kann diese
+    Aktion erst nach Beginn ihres nächsten Zugs erneut ausführen.

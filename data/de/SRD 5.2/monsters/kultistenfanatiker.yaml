@@ -1,0 +1,56 @@
+id: kultistenfanatiker
+type: monster
+name: Kultistenfanatiker
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+2'
+initiative_wert: 12
+tp: 44
+tp_formel: 8W8+8
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+4'
+  cha:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+fertigkeiten: Religion +2, Täuschen +3, Überzeugen +3
+ausruestung: Heiliges Symbol, Lederrüstung
+sinne: Passive Wahrnehmung 12
+sprachen: Gemeinsprache
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Paktklinge:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer : 6 (1W8+2) Hiebschaden plus 7 (2W6) nekrotischer Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Kultist wirkt einen der folgenden Zauber mit Weisheit als Attribut zum Zauberwirken (Zauberrettungswurf-SG
+    12, +4 auf Treffer mit Zauberangriffen): Beliebig oft: Licht , Thaumaturgie Je 2-mal täglich: Befehl Je 1-mal täglich:
+    Person festhalten'
+bonusaktionen:
+- name: 'Waffe des Glaubens (2-mal täglich):'
+  beschreibung: Der Kultist wirkt den Zauber Waffe des Glaubens . Sein Attribut zum Zauberwirken ist dasselbe wie beim Ausführen
+    der Zauberwirken-Aktion.

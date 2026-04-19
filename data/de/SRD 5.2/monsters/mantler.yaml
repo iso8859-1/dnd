@@ -1,0 +1,70 @@
+id: mantler
+type: monster
+name: Mantler
+lang: de
+groesse: Groß
+typ: Aberration
+gesinnung: chaotisch neutral
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+5'
+initiative_wert: 15
+tp: 91
+tp_formel: 14W10+14
+bewegungsrate: 3 m, Fliegen 12 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Heimlichkeit +5
+immunitaeten: Verängstigt
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 12
+sprachen: Gemeinsprache der Unterreiche, Tiefensprache
+hg: 8
+ep: 3900
+ub: '+3'
+merkmale:
+- name: 'Lichtempfindlich:'
+  beschreibung: Der Mantler ist in hellem Licht bei Angriffswürfen im Nachteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Mantler führt einen Anheften- Angriff und zwei Schwanzangriffe aus.
+- name: 'Anheften:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 13 (3W6+3) Stichschaden. Wenn das Ziel eine Kreatur
+    von höchstens großer Größe ist, heftet der Mantler sich an es an. Wenn der Mantler angeheftet ist, ist das Ziel blind,
+    und der Mantler kann keine Anheften- Angriffe gegen andere Ziele ausführen. Außerdem halbiert der Mantler jeden Schaden,
+    den er erleidet (abgerundet), und das Ziel erleidet die gleiche Menge an Schaden.'
+- name: 'Schwanz:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 3 m. Treffer: 8 (1W10+3) Hiebschaden.'
+aktionen_intro: Der Mantler kann sich lösen, indem er 1,5 Meter Bewegung verbraucht. Das Ziel oder eine Kreatur im Abstand
+  von bis zu 1,5 Metern von ihm kann eine Aktion ausführen und versuchen, den Mantler zu lösen. Dies gelingt mit einem erfolgreichen
+  SG-14-Stärkewurf (Athletik).
+bonusaktionen:
+- name: 'Phantome (Aufladung nach einer kurzen oder langen Rast):'
+  beschreibung: Der Mantler wirkt den Zauber Spiegelbilder mit Weisheit als Attribut zum Zauberwirken, ohne Zauberkomponenten
+    zu benötigen. Der Zauber endet vorzeitig, wenn der Mantler seinen Zug in hellem Licht beginnt oder beendet.
+- name: 'Stöhnen:'
+  beschreibung: 'Weisheitsrettungswurf: SG 13; jede Kreatur in einer Ausströmung von 18 Metern, die vom Mantler ausgeht. Misserfolg:
+    Das Ziel ist bis zum Ende des nächsten Zugs des Mantlers verängstigt. Erfolg: Das Ziel ist 24 Stunden lang gegen das Stöhnen
+    dieses Mantlers immun.'

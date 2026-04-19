@@ -1,0 +1,78 @@
+id: hollenschlundteufel
+type: monster
+name: Höllenschlundteufel
+lang: de
+groesse: Groß
+typ: Unhold (Teufel)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 21
+initiative: '+14'
+initiative_wert: 24
+tp: 337
+tp_formel: 27W10+189
+bewegungsrate: 9 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 26
+    mod: '+8'
+    rw: '+8'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+8'
+  kon:
+    wert: 24
+    mod: '+7'
+    rw: '+7'
+  int:
+    wert: 22
+    mod: '+6'
+    rw: '+6'
+  wei:
+    wert: 18
+    mod: '+4'
+    rw: '+10'
+  cha:
+    wert: 24
+    mod: '+7'
+    rw: '+7'
+fertigkeiten: Überzeugen +19, Wahrnehmung +10
+immunitaeten: Feuer, Gift; Vergiftet
+resistenzen: Kälte
+sinne: Wahrer Blick 36 m; Passive Wahrnehmung 20
+sprachen: Infernalisch; Telepathie auf 36 m
+hg: 20
+ep: 25000
+ub: '+6'
+merkmale:
+- name: 'Aura der Furcht:'
+  beschreibung: 'Vom Höllenschlundteufel geht eine Aura in einer Ausströmung von sechs Metern aus, solange er nicht kampfunfähig
+    ist. Weisheitsrettungswurf: SG 21; jeder Gegner, der seinen Zug in der Aura beginnt. Misserfolg: Das Ziel ist bis zum
+    Beginn seines nächsten Zugs verängstigt. Erfolg: Das Ziel ist 24 Stunden lang gegen die Aura dieses Höllenschlundteufels
+    immun.'
+- name: 'Diabolische Genesung:'
+  beschreibung: Wenn der Höllenschlundteufel außerhalb der Neun Höllen stirbt, löst sein Körper sich in Schwefeldampf auf.
+    Der Höllenschlundteufel erhält sofort einen neuen Körper, der mit allen Trefferpunkten irgendwo in den Neun Höllen aufersteht.
+- name: 'Legendäre Resistenz (4-mal täglich):'
+  beschreibung: Wenn der Höllenschlundteufel bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+- name: 'Magieresistenz:'
+  beschreibung: Der Höllenschlundteufel ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Höllenschlundteufel führt einen Bissangriff, einen Feuriger-Streitkolben-Angriff und zwei Teuflische-Klauen-Angriffe
+    aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +14, Reichweite 3 m. Treffer: 18 (3W6+8) Stichschaden. Wenn das Ziel eine Kreatur ist,
+    muss es den folgenden Rettungswurf ausführen: Konstitutionsrettungswurf: SG 21. Misserfolg: Das Ziel ist vergiftet. Das
+    vergiftete Ziel kann keine Trefferpunkte zurückerhalten und erleidet zu Beginn jedes seiner Züge 21 (6W6) Giftschaden.
+    Es wiederholt den Rettungswurf am Ende jedes seiner Züge. Bei einem Erfolg endet der Effekt bei ihm. Nach einer Minute
+    besteht sie den Rettungswurf automatisch.'
+- name: 'Feuriger Streitkolben:'
+  beschreibung: 'Nahkampfangriffswurf: +14, Reichweite 3 m. Treffer: 22 (4W6+8) Energieschaden plus 21 (6W6) Feuerschaden.'
+- name: 'Teuflische Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +14, Reich- weite 3 m. Treffer: 26 (4W8+8) nekrotischer Schaden.'
+- name: 'Höllenfeuer-Zauberwirken (Aufladung 4–6):'
+  beschreibung: Der Höllenschlundteufel wirkt zweimal den Zauber Feuerball (Version des 5. Grades) mit Charisma als Attribut
+    zum Zauberwirken, ohne Material komponenten zu benötigen (Zauberr ettungswurf-SG 21). Er kann einen Einsatz von Feuerball
+    mit Monster festhalten (Version des 7. Grades) oder Feuerwand ersetzen.

@@ -1,0 +1,58 @@
+id: riesenspinne
+type: monster
+name: Riesenspinne
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+3'
+initiative_wert: 13
+tp: 26
+tp_formel: 4W10+4
+bewegungsrate: 9 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 4
+    mod: −3
+    rw: −3
+fertigkeiten: Heimlichkeit +7, Wahrnehmung +4
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
+sprachen: −
+hg: 1
+ep: 200
+ub: '+2'
+merkmale:
+- name: 'Netzwandler:'
+  beschreibung: Die Spinne ignoriert Bewegungsein- schränkungen durch Netze und weiß genau, wo sich andere Kreaturen aufhalten,
+    die in Kontakt mit demselben Netz sind.
+- name: 'Spinnenklettern:'
+  beschreibung: Die Spinne kann ohne Attributswürfe schwierige Oberflächen erklimmen und sich an Decken entlang bewegen.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 7 (1W8+3) Stichschaden plus 7 (2W6) Giftschaden.'
+- name: 'Spinnennetz (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungs wurf: SG 13; eine Kreatur im Abstand von bis zu 18 Metern von der Spinne, die
+    von der Spinne gesehen werden kann. Misserfolg: Das Ziel ist festgesetzt, bis das Netz zerstört wird (RK 10, 5 TP, anfällig
+    für Feuerschaden, gegen Gift- und psychischen Schaden immun).'

@@ -1,0 +1,56 @@
+id: sabelzahntiger
+type: monster
+name: Säbelzahntiger
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 52
+tp_formel: 7W10+14
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+6'
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+5'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 8
+    mod: −1
+    rw: −1
+fertigkeiten: Heimlichkeit +7, Wahrnehmung +5
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 15
+sprachen: −
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Sprung aus dem Lauf:'
+  beschreibung: Nach drei Metern Anlauf kann der Tiger bis zu 7,5 Meter weit springen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Tiger führt zwei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 11 (2W6+4) Hiebschaden.'
+bonusaktionen:
+- name: 'Behändes Entkommen:'
+  beschreibung: Der Tiger führt die Rückzug- oder

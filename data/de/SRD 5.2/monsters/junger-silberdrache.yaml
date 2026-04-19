@@ -1,0 +1,60 @@
+id: junger-silberdrache
+type: monster
+name: Junger Silberdrache
+lang: de
+groesse: Groß
+typ: Drache (metallisch)
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+4'
+initiative_wert: 14
+tp: 168
+tp_formel: 16W10+80
+bewegungsrate: 12 m, Fliegen 24 m
+attribute:
+  sta:
+    wert: 23
+    mod: '+6'
+    rw: '+6'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+4'
+  kon:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+4'
+  cha:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+fertigkeiten: Geschichte +6, Wahrnehmung +8,
+immunitaeten: Kälte
+sinne: Blindsicht 3 m, Dunkelsicht 18 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 9
+ep: 5000
+ub: '+4'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus. Er kann einen Angriff durch einen Einsatz von Lähmender Odem
+    ersetzen.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +10, Reichweite 3 m. Treffer: 15 (2W8+6) Hiebschaden.'
+- name: 'Kälteodem (Aufladung 5–6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 17; jede Kreatur in einem Kegel von neun Metern. Misserfolg: 49 (11W8) Kälteschaden.
+    Erfolg: Halber Schaden.'
+- name: 'Lähmender Odem:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 17; jede Kreatur in einem Kegel von neun Metern. Erster Misserfolg: Das Ziel
+    ist bis zum Ende seines nächsten Zugs kampfunfähig. Dann wiederholt es den Rettungswurf. Zweiter Misserfolg: Das Ziel
+    ist gelähmt und wiederholt den Rettungswurf am Ende jedes seiner Züge. Bei einem Erfolg endet der Effekt bei ihm. Nach
+    einer Minute besteht es den Rettungswurf automatisch.'

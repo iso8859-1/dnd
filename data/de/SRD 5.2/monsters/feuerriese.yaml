@@ -1,0 +1,55 @@
+id: feuerriese
+type: monster
+name: Feuerriese
+lang: de
+groesse: Riesig
+typ: Riese
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+3'
+initiative_wert: 13
+tp: 162
+tp_formel: 13W12+78
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 25
+    mod: '+7'
+    rw: '+7'
+  ges:
+    wert: 9
+    mod: −1
+    rw: '+3'
+  kon:
+    wert: 23
+    mod: '+6'
+    rw: '+10'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 13
+    mod: '+1'
+    rw: '+5'
+fertigkeiten: Athletik +11, Wahrnehmung +6
+immunitaeten: Feuer
+sinne: Passive Wahrnehmung 16
+sprachen: Riesisch
+hg: 9
+ep: 5000
+ub: '+4'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Riese führt zwei Angriffe mit Flammenschwert oder Hammerwurf in beliebiger Kombination aus.
+- name: 'Flammenschwert:'
+  beschreibung: 'Nahkampfangriffswurf: +11, Reichweite 3 m. Treffer: 21 (4W6+7) Hiebschaden plus 10 (3W6) Feuerschaden.'
+- name: 'Hammerwurf:'
+  beschreibung: 'Fernkampfangriffswurf: +11, Reichweite 18/72 m. Treffer: 23 (3W10+7) Wuchtschaden plus 4 (1W8) Feuerschaden;
+    das Ziel wird bis zu 4,5 Meter weit in gerader Linie vom Riesen weggestoßen und ist beim nächsten Angriffswurf, den es
+    vor Ende seines nächsten Zugs ausführt, im Nachteil.'

@@ -1,0 +1,57 @@
+id: winterwolf
+type: monster
+name: Winterwolf
+lang: de
+groesse: Groß
+typ: Monstrosität
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+1'
+initiative_wert: 11
+tp: 75
+tp_formel: 10W10+20
+bewegungsrate: 15 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 7
+    mod: −2
+    rw: −2
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 8
+    mod: −1
+    rw: −1
+fertigkeiten: Heimlichkeit +5, Wahrnehmung +5
+immunitaeten: Kälte
+sinne: Passive Wahrnehmung 15
+sprachen: Gemeinsprache, Riesisch
+hg: 3
+ep: 700
+ub: '+2'
+merkmale:
+- name: 'Rudeltaktik:'
+  beschreibung: Der Wolf ist beim Angriffswurf gegen eine Kreatur im Vorteil, wenn sich mindestens einer seiner Verbündeten,
+    der nicht kampfunfähig ist, im Abstand von bis zu 1,5 Metern von der Kreatur befindet.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 11 (2W6+4) Stichschaden. Wenn das Ziel eine Kreatur
+    von höchstens großer Größe ist, wird es umgestoßen und hat den Zustand Liegend.'
+- name: 'Kälteodem (Aufladung 5–6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 12; jede Kreatur in einem Kegel von 4,5 Metern. Misserfolg: 18 (4W8) Kälteschaden.
+    Erfolg: Halber Schaden.'

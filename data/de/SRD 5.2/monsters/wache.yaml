@@ -1,0 +1,48 @@
+id: wache
+type: monster
+name: Wache
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 16
+initiative: '+1'
+initiative_wert: 11
+tp: 11
+tp_formel: 2W8+2
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Wahrnehmung +2
+ausruestung: Kettenhemd, Schild, Speer
+sinne: Passive Wahrnehmung 12
+sprachen: Gemeinsprache
+hg: 1/8
+ep: 25
+ub: '+2'
+aktionen:
+- name: 'Speer:'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +3, Reichweite 1,5 m oder Reichweite 6/18 m. Treffer: 4 (1W6+1) Stichschaden.'

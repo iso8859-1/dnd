@@ -1,0 +1,59 @@
+id: rabenschwarm
+type: monster
+name: Rabenschwarm
+lang: de
+groesse: Mittelgroß
+typ: Schwarm winziger Tiere
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 11
+tp_formel: 2W8+2
+bewegungsrate: 3 m, Fliegen 15 m
+attribute:
+  sta:
+    wert: 6
+    mod: −2
+    rw: −2
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+fertigkeiten: Wahrnehmung +5
+immunitaeten: Betäubt, Bezaubert, Festgesetzt, Gelähmt,
+resistenzen: Hieb, Stich, Wucht
+sinne: Passive Wahrnehmung 15
+sprachen: −
+hg: 1/4
+ep: 50
+ub: '+2'
+merkmale:
+- name: 'Schwarm:'
+  beschreibung: Der Schwarm kann den Bereich einer anderen Kreatur besetzen und umgekehrt. Er kann sich durch jede Öffnung
+    bewegen, die groß genug für einen Raben von winziger Größe ist. Der Schwarm kann weder Trefferpunkte zurückerhalten noch
+    temporäre Trefferpunkte erhalten.
+aktionen:
+- name: 'Schnäbel:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 5 (1W6+2) Stichschaden oder 2 (1W4) Stichschaden, wenn
+    der Schwarm blutig ist.'
+- name: 'Kakofonie (Aufladung 6):'
+  beschreibung: 'Weisheitsrettungswurf: SG 10; eine Kreatur im Bereich des Schwarms. Misserfolg: Das Ziel ist bis zum Beginn
+    des nächsten Zugs des Schwarms taub. Das taube Ziel ist bei Angriffs- und Attributswürfen im Nachteil.'

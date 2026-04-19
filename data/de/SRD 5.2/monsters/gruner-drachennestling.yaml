@@ -1,0 +1,57 @@
+id: gruner-drachennestling
+type: monster
+name: Grüner Drachennestling
+lang: de
+groesse: Mittelgroß
+typ: Drache (chromatisch)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+3'
+initiative_wert: 13
+tp: 38
+tp_formel: 7W8+7
+bewegungsrate: 9 m, Fliegen 18 m, Schwimmen 9 m
+attribute:
+  sta:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+3'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+2'
+  cha:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+fertigkeiten: Heimlichkeit +3, Wahrnehmung +4
+immunitaeten: Gift; Vergiftet
+sinne: Blindsicht 3 m, Dunkelsicht 18 m;
+sprachen: Drakonisch
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Drache kann Luft und Wasser atmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt zwei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 7 (1W10+2) Hiebschaden plus 3 (1W6) Giftschaden.'
+- name: 'Giftodem (Aufladung 5–6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 11; jede Kreatur in einem Kegel von 4,5 Metern. Misserfolg: 21 (6W6) Giftschaden.
+    Erfolg: Halber Schaden.'

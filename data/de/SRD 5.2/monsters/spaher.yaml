@@ -1,0 +1,52 @@
+id: spaher
+type: monster
+name: Späher
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+2'
+initiative_wert: 12
+tp: 16
+tp_formel: 3W8+3
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heimlichkeit +6, Naturkunde +4,
+ausruestung: Kurzschwert, Langbogen, Lederrüstung
+sinne: Passive Wahrnehmung 15
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 1/2
+ep: 100
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Späher führt zwei Angriffe mit Kurzschwert oder Langbogen in beliebiger Kombination aus.
+- name: 'Kurzschwert:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 5 (1W6+2) Stichschaden.'
+- name: 'Langbogen:'
+  beschreibung: 'Fernkampfangriffswurf: +4, Reichweite 45/180 m. Treffer: 6 (1W8+2) Stichschaden.'

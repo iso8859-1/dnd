@@ -1,0 +1,57 @@
+id: silberdrachennestling
+type: monster
+name: Silberdrachennestling
+lang: de
+groesse: Mittelgroß
+typ: Drache (metallisch)
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+2'
+initiative_wert: 12
+tp: 45
+tp_formel: 6W8+18
+bewegungsrate: 9 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+2'
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+2'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Heimlichkeit +2, Wahrnehmung +4
+immunitaeten: Kälte
+sinne: Blindsicht 3 m, Dunkelsicht 18 m;
+sprachen: Drakonisch
+hg: 2
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt zwei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 9 (1W10+4) Stichschaden.'
+- name: 'Kälteodem (Aufladung 5–6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 13; jede Kreatur in einem Kegel von 4,5 Metern. Misserfolg: 18 (4W8) Kälteschaden.
+    Erfolg: Halber Schaden.'
+- name: 'Lähmender Odem:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 13; jede Kreatur in einem Kegel von 4,5 Metern. Erster Misserfolg: Das Ziel
+    ist bis zum Ende seines nächsten Zugs kampfunfähig. Dann wiederholt es den Rettungswurf. Zweiter Misserfolg: Das Ziel
+    ist gelähmt und wiederholt den Rettungswurf am Ende jedes seiner Züge. Bei einem Erfolg endet der Effekt bei ihm. Nach
+    einer Minute besteht es den Rettungswurf automatisch.'

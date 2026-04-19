@@ -1,0 +1,66 @@
+id: vrock
+type: monster
+name: Vrock
+lang: de
+groesse: Groß
+typ: Unhold (Dämon)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+2'
+initiative_wert: 12
+tp: 152
+tp_formel: 16W10+64
+bewegungsrate: 12 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+5'
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 8
+    mod: −1
+    rw: −1
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+4'
+  cha:
+    wert: 8
+    mod: −1
+    rw: '+2'
+immunitaeten: Gift; Vergiftet
+resistenzen: Blitz, Feuer, Kälte
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 11
+sprachen: Abyssisch; Telepathie auf 36 m
+hg: 6
+ep: 2300
+ub: '+3'
+merkmale:
+- name: 'Dämonische Genesung:'
+  beschreibung: Wenn der Vrock außerhalb des Abyss stirbt, löst sein Körper sich zu einer widerlichen Flüssigkeit auf. Der
+    Vrock erhält sofort einen neuen Körper, der mit allen Trefferpunkten irgendwo im Abyss aufersteht.
+- name: 'Magieresistenz:'
+  beschreibung: Der Vrock ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Vrock führt zwei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 10 (2W6+3) Stichschaden plus 10 (3W6) Giftschaden.'
+- name: 'Betäubendes Kreischen (1-mal täglich):'
+  beschreibung: 'Konstitutions rettungswurf: SG 15; jede Kreatur in einer Ausströmung von sechs Metern, die vom Vrock ausgeht
+    (Dämonen bestehen automatisch). Misserfolg: 10 (3W6) Schallschaden, und das Ziel ist bis zum Ende des nächsten Zugs des
+    Vrocks betäubt.'
+- name: 'Sporen (Aufladung 6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 15; jede Kreatur in einer Ausströmung von sechs Metern, die vom Vrock ausgeht.
+    Misserfolg: Das Ziel ist vergiftet und wiederholt den Rettungswurf am Ende jedes seiner Züge. Bei einem Erfolg endet der
+    Effekt bei ihm. Während das Ziel vergiftet ist, erleidet es zu Beginn jedes seiner Züge 5 (1W10) Giftschaden. Der Effekt
+    wird frühzeitig durch den Konsum einer Flasche mit Weihwasser beendet.'

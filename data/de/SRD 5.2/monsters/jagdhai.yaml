@@ -1,0 +1,52 @@
+id: jagdhai
+type: monster
+name: Jagdhai
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 45
+tp_formel: 6W10+12
+bewegungsrate: 1,5 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 4
+    mod: −3
+    rw: −3
+fertigkeiten: Wahrnehmung +2
+sinne: Blindsicht 18 m; Passive Wahrnehmung 12
+sprachen: −
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Wasser atmen:'
+  beschreibung: Der Hai kann nur unter Wasser atmen.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +6 (im Vorteil, wenn die Trefferpunkte des Ziels nicht vollständig sind), Reichweite
+    1,5 m. Treffer: 14 (3W6+4) Stichschaden.'

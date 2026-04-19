@@ -1,0 +1,71 @@
+id: rakshasa
+type: monster
+name: Rakshasa
+lang: de
+groesse: Mittelgroß
+typ: Unhold
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+8'
+initiative_wert: 18
+tp: 221
+tp_formel: 26W8+104
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  cha:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+fertigkeiten: Motiv erkennen +8, Täuschen +10,
+immunitaeten: Bezaubert, Verängstigt
+anfaelligkeiten: Stichschaden durch Waffen, die von
+sinne: Wahrer Blick 18 m; Passive Wahrnehmung 18
+sprachen: Gemeinsprache, Infernalisch
+hg: 13
+ep: 10000
+ub: '+5'
+merkmale:
+- name: 'Mächtige Magieresistenz:'
+  beschreibung: Der Rakshasa besteht Rettungswürfe gegen Zauber und andere magische Effekte automatisch, und die Angriffswürfe
+    von Zaubern verfehlen ihn automatisch. Ohne seine Erlaubnis kann kein Zauber den Rakshasa aus der Ferne beobachten oder
+    seine Gedanken, seinen Kreaturentyp und seine Gesinnung erkennen.
+- name: 'Unholdische Genesung:'
+  beschreibung: Wenn der Rakshasa außerhalb der Neun Höllen stirbt, löst sein Körper sich zu einer widerlichen Flüssigkeit
+    auf. Der Rakshasa erhält sofort einen neuen Körper, der mit allen Trefferpunkten irgendwo in den Neun Höllen aufersteht.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Rakshasa führt drei Verfluchte- Berührung-Angriffe aus.
+- name: 'Verfluchte Berührung:'
+  beschreibung: 'Nahkampfangriffswurf: +10, Reichweite 1,5 m. Treffer: 12 (2W6+5) Hiebschaden plus 19 (3W12) nekrotischer
+    Schaden. Wenn das Ziel eine Kreatur ist, wird es verflucht. Das verfluchte Ziel erhält durch kurze oder lange Rasten keinen
+    Vorzug.'
+- name: 'Unheilvoller Befehl (Aufladung 5–6):'
+  beschreibung: 'Weisheitsrettungs wurf: SG 18; jeder Gegner in einer Ausströmung von neun Metern, die vom Rakshasa ausgeht.
+    Misserfolg: 28 (8W6) psychischer Schaden, und das Ziel ist bis zum Beginn des nächsten Zugs des Rakshasas kampfunfähig
+    und verängstigt.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Rakshasa wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 18): Beliebig oft: Einfache Illusion , Gedanken wahrnehmen , Magie entdecken , Magierhand
+    , Selbstverkleidung'
+aktionen_intro: 'Je 1-mal täglich: Ebenenwechsel , Fliegen , Mächtiges Trugbild , Unsichtbarkeit'

@@ -1,0 +1,79 @@
+id: uralter-bronzedrache
+type: monster
+name: Uralter Bronzedrache
+lang: de
+groesse: Gigantisch
+typ: Drache (metallisch)
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 22
+initiative: '+14'
+initiative_wert: 24
+tp: 444
+tp_formel: 24W20+192
+bewegungsrate: 12 m, Fliegen 24 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 29
+    mod: '+9'
+    rw: '+9'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+7'
+  kon:
+    wert: 27
+    mod: '+8'
+    rw: '+8'
+  int:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  wei:
+    wert: 17
+    mod: '+3'
+    rw: '+10'
+  cha:
+    wert: 25
+    mod: '+7'
+    rw: '+7'
+fertigkeiten: Heimlichkeit +7, Motiv erkennen +10,
+immunitaeten: Blitz
+sinne: Blindsicht 18 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 22
+ep: 41000
+ub: '+7'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Drache kann Luft und Wasser atmen.
+- name: 'Legendäre Resistenz (4-mal täglich, im Hort 5-mal täglich):'
+  beschreibung: Wenn der Drache bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus. Er kann einen Angriff durch einen Einsatz von (A) Odem der
+    Abstoßung oder (B) Zauberwirken ersetzen, um den Zauber Lenkendes Geschoss (Version des 2. Grades) zu wirken.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +16, Reichweite 4,5 m. Treffer: 18 (2W8+9) Hiebschaden plus 9 (2W8) Blitzschaden.'
+- name: 'Blitzodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeitsrettungs wurf: SG 23; jede Kreatur in einer 36 Meter langen, drei Meter breiten Linie. Misserfolg:
+    82 (15W10) Blitzschaden. Erfolg: Halber Schaden.'
+- name: 'Odem der Abstoßung:'
+  beschreibung: 'Stärkerettungswurf: SG 23; jede Kreatur in einem Kegel von neun Metern. Misserfolg: Das Ziel wird bis zu
+    18 Meter weit in gerader Linie vom Drachen weg- und umgestoßen, sodass es den Zustand Liegend hat.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Drache wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 22, +14 auf Treffer mit Zauberangriffen): Beliebig oft: Gestaltwandel (nur in Tier-
+    oder humanoider Gestalt; durch den Zauber werden keine temporären Trefferpunkte erhalten, und zum Aufrechter- halten des
+    Zaubers sind weder Konzentration noch temporäre Trefferpunkte erforderlich), Lenkendes Geschoss (Version des 2. Grades),
+    Magie entdecken , Mit Tieren sprechen , Thaumaturgie Je 1-mal täglich: Ausspähung , Gedanken wahrnehmen , Wasser atmen
+    , Wasser kontrollieren'
+legendaere_aktionen:
+- name: 'Anspringen:'
+  beschreibung: Der Drache legt bis zur Hälfte seiner Bewegungsrate zurück und führt einen Zerfetzen- Angriff aus.
+- name: 'Donnerschlag:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 22; jede Kreatur in einer Kugel mit einem Radius von sechs Metern um einen
+    Punkt im Abstand von bis zu 36 Metern vom Drachen, den er sehen kann. Misserfolg: 13 (3W8) Schallschaden, und das Ziel
+    ist bis zum Ende seines nächsten Zugs taub.'
+- name: 'Lenkendes Licht:'
+  beschreibung: Der Drache setzt Zauberwirken ein, um den Zauber Lenkendes Geschoss (Version des 2. Grades) zu wirken.

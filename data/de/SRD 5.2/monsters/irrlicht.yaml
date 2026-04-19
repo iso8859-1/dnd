@@ -1,0 +1,66 @@
+id: irrlicht
+type: monster
+name: Irrlicht
+lang: de
+groesse: Winzig
+typ: Untoter
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 19
+initiative: '+9'
+initiative_wert: 19
+tp: 27
+tp_formel: 11W4
+bewegungsrate: 1,5 m, Fliegen 15 m (Schweben)
+attribute:
+  sta:
+    wert: 1
+    mod: −5
+    rw: −5
+  ges:
+    wert: 28
+    mod: '+9'
+    rw: '+9'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+immunitaeten: Blitz, Gift; Bewusstlos, Erschöpft, Festgesetzt,
+resistenzen: Feuer, Hieb, Kälte, Nekrotisch, Säure, Stich,
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 12
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Beleuchtung:'
+  beschreibung: Das Irrlicht spendet in einem Radius von sechs Metern helles Licht und in einem Radius von weiteren sechs
+    Metern dämmriges Licht.
+- name: 'Flüchtig:'
+  beschreibung: Das Irrlicht kann nichts tragen oder in der Hand halten.
+- name: 'Körperlose Bewegung:'
+  beschreibung: Das Irrlicht kann sich durch andere Kreaturen und Gegenstände bewegen, als wären sie schwieriges Gelände.
+    Es erleidet 5 (1W10) Energieschaden, wenn es den Zug in einem Gegenstand beendet.
+aktionen:
+- name: 'Schock:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 11 (2W8+2) Blitzschaden.'
+bonusaktionen:
+- name: 'Leben verzehren:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 10; eine lebendige Kreatur im Abstand von bis zu 1,5 Metern vom Irrlicht, die
+    0 Trefferpunkte hat und die vom Irrlicht gesehen werden kann. Misserfolg: Das Ziel stirbt, und das Irrlicht erhält 10
+    (3W6) Trefferpunkte zurück.'
+- name: 'Verschwinden:'
+  beschreibung: Das Irrlicht und sein Licht haben den Zustand Unsichtbar, bis die Konzentration des Irrlichts auf diesen Effekt
+    endet. Sie endet unmittelbar, wenn das Irrlicht einen Angriffswurf oder Leben verzehren ausführt.

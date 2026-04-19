@@ -1,0 +1,53 @@
+id: schreckenswolf
+type: monster
+name: Schreckenswolf
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+2'
+initiative_wert: 12
+tp: 22
+tp_formel: 3W10+6
+bewegungsrate: 15 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +5
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 15
+sprachen: −
+hg: 1
+ep: 200
+ub: '+2'
+merkmale:
+- name: 'Rudeltaktik:'
+  beschreibung: Der Wolf ist beim Angriffswurf gegen eine Kreatur im Vorteil, wenn sich mindestens einer seiner Verbündeten,
+    der nicht kampfunfähig ist, im Abstand von bis zu 1,5 Metern von der Kreatur befindet.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 8 (1W10+3) Stichschaden. Wenn das Ziel eine Kreatur
+    von höchstens großer Größe ist, wird es umgestoßen und hat den Zustand Liegend.'

@@ -1,0 +1,66 @@
+id: werwolf
+type: monster
+name: Werwolf
+lang: de
+typ: Kleine oder mittelgroße Monstrosität (Lykanthrop)
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+4'
+initiative_wert: 14
+tp: 71
+tp_formel: 11W8+22
+bewegungsrate: 9 m, 12 m (nur in Wolfsgestalt)
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +4
+ausruestung: Langbogen
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
+sprachen: Gemeinsprache (kann in Wolfsgestalt nicht
+hg: 3
+ep: 700
+ub: '+2'
+merkmale:
+- name: 'Rudeltaktik:'
+  beschreibung: Der Werwolf ist beim Angriffswurf gegen eine Kreatur im Vorteil, wenn sich mindestens einer seiner Verbündeten,
+    der nicht kampfunfähig ist, im Abstand von bis zu 1,5 Metern von der Kreatur befindet.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Werwolf führt zwei Angriffe mit Kratzen oder Langbogen in beliebiger Kombination aus. Er kann einen Angriff
+    durch einen Bissangriff ersetzen.
+- name: 'Biss (nur Wolfs- oder hybride Gestalt):'
+  beschreibung: 'Nahkampf angriffswurf: +5, Reichweite 1,5 m. Treffer: 12 (2W8+3) Stichschaden. Wenn das Ziel ein Humanoide
+    ist, erleidet es den folgenden Effekt: Konstitutionsrettungswurf: SG 12. Misserfolg: Das Ziel wird verflucht. Wenn die
+    Trefferpunkte des verfluchten Ziels auf 0 sinken, wird es stattdessen zu einem Werwolf unter der Kontrolle des SL und
+    hat 10 Trefferpunkte. Erfolg: Das Ziel ist 24 Stunden lang gegen den Fluch dieses Werwolfs immun.'
+- name: 'Kratzen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 10 (2W6+3) Hiebschaden.'
+- name: 'Langbogen (nur humanoide oder hybride Gestalt):'
+  beschreibung: 'Fernkampfangriffswurf: +4, Reichweite 45/180 m. Treffer: 11 (2W8+2) Stichschaden.'
+bonusaktionen:
+- name: 'Gestaltwandeln:'
+  beschreibung: Der Werwolf nimmt die Gestalt eines großen Wolf-Humanoiden-Hybriden, eines mittelgroßen Wolfs oder wieder
+    seine wahre humanoide Gestalt an. Seine Spielwerte sind abgesehen von der Größe in jeder Gestalt gleich. Ausrüstung, die
+    er trägt oder hält, wird nicht verwandelt.

@@ -1,0 +1,58 @@
+id: pseudodrache
+type: monster
+name: Pseudodrache
+lang: de
+groesse: Winzig
+typ: Drache
+gesinnung: neutral gut
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+2'
+initiative_wert: 12
+tp: 10
+tp_formel: 3W4+3
+bewegungsrate: 4,5 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 6
+    mod: −2
+    rw: −2
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +5
+sinne: Blindsicht 3 m, Dunkelsicht 18 m;
+sprachen: Versteht Drakonisch und Gemeinsprache, kann
+hg: 1/4
+ep: 50
+ub: '+2'
+merkmale:
+- name: 'Magieresistenz:'
+  beschreibung: Der Pseudodrache ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Pseudodrache führt zwei Bissangriffe aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 4 (1W4+2) Stichschaden.'
+- name: 'Stachel:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 12; eine Kreatur im Abstand von bis zu 1,5 Metern vom Pseudodrachen, die er
+    sehen kann. Misserfolg: 5 (2W4) Giftschaden, und das Ziel ist eine Stunde lang vergiftet. Misserfolg um mindestens 5:
+    Das vergiftete Ziel ist auch bewusstlos, bis es Schaden erleidet oder eine Kreatur im Abstand von bis zu 1,5 Metern von
+    ihm eine Aktion ausführt, um es zu wecken.'

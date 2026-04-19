@@ -1,0 +1,48 @@
+id: belebtes-fliegendes-schwert
+type: monster
+name: Belebtes fliegendes Schwert
+lang: de
+groesse: Klein
+typ: Konstrukt
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+4'
+initiative_wert: 14
+tp: 14
+tp_formel: 4W6
+bewegungsrate: 1,5 m, Fliegen 15 m (Schweben)
+attribute:
+  sta:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+4'
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 5
+    mod: −3
+    rw: −3
+  cha:
+    wert: 1
+    mod: −5
+    rw: −5
+immunitaeten: Gift, Psychisch; Bezaubert, Erschöpft,
+sinne: Blindsicht 18 m; Passive Wahrnehmung 7
+sprachen: −
+hg: 1/4
+ep: 50
+ub: '+2'
+aktionen:
+- name: 'Schlitzen:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 6 (1W8+2) Hiebschaden.'

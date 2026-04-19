@@ -1,0 +1,74 @@
+id: ausgewachsener-gruner-drache
+type: monster
+name: Ausgewachsener grüner Drache
+lang: de
+groesse: Riesig
+typ: Drache (chromatisch)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 19
+initiative: '+11'
+initiative_wert: 21
+tp: 207
+tp_formel: 18W12+90
+bewegungsrate: 12 m, Fliegen 24 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 23
+    mod: '+6'
+    rw: '+6'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+6'
+  kon:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+7'
+  cha:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+fertigkeiten: Heimlichkeit +6, Täuschen +9,
+immunitaeten: Gift; Vergiftet
+sinne: Blindsicht 18 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 15
+ep: 13000
+ub: '+5'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Drache kann Luft und Wasser atmen.
+- name: 'Legendäre Resistenz (3-mal täglich, im Hort 4-mal täglich):'
+  beschreibung: Wenn der Drache bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus. Er kann einen Angriff durch einen Einsatz von Zauberwirken
+    ersetzen, um den Zauber Gedankendorn (Version des 3. Grades) zu wirken.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +11, Reichweite 3 m. Treffer: 15 (2W8+6) Hiebschaden plus 7 (2W6) Giftschaden.'
+- name: 'Giftodem (Aufladung 5–6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 18; jede Kreatur in einem Kegel von 18 Metern. Misserfolg: 56 (16W6) Giftschaden.
+    Erfolg: Halber Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Drache wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 17): Beliebig oft: Gedankendorn (Version des 3. Grades), Magie entdecken Je 1-mal
+    täglich: Geas'
+legendaere_aktionen:
+- name: 'Anspringen:'
+  beschreibung: Der Drache legt bis zur Hälfte seiner Bewegungsrate zurück und führt einen Zerfetzen- Angriff aus.
+- name: 'Gedankeninvasion:'
+  beschreibung: Der Drache setzt Zauberwirken ein, um den Zauber Gedankendorn (Version des 3. Grades) zu wirken.
+- name: 'Vergiftendes Miasma:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 17; jede Kreatur in einer Kugel mit einem Radius von sechs Metern um einen
+    Punkt im Abstand von bis zu 27 Metern vom Drachen, den er sehen kann. Misserfolg: 7 (2W6) Giftschaden, und das Ziel erhält
+    bis zum Ende seines nächsten Zugs einen Malus von −2 auf seine RK. Erfolg oder Misserfolg: Der Drache kann diese Aktion
+    erst nach Beginn seines nächsten Zugs erneut ausführen.'

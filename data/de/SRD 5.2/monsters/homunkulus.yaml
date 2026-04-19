@@ -1,0 +1,55 @@
+id: homunkulus
+type: monster
+name: Homunkulus
+lang: de
+groesse: Winzig
+typ: Konstrukt
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+2'
+initiative_wert: 12
+tp: 4
+tp_formel: 1W4+2
+bewegungsrate: 6 m, Fliegen 12 m
+attribute:
+  sta:
+    wert: 4
+    mod: −3
+    rw: −3
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+2'
+  cha:
+    wert: 7
+    mod: −2
+    rw: '+0'
+immunitaeten: Gift; Bezaubert, Vergiftet
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: Versteht Gemeinsprache und eine weitere
+hg: 0
+ep: 10
+ub: '+2'
+merkmale:
+- name: 'Telepathische Bindung:'
+  beschreibung: Wenn sich der Homunkulus auf derselben Existenzebene wie sein Meister befindet, können die beiden telepathisch
+    miteinander kommunizieren.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 1 Stichschaden, und das Ziel erleidet den folgenden
+    Effekt: Konstitutionsrettungswurf: SG 12. Misserfolg: Das Ziel ist bis zum Ende des nächsten Zugs des Homunkulus vergiftet.
+    Misserfolg um mindestens 5: Das Ziel ist eine Minute lang vergiftet. Solange es vergiftet ist, ist das Ziel außerdem bewusstlos.
+    Die Bewusstlosigkeit endet frühzeitig, wenn das Ziel Schaden erleidet.'

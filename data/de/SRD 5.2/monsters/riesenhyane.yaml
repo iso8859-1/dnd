@@ -1,0 +1,52 @@
+id: riesenhyane
+type: monster
+name: Riesenhyäne
+lang: de
+groesse: Groß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 45
+tp_formel: 6W10+12
+bewegungsrate: 15 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Wahrnehmung +3
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 13
+sprachen: −
+hg: 1
+ep: 200
+ub: '+2'
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 10 (2W6+4) Stichschaden.'
+bonusaktionen:
+- name: 'Wüten (1-mal täglich):'
+  beschreibung: Unmittelbar nachdem die Hyäne einer bereits blutigen Kreatur Schaden zugefügt hat, legt sie bis zur Hälfte
+    ihrer Bewegungsrate zurück und führt einen Bissangriff aus.

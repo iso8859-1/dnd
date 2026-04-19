@@ -1,0 +1,60 @@
+id: eis-mephit
+type: monster
+name: Eis-Mephit
+lang: de
+groesse: Klein
+typ: Elementar
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 11
+initiative: '+1'
+initiative_wert: 11
+tp: 21
+tp_formel: 6W6
+bewegungsrate: 9 m, Fliegen 9 m
+attribute:
+  sta:
+    wert: 7
+    mod: −2
+    rw: −2
+  ges:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 9
+    mod: −1
+    rw: −1
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+fertigkeiten: Heimlichkeit +3, Wahrnehmung +2
+immunitaeten: Gift, Kälte; Erschöpft, Vergiftet
+anfaelligkeiten: Feuer
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 12
+sprachen: Urtümlich (Aqual, Aural)
+hg: 1/2
+ep: 100
+ub: '+2'
+merkmale:
+- name: 'Todesexplosion:'
+  beschreibung: 'Der Mephit explodiert, wenn er stirbt. Konstitutionsrettungswurf: SG 10; jede Kreatur in einer Ausströmung
+    von 1,5 Metern, die vom Mephiten ausgeht. Misserfolg: 5 (2W4) Kälteschaden. Erfolg: Halber Schaden.'
+aktionen:
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +3, Reichweite 1,5 m. Treffer: 3 (1W4+1) Hiebschaden plus 2 (1W4) Kälteschaden.'
+- name: 'Frostodem (Aufladung 6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 10; jede Kreatur in einem Kegel von 4,5 Metern. Misserfolg: 7 (3W4) Kälteschaden.
+    Erfolg: Halber Schaden.'
+- name: 'Nebelwolke (1-mal täglich):'
+  beschreibung: Der Mephit wirkt den Zauber Nebelwolke mit Charisma als Attribut zum Zauberwirken, ohne Zauberkomponenten
+    zu benötigen.

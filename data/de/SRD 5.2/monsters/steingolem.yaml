@@ -1,0 +1,61 @@
+id: steingolem
+type: monster
+name: Steingolem
+lang: de
+groesse: Groß
+typ: Konstrukt
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+3'
+initiative_wert: 13
+tp: 220
+tp_formel: 21W10+105
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 22
+    mod: '+6'
+    rw: '+6'
+  ges:
+    wert: 9
+    mod: −1
+    rw: −1
+  kon:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 1
+    mod: −5
+    rw: −5
+immunitaeten: Gift, Psychisch; Bezaubert, Erschöpft,
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 10
+sprachen: Versteht Gemeinsprache und zwei weitere
+hg: 10
+ep: 5900
+ub: '+4'
+merkmale:
+- name: 'Magieresistenz:'
+  beschreibung: Der Golem ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+- name: 'Unveränderliche Gestalt:'
+  beschreibung: Der Golem kann keine andere Gestalt annehmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Golem führt zwei Angriffe mit Hieb oder Energiegeschoss in beliebiger Kombination aus.
+- name: 'Hieb:'
+  beschreibung: 'Nahkampfangriffswurf: +10, Reichweite 1,5 m. Treffer: 15 (2W8+6) Wuchtschaden plus 9 (2W8) Energieschaden.'
+- name: 'Energiegeschoss:'
+  beschreibung: 'Fernkampfangriffswurf: +9, Reichweite 36 m. Treffer: 22 (4W10) Energieschaden.'
+bonusaktionen:
+- name: 'Verlangsamen (Aufladung 5–6):'
+  beschreibung: Der Golem wirkt den Zauber Verlangsamen mit Konstitution als Attribut zum Zauberwirken, ohne Zauberkomponenten
+    zu benötigen (Zauberrettungswurf-SG 17).

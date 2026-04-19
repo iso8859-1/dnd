@@ -1,0 +1,71 @@
+id: planetar
+type: monster
+name: Planetar
+lang: de
+typ: Großes celestisches Wesen (Engel)
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 19
+initiative: '+10'
+initiative_wert: 20
+tp: 262
+tp_formel: 21W10+147
+bewegungsrate: 12 m, Fliegen 36 m (Schweben)
+attribute:
+  sta:
+    wert: 24
+    mod: '+7'
+    rw: '+12'
+  ges:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  kon:
+    wert: 24
+    mod: '+7'
+    rw: '+12'
+  int:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  wei:
+    wert: 22
+    mod: '+6'
+    rw: '+11'
+  cha:
+    wert: 25
+    mod: '+7'
+    rw: '+12'
+fertigkeiten: Wahrnehmung +11
+immunitaeten: Bezaubert, Erschöpft, Verängstigt
+resistenzen: Gleißend
+sinne: Wahrer Blick 36 m; Passive Wahrnehmung 21
+sprachen: Alle; Telepathie auf 36 m
+hg: 16
+ep: 15000
+ub: '+5'
+merkmale:
+- name: 'Erhabene Genesung:'
+  beschreibung: Wenn der Planetar außerhalb des Bergs Celestia stirbt, verschwindet sein Körper. Der Planetar erhält sofort
+    einen neuen Körper, der mit allen Trefferpunkten irgendwo am Berg Celestia aufersteht.
+- name: 'Göttliches Bewusstsein:'
+  beschreibung: Der Planetar erkennt, wenn er eine Lüge hört.
+- name: 'Magieresistenz:'
+  beschreibung: Der Planetar ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Planetar führt drei Gleißendes- Schwert-Angriffe aus oder setzt zweimal Heilige Explosion ein.
+- name: 'Gleißendes Schwert:'
+  beschreibung: 'Nahkampfangriffswurf: +12, Reichweite 3 m. Treffer: 14 (2W6+7) Hiebschaden plus 18 (4W8) gleißender Schaden.'
+- name: 'Heilige Explosion:'
+  beschreibung: 'Geschicklichkeitsrettungswurf: SG 20; jeder Gegner in einer Kugel mit einem Radius von sechs Metern um einen
+    Punkt im Abstand von bis zu 36 Metern vom Planetar, den er sehen kann. Misserfolg: 24 (7W6) gleißender Schaden. Erfolg:
+    Halber Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Planetar wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 20): Beliebig oft: Gutes und Böses entdecken Je 1-mal täglich: Gutes und Böses bannen
+    , Heiliges Gespräch , Tote erwecken , Wetterkontrolle'
+bonusaktionen:
+- name: 'Göttlicher Beistand (2-mal täglich):'
+  beschreibung: Der Planetar wirkt einen der Zauber Fluch brechen , Schwache Genesung , Unsichtbarkeit oder Wunden heilen
+    . Sein Attribut zum Zauberwirken ist dasselbe wie beim Ausführen der Zauberwirken-Aktion.

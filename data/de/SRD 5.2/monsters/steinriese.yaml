@@ -1,0 +1,59 @@
+id: steinriese
+type: monster
+name: Steinriese
+lang: de
+groesse: Riesig
+typ: Riese
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+5'
+initiative_wert: 15
+tp: 126
+tp_formel: 11W12+55
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 23
+    mod: '+6'
+    rw: '+6'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+5'
+  kon:
+    wert: 20
+    mod: '+5'
+    rw: '+8'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+4'
+  cha:
+    wert: 9
+    mod: −1
+    rw: −1
+fertigkeiten: Athletik +12, Heimlichkeit +5,
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
+sprachen: Riesisch
+hg: 7
+ep: 2900
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Riese führt zwei Angriffe mit Steinknüppel oder Felswurf in beliebiger Kombination aus.
+- name: 'Steinknüppel:'
+  beschreibung: 'Nahkampfangriffswurf: +9, Reichweite 4,5 m. Treffer: 22 (3W10+6) Wuchtschaden.'
+- name: 'Felswurf:'
+  beschreibung: 'Fernkampfangriffswurf: +9, Reichweite 18/72 m. Treffer: 15 (2W8+6) Wuchtschaden. Wenn das Ziel eine Kreatur
+    von höchstens großer Größe ist, wird es umgestoßen und hat den Zustand Liegend.'
+reaktionen:
+- name: 'Geschoss umleiten (Aufladung 5–6):'
+  beschreibung: 'Auslöser: Der Riese wird von einem Fernkampfangriffswurf getroffen, durch den er Hieb-, Stich- oder Wuchtschaden
+    erleidet. Antwort: Der Riese verringert den Schaden, den er durch diesen Angriff erleidet, um 11 (1W10+6). Wenn der Schaden
+    dadurch auf 0 verringert wird, kann der Riese einen Teil der Angriffsenergie umleiten. Geschicklichkeitsrettungswurf:
+    SG 17; eine Kreatur im Abstand von bis zu 18 Metern vom Riesen, die er sehen kann. Misserfolg: 11 (1W10+6) Energieschaden.'

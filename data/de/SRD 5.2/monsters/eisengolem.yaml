@@ -1,0 +1,62 @@
+id: eisengolem
+type: monster
+name: Eisengolem
+lang: de
+groesse: Groß
+typ: Konstrukt
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 20
+initiative: '+9'
+initiative_wert: 19
+tp: 252
+tp_formel: 24W10+120
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 24
+    mod: '+7'
+    rw: '+7'
+  ges:
+    wert: 9
+    mod: −1
+    rw: −1
+  kon:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 1
+    mod: −5
+    rw: −5
+immunitaeten: Feuer, Gift, Psychisch; Bezaubert, Erschöpft,
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 10
+sprachen: Versteht Gemeinsprache und zwei weitere
+hg: 16
+ep: 15000
+ub: '+5'
+merkmale:
+- name: 'Feuerabsorption:'
+  beschreibung: Der Golem erleidet durch Feuer keinen Schaden, sondern erhält Trefferpunkte in Höhe des Feuerschadens zurück.
+- name: 'Magieresistenz:'
+  beschreibung: Der Golem ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+- name: 'Unveränderliche Gestalt:'
+  beschreibung: Der Golem kann keine andere Gestalt annehmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Golem führt zwei Angriffe mit Klingenarm oder Feuerbolzen in beliebiger Kombination aus.
+- name: 'Klingenarm:'
+  beschreibung: 'Nahkampfangriffswurf: +12, Reichweite 3 m. Treffer: 20 (3W8+7) Hiebschaden plus 10 (3W6) Feuerschaden.'
+- name: 'Feuerbolzen:'
+  beschreibung: 'Fernkampfangriffswurf: +10, Reichweite 36 m. Treffer: 36 (8W8) Feuerschaden.'
+- name: 'Giftodem (Aufladung 6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 18; jede Kreatur in einem Kegel von 18 Metern. Misserfolg: 55 (10W10) Giftschaden.
+    Erfolg: Halber Schaden.'

@@ -1,0 +1,48 @@
+id: riesengiftschlange
+type: monster
+name: Riesengiftschlange
+lang: de
+groesse: Mittelgroß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+4'
+initiative_wert: 14
+tp: 11
+tp_formel: 2W8+2
+bewegungsrate: 12 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 3
+    mod: −4
+    rw: −4
+fertigkeiten: Wahrnehmung +2
+sinne: Blindsicht 3 m; Passive Wahrnehmung 12
+sprachen: −
+hg: 1/4
+ep: 50
+ub: '+2'
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 3 m. Treffer: 6 (1W4+4) Stichschaden plus 4 (1W8) Giftschaden.'

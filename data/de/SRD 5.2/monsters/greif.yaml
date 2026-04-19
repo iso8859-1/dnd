@@ -1,0 +1,51 @@
+id: greif
+type: monster
+name: Greif
+lang: de
+groesse: Groß
+typ: Monstrosität
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 59
+tp_formel: 7W10+21
+bewegungsrate: 9 m, Fliegen 24 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 8
+    mod: −1
+    rw: −1
+fertigkeiten: Wahrnehmung +5
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 15
+sprachen: −
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Greif führt zwei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 8 (1W8+4) Stichschaden. Wenn das Ziel eine Kreatur von
+    höchstens mittelgroßer Größe ist, wird es von beiden Vorderklauen des Greifs gepackt (Flucht-SG 14).'

@@ -1,0 +1,54 @@
+id: riesenwurgeschlange
+type: monster
+name: Riesenwürgeschlange
+lang: de
+groesse: Riesig
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 60
+tp_formel: 8W12+8
+bewegungsrate: 9 m, Schwimmen 9 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 3
+    mod: −4
+    rw: −4
+fertigkeiten: Wahrnehmung +2
+sinne: Blindsicht 3 m; Passive Wahrnehmung 12
+sprachen: −
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Schlange führt einen Bissangriff aus und setzt Umschlingen ein.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 3 m. Treffer: 11 (2W6+4) Stichschaden.'
+- name: 'Umschlingen:'
+  beschreibung: 'Stärkerettungswurf: SG 14; eine Kreatur von höchstens großer Größe im Abstand von bis zu drei Metern von
+    der Schlange, die von der Schlange gesehen werden kann. Misserfolg: 13 (2W8+4) Wuchtschaden, und das Ziel wird gepackt
+    (Flucht-SG 14).'

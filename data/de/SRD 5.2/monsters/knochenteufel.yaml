@@ -1,0 +1,62 @@
+id: knochenteufel
+type: monster
+name: Knochenteufel
+lang: de
+groesse: Groß
+typ: Unhold (Teufel)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 16
+initiative: '+7'
+initiative_wert: 17
+tp: 161
+tp_formel: 17W10+68
+bewegungsrate: 12 m, Fliegen 12 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+8'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 13
+    mod: '+1'
+    rw: '+5'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+6'
+  cha:
+    wert: 16
+    mod: '+3'
+    rw: '+7'
+fertigkeiten: Motiv erkennen +6, Täuschen +7
+immunitaeten: Feuer, Gift; Vergiftet
+resistenzen: Kälte
+sinne: Dunkelsicht 36 m (wird nicht durch magische
+sprachen: Infernalisch; Telepathie auf 36 m
+hg: 9
+ep: 5000
+ub: '+4'
+merkmale:
+- name: 'Diabolische Genesung:'
+  beschreibung: Wenn der Teufel außerhalb der Neun Höllen stirbt, löst sein Körper sich in Schwefeldampf auf. Der Teufel erhält
+    sofort einen neuen Körper, der mit allen Trefferpunkten irgendwo in den Neun Höllen aufersteht.
+- name: 'Magieresistenz:'
+  beschreibung: Der Teufel ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Teufel führt einen Infernalischer- Stachel-Angriff und zwei Klauenangriffe aus.
+- name: 'Infernalischer Stachel:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reichweite 3 m. Treffer: 15 (2W10+4) Stichschaden plus 18 (4W8) Giftschaden, und
+    das Ziel ist bis zum Beginn des nächsten Zugs des Teufels vergiftet. Solange das Ziel vergiftet ist, kann es keine Trefferpunkte
+    zurückerhalten.'
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reichweite 3 m. Treffer: 13 (2W8+4) Hiebschaden.'

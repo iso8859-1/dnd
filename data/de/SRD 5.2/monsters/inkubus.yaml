@@ -1,0 +1,66 @@
+id: inkubus
+type: monster
+name: Inkubus
+lang: de
+groesse: Mittelgroß
+typ: Unhold
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+3'
+initiative_wert: 13
+tp: 66
+tp_formel: 12W8+12
+bewegungsrate: 9 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 8
+    mod: −1
+    rw: −1
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+fertigkeiten: Heimlichkeit +7, Motiv erkennen +5,
+resistenzen: Feuer, Gift, Kälte, Psychisch
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 15
+sprachen: Abyssisch, Gemeinsprache, Infernalisch;
+hg: 4
+ep: 1100
+ub: '+2'
+merkmale:
+- name: 'Sukkubus-Gestalt:'
+  beschreibung: Wenn der Inkubus eine lange Rast beendet, kann er sich in einen Sukkubus verwandeln und verwendet dann dessen
+    Wertekasten statt diesen. Ausrüstung, die er trägt oder hält, wird nicht verwandelt.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Inkubus führt zwei Angriffe mit Berührung der Rastlosigkeit aus.
+- name: 'Berührung der Rastlosigkeit:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 15 (3W6+5) psychischer Schaden, und das Ziel ist verflucht,
+    bis 24 Stunden vergangen sind oder der Inkubus stirbt. Das verfluchte Ziel erhält durch kurze Rasten keinen Vorzug.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Inkubus wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 15): Beliebig oft: Körperlosigkeit , Selbstverkleidung Je 1-mal täglich: Hypnotisches
+    Muster , Traum'
+bonusaktionen:
+- name: 'Albtraum (Aufladung 6):'
+  beschreibung: 'Weisheitsrettungswurf: SG 15; eine Kreatur im Abstand von bis zu 18 Metern vom Inkubus, die er sehen kann.
+    Misserfolg: Wenn das Ziel höchstens 20 Trefferpunkte hat, ist es bewusstlos, bis eine Stunde vergangen ist, bis es Schaden
+    erleidet oder bis eine Kreatur im Abstand von bis zu 1,5 Metern von ihm eine Aktion ausführt, um es zu wecken. Anderenfalls
+    erleidet das Ziel 18 (4W8) psychischen Schaden.'

@@ -1,0 +1,50 @@
+id: ankylosaurus
+type: monster
+name: Ankylosaurus
+lang: de
+groesse: Riesig
+typ: Tier (Dinosaurier)
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+0'
+initiative_wert: 10
+tp: 68
+tp_formel: 8W12+16
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+6'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+sinne: Passive Wahrnehmung 11
+sprachen: −
+hg: 3
+ep: 700
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Ankylosaurus führt zwei Schwanzangriffe aus.
+- name: 'Schwanz:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 3 m. Treffer: 9 (1W10+4) Wuchtschaden. Wenn das Ziel eine Kreatur von
+    höchstens riesiger Größe ist, wird es umgestoßen und hat den Zustand Liegend.'

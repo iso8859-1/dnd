@@ -1,0 +1,54 @@
+id: minotaurus-skelett
+type: monster
+name: Minotaurus-Skelett
+lang: de
+groesse: Groß
+typ: Untoter
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+0'
+initiative_wert: 10
+tp: 45
+tp_formel: 6W10+12
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 8
+    mod: −1
+    rw: −1
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+immunitaeten: Gift; Erschöpft, Vergiftet
+anfaelligkeiten: Wucht
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 9
+sprachen: Versteht Abyssisch, kann jedoch nicht sprechen
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Hieb:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 15 (2W10+4) Wuchtschaden.'
+- name: 'Zerfleischen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 11 (2W6+4) Stichschaden. Wenn das Ziel eine Kreatur
+    von höchstens großer Größe ist und das Skelett sich unmittelbar vor dem Treffer mindestens sechs Meter weit in gerader
+    Linie auf das Ziel zubewegt hat, erleidet das Ziel zusätzlich 9 (2W8) Stichschaden, wird umgestoßen und hat den Zustand
+    Liegend.'

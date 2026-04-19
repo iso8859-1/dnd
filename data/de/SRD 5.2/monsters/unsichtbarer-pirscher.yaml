@@ -1,0 +1,62 @@
+id: unsichtbarer-pirscher
+type: monster
+name: Unsichtbarer Pirscher
+lang: de
+groesse: Groß
+typ: Elementar
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+7'
+initiative_wert: 22
+tp: 97
+tp_formel: 13W10+26
+bewegungsrate: 15 m, Fliegen 15 m (Schweben)
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Heimlichkeit +10, Wahrnehmung +8
+immunitaeten: Gift; Bewusstlos, Erschöpft, Festgesetzt,
+resistenzen: Hieb, Stich, Wucht
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 18
+sprachen: Gemeinsprache, Urtümlich (Aural)
+hg: 6
+ep: 2300
+ub: '+3'
+merkmale:
+- name: 'Luftgestalt:'
+  beschreibung: Der Pirscher kann in den Bereich eines Gegners eindringen und dort stoppen. Er kann sich durch enge Bereiche
+    von nur 2,5 Zentimetern Durchmesser bewegen, ohne zusätzliche Bewegung aufzuwenden.
+- name: 'Unsichtbarkeit:'
+  beschreibung: Der Pirscher ist unsichtbar.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Pirscher führt drei Windstreich- Angriffe aus. Er kann einen Angriff durch einen Einsatz von Wirbel ersetzen.
+- name: 'Windstreich:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 11 (2W6+4) Energieschaden.'
+- name: 'Wirbel:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 14; eine Kreatur von höchstens großer Größe im Bereich des Pirschers. Misserfolg:
+    7 (1W8+3) Schallschaden, und das Ziel wird gepackt (Flucht-SG 13). Das gepackte Ziel kann keine Zauber mit Verbalkomponente
+    wirken und erleidet zu Beginn jedes Zugs des Pirschers 7 (2W6) Schallschaden.'

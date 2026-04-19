@@ -1,0 +1,56 @@
+id: schreckgespenst
+type: monster
+name: Schreckgespenst
+lang: de
+groesse: Mittelgroß
+typ: Untoter
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 22
+tp_formel: 5W8
+bewegungsrate: 9 m, Fliegen 15 m (Schweben)
+attribute:
+  sta:
+    wert: 1
+    mod: −5
+    rw: −5
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+immunitaeten: Gift, Nekrotisch; Bewusstlos, Bezaubert,
+resistenzen: Blitz, Feuer, Hieb, Kälte, Säure, Schall, Stich,
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: Versteht Gemeinsprache und eine weitere
+hg: 1
+ep: 200
+ub: '+2'
+merkmale:
+- name: 'Empfindlich gegenüber Sonnenlicht:'
+  beschreibung: Im Sonnenlicht ist das Schreckgespenst bei Angriffs- und Attributswürfen im Nachteil.
+- name: 'Körperlose Bewegung:'
+  beschreibung: Das Schreckgespenst kann sich durch andere Kreaturen und Gegenstände bewegen, als wären sie schwieriges Gelände.
+    Es erleidet 5 (1W10) Energieschaden, wenn es den Zug in einem Gegenstand beendet.
+aktionen:
+- name: 'Lebensentzug:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 7 (2W6) nekrotischer Schaden. Wenn das Ziel eine Kreatur
+    ist, wird sein Trefferpunktemaximum um einen Betrag in Höhe des erlittenen Schadens verringert.'

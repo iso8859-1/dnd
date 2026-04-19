@@ -1,0 +1,54 @@
+id: roter-drachennestling
+type: monster
+name: Roter Drachennestling
+lang: de
+groesse: Mittelgroß
+typ: Drache (chromatisch)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+2'
+initiative_wert: 12
+tp: 75
+tp_formel: 10W8+30
+bewegungsrate: 9 m, Fliegen 18 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+2'
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+2'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Heimlichkeit +2, Wahrnehmung +4
+immunitaeten: Feuer
+sinne: Blindsicht 3 m, Dunkelsicht 18 m;
+sprachen: Drakonisch
+hg: 4
+ep: 1100
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt zwei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 9 (1W10+4) Hiebschaden plus 3 (1W6) Feuerschaden.'
+- name: 'Feuerodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungswurf: SG 13; jede Kreatur in einem Kegel von 4,5 Metern. Misserfolg: 24 (7W6) Feuerschaden.
+    Erfolg: Halber Schaden.'

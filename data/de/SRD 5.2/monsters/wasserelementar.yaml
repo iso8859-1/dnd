@@ -1,0 +1,66 @@
+id: wasserelementar
+type: monster
+name: Wasserelementar
+lang: de
+groesse: Groß
+typ: Elementar
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+2'
+initiative_wert: 12
+tp: 114
+tp_formel: 12W10+48
+bewegungsrate: 9 m, Schwimmen 27 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 8
+    mod: −1
+    rw: −1
+immunitaeten: Gift; Bewusstlos, Erschöpft, Festgesetzt,
+resistenzen: Feuer, Säure
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: Urtümlich (Aqual)
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Einfrieren:'
+  beschreibung: Wenn der Elementar Kälteschaden erleidet, so ist seine Bewegungsrate bis zum Ende seines nächsten Zugs um
+    sechs Meter verringert.
+- name: 'Wassergestalt:'
+  beschreibung: Der Elementar kann in den Bereich eines Gegners eindringen und dort stoppen. Er kann sich durch enge Bereiche
+    von nur 2,5 Zentimetern Durchmesser bewegen, ohne zusätzliche Bewegung aufzuwenden.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Elementar führt zwei Hiebangriffe aus.
+- name: 'Hieb:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 13 (2W8+4) Wuchtschaden. Wenn das Ziel eine Kreatur
+    von höchstens mittelgroßer Größe ist, wird es umgestoßen und hat den Zustand Liegend.'
+- name: 'Überschutt (Aufladung 4–6):'
+  beschreibung: 'Stärkerettungswurf: SG 15; jede Kreatur im Bereich des Elementars. Misserfolg: 22 (4W8+4) Wuchtschaden. Wenn
+    das Ziel eine Kreatur von höchstens großer Größe ist, wird es gepackt (Flucht-SG 14). Das gepackte Ziel ist festgesetzt.
+    Es beginnt zu ersticken, es sei denn, es kann Wasser atmen, und erleidet zu Beginn jedes Zugs des Elementars 9 (2W8) Wuchtschaden.
+    Der Elementar kann eine große Kreatur oder bis zu zwei höchstens mittelgroße Kreaturen zugleich mit Überschutt gepackt
+    halten. Eine Kreatur im Abstand von bis zu 1,5 Metern vom Elementar kann als Aktion eine Kreatur oder herausziehen, sofern
+    sie einen SG-14-Stärkewurf (Athletik) besteht. Erfolg: Nur halber Schaden.'

@@ -1,0 +1,83 @@
+id: nachtvettel
+type: monster
+name: Nachtvettel
+lang: de
+groesse: Mittelgroß
+typ: Unhold
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+5'
+initiative_wert: 15
+tp: 112
+tp_formel: 15W8+45
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+fertigkeiten: Heimlichkeit +5, Motiv erkennen +5,
+immunitaeten: Bezaubert
+resistenzen: Feuer, Kälte
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 15
+sprachen: Abyssisch, Gemeinsprache, Infernalisch,
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Magieresistenz:'
+  beschreibung: Die Vettel ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+- name: 'Seelenbeutel:'
+  beschreibung: Die Vettel hat einen Seelenbeutel. Wenn sie diesen Beutel bei sich hat, kann sie ihre Albtraumspuk-Aktion
+    ausführen. Der Beutel besitzt eine RK von 15, 20 TP und ist gegen alle Schadensarten resistent. Wenn seine Trefferpunkte
+    auf 0 sinken, zerfällt der Beutel zu Staub. Wird der Beutel zerstört, so werden alle Seelen befreit, die er enthält. Die
+    Vettel kann nach sieben Tagen einen neuen Beutel erzeugen.
+- name: 'Zirkelmagie:'
+  beschreibung: 'Wenn die Vettel sich im Abstand von bis zu neun Metern von mindestens zwei Vettel-Verbündeten befindet, kann
+    sie einen der folgenden Zauber mit dem normalen Zeitaufwand und Intelligenz als Attribut zum Zauberwirken wirken, ohne
+    Materialkomponenten zu benötigen (Zauberrettungswurf-SG 14): Ausspähung , Gegenstand aufspüren , Identifizieren , Unsichtbarer
+    Diener , Vertrauten finden oder Vorahnung . Die Vettel muss eine lange Rast beenden, ehe sie dieses Merkmal erneut verwenden
+    kann, um den Zauber zu wirken.'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Vettel führt zwei Klauenangriffe aus.
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 13 (2W8+5) Hiebschaden.'
+- name: 'Albtraumspuk (1-mal täglich; Seelenbeutel erforderlich):'
+  beschreibung: Auf der Ätherebene wirkt die Vettel den Zauber Traum . Ihr Attribut zum Zauberwirken ist dasselbe wie beim
+    Ausführen der Zauberwirken-Aktion. Nur die Vettel kann als Bote des Zaubers fungieren, und das Ziel muss eine Kreatur
+    auf der materiellen Ebene sein, die von der Vettel gesehen werden kann. Der Zauber misslingt und ist vergeudet, wenn das
+    Ziel unter dem Effekt eines der Zauber Schutz vor Gut und Böse oder Schutzkreis steht. Wenn das Ziel durch den Zauber
+    Traum Schaden erleidet, wird das Trefferpunktemaximum des Ziels um eine Anzahl in Höhe dieses Schadens verringert. Tötet
+    der Zauber das Ziel, so wird dessen Seele im Seelenbeutel der Vettel gefangen, und das Ziel kann erst von den Toten auferweckt
+    werden, wenn seine Seele befreit wird.
+- name: 'Zauberwirken:'
+  beschreibung: 'Die Vettel wirkt einen der folgenden Zauber mit Intelligenz als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 14): Beliebig oft: Körperlosigkeit , Magie entdecken , Magisches Geschoss (Version
+    des 4. Grades) Je 2-mal täglich: Ebenenwechsel (nur auf sich selbst), Tödliches Phantom'
+bonusaktionen:
+- name: 'Gestaltwandeln:'
+  beschreibung: Die Vettel nimmt die Gestalt eines Humanoiden von höchstens mittelgroßer Größe oder wieder ihre wahre Gestalt
+    an. Seine Spielwerte sind abgesehen von der Größe in allen Gestalten gleich. Ausrüstung, die er trägt oder hält, wird
+    nicht verwandelt.

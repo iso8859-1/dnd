@@ -1,0 +1,58 @@
+id: otyugh
+type: monster
+name: Otyugh
+lang: de
+groesse: Groß
+typ: Aberration
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+0'
+initiative_wert: 10
+tp: 104
+tp_formel: 11W10+44
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 19
+    mod: '+4'
+    rw: '+7'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 11
+sprachen: Otyughisch; Telepathie auf 36 m
+hg: 5
+ep: 1800
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Otyugh führt einen Bissangriff und zwei Tentakelangriffe aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 12 (2W8+3) Stichschaden, und das Ziel ist vergiftet.
+    Wann immer das vergiftete Ziel eine lange Rast beendet, erleidet es den folgenden Effekt: Konstitutionsrettungswurf: SG
+    15. Misserfolg: Das Trefferpunktemaximum des Ziels wird um 5 (1W10) verringert und normalisiert sich nicht, solange das
+    Ziel vergiftet ist. Erfolg: Das Ziel ist nicht mehr vergiftet.'
+- name: 'Tentakel:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 3 m. Treffer: 12 (2W8+3) Stichschaden. Wenn das Ziel eine Kreatur von
+    höchstens mittelgroßer Größe ist, wird es von einem der beiden Tentakel gepackt (Flucht-SG 13).'
+- name: 'Tentakelhieb:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 14; jede Kreatur, die vom Otyugh gepackt wurde. Misserfolg: 16 (3W8+3) Wuchtschaden,
+    und das Ziel ist bis zum Beginn des nächsten Zugs des Otyughs betäubt. Erfolg: Nur halber Schaden.'

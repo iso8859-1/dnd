@@ -1,0 +1,56 @@
+id: ritter
+type: monster
+name: Ritter
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+0'
+initiative_wert: 10
+tp: 52
+tp_formel: 8W8+16
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+4'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+2'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+immunitaeten: Verängstigt
+ausruestung: Ritterrüstung, Schwere Armbrust,
+sinne: Passive Wahrnehmung 10
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 3
+ep: 700
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Ritter führt zwei Angriffe mit Zweihandschwert oder schwerer Armbrust in beliebiger Kombination aus.
+- name: 'Zweihandschwert:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 10 (2W6+3) Hiebschaden plus 4 (1W8) gleißender Schaden.'
+- name: 'Schwere Armbrust:'
+  beschreibung: 'Fernkampfangriffswurf: +2, Reichweite 30/120 m. Treffer: 11 (2W10) Stichschaden plus 4 (1W8) gleißender Schaden.'
+reaktionen:
+- name: 'Parieren:'
+  beschreibung: 'Auslöser: Der Ritter wird von einem Nahkampf angriffswurf getroffen, während er eine Waffe hält. Antwort:
+    Der Ritter fügt seiner RK gegen diesen Angriff 2 hinzu, sodass der Angriff möglicherweise misslingt.'

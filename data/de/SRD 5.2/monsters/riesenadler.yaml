@@ -1,0 +1,50 @@
+id: riesenadler
+type: monster
+name: Riesenadler
+lang: de
+typ: Großes celestisches Wesen
+gesinnung: neutral gut
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 26
+tp_formel: 4W10+4
+bewegungsrate: 3 m, Fliegen 24 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 8
+    mod: −1
+    rw: −1
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Wahrnehmung +6
+resistenzen: Gleißend, Nekrotisch
+sinne: Passive Wahrnehmung 16
+sprachen: Celestisch; versteht Gemeinsprache und
+hg: 1
+ep: 200
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Adler führt zwei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 5 (1W4+3) Hiebschaden plus 3 (1W6) gleißender Schaden.'

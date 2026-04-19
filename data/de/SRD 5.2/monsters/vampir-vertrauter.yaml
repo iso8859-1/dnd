@@ -1,0 +1,61 @@
+id: vampir-vertrauter
+type: monster
+name: Vampir-Vertrauter
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+5'
+initiative_wert: 15
+tp: 65
+tp_formel: 10W8+30
+bewegungsrate: 9 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+5'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+2'
+  cha:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Heimlichkeit +7, Überzeugen +4,
+immunitaeten: Bezaubert (außer durch Vampirmeister)
+resistenzen: Nekrotisch
+ausruestung: Dolche (10)
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 3
+ep: 700
+ub: '+2'
+merkmale:
+- name: 'Vampirische Verbindung:'
+  beschreibung: Solange der Vertraute und sein Vampirmeister sich auf derselben Existenzebene befinden, kann der Vampirmeister
+    telepathisch mit dem Vertrauten kommunizieren und durch dessen Sinne wahrnehmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Vertraute führt zwei Schattendolch-Angriffe aus.
+- name: 'Schattendolch:'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +5, Reichweite 1,5 m oder Reichweite 6/18 m. Treffer: 5 (1W4+3) Stichschaden
+    plus 7 (3W4) nekrotischer Schaden. Wenn die Trefferpunkte des Ziels durch diesen Angriff auf 0 sinken, bleibt das Ziel
+    stabil, ist jedoch eine Stunde lang vergiftet. Solange es vergiftet ist, ist das Ziel außerdem gelähmt.'
+bonusaktionen:
+- name: 'Untote Wendigkeit:'
+  beschreibung: Der Vertraute führt die Spurt- oder die Rückzug-Aktion aus.

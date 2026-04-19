@@ -1,0 +1,59 @@
+id: seeoger
+type: monster
+name: Seeoger
+lang: de
+groesse: Groß
+typ: Monstrosität
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+2'
+initiative_wert: 12
+tp: 45
+tp_formel: 6W10+12
+bewegungsrate: 3 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 8
+    mod: −1
+    rw: −1
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 9
+    mod: −1
+    rw: −1
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: Abyssisch, Urtümlich (Aqual)
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Seeoger kann Luft und Wasser atmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Seeoger führt zwei Angriffe mit Biss, Harpune und Klauen in beliebiger Kombination aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 6 (1W4+4) Stichschaden, und das Ziel ist bis zum Beginn
+    des nächsten Zugs des Seeogers vergiftet.'
+- name: 'Harpune:'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +6, Reichweite 1,5 m oder Reichweite 6/18 m. Treffer: 11 (2W6+4) Stichschaden.
+    Wenn das Ziel eine Kreatur von höchstens großer Größe ist, zieht der Seeoger es bis zu 4,5 Meter weit in gerader Linie
+    auf sich zu.'
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 9 (2W4+4) Hiebschaden.'

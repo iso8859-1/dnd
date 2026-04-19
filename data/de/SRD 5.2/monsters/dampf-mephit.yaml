@@ -1,0 +1,59 @@
+id: dampf-mephit
+type: monster
+name: Dampf-Mephit
+lang: de
+groesse: Klein
+typ: Elementar
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 10
+initiative: '+0'
+initiative_wert: 10
+tp: 17
+tp_formel: 5W6
+bewegungsrate: 9 m, Fliegen 9 m
+attribute:
+  sta:
+    wert: 5
+    mod: −3
+    rw: −3
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+fertigkeiten: Heimlichkeit +2
+immunitaeten: Feuer, Gift; Erschöpft, Vergiftet
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: Urtümlich (Aqual, Ignal)
+hg: 1/4
+ep: 50
+ub: '+2'
+merkmale:
+- name: 'Todesexplosion:'
+  beschreibung: 'Der Mephit explodiert, wenn er stirbt. Geschicklichkeitsrettungswurf: SG 10; jede Kreatur in einer Ausströmung
+    von 1,5 Metern, die vom Mephiten ausgeht. Misserfolg: 5 (2W4) Feuerschaden. Erfolg: Halber Schaden.'
+- name: 'Verschwommene Gestalt:'
+  beschreibung: Angriffswürfe gegen den Mephiten sind im Nachteil, sofern der Mephit nicht kampfunfähig ist.
+aktionen:
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +2, Reichweite 1,5 m. Treffer: 2 (1W4) Hiebschaden plus 2 (1W4) Feuerschaden.'
+- name: 'Dampfodem (Aufladung 6):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 10; jede Kreatur in einem Kegel von 4,5 Metern. Misserfolg: 5 (2W4) Feuerschaden,
+    und die Bewegungsrate des Ziels ist bis zum Ende des nächsten Zugs des Mephiten um drei Meter verringert. Erfolg: Nur
+    halber Schaden. Erfolg oder Misserfolg: Unter Wasser zu sein gewährt keine Resistenz gegen diesen Feuerschaden.'

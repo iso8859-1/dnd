@@ -1,0 +1,85 @@
+id: krake
+type: monster
+name: Krake
+lang: de
+groesse: Gigantisch
+typ: Monstrosität (Titan)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+14'
+initiative_wert: 24
+tp: 481
+tp_formel: 26W20+208
+bewegungsrate: 9 m, Schwimmen 36 m
+attribute:
+  sta:
+    wert: 30
+    mod: '+10'
+    rw: '+17'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+7'
+  kon:
+    wert: 26
+    mod: '+8'
+    rw: '+15'
+  int:
+    wert: 22
+    mod: '+6'
+    rw: '+6'
+  wei:
+    wert: 18
+    mod: '+4'
+    rw: '+11'
+  cha:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+fertigkeiten: Geschichte +13, Wahrnehmung +11
+immunitaeten: Blitz, Kälte; Festgesetzt, Gelähmt, Gepackt,
+sinne: Wahrer Blick 36 m; Passive Wahrnehmung 21
+sprachen: Versteht Abyssisch, Celestisch, Infernalisch
+hg: 23
+ep: 50000
+ub: '+7'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Krake kann Luft und Wasser atmen.
+- name: 'Belagerungsmonster:'
+  beschreibung: Der Krake fügt Gegenständen und Gebäuden doppelten Schaden zu.
+- name: 'Legendäre Resistenz (4-mal täglich, im Hort 5-mal täglich):'
+  beschreibung: Wenn der Krake bei einem Rettungswurf scheitert, kann er beschließen, ihn stattdessen zu bestehen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Krake führt zwei Tentakelangriffe aus und setzt Blitzschlag, Schleudern oder Verschlucken ein.
+- name: 'Tentakel:'
+  beschreibung: 'Nahkampfangriffswurf: +17, Reichweite 4,5 m. Treffer: 24 (4W6+10) Wuchtschaden. Das Ziel wird von einem der
+    zehn Tenakel gepackt (Flucht-SG 20). Solange es gepackt bleibt, ist es außerdem festgesetzt.'
+- name: 'Blitzschlag:'
+  beschreibung: 'Geschicklichkeitsrettungswurf: SG 23; eine Kreatur im Abstand von bis zu 36 Metern vom Kraken, die er sehen
+    kann. Misserfolg: 33 (6W10) Blitzschaden. Erfolg: Halber Schaden.'
+- name: 'Schleudern:'
+  beschreibung: 'Der Krake schleudert eine Kreatur von höchstens großer Größe, die er gepackt hält, in einen Bereich im Abstand
+    von bis zu 18 Metern von sich, den er sehen kann und der sich nicht in der Luft befindet. Geschicklichkeitsrettungswurf:
+    SG 25; die geworfene Kreatur und jede Kreatur im Zielbereich. Misserfolg: 18 (4W8) Wuchtschaden, und das Ziel wird umgestoßen
+    und hat den Zustand Liegend. Erfolg: Nur halber Schaden.'
+- name: 'Verschlucken:'
+  beschreibung: 'Geschicklichkeitsrettungswurf: SG 25; eine Kreatur, die vom Kraken gepackt wurde (der Krake kann bis zu vier
+    Kreaturen verschlucken). Misserfolg: 23 (3W8+10) Stichschaden. Wenn das Ziel von höchstens großer Größe ist, wird es verschluckt
+    und ist dann nicht mehr gepackt. Eine verschluckte Kreatur ist festgesetzt, hat vollständige Deckung gegen Angriffe sowie
+    andere Effekte von außerhalb des Kraken und erleidet zu Beginn jedes ihrer Züge 24 (7W6) Säureschaden. Erleidet der Krake
+    durch eine verschluckte Kreatur in einem einzigen Zug mindestens 50 Schaden, so muss er am Ende des Zugs einen SG-25-Konstitutions-
+    rettungswurf bestehen, oder er würgt alle verschluckten Kreaturen wieder aus. Diese fallen in Bereiche im Abstand von
+    bis zu drei Metern vom Kraken und haben den Zustand Liegend. Wenn der Krake stirbt, sind die verschluckten Kreaturen nicht
+    mehr festgesetzt und können aus dem Kadaver entkommen. Sie verbrauchen dabei 4,5 Meter Bewegung und haben danach den Zustand
+    Liegend.'
+legendaere_aktionen:
+- name: 'Giftige Tinte:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 23; jede Kreatur in einer Ausströmung von 4,5 Metern, die vom Kraken ausgeht,
+    während er sich unter Wasser befindet. Misserfolg: Das Ziel ist bis zum Ende des nächsten Zugs des Kraken blind und vergiftet.
+    Der Krake nutzt dann seine Bewegungsrate. Erfolg oder Misserfolg: Der Krake kann diese Aktion erst nach Beginn seines
+    nächsten Zugs erneut ausführen.'
+- name: 'Sturmblitz:'
+  beschreibung: Der Krake setzt Blitzschlag ein.

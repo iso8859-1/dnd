@@ -1,0 +1,64 @@
+id: modernder-schlurfer
+type: monster
+name: Modernder Schlurfer
+lang: de
+groesse: Groß
+typ: Pflanze
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 15
+initiative: −1 (9)
+tp: 110
+tp_formel: 13W10+39
+bewegungsrate: 9 m, Schwimmen 6 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 5
+    mod: −3
+    rw: −3
+fertigkeiten: Heimlichkeit +3
+immunitaeten: Blitz; Erschöpft, Taub
+resistenzen: Feuer, Kälte
+sinne: Blindsicht 18 m; Passive Wahrnehmung 10
+sprachen: −
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Blitzabsorption:'
+  beschreibung: Der modernde Schlurfer erleidet durch Blitze keinen Schaden, sondern erhält Trefferpunkte in Höhe des Blitzschadens
+    zurück.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der modernde Schlurfer führt drei Geladenes-Tentakel-Angriffe aus. Er kann einen Angriff durch einen Einsatz
+    von Einhüllen ersetzen.
+- name: 'Geladenes Tentakel:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 7 (1W6+4) Wuchtschaden plus 5 (2W4) Blitzschaden. Wenn
+    das Ziel eine Kreatur von höchstens mittelgroßer Größe ist, zieht der modernde Schlurfer es 1,5 Meter weit in gerader
+    Linie auf sich zu.'
+- name: 'Einhüllen:'
+  beschreibung: 'Stärkerettungswurf: SG 15; eine Kreatur von höchstens mittelgroßer Größe im Abstand von bis zu 1,5 Metern.
+    Misserfolg: Das Ziel wird in den Bereich des modernden Schlurfers gezogen und gepackt (Flucht-SG 14). Das gepackte Ziel
+    ist blind und festgesetzt und erleidet zu Beginn jedes seiner Züge 10 (3W6) Blitzschaden. Bewegt sich der modernde Schlurfer,
+    so bewegt sich das gepackte Ziel mit ihm. Dies verbraucht keine zusätzliche Bewegung. Der modernde Schlurfer kann mit
+    dieser Aktion nur jeweils eine Kreatur gepackt halten.'

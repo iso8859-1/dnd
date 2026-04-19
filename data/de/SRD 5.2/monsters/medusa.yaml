@@ -1,0 +1,61 @@
+id: medusa
+type: monster
+name: Medusa
+lang: de
+groesse: Mittelgroß
+typ: Monstrosität
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+6'
+initiative_wert: 16
+tp: 127
+tp_formel: 17W8+51
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+4'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Heimlichkeit +6, Täuschen +5,
+sinne: Dunkelsicht 45 m; Passive Wahrnehmung 14
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 6
+ep: 2300
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Medusa führt entweder zwei Klauenangriffe und einen Schlangenhaar-Angriff oder aber drei Giftstrahl-Angriffe
+    aus.
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 10 (2W6+3) Hiebschaden.'
+- name: 'Schlangenhaar:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 5 (1W4+3) Stichschaden plus 14 (4W6) Giftschaden.'
+- name: 'Giftstrahl:'
+  beschreibung: 'Fernkampfangriffswurf: +5, Reichweite 45 m. Treffer: 11 (2W8+2) Giftschaden.'
+bonusaktionen:
+- name: 'Versteinernder Blick (Aufladung 5–6):'
+  beschreibung: 'Konstitutions rettungswurf: SG 13; jede Kreatur in einem Kegel von neun Metern. Wenn die Medusa im Kegel
+    ihre Reflexion sieht, muss sie selbst den Rettungswurf ausführen. Erster Misserfolg: Das Ziel ist festgesetzt und wiederholt
+    den Rettungswurf am Ende seines nächsten Zugs, sofern es auch dann noch festgesetzt ist. Bei einem Erfolg endet der Effekt
+    bei ihm. Zweiter Misserfolg: Das Ziel ist nicht mehr festgesetzt, sondern versteinert.'

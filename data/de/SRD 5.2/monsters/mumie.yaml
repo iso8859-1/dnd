@@ -1,0 +1,56 @@
+id: mumie
+type: monster
+name: Mumie
+lang: de
+typ: Kleiner oder mittelgroßer Untoter
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 11
+initiative: −1 (9)
+tp: 58
+tp_formel: 9W8+18
+bewegungsrate: 6 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+3'
+  cha:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+immunitaeten: Gift, Nekrotisch; Bezaubert, Erschöpft,
+anfaelligkeiten: Feuer
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 11
+sprachen: Gemeinsprache und zwei weitere Sprachen
+hg: 3
+ep: 700
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Mumie führt zwei Fäulnisfaust- Angriffe aus und setzt Fürchterliches Starren ein.
+- name: 'Fäulnisfaust:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 8 (1W10+3) Wuchtschaden plus 10 (3W6) nekrotischer Schaden.
+    Wenn das Ziel eine Kreatur ist, wird es verflucht. Das verfluchte Ziel kann keine Trefferpunkte zurückerhalten. Sein Trefferpunktemaximum
+    normalisiert sich nicht nach einer langen Rast und wird alle 24 Stunden um 10 (3W6) verringert. Wenn die Trefferpunkte
+    einer Kreatur durch diesen Angriff auf 0 sinken, stirbt die Kreatur und zerfällt zu Staub.'
+- name: 'Fürchterliches Starren:'
+  beschreibung: 'Weisheitsrettungswurf: SG 11; eine Kreatur im Abstand von bis zu 18 Metern von der Mumie, die von der Mumie
+    gesehen werden kann. Misserfolg: Das Ziel ist bis zum Ende des nächsten Zugs der Mumie verängstigt. Erfolg: Das Ziel ist
+    24 Stunden lang gegen das Fürchterliche Starren dieser Mumie immun.'

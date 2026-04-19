@@ -1,0 +1,51 @@
+id: krabbe
+type: monster
+name: Krabbe
+lang: de
+groesse: Winzig
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 11
+initiative: '+0'
+initiative_wert: 10
+tp: 3
+tp_formel: 1W4+1
+bewegungsrate: 6 m, Schwimmen 6 m
+attribute:
+  sta:
+    wert: 6
+    mod: −2
+    rw: −2
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 8
+    mod: −1
+    rw: −1
+  cha:
+    wert: 2
+    mod: −4
+    rw: −4
+fertigkeiten: Heimlichkeit +2
+sinne: Blindsicht 9 m; Passive Wahrnehmung 9
+sprachen: −
+hg: 0
+ep: 10
+ub: '+2'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Die Krabbe kann Luft und Wasser atmen.
+aktionen:
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +2, Reichweite 1,5 m. Treffer: 1 Wuchtschaden.'

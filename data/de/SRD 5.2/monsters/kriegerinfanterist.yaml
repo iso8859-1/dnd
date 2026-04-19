@@ -1,0 +1,51 @@
+id: kriegerinfanterist
+type: monster
+name: Kriegerinfanterist
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+0'
+initiative_wert: 10
+tp: 9
+tp_formel: 2W8
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 8
+    mod: −1
+    rw: −1
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 8
+    mod: −1
+    rw: −1
+ausruestung: Kettenhemd, Speer
+sinne: Passive Wahrnehmung 10
+sprachen: Gemeinsprache
+hg: 1/8
+ep: 25
+ub: '+2'
+merkmale:
+- name: 'Rudeltaktik:'
+  beschreibung: Der Krieger ist beim Angriffswurf gegen eine Kreatur im Vorteil, wenn sich mindestens einer seiner Verbündeten,
+    der nicht kampfunfähig ist, im Abstand von bis zu 1,5 Metern von der Kreatur befindet.
+aktionen:
+- name: 'Speer:'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +3, Reichweite 1,5 m oder Reichweite 6/18 m. Treffer: 4 (1W6+1) Stichschaden.'

@@ -1,0 +1,51 @@
+id: schwertwal
+type: monster
+name: Schwertwal
+lang: de
+groesse: Riesig
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 90
+tp_formel: 12W12+12
+bewegungsrate: 1,5 m, Schwimmen 18 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +3
+sinne: Blindsicht 36 m; Passive Wahrnehmung 13
+sprachen: −
+hg: 3
+ep: 700
+ub: '+2'
+merkmale:
+- name: 'Atem anhalten:'
+  beschreibung: Der Wal kann 30 Minuten lang den Atem anhalten.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 21 (5W6+4) Stichschaden.'

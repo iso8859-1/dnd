@@ -1,0 +1,59 @@
+id: junger-messingdrache
+type: monster
+name: Junger Messingdrache
+lang: de
+groesse: Groß
+typ: Drache (metallisch)
+gesinnung: chaotisch gut
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+3'
+initiative_wert: 13
+tp: 110
+tp_formel: 13W10+39
+bewegungsrate: 12 m, Fliegen 24 m, Graben 6 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+3'
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+3'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Heimlichkeit +3, Überzeugen +5,
+immunitaeten: Feuer
+sinne: Blindsicht 9 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 6
+ep: 2300
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus. Er kann zwei Angriffe durch einen Einsatz von Schlafodem ersetzen.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 15 (2W10+4) Hiebschaden.'
+- name: 'Feuerodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungswurf: SG 14; jede Kreatur in einer 12 Meter langen, 1,5 Meter breiten Linie. Misserfolg:
+    38 (11W6) Feuerschaden. Erfolg: Halber Schaden.'
+- name: 'Schlafodem:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 14; jede Kreatur in einem Kegel von neun Metern. Misserfolg: Das Ziel ist bis
+    zum Ende seines nächsten Zugs kampfunfähig. Dann wiederholt es den Rettungswurf. Zweiter Misserfolg: Das Ziel ist eine
+    Minute lang bewusstlos. Dieser Effekt endet beim Ziel, wenn es Schaden erleidet oder eine Kreatur im Abstand von bis zu
+    1,5 Metern von ihm eine Aktion ausführt, um es zu wecken.'

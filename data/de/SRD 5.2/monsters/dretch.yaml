@@ -1,0 +1,53 @@
+id: dretch
+type: monster
+name: Dretch
+lang: de
+groesse: Klein
+typ: Unhold (Dämon)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 11
+initiative: '+0'
+initiative_wert: 10
+tp: 18
+tp_formel: 4W6+4
+bewegungsrate: 6 m
+attribute:
+  sta:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 8
+    mod: −1
+    rw: −1
+  cha:
+    wert: 3
+    mod: −4
+    rw: −4
+immunitaeten: Gift; Vergiftet
+resistenzen: Blitz, Feuer, Kälte
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 9
+sprachen: Abyssisch; Telepathie auf 18 m (nur mit Kreaturen,
+hg: 1/4
+ep: 50
+ub: '+2'
+aktionen:
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +3, Reichweite 1,5 m. Treffer: 4 (1W6+1) Hiebschaden.'
+- name: 'Stinkwolke (1-mal täglich):'
+  beschreibung: 'Konstitutionsrettungswurf: SG 11; jede Kreatur in einer Ausströmung von drei Metern, die vom Dretch ausgeht.
+    Misserfolg: Das Ziel ist bis zum Ende seines nächsten Zugs vergiftet. Eine vergiftete Kreatur kann keine Reaktionen ausführen.
+    Außerdem kann sie in ihrem Zug entweder eine Aktion oder eine Bonusaktion ausführen, aber nicht beides.'

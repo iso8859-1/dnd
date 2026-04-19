@@ -1,0 +1,50 @@
+id: belebte-rustung
+type: monster
+name: Belebte Rüstung
+lang: de
+groesse: Mittelgroß
+typ: Konstrukt
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+2'
+initiative_wert: 12
+tp: 33
+tp_formel: 6W8+6
+bewegungsrate: 7,5 m
+attribute:
+  sta:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 1
+    mod: −5
+    rw: −5
+  wei:
+    wert: 3
+    mod: −4
+    rw: −4
+  cha:
+    wert: 1
+    mod: −5
+    rw: −5
+immunitaeten: Gift, Psychisch; Bezaubert, Erschöpft,
+sinne: Blindsicht 18 m; Passive Wahrnehmung 6
+sprachen: −
+hg: 1
+ep: 200
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Rüstung führt zwei Hiebangriffe aus.
+- name: 'Hieb:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 5 (1W6+2) Wuchtschaden.'

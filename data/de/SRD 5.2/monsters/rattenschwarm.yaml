@@ -1,0 +1,55 @@
+id: rattenschwarm
+type: monster
+name: Rattenschwarm
+lang: de
+groesse: Mittelgroß
+typ: Schwarm winziger Tiere
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 10
+initiative: '+0'
+initiative_wert: 10
+tp: 14
+tp_formel: 4W8−4
+bewegungsrate: 9 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 9
+    mod: −1
+    rw: −1
+  ges:
+    wert: 11
+    mod: '+0'
+    rw: '+2'
+  kon:
+    wert: 9
+    mod: −1
+    rw: −1
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 3
+    mod: −4
+    rw: −4
+immunitaeten: Betäubt, Bezaubert, Festgesetzt, Gelähmt,
+resistenzen: Hieb, Stich, Wucht
+sinne: Dunkelsicht 9 m; Passive Wahrnehmung 10
+sprachen: −
+hg: 1/4
+ep: 50
+ub: '+2'
+merkmale:
+- name: 'Schwarm:'
+  beschreibung: Der Schwarm kann den Bereich einer anderen Kreatur besetzen und umgekehrt. Er kann sich durch jede Öffnung
+    bewegen, die groß genug für eine Ratte von winziger Größe ist. Der Schwarm kann weder Trefferpunkte zurückerhalten noch
+    temporäre Trefferpunkte erhalten.
+aktionen:
+- name: 'Bisse:'
+  beschreibung: 'Nahkampfangriffswurf: +2, Reichweite 1,5 m. Treffer: 5 (2W4) Stichschaden oder 2 (1W4) Stichschaden, wenn
+    der Schwarm blutig ist.'

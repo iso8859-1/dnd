@@ -1,0 +1,51 @@
+id: katze
+type: monster
+name: Katze
+lang: de
+groesse: Winzig
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 2
+tp_formel: 1W4
+bewegungsrate: 12 m, Klettern 12 m
+attribute:
+  sta:
+    wert: 3
+    mod: −4
+    rw: −4
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+4'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +3
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 13
+sprachen: −
+hg: 0
+ep: 10
+ub: '+2'
+merkmale:
+- name: 'Springer:'
+  beschreibung: Die Sprungdistanz der Katze wird anhand ihrer Geschicklichkeit statt anhand ihrer Stärke bestimmt.
+aktionen:
+- name: 'Kratzen:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 1 Hiebschaden.'

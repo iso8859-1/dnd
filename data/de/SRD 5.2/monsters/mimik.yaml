@@ -1,0 +1,62 @@
+id: mimik
+type: monster
+name: Mimik
+lang: de
+groesse: Mittelgroß
+typ: Monstrosität
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+3'
+initiative_wert: 13
+tp: 58
+tp_formel: 9W8+18
+bewegungsrate: 6 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 8
+    mod: −1
+    rw: −1
+fertigkeiten: Heimlichkeit +5
+immunitaeten: Säure; Liegend
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 11
+sprachen: −
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Haftend (nur in Gegenstandgestalt):'
+  beschreibung: Der Mimik bleibt an allem haften, was ihn berührt. Bleibt er an einer Kreatur von höchstens riesiger Größe
+    haften, so wird die Kreatur gepackt (Flucht-SG 13). Attributswürfe zum Entkommen aus diesem Haltegriff sind im Nachteil.
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +5 (im Vorteil, wenn das Ziel vom Mimik gepackt wurde), Reichweite 1,5 m. Treffer:
+    7 (1W8+3) Stichschaden – oder 12 (2W8+3) Stichschaden, wenn das Ziel vom Mimik gepackt wurde – plus 4 (1W8) Säureschaden.'
+- name: 'Scheinfuß:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 7 (1W8+3) Wuchtschaden plus 4 (1W8) Säure- schaden.
+    Wenn das Ziel eine Kreatur von höchstens großer Größe ist, wird es gepackt (Flucht-SG 13). Attributswürfe zum Entkommen
+    aus diesem Haltegriff sind im Nachteil.'
+bonusaktionen:
+- name: 'Gestaltwandeln:'
+  beschreibung: Der Mimik nimmt die Gestalt eines Gegenstands von kleiner oder mittelgroßer Größe an, wobei er seine Spielwerte
+    beibehält, oder er nimmt wieder seine wahre Gestalt an. Ausrüstung, die er trägt oder hält, wird nicht verwandelt.

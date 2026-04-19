@@ -1,0 +1,58 @@
+id: hollenhund
+type: monster
+name: Höllenhund
+lang: de
+groesse: Mittelgroß
+typ: Unhold
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 15
+initiative: '+1'
+initiative_wert: 11
+tp: 58
+tp_formel: 9W8+18
+bewegungsrate: 15 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+fertigkeiten: Wahrnehmung +5
+immunitaeten: Feuer
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 15
+sprachen: Versteht Infernalisch, kann jedoch nicht sprechen
+hg: 3
+ep: 700
+ub: '+2'
+merkmale:
+- name: 'Rudeltaktik:'
+  beschreibung: Der Hund ist beim Angriffswurf gegen eine Kreatur im Vorteil, wenn sich mindestens einer seiner Verbündeten,
+    der nicht kampfunfähig ist, im Abstand von bis zu 1,5 Metern von der Kreatur befindet.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Hund führt zwei Bissangriffe aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 7 (1W8+3) Stichschaden plus 3 (1W6) Feuerschaden.'
+- name: 'Feuerodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungs wurf: SG 12; jede Kreatur in einem Kegel von 4,5 Metern. Misserfolg: 17 (5W6)
+    Feuerschaden. Erfolg: Halber Schaden.'

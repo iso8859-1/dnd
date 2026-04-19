@@ -1,0 +1,59 @@
+id: junger-kupferdrache
+type: monster
+name: Junger Kupferdrache
+lang: de
+groesse: Groß
+typ: Drache (metallisch)
+gesinnung: chaotisch gut
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+4'
+initiative_wert: 14
+tp: 119
+tp_formel: 14W10+42
+bewegungsrate: 12 m, Fliegen 24 m, Klettern 12 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+4'
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+4'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Heimlichkeit +4, Täuschen +5,
+immunitaeten: Säure
+sinne: Blindsicht 9 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 7
+ep: 2900
+ub: '+3'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus. Er kann einen Angriff durch einen Einsatz von Bremsender Odem
+    ersetzen.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 15 (2W10+4) Hiebschaden.'
+- name: 'Bremsender Odem:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 14; jede Kreatur in einem Kegel von neun Metern. Misserfolg: Das Ziel kann
+    keine Reaktionen ausführen, und seine Bewegungsrate ist halbiert. Außerdem kann es in seinem Zug entweder eine Aktion
+    oder eine Bonusaktion ausführen, aber nicht beides. Dieser Effekt bleibt bis zum Ende seines nächsten Zugs bestehen.'
+- name: 'Säureodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungswurf: SG 14; jede Kreatur in einer 12 Meter langen, 1,5 Meter breiten Linie. Misserfolg:
+    40 (9W8) Säureschaden. Erfolg: Halber Schaden.'

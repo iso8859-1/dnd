@@ -1,0 +1,57 @@
+id: junger-schwarzer-drache
+type: monster
+name: Junger schwarzer Drache
+lang: de
+groesse: Groß
+typ: Drache (chromatisch)
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+5'
+initiative_wert: 15
+tp: 127
+tp_formel: 15W10+45
+bewegungsrate: 12 m, Fliegen 24 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+5'
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+3'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Heimlichkeit +5, Wahrnehmung +6
+immunitaeten: Säure
+sinne: Blindsicht 9 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 7
+ep: 2900
+ub: '+3'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Drache kann Luft und Wasser atmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 9 (2W4+4) Hiebschaden plus 3 (1W6) Säureschaden.'
+- name: 'Säureodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungswurf: SG 14; jede Kreatur in einer neun Meter langen, 1,5 Meter breiten Linie.
+    Misserfolg: 49 (14W6) Säureschaden. Erfolg: Halber Schaden.'

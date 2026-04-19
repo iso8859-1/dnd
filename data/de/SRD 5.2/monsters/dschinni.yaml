@@ -1,0 +1,79 @@
+id: dschinni
+type: monster
+name: Dschinni
+lang: de
+groesse: Groß
+typ: Elementar (Dschinn)
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+2'
+initiative_wert: 12
+tp: 218
+tp_formel: 19W10+114
+bewegungsrate: 9 m, Fliegen 27 m (Schweben)
+attribute:
+  sta:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+6'
+  kon:
+    wert: 22
+    mod: '+6'
+    rw: '+6'
+  int:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  wei:
+    wert: 16
+    mod: '+3'
+    rw: '+7'
+  cha:
+    wert: 20
+    mod: '+5'
+    rw: '+5'
+immunitaeten: Blitz, Schall
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 13
+sprachen: Urtümlich (Aural)
+hg: 11
+ep: 7200
+ub: '+4'
+merkmale:
+- name: 'Elementare Genesung:'
+  beschreibung: Wenn der Dschinni außerhalb der Elementarebene der Luft stirbt, löst sein Körper sich in Nebel auf. Der Dschinni
+    erhält nach 1W4 Tagen einen neuen Körper, der mit allen Trefferpunkten irgendwo auf der Elementarebene der Luft aufersteht.
+- name: 'Magieresistenz:'
+  beschreibung: Der Dschinni ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+- name: 'Wünsche:'
+  beschreibung: Der Dschinni kennt mit 30-prozentiger Wahrscheinlichkeit den Zauber Wunsch . Wenn er ihn kennt, kann er ihn
+    nur für eine Kreatur wirken, die kein Dschinn ist und die einen Wunsch auf eine Weise kommuniziert, die der Dschinni verstehen
+    kann. Wirkt der Dschinni den Zauber für diese Kreatur, so belastet ihn der Zauber in keiner Weise. Wenn er den Zauber
+    dreimal gewirkt hat, kann er dies erst nach 365 Tagen erneut tun.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Dschinni führt drei Angriffe mit Sturmklinge oder Sturmblitz in beliebiger Kombination aus.
+- name: 'Sturmklinge:'
+  beschreibung: 'Nahkampfangriffswurf: +9, Reichweite 1,5 m. Treffer: 12 (2W6+5) Hiebschaden plus 7 (2W6) Blitzschaden.'
+- name: 'Sturmblitz:'
+  beschreibung: 'Fernkampfangriffswurf: +9, Reichweite 36 m. Treffer: 13 (3W8) Schallschaden. Wenn das Ziel eine Kreatur von
+    höchstens großer Größe ist, wird es umgestoßen und hat den Zustand Liegend.'
+- name: 'Wirbelwind erzeugen:'
+  beschreibung: 'Der Dschinni beschwört einen Wirbelwind an einem Punkt im Abstand von bis zu 36 Metern von sich, den er sehen
+    kann. Der Wirbelwind füllt einen 18 Meter hohen Zylinder mit einem Radius von sechs Metern um diesen Punkt. Er bleibt
+    bestehen, bis die Konzentration des Dschinni auf ihn endet. Der Dschinni kann den Wirbelwind zu Beginn jedes seiner Züge
+    bis zu sechs Meter weit bewegen. Wann immer der Wirbelwind in den Bereich einer Kreatur eindringt oder eine Kreatur in
+    den Wirbelwind gerät, wirkt der folgende Effekt auf die Kreatur: Stärkerettungswurf: SG 17 (eine Kreatur führt diesen
+    Rettungswurf nur einmal pro Zug aus, und der Dschinni ist nicht betroffen). Misserfolg: Solange das Ziel sich im Wirbelwind
+    befindet, ist es festgesetzt und bewegt sich mit dem Wirbelwind. Zu Beginn jedes seiner Züge erleidet das festgesetzte
+    Ziel 21 (6W6) Schallschaden. Das Ziel wiederholt den Rettungswurf am Ende jedes seiner Züge. Bei einem Erfolg endet der
+    Effekt.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Dschinni wirkt einen der folgenden Zauber mit Charisma als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 17): Beliebig oft: Gutes und Böses entdecken , Magie entdecken Je 2-mal täglich:
+    Nahrung und Wasser erschaffen (kann Wein statt Wasser erschaffen), Windwandeln , Zungen Je 1-mal täglich: Ebenenwechsel
+    , Erschaffung , Gasförmige Gestalt , Mächtiges Trugbild , Unsichtbarkeit'

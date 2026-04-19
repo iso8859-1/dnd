@@ -1,0 +1,61 @@
+id: junger-bronzedrache
+type: monster
+name: Junger Bronzedrache
+lang: de
+groesse: Groß
+typ: Drache (metallisch)
+gesinnung: rechtschaffen gut
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+3'
+initiative_wert: 13
+tp: 142
+tp_formel: 15W10+60
+bewegungsrate: 12 m, Fliegen 24 m, Schwimmen 12 m
+attribute:
+  sta:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+3'
+  kon:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+4'
+  cha:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+fertigkeiten: Heimlichkeit +3, Motiv erkennen +4,
+immunitaeten: Blitz
+sinne: Blindsicht 9 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 8
+ep: 3900
+ub: '+3'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Drache kann Luft und Wasser atmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus. Er kann einen Angriff durch einen Einsatz von Odem der Abstoßung
+    ersetzen.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reichweite 3 m. Treffer: 16 (2W10+5) Hiebschaden.'
+- name: 'Blitzodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeitsrettungs wurf: SG 15; jede Kreatur in einer 18 Meter langen, 1,5 Meter breiten Linie. Misserfolg:
+    49 (9W10) Blitzschaden. Erfolg: Halber Schaden.'
+- name: 'Odem der Abstoßung:'
+  beschreibung: 'Stärkerettungswurf: SG 15; jede Kreatur in einem Kegel von neun Metern. Misserfolg: Das Ziel wird bis zu
+    zwölf Meter weit in gerader Linie vom Drachen weg- und umgestoßen, sodass es den Zustand Liegend hat.'

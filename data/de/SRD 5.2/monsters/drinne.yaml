@@ -1,0 +1,64 @@
+id: drinne
+type: monster
+name: Drinne
+lang: de
+groesse: Groß
+typ: Monstrosität
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 19
+initiative: '+4'
+initiative_wert: 14
+tp: 123
+tp_formel: 13W10+52
+bewegungsrate: 9 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  cha:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+fertigkeiten: Heimlichkeit +10, Wahrnehmung +6
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 16
+sprachen: Elfisch, Gemeinsprache der Unterreiche
+hg: 6
+ep: 2300
+ub: '+3'
+merkmale:
+- name: 'Empfindlich gegenüber Sonnenlicht:'
+  beschreibung: Im Sonnenlicht ist der Drinne bei Angriffs- und Attributswürfen im Nachteil.
+- name: 'Netzwandler:'
+  beschreibung: Der Drinne ignoriert Bewegungs- einschränkungen durch Netze und weiß genau, wo sich andere Kreaturen aufhalten,
+    die in Kontakt mit demselben Netz sind.
+- name: 'Spinnenklettern:'
+  beschreibung: Der Drinne kann ohne Attributswürfe schwierige Oberflächen erklimmen und sich an Decken entlang bewegen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drinne führt drei Angriffe mit Vorderbein oder Giftexplosion in beliebiger Kombination aus.
+- name: 'Vorderbein:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 13 (2W8+4) Stichschaden.'
+- name: 'Giftexplosion:'
+  beschreibung: 'Fernkampfangriffswurf: +6, Reichweite 36 m. Treffer: 13 (3W6+3) Giftschaden.'
+bonusaktionen:
+- name: 'Magie der Spinnenkönigin (Aufladung 5–6):'
+  beschreibung: Der Drinne wirkt einen der Zauber Dunkelheit , Feenfeuer oder Spinnennetz mit Weisheit als Attribut zum Zauberwirken,
+    ohne Materialkomponenten zu benötigen (Zauber rettungswurf-SG 14).

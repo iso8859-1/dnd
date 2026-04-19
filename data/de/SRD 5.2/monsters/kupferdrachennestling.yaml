@@ -1,0 +1,56 @@
+id: kupferdrachennestling
+type: monster
+name: Kupferdrachennestling
+lang: de
+groesse: Mittelgroß
+typ: Drache (metallisch)
+gesinnung: chaotisch gut
+source_book: SRD 5.2.1
+rk: 16
+initiative: '+3'
+initiative_wert: 13
+tp: 22
+tp_formel: 4W8+4
+bewegungsrate: 9 m, Fliegen 18 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+3'
+  kon:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+2'
+  cha:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+fertigkeiten: Heimlichkeit +3, Wahrnehmung +4
+immunitaeten: Säure
+sinne: Blindsicht 3 m, Dunkelsicht 18 m;
+sprachen: Drakonisch
+hg: 1
+ep: 200
+ub: '+2'
+aktionen:
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 7 (1W10+2) Hiebschaden.'
+- name: 'Bremsender Odem:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 11; jede Kreatur in einem Kegel von 4,5 Metern. Misserfolg: Das Ziel kann keine
+    Reaktionen ausführen, und seine Bewegungsrate ist halbiert. Außerdem kann es in seinem Zug entweder eine Aktion oder eine
+    Bonusaktion ausführen, aber nicht beides. Dieser Effekt bleibt bis zum Ende seines nächsten Zugs bestehen.'
+- name: 'Säureodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungswurf: SG 11; jede Kreatur in einer sechs Meter langen, 1,5 Meter breiten Linie.
+    Misserfolg: 18 (4W8) Säureschaden. Erfolg: Halber Schaden.'

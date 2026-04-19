@@ -1,0 +1,65 @@
+id: sturmriese
+type: monster
+name: Sturmriese
+lang: de
+groesse: Riesig
+typ: Riese
+gesinnung: chaotisch gut
+source_book: SRD 5.2.1
+rk: 16
+initiative: '+7'
+initiative_wert: 17
+tp: 230
+tp_formel: 20W12+100
+bewegungsrate: 15 m, Fliegen 7,5 m (Schweben),
+attribute:
+  sta:
+    wert: 29
+    mod: '+9'
+    rw: '+14'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 20
+    mod: '+5'
+    rw: '+10'
+  int:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  wei:
+    wert: 20
+    mod: '+5'
+    rw: '+10'
+  cha:
+    wert: 18
+    mod: '+4'
+    rw: '+9'
+fertigkeiten: Arkane Kunde +8, Athletik +14,
+immunitaeten: Blitz, Schall
+resistenzen: Kälte
+sinne: Dunkelsicht 36 m, Wahrer Blick 9 m;
+sprachen: Gemeinsprache, Riesisch
+hg: 13
+ep: 10000
+ub: '+5'
+merkmale:
+- name: 'Amphibisch:'
+  beschreibung: Der Riese kann Luft und Wasser atmen.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Riese führt zwei Angriffe mit Sturmschwert oder Donnerkeil in beliebiger Kombination aus.
+- name: 'Sturmschwert:'
+  beschreibung: 'Nahkampfangriffswurf: +14, Reichweite 3 m. Treffer: 23 (4W6+9) Hiebschaden plus 13 (3W8) Blitzschaden.'
+- name: 'Donnerkeil:'
+  beschreibung: 'Fernkampfangriffswurf: +14, Reichweite 150 m. Treffer: 22 (2W12+9) Blitzschaden, und das Ziel ist bis zum
+    Beginn des nächsten Zugs des Riesen blind und taub.'
+- name: 'Gewittersturm (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeits rettungswurf: SG 18, jede Kreatur in einem 12 Meter hohen Zylinder mit einem Radius von
+    drei Metern um einen Punkt im Abstand von bis zu 150 Metern vom Riesen, den er sehen kann. Misserfolg: 55 (10W10) Blitzschaden.
+    Erfolg: Halber Schaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Riese wirkt einen der folgenden Zauber mit Weisheit als Attribut zum Zauberwirken, ohne Materialkomponenten
+    zu benötigen (Zauber- rettungswurf-SG 18): Beliebig oft: Licht , Magie entdecken Je 1-mal täglich: Wetterkontrolle'

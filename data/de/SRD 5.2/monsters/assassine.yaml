@@ -1,0 +1,63 @@
+id: assassine
+type: monster
+name: Assassine
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 16
+initiative: '+10'
+initiative_wert: 20
+tp: 97
+tp_formel: 15W8+30
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 18
+    mod: '+4'
+    rw: '+7'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 16
+    mod: '+3'
+    rw: '+6'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+fertigkeiten: Akrobatik +7, Heimlichkeit +10,
+resistenzen: Gift
+ausruestung: Beschlagene Lederrüstung, Kurzschwert,
+sinne: Passive Wahrnehmung 16
+sprachen: Diebessprache, Gemeinsprache
+hg: 8
+ep: 3900
+ub: '+3'
+merkmale:
+- name: 'Entrinnen:'
+  beschreibung: Wenn ein Effekt auf den Assassinen wirkt, der ihm einen Geschicklichkeitsrettungswurf ermöglicht, damit er
+    nur den halben Schaden erleidet, so erleidet er stattdessen bei einem Erfolg gar keinen Schaden und bei Misserfolg nur
+    den halben Schaden. Sie kann dieses Merkmal nicht verwenden, wenn sie kampfunfähig ist.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Assassine führt drei Angriffe mit dem Kurzschwert oder der leichten Armbrust in beliebiger Kombination
+    aus.
+- name: 'Kurzschwert:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 1,5 m. Treffer: 7 (1W6+4) Stichschaden plus 17 (5W6) Giftschaden, und
+    das Ziel ist bis zum Beginn des nächsten Zugs des Assassinen vergiftet.'
+- name: 'Leichte Armbrust:'
+  beschreibung: 'Fernkampfangriffswurf: +7, Reichweite 24/96 m. Treffer: 8 (1W8+4) Stichschaden plus 21 (6W6) Giftschaden.'
+bonusaktionen:
+- name: 'Raffinierte Aktion:'
+  beschreibung: Der Assassine führt die Rückzug-, die Spurt- oder die Verstecken-Aktion aus.

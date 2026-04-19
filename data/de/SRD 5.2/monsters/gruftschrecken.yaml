@@ -1,0 +1,66 @@
+id: gruftschrecken
+type: monster
+name: Gruftschrecken
+lang: de
+groesse: Mittelgroß
+typ: Untoter
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 14
+initiative: '+4'
+initiative_wert: 14
+tp: 82
+tp_formel: 11W8+33
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +3
+immunitaeten: Gift; Erschöpft, Vergiftet
+resistenzen: Nekrotisch
+ausruestung: Beschlagene Lederrüstung
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 13
+sprachen: Gemeinsprache und eine weitere Sprache
+hg: 3
+ep: 700
+ub: '+2'
+merkmale:
+- name: 'Empfindlich gegenüber Sonnenlicht:'
+  beschreibung: Im Sonnenlicht ist der Gruftschrecken bei Angriffs- und Attributswürfen im Nachteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Gruftschrecken führt zwei Angriffe mit Nekrotisches Schwert oder Nekrotischer Bogen in beliebiger Kombination
+    aus. Er kann einen Angriff durch einen Einsatz von Lebensentzug ersetzen.
+- name: 'Nekrotisches Schwert:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 6 (1W8+2) Hiebschaden plus 4 (1W8) nekrotischer Schaden.'
+- name: 'Nekrotischer Bogen:'
+  beschreibung: 'Fernkampfangriffswurf: +4, Reichweite 45/180 m. Treffer: 6 (1W8+2) Stichschaden plus 4 (1W8) nekrotischer
+    Schaden.'
+- name: 'Lebensentzug:'
+  beschreibung: 'Konstitutionsrettungswurf: SG 13; eine Kreatur im Abstand von bis zu 1,5 Metern. Misserfolg: 6 (1W8+2) nekrotischer
+    Schaden, und das Trefferpunktemaximum des Ziels wird um eine Anzahl in Höhe des erlittenen Schadens verringert. Humanoide,
+    die durch diesen Angriff getötet werden, erheben sich 24 Stunden später als Zombies unter Kontrolle des Gruftschrecken,
+    sofern sie nicht zuvor wiederbelebt oder ihre Leichen zerstört werden. Der Gruftschrecken kann höchstens zwölf Zombies
+    zugleich unter seiner Kontrolle haben.'

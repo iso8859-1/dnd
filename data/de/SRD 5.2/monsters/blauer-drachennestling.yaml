@@ -1,0 +1,54 @@
+id: blauer-drachennestling
+type: monster
+name: Blauer Drachennestling
+lang: de
+groesse: Mittelgroß
+typ: Drache (chromatisch)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+2'
+initiative_wert: 12
+tp: 65
+tp_formel: 10W8+20
+bewegungsrate: 9 m, Fliegen 18 m, Graben 4,5 m
+attribute:
+  sta:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+2'
+  kon:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+2'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+fertigkeiten: Heimlichkeit +2, Wahrnehmung +4
+immunitaeten: Blitz
+sinne: Blindsicht 3 m, Dunkelsicht 18 m;
+sprachen: Drakonisch
+hg: 3
+ep: 700
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt zwei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 8 (1W10+3) Hiebschaden plus 3 (1W6) Blitzschaden.'
+- name: 'Blitzodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeitsrettungs wurf: SG 12; jede Kreatur in einer neun Meter langen, 1,5 Meter breiten Linie.
+    Misserfolg: 21 (6W6) Blitzschaden. Erfolg: Halber Schaden.'

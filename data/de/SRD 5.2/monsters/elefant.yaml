@@ -1,0 +1,54 @@
+id: elefant
+type: monster
+name: Elefant
+lang: de
+groesse: Riesig
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: –1 (9)
+tp: 76
+tp_formel: 8W12+24
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 22
+    mod: '+6'
+    rw: '+6'
+  ges:
+    wert: 9
+    mod: −1
+    rw: −1
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+sinne: Passive Wahrnehmung 10
+sprachen: −
+hg: 4
+ep: 1100
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Elefant führt zwei Zerfleischen- Angriffe aus.
+- name: 'Zerfleischen:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reichweite 1,5 m. Treffer: 15 (2W8+6) Stichschaden. Wenn das Ziel eine Kreatur
+    von höchstens riesiger Größe ist und der Elefant sich unmittelbar vor dem Treffer mindestens sechs Meter weit in gerader
+    Linie auf das Ziel zubewegt hat, wird das Ziel umgestoßen und hat den Zustand Liegend.'
+bonusaktionen:
+- name: 'Zertrampeln:'
+  beschreibung: 'Geschicklichkeitsrettungswurf: SG 16; eine Kreatur im Abstand von bis zu 1,5 Metern, die den Zustand Liegend
+    hat. Misserfolg: 17 (2W10+6) Wuchtschaden. Erfolg: Halber Schaden.'

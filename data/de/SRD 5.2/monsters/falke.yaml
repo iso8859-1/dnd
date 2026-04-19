@@ -1,0 +1,48 @@
+id: falke
+type: monster
+name: Falke
+lang: de
+groesse: Winzig
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 1
+tp_formel: 1W4−1
+bewegungsrate: 3 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 5
+    mod: −3
+    rw: −3
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 8
+    mod: −1
+    rw: −1
+  int:
+    wert: 2
+    mod: −4
+    rw: −4
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+fertigkeiten: Wahrnehmung +6
+sinne: Passive Wahrnehmung 16
+sprachen: −
+hg: 0
+ep: 10
+ub: '+2'
+aktionen:
+- name: 'Krallen:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 1 Hiebschaden.'

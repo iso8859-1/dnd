@@ -1,0 +1,72 @@
+id: erinnye
+type: monster
+name: Erinnye
+lang: de
+groesse: Mittelgroß
+typ: Unhold (Teufel)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+7'
+initiative_wert: 17
+tp: 178
+tp_formel: 21W8+84
+bewegungsrate: 9 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+7'
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+8'
+  int:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 18
+    mod: '+4'
+    rw: '+8'
+fertigkeiten: Überzeugen +8, Wahrnehmung +6
+immunitaeten: Feuer, Gift; Vergiftet
+resistenzen: Kälte
+sinne: Wahrer Blick 36 m; Passive Wahrnehmung 16
+sprachen: Infernalisch; Telepathie auf 36 m
+hg: 12
+ep: 8400
+ub: '+4'
+merkmale:
+- name: 'Diabolische Genesung:'
+  beschreibung: Wenn die Erinnye außerhalb der Neun Höllen stirbt, löst ihr Körper sich in Schwefeldampf auf. Die Erinnye
+    erhält sofort einen neuen Körper, der mit allen Trefferpunkten irgendwo in den Neun Höllen aufersteht.
+- name: 'Magieresistenz:'
+  beschreibung: Die Erinnye ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+- name: 'Magisches Seil:'
+  beschreibung: Die Erinnye hat ein magisches Seil. Solange sie es mitführt, kann sie die Fesselndes-Seil- Aktion ausführen.
+    Das Seil besitzt eine RK von 20, 90 Trefferpunkte und ist gegen Gift- und psychischen Schaden immun. Es zerfällt zu Staub,
+    wenn seine Trefferpunkte auf 0 sinken, wenn es mindestens eine Stunde lang weiter als 1,5 Meter von der Erinnye entfernt
+    ist oder wenn die Erinnye stirbt. Wird das Seil beschädigt oder zerstört, so kann die Erinnye es vollständig wiederherstellen,
+    wenn sie eine kurze oder lange Rast beendet.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Die Erinnye führt drei Vernichtendes- Schwert-Angriffe aus und kann Fesselndes Seil einsetzen.
+- name: 'Vernichtendes Schwert:'
+  beschreibung: 'Nahkampfangriffswurf: +8, Reichweite 1,5 m. Treffer: 13 (2W8+4) Hiebschaden plus 11 (2W10) nekrotischer Schaden.'
+- name: 'Fesselndes Seil (erfordert magisches Seil):'
+  beschreibung: 'Stärkerettungswurf: SG 16; eine Kreatur im Abstand von bis zu 36 Metern von der Erinnye, die von der Erinnye
+    gesehen werden kann. Misserfolg: 14 (4W6) Energieschaden, und das Ziel ist festgesetzt, bis das Seil zerstört wird, bis
+    die Erinnye das Ziel mit einer Bonusaktion befreit oder bis die Erinnye Fesselndes Seil erneut einsetzt.'
+reaktionen:
+- name: 'Parieren:'
+  beschreibung: 'Auslöser: Die Erinnye wird von einem Nah- kampfangriffswurf getroffen, während sie eine Waffe hält. Antwort:
+    Die Erinnye fügt ihrer RK gegen diesen Angriff 4 hinzu, sodass der Angriff möglicherweise misslingt.'

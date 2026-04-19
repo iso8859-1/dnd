@@ -1,0 +1,68 @@
+id: hornteufel
+type: monster
+name: Hornteufel
+lang: de
+groesse: Groß
+typ: Unhold (Teufel)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+7'
+initiative_wert: 17
+tp: 199
+tp_formel: 19W10+95
+bewegungsrate: 9 m, Fliegen 18 m
+attribute:
+  sta:
+    wert: 22
+    mod: '+6'
+    rw: '+10'
+  ges:
+    wert: 17
+    mod: '+3'
+    rw: '+7'
+  kon:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 16
+    mod: '+3'
+    rw: '+7'
+  cha:
+    wert: 18
+    mod: '+4'
+    rw: '+8'
+immunitaeten: Feuer, Gift; Vergiftet
+resistenzen: Kälte
+sinne: Dunkelsicht 45 m (wird nicht durch magische
+sprachen: Infernalisch; Telepathie auf 36 m
+hg: 11
+ep: 7200
+ub: '+4'
+merkmale:
+- name: 'Diabolische Genesung:'
+  beschreibung: Wenn der Teufel außerhalb der Neun Höllen stirbt, löst sein Körper sich in Schwefeldampf auf. Der Teufel erhält
+    sofort einen neuen Körper, der mit allen Trefferpunkten irgendwo in den Neun Höllen aufersteht.
+- name: 'Magieresistenz:'
+  beschreibung: Der Teufel ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Teufel führt drei Angriffe mit Sengende Forke oder Flamme schleudern in beliebiger Kombination aus. Er
+    kann einen Angriff durch einen Einsatz von Infernalischer Schwanz ersetzen.
+- name: 'Sengende Forke:'
+  beschreibung: 'Nahkampfangriffswurf: +10, Reichweite 3 m. Treffer: 15 (2W8+6) Stichschaden plus 9 (2W8) Feuerschaden.'
+- name: 'Flamme schleudern:'
+  beschreibung: 'Fernkampfangriffswurf: +8, Reichweite 45 m. Treffer: 26 (5W8+4) Feuerschaden. Wenn das Ziel ein brennbarer
+    Gegenstand ist, der nicht getragen oder gehalten wird, fängt es Feuer.'
+- name: 'Infernalischer Schwanz:'
+  beschreibung: 'Geschicklichkeitsrettungswurf: SG 17; eine Kreatur im Abstand von bis zu drei Metern'
+aktionen_intro: 'vom Teufel, die er sehen kann. Misserfolg: 10 (1W8+6) nekrotischer Schaden, und das Ziel erhält eine infernalische
+  Wunde, sofern es noch keine hat. Solange das Ziel eine solche Wunde hat, verliert es zu Beginn jedes seiner Züge 10 (3W6)
+  Trefferpunkte. Die Wunde schließt sich, wenn eine Minute vergangen ist, ein Zauber Trefferpunkte beim Ziel wiederherstellt
+  oder wenn das Ziel oder eine Kreatur im Abstand von bis zu 1,5 Metern von ihm eine Aktion ausführt, um die Wunde abzubinden
+  (dies gelingt, wenn die Kreatur einen SG-17-Weisheitswurf (Heilkunde) besteht).'

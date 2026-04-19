@@ -1,0 +1,49 @@
+id: oger
+type: monster
+name: Oger
+lang: de
+groesse: Groß
+typ: Riese
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 11
+initiative: −1 (9)
+tp: 68
+tp_formel: 8W10+24
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 5
+    mod: −3
+    rw: −3
+  wei:
+    wert: 7
+    mod: −2
+    rw: −2
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+ausruestung: Wurfspeere (3), Zweihandknüppel
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 8
+sprachen: Gemeinsprache, Riesisch
+hg: 2
+ep: 450
+ub: '+2'
+aktionen:
+- name: 'Wurfspeer:'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +6, Reichweite 1,5 m oder Reichweite 9/36 m. Treffer: 11 (2W6+4) Stichschaden.'
+- name: 'Zweihandknüppel:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 13 (2W8+4) Wuchtschaden.'

@@ -1,0 +1,52 @@
+id: menschenaffe
+type: monster
+name: Menschenaffe
+lang: de
+groesse: Mittelgroß
+typ: Tier
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 19
+tp_formel: 3W8+6
+bewegungsrate: 9 m, Klettern 9 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 6
+    mod: −2
+    rw: −2
+  wei:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 7
+    mod: −2
+    rw: −2
+fertigkeiten: Athletik +5, Wahrnehmung +3
+sinne: Passive Wahrnehmung 13
+sprachen: −
+hg: 1/2
+ep: 100
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Menschenaffe führt zwei Faustangriffe aus.
+- name: 'Faust:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 5 (1W4+3) Wuchtschaden.'
+- name: 'Felsblock (Aufladung 6):'
+  beschreibung: 'Fernkampfangriffswurf: +5, Reichweite 7,5/15 m. Treffer: 10 (2W6+3) Wuchtschaden.'

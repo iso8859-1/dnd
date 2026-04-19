@@ -1,0 +1,54 @@
+id: junger-blauer-drache
+type: monster
+name: Junger blauer Drache
+lang: de
+groesse: Groß
+typ: Drache (chromatisch)
+gesinnung: rechtschaffen böse
+source_book: SRD 5.2.1
+rk: 18
+initiative: '+4'
+initiative_wert: 14
+tp: 152
+tp_formel: 16W10+64
+bewegungsrate: 12 m, Fliegen 24 m, Graben 6 m
+attribute:
+  sta:
+    wert: 21
+    mod: '+5'
+    rw: '+5'
+  ges:
+    wert: 10
+    mod: '+0'
+    rw: '+4'
+  kon:
+    wert: 19
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+5'
+  cha:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +9
+immunitaeten: Blitz
+sinne: Blindsicht 9 m, Dunkelsicht 36 m;
+sprachen: Drakonisch, Gemeinsprache
+hg: 9
+ep: 5000
+ub: '+4'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Drache führt drei Zerfetzen- Angriffe aus.
+- name: 'Zerfetzen:'
+  beschreibung: 'Nahkampfangriffswurf: +9, Reichweite 3 m. Treffer: 12 (2W6+5) Hiebschaden plus 5 (1W10) Blitzschaden.'
+- name: 'Blitzodem (Aufladung 5–6):'
+  beschreibung: 'Geschicklichkeitsrettungs wurf: SG 16; jede Kreatur in einer 18 Meter langen, 1,5 Meter breiten Linie. Misserfolg:
+    55 (10W10) Blitzschaden. Erfolg: Halber Schaden.'

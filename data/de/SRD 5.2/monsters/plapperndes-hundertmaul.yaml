@@ -1,0 +1,64 @@
+id: plapperndes-hundertmaul
+type: monster
+name: Plapperndes Hundertmaul
+lang: de
+groesse: Mittelgroß
+typ: Aberration
+gesinnung: chaotisch neutral
+source_book: SRD 5.2.1
+rk: 9
+initiative: −1 (9)
+tp: 52
+tp_formel: 7W8+21
+bewegungsrate: 6 m, Schwimmen 6 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+immunitaeten: Liegend
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: −
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Aberranter Boden:'
+  beschreibung: Der Boden ist in einer Ausströmung von drei Metern, die vom Hundertmaul ausgeht, schwieriges Gelände.
+- name: 'Plappern:'
+  beschreibung: 'Das Hundertmaul plappert unzusammen- hängend, solange es nicht kampfunfähig ist. Weisheits rettungswurf:
+    SG 10; jede Kreatur, die ihren Zug im Abstand von bis zu sechs Metern vom Hundertmaul beginnt, während es plappert. Misserfolg:
+    Das Ziel ermittelt mit 1W8, was es im aktuellen Zug tut: 1–4: Das Ziel tut nichts. 5–6: Das Ziel führt weder eine Aktion
+    noch eine Bonusaktion aus und verwendet seine gesamte Bewegungsrate, um sich in eine zufällige Richtung zu bewegen. 7–8:
+    Das Ziel führt einen Nahkampfangriff gegen eine zufällig ermittelte Kreatur in Reichweite aus. Ist ein solcher Angriff
+    nicht möglich, so tut das Ziel nichts.'
+aktionen:
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +2, Reichweite 1,5 m. Treffer: 7 (2W6) Stichschaden. Wenn das Ziel eine Kreatur von
+    höchstens mittelgroßer Größe ist, wird es umgestoßen und hat den Zustand Liegend. Wenn die Trefferpunkte des Ziels durch
+    diesen Angriff auf 0 sinken, stirbt das Ziel. Seine Leiche wird vom Hundertmaul absorbiert, und nur die Ausrüstung bleibt
+    zurück.'
+- name: 'Blendender Speichel (Aufladung 5–6):'
+  beschreibung: 'Geschicklich keits rettungswurf: SG 10; jede Kreatur in einer Kugel mit einem Radius von drei Metern um einen
+    Punkt im Abstand von bis zu neun Metern. Misserfolg: 7 (2W6) gleißender Schaden, und das Ziel ist bis zum Beginn des nächsten
+    Zugs des Hundertmauls blind.'

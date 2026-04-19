@@ -1,0 +1,54 @@
+id: ghul
+type: monster
+name: Ghul
+lang: de
+groesse: Mittelgroß
+typ: Untoter
+gesinnung: chaotisch böse
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 22
+tp_formel: 5W8
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  ges:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  int:
+    wert: 7
+    mod: −2
+    rw: −2
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+immunitaeten: Gift; Bezaubert, Erschöpft, Vergiftet
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
+sprachen: Gemeinsprache
+hg: 1
+ep: 200
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Ghul führt zwei Bissangriffe aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 5 (1W6+2) Stichschaden plus 3 (1W6) nekrotischer Schaden.'
+- name: 'Klauen:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 4 (1W4+2) Hiebschaden. Wenn das Ziel eine Kreatur, jedoch
+    kein Untoter und kein Elf ist, erleidet es den folgenden Effekt: Konstitutionsrettungswurf: SG 10. Misserfolg: Das Ziel
+    ist bis zum Ende seines nächsten Zugs gelähmt.'

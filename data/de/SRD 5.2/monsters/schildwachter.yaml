@@ -1,0 +1,71 @@
+id: schildwachter
+type: monster
+name: Schildwächter
+lang: de
+groesse: Groß
+typ: Konstrukt
+gesinnung: gesinnungslos
+source_book: SRD 5.2.1
+rk: 17
+initiative: –1 (9)
+tp: 142
+tp_formel: 15W10+60
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  ges:
+    wert: 8
+    mod: −1
+    rw: −1
+  kon:
+    wert: 18
+    mod: '+4'
+    rw: '+4'
+  int:
+    wert: 7
+    mod: −2
+    rw: −2
+  wei:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 3
+    mod: −4
+    rw: −4
+immunitaeten: Gift; Bezaubert, Erschöpft, Gelähmt,
+sinne: Blindsicht 3 m, Dunkelsicht 18 m;
+sprachen: Versteht Befehle in allen Sprachen, kann jedoch
+hg: 7
+ep: 2900
+ub: '+3'
+merkmale:
+- name: 'Gebunden:'
+  beschreibung: Der Wächter ist auf magische Art an ein Amulett gebunden. Solange der Wächter und sein Amulett sich auf derselben
+    Existenzebene befinden, kann der Träger des Amuletts den Wächter telepathisch zu sich rufen, und der Wächter kennt Richtung
+    und Abstand zum Amulett. Wenn der Wächter sich im Abstand von bis zu 18 Metern vom Träger des Amuletts befindet, wird
+    die Hälfte des Schadens, den der Träger erleidet (aufgerundet), an den Wächter übertragen.
+- name: 'Regeneration:'
+  beschreibung: Der Wächter erhält zu Beginn jedes seiner Züge 10 Trefferpunkte zurück, wenn er noch mindestens 1 Trefferpunkt
+    hat.
+- name: 'Zauberspeicher:'
+  beschreibung: Ein Zauberwirker, der das Amulett des Schildwächters trägt, kann einen Zauber des höchstens 4. Grades im Wächter
+    speichern. Dazu muss der Träger den Zauber auf den Wächter wirken, während er sich im Abstand von bis zu 1,5 Metern vom
+    Wächter befindet. Der Zauber hat dabei keinen Effekt, sondern wird im Wächter gespeichert. Jeder zuvor gespeicherte Zauber
+    geht dabei verloren. Der Wächter kann den Zauber mit den Parametern nach Wahl des ursprünglichen Zauberwirkers wirken,
+    ohne Zauberkomponenten zu benötigen. Sein Attribut zum Zauberwirken ist das des Zauberwirkers. Durch dieses Wirken wird
+    der gespeicherte Zauber verbraucht.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Wächter führt zwei Faustangriffe aus.
+- name: 'Faust:'
+  beschreibung: 'Nahkampfangriffswurf: +7, Reichweite 3 m. Treffer: 11 (2W6+4) Wuchtschaden plus 7 (2W6) Energieschaden.'
+reaktionen:
+- name: 'Schutz:'
+  beschreibung: 'Auslöser: Ein Angriffswurf trifft den Träger des Amuletts des Wächters, während der Träger sich im Abstand
+    von bis zu 1,5 Metern vom Wächter befindet.'
+reaktionen_intro: 'Antwort: Der Träger erhält bis zum Beginn des nächsten Zugs des Wächters einen Bonus von +5 auf seine RK,
+  auch gegen den auslösenden Angriff, sodass dieser möglicherweise misslingt.'

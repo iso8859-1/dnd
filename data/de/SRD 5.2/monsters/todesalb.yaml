@@ -1,0 +1,60 @@
+id: todesalb
+type: monster
+name: Todesalb
+lang: de
+typ: Kleiner oder mittelgroßer Untoter
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+3'
+initiative_wert: 13
+tp: 67
+tp_formel: 9W8+27
+bewegungsrate: 1,5 m, Fliegen 18 m (Schweben)
+attribute:
+  sta:
+    wert: 6
+    mod: −2
+    rw: −2
+  ges:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  kon:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  wei:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  cha:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+immunitaeten: Gift, Nekrotisch; Bewusstlos, Bezaubert,
+resistenzen: Feuer, Hieb, Kälte, Säure, Stich, Wucht
+sinne: Dunkelsicht 18 m; Passive Wahrnehmung 12
+sprachen: Gemeinsprache und zwei weitere Sprachen
+hg: 5
+ep: 1800
+ub: '+3'
+merkmale:
+- name: 'Empfindlich gegenüber Sonnenlicht:'
+  beschreibung: Im Sonnenlicht ist der Todesalb bei Angriffs- und Attributswürfen im Nachteil.
+- name: 'Körperlose Bewegung:'
+  beschreibung: Der Todesalb kann sich durch andere Kreaturen und Gegenstände bewegen, als wären sie schwieriges Gelände.
+    Er erleidet 5 (1W10) Energieschaden, wenn er den Zug in einem Gegenstand beendet.
+aktionen:
+- name: 'Lebensentzug:'
+  beschreibung: 'Nahkampfangriffswurf: +6, Reichweite 1,5 m. Treffer: 21 (4W8+3) nekrotischer Schaden. Wenn das Ziel eine
+    Kreatur ist, wird sein Trefferpunktemaximum um einen Betrag in Höhe des erlittenen Schadens verringert.'
+- name: 'Schreckgespenst erschaffen:'
+  beschreibung: Der Todesalb zielt auf einen Humanoiden im Abstand von bis zu drei Metern von ihm, der seit höchstens einer
+    Minute tot ist. Der Geist des Ziels erhebt sich im Bereich seiner Leiche oder im nächsten freien Bereich als Schreckgespenst
+    , Das Schreckgespenst steht unter der Kontrolle des Todesalbs. Der Todesalb kann höchstens sieben Schreckgespenster zugleich
+    unter seiner Kontrolle haben.

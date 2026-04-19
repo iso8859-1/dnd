@@ -1,0 +1,55 @@
+id: todeshund
+type: monster
+name: Todeshund
+lang: de
+groesse: Mittelgroß
+typ: Monstrosität
+gesinnung: neutral böse
+source_book: SRD 5.2.1
+rk: 12
+initiative: '+2'
+initiative_wert: 12
+tp: 39
+tp_formel: 6W8+12
+bewegungsrate: 12 m
+attribute:
+  sta:
+    wert: 15
+    mod: '+2'
+    rw: '+2'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  int:
+    wert: 3
+    mod: −4
+    rw: −4
+  wei:
+    wert: 13
+    mod: '+1'
+    rw: '+1'
+  cha:
+    wert: 6
+    mod: −2
+    rw: −2
+fertigkeiten: Heimlichkeit +4, Wahrnehmung +5
+immunitaeten: Betäubt, Bewusstlos, Bezaubert, Blind, Taub,
+sinne: Dunkelsicht 36 m; Passive Wahrnehmung 15
+sprachen: −
+hg: 1
+ep: 200
+ub: '+2'
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Todeshund führt zwei Bissangriffe aus.
+- name: 'Biss:'
+  beschreibung: 'Nahkampfangriffswurf: +4, Reichweite 1,5 m. Treffer: 4 (1W4+2) Stichschaden. Wenn das Ziel eine Kreatur ist,
+    erleidet es den folgenden Effekt: Konstitutions rettungswurf: SG 12. Erster Misserfolg: Das Ziel ist vergiftet. Das Trefferpunktemaximum
+    des vergifteten Ziels normalisiert sich nach einer langen Rast nicht. Das Ziel wiederholt den Rettungswurf nach jeweils
+    24 Stunden. Bei einem Erfolg endet der Effekt bei ihm. Nachfolgende Misserfolge: Das Trefferpunktemaximum des vergifteten
+    Ziels wird um 5 (1W10) verringert.'

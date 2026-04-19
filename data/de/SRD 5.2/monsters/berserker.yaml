@@ -1,0 +1,50 @@
+id: berserker
+type: monster
+name: Berserker
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 13
+initiative: '+1'
+initiative_wert: 11
+tp: 67
+tp_formel: 9W8+27
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+  ges:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  kon:
+    wert: 17
+    mod: '+3'
+    rw: '+3'
+  int:
+    wert: 9
+    mod: −1
+    rw: −1
+  wei:
+    wert: 11
+    mod: '+0'
+    rw: '+0'
+  cha:
+    wert: 9
+    mod: −1
+    rw: −1
+ausruestung: Fellrüstung, Zweihandaxt
+sinne: Passive Wahrnehmung 10
+sprachen: Gemeinsprache
+hg: 2
+ep: 450
+ub: '+2'
+merkmale:
+- name: 'Blutige Raserei:'
+  beschreibung: Wenn der Berserker blutig ist, ist er bei Angriffswürfen und Rettungswürfen im Vorteil.
+aktionen:
+- name: 'Zweihandaxt:'
+  beschreibung: 'Nahkampfangriffswurf: +5, Reichweite 1,5 m. Treffer: 9 (1W12+3) Hiebschaden.'

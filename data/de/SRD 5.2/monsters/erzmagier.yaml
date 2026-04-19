@@ -1,0 +1,68 @@
+id: erzmagier
+type: monster
+name: Erzmagier
+lang: de
+typ: Kleiner oder mittelgroßer Humanoide (Magier)
+gesinnung: neutral
+source_book: SRD 5.2.1
+rk: 17
+initiative: '+7'
+initiative_wert: 17
+tp: 170
+tp_formel: 31W8+31
+bewegungsrate: 9 m
+attribute:
+  sta:
+    wert: 10
+    mod: '+0'
+    rw: '+0'
+  ges:
+    wert: 14
+    mod: '+2'
+    rw: '+2'
+  kon:
+    wert: 12
+    mod: '+1'
+    rw: '+1'
+  int:
+    wert: 20
+    mod: '+5'
+    rw: '+9'
+  wei:
+    wert: 15
+    mod: '+2'
+    rw: '+6'
+  cha:
+    wert: 16
+    mod: '+3'
+    rw: '+3'
+fertigkeiten: Arkane Kunde +13, Geschichte +9,
+immunitaeten: Psychisch; Bezaubert (mit )
+ausruestung: Zauberstab
+sinne: Passive Wahrnehmung 16
+sprachen: Gemeinsprache und fünf weitere Sprachen
+hg: 12
+ep: 8000
+ub: '+4'
+merkmale:
+- name: 'Magieresistenz:'
+  beschreibung: Der Erzmagier ist bei Rettungswürfen gegen Zauber und andere magische Effekte im Vorteil.
+aktionen:
+- name: 'Mehrfachangriff:'
+  beschreibung: Der Erzmagier führt vier Arkane- Explosion-Angriffe aus.
+- name: 'Arkane Explosion:'
+  beschreibung: 'Nah oder Fernkampfangriffswurf: +9, Reichweite 1,5 m oder Reichweite 45 m. Treffer: 27 (4W10+5) Energieschaden.'
+- name: 'Zauberwirken:'
+  beschreibung: 'Der Erzmagier wirkt einen der folgenden Zauber mit Intelligenz als Attribut zum Zauberwirken (Zauberrettungswurf-SG
+    17):'
+aktionen_intro: 'Beliebig oft: Gedanken wahrnehmen , Licht , Magie entdecken , Magierhand , Magierrüstung (in RK enthalten),
+  Selbstverkleidung , Taschenspielerei , Unsichtbarkeit Je 2-mal täglich: Blitz (Version des 7. Grades), Fliegen Je 1-mal
+  täglich: Ausspähung , Gedankenleere (wird vor dem Kampf gewirkt), Kältekegel (Version des 9. Grades), Teleportieren'
+bonusaktionen:
+- name: 'Nebelschritt (3-mal täglich):'
+  beschreibung: Der Magier wirkt den Zauber Nebelschritt . Sein Attribut zum Zauberwirken ist dasselbe wie beim Ausführen
+    der Zauberwirken- Aktion.
+reaktionen:
+- name: 'Schutzmagie (3-mal täglich):'
+  beschreibung: Der Erzmagier wirkt einen der Zauber Gegenzauber oder Schild als Antwort auf den Auslöser des Zaubers. Sein
+    Attribut zum Zauberwirken ist dasselbe wie beim Ausführen der Zauberwirken-Aktion.
