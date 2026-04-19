@@ -18,7 +18,10 @@ Die Texte die aus dem SRD extrahiert wurden, stehen unter der CC-BY 4.0, der res
 
 Im allgemeinen gilt: 
 - Terminal-Interface starten, 
-- Karten auswählen, 
+- Karten auswählen,
+    - + und - fügen Karten hinzu und entfernen
+    - tippen filtert nach Name
+    - Nummer-Tasten filtern nach Kategorie
 - STRG+G drücken um das PDF zu erzeugen
 - PDF drucken
 - Karten ausschneiden und falten

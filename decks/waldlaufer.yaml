@@ -1,6 +1,0 @@
-name: waldläufer
-cards:
-  classes/waldlaufer-erzfeind: 1
-  classes/waldlaufer-waffenbeherrschung: 1
-  classes/waldlaufer-zauberwirken: 1
-  spells/wunden-heilen: 1
