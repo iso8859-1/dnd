@@ -19,16 +19,16 @@ attribute:
     rw: '+6'
   ges:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 21
     mod: '+5'
     rw: '+8'
   int:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   wei:
     wert: 10
     mod: '+0'

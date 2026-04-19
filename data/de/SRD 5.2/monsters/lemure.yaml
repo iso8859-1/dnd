@@ -7,7 +7,7 @@ typ: Unhold (Teufel)
 gesinnung: rechtschaffen böse
 source_book: SRD 5.2.1
 rk: 9
-initiative: −3 (7)
+initiative: -3 (7)
 tp: 9
 tp_formel: 2W8
 bewegungsrate: 6 m
@@ -18,24 +18,24 @@ attribute:
     rw: '+0'
   ges:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   kon:
     wert: 11
     mod: '+0'
     rw: '+0'
   int:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
   wei:
     wert: 11
     mod: '+0'
     rw: '+0'
   cha:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
 immunitaeten: Feuer, Gift; Bezaubert, Verängstigt, Vergiftet
 resistenzen: Kälte
 sinne: Dunkelsicht 36 m (wird nicht durch magische

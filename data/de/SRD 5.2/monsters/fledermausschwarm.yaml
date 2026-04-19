@@ -15,8 +15,8 @@ bewegungsrate: 1,5 m, Fliegen 9 m
 attribute:
   sta:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   ges:
     wert: 15
     mod: '+2'
@@ -27,20 +27,20 @@ attribute:
     rw: '+0'
   int:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 12
     mod: '+1'
     rw: '+1'
   cha:
     wert: 4
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
 immunitaeten: Betäubt, Bezaubert, Festgesetzt, Gelähmt,
 resistenzen: Hieb, Stich, Wucht
 sinne: Blindsicht 18 m; Passive Wahrnehmung 11
-sprachen: −
+sprachen: -
 hg: 1/4
 ep: 50
 ub: '+2'

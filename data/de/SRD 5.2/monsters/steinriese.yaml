@@ -35,8 +35,8 @@ attribute:
     rw: '+4'
   cha:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 fertigkeiten: Athletik +12, Heimlichkeit +5,
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14
 sprachen: Riesisch

@@ -9,7 +9,7 @@ casting_time: Aktion
 range: Berührung
 components: V, G, M (eine Feder)
 duration: Konzentration, bis zu 10 Minuten
-description: 'Du berührst eine bereitwillige Kreatur. Für die Wirkungsdauer erhält das Ziel eine Flugbewegungs‑ rate von 18
+description: 'Du berührst eine bereitwillige Kreatur. Für die Wirkungsdauer erhält das Ziel eine Flugbewegungs- rate von 18
   Metern und kann schweben. Wenn der Zauber endet und das Ziel noch fliegt, stürzt es ab, Verwenden von Zauberplätzen höheren
   Grades: sofern es den Sturz nicht verhindern kann. Für jeden Zauberplatzgrad über dem 3. kannst du auf eine weitere Kreatur
   zielen.'

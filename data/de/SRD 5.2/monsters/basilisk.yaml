@@ -7,7 +7,7 @@ typ: Monstrosität
 gesinnung: gesinnungslos
 source_book: SRD 5.2.1
 rk: 15
-initiative: −1 (9)
+initiative: -1 (9)
 tp: 52
 tp_formel: 8W8+16
 bewegungsrate: 6 m
@@ -18,26 +18,26 @@ attribute:
     rw: '+3'
   ges:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 15
     mod: '+2'
     rw: '+2'
   int:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   cha:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 9
-sprachen: −
+sprachen: -
 hg: 3
 ep: 700
 ub: '+2'

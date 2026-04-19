@@ -10,37 +10,37 @@ rk: 10
 initiative: '+0'
 initiative_wert: 10
 tp: 14
-tp_formel: 4W8−4
+tp_formel: 4W8-4
 bewegungsrate: 9 m, Klettern 9 m
 attribute:
   sta:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   ges:
     wert: 11
     mod: '+0'
     rw: '+2'
   kon:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   int:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 10
     mod: '+0'
     rw: '+0'
   cha:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
 immunitaeten: Betäubt, Bezaubert, Festgesetzt, Gelähmt,
 resistenzen: Hieb, Stich, Wucht
 sinne: Dunkelsicht 9 m; Passive Wahrnehmung 10
-sprachen: −
+sprachen: -
 hg: 1/4
 ep: 50
 ub: '+2'

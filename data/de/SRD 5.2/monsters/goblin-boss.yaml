@@ -31,8 +31,8 @@ attribute:
     rw: '+0'
   wei:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   cha:
     wert: 10
     mod: '+0'

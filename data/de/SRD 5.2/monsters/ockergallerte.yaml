@@ -7,7 +7,7 @@ typ: Schlick
 gesinnung: gesinnungslos
 source_book: SRD 5.2.1
 rk: 8
-initiative: −2 (8)
+initiative: -2 (8)
 tp: 52
 tp_formel: 7W10+14
 bewegungsrate: 6 m, Klettern 6 m
@@ -18,28 +18,28 @@ attribute:
     rw: '+2'
   ges:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   kon:
     wert: 14
     mod: '+2'
     rw: '+2'
   int:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   cha:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
 immunitaeten: Blitz, Hieb; Bezaubert, Erschöpft,
 resistenzen: Säure
 sinne: Blindsicht 36 m; Passive Wahrnehmung 8
-sprachen: −
+sprachen: -
 hg: 2
 ep: 450
 ub: '+2'

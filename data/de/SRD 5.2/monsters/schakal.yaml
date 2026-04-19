@@ -15,8 +15,8 @@ bewegungsrate: 12 m
 attribute:
   sta:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   ges:
     wert: 15
     mod: '+2'
@@ -27,22 +27,22 @@ attribute:
     rw: '+0'
   int:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 12
     mod: '+1'
     rw: '+1'
   cha:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 fertigkeiten: Heimlichkeit +4, Wahrnehmung +5
 sinne: Dunkelsicht 27 m; Passive Wahrnehmung 15
-sprachen: −
+sprachen: -
 hg: 0
 ep: 10
 ub: '+2'
 aktionen:
 - name: 'Biss:'
-  beschreibung: 'Nahkampfangriffswurf: +1, Reichweite 1,5 m. Treffer: 1 (1W4−1) Stichschaden.'
+  beschreibung: 'Nahkampfangriffswurf: +1, Reichweite 1,5 m. Treffer: 1 (1W4-1) Stichschaden.'

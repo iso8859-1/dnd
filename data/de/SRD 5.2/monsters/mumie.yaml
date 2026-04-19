@@ -6,7 +6,7 @@ typ: Kleiner oder mittelgroßer Untoter
 gesinnung: rechtschaffen böse
 source_book: SRD 5.2.1
 rk: 11
-initiative: −1 (9)
+initiative: -1 (9)
 tp: 58
 tp_formel: 9W8+18
 bewegungsrate: 6 m
@@ -17,16 +17,16 @@ attribute:
     rw: '+3'
   ges:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 15
     mod: '+2'
     rw: '+2'
   int:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   wei:
     wert: 12
     mod: '+1'

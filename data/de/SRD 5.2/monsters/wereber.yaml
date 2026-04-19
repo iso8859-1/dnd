@@ -34,8 +34,8 @@ attribute:
     rw: '+0'
   cha:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 fertigkeiten: Wahrnehmung +2
 ausruestung: Wurfspeere (6)
 sinne: Passive Wahrnehmung 12

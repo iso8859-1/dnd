@@ -27,16 +27,16 @@ attribute:
     rw: '+3'
   int:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   wei:
     wert: 12
     mod: '+1'
     rw: '+1'
   cha:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 fertigkeiten: Wahrnehmung +3
 resistenzen: Nekrotisch
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 13

@@ -27,16 +27,16 @@ attribute:
     rw: '+2'
   int:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   wei:
     wert: 12
     mod: '+1'
     rw: '+1'
   cha:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 fertigkeiten: Heimlichkeit +5, Wahrnehmung +5
 immunitaeten: Kälte
 sinne: Passive Wahrnehmung 15

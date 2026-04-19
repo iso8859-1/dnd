@@ -9,7 +9,7 @@ casting_time: Aktion
 range: Berührung
 components: V, G
 duration: 7 Tage
-description: Deine Berührung verursacht eine magische Krankheit. Das Ziel muss einen Konstitutions‑ rettungswurf bestehen,
+description: Deine Berührung verursacht eine magische Krankheit. Das Ziel muss einen Konstitutions- rettungswurf bestehen,
   oder es erleidet 11W8 nekrotischen Schaden und ist vergiftet. Wähle außerdem ein Attribut aus, wenn du den Zauber wirkst.
   Das vergiftete Ziel ist bei Rettungswürfen mit dem ausgewählten Attribut im Nachteil. Das Ziel muss den Rettungswurf am
   Ende jedes seiner Züge wiederholen, bis es insgesamt drei Erfolge oder drei Misserfolge hatte. Bei drei Erfolgen endet der

@@ -27,16 +27,16 @@ attribute:
     rw: '+1'
   int:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   wei:
     wert: 11
     mod: '+0'
     rw: '+0'
   cha:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 fertigkeiten: Heimlichkeit +6, Überlebenskunst +2
 ausruestung: Fellrüstung, Leichte Hämmer (3)
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10

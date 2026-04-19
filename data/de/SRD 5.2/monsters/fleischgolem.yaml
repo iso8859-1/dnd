@@ -7,7 +7,7 @@ typ: Konstrukt
 gesinnung: neutral
 source_book: SRD 5.2.1
 rk: 9
-initiative: −1 (9)
+initiative: -1 (9)
 tp: 127
 tp_formel: 15W8+60
 bewegungsrate: 9 m
@@ -18,24 +18,24 @@ attribute:
     rw: '+4'
   ges:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 18
     mod: '+4'
     rw: '+4'
   int:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   wei:
     wert: 10
     mod: '+0'
     rw: '+0'
   cha:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
 immunitaeten: Blitz, Gift; Bezaubert, Erschöpft, Gelähmt,
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
 sprachen: Versteht Gemeinsprache und eine weitere

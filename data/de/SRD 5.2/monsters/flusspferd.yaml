@@ -7,7 +7,7 @@ typ: Tier
 gesinnung: gesinnungslos
 source_book: SRD 5.2.1
 rk: 14
-initiative: −2 (8)
+initiative: -2 (8)
 tp: 82
 tp_formel: 11W10+22
 bewegungsrate: 9 m, Schwimmen 9 m
@@ -18,27 +18,27 @@ attribute:
     rw: '+7'
   ges:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   kon:
     wert: 15
     mod: '+2'
     rw: '+2'
   int:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 12
     mod: '+1'
     rw: '+1'
   cha:
     wert: 4
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
 fertigkeiten: Wahrnehmung +3
 sinne: Passive Wahrnehmung 13
-sprachen: −
+sprachen: -
 hg: 4
 ep: 1100
 ub: '+2'

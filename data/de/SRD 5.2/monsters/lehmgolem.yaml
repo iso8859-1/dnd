@@ -19,24 +19,24 @@ attribute:
     rw: '+5'
   ges:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 18
     mod: '+4'
     rw: '+4'
   int:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   cha:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
 immunitaeten: Gift, Psychisch, Säure; Bezaubert, Erschöpft,
 resistenzen: Hieb, Stich, Wucht
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 9

@@ -21,7 +21,7 @@ description: 'Wähle einen Punkt in Reichweite auf dem Boden aus, den du sehen k
   sich mit dem Rand der Gebäude: Erdspalte, während sich diese öffnet. Wenn du den Zauber wirkst, sowie am Ende jedes deiner
   Züge für die Wirkungsdauer, fügt das Beben allen Gebäuden, die den Boden im Wirkungsbereich berühren, 50 Wuchtschaden zu.
   Wenn die Trefferpunkte eines Gebäudes auf 0 sinken, stürzt das Gebäude ein. Jede Kreatur im Abstand von bis zur halben Höhe
-  des Gebäudes führt einen Geschicklichkeits‑ rettungswurf aus. Misslingt der Wurf, so erleidet die Kreatur 12W6 Wuchtschaden,
-  wird umgestoßen und ist unter den Trümmern begraben. Sie muss einen SG‑20‑Stärkewurf (Athletik) als Aktion bestehen, um
+  des Gebäudes führt einen Geschicklichkeits- rettungswurf aus. Misslingt der Wurf, so erleidet die Kreatur 12W6 Wuchtschaden,
+  wird umgestoßen und ist unter den Trümmern begraben. Sie muss einen SG-20-Stärkewurf (Athletik) als Aktion bestehen, um
   sich zu befreien. Bei einem erfolgreichen Rettungswurf erleidet die Kreatur nur halb so viel Schaden.'
 source_book: SRD 5.2 DE

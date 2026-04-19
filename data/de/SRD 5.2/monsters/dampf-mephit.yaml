@@ -15,8 +15,8 @@ bewegungsrate: 9 m, Fliegen 9 m
 attribute:
   sta:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   ges:
     wert: 11
     mod: '+0'

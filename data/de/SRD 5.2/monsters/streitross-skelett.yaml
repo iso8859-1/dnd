@@ -27,20 +27,20 @@ attribute:
     rw: '+2'
   int:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   cha:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
 immunitaeten: Gift; Erschöpft, Vergiftet
 anfaelligkeiten: Wucht
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 9
-sprachen: −
+sprachen: -
 hg: 1/2
 ep: 100
 ub: '+2'

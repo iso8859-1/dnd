@@ -11,7 +11,7 @@ components: V, G
 duration: Konzentration, bis zu 1 Minute
 description: 'Auf deinen Befehl hin werden Gegenstände belebt. Wähle eine Anzahl nichtmagischer Gegenstände in Reichweite
   aus, die nicht getragen oder gehalten werden, nicht an einer Oberfläche fixiert und kleiner als gigantisch sind. Die maximale
-  Anzahl von Gegenständen entspricht deinem Zauberwirken‑ Attributsmodifikator. Dabei zählt ein Ziel von höchstens mittelgroßer
+  Anzahl von Gegenständen entspricht deinem Zauberwirken- Attributsmodifikator. Dabei zählt ein Ziel von höchstens mittelgroßer
   Größe als ein Gegenstand, ein großes Ziel zählt als zwei Gegenstände, und ein riesiges Ziel zählt als drei Gegenstände.
   Jedes Ziel wird belebt, es erhält Beine und wird belebten Gegenstands zu einem Konstrukt, das den Wertekasten eines verwendet.
   Diese Kreatur steht unter deiner Kontrolle, bis der Zauber endet oder seine Trefferpunkte auf 0 sinken. Jede Kreatur, die
@@ -20,8 +20,8 @@ description: 'Auf deinen Befehl hin werden Gegenstände belebt. Wähle eine Anza
   erschaffen hast und die sich im Abstand von bis zu 150 Metern von dir befindet, mental befehligen. Handelt es sich um mehrere
   Kreaturen, so kannst du beliebig viele von ihnen gleichzeitig befehligen, wobei jeweils der gleiche Befehl erteilt wird.
   Wenn du keine Befehle erteilst, führt die Kreatur die Ausweichaktion aus und bewegt sich nur, um Schaden zu vermeiden. Wenn
-  die Trefferpunkte der Kreatur auf 0 sinken, nimmt sie wieder ihre Gegenstandgestalt an. Über‑ Verwenden von Zauberplätzen
+  die Trefferpunkte der Kreatur auf 0 sinken, nimmt sie wieder ihre Gegenstandgestalt an. Über- Verwenden von Zauberplätzen
   höheren Grades: schüssiger Schaden wird auf diese Form übertragen. Für jeden Zauberplatzgrad über dem 5. wird der Hiebschaden
   der Kreatur um 1W4 (höchstens mittelgroß), 1W6 (groß) oder 1W12 (riesig) erhöht. MODRWMODRWMODRW S 16+3+3G 10+0+0K 10+0+0
-  täeSon I 3−4−4W 3−4−4C 1−5−5 nteIha Aktionen'
+  täeSon I 3-4-4W 3-4-4C 1-5-5 nteIha Aktionen'
 source_book: SRD 5.2 DE

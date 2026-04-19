@@ -4,6 +4,6 @@ class: Mönch
 lang: de
 level: 1
 name: Ungerüstete Verteidigung (Mönch)
-description: Solange du weder Rüstung noch Schild trägst, entspricht deine Basis‑Rüstungsklasse 10 plus deinem Geschicklichkeitsmodifikator
+description: Solange du weder Rüstung noch Schild trägst, entspricht deine Basis-Rüstungsklasse 10 plus deinem Geschicklichkeitsmodifikator
   plus deinem Weisheitsmodifikator.
 source_book: SRD 5.2.1

@@ -27,19 +27,19 @@ attribute:
     rw: '+3'
   int:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 13
     mod: '+1'
     rw: '+1'
   cha:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 fertigkeiten: Wahrnehmung +5
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 15
-sprachen: −
+sprachen: -
 hg: 2
 ep: 450
 ub: '+2'

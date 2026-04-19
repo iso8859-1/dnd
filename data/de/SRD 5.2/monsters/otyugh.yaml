@@ -27,16 +27,16 @@ attribute:
     rw: '+7'
   int:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   wei:
     wert: 13
     mod: '+1'
     rw: '+1'
   cha:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 sinne: Dunkelsicht 36 m; Passive Wahrnehmung 11
 sprachen: Otyughisch; Telepathie auf 36 m
 hg: 5

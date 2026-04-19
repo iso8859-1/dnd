@@ -10,36 +10,36 @@ rk: 12
 initiative: '+1'
 initiative_wert: 11
 tp: 1
-tp_formel: 1W4−1
+tp_formel: 1W4-1
 bewegungsrate: 1,5 m, Schwimmen 6 m
 attribute:
   sta:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
   ges:
     wert: 12
     mod: '+1'
     rw: '+1'
   kon:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   int:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
   wei:
     wert: 10
     mod: '+0'
     rw: '+0'
   cha:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
 fertigkeiten: Heimlichkeit +5, Wahrnehmung +2
 sinne: Passive Wahrnehmung 12
-sprachen: −
+sprachen: -
 hg: 0
 ep: 0
 ub: '+2'

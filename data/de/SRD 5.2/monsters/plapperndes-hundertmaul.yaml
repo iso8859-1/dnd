@@ -7,7 +7,7 @@ typ: Aberration
 gesinnung: chaotisch neutral
 source_book: SRD 5.2.1
 rk: 9
-initiative: −1 (9)
+initiative: -1 (9)
 tp: 52
 tp_formel: 7W8+21
 bewegungsrate: 6 m, Schwimmen 6 m
@@ -18,27 +18,27 @@ attribute:
     rw: '+0'
   ges:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 16
     mod: '+3'
     rw: '+3'
   int:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 10
     mod: '+0'
     rw: '+0'
   cha:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 immunitaeten: Liegend
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
-sprachen: −
+sprachen: -
 hg: 2
 ep: 450
 ub: '+2'

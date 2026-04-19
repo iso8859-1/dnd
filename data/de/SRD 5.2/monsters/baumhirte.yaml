@@ -19,8 +19,8 @@ attribute:
     rw: '+6'
   ges:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 21
     mod: '+5'

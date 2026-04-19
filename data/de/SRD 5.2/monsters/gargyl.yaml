@@ -27,16 +27,16 @@ attribute:
     rw: '+3'
   int:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   wei:
     wert: 11
     mod: '+0'
     rw: '+0'
   cha:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 fertigkeiten: Heimlichkeit +4
 immunitaeten: Gift; Erschöpft, Vergiftet, Versteinert
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10

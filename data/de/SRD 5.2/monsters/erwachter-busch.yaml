@@ -7,19 +7,19 @@ typ: Pflanze
 gesinnung: neutral
 source_book: SRD 5.2.1
 rk: 9
-initiative: −1 (9)
+initiative: -1 (9)
 tp: 10
 tp_formel: 3W6
 bewegungsrate: 6 m
 attribute:
   sta:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   ges:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 11
     mod: '+0'
@@ -34,8 +34,8 @@ attribute:
     rw: '+0'
   cha:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 resistenzen: Stich
 anfaelligkeiten: Feuer
 sinne: Passive Wahrnehmung 10

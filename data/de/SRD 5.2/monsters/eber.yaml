@@ -27,18 +27,18 @@ attribute:
     rw: '+2'
   int:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   cha:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
 sinne: Passive Wahrnehmung 9
-sprachen: −
+sprachen: -
 hg: 1/4
 ep: 50
 ub: '+2'

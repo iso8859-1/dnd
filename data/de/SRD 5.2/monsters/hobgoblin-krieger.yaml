@@ -35,8 +35,8 @@ attribute:
     rw: '+0'
   cha:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 ausruestung: Langbogen, Langschwert, Plattenpanzer, Schild
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
 sprachen: Gemeinsprache, Goblinisch

@@ -27,16 +27,16 @@ attribute:
     rw: '+4'
   int:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   wei:
     wert: 10
     mod: '+0'
     rw: '+0'
   cha:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 immunitaeten: Gift; Bewusstlos, Erschöpft, Festgesetzt,
 resistenzen: Feuer, Säure
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10

@@ -27,16 +27,16 @@ attribute:
     rw: '+1'
   int:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   wei:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   cha:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
 immunitaeten: Gift; Vergiftet
 resistenzen: Blitz, Feuer, Kälte
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 9

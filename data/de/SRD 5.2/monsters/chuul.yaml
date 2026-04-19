@@ -27,16 +27,16 @@ attribute:
     rw: '+3'
   int:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   wei:
     wert: 11
     mod: '+0'
     rw: '+0'
   cha:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
 fertigkeiten: Wahrnehmung +4
 immunitaeten: Gift; Vergiftet
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 14

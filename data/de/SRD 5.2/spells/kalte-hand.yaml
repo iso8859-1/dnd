@@ -9,7 +9,7 @@ casting_time: Aktion
 range: Berührung
 components: V, G
 duration: Unmittelbar
-description: 'Du kanalisierst Grabeskälte und führst einen Nahkampf‑Zauberangriff auf ein Ziel in Reichweite aus. Bei einem
+description: 'Du kanalisierst Grabeskälte und führst einen Nahkampf-Zauberangriff auf ein Ziel in Reichweite aus. Bei einem
   Treffer erleidet das Ziel 1W10 nekrotischen Schaden und kann bis zum Ende deines nächsten Zugs keine Trefferpunkte Zaubertrick-Aufwertung:
   zurückerhalten. Der Schaden wird um jeweils 1W10 erhöht, wenn du die 5. (2W10), die 11. (3W10) und die 17. (4W10) Stufe
   erreichst.'

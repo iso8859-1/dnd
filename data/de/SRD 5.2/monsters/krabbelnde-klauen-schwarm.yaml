@@ -27,16 +27,16 @@ attribute:
     rw: '+0'
   int:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   wei:
     wert: 10
     mod: '+0'
     rw: '+0'
   cha:
     wert: 4
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
 immunitaeten: Gift, Nekrotisch; Betäubt, Bezaubert,
 resistenzen: Hieb, Stich, Wucht
 sinne: Blindsicht 9 m; Passive Wahrnehmung 10

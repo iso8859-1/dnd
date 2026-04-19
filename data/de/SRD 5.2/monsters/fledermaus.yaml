@@ -10,35 +10,35 @@ rk: 12
 initiative: '+2'
 initiative_wert: 12
 tp: 1
-tp_formel: 1W4−1
+tp_formel: 1W4-1
 bewegungsrate: 1,5 m, Fliegen 9 m
 attribute:
   sta:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   ges:
     wert: 15
     mod: '+2'
     rw: '+2'
   kon:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   int:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 12
     mod: '+1'
     rw: '+1'
   cha:
     wert: 4
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
 sinne: Blindsicht 18 m; Passive Wahrnehmung 11
-sprachen: −
+sprachen: -
 hg: 0
 ep: 10
 ub: '+2'

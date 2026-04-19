@@ -27,7 +27,7 @@ attribute:
     rw: '+10'
   int:
     wert: 3
-    mod: −4
+    mod: -4
     rw: '+5'
   wei:
     wert: 11
@@ -41,7 +41,7 @@ fertigkeiten: Wahrnehmung +9
 immunitaeten: Feuer, Gift; Bezaubert, Gelähmt, Taub,
 resistenzen: Hieb, Stich, Wucht
 sinne: Blindsicht 36 m; Passive Wahrnehmung 19
-sprachen: −
+sprachen: -
 hg: 30
 ep: 155000
 ub: '+9'

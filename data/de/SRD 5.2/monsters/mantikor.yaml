@@ -27,16 +27,16 @@ attribute:
     rw: '+3'
   int:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   wei:
     wert: 12
     mod: '+1'
     rw: '+1'
   cha:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 11
 sprachen: Gemeinsprache
 hg: 3

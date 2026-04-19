@@ -7,7 +7,7 @@ typ: Riese
 gesinnung: chaotisch böse
 source_book: SRD 5.2.1
 rk: 12
-initiative: −1 (9)
+initiative: -1 (9)
 tp: 85
 tp_formel: 10W10+30
 bewegungsrate: 12 m
@@ -18,24 +18,24 @@ attribute:
     rw: '+5'
   ges:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 17
     mod: '+3'
     rw: '+3'
   int:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   wei:
     wert: 10
     mod: '+0'
     rw: '+0'
   cha:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 fertigkeiten: Wahrnehmung +4
 immunitaeten: Betäubt, Bewusstlos, Bezaubert, Blind, Taub,
 ausruestung: Morgenstern, Streitaxt

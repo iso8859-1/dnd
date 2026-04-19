@@ -15,8 +15,8 @@ bewegungsrate: 12 m
 attribute:
   sta:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   ges:
     wert: 14
     mod: '+2'
@@ -27,22 +27,22 @@ attribute:
     rw: '+1'
   int:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   wei:
     wert: 10
     mod: '+0'
     rw: '+0'
   cha:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 fertigkeiten: Heimlichkeit +6
 immunitaeten: Gift, Nekrotisch; Bewusstlos, Erschöpft,
 resistenzen: Blitz, Feuer, Kälte, Säure, Schall
 anfaelligkeiten: Gleißend
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
-sprachen: −
+sprachen: -
 hg: 1/2
 ep: 100
 ub: '+2'

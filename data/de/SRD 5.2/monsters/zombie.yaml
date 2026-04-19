@@ -18,24 +18,24 @@ attribute:
     rw: '+1'
   ges:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   kon:
     wert: 16
     mod: '+3'
     rw: '+3'
   int:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 6
-    mod: −2
+    mod: -2
     rw: '+0'
   cha:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
 immunitaeten: Gift; Erschöpft, Vergiftet
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 8
 sprachen: Versteht Gemeinsprache und eine weitere

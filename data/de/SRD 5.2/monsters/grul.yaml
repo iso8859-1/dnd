@@ -35,8 +35,8 @@ attribute:
     rw: '+2'
   cha:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 immunitaeten: Gift; Bezaubert, Erschöpft, Vergiftet
 resistenzen: Nekrotisch
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10

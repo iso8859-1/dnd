@@ -19,26 +19,26 @@ attribute:
     rw: '+10'
   ges:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 21
     mod: '+5'
     rw: '+8'
   int:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 11
     mod: '+0'
     rw: '+0'
   cha:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 sinne: Passive Wahrnehmung 10
-sprachen: −
+sprachen: -
 hg: 6
 ep: 2300
 ub: '+3'

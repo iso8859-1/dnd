@@ -27,16 +27,16 @@ attribute:
     rw: '+3'
   int:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   wei:
     wert: 16
     mod: '+3'
     rw: '+3'
   cha:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 fertigkeiten: Überlebenskunst +7, Wahrnehmung +7
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 17
 sprachen: Abyssisch

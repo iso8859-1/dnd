@@ -7,7 +7,7 @@ typ: Riese
 gesinnung: chaotisch böse
 source_book: SRD 5.2.1
 rk: 11
-initiative: −1 (9)
+initiative: -1 (9)
 tp: 68
 tp_formel: 8W10+24
 bewegungsrate: 12 m
@@ -18,24 +18,24 @@ attribute:
     rw: '+4'
   ges:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 16
     mod: '+3'
     rw: '+3'
   int:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   wei:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   cha:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 ausruestung: Wurfspeere (3), Zweihandknüppel
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 8
 sprachen: Gemeinsprache, Riesisch

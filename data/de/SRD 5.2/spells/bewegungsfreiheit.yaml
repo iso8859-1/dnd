@@ -12,7 +12,7 @@ duration: 1 Stunde
 description: 'Du berührst eine bereitwillige Kreatur. Für die Wirkungsdauer ist die Bewegungsrate des Ziels auf schwierigem
   Gelände nicht eingeschränkt. Zudem können Zauber und andere magische Effekte weder seine Bewegungsrate verringern noch das
   Ziel lähmen oder festsetzen. Das Ziel hat ferner eine Schwimmbewegungsrate in Höhe seiner Bewegungsrate. Es kann außerdem
-  1,5 Meter seiner Bewegungs‑ rate verbrauchen, um nichtmagischen Fesseln (beispielsweise Handschellen oder einer Kreatur,
+  1,5 Meter seiner Bewegungs- rate verbrauchen, um nichtmagischen Fesseln (beispielsweise Handschellen oder einer Kreatur,
   Verwenden von Zauberplätzen höheren Grades: die es gepackt hält) automatisch zu entkommen. Für jeden Zauberplatzgrad über
   dem 4. kannst du auf eine weitere Kreatur zielen.'
 source_book: SRD 5.2 DE

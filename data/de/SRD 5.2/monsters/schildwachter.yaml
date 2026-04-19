@@ -18,24 +18,24 @@ attribute:
     rw: '+4'
   ges:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 18
     mod: '+4'
     rw: '+4'
   int:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   wei:
     wert: 10
     mod: '+0'
     rw: '+0'
   cha:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
 immunitaeten: Gift; Bezaubert, Erschöpft, Gelähmt,
 sinne: Blindsicht 3 m, Dunkelsicht 18 m;
 sprachen: Versteht Befehle in allen Sprachen, kann jedoch

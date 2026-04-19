@@ -15,8 +15,8 @@ bewegungsrate: 9 m, Fliegen 15 m (Schweben)
 attribute:
   sta:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
   ges:
     wert: 14
     mod: '+2'

@@ -19,24 +19,24 @@ attribute:
     rw: '+5'
   ges:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 19
     mod: '+4'
     rw: '+4'
   int:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   wei:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   cha:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 fertigkeiten: Wahrnehmung +2
 sinne: Passive Wahrnehmung 12
 sprachen: Riesisch

@@ -27,19 +27,19 @@ attribute:
     rw: '+4'
   int:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   wei:
     wert: 12
     mod: '+1'
     rw: '+1'
   cha:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 fertigkeiten: Athletik +9, Überlebenskunst +4,
 sinne: Passive Wahrnehmung 14
-sprachen: −
+sprachen: -
 hg: 7
 ep: 2900
 ub: '+3'

@@ -27,18 +27,18 @@ attribute:
     rw: '+0'
   int:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 12
     mod: '+1'
     rw: '+1'
   cha:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 sinne: Blindsicht 36 m; Passive Wahrnehmung 11
-sprachen: −
+sprachen: -
 hg: 1/4
 ep: 50
 ub: '+2'

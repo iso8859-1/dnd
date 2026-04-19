@@ -10,7 +10,7 @@ rk: 13
 initiative: '+3'
 initiative_wert: 13
 tp: 28
-tp_formel: 8W8−8
+tp_formel: 8W8-8
 bewegungsrate: 1,5 m, Schwimmen 12 m
 attribute:
   sta:
@@ -23,24 +23,24 @@ attribute:
     rw: '+3'
   kon:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   int:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
   wei:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   cha:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
 immunitaeten: Betäubt, Bezaubert, Festgesetzt, Gelähmt,
 resistenzen: Hieb, Stich, Wucht
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 8
-sprachen: −
+sprachen: -
 hg: 1
 ep: 200
 ub: '+2'

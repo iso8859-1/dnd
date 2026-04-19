@@ -5,7 +5,7 @@ lang: de
 level: 1
 name: Zauberwirken (Barde)
 description: 'Du hast gelernt, durch deine bardischen Künste Zauber zu wirken. Die Regeln zum Zauberwirken findest du unter
-  „Zauber“. Folgende Informationen erklären, wie du diese Regeln mit den Barden‑ zaubern verwendest, die in der Zauberliste
+  „Zauber“. Folgende Informationen erklären, wie du diese Regeln mit den Barden- zaubern verwendest, die in der Zauberliste
   des Barden weiter hinten in dieser Klassenbeschreibung Zaubertricks: aufgeführt sind. Du beherrschst zwei Zaubertricks Gehässiger
   Spott Tanzende Lichter deiner Wahl aus der Zauberliste des Barden. und werden empfohlen. Wann immer du eine Bardenstufe
   erhältst, kannst du einen deiner Zaubertricks mit einem anderen Zaubertrick deiner Wahl aus der Zauberliste des Barden ersetzen.
@@ -23,6 +23,6 @@ description: 'Du hast gelernt, durch deine bardischen Künste Zauber zu wirken. 
   ein anderes Bardenmerkmal dir Zauber gibt, die du stets vorbereitet hast, zählen diese Zauber nicht bei der Anzahl von Zaubern,
   die du mit diesem Merkmal vorbereiten kannst. Ansonsten zählen diese Deine vorbereiteten Zauber ändern: Zauber jedoch als
   Bardenzauber für dich. Wann immer du eine Bardenstufe erhältst, kannst du einen der Zauber auf deiner Liste mit einem anderen
-  Barden‑ Attribut zum Zauberwirken: zauber ersetzen, für den du Zauberplätze hast. Dein Attribut zum Zauberfokus: Wirken
+  Barden- Attribut zum Zauberwirken: zauber ersetzen, für den du Zauberplätze hast. Dein Attribut zum Zauberfokus: Wirken
   der Bardenzauber ist Charisma. Du kannst ein Musikinstrument als Zauberfokus für deine Bardenzauber verwenden.'
 source_book: SRD 5.2.1

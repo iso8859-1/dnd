@@ -27,8 +27,8 @@ attribute:
     rw: '+4'
   int:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 14
     mod: '+2'

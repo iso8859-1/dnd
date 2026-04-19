@@ -15,8 +15,8 @@ bewegungsrate: 12 m
 attribute:
   sta:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   ges:
     wert: 17
     mod: '+3'
@@ -27,8 +27,8 @@ attribute:
     rw: '+0'
   int:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   wei:
     wert: 10
     mod: '+0'

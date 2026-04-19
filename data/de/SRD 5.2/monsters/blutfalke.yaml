@@ -15,8 +15,8 @@ bewegungsrate: 3 m, Fliegen 18 m
 attribute:
   sta:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   ges:
     wert: 14
     mod: '+2'
@@ -27,19 +27,19 @@ attribute:
     rw: '+0'
   int:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 14
     mod: '+2'
     rw: '+2'
   cha:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
 fertigkeiten: Wahrnehmung +6
 sinne: Passive Wahrnehmung 16
-sprachen: −
+sprachen: -
 hg: 1/8
 ep: 25
 ub: '+2'

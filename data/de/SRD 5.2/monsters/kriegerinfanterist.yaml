@@ -26,16 +26,16 @@ attribute:
     rw: '+0'
   int:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   wei:
     wert: 11
     mod: '+0'
     rw: '+0'
   cha:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 ausruestung: Kettenhemd, Speer
 sinne: Passive Wahrnehmung 10
 sprachen: Gemeinsprache

@@ -15,8 +15,8 @@ bewegungsrate: 9 m, Schwimmen 9 m
 attribute:
   sta:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   ges:
     wert: 15
     mod: '+2'
@@ -27,18 +27,18 @@ attribute:
     rw: '+0'
   int:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
   wei:
     wert: 10
     mod: '+0'
     rw: '+0'
   cha:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
 sinne: Blindsicht 3 m; Passive Wahrnehmung 10
-sprachen: −
+sprachen: -
 hg: 1/8
 ep: 25
 ub: '+2'

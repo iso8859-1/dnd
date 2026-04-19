@@ -35,8 +35,8 @@ attribute:
     rw: '+1'
   cha:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
 fertigkeiten: Wahrnehmung +5
 resistenzen: Kälte, Säure
 sinne: Dunkelsicht 36 m; Passive Wahrnehmung 15

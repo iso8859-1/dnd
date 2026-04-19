@@ -9,7 +9,7 @@ casting_time: Aktion
 range: 36 Meter
 components: V, G
 duration: 1 Runde
-description: 'Du schleuderst einen Lichtblitz auf eine Kreatur in Reichweite. Führe einen Fernkampf‑Zauberangriff gegen das
+description: 'Du schleuderst einen Lichtblitz auf eine Kreatur in Reichweite. Führe einen Fernkampf-Zauberangriff gegen das
   Ziel aus. Bei einem Treffer erleidet es 4W6 gleißenden Schaden, und der nächste Angriffswurf, der vor dem Ende deines nächsten
   Zugs gegen es Verwenden von Zauberplätzen höheren Grades: ausgeführt wird, ist im Vorteil. Für jeden Zauberplatzgrad über
   dem 1. wird der Schaden um 1W6 erhöht.'

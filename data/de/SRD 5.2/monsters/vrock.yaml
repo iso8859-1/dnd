@@ -27,15 +27,15 @@ attribute:
     rw: '+4'
   int:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   wei:
     wert: 13
     mod: '+1'
     rw: '+4'
   cha:
     wert: 8
-    mod: −1
+    mod: -1
     rw: '+2'
 immunitaeten: Gift; Vergiftet
 resistenzen: Blitz, Feuer, Kälte

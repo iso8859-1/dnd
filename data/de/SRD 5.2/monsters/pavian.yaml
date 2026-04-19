@@ -15,8 +15,8 @@ bewegungsrate: 9 m, Klettern 9 m
 attribute:
   sta:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   ges:
     wert: 14
     mod: '+2'
@@ -27,18 +27,18 @@ attribute:
     rw: '+0'
   int:
     wert: 4
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   wei:
     wert: 12
     mod: '+1'
     rw: '+1'
   cha:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 sinne: Passive Wahrnehmung 11
-sprachen: −
+sprachen: -
 hg: 0
 ep: 10
 ub: '+2'
@@ -48,4 +48,4 @@ merkmale:
     der nicht kampfunfähig ist, im Abstand von bis zu 1,5 Metern von der Kreatur befindet.
 aktionen:
 - name: 'Biss:'
-  beschreibung: 'Nahkampfangriffswurf: +1, Reichweite 1,5 m. Treffer: 1 (1W4−1) Stichschaden.'
+  beschreibung: 'Nahkampfangriffswurf: +1, Reichweite 1,5 m. Treffer: 1 (1W4-1) Stichschaden.'

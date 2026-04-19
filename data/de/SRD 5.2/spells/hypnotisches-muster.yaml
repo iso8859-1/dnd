@@ -9,9 +9,9 @@ casting_time: Aktion
 range: 36 Meter
 components: V, G, M (eine Prise Konfetti)
 duration: Konzentration, bis zu 1 Minute
-description: Du erschaffst ein wirbelndes Muster aus Farben in einem Würfel mit neun Metern Kantenlänge in Reich‑ weite. Das
+description: Du erschaffst ein wirbelndes Muster aus Farben in einem Würfel mit neun Metern Kantenlänge in Reich- weite. Das
   Muster erscheint für einen Moment und verschwindet dann. Jede Kreatur im Bereich, die das Muster sehen kann, muss einen
-  Weisheitsrettungs‑ wurf bestehen, oder sie ist für die Wirkungsdauer bezaubert. Auf diese Art bezauberte Kreaturen sind
+  Weisheitsrettungs- wurf bestehen, oder sie ist für die Wirkungsdauer bezaubert. Auf diese Art bezauberte Kreaturen sind
   kampfunfähig und haben eine Bewegungsrate von 0. Der Zauber endet bei einer betroffenen Kreatur, wenn sie Schaden erleidet
   oder jemand anders eine Aktion verwendet, um die Kreatur aus ihrer Starre zu rütteln.
 source_book: SRD 5.2 DE

@@ -9,6 +9,6 @@ casting_time: Aktion
 range: Berührung
 components: V, G, M (ein Stück gehärtetes Leder)
 duration: 8 Stunden
-description: Du berührst eine bereitwillige Kreatur, die keine Rüstung trägt. Für die Wirkungsdauer erhält das Ziel eine Basis‑RK
+description: Du berührst eine bereitwillige Kreatur, die keine Rüstung trägt. Für die Wirkungsdauer erhält das Ziel eine Basis-RK
   von 13 plus ihrem Geschicklichkeitsmodifikator. Der Zauber endet vorzeitig, wenn das Ziel eine Rüstung anlegt.
 source_book: SRD 5.2 DE

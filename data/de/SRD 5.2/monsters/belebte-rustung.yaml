@@ -27,19 +27,19 @@ attribute:
     rw: '+1'
   int:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
   wei:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   cha:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
 immunitaeten: Gift, Psychisch; Bezaubert, Erschöpft,
 sinne: Blindsicht 18 m; Passive Wahrnehmung 6
-sprachen: −
+sprachen: -
 hg: 1
 ep: 200
 ub: '+2'

@@ -7,38 +7,38 @@ typ: Pflanze
 gesinnung: gesinnungslos
 source_book: SRD 5.2.1
 rk: 5
-initiative: −5 (5)
+initiative: -5 (5)
 tp: 18
 tp_formel: 4W8
 bewegungsrate: 1,5 m
 attribute:
   sta:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   ges:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
   kon:
     wert: 10
     mod: '+0'
     rw: '+0'
   int:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
   wei:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   cha:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
 immunitaeten: Bezaubert, Blind, Taub, Verängstigt
 sinne: Blindsicht 9 m; Passive Wahrnehmung 6
-sprachen: −
+sprachen: -
 hg: 1/4
 ep: 50
 ub: '+2'

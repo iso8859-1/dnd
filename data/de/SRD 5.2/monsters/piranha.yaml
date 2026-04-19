@@ -10,35 +10,35 @@ rk: 13
 initiative: '+3'
 initiative_wert: 13
 tp: 1
-tp_formel: 1W4−1
+tp_formel: 1W4-1
 bewegungsrate: 1,5 m, Schwimmen 12 m
 attribute:
   sta:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   ges:
     wert: 16
     mod: '+3'
     rw: '+3'
   kon:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   int:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
   wei:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   cha:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 8
-sprachen: −
+sprachen: -
 hg: 0
 ep: 10
 ub: '+2'

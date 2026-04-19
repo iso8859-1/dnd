@@ -14,8 +14,8 @@ bewegungsrate: 9 m
 attribute:
   sta:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   ges:
     wert: 14
     mod: '+2'

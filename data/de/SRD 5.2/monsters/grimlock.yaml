@@ -27,19 +27,19 @@ attribute:
     rw: '+1'
   int:
     wert: 9
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   wei:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   cha:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 fertigkeiten: Athletik +5, Heimlichkeit +5,
 sinne: Blindsicht 9 m; Passive Wahrnehmung 13
-sprachen: −
+sprachen: -
 hg: 1/4
 ep: 50
 ub: '+2'

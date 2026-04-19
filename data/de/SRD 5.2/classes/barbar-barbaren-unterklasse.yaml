@@ -4,7 +4,7 @@ class: Barbar
 lang: de
 level: 3
 name: Barbaren-Unterklasse (Barbar)
-description: Du erhältst eine Barbaren‑Unterklasse deiner Wahl. Die Unterklasse Pfad des Berserkers wird nach der Beschreibung
+description: Du erhältst eine Barbaren-Unterklasse deiner Wahl. Die Unterklasse Pfad des Berserkers wird nach der Beschreibung
   dieser Klasse erläutert. Unterklassen sind Spezialisierungen, die dir auf bestimmten Barbarenstufen Merkmale gewähren. Du
   erhältst für den Rest deiner Laufbahn alle Merkmale deiner Unterklasse, die zu deiner aktuellen Barbarenstufe oder den niedrigeren
   Stufen gehören.

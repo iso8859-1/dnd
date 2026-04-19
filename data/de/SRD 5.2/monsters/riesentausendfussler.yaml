@@ -15,8 +15,8 @@ bewegungsrate: 9 m, Klettern 9 m
 attribute:
   sta:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   ges:
     wert: 14
     mod: '+2'
@@ -27,18 +27,18 @@ attribute:
     rw: '+1'
   int:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
   wei:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   cha:
     wert: 3
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
 sinne: Blindsicht 9 m; Passive Wahrnehmung 8
-sprachen: −
+sprachen: -
 hg: 1/4
 ep: 50
 ub: '+2'

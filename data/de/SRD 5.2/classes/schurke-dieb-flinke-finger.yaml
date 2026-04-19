@@ -4,9 +4,9 @@ class: Schurke
 lang: de
 level: 3
 name: Flinke Finger (Dieb)
-description: 'Als Bonusaktion kannst du eine der folgenden Einen Gegenstand verwenden: Optionen ausführen: Führe die Verwenden‑Aktion
+description: 'Als Bonusaktion kannst du eine der folgenden Einen Gegenstand verwenden: Optionen ausführen: Führe die Verwenden-Aktion
   oder die magische Aktion aus, um einen magischen Gegenstand zu verwenden, Fingerfertigkeit: der diese Aktion erfordert.
-  Führe einen Geschicklichkeits‑ wurf (Fingerfertigkeit) aus, um mit Diebeswerkzeug ein Schloss zu knacken, eine Falle zu
+  Führe einen Geschicklichkeits- wurf (Fingerfertigkeit) aus, um mit Diebeswerkzeug ein Schloss zu knacken, eine Falle zu
   entschärfen oder um einen Taschendiebstahl auszuführen.'
 source_book: SRD 5.2.1
 subclass: Dieb

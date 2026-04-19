@@ -27,19 +27,19 @@ attribute:
     rw: '+5'
   int:
     wert: 4
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   wei:
     wert: 10
     mod: '+0'
     rw: '+0'
   cha:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
 immunitaeten: Feuer, Kälte
 sinne: Dunkelsicht 18 m, Erschütterungssinn 18 m;
-sprachen: −
+sprachen: -
 hg: 11
 ep: 7200
 ub: '+4'

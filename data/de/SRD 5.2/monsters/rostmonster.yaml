@@ -27,18 +27,18 @@ attribute:
     rw: '+1'
   int:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 13
     mod: '+1'
     rw: '+1'
   cha:
     wert: 6
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 11
-sprachen: −
+sprachen: -
 hg: 1/2
 ep: 100
 ub: '+2'
@@ -53,9 +53,9 @@ aktionen:
 - name: 'Antennen:'
   beschreibung: 'Das Rostmonster zielt auf einen nicht- magischen metallischen Gegenstand – eine Rüstung oder eine Waffe –
     der von einer Kreatur im Abstand von bis zu 1,5 Metern von ihm getragen oder gehalten wird. Geschicklichkeitsrettungswurf:
-    SG 11; die Kreatur mit dem Gegenstand. Misserfolg: Der Gegenstand erhält einen Malus von −1 auf die RK, die er bietet
+    SG 11; die Kreatur mit dem Gegenstand. Misserfolg: Der Gegenstand erhält einen Malus von -1 auf die RK, die er bietet
     (Rüstung), oder auf Angriffswürfe, die mit ihm ausgeführt werden (Waffe). Eine Rüstung wird zerstört, wenn der Malus ihre
-    RK auf 10 verringert. Eine Waffe wird zerstört, wenn der Malus −5 erreicht. Der Malus kann aufgehoben werden, indem der
+    RK auf 10 verringert. Eine Waffe wird zerstört, wenn der Malus -5 erreicht. Der Malus kann aufgehoben werden, indem der
     Zauber Ausbessern auf die Rüstung oder die Waffe gewirkt wird.'
 - name: 'Metall zerstören:'
   beschreibung: Das Rostmonster berührt einen nichtmagischen metallischen Gegenstand im Abstand von bis zu 1,5 Metern von

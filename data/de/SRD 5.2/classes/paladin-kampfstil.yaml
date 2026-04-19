@@ -4,10 +4,10 @@ class: Paladin
 lang: de
 level: 2
 name: Kampfstil (Paladin)
-description: 'Du erhältst ein Kampfstil‑Talent deiner Wahl (Talente siehe „Talente“). Anstatt eins dieser Talente auszuwählen,
-  kannst du dich auch für die Option Gesegneter Krieger: unten entscheiden. Du erlernst zwei Kleriker‑ zaubertricks deiner
-  Wahl (eine Liste der Kleriker‑ Göttliche Führung Heilige Flamme zauber findest du im Abschnitt zur Klerikerklasse). und
+description: 'Du erhältst ein Kampfstil-Talent deiner Wahl (Talente siehe „Talente“). Anstatt eins dieser Talente auszuwählen,
+  kannst du dich auch für die Option Gesegneter Krieger: unten entscheiden. Du erlernst zwei Kleriker- zaubertricks deiner
+  Wahl (eine Liste der Kleriker- Göttliche Führung Heilige Flamme zauber findest du im Abschnitt zur Klerikerklasse). und
   werden empfohlen. Die ausgewählten Zaubertricks zählen für dich als Paladinzauber, und dein Attribut zum Wirken dieser Zauber
-  ist Charisma. Wann immer du eine Paladinstufe erhältst, kannst du einen dieser Zaubertricks durch einen anderen Kleriker‑
+  ist Charisma. Wann immer du eine Paladinstufe erhältst, kannst du einen dieser Zaubertricks durch einen anderen Kleriker-
   zaubertrick ersetzen.'
 source_book: SRD 5.2.1

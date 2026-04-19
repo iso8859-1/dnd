@@ -19,26 +19,26 @@ attribute:
     rw: '+9'
   ges:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
   kon:
     wert: 22
     mod: '+6'
     rw: '+11'
   int:
     wert: 1
-    mod: −5
-    rw: −5
+    mod: -5
+    rw: -5
   wei:
     wert: 8
-    mod: −1
+    mod: -1
     rw: '+4'
   cha:
     wert: 4
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
 sinne: Blindsicht 9 m, Erschütterungssinn 18 m;
-sprachen: −
+sprachen: -
 hg: 15
 ep: 13000
 ub: '+5'

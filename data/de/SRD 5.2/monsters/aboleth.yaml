@@ -19,7 +19,7 @@ attribute:
     rw: '+5'
   ges:
     wert: 9
-    mod: −1
+    mod: -1
     rw: '+3'
   kon:
     wert: 15

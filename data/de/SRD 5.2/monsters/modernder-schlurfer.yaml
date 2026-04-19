@@ -7,7 +7,7 @@ typ: Pflanze
 gesinnung: gesinnungslos
 source_book: SRD 5.2.1
 rk: 15
-initiative: −1 (9)
+initiative: -1 (9)
 tp: 110
 tp_formel: 13W10+39
 bewegungsrate: 9 m, Schwimmen 6 m
@@ -18,29 +18,29 @@ attribute:
     rw: '+4'
   ges:
     wert: 8
-    mod: −1
-    rw: −1
+    mod: -1
+    rw: -1
   kon:
     wert: 16
     mod: '+3'
     rw: '+3'
   int:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
   wei:
     wert: 10
     mod: '+0'
     rw: '+0'
   cha:
     wert: 5
-    mod: −3
-    rw: −3
+    mod: -3
+    rw: -3
 fertigkeiten: Heimlichkeit +3
 immunitaeten: Blitz; Erschöpft, Taub
 resistenzen: Feuer, Kälte
 sinne: Blindsicht 18 m; Passive Wahrnehmung 10
-sprachen: −
+sprachen: -
 hg: 5
 ep: 1800
 ub: '+3'

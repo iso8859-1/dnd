@@ -27,20 +27,20 @@ attribute:
     rw: '+4'
   int:
     wert: 2
-    mod: −4
-    rw: −4
+    mod: -4
+    rw: -4
   wei:
     wert: 12
     mod: '+1'
     rw: '+1'
   cha:
     wert: 7
-    mod: −2
-    rw: −2
+    mod: -2
+    rw: -2
 fertigkeiten: Wahrnehmung +7
 immunitaeten: Erschöpft, Versteinert
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 17
-sprachen: −
+sprachen: -
 hg: 5
 ep: 1800
 ub: '+3'
