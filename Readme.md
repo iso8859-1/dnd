@@ -10,6 +10,12 @@ Die Texte die aus dem SRD extrahiert wurden, stehen unter der CC-BY 4.0, der res
 
 ## Benutzung
 
+### Release
+
+Lade einen Release aus der Release-Sektion herunter. Er enthält alles, was du benötigst.
+
+### Neueste Version von den Sourcen
+
 - Python 3.11+ installieren
 - `uv tool install .` im Verzeichnis ausführen bzw. `uv tool install . --reinstall` um es erneut nach einem Update zu installieren
 - dnd-cards ausführen

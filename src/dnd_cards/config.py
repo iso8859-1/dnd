@@ -35,6 +35,13 @@ CARDS_PER_COL: int = 1
 CARD_GAP_MM: float = 5.0
 CARD_CORNER_RADIUS_MM: float = 3.0
 
-# Default directories (relative to CWD at runtime)
-DEFAULT_DATA_DIR: str = "data"
+# Default directories — when frozen by PyInstaller, data is bundled inside
+# sys._MEIPASS; otherwise fall back to CWD-relative paths.
+import sys as _sys
+
+def _bundled(rel: str) -> str:
+    base = getattr(_sys, "_MEIPASS", None)
+    return str(_sys.modules["pathlib"].Path(base) / rel) if base else rel
+
+DEFAULT_DATA_DIR: str = _bundled("data")
 DEFAULT_OUTPUT_DIR: str = "output"
