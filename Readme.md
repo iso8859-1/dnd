@@ -1,5 +1,7 @@
 # DnD Cards
 
+![Kartenbeispiel](assets/card%20example.jpeg)
+
 DnD Cards ist ein Versuch, Regel, Spruch und Talent-Karten für Dungeons & Dragons 5.5E auf deutsch zu erstellen. Da ich kein Designer bin, sind die Karten nicht besonders schön.
 
 ## Lizenz
