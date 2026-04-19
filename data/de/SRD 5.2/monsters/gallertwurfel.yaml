@@ -38,7 +38,7 @@ attribute:
     rw: -5
 immunitaeten: Säure; Bezaubert, Blind, Erschöpft, Liegend,
 sinne: Blindsicht 18 m; Passive Wahrnehmung 8
-sprachen: -
+sprachen: "-"
 hg: 2
 ep: 450
 ub: '+2'

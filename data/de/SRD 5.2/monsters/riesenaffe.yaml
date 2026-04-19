@@ -39,7 +39,7 @@ attribute:
     rw: -2
 fertigkeiten: Athletik +9, Überlebenskunst +4,
 sinne: Passive Wahrnehmung 14
-sprachen: -
+sprachen: "-"
 hg: 7
 ep: 2900
 ub: '+3'

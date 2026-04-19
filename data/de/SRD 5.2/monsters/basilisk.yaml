@@ -37,7 +37,7 @@ attribute:
     mod: -2
     rw: -2
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 9
-sprachen: -
+sprachen: "-"
 hg: 3
 ep: 700
 ub: '+2'

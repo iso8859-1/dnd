@@ -38,7 +38,7 @@ attribute:
     mod: -2
     rw: -2
 sinne: Blindsicht 36 m; Passive Wahrnehmung 11
-sprachen: -
+sprachen: "-"
 hg: 1/4
 ep: 50
 ub: '+2'

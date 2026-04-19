@@ -38,7 +38,7 @@ attribute:
     rw: -2
 immunitaeten: Liegend
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 10
-sprachen: -
+sprachen: "-"
 hg: 2
 ep: 450
 ub: '+2'

@@ -39,7 +39,7 @@ attribute:
     rw: -3
 immunitaeten: Feuer, Kälte
 sinne: Dunkelsicht 18 m, Erschütterungssinn 18 m;
-sprachen: -
+sprachen: "-"
 hg: 11
 ep: 7200
 ub: '+4'

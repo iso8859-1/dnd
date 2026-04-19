@@ -39,7 +39,7 @@ attribute:
     rw: -2
 fertigkeiten: Wahrnehmung +6
 sinne: Passive Wahrnehmung 16
-sprachen: -
+sprachen: "-"
 hg: 0
 ep: 10
 ub: '+2'

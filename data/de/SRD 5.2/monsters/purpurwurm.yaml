@@ -38,7 +38,7 @@ attribute:
     mod: -3
     rw: -3
 sinne: Blindsicht 9 m, Erschütterungssinn 18 m;
-sprachen: -
+sprachen: "-"
 hg: 15
 ep: 13000
 ub: '+5'

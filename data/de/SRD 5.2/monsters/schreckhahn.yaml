@@ -39,7 +39,7 @@ attribute:
     rw: -3
 immunitaeten: Versteinert
 sinne: Dunkelsicht 18 m; Passive Wahrnehmung 11
-sprachen: -
+sprachen: "-"
 hg: 1/2
 ep: 100
 ub: '+2'

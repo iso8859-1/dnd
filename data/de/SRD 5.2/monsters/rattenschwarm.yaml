@@ -40,7 +40,7 @@ attribute:
 immunitaeten: Betäubt, Bezaubert, Festgesetzt, Gelähmt,
 resistenzen: Hieb, Stich, Wucht
 sinne: Dunkelsicht 9 m; Passive Wahrnehmung 10
-sprachen: -
+sprachen: "-"
 hg: 1/4
 ep: 50
 ub: '+2'

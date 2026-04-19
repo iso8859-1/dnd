@@ -39,7 +39,7 @@ attribute:
     rw: -2
 fertigkeiten: Wahrnehmung +4
 sinne: Dunkelsicht 36 m; Passive Wahrnehmung 14
-sprachen: -
+sprachen: "-"
 hg: 6
 ep: 2300
 ub: '+3'

@@ -38,7 +38,7 @@ attribute:
     rw: -5
 immunitaeten: Bezaubert, Blind, Taub, Verängstigt
 sinne: Blindsicht 9 m; Passive Wahrnehmung 6
-sprachen: -
+sprachen: "-"
 hg: 1/4
 ep: 50
 ub: '+2'

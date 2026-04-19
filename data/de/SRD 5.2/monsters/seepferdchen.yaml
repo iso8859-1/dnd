@@ -39,7 +39,7 @@ attribute:
     rw: -4
 fertigkeiten: Heimlichkeit +5, Wahrnehmung +2
 sinne: Passive Wahrnehmung 12
-sprachen: -
+sprachen: "-"
 hg: 0
 ep: 0
 ub: '+2'

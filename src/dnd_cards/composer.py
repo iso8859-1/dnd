@@ -37,7 +37,7 @@ _CARD_COLORS: dict[str, tuple[float, float, float]] = {
 _DEFAULT_COLOR: tuple[float, float, float] = (0.62, 0.62, 0.65)
 
 _HEADER_MM: float = 7.5   # header band height
-_BORDER_PT: float = 2.0   # border stroke width
+_BORDER_PT: float = _HEADER_MM * _MM_TO_PT / 3  # one-third the header height (~7.1 pt)
 
 # Approximate characters per line inside usable strip width (63mm − 2×3mm padding)
 _WRAP_7PT: int = 40
@@ -145,7 +145,7 @@ def _half_border(
     c: Any, x: float, y: float, w: float, h: float, r: float,
     color: tuple[float, float, float],
 ) -> None:
-    """Draw the 2pt rounded border for one card half."""
+    """Draw the rounded border for one card half (≥ half the header band height)."""
     rv, gv, bv = color
     c.setLineWidth(_BORDER_PT)
     c.setStrokeColorRGB(rv, gv, bv)
@@ -387,8 +387,14 @@ def _draw_strip(
     # Content fields — black text below header
     c.setFillColorRGB(0.0, 0.0, 0.0)
 
+    # Minimum y that clears the border stroke's inner edge
+    safe_bottom = front_bottom + _BORDER_PT / 2 + 4
+
     if card_type == "spell":
         # ── Spell front face ────────────────────────────────────────────────────
+        src = ctx.get("source_book")
+        bottom_reserve = (safe_bottom + line6) if src else safe_bottom
+
         level_school = f"Stufe {ctx['level']} \u00b7 {ctx['school']}"
         line_y = front_top - header_h
         c.setFont("Helvetica", 7)
@@ -398,7 +404,7 @@ def _draw_strip(
         for label, key in _FIELDS:
             for line in _wrap(f"{label}: {ctx[key]}", _WRAP_7PT):
                 line_y -= line7
-                if line_y < front_bottom + 4:
+                if line_y < bottom_reserve:
                     break
                 c.drawString(x + pad, line_y, line)
 
@@ -406,11 +412,20 @@ def _draw_strip(
         line_y -= 6
         for dl in _wrap(str(ctx["description"]), _WRAP_6PT):
             line_y -= line6
-            if line_y < front_bottom + 4:
+            if line_y < bottom_reserve:
                 break
             c.drawString(x + pad, line_y, dl)
+
+        if src:
+            c.setFont("Helvetica", 6)
+            c.setFillColorRGB(0.4, 0.4, 0.4)
+            c.drawString(x + pad, safe_bottom, str(src))
+            c.setFillColorRGB(0.0, 0.0, 0.0)
     else:
         # ── Generic front face (talent / rule / class_feature) ──────────────────
+        src = ctx.get("source_book")
+        bottom_reserve = (safe_bottom + line6) if src else safe_bottom
+
         line_y = front_top - header_h
         if card_type == "class_feature":
             cls = ctx.get("class_name") or ""
@@ -429,16 +444,13 @@ def _draw_strip(
             for tl in _wrap(str(ctx["typ"]), _WRAP_7PT):
                 c.drawString(x + pad, line_y, tl)
                 line_y -= line7
-                if line_y < front_bottom + 4:
+                if line_y < bottom_reserve:
                     break
         else:
             line_y -= 6
 
         c.setFont("Helvetica", 6)
         line_y -= 4
-        src = ctx.get("source_book")
-        # Reserve space for source_book line at bottom
-        bottom_reserve = (front_bottom + 4 + line6 + 4) if src else (front_bottom + 4)
         for dl in _wrap(str(ctx["description"]), _WRAP_6PT):
             line_y -= line6
             if line_y < bottom_reserve:
@@ -448,8 +460,13 @@ def _draw_strip(
         if src:
             c.setFont("Helvetica", 6)
             c.setFillColorRGB(0.4, 0.4, 0.4)
-            c.drawString(x + pad, front_bottom + 6, str(src))
+            c.drawString(x + pad, safe_bottom, str(src))
             c.setFillColorRGB(0.0, 0.0, 0.0)
+
+    # ── Fold edge — double width because both halves' borders stack when folded ──
+    c.setLineWidth(2 * _BORDER_PT)
+    c.setStrokeColorRGB(*color)
+    c.line(x, y + fold_h, x + w, y + fold_h)
 
     # ── Fold guide ─────────────────────────────────────────────────────────────
     c.setLineWidth(0.25)

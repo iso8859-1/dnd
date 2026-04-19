@@ -39,7 +39,7 @@ attribute:
     rw: -5
 immunitaeten: Gift, Psychisch; Bezaubert, Erschöpft,
 sinne: Blindsicht 18 m; Passive Wahrnehmung 7
-sprachen: -
+sprachen: "-"
 hg: 1/4
 ep: 50
 ub: '+2'

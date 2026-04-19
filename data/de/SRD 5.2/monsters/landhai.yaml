@@ -39,7 +39,7 @@ attribute:
     rw: -3
 fertigkeiten: Wahrnehmung +6
 sinne: Dunkelsicht 18 m, Erschütterungssinn 36 m;
-sprachen: -
+sprachen: "-"
 hg: 5
 ep: 1800
 ub: '+3'

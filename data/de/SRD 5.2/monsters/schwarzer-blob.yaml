@@ -38,7 +38,7 @@ attribute:
     rw: -5
 immunitaeten: Blitz, Hieb, Kälte, Säure; Bezaubert,
 sinne: Blindsicht 18 m; Passive Wahrnehmung 8
-sprachen: -
+sprachen: "-"
 hg: 4
 ep: 1100
 ub: '+2'

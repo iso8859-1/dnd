@@ -38,7 +38,7 @@ attribute:
     mod: -3
     rw: -3
 sinne: Passive Wahrnehmung 9
-sprachen: -
+sprachen: "-"
 hg: 1/4
 ep: 50
 ub: '+2'

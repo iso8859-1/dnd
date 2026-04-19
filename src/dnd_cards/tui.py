@@ -16,7 +16,10 @@ from textual.coordinate import Coordinate
 from textual.screen import ModalScreen
 from textual.widgets import DataTable, Footer, Header, Input, Label
 
-from dnd_cards.config import DEFAULT_DATA_DIR
+from dnd_cards.composer import compose_pdf, register_fonts
+from dnd_cards.config import DEFAULT_DATA_DIR, DEFAULT_OUTPUT_DIR
+from dnd_cards.errors import CardNotFoundError
+from dnd_cards.loader import load_card, load_deck
 from dnd_cards.scanner import CardRef, scan_cards
 
 __all__ = ["DeckBuilderApp", "run_tui", "slugify"]
@@ -153,6 +156,7 @@ class DeckBuilderApp(App[None]):
 
     BINDINGS = [
         Binding("ctrl+s", "save", "Save", show=True),
+        Binding("ctrl+g", "generate_pdf", "Generate PDF", show=True),
         Binding("q", "quit_app", "Quit", show=True),
         Binding("escape", "clear_search", "Clear search", show=False),
         Binding("plus", "increment_qty", "+", show=True, priority=True),
@@ -196,6 +200,7 @@ class DeckBuilderApp(App[None]):
         self._type_keys: dict[str, str] = {}   # e.g. {"1": "rules", "2": "spells"}
         self._saved_path: Path | None = None
         self._save_count: int = 0
+        self._generated_path: Path | None = None
 
     # ------------------------------------------------------------------
     # Compose
@@ -316,7 +321,7 @@ class DeckBuilderApp(App[None]):
         for nkey, t in self._type_keys.items():
             marker = "●" if t == self._active_type else " "
             parts.append(f"{nkey}={marker}{t}")
-        parts += ["+/-  qty", "ctrl+s  save", "q  quit"]
+        parts += ["+/-  qty", "ctrl+s  save", "ctrl+g  generate", "q  quit"]
         label = self.query_one("#footer-label", Label)
         label.update("  |  ".join(parts))
 
@@ -391,6 +396,46 @@ class DeckBuilderApp(App[None]):
             self._save()
             self._update_header()
 
+    def action_generate_pdf(self) -> None:
+        if self._deck_name:
+            self._save()
+            self._generate()
+        else:
+            default = self._deck_name or "deck"
+            self.push_screen(SaveModal(default), callback=self._on_save_name_and_generate)
+
+    def _on_save_name_and_generate(self, result: str | None) -> None:
+        if result is not None:
+            self._deck_name = result
+            self._save()
+            self._update_header()
+            self._generate()
+
+    def _generate(self) -> None:
+        if self._saved_path is None:
+            return
+        try:
+            register_fonts()
+            card_index = scan_cards(self._data_dir)
+            deck_profile = load_deck(self._saved_path)
+            cards = []
+            for entry in deck_profile.entries:
+                if entry.card_key not in card_index:
+                    raise CardNotFoundError(
+                        f"Card not found: {entry.card_key}"
+                    )
+                card = load_card(card_index[entry.card_key].path)
+                cards.extend([card] * entry.quantity)
+            out_dir = Path(DEFAULT_OUTPUT_DIR)
+            out_dir.mkdir(parents=True, exist_ok=True)
+            out_path = out_dir / f"{self._saved_path.stem}.pdf"
+            compose_pdf(cards, out_path)
+            self._generated_path = out_path
+        except Exception as exc:  # noqa: BLE001
+            self._generated_path = None
+            import builtins
+            builtins.print(f"PDF generation failed: {exc}")
+
     def action_quit_app(self) -> None:
         self._quit()
 
@@ -425,14 +470,13 @@ class DeckBuilderApp(App[None]):
     # ------------------------------------------------------------------
 
     def on_unmount(self) -> None:
+        import builtins
         if self._saved_path:
-            import builtins
-            builtins.print(
-                f"Saved -> {self._saved_path} ({self._save_count} cards)"
-            )
+            builtins.print(f"Saved -> {self._saved_path} ({self._save_count} cards)")
         else:
-            import builtins
             builtins.print("Quit without saving.")
+        if self._generated_path:
+            builtins.print(f"PDF   -> {self._generated_path}")
 
 
 # ---------------------------------------------------------------------------
