@@ -276,3 +276,52 @@ def test_generate_quantity_expansion(tmp_path: Path, fake_card: CardData) -> Non
     assert len(called_cards) == 2
     assert called_cards[0] is fake_card
     assert called_cards[1] is fake_card
+
+
+# ── Story 4.5: generate --duplex flag tests ──────────────────────────────────
+
+
+def test_generate_duplex_flag_calls_compose_pdf_duplex(tmp_path: Path, fake_card: CardData) -> None:
+    """--duplex routes to compose_pdf_duplex, not compose_pdf."""
+    deck_file = tmp_path / "deck.yaml"
+    deck_file.write_text("name: Test\ncards:\n  spells/fireball: 1\n", encoding="utf-8")
+    out_dir = tmp_path / "output"
+
+    fake_index = {"spells/fireball": CardRef(path=Path("data/en/spells/fireball.yaml"), card_type="spells")}
+    fake_deck = DeckProfile(name="Test", entries=[DeckEntry(card_key="spells/fireball", quantity=1)])
+
+    with patch("dnd_cards.cli.scan_cards", return_value=fake_index), \
+         patch("dnd_cards.cli.load_deck", return_value=fake_deck), \
+         patch("dnd_cards.cli.load_card", return_value=fake_card), \
+         patch("dnd_cards.cli.compose_pdf") as mock_regular, \
+         patch("dnd_cards.cli.compose_pdf_duplex") as mock_duplex:
+        result = runner.invoke(
+            app, ["generate", "--deck", str(deck_file), "--output-dir", str(out_dir), "--duplex"]
+        )
+
+    assert result.exit_code == 0
+    mock_duplex.assert_called_once()
+    mock_regular.assert_not_called()
+
+
+def test_generate_without_duplex_calls_compose_pdf(tmp_path: Path, fake_card: CardData) -> None:
+    """Without --duplex, compose_pdf (fold-strip) is used, not compose_pdf_duplex."""
+    deck_file = tmp_path / "deck.yaml"
+    deck_file.write_text("name: Test\ncards:\n  spells/fireball: 1\n", encoding="utf-8")
+    out_dir = tmp_path / "output"
+
+    fake_index = {"spells/fireball": CardRef(path=Path("data/en/spells/fireball.yaml"), card_type="spells")}
+    fake_deck = DeckProfile(name="Test", entries=[DeckEntry(card_key="spells/fireball", quantity=1)])
+
+    with patch("dnd_cards.cli.scan_cards", return_value=fake_index), \
+         patch("dnd_cards.cli.load_deck", return_value=fake_deck), \
+         patch("dnd_cards.cli.load_card", return_value=fake_card), \
+         patch("dnd_cards.cli.compose_pdf") as mock_regular, \
+         patch("dnd_cards.cli.compose_pdf_duplex") as mock_duplex:
+        result = runner.invoke(
+            app, ["generate", "--deck", str(deck_file), "--output-dir", str(out_dir)]
+        )
+
+    assert result.exit_code == 0
+    mock_regular.assert_called_once()
+    mock_duplex.assert_not_called()

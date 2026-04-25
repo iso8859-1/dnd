@@ -2,11 +2,12 @@
 
 from io import BytesIO
 from pathlib import Path
+from typing import Any
 from unittest.mock import MagicMock, patch
 
 import pytest
 
-from dnd_cards.composer import compose_pdf, register_fonts
+from dnd_cards.composer import compose_pdf, compose_pdf_duplex, register_fonts
 from dnd_cards.models import CardData, Language
 
 
@@ -176,4 +177,49 @@ def test_compose_pdf_class_feature_with_subclass_no_error(tmp_path: Path) -> Non
     buf = BytesIO()
     with patch("dnd_cards.composer.render_card", side_effect=_fake_ctx):
         compose_pdf([feat], buf)
+    assert buf.tell() > 0
+
+
+# ── Story 4.5: compose_pdf_duplex tests ─────────────────────────────────────
+
+
+def test_compose_pdf_duplex_produces_output(spell_card: CardData) -> None:
+    """compose_pdf_duplex writes bytes to output for a single card."""
+    buf = BytesIO()
+    with patch("dnd_cards.composer.render_card", side_effect=_fake_ctx):
+        compose_pdf_duplex([spell_card], buf)
+    assert buf.tell() > 0
+
+
+def test_compose_pdf_duplex_back_mirrors_columns(spell_card: CardData) -> None:
+    """Back page draws each card's back at the horizontally mirrored column position."""
+    cards = [spell_card, spell_card, spell_card]  # 3 cards fill row 0
+
+    front_xs: list[float] = []
+    back_xs: list[float] = []
+
+    def capture_front(c: Any, ctx: Any, x: float, y: float, w: float, h: float) -> None:
+        front_xs.append(x)
+
+    def capture_back(c: Any, ctx: Any, x: float, y: float, w: float, h: float) -> None:
+        back_xs.append(x)
+
+    with patch("dnd_cards.composer.render_card", side_effect=_fake_ctx), \
+         patch("dnd_cards.composer._draw_front_face", side_effect=capture_front), \
+         patch("dnd_cards.composer._draw_back_face", side_effect=capture_back):
+        compose_pdf_duplex(cards, BytesIO())
+
+    assert len(front_xs) == 3
+    assert len(back_xs) == 3
+    # col 0 front → col 2 back; col 1 stays; col 2 front → col 0 back
+    assert back_xs[0] == pytest.approx(front_xs[2])
+    assert back_xs[1] == pytest.approx(front_xs[1])
+    assert back_xs[2] == pytest.approx(front_xs[0])
+
+
+def test_compose_pdf_duplex_multi_group_no_error(spell_card: CardData) -> None:
+    """10 cards (> 9 per page) generates output without error."""
+    buf = BytesIO()
+    with patch("dnd_cards.composer.render_card", side_effect=_fake_ctx):
+        compose_pdf_duplex([spell_card] * 10, buf)
     assert buf.tell() > 0

@@ -18,11 +18,13 @@ from dnd_cards.config import (
     CARD_STRIP_HEIGHT_MM,
     CARD_STRIP_WIDTH_MM,
     CARDS_PER_ROW,
+    DUPLEX_COLS,
+    DUPLEX_ROWS,
 )
 from dnd_cards.models import CardData
 from dnd_cards.renderer import render_card
 
-__all__ = ["register_fonts", "compose_pdf"]
+__all__ = ["register_fonts", "compose_pdf", "compose_pdf_duplex"]
 
 _MM_TO_PT: float = 72.0 / 25.4
 _CARDS_PER_PAGE: int = CARDS_PER_ROW  # 4 strips per A4 landscape page
@@ -496,3 +498,178 @@ def _draw_strip(
     _draw_back_icon(c, w / 2, (fold_h - header_h) / 2, _mm(22), card_type, color)
 
     c.restoreState()
+
+
+# ── Duplex helpers ─────────────────────────────────────────────────────────────
+
+def _draw_front_face(
+    c: Any, ctx: dict[str, Any], x: float, y: float, w: float, h: float
+) -> None:
+    """Draw card front face as a standalone w×h rectangle at (x, y)."""
+    r = _mm(CARD_CORNER_RADIUS_MM)
+    pad = _mm(3)
+    header_h = _mm(_HEADER_MM)
+    line7 = 11.0
+    line6 = 8.0
+
+    card_type = str(ctx.get("type", "spell"))
+    color = _card_color(card_type)
+
+    face_top = y + h
+    face_bottom = y
+
+    _fill_header(c, x, face_top, w, header_h, r, color)
+    _half_border(c, x, face_bottom, w, h, r, color)
+
+    c.setFillColorRGB(1.0, 1.0, 1.0)
+    c.setFont("Helvetica-Bold", 9)
+    c.drawString(x + pad, face_top - header_h / 2 - 3, str(ctx["name"]))
+
+    c.setFillColorRGB(0.0, 0.0, 0.0)
+    safe_bottom = face_bottom + _BORDER_PT / 2 + 4
+
+    if card_type == "spell":
+        src = ctx.get("source_book")
+        bottom_reserve = (safe_bottom + line6) if src else safe_bottom
+        level_school = f"Stufe {ctx['level']} · {ctx['school']}"
+        line_y = face_top - header_h
+        c.setFont("Helvetica", 7)
+        line_y -= 10
+        c.drawString(x + pad, line_y, level_school)
+        for label, key in _FIELDS:
+            for line in _wrap(f"{label}: {ctx[key]}", _WRAP_7PT):
+                line_y -= line7
+                if line_y < bottom_reserve:
+                    break
+                c.drawString(x + pad, line_y, line)
+        c.setFont("Helvetica", 6)
+        line_y -= 6
+        for dl in _wrap(str(ctx["description"]), _WRAP_6PT):
+            line_y -= line6
+            if line_y < bottom_reserve:
+                break
+            c.drawString(x + pad, line_y, dl)
+        if src:
+            c.setFont("Helvetica", 6)
+            c.setFillColorRGB(0.4, 0.4, 0.4)
+            c.drawString(x + pad, safe_bottom, str(src))
+            c.setFillColorRGB(0.0, 0.0, 0.0)
+    else:
+        src = ctx.get("source_book")
+        bottom_reserve = (safe_bottom + line6) if src else safe_bottom
+        line_y = face_top - header_h
+        if card_type == "class_feature":
+            cls = ctx.get("class_name") or ""
+            lvl = ctx.get("level")
+            class_line = f"{cls} · Stufe {lvl}" if lvl is not None else str(cls)
+            sub = ctx.get("subclass")
+            c.setFont("Helvetica-Oblique", 7)
+            line_y -= 10
+            c.drawString(x + pad, line_y, class_line)
+            if sub:
+                line_y -= line7
+                c.drawString(x + pad, line_y, f"({sub})")
+        elif ctx.get("typ"):
+            c.setFont("Helvetica-Oblique", 7)
+            line_y -= 10
+            for tl in _wrap(str(ctx["typ"]), _WRAP_7PT):
+                c.drawString(x + pad, line_y, tl)
+                line_y -= line7
+                if line_y < bottom_reserve:
+                    break
+        else:
+            line_y -= 6
+        c.setFont("Helvetica", 6)
+        line_y -= 4
+        for dl in _wrap(str(ctx["description"]), _WRAP_6PT):
+            line_y -= line6
+            if line_y < bottom_reserve:
+                break
+            c.drawString(x + pad, line_y, dl)
+        if src:
+            c.setFont("Helvetica", 6)
+            c.setFillColorRGB(0.4, 0.4, 0.4)
+            c.drawString(x + pad, safe_bottom, str(src))
+            c.setFillColorRGB(0.0, 0.0, 0.0)
+
+
+def _draw_back_face(
+    c: Any, ctx: dict[str, Any], x: float, y: float, w: float, h: float
+) -> None:
+    """Draw card back face upright at (x, y), not rotated (for duplex printing)."""
+    r = _mm(CARD_CORNER_RADIUS_MM)
+    pad = _mm(3)
+    header_h = _mm(_HEADER_MM)
+
+    card_type = str(ctx.get("type", "spell"))
+    color = _card_color(card_type)
+
+    face_top = y + h
+
+    _fill_header(c, x, face_top, w, header_h, r, color)
+    _half_border(c, x, y, w, h, r, color)
+
+    c.setFillColorRGB(1.0, 1.0, 1.0)
+    c.setFont("Helvetica-Bold", 9)
+    c.drawString(x + pad, face_top - header_h / 2 - 3, str(ctx["name"]))
+
+    content_center_y = y + (h - header_h) / 2
+    _draw_back_icon(c, x + w / 2, content_center_y, _mm(22), card_type, color)
+
+
+def compose_pdf_duplex(cards: list[CardData], output_path: Path | BytesIO) -> None:
+    """Compose a duplex-ready PDF: fronts on odd pages, backs on even pages.
+
+    Layout: A4 portrait, 3 columns × 3 rows, 63×88mm card faces, 5mm gaps.
+    Back pages have columns mirrored left-to-right for long-edge duplex printing.
+    No folding required: cut cards out after duplex printing.
+    """
+    dest: Any = output_path if isinstance(output_path, BytesIO) else str(output_path)
+    c = rl_canvas.Canvas(dest, pagesize=A4)
+
+    page_w: float
+    page_h: float
+    page_w, page_h = A4
+    face_w = _mm(CARD_STRIP_WIDTH_MM)
+    face_h = _mm(CARD_FOLDED_HEIGHT_MM)
+    gap = _mm(CARD_GAP_MM)
+
+    cols = DUPLEX_COLS
+    rows = DUPLEX_ROWS
+    cards_per_page = cols * rows
+
+    total_w = cols * face_w + (cols - 1) * gap
+    total_h = rows * face_h + (rows - 1) * gap
+    x_origin = (page_w - total_w) / 2
+    y_origin = (page_h - total_h) / 2
+
+    def _cx(col: int) -> float:
+        return x_origin + col * (face_w + gap)
+
+    def _cy(row: int) -> float:
+        return y_origin + row * (face_h + gap)
+
+    try:
+        for group_start in range(0, len(cards), cards_per_page):
+            group = cards[group_start : group_start + cards_per_page]
+
+            if group_start > 0:
+                c.showPage()  # end previous back page, start new front page
+
+            contexts = [render_card(card, card.template) for card in group]
+
+            # Front page
+            for i, ctx in enumerate(contexts):
+                _draw_front_face(c, ctx, _cx(i % cols), _cy(i // cols), face_w, face_h)
+
+            c.showPage()  # end front page, start back page
+
+            # Back page — mirror column positions for long-edge duplex
+            for i, ctx in enumerate(contexts):
+                mirrored_col = (cols - 1) - (i % cols)
+                _draw_back_face(
+                    c, ctx, _cx(mirrored_col), _cy(i // cols), face_w, face_h
+                )
+
+    finally:
+        c.save()

@@ -217,3 +217,47 @@ async def test_tui_save_writes_yaml(data_dir: Path, tmp_path: Path) -> None:
     data = _yaml.safe_load(deck_path.read_text(encoding="utf-8"))
     assert data["name"] == "Test Deck"
     assert data["cards"]["spells/feuerball"] == 2
+
+
+# ---------------------------------------------------------------------------
+# Story 5.2: ctrl+d duplex generation binding
+# ---------------------------------------------------------------------------
+
+
+async def test_ctrl_d_calls_compose_pdf_duplex(data_dir: Path, tmp_path: Path) -> None:
+    """ctrl+d triggers compose_pdf_duplex, not compose_pdf."""
+    deck_path = tmp_path / "test.yaml"
+    with patch("dnd_cards.tui.compose_pdf") as mock_regular, \
+         patch("dnd_cards.tui.compose_pdf_duplex") as mock_duplex:
+        app = DeckBuilderApp(data_dir=data_dir, deck_name="Test", deck_file=deck_path)
+        async with app.run_test() as pilot:
+            await pilot.press("ctrl+d")
+            await pilot.pause()
+
+    mock_duplex.assert_called_once()
+    mock_regular.assert_not_called()
+
+
+async def test_ctrl_g_does_not_call_compose_pdf_duplex(data_dir: Path, tmp_path: Path) -> None:
+    """ctrl+g triggers compose_pdf (fold-strip), not compose_pdf_duplex."""
+    deck_path = tmp_path / "test.yaml"
+    with patch("dnd_cards.tui.compose_pdf") as mock_regular, \
+         patch("dnd_cards.tui.compose_pdf_duplex") as mock_duplex:
+        app = DeckBuilderApp(data_dir=data_dir, deck_name="Test", deck_file=deck_path)
+        async with app.run_test() as pilot:
+            await pilot.press("ctrl+g")
+            await pilot.pause()
+
+    mock_regular.assert_called_once()
+    mock_duplex.assert_not_called()
+
+
+async def test_ctrl_d_empty_deck_does_not_crash(data_dir: Path, tmp_path: Path) -> None:
+    """Pressing ctrl+d with 0 cards added completes without crashing the TUI."""
+    deck_path = tmp_path / "test.yaml"
+    with patch("dnd_cards.tui.compose_pdf_duplex"):
+        app = DeckBuilderApp(data_dir=data_dir, deck_name="Test", deck_file=deck_path)
+        async with app.run_test() as pilot:
+            await pilot.press("ctrl+d")
+            await pilot.pause()
+            await pilot.press("q")

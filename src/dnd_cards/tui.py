@@ -16,7 +16,7 @@ from textual.coordinate import Coordinate
 from textual.screen import ModalScreen
 from textual.widgets import DataTable, Footer, Header, Input, Label
 
-from dnd_cards.composer import compose_pdf, register_fonts
+from dnd_cards.composer import compose_pdf, compose_pdf_duplex, register_fonts
 from dnd_cards.config import DEFAULT_DATA_DIR, DEFAULT_OUTPUT_DIR
 from dnd_cards.errors import CardNotFoundError
 from dnd_cards.loader import load_card, load_deck
@@ -157,6 +157,7 @@ class DeckBuilderApp(App[None]):
     BINDINGS = [
         Binding("ctrl+s", "save", "Save", show=True),
         Binding("ctrl+g", "generate_pdf", "Generate PDF", show=True),
+        Binding("ctrl+d", "generate_pdf_duplex", "Duplex PDF", show=True),
         Binding("q", "quit_app", "Quit", show=True),
         Binding("escape", "clear_search", "Clear search", show=False),
         Binding("plus", "increment_qty", "+", show=True, priority=True),
@@ -321,7 +322,9 @@ class DeckBuilderApp(App[None]):
         for nkey, t in self._type_keys.items():
             marker = "●" if t == self._active_type else " "
             parts.append(f"{nkey}={marker}{t}")
-        parts += ["+/-  qty", "ctrl+s  save", "ctrl+g  generate", "q  quit"]
+        parts += [
+            "+/-  qty", "ctrl+s  save", "ctrl+g  generate", "ctrl+d  duplex", "q  quit",
+        ]
         label = self.query_one("#footer-label", Label)
         label.update("  |  ".join(parts))
 
@@ -411,7 +414,24 @@ class DeckBuilderApp(App[None]):
             self._update_header()
             self._generate()
 
-    def _generate(self) -> None:
+    def action_generate_pdf_duplex(self) -> None:
+        if self._deck_name:
+            self._save()
+            self._generate(duplex=True)
+        else:
+            default = self._deck_name or "deck"
+            self.push_screen(
+                SaveModal(default), callback=self._on_save_name_and_generate_duplex
+            )
+
+    def _on_save_name_and_generate_duplex(self, result: str | None) -> None:
+        if result is not None:
+            self._deck_name = result
+            self._save()
+            self._update_header()
+            self._generate(duplex=True)
+
+    def _generate(self, *, duplex: bool = False) -> None:
         if self._saved_path is None:
             return
         try:
@@ -429,7 +449,10 @@ class DeckBuilderApp(App[None]):
             out_dir = Path(DEFAULT_OUTPUT_DIR)
             out_dir.mkdir(parents=True, exist_ok=True)
             out_path = out_dir / f"{self._saved_path.stem}.pdf"
-            compose_pdf(cards, out_path)
+            if duplex:
+                compose_pdf_duplex(cards, out_path)
+            else:
+                compose_pdf(cards, out_path)
             self._generated_path = out_path
         except Exception as exc:  # noqa: BLE001
             self._generated_path = None

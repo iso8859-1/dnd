@@ -7,7 +7,7 @@ from typing import NoReturn, Optional
 
 import typer
 
-from dnd_cards.composer import compose_pdf, register_fonts
+from dnd_cards.composer import compose_pdf, compose_pdf_duplex, register_fonts
 from dnd_cards.config import DEFAULT_DATA_DIR, DEFAULT_OUTPUT_DIR
 from dnd_cards.errors import (
     CardNotFoundError,
@@ -67,15 +67,20 @@ def generate(
     output_dir: Optional[str] = typer.Option(
         None, "--output-dir", help="Output directory for generated PDF."
     ),
+    duplex: bool = typer.Option(
+        False, "--duplex", help="Duplex-ready PDF: fronts and backs on separate pages."
+    ),
 ) -> None:
     """Generate a print-ready PDF from a deck profile."""
     try:
-        _generate_impl(deck, output_dir)
+        _generate_impl(deck, output_dir, duplex)
     except Exception as exc:
         _handle_dnd_error(exc)
 
 
-def _generate_impl(deck: str, output_dir: Optional[str] = None) -> None:
+def _generate_impl(
+    deck: str, output_dir: Optional[str] = None, duplex: bool = False
+) -> None:
     deck_path = Path(deck)
     card_index = scan_cards(Path(DEFAULT_DATA_DIR))
     deck_profile = load_deck(deck_path)
@@ -93,7 +98,10 @@ def _generate_impl(deck: str, output_dir: Optional[str] = None) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / f"{deck_path.stem}.pdf"
 
-    compose_pdf(cards, out_path)
+    if duplex:
+        compose_pdf_duplex(cards, out_path)
+    else:
+        compose_pdf(cards, out_path)
     typer.echo(str(out_path))
 
 

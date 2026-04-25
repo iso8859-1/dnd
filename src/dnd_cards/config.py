@@ -10,6 +10,8 @@ __all__ = [
     "CARDS_PER_COL",
     "CARD_GAP_MM",
     "CARD_CORNER_RADIUS_MM",
+    "DUPLEX_COLS",
+    "DUPLEX_ROWS",
     "DEFAULT_DATA_DIR",
     "DEFAULT_OUTPUT_DIR",
 ]
@@ -30,6 +32,11 @@ CARD_FOLDED_HEIGHT_MM: float = 88.0  # half-height after folding = Magic card he
 #               1×176mm = 176mm ≤ 210mm (landscape height) ✓
 CARDS_PER_ROW: int = 4
 CARDS_PER_COL: int = 1
+
+# Duplex layout on A4 portrait: 3 columns × 3 rows = 9 cards per page pair
+# Verification: 3×63 + 2×5 = 199mm ≤ 210mm ✓  |  3×88 + 2×5 = 274mm ≤ 297mm ✓
+DUPLEX_COLS: int = 3
+DUPLEX_ROWS: int = 3
 
 # Gap between cards and rounded corner radius
 CARD_GAP_MM: float = 5.0

@@ -1,5 +1,5 @@
-# generated: 2026-04-11
-# last_updated: 2026-04-18  # story 4-4 created; class feature card type
+﻿# generated: 2026-04-11
+# last_updated: 2026-04-25  # story 4-5 review; duplex pdf mode implemented
 # project: dnd
 # project_key: NOKEY
 # tracking_system: file-system
@@ -35,7 +35,7 @@
 # - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
 
 generated: 2026-04-11
-last_updated: 2026-04-12
+last_updated: 2026-04-25
 project: dnd
 project_key: NOKEY
 tracking_system: file-system
@@ -71,9 +71,11 @@ development_status:
   4-2-shell-completion-verification-and-example-deck-yaml: backlog
   4-3-talent-and-rule-card-type: review
   4-4-class-feature-card-type: review
+  4-5-duplex-pdf-mode: review
   epic-4-retrospective: optional
 
   # ─── Epic 5: TUI Deck Builder ─────────────────────────────────────────────
   epic-5: in-progress
   5-1-deck-builder-tui: review
+  5-2-tui-duplex-generation: review
   epic-5-retrospective: optional
