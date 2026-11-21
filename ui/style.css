@@ -144,6 +144,28 @@ kbd {
 #search:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
 .chips { display: flex; gap: 6px; flex-wrap: wrap; }
 .chips:empty { display: none; }
+.level-filter { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 13px; }
+.level-filter input {
+  width: 58px;
+  padding: 4px 6px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+}
+.level-filter input:focus { outline: none; border-color: var(--accent); }
+.level-filter .clear {
+  padding: 0 6px;
+  border: none;
+  background: none;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+.level-filter .clear:hover { color: var(--text); }
+.lvl { margin-left: 4px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .chip {
   padding: 3px 10px;
   border-radius: 999px;

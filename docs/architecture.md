@@ -80,7 +80,8 @@ dnd-cards generate --deck decks/x.yaml [--duplex] [--output-dir output]
 startup ─► setup(): data dir = saved source (settings.json) │ $DND_CARDS_DATA │ <resources>/data │ find_default_data_dir()
                     initial deck = first CLI arg if it is a file
 ui start ─► invoke("data_sources")   → { sources[{id,name,description,path,kind}], active, datasets_dir }
-         ─► invoke("catalog")        → { data_dir, source, languages, types, cards[{key,name,card_type,lang}] }
+         ─► invoke("catalog")        → { data_dir, source, languages, types, cards[{key,name,card_type,lang,level,layout,error}] }
+                                        level = spell grade │ feature level │ feat min. level (UI level filter)
          ─► invoke("initial_deck")   → deck or null
 select   ─► invoke("card_details", {key}) → CardData (cached per key in the UI)
 Ctrl+O   ─► invoke("open_deck")      → native open dialog → { path, name, cards[[key,qty]] }

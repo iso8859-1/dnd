@@ -9,6 +9,7 @@ const ui = {
   search: $("search"), langChips: $("lang-chips"), typeChips: $("type-chips"), onlyDeck: $("only-deck"),
   rows: $("rows"), empty: $("empty"), preview: $("preview"),
   deckList: $("deck-list"), deckEmpty: $("deck-empty"), status: $("status"), source: $("source"),
+  lvlMin: $("lvl-min"), lvlMax: $("lvl-max"), lvlClear: $("lvl-clear"),
   buttons: ["btn-new", "btn-open", "btn-save", "btn-pdf", "btn-duplex"].map($),
 };
 
@@ -20,6 +21,8 @@ const state = {
   qty: new Map(),       // key -> quantity (>0); insertion order = deck order
   lang: null,
   type: null,
+  lvlMin: null,         // level filter (inclusive); null = open end
+  lvlMax: null,
   search: "",
   onlyDeck: false,
   visible: [],
@@ -114,12 +117,24 @@ function typeLabel(t) {
 
 // ── Rendering ───────────────────────────────────────────────────────────────
 
+function levelActive() {
+  return state.lvlMin != null || state.lvlMax != null;
+}
+
+function levelMatches(c) {
+  if (!levelActive()) return true;
+  if (c.level == null) return false;
+  const lo = state.lvlMin ?? -Infinity, hi = state.lvlMax ?? Infinity;
+  return c.level >= Math.min(lo, hi) && c.level <= Math.max(lo, hi);
+}
+
 function computeVisible() {
   const ranked = [];
   for (const c of state.cards) {
     if (state.lang && c.lang !== state.lang) continue;
     if (state.type && c.card_type !== state.type) continue;
     if (state.onlyDeck && !state.qty.has(c.key)) continue;
+    if (!levelMatches(c)) continue;
     const rank = fuzzyRank(state.search, c.name);
     if (rank >= 0) ranked.push([rank, c]);
   }
@@ -152,7 +167,8 @@ function renderRows() {
       ondblclick: () => changeQty(c.key, +1),
     },
       el("span", { class: "name-cell" }, el("span", { class: "name", text: c.name, title: c.key }), layoutBadge(c)),
-      el("span", { class: "type" }, el("span", { class: "dot " + c.card_type }), typeLabel(c.card_type)),
+      el("span", { class: "type" }, el("span", { class: "dot " + c.card_type }), typeLabel(c.card_type),
+        c.level != null ? el("span", { class: "lvl", text: `· ${c.level}`, title: "Level" }) : null),
       stepper(c.key),
     );
     frag.append(row);
@@ -305,6 +321,7 @@ function reveal(key) {
     if (!card) return showPreview(key);
     state.search = ui.search.value = "";
     state.type = null;
+    if (!levelMatches(card)) setLevel(null, null);
     if (state.lang && state.lang !== card.lang) state.lang = card.lang;
     renderAll();
     i = state.visible.findIndex((c) => c.key === key);
@@ -316,6 +333,31 @@ function toggleLang(l) {
   state.lang = state.lang === l ? null : l;
   state.sel = 0;
   renderAll();
+}
+
+function setLevel(min, max) {
+  state.lvlMin = min;
+  state.lvlMax = max;
+  ui.lvlMin.value = min ?? "";
+  ui.lvlMax.value = max ?? "";
+  ui.lvlClear.hidden = !levelActive();
+}
+
+function readLevel(input) {
+  const v = input.value.trim();
+  if (v === "") return null;
+  const n = Math.round(Number(v));
+  return Number.isFinite(n) ? Math.max(0, Math.min(20, n)) : null;
+}
+
+function onLevelInput() {
+  state.lvlMin = readLevel(ui.lvlMin);
+  state.lvlMax = readLevel(ui.lvlMax);
+  ui.lvlClear.hidden = !levelActive();
+  state.sel = 0;
+  computeVisible();
+  renderRows();
+  showPreview();
 }
 
 function toggleType(t) {
@@ -412,6 +454,15 @@ ui.search.addEventListener("input", () => {
   showPreview();
 });
 
+ui.lvlMin.addEventListener("input", onLevelInput);
+ui.lvlMax.addEventListener("input", onLevelInput);
+ui.lvlClear.addEventListener("click", () => { setLevel(null, null); onLevelInput(); ui.search.focus(); });
+for (const inp of [ui.lvlMin, ui.lvlMax]) {
+  inp.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" || e.key === "Enter") { e.preventDefault(); ui.search.focus(); }
+  });
+}
+
 ui.onlyDeck.addEventListener("change", () => {
   state.onlyDeck = ui.onlyDeck.checked;
   state.sel = 0;
@@ -432,7 +483,7 @@ document.addEventListener("keydown", (e) => {
     if (t) { e.preventDefault(); toggleType(t); }
     return;
   }
-  if (e.target === ui.name || e.target === ui.onlyDeck || e.target === ui.source || e.altKey) return;
+  if ([ui.name, ui.onlyDeck, ui.source, ui.lvlMin, ui.lvlMax].includes(e.target) || e.altKey) return;
 
   const cur = state.visible[state.sel];
   const page = Math.max(1, Math.floor(ui.rows.clientHeight / 34) - 1);
@@ -452,6 +503,7 @@ document.addEventListener("keydown", (e) => {
       e.preventDefault();
       if (ui.search.value) { ui.search.value = ""; ui.search.dispatchEvent(new Event("input")); }
       else if (state.type) toggleType(state.type);
+      else if (levelActive()) { setLevel(null, null); onLevelInput(); }
       return;
   }
   // Any other printable key goes to the search box.

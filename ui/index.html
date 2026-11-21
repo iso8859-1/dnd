@@ -31,6 +31,13 @@
     <input id="search" type="search" placeholder="Search card names…" spellcheck="false" autocomplete="off" aria-label="Search">
     <div id="lang-chips" class="chips" aria-label="Language"></div>
     <div id="type-chips" class="chips" aria-label="Card type"></div>
+    <div class="level-filter" title="Spell grade, class feature level or minimum level of a feat.&#10;Cards without a level (rules, monsters) are hidden while a range is set.">
+      <span>Level</span>
+      <input id="lvl-min" type="number" min="0" max="20" step="1" placeholder="from" aria-label="Minimum level">
+      <span>–</span>
+      <input id="lvl-max" type="number" min="0" max="20" step="1" placeholder="to" aria-label="Maximum level">
+      <button id="lvl-clear" class="clear" title="Clear level filter" hidden>×</button>
+    </div>
     <label class="toggle"><input id="only-deck" type="checkbox"> In deck only</label>
   </section>
 

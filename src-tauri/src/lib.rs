@@ -36,6 +36,8 @@ struct CardInfo {
     name: String,
     card_type: String,
     lang: String,
+    /// Spell grade, class feature level or minimum level of a feat (for the level filter).
+    level: Option<i64>,
     /// How the card prints; `None` if it can't be printed (see `error`).
     layout: Option<LayoutInfo>,
     error: Option<String>,
@@ -99,6 +101,31 @@ fn read_deck(path: &Path) -> CmdResult<LoadedDeck> {
     })
 }
 
+/// Level used by the UI's level filter: the card's `level`, or for feats the
+/// minimum level from the category ("… (Voraussetzung: min. 4. Stufe)"),
+/// 1 for feats without a level requirement.
+fn filter_level(card: &CardData) -> Option<i64> {
+    if card.level.is_some() {
+        return card.level;
+    }
+    if card.card_type != "talent" {
+        return None;
+    }
+    let typ = card.typ.as_deref().unwrap_or("");
+    let min_level = typ.find("min.").and_then(|i| {
+        let digits: String = typ[i + 4..]
+            .trim_start()
+            .chars()
+            .take_while(|c| c.is_ascii_digit())
+            .collect();
+        let rest = typ[i + 4..].trim_start()[digits.len()..].trim_start();
+        (rest.starts_with(". Stufe") || rest.starts_with(".Stufe"))
+            .then(|| digits.parse().ok())
+            .flatten()
+    });
+    Some(min_level.unwrap_or(1))
+}
+
 // ── Commands ─────────────────────────────────────────────────────────────────
 
 /// Index the data store and read every card's display name.
@@ -123,15 +150,21 @@ async fn catalog(app: AppHandle, state: State<'_, AppState>) -> CmdResult<Catalo
     let cards = index
         .into_iter()
         .map(|(key, r)| {
-            let (name, layout, error) = match load_card(&r.path) {
-                Ok(card) => (card.name.clone(), Some(layout_info(&card)), None),
-                Err(e) => (load_name(&r.path), None, Some(e.to_string())),
+            let (name, level, layout, error) = match load_card(&r.path) {
+                Ok(card) => (
+                    card.name.clone(),
+                    filter_level(&card),
+                    Some(layout_info(&card)),
+                    None,
+                ),
+                Err(e) => (load_name(&r.path), None, None, Some(e.to_string())),
             };
             CardInfo {
                 name,
                 key,
                 card_type: r.card_type,
                 lang: r.lang,
+                level,
                 layout,
                 error,
             }
@@ -434,4 +467,50 @@ pub fn run() {
         ])
         .run(tauri::generate_context!())
         .expect("error while running DnD Cards");
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use dnd_cards_core::models::Language;
+
+    fn card(card_type: &str, level: Option<i64>, typ: Option<&str>) -> CardData {
+        CardData {
+            id: "x".into(),
+            card_type: card_type.into(),
+            template: None,
+            name: "X".into(),
+            lang: Language::De,
+            level,
+            school: None,
+            casting_time: None,
+            range: None,
+            components: None,
+            duration: None,
+            typ: typ.map(Into::into),
+            description: "d".into(),
+            edition: None,
+            source_book: None,
+            class_name: None,
+            subclass: None,
+        }
+    }
+
+    #[test]
+    fn filter_level_uses_level_or_feat_prerequisite() {
+        assert_eq!(filter_level(&card("spell", Some(0), None)), Some(0));
+        assert_eq!(
+            filter_level(&card("class_feature", Some(17), None)),
+            Some(17)
+        );
+        assert_eq!(filter_level(&card("rule", None, None)), None);
+        let general = "Allgemeines Talent (Voraussetzung: min. 4. Stufe, min. Stärke 13)";
+        assert_eq!(filter_level(&card("talent", None, Some(general))), Some(4));
+        let epic = "Epische-Gabe-Talent (Voraussetzung: min.19. Stufe)";
+        assert_eq!(filter_level(&card("talent", None, Some(epic))), Some(19));
+        assert_eq!(
+            filter_level(&card("talent", None, Some("Herkunftstalent"))),
+            Some(1)
+        );
+    }
 }

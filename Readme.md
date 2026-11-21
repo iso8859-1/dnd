@@ -27,6 +27,8 @@ Lade einen Release aus der Release-Sektion herunter:
 - Karten auswählen
     - tippen sucht nach Name (unscharf, z.B. `feurball`)
     - Typ-Chips oder `Alt`+`1`–`9` filtern nach Kategorie
+    - *Level* von–bis filtert nach Zaubergrad, Stufe des Klassenmerkmals bzw. Mindeststufe des
+      Talents (ein Ende darf leer bleiben); Karten ohne Stufe (Regeln, Monster) werden dabei ausgeblendet
     - `↑`/`↓` wählt eine Karte, rechts erscheint eine Vorschau
     - `+`/`Enter` und `-` fügen Karten hinzu bzw. entfernen sie, `Entf` entfernt alle Exemplare
 - Deck benennen, mit `Strg+S` speichern (`Strg+O` öffnet ein Deck, `Strg+N` beginnt ein neues)
