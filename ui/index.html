@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DnD Cards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="toolbar">
+    <div class="deck-title">
+      <input id="deck-name" type="text" placeholder="Untitled deck" spellcheck="false" aria-label="Deck name">
+      <span id="deck-count" class="badge">0 cards</span>
+      <span id="dirty" class="dirty" hidden title="Unsaved changes">●</span>
+    </div>
+    <div class="actions">
+      <button id="btn-new" title="New deck (Ctrl+N)">New</button>
+      <button id="btn-open" title="Open deck (Ctrl+O)">Open…</button>
+      <button id="btn-save" title="Save deck (Ctrl+S, Save as: Ctrl+Shift+S)">Save</button>
+      <span class="sep"></span>
+      <button id="btn-pdf" class="primary" title="Fold-strip PDF, 4 per A4 landscape (Ctrl+G)">Generate PDF</button>
+      <button id="btn-duplex" class="primary" title="Duplex PDF, 9 per A4 page pair (Ctrl+D)">Duplex PDF</button>
+    </div>
+  </header>
+
+  <section class="filters">
+    <input id="search" type="search" placeholder="Search card names…" spellcheck="false" autocomplete="off" aria-label="Search">
+    <div id="lang-chips" class="chips" aria-label="Language"></div>
+    <div id="type-chips" class="chips" aria-label="Card type"></div>
+    <label class="toggle"><input id="only-deck" type="checkbox"> In deck only</label>
+  </section>
+
+  <main>
+    <section class="list" aria-label="Cards">
+      <div class="list-head">
+        <span>Name</span><span>Type</span><span class="qty-col">Qty</span>
+      </div>
+      <div id="rows" class="rows" tabindex="-1"></div>
+      <div id="empty" class="empty" hidden>No cards match the filter.</div>
+    </section>
+
+    <aside class="side">
+      <section class="preview" aria-label="Preview">
+        <div id="preview" class="preview-card empty-preview">Select a card to preview it.</div>
+      </section>
+      <section class="deck" aria-label="Deck">
+        <h2>Deck</h2>
+        <ol id="deck-list" class="deck-list"></ol>
+        <p id="deck-empty" class="muted">Add cards with <kbd>+</kbd> or <kbd>Enter</kbd>.</p>
+      </section>
+    </aside>
+  </main>
+
+  <footer class="status">
+    <span id="status" role="status"></span>
+    <span class="hints">
+      <kbd>↑</kbd><kbd>↓</kbd> select · <kbd>+</kbd>/<kbd>Enter</kbd> add · <kbd>−</kbd> remove · <kbd>Del</kbd> clear · <kbd>Alt</kbd>+<kbd>1–9</kbd> type · <kbd>Esc</kbd> reset search
+    </span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

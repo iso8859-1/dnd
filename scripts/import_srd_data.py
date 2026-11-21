@@ -2,17 +2,27 @@
 """One-time import: split bulk SRD YAML files into individual card YAML files.
 
 Usage (from project root):
-    uv run python scripts/import_srd_data.py
+    uv run --no-project --with pyyaml python scripts/import_srd_data.py
 """
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 from typing import Any
 
 import yaml
 
-from dnd_cards.tui import slugify
+_UMLAUT_TABLE = str.maketrans({"ä": "a", "ö": "o", "ü": "u", "Ä": "a", "Ö": "o", "Ü": "u", "ß": "ss"})
+
+
+def slugify(name: str) -> str:
+    """Lowercase slug (same rules as dnd_cards_core::text::slugify)."""
+    s = name.translate(_UMLAUT_TABLE).lower()
+    s = re.sub(r"[^a-z0-9\s-]", "", s)
+    s = re.sub(r"\s+", "-", s.strip())
+    return re.sub(r"-+", "-", s).strip("-")
+
 
 SRD_DIR = Path("SRDs")
 DATA_BASE = Path("data") / "de" / "SRD 5.2"

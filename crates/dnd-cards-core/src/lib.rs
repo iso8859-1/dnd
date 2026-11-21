@@ -1,0 +1,62 @@
+//! Core library for dnd-cards: card data model, data-store scanning,
+//! deck profiles and print-ready PDF composition.
+
+pub mod composer;
+pub mod config;
+pub mod error;
+pub mod loader;
+pub mod models;
+pub mod scanner;
+pub mod text;
+
+mod pdf;
+
+pub use composer::{compose_pdf, compose_pdf_duplex};
+pub use error::{Error, Result};
+pub use loader::{load_card, load_deck, save_deck};
+pub use models::{CardData, DeckProfile, Language};
+pub use scanner::{scan_cards, CardRef};
+
+use std::path::Path;
+
+/// Resolve every entry of a deck against the card index and load the cards,
+/// repeating each one `quantity` times (deck order is preserved).
+pub fn resolve_deck(
+    deck: &DeckProfile,
+    index: &std::collections::BTreeMap<String, CardRef>,
+    deck_label: &str,
+) -> Result<Vec<CardData>> {
+    let mut cards = Vec::new();
+    for (key, &qty) in &deck.cards {
+        let card_ref = index.get(key).ok_or_else(|| {
+            Error::CardNotFound(format!("Card not found: {key} (deck: {deck_label})"))
+        })?;
+        let card = load_card(&card_ref.path)?;
+        cards.extend(std::iter::repeat_n(card, qty as usize));
+    }
+    Ok(cards)
+}
+
+/// Convenience: scan `data_dir`, resolve `deck` and write the PDF to `out`.
+pub fn generate(
+    data_dir: &Path,
+    deck: &DeckProfile,
+    deck_label: &str,
+    out: &Path,
+    duplex: bool,
+) -> Result<()> {
+    let index = scan_cards(data_dir);
+    let cards = resolve_deck(deck, &index, deck_label)?;
+    let bytes = if duplex {
+        compose_pdf_duplex(&cards)
+    } else {
+        compose_pdf(&cards)
+    };
+    if let Some(parent) = out.parent() {
+        if !parent.as_os_str().is_empty() {
+            std::fs::create_dir_all(parent)
+                .map_err(|e| Error::Generation(format!("{}: {e}", parent.display())))?;
+        }
+    }
+    std::fs::write(out, bytes).map_err(|e| Error::Generation(format!("{}: {e}", out.display())))
+}

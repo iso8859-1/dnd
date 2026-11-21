@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = ["crates/dnd-cards-core", "crates/dnd-cards-cli", "src-tauri"]
+
+[workspace.package]
+version = "0.4.0"
+edition = "2021"
+license = "MIT"
+rust-version = "1.82"
+
+[workspace.dependencies]
+dnd-cards-core = { path = "crates/dnd-cards-core" }
+serde = { version = "1", features = ["derive"] }
+serde_yaml_ng = "0.10"
+indexmap = { version = "2", features = ["serde"] }
+thiserror = "2"
+walkdir = "2"
+pdf-writer = "0.15"
+clap = { version = "4", features = ["derive"] }

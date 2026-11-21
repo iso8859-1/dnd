@@ -1,0 +1,15 @@
+[package]
+name = "dnd-cards-cli"
+description = "Command-line PDF generator for dnd-cards"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "dnd-cards"
+path = "src/main.rs"
+
+[dependencies]
+dnd-cards-core.workspace = true
+clap.workspace = true

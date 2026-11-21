@@ -1,0 +1,18 @@
+[package]
+name = "dnd-cards-core"
+description = "Card data model, YAML loading and PDF composition for dnd-cards"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_yaml_ng.workspace = true
+indexmap.workspace = true
+thiserror.workspace = true
+walkdir.workspace = true
+pdf-writer.workspace = true
+
+[dev-dependencies]
+tempfile = "3"

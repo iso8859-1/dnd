@@ -1,13 +1,20 @@
+# Rust / Tauri
+target/
+src-tauri/gen/
+
+# Generated output
 output/
 *.pdf
+decks/*.yaml
+
+# Legacy Python artefacts
 __pycache__/
 .venv/
 dist/
+build/
 *.egg-info/
 .mypy_cache/
 .ruff_cache/
 .pytest_cache/
+
 .claude/
-decks/*.yaml
-outptut/
-build/

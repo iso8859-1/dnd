@@ -12,28 +12,57 @@ Die Texte die aus dem SRD extrahiert wurden, stehen unter der CC-BY 4.0, der res
 
 ### Release
 
-Lade einen Release aus der Release-Sektion herunter. Er enthält alles, was du benötigst.
+Lade einen Release aus der Release-Sektion herunter:
 
-### Neueste Version von den Sourcen
+- **Desktop-App** (Installer für Windows, macOS, Linux) – enthält alle Kartendaten.
+- **Kommandozeile** (`dnd-cards-cli-*.zip`/`.tar.gz`) – `dnd-cards` plus `data/`-Ordner.
 
-- Python 3.11+ installieren
-- `uv tool install .` im Verzeichnis ausführen bzw. `uv tool install . --reinstall` um es erneut nach einem Update zu installieren
-- dnd-cards ausführen
-    - `--help` liefert einen Hilfetext
-    - `dnd-cards tui` startet ein Terminal-Interface
+### Desktop-App
 
-Im allgemeinen gilt: 
-- Terminal-Interface starten, 
-- Karten auswählen,
-    - + und - fügen Karten hinzu und entfernen
-    - tippen filtert nach Name
-    - Nummer-Tasten filtern nach Kategorie
-- STRG+G drücken um das PDF zu erzeugen
+- Karten auswählen
+    - tippen sucht nach Name (unscharf, z.B. `feurball`)
+    - Typ-Chips oder `Alt`+`1`–`9` filtern nach Kategorie
+    - `↑`/`↓` wählt eine Karte, rechts erscheint eine Vorschau
+    - `+`/`Enter` und `-` fügen Karten hinzu bzw. entfernen sie, `Entf` entfernt alle Exemplare
+- Deck benennen, mit `Strg+S` speichern (`Strg+O` öffnet ein Deck, `Strg+N` beginnt ein neues)
+- `Strg+G` erzeugt das Falt-PDF (4 Karten pro A4 quer), `Strg+D` das Duplex-PDF (9 Karten pro Blattpaar, beidseitig drucken)
 - PDF drucken
 - Karten ausschneiden und falten
 
 Optional:
 - laminieren und erneut ausschneiden
+
+### Kommandozeile
+
+```
+dnd-cards list [--type spells]
+dnd-cards validate --deck decks/mein-deck.yaml
+dnd-cards generate --deck decks/mein-deck.yaml [--duplex] [--output-dir output]
+```
+
+Die Kartendaten werden in `$DND_CARDS_DATA`, `./data` oder `data/` neben der Programmdatei gesucht
+(oder explizit per `--data-dir`).
+
+### Aus den Sourcen bauen
+
+Voraussetzungen: [Rust](https://rustup.rs) (stable) und die
+[Tauri-Voraussetzungen](https://tauri.app/start/prerequisites/) des Betriebssystems.
+
+```
+cargo install tauri-cli --version "^2" --locked   # einmalig
+
+cargo tauri dev                    # Desktop-App im Entwicklungsmodus starten
+cargo tauri build                  # Installer bauen (src-tauri/target/... bzw. target/release/bundle)
+cargo run -p dnd-cards-cli -- list # Kommandozeile
+cargo test --workspace             # Tests
+```
+
+Aufbau:
+
+- `crates/dnd-cards-core` – Datenmodell, YAML-Laden, PDF-Layout
+- `crates/dnd-cards-cli` – Kommandozeilenprogramm `dnd-cards`
+- `src-tauri` + `ui` – Desktop-App (Tauri 2, HTML/CSS/JS ohne Build-Schritt)
+- `data` – Kartendaten (YAML), `scripts` – Import-Skripte für die SRD-Daten
 
 ## Mitmachen
 
