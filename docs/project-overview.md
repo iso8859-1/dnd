@@ -71,7 +71,7 @@ data/**/*.yaml → scanner → loader (serde) → composer (pdf-writer) → PDF 
 |---|---|---|
 | `dnd-cards-app [deck.yaml]` | `src-tauri/` | Desktop deck builder; optional deck path is opened at start |
 | `dnd-cards generate --deck <file> [--duplex] [--output-dir output]` | `crates/dnd-cards-cli` | Write `<output-dir>/<deck-stem>.pdf` |
-| `dnd-cards validate --deck <file>` | `crates/dnd-cards-cli` | Load the deck and every referenced card |
+| `dnd-cards validate --deck <file> [--layout]` | `crates/dnd-cards-cli` | Load the deck and every referenced card; report print layout |
 | `dnd-cards list [--type <dir>]` | `crates/dnd-cards-cli` | List `stem [type]`, sorted |
 | `--data-dir <path>` (global) | CLI | Override data store location |
 
@@ -82,8 +82,9 @@ data/**/*.yaml → scanner → loader (serde) → composer (pdf-writer) → PDF 
 1. **No database** — plain YAML, Git-versioned; the scanner indexes ~1000 files at startup.
 2. **One core, two front-ends** — all parsing and layout lives in `dnd-cards-core`; the CLI
    and the app are thin wrappers.
-3. **Layout parity** — the PDF code is a direct port of the former ReportLab layout; output
-   was verified pixel-identical against the Python version.
+3. **Same look, no lost text** — the card design is a port of the former ReportLab layout.
+   Long descriptions shrink slightly, continue on the back, or spill onto follow-on cards;
+   nothing is cut off.
 4. **No embedded fonts** — Helvetica / Helvetica-Bold / Helvetica-Oblique with WinAnsi
    encoding cover German text („“, –, …, umlauts, ß); unmappable characters become `?`.
 5. **Rust-side dialogs** — file dialogs and opening the PDF run in Tauri commands, so the

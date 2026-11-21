@@ -81,6 +81,32 @@ function markDirty(d = true) {
   ui.dirty.hidden = !d;
 }
 
+/** Short layout hint for the card list, or null for a plain one-card layout. */
+function layoutBadge(card) {
+  if (!card) return null;
+  if (!card.layout) {
+    return el("span", { class: "lbadge bad", text: "not printable", title: card.error || "" });
+  }
+  const l = card.layout;
+  if (l.cards > 1) return el("span", { class: "lbadge", text: `${l.cards} cards`, title: describeLayout(l) });
+  if (l.uses_back) return el("span", { class: "lbadge", text: "back", title: describeLayout(l) });
+  if (l.font_size < 6) return el("span", { class: "lbadge", text: "small", title: describeLayout(l) });
+  return null;
+}
+
+function describeLayout(l) {
+  const parts = [l.font_size < 6 ? `Text at ${l.font_size}pt` : "Text at 6pt"];
+  if (l.uses_back) parts.push("continues on the back");
+  if (l.cards > 1) parts.push(`printed on ${l.cards} cards`);
+  return parts.join(", ");
+}
+
+function printedCount() {
+  let n = 0;
+  for (const [key, q] of state.qty) n += q * (state.byKey.get(key)?.layout?.cards ?? 1);
+  return n;
+}
+
 function typeLabel(t) {
   return t.replace(/_/g, " ");
 }
@@ -104,10 +130,14 @@ function computeVisible() {
 
 function stepper(key) {
   const q = state.qty.get(key) || 0;
+  const card = state.byKey.get(key);
+  const blocked = card && !card.layout;
   return el("div", { class: "stepper" },
     el("button", { text: "−", title: "Remove one", tabindex: "-1", onclick: (e) => { e.stopPropagation(); changeQty(key, -1); } }),
     el("span", { class: "q" + (q ? "" : " zero"), text: String(q) }),
-    el("button", { text: "+", title: "Add one", tabindex: "-1", onclick: (e) => { e.stopPropagation(); changeQty(key, +1); } }),
+    blocked
+      ? el("button", { text: "+", title: "This card can't be printed", tabindex: "-1", disabled: "" })
+      : el("button", { text: "+", title: "Add one", tabindex: "-1", onclick: (e) => { e.stopPropagation(); changeQty(key, +1); } }),
   );
 }
 
@@ -120,7 +150,7 @@ function renderRows() {
       onclick: () => select(i),
       ondblclick: () => changeQty(c.key, +1),
     },
-      el("span", { class: "name", text: c.name, title: c.key }),
+      el("span", { class: "name-cell" }, el("span", { class: "name", text: c.name, title: c.key }), layoutBadge(c)),
       el("span", { class: "type" }, el("span", { class: "dot " + c.card_type }), typeLabel(c.card_type)),
       stepper(c.key),
     );
@@ -155,13 +185,14 @@ function renderChips() {
 
 function renderDeck() {
   const entries = deckEntries();
-  ui.count.textContent = `${total()} card${total() === 1 ? "" : "s"}`;
+  const printed = printedCount();
+  ui.count.textContent = `${total()} card${total() === 1 ? "" : "s"}` + (printed !== total() ? ` · ${printed} printed` : "");
   ui.deckEmpty.hidden = entries.length > 0;
   ui.deckList.replaceChildren(...entries.map(([key, q]) => {
     const card = state.byKey.get(key);
     return el("li", { class: card ? "" : "missing", title: card ? key : `${key} — not in the card data` },
       el("span", { class: "name", onclick: () => reveal(key) },
-        el("span", { class: "dot " + (card ? card.card_type : "") }), card ? card.name : key),
+        el("span", { class: "dot " + (card ? card.card_type : "") }), card ? card.name : key, layoutBadge(card)),
       stepper(key));
   }));
 }
@@ -221,6 +252,8 @@ async function showPreview(key = state.visible[state.sel]?.key) {
   }
   body.append(el("p", { class: "desc", text: card.description }));
   if (card.source_book) body.append(el("p", { class: "src", text: card.source_book }));
+  const layout = state.byKey.get(key)?.layout;
+  if (layout) body.append(el("p", { class: "layout", text: "Print: " + describeLayout(layout) }));
 
   ui.preview.className = "preview-card " + card.type;
   ui.preview.replaceChildren(el("h3", { text: card.name }), body);
@@ -239,6 +272,11 @@ function select(i) {
 }
 
 function changeQty(key, delta) {
+  const card = state.byKey.get(key);
+  if (delta > 0 && card && !card.layout) {
+    setStatus(`${card.name} can't be printed: ${card.error}`, "error");
+    return;
+  }
   const q = Math.max(0, (state.qty.get(key) || 0) + delta);
   if (q === (state.qty.get(key) || 0)) return;
   if (q === 0) state.qty.delete(key);

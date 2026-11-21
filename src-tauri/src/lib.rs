@@ -7,9 +7,9 @@ use std::path::{Path, PathBuf};
 use std::sync::Mutex;
 
 use dnd_cards_core::{
-    compose_pdf, compose_pdf_duplex, config, load_card, load_deck, loader::load_name, resolve_deck,
-    save_deck as write_deck, scan_cards, scanner::discover_languages, text::slugify, CardData,
-    DeckProfile,
+    compose_pdf, compose_pdf_duplex, config, layout_info, load_card, load_deck, loader::load_name,
+    resolve_deck, save_deck as write_deck, scan_cards, scanner::discover_languages, text::slugify,
+    CardData, DeckProfile, LayoutInfo,
 };
 use indexmap::IndexMap;
 use serde::Serialize;
@@ -33,6 +33,9 @@ struct CardInfo {
     name: String,
     card_type: String,
     lang: String,
+    /// How the card prints; `None` if it can't be printed (see `error`).
+    layout: Option<LayoutInfo>,
+    error: Option<String>,
 }
 
 #[derive(Serialize)]
@@ -109,11 +112,19 @@ async fn catalog(state: State<'_, AppState>) -> CmdResult<Catalog> {
     types.dedup();
     let cards = index
         .into_iter()
-        .map(|(key, r)| CardInfo {
-            name: load_name(&r.path),
-            key,
-            card_type: r.card_type,
-            lang: r.lang,
+        .map(|(key, r)| {
+            let (name, layout, error) = match load_card(&r.path) {
+                Ok(card) => (card.name.clone(), Some(layout_info(&card)), None),
+                Err(e) => (load_name(&r.path), None, Some(e.to_string())),
+            };
+            CardInfo {
+                name,
+                key,
+                card_type: r.card_type,
+                lang: r.lang,
+                layout,
+                error,
+            }
         })
         .collect();
     Ok(Catalog {

@@ -1,28 +1,19 @@
-//! Card layout: fold strips (A4 landscape, 4 × 63×176mm) and duplex
+//! PDF drawing: fold strips (A4 landscape, 4 × 63×176mm) and duplex
 //! (A4 portrait, 3×3 faces of 63×88mm, backs mirrored for long-edge flip).
+//! What goes on each face is decided by [`crate::layout`].
 
 use std::f32::consts::PI;
 
 use crate::config::*;
+use crate::layout::{
+    self, fit_title, pad, plan, safe_bottom, Line, PrintCard, BORDER_PT, HEADER_MM,
+};
 use crate::models::CardData;
-use crate::pdf::{mm, Canvas, Font, Rgb, MM_TO_PT};
-use crate::text::wrap;
+use crate::pdf::{mm, Canvas, Font, Rgb};
 
 const WHITE: Rgb = (1.0, 1.0, 1.0);
 const BLACK: Rgb = (0.0, 0.0, 0.0);
 const GREY_TEXT: Rgb = (0.4, 0.4, 0.4);
-
-/// Header band height.
-const HEADER_MM: f32 = 7.5;
-/// Border stroke: one third of the header height (~7.1pt).
-const BORDER_PT: f32 = HEADER_MM * MM_TO_PT / 3.0;
-
-/// Approximate characters per line inside the usable width (63mm − 2×3mm).
-const WRAP_7PT: usize = 40;
-const WRAP_6PT: usize = 48;
-const LINE_7: f32 = 11.0;
-const LINE_6: f32 = 8.0;
-
 const ICON_MM: f32 = 22.0;
 
 fn card_color(card_type: &str) -> Rgb {
@@ -37,12 +28,8 @@ fn darker((r, g, b): Rgb) -> Rgb {
     (r * 0.72, g * 0.72, b * 0.72)
 }
 
-fn opt(s: &Option<String>) -> &str {
-    s.as_deref().unwrap_or("")
-}
-
-fn level_str(card: &CardData) -> String {
-    card.level.map(|l| l.to_string()).unwrap_or_default()
+fn printed(cards: &[CardData]) -> Vec<PrintCard<'_>> {
+    cards.iter().flat_map(plan).collect()
 }
 
 // ── Public entry points ──────────────────────────────────────────────────────
@@ -60,35 +47,35 @@ pub fn compose_pdf(cards: &[CardData]) -> Vec<u8> {
     let x_origin = (page_w - (n * strip_w + (n - 1.0) * gap)) / 2.0;
     let y_origin = (page_h - strip_h) / 2.0;
 
-    for (i, card) in cards.iter().enumerate() {
+    for (i, pc) in printed(cards).iter().enumerate() {
         let pos = i % CARDS_PER_ROW;
         if i > 0 && pos == 0 {
             c.show_page();
         }
         let x = x_origin + pos as f32 * (strip_w + gap);
-        draw_strip(&mut c, card, x, y_origin, strip_w, strip_h);
+        draw_strip(&mut c, pc, x, y_origin, strip_w, strip_h);
     }
     c.finish()
 }
 
 /// Duplex PDF: fronts on odd pages, backs on even pages, no folding needed.
 pub fn compose_pdf_duplex(cards: &[CardData]) -> Vec<u8> {
-    let layout = DuplexLayout::a4();
-    let mut c = Canvas::new(layout.page_w, layout.page_h);
+    let l = DuplexLayout::a4();
+    let mut c = Canvas::new(l.page_w, l.page_h);
     let per_page = DUPLEX_COLS * DUPLEX_ROWS;
 
-    for (g, group) in cards.chunks(per_page).enumerate() {
+    for (g, group) in printed(cards).chunks(per_page).enumerate() {
         if g > 0 {
             c.show_page();
         }
-        for (i, card) in group.iter().enumerate() {
-            let (x, y) = layout.slot(i, false);
-            draw_front_face(&mut c, card, x, y, layout.face_w, layout.face_h);
+        for (i, pc) in group.iter().enumerate() {
+            let (x, y) = l.slot(i, false);
+            draw_front(&mut c, pc, x, y, l.face_w, l.face_h);
         }
         c.show_page();
-        for (i, card) in group.iter().enumerate() {
-            let (x, y) = layout.slot(i, true);
-            draw_back_face(&mut c, card, x, y, layout.face_w, layout.face_h);
+        for (i, pc) in group.iter().enumerate() {
+            let (x, y) = l.slot(i, true);
+            draw_back(&mut c, pc, x, y, l.face_w, l.face_h);
         }
     }
     c.finish()
@@ -107,8 +94,7 @@ struct DuplexLayout {
 impl DuplexLayout {
     fn a4() -> Self {
         let (page_w, page_h) = (mm(A4_WIDTH_MM), mm(A4_HEIGHT_MM));
-        let face_w = mm(CARD_STRIP_WIDTH_MM);
-        let face_h = mm(CARD_FOLDED_HEIGHT_MM);
+        let (face_w, face_h) = (layout::face_w(), layout::face_h());
         let gap = mm(CARD_GAP_MM);
         let (cols, rows) = (DUPLEX_COLS as f32, DUPLEX_ROWS as f32);
         let total_w = cols * face_w + (cols - 1.0) * gap;
@@ -147,163 +133,60 @@ fn fill_header(c: &mut Canvas, x: f32, y_top: f32, w: f32, h: f32, r: f32, color
     c.rect(x, y_top - h, w, r, false, true);
 }
 
-fn border(c: &mut Canvas, x: f32, y: f32, w: f32, h: f32, r: f32, color: Rgb) {
+/// Header band, border and title of a w×h face with lower-left corner (x, y).
+fn draw_frame(c: &mut Canvas, pc: &PrintCard, x: f32, y: f32, w: f32, h: f32) {
+    let r = mm(CARD_CORNER_RADIUS_MM);
+    let header_h = mm(HEADER_MM);
+    let color = card_color(&pc.card.card_type);
+
+    fill_header(c, x, y + h, w, header_h, r, color);
     c.line_width(BORDER_PT);
     c.stroke_color(color);
     c.round_rect(x, y, w, h, r, true, false);
-}
 
-fn draw_title(c: &mut Canvas, card: &CardData, x: f32, face_top: f32) {
+    let (title, size) = fit_title(&pc.title);
     c.fill(WHITE);
-    c.set_font(Font::HelveticaBold, 9.0);
-    c.draw_string(
-        x + mm(3.0),
-        face_top - mm(HEADER_MM) / 2.0 - 3.0,
-        &card.name,
-    );
+    c.set_font(Font::HelveticaBold, size);
+    c.draw_string(x + pad(), y + h - header_h / 2.0 - size / 3.0, &title);
 }
 
-/// Draw `lines` at descending baselines; stop once below `floor`.
-fn draw_lines(
-    c: &mut Canvas,
-    x: f32,
-    line_y: &mut f32,
-    step: f32,
-    floor: f32,
-    lines: Vec<String>,
-) -> bool {
-    for line in lines {
-        *line_y -= step;
-        if *line_y < floor {
-            return false;
-        }
-        c.draw_string(x, *line_y, &line);
-    }
-    true
-}
-
-/// Card front as a standalone w×h face with its lower-left corner at (x, y).
-fn draw_front_face(c: &mut Canvas, card: &CardData, x: f32, y: f32, w: f32, h: f32) {
-    let r = mm(CARD_CORNER_RADIUS_MM);
-    let pad = mm(3.0);
-    let header_h = mm(HEADER_MM);
-    let color = card_color(&card.card_type);
-    let face_top = y + h;
-    let tx = x + pad;
-
-    fill_header(c, x, face_top, w, header_h, r, color);
-    border(c, x, y, w, h, r, color);
-    draw_title(c, card, x, face_top);
+fn draw_lines(c: &mut Canvas, lines: &[Line], x: f32, y: f32) {
     c.fill(BLACK);
-
-    let safe_bottom = y + BORDER_PT / 2.0 + 4.0;
-    let src = card.source_book.as_deref().filter(|s| !s.is_empty());
-    let floor = if src.is_some() {
-        safe_bottom + LINE_6
-    } else {
-        safe_bottom
-    };
-    let mut line_y = face_top - header_h;
-
-    if card.card_type == "spell" {
-        c.set_font(Font::Helvetica, 7.0);
-        line_y -= 10.0;
-        c.draw_string(
-            tx,
-            line_y,
-            &format!("Stufe {} · {}", level_str(card), opt(&card.school)),
-        );
-        let fields = [
-            ("Zeit", &card.casting_time),
-            ("Reichweite", &card.range),
-            ("Komp.", &card.components),
-            ("Dauer", &card.duration),
-        ];
-        for (label, value) in fields {
-            if !draw_lines(
-                c,
-                tx,
-                &mut line_y,
-                LINE_7,
-                floor,
-                wrap(&format!("{label}: {}", opt(value)), WRAP_7PT),
-            ) {
-                break;
-            }
-        }
-        line_y -= 6.0;
-    } else {
-        if card.card_type == "class_feature" {
-            let cls = opt(&card.class_name);
-            let class_line = match card.level {
-                Some(l) => format!("{cls} · Stufe {l}"),
-                None => cls.to_string(),
-            };
-            c.set_font(Font::HelveticaOblique, 7.0);
-            line_y -= 10.0;
-            c.draw_string(tx, line_y, &class_line);
-            if let Some(sub) = card.subclass.as_deref().filter(|s| !s.is_empty()) {
-                line_y -= LINE_7;
-                c.draw_string(tx, line_y, &format!("({sub})"));
-            }
-        } else if let Some(typ) = card.typ.as_deref().filter(|s| !s.is_empty()) {
-            c.set_font(Font::HelveticaOblique, 7.0);
-            line_y -= 10.0;
-            for tl in wrap(typ, WRAP_7PT) {
-                c.draw_string(tx, line_y, &tl);
-                line_y -= LINE_7;
-                if line_y < floor {
-                    break;
-                }
-            }
-        } else {
-            line_y -= 6.0;
-        }
-        line_y -= 4.0;
+    for l in lines {
+        c.set_font(l.font, l.size);
+        c.draw_string(x + pad(), y + l.y, &l.text);
     }
+}
 
-    c.set_font(Font::Helvetica, 6.0);
-    draw_lines(
-        c,
-        tx,
-        &mut line_y,
-        LINE_6,
-        floor,
-        wrap(&card.description, WRAP_6PT),
-    );
-
-    if let Some(src) = src {
+fn draw_front(c: &mut Canvas, pc: &PrintCard, x: f32, y: f32, w: f32, h: f32) {
+    draw_frame(c, pc, x, y, w, h);
+    draw_lines(c, &pc.front, x, y);
+    if let Some(src) = pc.source {
         c.fill(GREY_TEXT);
-        c.draw_string(tx, safe_bottom, src);
+        c.set_font(Font::Helvetica, 6.0);
+        c.draw_string(x + pad(), y + safe_bottom(), src);
         c.fill(BLACK);
     }
 }
 
-/// Card back (header + type icon) upright with its lower-left corner at (x, y).
-fn draw_back_face(c: &mut Canvas, card: &CardData, x: f32, y: f32, w: f32, h: f32) {
-    let r = mm(CARD_CORNER_RADIUS_MM);
-    let header_h = mm(HEADER_MM);
-    let color = card_color(&card.card_type);
-
-    fill_header(c, x, y + h, w, header_h, r, color);
-    border(c, x, y, w, h, r, color);
-    draw_title(c, card, x, y + h);
-    draw_back_icon(
-        c,
-        x + w / 2.0,
-        y + (h - header_h) / 2.0,
-        mm(ICON_MM),
-        &card.card_type,
-        color,
-    );
+fn draw_back(c: &mut Canvas, pc: &PrintCard, x: f32, y: f32, w: f32, h: f32) {
+    draw_frame(c, pc, x, y, w, h);
+    match &pc.back {
+        Some(lines) => draw_lines(c, lines, x, y),
+        None => {
+            let color = card_color(&pc.card.card_type);
+            let cy = y + (h - mm(HEADER_MM)) / 2.0;
+            draw_back_icon(c, x + w / 2.0, cy, mm(ICON_MM), &pc.card.card_type, color);
+        }
+    }
 }
 
-fn draw_strip(c: &mut Canvas, card: &CardData, x: f32, y: f32, w: f32, h: f32) {
+fn draw_strip(c: &mut Canvas, pc: &PrintCard, x: f32, y: f32, w: f32, h: f32) {
     let fold_h = mm(CARD_FOLDED_HEIGHT_MM);
-    let color = card_color(&card.card_type);
+    let color = card_color(&pc.card.card_type);
 
     // Front: upper half.
-    draw_front_face(c, card, x, y + fold_h, w, h - fold_h);
+    draw_front(c, pc, x, y + fold_h, w, h - fold_h);
 
     // Fold edge — double width because both halves' borders stack when folded.
     c.line_width(2.0 * BORDER_PT);
@@ -321,7 +204,7 @@ fn draw_strip(c: &mut Canvas, card: &CardData, x: f32, y: f32, w: f32, h: f32) {
     // Back: lower half, rotated 180° so it reads correctly after folding.
     c.save_state();
     c.translate_rotate_180(x + w, y + fold_h);
-    draw_back_face(c, card, 0.0, 0.0, w, fold_h);
+    draw_back(c, pc, 0.0, 0.0, w, fold_h);
     c.restore_state();
 }
 
@@ -486,7 +369,7 @@ mod tests {
     use super::*;
     use crate::models::Language;
 
-    fn card(card_type: &str) -> CardData {
+    fn card(card_type: &str, repeat: usize) -> CardData {
         CardData {
             id: "feuerball".into(),
             card_type: card_type.into(),
@@ -501,7 +384,7 @@ mod tests {
             duration: Some("Unmittelbar".into()),
             typ: Some("Allgemeines Talent".into()),
             description: "Ein heller Strahl schießt aus deinem Finger „zu einem Punkt“. "
-                .repeat(40),
+                .repeat(repeat),
             edition: None,
             source_book: Some("SRD 5.2.1".into()),
             class_name: Some("Barbar".into()),
@@ -516,7 +399,7 @@ mod tests {
 
     #[test]
     fn strip_pages() {
-        let c = card("spell");
+        let c = card("spell", 3);
         assert_eq!(page_count(&compose_pdf(&[])), 1);
         assert_eq!(page_count(&compose_pdf(&vec![c.clone(); 4])), 1);
         assert_eq!(page_count(&compose_pdf(&vec![c.clone(); 5])), 2);
@@ -527,22 +410,36 @@ mod tests {
 
     #[test]
     fn duplex_pages() {
-        let c = card("spell");
+        let c = card("spell", 3);
         assert_eq!(page_count(&compose_pdf_duplex(&vec![c.clone(); 1])), 2);
         assert_eq!(page_count(&compose_pdf_duplex(&vec![c.clone(); 9])), 2);
         assert_eq!(page_count(&compose_pdf_duplex(&vec![c; 10])), 4);
     }
 
     #[test]
+    fn follow_on_cards_take_extra_slots() {
+        let long = card("spell", 120);
+        let n = crate::layout::printed_count(std::slice::from_ref(&long));
+        assert!(n > 1);
+        // 4 strips per page: n long cards + (4 - n % 4) short ones fill whole pages.
+        assert_eq!(
+            page_count(&compose_pdf(&vec![long; 4])),
+            (4 * n).div_ceil(4)
+        );
+    }
+
+    #[test]
     fn all_card_types_render() {
         for t in ["spell", "talent", "rule", "class_feature", "something"] {
-            let mut c = card(t);
-            compose_pdf(&[c.clone()]);
-            c.source_book = None;
-            c.typ = None;
-            c.subclass = None;
-            c.level = None;
-            compose_pdf_duplex(&[c]);
+            for repeat in [1, 40, 150] {
+                let mut c = card(t, repeat);
+                compose_pdf(&[c.clone()]);
+                c.source_book = None;
+                c.typ = None;
+                c.subclass = None;
+                c.level = None;
+                compose_pdf_duplex(&[c]);
+            }
         }
     }
 

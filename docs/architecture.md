@@ -25,7 +25,7 @@ returns values, `Result`s or PDF bytes.
                  ┌──────────────────────── dnd-cards-core ────────────────────────┐
                  │ scanner ──► loader ──► models ──► composer ──► pdf (Canvas)    │
                  │    │                     ▲            ▲                        │
-                 │    └── config (constants, find_data_dir)   text (wrap, slugify)│
+                 │    └── config (constants, find_data_dir)  layout (plan, wrap) + metrics │
                  │ error (Error, exit_code)     lib (resolve_deck, generate)      │
                  └────────────────────────────────────────────────────────────────┘
                           ▲                                   ▲
@@ -41,10 +41,12 @@ returns values, `Result`s or PDF bytes.
 | `models.rs` | `CardData`, `DeckProfile`, `Language`; serde derives; lenient scalar deserializers |
 | `loader.rs` | Read + parse YAML; map errors to `YamlParse` / `Validation`; write decks; fast `load_name()` |
 | `scanner.rs` | Walk `data/` (sorted), build `BTreeMap<key, CardRef>`; list language dirs |
-| `composer.rs` | Fold-strip and duplex layouts, front/back faces, back-face icons |
+| `layout.rs` | Width-based wrapping, title fitting, per-card layout plan (`PrintCard`s), `LayoutInfo` |
+| `metrics.rs` | Helvetica / -Bold / -Oblique glyph widths (WinAnsi), `width()` |
+| `composer.rs` | Draws planned cards: fold-strip and duplex pages, faces, back-face icons |
 | `pdf.rs` | Private `Canvas`: ReportLab-like drawing API, page list, WinAnsi encoding, PDF assembly |
 | `config.rs` | Layout constants (mm), `find_data_dir()` |
-| `text.rs` | `wrap()` (character-count word wrap), `slugify()` |
+| `text.rs` | `slugify()` |
 | `error.rs` | `Error` enum, `exit_code()` |
 | `lib.rs` | Re-exports, `resolve_deck()`, `generate()` (scan + resolve + compose + write) |
 
@@ -66,7 +68,10 @@ dnd-cards generate --deck decks/x.yaml [--duplex] [--output-dir output]
   └─ write <output-dir>/<deck stem>.pdf, print path
 ```
 
-`validate` stops after `resolve_deck` and prints `<deck>: OK (<n> cards)`.
+`generate` prints a note to stderr for every card that needs follow-on cards.
+`validate` stops after `resolve_deck` and prints a summary
+(`OK (n cards, m printed; x continue on the back, y with smaller text, z on several cards)`);
+`--layout` lists every card that doesn't print as a plain single card.
 `list` prints `stem [type]` for every indexed card, optionally filtered by `--type`.
 
 ### Desktop app
@@ -191,14 +196,36 @@ Slot 0 is the bottom-left (row 0 = lowest row).
 
 | Card type | Under the header |
 |---|---|
-| `spell` | `Stufe N · school` (7pt), then `Zeit`, `Reichweite`, `Komp.`, `Dauer` (7pt, wrapped at 40 chars) |
+| `spell` | `Stufe N · school` (7pt), then `Zeit`, `Reichweite`, `Komp.`, `Dauer` (7pt, wrapped) |
 | `class_feature` | `class · Stufe N` in oblique 7pt, optional `(subclass)` |
 | other with `typ` | `typ` in oblique 7pt, wrapped |
 | other | — |
 
-Then the description in 6pt (wrapped at 48 chars). Lines that would fall below the
-bottom margin are dropped; `source_book` is printed grey at the bottom if present.
-Wrapping is by character count, not by measured glyph width (parity with the original).
+Then the description; `source_book` is printed grey at the bottom if present.
+All text is wrapped by measured width (`metrics.rs`, Adobe AFM widths) to the 57mm between
+the paddings; words wider than a line are split. Titles shrink from 9pt to 6pt to fit the
+header and are truncated with `…` only below that.
+
+### Fitting long text (`layout.rs`)
+
+Each card is planned once as one or more `PrintCard`s (front + back). The first option
+that fits wins:
+
+| Step | Description size | Where the text goes |
+|---|---|---|
+| 1 | 6pt | front only (back shows the icon) |
+| 2 | 5.5pt | front only |
+| 3 | 6pt | front, continued on the back face instead of the icon |
+| 4 | 5.5pt | front + back |
+| 5 | 5.5pt | front + back + follow-on cards with text on both faces, titled `Name (i/n)` |
+
+No text is ever dropped. Body line pitch is `size × 4/3` (8pt at 6pt). In the fold-strip
+mode the back text is drawn in the rotated half, so it reads correctly after folding.
+`layout_info(card)` summarises the plan (`font_size`, `uses_back`, `cards`) for the CLI
+and the app; `printed_count(cards)` gives the number of physical cards.
+
+With the current data (743 printable cards): 619 plain, 51 at 5.5pt, 72 continue on the
+back, 8 need a second card.
 
 ### Color coding
 
@@ -271,6 +298,10 @@ replaces an earlier one. Note that the directory name (`spells`) differs from th
 - Language chips appear only when more than one language exists; the first is preselected.
 - Light/dark theme follows the OS (`prefers-color-scheme`).
 - Deck entries whose key is not in the data store are shown struck through.
+- `catalog` loads every card and includes its `LayoutInfo` (or the load error). The list
+  and deck show a badge — `back`, `small`, `N cards`, or `not printable` (adding is
+  disabled) — the preview shows the print layout, and the deck badge shows how many
+  physical cards will be printed.
 
 ### Key bindings
 
@@ -294,6 +325,7 @@ replaces an earlier one. Note that the directory name (`spells`) differs from th
 1. `dnd-cards-core` has no UI, dialog, or process-exit code.
 2. Only the CLI maps errors to exit codes; only the app maps errors to strings.
 3. The webview never touches the filesystem; every file operation is a Rust command.
-4. Layout constants live in `config.rs`; layout code lives only in `composer.rs`.
+4. Page constants live in `config.rs`; what goes on a face is decided only in `layout.rs`,
+   how it is drawn only in `composer.rs`.
 5. The legacy `template` field is parsed but does not drive layout; layout dispatches on
    `card.card_type`.

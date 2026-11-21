@@ -173,6 +173,19 @@ main {
 .row.sel { background: var(--row-sel); }
 .row.in-deck .name { font-weight: 600; }
 .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.name-cell { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.lbadge {
+  flex: none;
+  padding: 0 6px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  white-space: nowrap;
+}
+.lbadge.bad { color: var(--danger); border-color: color-mix(in srgb, var(--danger) 40%, transparent); }
 .type { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 12px; white-space: nowrap; }
 .dot { width: 9px; height: 9px; border-radius: 3px; flex: none; background: var(--other); }
 .dot.spells { background: var(--spell); }
@@ -202,6 +215,7 @@ main {
 .preview-card dd { margin: 0; }
 .preview-card .desc { margin: 0; white-space: pre-wrap; }
 .preview-card .src { margin: 8px 0 0; color: var(--muted); font-size: 12px; }
+.preview-card .layout { margin: 8px 0 0; padding-top: 6px; border-top: 1px dashed var(--border); color: var(--muted); font-size: 12px; }
 .empty-preview { border-style: dashed; border-width: 2px; border-color: var(--border); padding: 24px; color: var(--muted); text-align: center; }
 .preview-error { padding: 12px; color: var(--danger); font-size: 13px; }
 

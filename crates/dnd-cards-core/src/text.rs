@@ -21,27 +21,6 @@ pub fn slugify(name: &str) -> String {
         .join("-")
 }
 
-/// Greedy word wrap by character count (matches the original layout engine).
-pub fn wrap(text: &str, max_chars: usize) -> Vec<String> {
-    let mut lines = Vec::new();
-    let mut current = String::new();
-    for word in text.split_whitespace() {
-        if current.is_empty() {
-            current.push_str(word);
-        } else if current.chars().count() + 1 + word.chars().count() <= max_chars {
-            current.push(' ');
-            current.push_str(word);
-        } else {
-            lines.push(std::mem::take(&mut current));
-            current.push_str(word);
-        }
-    }
-    if !current.is_empty() || lines.is_empty() {
-        lines.push(current);
-    }
-    lines
-}
-
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -53,16 +32,5 @@ mod tests {
         assert_eq!(slugify("Größe ändern"), "grosse-andern");
         assert_eq!(slugify("  Spaß -- (Test)!  "), "spass-test");
         assert_eq!(slugify("Mein Deck 2"), "mein-deck-2");
-    }
-
-    #[test]
-    fn wrapping() {
-        assert_eq!(wrap("", 10), [""]);
-        assert_eq!(wrap("aa bb cc", 5), ["aa bb", "cc"]);
-        assert_eq!(
-            wrap("averyveryverylongword x", 5),
-            ["averyveryverylongword", "x"]
-        );
-        assert_eq!(wrap("äö üß", 5), ["äö üß"]);
     }
 }

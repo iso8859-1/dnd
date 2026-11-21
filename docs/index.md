@@ -62,12 +62,14 @@ cargo test --workspace
 | `dnd-cards-core` | `models.rs` | `CardData`, `DeckProfile`, `Language` |
 | | `loader.rs` | `load_card()`, `load_deck()`, `save_deck()`, `load_name()` |
 | | `scanner.rs` | `scan_cards()`, `CardRef`, `discover_languages()` |
+| | `layout.rs` | `layout_info()`, `printed_count()`, `LayoutInfo`, wrapping and planning |
+| | `metrics.rs` (private) | Helvetica glyph width tables |
 | | `composer.rs` | `compose_pdf()`, `compose_pdf_duplex()` |
 | | `pdf.rs` (private) | `Canvas` — ReportLab-style drawing on `pdf-writer` |
 | | `config.rs` | layout constants, `find_data_dir()` |
 | | `error.rs` | `Error` (4 variants) + `exit_code()` |
-| | `text.rs` | `slugify()`, `wrap()` |
-| | `lib.rs` | `resolve_deck()`, `generate()` |
+| | `text.rs` | `slugify()` |
+| | `lib.rs` | `resolve_deck()`, `write_pdf()` |
 | `dnd-cards-cli` | `main.rs` | `dnd-cards list / validate / generate` (clap) |
 | `dnd-cards-app` | `src-tauri/src/lib.rs` | Tauri commands: `catalog`, `card_details`, `initial_deck`, `open_deck`, `save_deck`, `generate_pdf` |
 | (frontend) | `ui/app.js` | deck builder UI state, rendering, keyboard handling |

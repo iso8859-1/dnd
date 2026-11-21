@@ -17,15 +17,17 @@ dnd/
 │   ├── dnd-cards-core/           # library: everything except UI
 │   │   ├── Cargo.toml
 │   │   └── src/
-│   │       ├── lib.rs            # re-exports, resolve_deck(), generate()
+│   │       ├── lib.rs            # re-exports, resolve_deck(), write_pdf()
 │   │       ├── models.rs         # CardData, DeckProfile, Language
 │   │       ├── loader.rs         # load_card/load_deck/save_deck/load_name + tests
 │   │       ├── scanner.rs        # scan_cards, discover_languages + tests
-│   │       ├── composer.rs       # fold-strip + duplex layouts, icons + tests
+│   │       ├── layout.rs         # wrapping, title fit, per-card layout plan + tests
+│   │       ├── metrics.rs        # Helvetica glyph widths (generated from AFM data)
+│   │       ├── composer.rs       # draws planned cards: fold-strip + duplex, icons + tests
 │   │       ├── pdf.rs            # Canvas over pdf-writer, WinAnsi encoding + tests
 │   │       ├── config.rs         # layout constants, find_data_dir()
 │   │       ├── error.rs          # Error enum, exit codes
-│   │       └── text.rs           # wrap(), slugify() + tests
+│   │       └── text.rs           # slugify() + tests
 │   │
 │   └── dnd-cards-cli/            # binary `dnd-cards`
 │       ├── Cargo.toml
@@ -97,7 +99,7 @@ dnd/
 
 | Area | Files |
 |---|---|
-| Core crate sources | 9 |
+| Core crate sources | 11 |
 | CLI sources | 1 |
 | Tauri sources | 2 (+ config, capability, icons) |
 | Frontend | 3 |

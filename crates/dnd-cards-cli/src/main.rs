@@ -4,7 +4,11 @@ use std::path::{Path, PathBuf};
 use std::process::ExitCode;
 
 use clap::{Parser, Subcommand};
-use dnd_cards_core::{config, load_deck, resolve_deck, scan_cards, Error};
+use dnd_cards_core::layout::BODY_SIZE;
+use dnd_cards_core::{
+    config, layout_info, load_deck, printed_count, resolve_deck, scan_cards, CardData, Error,
+    LayoutInfo,
+};
 
 #[derive(Parser)]
 #[command(
@@ -39,6 +43,9 @@ enum Command {
     Validate {
         #[arg(long)]
         deck: PathBuf,
+        /// List every card that uses the back face, smaller text or extra cards.
+        #[arg(long)]
+        layout: bool,
     },
     /// List available cards in the data store.
     List {
@@ -54,6 +61,26 @@ fn data_dir(cli: &Option<PathBuf>) -> PathBuf {
         .unwrap_or_else(|| PathBuf::from("data"))
 }
 
+/// Cards in deck order, each distinct card once.
+fn unique(cards: &[CardData]) -> Vec<&CardData> {
+    let mut seen = std::collections::HashSet::new();
+    cards
+        .iter()
+        .filter(|c| seen.insert((&c.card_type, &c.id)))
+        .collect()
+}
+
+fn describe(info: &LayoutInfo) -> String {
+    let mut parts = vec![format!("{}pt", info.font_size)];
+    if info.uses_back {
+        parts.push("continues on the back".into());
+    }
+    if info.cards > 1 {
+        parts.push(format!("{} cards", info.cards));
+    }
+    parts.join(", ")
+}
+
 fn run(cli: Cli) -> Result<(), Error> {
     let data = data_dir(&cli.data_dir);
     match cli.command {
@@ -63,18 +90,40 @@ fn run(cli: Cli) -> Result<(), Error> {
             duplex,
         } => {
             let profile = load_deck(&deck)?;
+            let cards = resolve_deck(&profile, &scan_cards(&data), &deck.display().to_string())?;
+            for c in unique(&cards) {
+                let info = layout_info(c);
+                if info.cards > 1 {
+                    eprintln!("note: {} is printed on {} cards", c.name, info.cards);
+                }
+            }
             let stem = deck
                 .file_stem()
                 .map(|s| s.to_string_lossy().into_owned())
                 .unwrap_or_else(|| "deck".into());
             let out = output_dir.join(format!("{stem}.pdf"));
-            dnd_cards_core::generate(&data, &profile, &deck.display().to_string(), &out, duplex)?;
+            dnd_cards_core::write_pdf(&cards, &out, duplex)?;
             println!("{}", out.display());
         }
-        Command::Validate { deck } => {
+        Command::Validate { deck, layout } => {
             let profile = load_deck(&deck)?;
             let cards = resolve_deck(&profile, &scan_cards(&data), &deck.display().to_string())?;
-            println!("{}: OK ({} cards)", deck.display(), cards.len());
+            let (mut back, mut small, mut multi) = (0, 0, 0);
+            for c in unique(&cards) {
+                let info = layout_info(c);
+                back += usize::from(info.uses_back);
+                small += usize::from(info.font_size < BODY_SIZE);
+                multi += usize::from(info.cards > 1);
+                if layout && !info.is_default() {
+                    println!("  {}: {}", c.name, describe(&info));
+                }
+            }
+            println!(
+                "{}: OK ({} cards, {} printed; {back} continue on the back, {small} with smaller text, {multi} on several cards)",
+                deck.display(),
+                cards.len(),
+                printed_count(&cards),
+            );
         }
         Command::List { card_type } => {
             if !Path::new(&data).is_dir() {

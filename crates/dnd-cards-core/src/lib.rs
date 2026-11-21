@@ -4,15 +4,18 @@
 pub mod composer;
 pub mod config;
 pub mod error;
+pub mod layout;
 pub mod loader;
 pub mod models;
 pub mod scanner;
 pub mod text;
 
+mod metrics;
 mod pdf;
 
 pub use composer::{compose_pdf, compose_pdf_duplex};
 pub use error::{Error, Result};
+pub use layout::{layout_info, printed_count, LayoutInfo};
 pub use loader::{load_card, load_deck, save_deck};
 pub use models::{CardData, DeckProfile, Language};
 pub use scanner::{scan_cards, CardRef};
@@ -37,20 +40,12 @@ pub fn resolve_deck(
     Ok(cards)
 }
 
-/// Convenience: scan `data_dir`, resolve `deck` and write the PDF to `out`.
-pub fn generate(
-    data_dir: &Path,
-    deck: &DeckProfile,
-    deck_label: &str,
-    out: &Path,
-    duplex: bool,
-) -> Result<()> {
-    let index = scan_cards(data_dir);
-    let cards = resolve_deck(deck, &index, deck_label)?;
+/// Compose `cards` and write the PDF to `out`, creating parent directories.
+pub fn write_pdf(cards: &[CardData], out: &Path, duplex: bool) -> Result<()> {
     let bytes = if duplex {
-        compose_pdf_duplex(&cards)
+        compose_pdf_duplex(cards)
     } else {
-        compose_pdf(&cards)
+        compose_pdf(cards)
     };
     if let Some(parent) = out.parent() {
         if !parent.as_os_str().is_empty() {

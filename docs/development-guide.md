@@ -29,6 +29,7 @@ cargo run -p dnd-cards-app -- decks/mein-deck.yaml
 cargo run -p dnd-cards-cli -- list
 cargo run -p dnd-cards-cli -- list --type spells
 cargo run -p dnd-cards-cli -- validate --deck decks/mein-deck.yaml
+cargo run -p dnd-cards-cli -- validate --deck decks/mein-deck.yaml --layout   # per-card print layout
 cargo run -p dnd-cards-cli -- generate --deck decks/mein-deck.yaml
 cargo run -p dnd-cards-cli -- generate --deck decks/mein-deck.yaml --duplex --output-dir out
 cargo run -p dnd-cards-cli -- --data-dir path/to/data list
@@ -64,7 +65,8 @@ Tests are `#[cfg(test)] mod tests` at the bottom of each core module:
 | `scanner` | key / type / lang derivation, non-YAML ignored, missing dir |
 | `composer` | page counts (strip and duplex), every card type with and without optional fields, duplex column mirroring |
 | `pdf` | WinAnsi encoding of umlauts, quotes, dashes, unmappable chars |
-| `text` | `slugify`, `wrap` |
+| `layout` | width wrapping, overlong words, title fitting, escalation front → back → follow-on cards without losing text |
+| `text` | `slugify` |
 
 The frontend has no automated tests. To check it in a browser, serve `ui/` with a stub
 `window.__TAURI__ = { core: { invoke } }` that returns catalog data.
@@ -83,9 +85,9 @@ structure.
    `id`, `name`, `lang`, `description` (+ any optional fields).
 2. Without code changes the cards are listed, previewed and printed with the generic
    layout (grey colour, `typ` line if present, scroll icon).
-3. For a custom look, edit `crates/dnd-cards-core/src/composer.rs`:
+3. For a custom look, edit `crates/dnd-cards-core/src/layout.rs` (`main_block()` — the lines
+   under the header, used for fitting) and `crates/dnd-cards-core/src/composer.rs`:
    - `card_color()` — header / border colour
-   - `draw_front_face()` — type-specific lines under the header
    - `draw_back_icon()` — dispatch to a new icon function
 4. New YAML fields: add them to `CardData` in `models.rs` (use `opt_scalar_string` for
    text) and to the preview in `ui/app.js` (`showPreview`).

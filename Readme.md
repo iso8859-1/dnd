@@ -26,6 +26,8 @@ Lade einen Release aus der Release-Sektion herunter:
     - `+`/`Enter` und `-` fügen Karten hinzu bzw. entfernen sie, `Entf` entfernt alle Exemplare
 - Deck benennen, mit `Strg+S` speichern (`Strg+O` öffnet ein Deck, `Strg+N` beginnt ein neues)
 - `Strg+G` erzeugt das Falt-PDF (4 Karten pro A4 quer), `Strg+D` das Duplex-PDF (9 Karten pro Blattpaar, beidseitig drucken)
+- Lange Texte werden etwas kleiner gesetzt, auf der Rückseite fortgesetzt oder auf eine
+  Folgekarte verteilt (Markierung `back`, `small`, `2 cards` in der Liste) – es wird nichts abgeschnitten
 - PDF drucken
 - Karten ausschneiden und falten
 
@@ -36,7 +38,7 @@ Optional:
 
 ```
 dnd-cards list [--type spells]
-dnd-cards validate --deck decks/mein-deck.yaml
+dnd-cards validate --deck decks/mein-deck.yaml [--layout]
 dnd-cards generate --deck decks/mein-deck.yaml [--duplex] [--output-dir output]
 ```
 
