@@ -25,10 +25,15 @@ pub const A4_HEIGHT_MM: f32 = 297.0;
 /// Locate the card data store. Order: `$DND_CARDS_DATA`, `./data`, then
 /// `data/` next to (or one/two levels above) the running executable.
 pub fn find_data_dir() -> Option<std::path::PathBuf> {
-    use std::path::PathBuf;
-    if let Some(p) = std::env::var_os("DND_CARDS_DATA").map(PathBuf::from) {
+    if let Some(p) = std::env::var_os("DND_CARDS_DATA").map(std::path::PathBuf::from) {
         return Some(p);
     }
+    find_default_data_dir()
+}
+
+/// Like [`find_data_dir`], but ignoring `$DND_CARDS_DATA`.
+pub fn find_default_data_dir() -> Option<std::path::PathBuf> {
+    use std::path::PathBuf;
     let mut candidates = vec![PathBuf::from("data")];
     if let Some(exe_dir) = std::env::current_exe()
         .ok()

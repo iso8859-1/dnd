@@ -45,7 +45,7 @@ returns values, `Result`s or PDF bytes.
 | `metrics.rs` | Helvetica / -Bold / -Oblique glyph widths (WinAnsi), `width()` |
 | `composer.rs` | Draws planned cards: fold-strip and duplex pages, faces, back-face icons |
 | `pdf.rs` | Private `Canvas`: ReportLab-like drawing API, page list, WinAnsi encoding, PDF assembly |
-| `config.rs` | Layout constants (mm), `find_data_dir()` |
+| `config.rs` | Layout constants (mm), `find_data_dir()`, `find_default_data_dir()` |
 | `text.rs` | `slugify()` |
 | `error.rs` | `Error` enum, `exit_code()` |
 | `lib.rs` | Re-exports, `resolve_deck()`, `generate()` (scan + resolve + compose + write) |
@@ -77,15 +77,18 @@ dnd-cards generate --deck decks/x.yaml [--duplex] [--output-dir output]
 ### Desktop app
 
 ```
-startup ─► setup(): data dir = $DND_CARDS_DATA │ <resources>/data │ find_data_dir()
+startup ─► setup(): data dir = saved source (settings.json) │ $DND_CARDS_DATA │ <resources>/data │ find_default_data_dir()
                     initial deck = first CLI arg if it is a file
-ui start ─► invoke("catalog")        → { data_dir, languages, types, cards[{key,name,card_type,lang}] }
+ui start ─► invoke("data_sources")   → { sources[{id,name,description,path,kind}], active, datasets_dir }
+         ─► invoke("catalog")        → { data_dir, source, languages, types, cards[{key,name,card_type,lang}] }
          ─► invoke("initial_deck")   → deck or null
 select   ─► invoke("card_details", {key}) → CardData (cached per key in the UI)
 Ctrl+O   ─► invoke("open_deck")      → native open dialog → { path, name, cards[[key,qty]] }
 Ctrl+S   ─► invoke("save_deck", {path, saveAs, name, cards}) → dialog if no path / save-as
 Ctrl+G/D ─► invoke("generate_pdf", {name, cards, duplex})
                resolve + compose in memory → native save dialog → write → open in default viewer
+Data     ─► invoke("set_data_source", {id}) │ "add_data_source" (folder dialog) │ "remove_data_source" │
+            "open_datasets_folder" → reload catalog, deck is kept
 ```
 
 The deck in the UI is a `Map<key, qty>` whose insertion order is the deck order. It is
@@ -272,7 +275,12 @@ replaces an earlier one. Note that the directory name (`spells`) differs from th
 
 ### Backend (`src-tauri/src/lib.rs`)
 
-- `AppState { data_dir, initial_deck, last_dir }` managed by Tauri.
+- `AppState { data_dir: Mutex<PathBuf>, initial_deck, last_dir }` managed by Tauri.
+- `sources.rs`: data sources — `env` (`$DND_CARDS_DATA`), `bundled` (`<resources>/data`),
+  `dataset:<folder>` (each folder in `<app data dir>/datasets/` with YAML below it, e.g. installed
+  by a dataset installer) and `custom:<path>` (added in the UI). An optional `dataset.json`
+  (`name`, `description`) in a source's root gives its display name. The selection and the
+  custom folders are stored in `<app config dir>/settings.json`.
 - Commands are `async` (run off the main thread); dialogs use the blocking API there.
 - `bundle.resources` copies `../data/` to `data/` next to the binary (also in dev builds).
 - Capability `default.json` grants only `core:default` to the `main` window.

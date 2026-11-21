@@ -14,11 +14,16 @@ Die Texte die aus dem SRD extrahiert wurden, stehen unter der CC-BY 4.0, der res
 
 Lade einen Release aus der Release-Sektion herunter:
 
-- **Desktop-App** (Installer für Windows, macOS, Linux) – enthält alle Kartendaten.
+- **Desktop-App** (Installer für Windows, macOS, Linux) – enthält die Kartendaten aus dem SRD.
 - **Kommandozeile** (`dnd-cards-cli-*.zip`/`.tar.gz`) – `dnd-cards` plus `data/`-Ordner.
 
 ### Desktop-App
 
+- Datenquelle oben rechts unter *Data* wählen (wird gespeichert):
+    - das mitgelieferte SRD
+    - installierte Datensätze (siehe [Weitere Datensätze](#weitere-datensätze))
+    - einen eigenen Ordner mit Kartendaten (*Add folder…*)
+    - `$DND_CARDS_DATA`, falls gesetzt
 - Karten auswählen
     - tippen sucht nach Name (unscharf, z.B. `feurball`)
     - Typ-Chips oder `Alt`+`1`–`9` filtern nach Kategorie
@@ -44,6 +49,27 @@ dnd-cards generate --deck decks/mein-deck.yaml [--duplex] [--output-dir output]
 
 Die Kartendaten werden in `$DND_CARDS_DATA`, `./data` oder `data/` neben der Programmdatei gesucht
 (oder explizit per `--data-dir`).
+
+### Weitere Datensätze
+
+Zusätzliche Kartendaten (z.B. aus eigenen Büchern, die nicht veröffentlicht werden dürfen) werden
+als eigener Datensatz installiert – per eigenem Installer oder durch Entpacken in den Ordner
+
+| OS | Ordner |
+|---|---|
+| Windows | `%APPDATA%\io.github.dnd-cards\datasets\<name>` |
+| macOS | `~/Library/Application Support/io.github.dnd-cards/datasets/<name>` |
+| Linux | `~/.local/share/io.github.dnd-cards/datasets/<name>` |
+
+(*Data* → *Open datasets folder* öffnet ihn). Ein Datensatz hat denselben Aufbau wie `data/`
+(`<sprache>/<buch>/<typ>/*.yaml`); eine optionale `dataset.json` legt den angezeigten Namen fest:
+
+```json
+{ "name": "Mein Buch", "description": "…", "version": "1.0.0" }
+```
+
+Gleiche Kartenschlüssel (`spells/feuerball`) in verschiedenen Datensätzen sind gewollt: ein Deck
+funktioniert dann mit jeder Datenquelle, die diese Karten enthält.
 
 ### Aus den Sourcen bauen
 

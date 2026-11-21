@@ -40,7 +40,10 @@ Data directory lookup:
 | Binary | Order |
 |---|---|
 | CLI | `--data-dir` → `$DND_CARDS_DATA` → `./data` → `data/` next to the exe or up to two parents |
-| App | `$DND_CARDS_DATA` → bundled resources `data/` → same fallback as the CLI |
+| App | source selected in the *Data* drop-down (saved in `<app config dir>/settings.json`); default: `$DND_CARDS_DATA` → bundled resources `data/` → `./data` / next to the exe |
+
+The app also offers every dataset folder in `<app data dir>/datasets/` (Windows:
+`%APPDATA%\io.github.dnd-cards\datasets`) and folders added with *Add folder…*.
 
 CLI exit codes: `0` success, `1` YAML / validation / card-not-found, `2` output failure.
 

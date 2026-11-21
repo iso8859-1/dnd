@@ -3,11 +3,13 @@
 //! Native dialogs and file opening are driven from Rust, so the web UI only
 //! needs to call the app's own commands — no plugin permissions are exposed.
 
+mod sources;
+
 use std::path::{Path, PathBuf};
 use std::sync::Mutex;
 
 use dnd_cards_core::{
-    compose_pdf, compose_pdf_duplex, config, layout_info, load_card, load_deck, loader::load_name,
+    compose_pdf, compose_pdf_duplex, layout_info, load_card, load_deck, loader::load_name,
     resolve_deck, save_deck as write_deck, scan_cards, scanner::discover_languages, text::slugify,
     CardData, DeckProfile, LayoutInfo,
 };
@@ -18,7 +20,8 @@ use tauri_plugin_dialog::DialogExt;
 use tauri_plugin_opener::OpenerExt;
 
 struct AppState {
-    data_dir: PathBuf,
+    /// Directory of the selected data source.
+    data_dir: Mutex<PathBuf>,
     /// Deck passed on the command line (`dnd-cards-app my-deck.yaml`).
     initial_deck: Mutex<Option<PathBuf>>,
     /// Last directory used in a deck / PDF dialog.
@@ -41,6 +44,8 @@ struct CardInfo {
 #[derive(Serialize)]
 struct Catalog {
     data_dir: String,
+    /// Display name of the selected data source.
+    source: String,
     languages: Vec<String>,
     types: Vec<String>,
     cards: Vec<CardInfo>,
@@ -98,8 +103,13 @@ fn read_deck(path: &Path) -> CmdResult<LoadedDeck> {
 
 /// Index the data store and read every card's display name.
 #[tauri::command]
-async fn catalog(state: State<'_, AppState>) -> CmdResult<Catalog> {
-    let data_dir = state.data_dir.clone();
+async fn catalog(app: AppHandle, state: State<'_, AppState>) -> CmdResult<Catalog> {
+    let data_dir = state.data_dir.lock().unwrap().clone();
+    let source = sources::discover(&app, &sources::load_settings(&app))
+        .into_iter()
+        .find(|s| Path::new(&s.path) == data_dir)
+        .map(|s| s.name)
+        .unwrap_or_else(|| data_dir.display().to_string());
     if !data_dir.is_dir() {
         return Err(format!(
             "Card data directory not found: {}",
@@ -129,6 +139,7 @@ async fn catalog(state: State<'_, AppState>) -> CmdResult<Catalog> {
         .collect();
     Ok(Catalog {
         data_dir: data_dir.display().to_string(),
+        source,
         languages: discover_languages(&data_dir),
         types,
         cards,
@@ -138,7 +149,7 @@ async fn catalog(state: State<'_, AppState>) -> CmdResult<Catalog> {
 /// Full card data for the preview pane.
 #[tauri::command]
 async fn card_details(state: State<'_, AppState>, key: String) -> CmdResult<CardData> {
-    let index = scan_cards(&state.data_dir);
+    let index = scan_cards(&state.data_dir.lock().unwrap());
     let r = index
         .get(&key)
         .ok_or_else(|| format!("Card not found: {key}"))?;
@@ -228,8 +239,8 @@ async fn generate_pdf(
     } else {
         deck.name.clone()
     };
-    let resolved =
-        resolve_deck(&deck, &scan_cards(&state.data_dir), &label).map_err(|e| e.to_string())?;
+    let resolved = resolve_deck(&deck, &scan_cards(&state.data_dir.lock().unwrap()), &label)
+        .map_err(|e| e.to_string())?;
     let bytes = if duplex {
         compose_pdf_duplex(&resolved)
     } else {
@@ -264,20 +275,127 @@ async fn generate_pdf(
     Ok(Some(out.display().to_string()))
 }
 
+// ── Data sources ─────────────────────────────────────────────────────────────
+
+#[derive(Serialize)]
+struct SourceList {
+    sources: Vec<sources::DataSource>,
+    active: Option<String>,
+    /// Where dataset installers put their data.
+    datasets_dir: Option<String>,
+}
+
+fn source_list(app: &AppHandle, state: &AppState) -> SourceList {
+    let settings = sources::load_settings(app);
+    let list = sources::discover(app, &settings);
+    let current = state.data_dir.lock().unwrap().clone();
+    let active = list
+        .iter()
+        .find(|s| Path::new(&s.path) == current)
+        .map(|s| s.id.clone());
+    SourceList {
+        sources: list,
+        active,
+        datasets_dir: sources::datasets_dir(app).map(|d| d.display().to_string()),
+    }
+}
+
+/// Available data sources and the selected one.
+#[tauri::command]
+fn data_sources(app: AppHandle, state: State<'_, AppState>) -> SourceList {
+    source_list(&app, &state)
+}
+
+/// Switch to another data source and remember the choice.
+#[tauri::command]
+fn set_data_source(
+    app: AppHandle,
+    state: State<'_, AppState>,
+    id: String,
+) -> CmdResult<SourceList> {
+    let mut settings = sources::load_settings(&app);
+    let src = sources::discover(&app, &settings)
+        .into_iter()
+        .find(|s| s.id == id)
+        .ok_or_else(|| format!("Unknown data source: {id}"))?;
+    *state.data_dir.lock().unwrap() = PathBuf::from(&src.path);
+    settings.data_source = Some(id);
+    sources::save_settings(&app, &settings)?;
+    Ok(source_list(&app, &state))
+}
+
+/// Pick a folder with card data, add it as a source and select it.
+#[tauri::command]
+async fn add_data_source(
+    app: AppHandle,
+    state: State<'_, AppState>,
+) -> CmdResult<Option<SourceList>> {
+    let Some(picked) = app
+        .dialog()
+        .file()
+        .set_title("Choose a card data folder")
+        .blocking_pick_folder()
+    else {
+        return Ok(None);
+    };
+    let dir = picked.into_path().map_err(|e| e.to_string())?;
+    if !sources::looks_like_data(&dir) {
+        return Err(format!(
+            "{} contains no card data (expected <lang>/<book>/<type>/*.yaml).",
+            dir.display()
+        ));
+    }
+    let mut settings = sources::load_settings(&app);
+    if !settings.custom_sources.contains(&dir) {
+        settings.custom_sources.push(dir.clone());
+    }
+    let id = format!("custom:{}", dir.display());
+    settings.data_source = Some(id.clone());
+    sources::save_settings(&app, &settings)?;
+    *state.data_dir.lock().unwrap() = dir;
+    Ok(Some(source_list(&app, &state)))
+}
+
+/// Forget a folder added with `add_data_source` (the files are not touched).
+#[tauri::command]
+fn remove_data_source(
+    app: AppHandle,
+    state: State<'_, AppState>,
+    id: String,
+) -> CmdResult<SourceList> {
+    let path = id
+        .strip_prefix("custom:")
+        .ok_or("Only added folders can be removed.")?;
+    let mut settings = sources::load_settings(&app);
+    settings.custom_sources.retain(|p| p != Path::new(path));
+    if settings.data_source.as_deref() == Some(id.as_str()) {
+        settings.data_source = None;
+    }
+    sources::save_settings(&app, &settings)?;
+    let list = sources::discover(&app, &settings);
+    if let Some(src) = sources::active(&list, &settings) {
+        *state.data_dir.lock().unwrap() = PathBuf::from(&src.path);
+    }
+    Ok(source_list(&app, &state))
+}
+
+/// Open the folder where dataset installers put their data (creating it).
+#[tauri::command]
+fn open_datasets_folder(app: AppHandle) -> CmdResult<()> {
+    let dir = sources::datasets_dir(&app).ok_or("No data directory available")?;
+    std::fs::create_dir_all(&dir).map_err(|e| format!("{}: {e}", dir.display()))?;
+    app.opener()
+        .open_path(dir.display().to_string(), None::<&str>)
+        .map_err(|e| e.to_string())
+}
+
 // ── Setup ────────────────────────────────────────────────────────────────────
 
 fn resolve_data_dir(app: &AppHandle) -> PathBuf {
-    if let Some(p) = std::env::var_os("DND_CARDS_DATA") {
-        return PathBuf::from(p);
-    }
-    let bundled = app
-        .path()
-        .resource_dir()
-        .ok()
-        .map(|d| d.join("data"))
-        .filter(|d| d.is_dir());
-    bundled
-        .or_else(config::find_data_dir)
+    let settings = sources::load_settings(app);
+    let list = sources::discover(app, &settings);
+    sources::active(&list, &settings)
+        .map(|s| PathBuf::from(&s.path))
         .unwrap_or_else(|| PathBuf::from("data"))
 }
 
@@ -291,7 +409,7 @@ pub fn run() {
                 .map(PathBuf::from)
                 .filter(|p| p.is_file());
             app.manage(AppState {
-                data_dir: resolve_data_dir(app.handle()),
+                data_dir: Mutex::new(resolve_data_dir(app.handle())),
                 last_dir: Mutex::new(
                     initial_deck
                         .as_ref()
@@ -307,7 +425,12 @@ pub fn run() {
             initial_deck,
             open_deck,
             save_deck,
-            generate_pdf
+            generate_pdf,
+            data_sources,
+            set_data_source,
+            add_data_source,
+            remove_data_source,
+            open_datasets_folder
         ])
         .run(tauri::generate_context!())
         .expect("error while running DnD Cards");

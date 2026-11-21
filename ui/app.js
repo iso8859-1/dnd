@@ -8,7 +8,7 @@ const ui = {
   name: $("deck-name"), count: $("deck-count"), dirty: $("dirty"),
   search: $("search"), langChips: $("lang-chips"), typeChips: $("type-chips"), onlyDeck: $("only-deck"),
   rows: $("rows"), empty: $("empty"), preview: $("preview"),
-  deckList: $("deck-list"), deckEmpty: $("deck-empty"), status: $("status"),
+  deckList: $("deck-list"), deckEmpty: $("deck-empty"), status: $("status"), source: $("source"),
   buttons: ["btn-new", "btn-open", "btn-save", "btn-pdf", "btn-duplex"].map($),
 };
 
@@ -27,6 +27,7 @@ const state = {
   deckPath: null,
   dirty: false,
   busy: false,
+  sources: null,        // {sources, active, datasets_dir}
 };
 
 const details = new Map(); // key -> Promise<CardData>
@@ -431,7 +432,7 @@ document.addEventListener("keydown", (e) => {
     if (t) { e.preventDefault(); toggleType(t); }
     return;
   }
-  if (e.target === ui.name || e.target === ui.onlyDeck || e.altKey) return;
+  if (e.target === ui.name || e.target === ui.onlyDeck || e.target === ui.source || e.altKey) return;
 
   const cur = state.visible[state.sel];
   const page = Math.max(1, Math.floor(ui.rows.clientHeight / 34) - 1);
@@ -457,18 +458,68 @@ document.addEventListener("keydown", (e) => {
   if (e.key.length === 1 && e.target !== ui.search) ui.search.focus();
 });
 
+// ── Data sources ────────────────────────────────────────────────────────────
+
+const ADD = "__add", REMOVE = "__remove", OPEN = "__open";
+
+function renderSources() {
+  const list = state.sources;
+  if (!list) return;
+  const opts = list.sources.map((s) =>
+    el("option", { value: s.id, title: [s.description, s.path].filter(Boolean).join("\n") },
+      s.name + (s.kind === "custom" ? " (Ordner)" : "")));
+  if (!list.sources.length) opts.push(el("option", { value: "", text: "— no card data —" }));
+  const extra = [el("option", { value: ADD, text: "Add folder…" })];
+  const active = list.sources.find((s) => s.id === list.active);
+  if (active?.kind === "custom") extra.push(el("option", { value: REMOVE, text: `Remove “${active.name}”` }));
+  if (list.datasets_dir) extra.push(el("option", { value: OPEN, text: "Open datasets folder", title: list.datasets_dir }));
+  ui.source.replaceChildren(...opts, el("hr"), ...extra);
+  ui.source.value = list.active ?? "";
+  ui.source.title = active ? `${active.name}\n${active.path}` : "Card data source";
+}
+
+async function loadCatalog() {
+  const cat = await invoke("catalog");
+  state.cards = cat.cards;
+  state.byKey = new Map(cat.cards.map((c) => [c.key, c]));
+  state.languages = cat.languages;
+  state.types = cat.types;
+  if (!state.languages.includes(state.lang)) state.lang = cat.languages[0] ?? null;
+  if (!state.types.includes(state.type)) state.type = null;
+  details.clear();
+  state.sel = 0;
+  renderAll();
+  const missing = deckEntries().filter(([k]) => !state.byKey.has(k)).length;
+  const note = missing ? ` — ${missing} deck card(s) not in this source` : "";
+  setStatus(`${cat.cards.length} cards loaded from ${cat.source}${note}`, missing ? "error" : "");
+}
+
+const changeSource = () => run("Loading card data", async () => {
+  const choice = ui.source.value;
+  if (choice === OPEN) {
+    renderSources();
+    await invoke("open_datasets_folder");
+    return setStatus(`Datasets folder: ${state.sources.datasets_dir}`);
+  }
+  let list;
+  if (choice === ADD) list = await invoke("add_data_source");
+  else if (choice === REMOVE) list = await invoke("remove_data_source", { id: state.sources.active });
+  else list = await invoke("set_data_source", { id: choice });
+  if (!list) { renderSources(); return setStatus(""); }
+  state.sources = list;
+  renderSources();
+  await loadCatalog();
+});
+
+ui.source.addEventListener("change", () => changeSource().finally(renderSources));
+
 // ── Startup ─────────────────────────────────────────────────────────────────
 
 (async () => {
   try {
-    const cat = await invoke("catalog");
-    state.cards = cat.cards;
-    state.byKey = new Map(cat.cards.map((c) => [c.key, c]));
-    state.languages = cat.languages;
-    state.types = cat.types;
-    state.lang = cat.languages[0] ?? null;
-    renderAll();
-    setStatus(`${cat.cards.length} cards loaded from ${cat.data_dir}`);
+    state.sources = await invoke("data_sources");
+    renderSources();
+    await loadCatalog();
     const deck = await invoke("initial_deck");
     if (deck) applyDeck(deck);
   } catch (err) {
