@@ -1,103 +1,101 @@
 # dnd-cards — Project Overview
 
-**Generated:** 2026-04-12 | **Scan level:** Deep | **Type:** CLI tool (monolith)
+**Updated:** 2026-11-21 | **Type:** Desktop app + CLI (Cargo workspace)
 
 ---
 
 ## What it does
 
-`dnd-cards` is a command-line tool that generates print-ready A4 PDF reference cards for D&D 5.5e (German SRD). Cards are folded double-sided: the front face shows game stats, the back face shows an icon and the card title. PDFs are assembled from a deck profile YAML that references cards by key.
+`dnd-cards` generates print-ready A4 PDF reference cards for D&D 5.5e (German SRD).
+Two print modes are supported:
 
-The tool also ships an interactive terminal UI (TUI) for building those deck YAMLs by browsing and searching the card catalog.
+- **Fold strips** — a 63×176mm strip per card, four per A4 landscape page. Fold at the
+  middle: the front face shows the game text, the back face (printed upside down) shows
+  the title and a type icon.
+- **Duplex** — 63×88mm faces, nine per A4 portrait page pair. Fronts on odd pages, backs
+  on even pages with columns mirrored for long-edge double-sided printing; no folding.
+
+A **desktop app** (Tauri) is the main way to build decks: search and filter the card
+catalog, preview cards, set quantities, save/open deck YAML files and generate either PDF.
+A **CLI** (`dnd-cards`) does the same headlessly from a deck YAML.
 
 ---
 
 ## Technology Stack
 
-| Category | Technology | Version | Notes |
-|---|---|---|---|
-| Language | Python | 3.11+ | `pathlib`, `importlib.resources` |
-| CLI framework | Typer | 0.9.x | Shell completion via Click |
-| PDF generation | ReportLab | 4.4.x | mm-precise geometry, no external process |
-| Template engine | Jinja2 | 3.1.x | File-based templates, `autoescape=False` |
-| YAML parsing | PyYAML | 6.0.x | `safe_load` only; `problem_mark` for error location |
-| Schema validation | Pydantic v2 | 2.5.x | `model_validate()` on plain dicts; frozen models |
-| Terminal UI | Textual | 8.2.3+ | Full-screen TUI deck builder |
-| Dependency manager | uv | latest | `uv.lock` committed; `uv tool install .` for deployment |
-| Build backend | hatchling | latest | `[build-system]` in `pyproject.toml` |
-| Linter | ruff | 0.15.x | `TID252` bans relative imports |
-| Type checker | mypy | 1.20.x | `--strict` mode |
-| Testing | pytest + pytest-cov | 9.x / 7.x | `asyncio_mode=auto` for Textual pilot tests |
+| Category | Technology | Notes |
+|---|---|---|
+| Language | Rust 2021, MSRV 1.82 | Cargo workspace with three members |
+| PDF generation | `pdf-writer` 0.15 | Base-14 Helvetica family, WinAnsiEncoding, no font embedding |
+| YAML | `serde_yaml_ng` 0.10 | Maintained fork of `serde_yaml` |
+| Serialization | `serde` | Lenient scalar → string handling for text fields |
+| Ordered maps | `indexmap` | Deck card order is preserved on load/save |
+| Errors | `thiserror` 2 | One `Error` enum with exit-code mapping |
+| Filesystem walk | `walkdir` | Sorted, recursive card discovery |
+| CLI | `clap` 4 (derive) | |
+| Desktop shell | Tauri 2 | `tauri-plugin-dialog`, `tauri-plugin-opener` |
+| Frontend | HTML/CSS/vanilla JS | No npm / bundler; served from `ui/` via `withGlobalTauri` |
+| Tests | `cargo test` + `tempfile` | Unit tests live next to the code |
 
 ---
 
 ## Architecture Type
 
-**Pipeline CLI** — pure local file I/O, no network, no database, no server.
+**Shared-core pipeline** — pure local file I/O, no network, no database, no server.
 
 ```
-YAML files → loader (Pydantic) → renderer (Jinja2) → composer (ReportLab) → PDF
+data/**/*.yaml → scanner → loader (serde) → composer (pdf-writer) → PDF bytes
+                                   ▲
+           CLI (clap)  ────────────┤
+           Tauri commands ◄── ui/app.js (invoke)
 ```
-
-Card data lives in a `data/` directory tree. The scanner discovers cards at runtime by directory traversal; no card registry is maintained. Deck profiles are YAML files that reference cards by `{card_type}/{stem}` key.
 
 ---
 
 ## Data Summary
 
-| Language | Rulebook | Card type | Count |
-|---|---|---|---|
-| de | SRD 5.2 | spells | 339 |
-| de | SRD 5.2 | talents | 17 |
-| de | SRD 5.2 | rules | 155 |
-| **Total** | | | **511** |
-
----
-
-## Repository Structure
-
-```
-dnd-cards/                 ← monolith, single Python package
-├── src/dnd_cards/         ← application source (9 modules)
-├── tests/                 ← pytest suite (unit + integration)
-├── templates/             ← Jinja2 card layout templates
-├── data/                  ← Git-versioned YAML card data
-├── decks/                 ← deck profile YAMLs
-├── assets/fonts/          ← TTF fonts for PDF rendering
-├── scripts/               ← one-off SRD import utilities
-├── SRDs/                  ← source PDFs and raw YAML extracts
-└── output/                ← generated PDFs (.gitignored)
-```
+| Language | Rulebook | Card type (dir) | Count | Printable |
+|---|---|---|---|---|
+| de | SRD 5.2 | spells | 339 | yes |
+| de | SRD 5.2 | classes | 233 | yes |
+| de | SRD 5.2 | rules | 155 | yes |
+| de | SRD 5.2 | talents | 17 | yes |
+| de | SRD 5.2 | monsters | 330 | **no** — stat blocks have no `description`; no layout yet |
+| **Total** | | | **1074** | |
 
 ---
 
 ## Entry Points
 
-| Command | Module | Description |
+| Entry | Location | Description |
 |---|---|---|
-| `dnd-cards generate --deck <file>` | `cli.py → composer.py` | Generate PDF from deck profile |
-| `dnd-cards list [--type <type>]` | `cli.py → scanner.py` | List available cards |
-| `dnd-cards tui [<deck>]` | `cli.py → tui.py` | Interactive TUI deck builder |
-| `dnd-cards validate --deck <file>` | `cli.py` | Validate deck (stub, Epic 3) |
+| `dnd-cards-app [deck.yaml]` | `src-tauri/` | Desktop deck builder; optional deck path is opened at start |
+| `dnd-cards generate --deck <file> [--duplex] [--output-dir output]` | `crates/dnd-cards-cli` | Write `<output-dir>/<deck-stem>.pdf` |
+| `dnd-cards validate --deck <file>` | `crates/dnd-cards-cli` | Load the deck and every referenced card |
+| `dnd-cards list [--type <dir>]` | `crates/dnd-cards-cli` | List `stem [type]`, sorted |
+| `--data-dir <path>` (global) | CLI | Override data store location |
 
 ---
 
 ## Key Design Decisions
 
-1. **No database** — plain YAML, Git-versioned. Scanner runs at startup; `<1s` for 500+ cards.
-2. **No network** — fully offline, portable. `uv tool install .` is the deployment model.
-3. **Frozen Pydantic models** — `CardData`, `DeckProfile`, `DeckEntry` are immutable after load.
-4. **Single catch boundary** — only `cli.py` catches exceptions; domain modules raise typed errors, never print.
-5. **New card type = zero code changes** — add a Jinja2 template + YAML files; `composer.py` dispatches on `card.type`.
-6. **`pathlib.Path` everywhere** — `str()` only at the ReportLab `Canvas()` call boundary.
-7. **Absolute imports only** — `ruff TID252` bans relative imports project-wide.
+1. **No database** — plain YAML, Git-versioned; the scanner indexes ~1000 files at startup.
+2. **One core, two front-ends** — all parsing and layout lives in `dnd-cards-core`; the CLI
+   and the app are thin wrappers.
+3. **Layout parity** — the PDF code is a direct port of the former ReportLab layout; output
+   was verified pixel-identical against the Python version.
+4. **No embedded fonts** — Helvetica / Helvetica-Bold / Helvetica-Oblique with WinAnsi
+   encoding cover German text („“, –, …, umlauts, ß); unmappable characters become `?`.
+5. **Rust-side dialogs** — file dialogs and opening the PDF run in Tauri commands, so the
+   webview only needs `core:default`; no plugin permissions are exposed to JavaScript.
+6. **No frontend build step** — `ui/` is static files; the app builds with Cargo alone.
+7. **Card type from directory** — the scanner never reads YAML; the key is
+   `{parent_dir}/{stem}`, the language is the first directory under `data/`.
 
 ---
 
 ## Links
 
-- [Architecture](./architecture.md) — detailed module design, data flow, error contracts
-- [Source Tree](./source-tree-analysis.md) — annotated directory tree
-- [Development Guide](./development-guide.md) — setup, test, lint, build commands
-- [Planning artifacts](_bmad-output/planning-artifacts/) — PRD, epics, architecture decision doc
-- [Sprint status](_bmad-output/implementation-artifacts/sprint-status.yaml) — story-by-story progress
+- [Architecture](./architecture.md)
+- [Source Tree](./source-tree-analysis.md)
+- [Development Guide](./development-guide.md)

@@ -1,226 +1,163 @@
 # dnd-cards — Development Guide
 
-**Generated:** 2026-04-12
+**Updated:** 2026-11-21
 
 ---
 
 ## Prerequisites
 
-- [uv](https://docs.astral.sh/uv/) (Python package and project manager)
-- Python 3.11+ (uv manages this via `.python-version`)
+- Rust stable (≥ 1.82) via [rustup](https://rustup.rs)
+- Platform prerequisites for Tauri 2: <https://tauri.app/start/prerequisites/>
+  - Windows: WebView2 (preinstalled on Windows 11), MSVC build tools
+  - Linux: `libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf`
+- Tauri CLI: `cargo install tauri-cli --version "^2" --locked`
+
+No Node.js or npm is needed; the frontend is static files in `ui/`.
 
 ---
 
-## Initial Setup
+## Running
 
 ```bash
-# Clone the repo
-git clone <repo-url>
-cd dnd-cards
+# Desktop app (debug build, opens a window; reload the window after editing ui/)
+cargo tauri dev
 
-# Install all dependencies (creates .venv automatically)
-uv sync
+# Open a deck on start
+cargo run -p dnd-cards-app -- decks/mein-deck.yaml
 
-# Install the CLI into your PATH
-uv tool install .
+# CLI
+cargo run -p dnd-cards-cli -- list
+cargo run -p dnd-cards-cli -- list --type spells
+cargo run -p dnd-cards-cli -- validate --deck decks/mein-deck.yaml
+cargo run -p dnd-cards-cli -- generate --deck decks/mein-deck.yaml
+cargo run -p dnd-cards-cli -- generate --deck decks/mein-deck.yaml --duplex --output-dir out
+cargo run -p dnd-cards-cli -- --data-dir path/to/data list
 ```
 
----
+Data directory lookup:
 
-## Running the CLI
-
-```bash
-# List all available cards
-dnd-cards list
-
-# List only spells
-dnd-cards list --type spells
-
-# Generate a PDF from a deck profile
-dnd-cards generate --deck decks/example.yaml
-
-# Generate with a custom output directory
-dnd-cards generate --deck decks/example.yaml --output-dir /tmp/output
-
-# Open the interactive TUI deck builder
-dnd-cards tui
-
-# Edit an existing deck in the TUI
-dnd-cards tui decks/example.yaml
-```
-
----
-
-## TUI Usage
-
-The `dnd-cards tui` command opens a full-screen terminal deck builder.
-
-| Key | Action |
+| Binary | Order |
 |---|---|
-| **Type** | Filter cards by name (fuzzy/subsequence match) |
-| **+** | Add one copy of the highlighted card to deck; clears search |
-| **-** | Remove one copy of the highlighted card |
-| **F1**–**F4** | Toggle language filter (auto-detected from `data/` directory) |
-| **1**–**9** | Toggle card type filter (auto-detected from card type dirs) |
-| **Escape** | Clear search input |
-| **Ctrl+S** | Save deck YAML to `decks/{name}.yaml` |
-| **q** | Quit |
+| CLI | `--data-dir` → `$DND_CARDS_DATA` → `./data` → `data/` next to the exe or up to two parents |
+| App | `$DND_CARDS_DATA` → bundled resources `data/` → same fallback as the CLI |
+
+CLI exit codes: `0` success, `1` YAML / validation / card-not-found, `2` output failure.
 
 ---
 
-## Testing
+## Testing and Linting
 
 ```bash
-# Run all tests
-uv run pytest
-
-# Run with coverage report
-uv run pytest --cov=dnd_cards --cov-report=term-missing
-
-# Run only fast tests (exclude slow integration tests)
-uv run pytest -m "not slow"
-
-# Run a specific test file
-uv run pytest tests/test_models.py
-
-# Run TUI tests only
-uv run pytest tests/test_tui.py
+cargo test --workspace                       # all unit tests
+cargo test -p dnd-cards-core composer        # one module
+cargo clippy --workspace --all-targets       # must be warning-free
+cargo fmt --all                              # format
 ```
 
 ### Test structure
 
-| File | What it tests |
+Tests are `#[cfg(test)] mod tests` at the bottom of each core module:
+
+| Module | Covers |
 |---|---|
-| `test_models.py` | Pydantic model validation, Language enum, frozen behaviour |
-| `test_errors.py` | Exception class hierarchy |
-| `test_loader.py` | `load_card()`, `load_deck()`, YAML error handling |
-| `test_scanner.py` | `scan_cards()`, directory traversal |
-| `test_renderer.py` | `render_card()`, template validation, context dict |
-| `test_composer.py` | `compose_pdf()` with `BytesIO` canvas; drawing helpers |
-| `test_cli.py` | CLI subcommands via `typer.testing.CliRunner` |
-| `test_tui.py` | TUI via `textual.testing.Pilot` (async, `asyncio_mode=auto`) |
-| `integration/test_pipeline.py` | Full CLI → PDF smoke test (marked `slow`) |
+| `loader` | valid card, missing field, malformed YAML with line, empty / non-mapping, bad `lang`, class-feature template default, numeric text fields, deck round-trip order, deck without name / cards, `load_name` fallback |
+| `scanner` | key / type / lang derivation, non-YAML ignored, missing dir |
+| `composer` | page counts (strip and duplex), every card type with and without optional fields, duplex column mirroring |
+| `pdf` | WinAnsi encoding of umlauts, quotes, dashes, unmappable chars |
+| `text` | `slugify`, `wrap` |
 
----
+The frontend has no automated tests. To check it in a browser, serve `ui/` with a stub
+`window.__TAURI__ = { core: { invoke } }` that returns catalog data.
 
-## Linting and Type Checking
+### Visual check of PDF output
 
-```bash
-# Lint with ruff
-uv run ruff check src/ tests/
-
-# Auto-fix ruff issues
-uv run ruff check --fix src/ tests/
-
-# Type check with mypy (strict)
-uv run mypy src/
-```
-
-### Enforcement rules
-
-- `TID252` — relative imports are banned; always use `from dnd_cards.module import ...`
-- `mypy --strict` — 100% type annotation coverage required
-- No exceptions from these rules are expected; any new module must pass both checks
+Generate a deck with the CLI and render the PDF (any viewer, or `pypdfium2`). Layout
+changes should be compared against a known-good render, since unit tests only check
+structure.
 
 ---
 
 ## Adding a New Card Type
 
-1. Create a Jinja2 template: `templates/{type}-v{n}.jinja2`
-   - The template content is a text representation (used as a presence marker; actual rendering is in `composer.py`)
-2. Add YAML card files: `data/{lang}/{rulebook}/{type}/{id}.yaml`
-   - Required fields: `id`, `type`, `template`, `name`, `lang`, `description`
-   - `type` must match the directory name
-   - `template` must match the Jinja2 file stem
-3. Add color/icon in `composer.py`:
-   - Add entry to `_CARD_COLORS` dict
-   - Add branch in `_draw_back_icon()` if a custom icon is needed
-   - Add branch in `_draw_strip()` if the front face layout differs from the generic layout
+1. Create `data/<lang>/<book>/<new-dir>/` and add YAML files with `type: <new_type>`,
+   `id`, `name`, `lang`, `description` (+ any optional fields).
+2. Without code changes the cards are listed, previewed and printed with the generic
+   layout (grey colour, `typ` line if present, scroll icon).
+3. For a custom look, edit `crates/dnd-cards-core/src/composer.rs`:
+   - `card_color()` — header / border colour
+   - `draw_front_face()` — type-specific lines under the header
+   - `draw_back_icon()` — dispatch to a new icon function
+4. New YAML fields: add them to `CardData` in `models.rs` (use `opt_scalar_string` for
+   text) and to the preview in `ui/app.js` (`showPreview`).
+5. Optional: add a dot colour for the directory name in `ui/style.css` (`.dot.<dir>`).
+6. Add a case to `composer::tests::all_card_types_render`.
 
-No changes to `scanner.py`, `loader.py`, `models.py`, or `cli.py` are needed.
+Monster stat blocks are the obvious next type: they need their own model (nested
+`attribute`, `merkmale`, `aktionen` lists) and layout before they can be printed.
 
 ---
 
 ## Adding Card Data via Scripts
 
-```bash
-# Import talents and rules from SRD YAML source files into data/
-uv run python scripts/import_srd_data.py
+The importers are standalone Python scripts and need only PyYAML:
 
-# Convert raw SRD spells YAML into per-card files
-uv run python scripts/convert_srd_spells.py
+```bash
+uv run --no-project --with pyyaml python scripts/import_srd_data.py
+uv run --no-project --with pyyaml python scripts/convert_srd_spells.py
 ```
+
+`import_srd_data.py` contains a copy of `slugify()` that must stay in sync with
+`dnd_cards_core::text::slugify` (file names are card keys).
 
 ---
 
 ## Deck Profile YAML Format
 
 ```yaml
-name: My Deck
-cards:
-  spells/feuerball: 2      # {card_type}/{id}: quantity
-  spells/blitz: 1
-  talents/ringer: 3
-  rules/abenteuer: 1
+name: Magier Stufe 5          # required
+cards:                        # card key → quantity; order = print order
+  spells/feuerball: 2
+  spells/magisches-geschoss: 1
+  talents/bogenschiessen: 1
 ```
 
-- Keys are `{card_type}/{stem}` matching the directory structure under `data/`
-- Quantities must be positive integers
+Keys are `{data subdirectory}/{file stem}`. The app removes entries with quantity 0 on
+save and suggests `<slugified name>.yaml` as the file name.
 
 ---
 
 ## Project Configuration
 
-All project configuration is in `pyproject.toml`:
+| File | What to change there |
+|---|---|
+| `Cargo.toml` (root) | workspace version, shared dependency versions, MSRV |
+| `crates/*/Cargo.toml`, `src-tauri/Cargo.toml` | per-crate dependencies |
+| `src-tauri/tauri.conf.json` | product name, identifier, window, CSP, bundle resources/icons |
+| `src-tauri/capabilities/default.json` | webview permissions (keep minimal) |
+| `crates/dnd-cards-core/src/config.rs` | card / page dimensions, grid sizes, gaps, radius |
 
-```toml
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-asyncio_mode = "auto"          # required for Textual pilot tests
-markers = ["slow: ..."]
-
-[tool.ruff.lint]
-select = ["E", "F", "TID252"]  # TID252 = ban relative imports
-
-[tool.mypy]
-strict = true
-mypy_path = "src"
-
-[[tool.mypy.overrides]]
-module = ["reportlab.*", "textual.*"]
-ignore_missing_imports = true  # no type stubs for these libraries
-```
+Icons: `cargo tauri icon path/to/1024x1024.png` in `src-tauri/`, then delete the
+generated `android/`, `ios/` and `Square*` / `StoreLogo` files (desktop only).
 
 ---
 
-## Dependency Management
+## Building and Distribution
 
 ```bash
-# Add a production dependency
-uv add <package>
-
-# Add a dev dependency
-uv add --dev <package>
-
-# Update lockfile after pyproject.toml edits
-uv lock
-
-# Sync environment with lockfile
-uv sync
+cargo tauri build                         # installers under target/release/bundle/
+cargo build --release -p dnd-cards-cli    # target/release/dnd-cards(.exe)
 ```
 
-The `uv.lock` file is committed to prevent version drift (Typer 0.9.x pins `click<9.0.0`).
+The app bundle contains `data/` as a resource. The CLI must ship with a `data/` folder
+next to the binary (or use `--data-dir` / `$DND_CARDS_DATA`).
 
----
+### Releases
 
-## Distribution
+Pushing a tag `v*` runs `.github/workflows/release.yml`:
 
-```bash
-# Install as a uv tool (makes dnd-cards available in PATH)
-uv tool install .
+1. **app** — on Windows, Ubuntu 22.04 and macOS, `tauri-apps/tauri-action` builds the
+   installers and creates the GitHub release.
+2. **cli** — on Windows and Ubuntu, runs the core / CLI tests, builds `dnd-cards`, and
+   uploads `dnd-cards-cli-windows.zip` / `dnd-cards-cli-linux.tar.gz` (binary + `data/`).
 
-# Uninstall
-uv tool uninstall dnd-cards
-```
-
-No binary packaging (PyInstaller) is planned; `uv tool install` is the supported deployment model.
+Bump `version` in the root `Cargo.toml` before tagging; the app version is read from it.

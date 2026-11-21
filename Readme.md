@@ -52,7 +52,7 @@ Voraussetzungen: [Rust](https://rustup.rs) (stable) und die
 cargo install tauri-cli --version "^2" --locked   # einmalig
 
 cargo tauri dev                    # Desktop-App im Entwicklungsmodus starten
-cargo tauri build                  # Installer bauen (src-tauri/target/... bzw. target/release/bundle)
+cargo tauri build                  # Installer bauen (landen in target/release/bundle/)
 cargo run -p dnd-cards-cli -- list # Kommandozeile
 cargo test --workspace             # Tests
 ```
