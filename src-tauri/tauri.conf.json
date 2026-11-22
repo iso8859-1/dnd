@@ -27,6 +27,7 @@
     "targets": "all",
     "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"],
     "resources": { "../data/": "data/" },
+    "windows": { "nsis": { "installerHooks": "installer-hooks.nsh" } },
     "category": "Utility",
     "shortDescription": "Printable DnD 5.5e reference cards",
     "copyright": "Code: MIT. SRD texts: CC-BY 4.0."
