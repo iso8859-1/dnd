@@ -265,7 +265,8 @@ async function showPreview(key = state.visible[state.sel]?.key) {
     const line = card.level != null ? `${card.class ?? ""} · Stufe ${card.level}` : (card.class ?? "");
     body.append(el("p", { class: "meta", text: line + (card.subclass ? ` (${card.subclass})` : "") }));
   } else if (card.typ) {
-    body.append(el("p", { class: "meta", text: card.typ }));
+    const lvl = card.type === "species_trait" && card.level != null ? ` · Stufe ${card.level}` : "";
+    body.append(el("p", { class: "meta", text: card.typ + lvl }));
   }
   body.append(el("p", { class: "desc", text: card.description }));
   if (card.source_book) body.append(el("p", { class: "src", text: card.source_book }));

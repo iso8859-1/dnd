@@ -1,0 +1,12 @@
+id: tiefling-infernalisch-stufe-1
+type: species_trait
+name: Unholdisches Erbe (Infernalisch)
+lang: de
+typ: Tiefling
+level: 1
+species: Tiefling
+description: 'Du bist gegen Feuerschaden resistent. Außerdem kennst du den Zaubertrick Feuerpfeil.
+
+  Charisma, Intelligenz oder Weisheit ist dein Attribut zum Wirken der Zauber dieser Abstammungslinie (wähle das Attribut
+  aus, wenn du dich für ein Erbe entscheidest).'
+source_book: SRD 5.2.1

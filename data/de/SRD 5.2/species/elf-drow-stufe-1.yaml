@@ -1,0 +1,12 @@
+id: elf-drow-stufe-1
+type: species_trait
+name: Elfische Abstammung (Drow)
+lang: de
+typ: Elf
+level: 1
+species: Elf
+description: 'Die Reichweite deiner Dunkelsicht ist auf 36 Meter erhöht. Außerdem kennst du den Zaubertrick Tanzende Lichter.
+
+  Intelligenz, Weisheit oder Charisma ist dein Attribut zum Wirken der Zauber dieser Abstammungslinie (wähle das Attribut
+  aus, wenn du dich für eine Linie entscheidest).'
+source_book: SRD 5.2.1

@@ -54,7 +54,7 @@ dnd/
 │       ├── spells/      (339)    # type: spell
 │       ├── classes/     (235)    # type: class_feature
 │       ├── rules/       (173)    # type: rule
-│       ├── species/      (56)    # type: species_trait (typ = species)
+│       ├── species/      (68)    # type: species_trait (typ = species)
 │       ├── talents/      (17)    # type: talent
 │       └── monsters/    (330)    # type: monster — not printable yet
 │

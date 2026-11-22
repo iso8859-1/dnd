@@ -1,0 +1,11 @@
+id: elf-drow-stufe-3
+type: species_trait
+name: Elfische Abstammung (Drow)
+lang: de
+typ: Elf
+level: 3
+species: Elf
+description: Du erlernst den Zauber Feenfeuer. Du hast diesen Zauber stets vorbereitet. Du kannst ihn einmal wirken, ohne
+  einen Zauberplatz zu verbrauchen. Diese Fähigkeit erhältst du nach einer langen Rast zurück. Du kannst den Zauber auch mit
+  einem beliebigen verfügbaren Zauberplatz des entsprechenden Grades wirken.
+source_book: SRD 5.2.1

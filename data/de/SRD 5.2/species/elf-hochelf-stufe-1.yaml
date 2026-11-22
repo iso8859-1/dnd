@@ -1,0 +1,13 @@
+id: elf-hochelf-stufe-1
+type: species_trait
+name: Elfische Abstammung (Hochelf)
+lang: de
+typ: Elf
+level: 1
+species: Elf
+description: 'Du kennst den Zaubertrick Taschenspielerei. Wann immer du eine lange Rast beendest, kannst du diesen Zaubertrick
+  durch einen anderen Zaubertrick von der Zauberliste des Magiers ersetzen.
+
+  Intelligenz, Weisheit oder Charisma ist dein Attribut zum Wirken der Zauber dieser Abstammungslinie (wähle das Attribut
+  aus, wenn du dich für eine Linie entscheidest).'
+source_book: SRD 5.2.1

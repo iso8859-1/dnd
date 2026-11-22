@@ -249,8 +249,13 @@ fn main_block(card: &CardData, body_size: f32) -> (Vec<Line>, f32, f32) {
         }
         _ => match card.typ.as_deref().filter(|s| !s.is_empty()) {
             Some(typ) => {
+                // species traits gained later show their level, like class features
+                let typ = match card.level {
+                    Some(l) if card.card_type == "species_trait" => format!("{typ} · Stufe {l}"),
+                    _ => typ.to_string(),
+                };
                 y -= 10.0;
-                for l in wrap(typ, Font::HelveticaOblique, FIELD_SIZE, max_w) {
+                for l in wrap(&typ, Font::HelveticaOblique, FIELD_SIZE, max_w) {
                     push(Font::HelveticaOblique, y, l);
                     y -= FIELD_LINE;
                 }

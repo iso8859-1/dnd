@@ -1,0 +1,12 @@
+id: elf-waldelf-stufe-1
+type: species_trait
+name: Elfische Abstammung (Waldelf)
+lang: de
+typ: Elf
+level: 1
+species: Elf
+description: 'Deine Bewegungsrate ist auf zehn Meter erhöht. Außerdem kennst du den Zaubertrick Druidenkunst.
+
+  Intelligenz, Weisheit oder Charisma ist dein Attribut zum Wirken der Zauber dieser Abstammungslinie (wähle das Attribut
+  aus, wenn du dich für eine Linie entscheidest).'
+source_book: SRD 5.2.1
