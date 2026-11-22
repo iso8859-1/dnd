@@ -1,0 +1,8 @@
+id: druide-urtumliche-ordnung-magier
+type: class_feature
+class: Druide
+lang: de
+level: 1
+name: 'Urtümliche Ordnung: Magier (Druide)'
+description: Du kennst einen zusätzlichen Zaubertrick aus der Zauberliste des Druiden. Außerdem gibt dir deine mystische Verbindung mit der Natur einen Bonus auf deine Intelligenzwürfe (Arkane Kunde oder Naturkunde). Dieser Bonus entspricht deinem Weisheitsmodifikator (mindestens +1).
+source_book: SRD 5.2.1

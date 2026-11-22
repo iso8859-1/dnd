@@ -1,0 +1,8 @@
+id: kleriker-gottliche-ordnung-thaumaturg
+type: class_feature
+class: Kleriker
+lang: de
+level: 1
+name: 'Göttliche Ordnung: Thaumaturg (Kleriker)'
+description: Du kennst einen zusätzlichen Zaubertrick aus der Zauberliste des Klerikers. Außerdem gibt dir deine mystische Verbindung mit dem Göttlichen einen Bonus auf deine Intelligenzwürfe (Arkane Kunde oder Religion). Dieser Bonus entspricht deinem Weisheitsmodifikator (mindestens +1).
+source_book: SRD 5.2.1
