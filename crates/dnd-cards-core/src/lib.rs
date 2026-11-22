@@ -40,6 +40,37 @@ pub fn resolve_deck(
     Ok(cards)
 }
 
+/// Print order of card types; unknown types come after these, alphabetically.
+const TYPE_ORDER: &[&str] = &["class_feature", "spell", "talent", "rule", "monster"];
+
+/// Sort cards for printing: by type (see [`TYPE_ORDER`]), then level (cards
+/// without a level last), then class, then name. Copies stay together.
+pub fn sort_cards(cards: &mut [CardData]) {
+    fn type_rank(t: &str) -> usize {
+        TYPE_ORDER
+            .iter()
+            .position(|&x| x == t)
+            .unwrap_or(TYPE_ORDER.len())
+    }
+    fn fold(s: &str) -> String {
+        s.to_lowercase()
+            .replace('ä', "a")
+            .replace('ö', "o")
+            .replace('ü', "u")
+            .replace('ß', "ss")
+    }
+    cards.sort_by_cached_key(|c| {
+        (
+            type_rank(&c.card_type),
+            c.card_type.clone(),
+            c.level.is_none(),
+            c.level,
+            c.class_name.as_deref().map(fold),
+            fold(&c.name),
+        )
+    });
+}
+
 /// Compose `cards` and write the PDF to `out`, creating parent directories.
 pub fn write_pdf(cards: &[CardData], out: &Path, duplex: bool) -> Result<()> {
     let bytes = if duplex {
@@ -54,4 +85,60 @@ pub fn write_pdf(cards: &[CardData], out: &Path, duplex: bool) -> Result<()> {
         }
     }
     std::fs::write(out, bytes).map_err(|e| Error::Generation(format!("{}: {e}", out.display())))
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn card(card_type: &str, level: Option<i64>, name: &str) -> CardData {
+        CardData {
+            id: name.to_lowercase(),
+            card_type: card_type.into(),
+            template: None,
+            name: name.into(),
+            lang: Language::De,
+            level,
+            school: None,
+            casting_time: None,
+            range: None,
+            components: None,
+            duration: None,
+            typ: None,
+            description: "x".into(),
+            edition: None,
+            source_book: None,
+            class_name: None,
+            subclass: None,
+        }
+    }
+
+    #[test]
+    fn sorts_by_type_then_level_then_name() {
+        let mut cards = vec![
+            card("rule", None, "Vorteil"),
+            card("spell", Some(3), "Feuerball"),
+            card("talent", None, "Zäh"),
+            card("spell", Some(0), "Widerstand"),
+            card("custom", None, "Eigenes"),
+            card("class_feature", Some(2), "Wildgestalt"),
+            card("spell", Some(0), "Ärger"),
+            card("class_feature", Some(1), "Urtümliche Ordnung"),
+        ];
+        sort_cards(&mut cards);
+        let names: Vec<_> = cards.iter().map(|c| c.name.as_str()).collect();
+        assert_eq!(
+            names,
+            [
+                "Urtümliche Ordnung",
+                "Wildgestalt",
+                "Ärger",
+                "Widerstand",
+                "Feuerball",
+                "Zäh",
+                "Vorteil",
+                "Eigenes",
+            ]
+        );
+    }
 }

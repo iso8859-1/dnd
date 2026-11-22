@@ -10,8 +10,8 @@ use std::sync::Mutex;
 
 use dnd_cards_core::{
     compose_pdf, compose_pdf_duplex, layout_info, load_card, load_deck, loader::load_name,
-    resolve_deck, save_deck as write_deck, scan_cards, scanner::discover_languages, text::slugify,
-    CardData, DeckProfile, LayoutInfo,
+    resolve_deck, save_deck as write_deck, scan_cards, scanner::discover_languages, sort_cards,
+    text::slugify, CardData, DeckProfile, LayoutInfo,
 };
 use indexmap::IndexMap;
 use serde::Serialize;
@@ -272,8 +272,9 @@ async fn generate_pdf(
     } else {
         deck.name.clone()
     };
-    let resolved = resolve_deck(&deck, &scan_cards(&state.data_dir.lock().unwrap()), &label)
+    let mut resolved = resolve_deck(&deck, &scan_cards(&state.data_dir.lock().unwrap()), &label)
         .map_err(|e| e.to_string())?;
+    sort_cards(&mut resolved);
     let bytes = if duplex {
         compose_pdf_duplex(&resolved)
     } else {

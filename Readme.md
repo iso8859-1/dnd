@@ -46,7 +46,7 @@ Optional:
 ```
 dnd-cards list [--type spells]
 dnd-cards validate --deck decks/mein-deck.yaml [--layout]
-dnd-cards generate --deck decks/mein-deck.yaml [--duplex] [--output-dir output]
+dnd-cards generate --deck decks/mein-deck.yaml [--duplex] [--deck-order] [--output-dir output]
 ```
 
 Die Kartendaten werden in `$DND_CARDS_DATA`, `./data` oder `data/` neben der Programmdatei gesucht

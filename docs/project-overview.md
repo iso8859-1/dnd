@@ -70,7 +70,7 @@ data/**/*.yaml → scanner → loader (serde) → composer (pdf-writer) → PDF 
 | Entry | Location | Description |
 |---|---|---|
 | `dnd-cards-app [deck.yaml]` | `src-tauri/` | Desktop deck builder; optional deck path is opened at start |
-| `dnd-cards generate --deck <file> [--duplex] [--output-dir output]` | `crates/dnd-cards-cli` | Write `<output-dir>/<deck-stem>.pdf` |
+| `dnd-cards generate --deck <file> [--duplex] [--deck-order] [--output-dir output]` | `crates/dnd-cards-cli` | Write `<output-dir>/<deck-stem>.pdf`, cards sorted by type, level and name unless `--deck-order` |
 | `dnd-cards validate --deck <file> [--layout]` | `crates/dnd-cards-cli` | Load the deck and every referenced card; report print layout |
 | `dnd-cards list [--type <dir>]` | `crates/dnd-cards-cli` | List `stem [type]`, sorted |
 | `--data-dir <path>` (global) | CLI | Override data store location |

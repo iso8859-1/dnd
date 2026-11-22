@@ -38,6 +38,9 @@ enum Command {
         /// Duplex-ready PDF: fronts and backs on separate pages.
         #[arg(long)]
         duplex: bool,
+        /// Print cards in deck order instead of sorting by type, level and name.
+        #[arg(long)]
+        deck_order: bool,
     },
     /// Validate a deck profile and all referenced cards without generating a PDF.
     Validate {
@@ -88,9 +91,14 @@ fn run(cli: Cli) -> Result<(), Error> {
             deck,
             output_dir,
             duplex,
+            deck_order,
         } => {
             let profile = load_deck(&deck)?;
-            let cards = resolve_deck(&profile, &scan_cards(&data), &deck.display().to_string())?;
+            let mut cards =
+                resolve_deck(&profile, &scan_cards(&data), &deck.display().to_string())?;
+            if !deck_order {
+                dnd_cards_core::sort_cards(&mut cards);
+            }
             for c in unique(&cards) {
                 let info = layout_info(c);
                 if info.cards > 1 {

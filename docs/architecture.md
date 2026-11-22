@@ -57,7 +57,7 @@ returns values, `Result`s or PDF bytes.
 ### CLI `generate`
 
 ```
-dnd-cards generate --deck decks/x.yaml [--duplex] [--output-dir output]
+dnd-cards generate --deck decks/x.yaml [--duplex] [--deck-order] [--output-dir output]
   │
   ├─ data dir = --data-dir │ $DND_CARDS_DATA │ ./data │ <exe dir and 2 parents>/data
   ├─ load_deck(path)                → DeckProfile { name, cards: IndexMap<key, qty> }
