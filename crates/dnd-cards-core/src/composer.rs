@@ -110,13 +110,14 @@ impl DuplexLayout {
         }
     }
 
-    /// Lower-left corner of slot `i`; back pages mirror the column.
+    /// Lower-left corner of slot `i`, filling rows from the top of the page
+    /// (PDF y grows upwards); back pages mirror the column.
     fn slot(&self, i: usize, back: bool) -> (f32, f32) {
         let mut col = i % DUPLEX_COLS;
         if back {
             col = DUPLEX_COLS - 1 - col;
         }
-        let row = i / DUPLEX_COLS;
+        let row = DUPLEX_ROWS - 1 - i / DUPLEX_COLS;
         (
             self.x_origin + col as f32 * (self.face_w + self.gap),
             self.y_origin + row as f32 * (self.face_h + self.gap),
