@@ -83,12 +83,21 @@ fn start_dir(app: &AppHandle, state: &AppState) -> Option<PathBuf> {
         .lock()
         .unwrap()
         .clone()
+        .filter(|d| d.is_dir())
         .or_else(|| app.path().document_dir().ok())
 }
 
-fn remember_dir(state: &AppState, path: &Path) {
-    if let Some(parent) = path.parent() {
-        *state.last_dir.lock().unwrap() = Some(parent.to_path_buf());
+/// Remember the folder of `path` for the next dialog, also across restarts.
+fn remember_dir(app: &AppHandle, state: &AppState, path: &Path) {
+    let Some(parent) = path.parent() else {
+        return;
+    };
+    *state.last_dir.lock().unwrap() = Some(parent.to_path_buf());
+    let mut settings = sources::load_settings(app);
+    if settings.last_dir.as_deref() != Some(parent) {
+        settings.last_dir = Some(parent.to_path_buf());
+        // best effort: a failed write only loses the remembered folder
+        let _ = sources::save_settings(app, &settings);
     }
 }
 
@@ -212,7 +221,7 @@ async fn open_deck(app: AppHandle, state: State<'_, AppState>) -> CmdResult<Opti
         return Ok(None);
     };
     let path = picked.into_path().map_err(|e| e.to_string())?;
-    remember_dir(&state, &path);
+    remember_dir(&app, &state, &path);
     read_deck(&path).map(Some)
 }
 
@@ -250,7 +259,7 @@ async fn save_deck(
         }
     };
     write_deck(&target, &deck).map_err(|e| e.to_string())?;
-    remember_dir(&state, &target);
+    remember_dir(&app, &state, &target);
     Ok(Some(target.display().to_string()))
 }
 
@@ -300,7 +309,7 @@ async fn generate_pdf(
     };
     let out = picked.into_path().map_err(|e| e.to_string())?;
     std::fs::write(&out, bytes).map_err(|e| format!("{}: {e}", out.display()))?;
-    remember_dir(&state, &out);
+    remember_dir(&app, &state, &out);
 
     // Opening is a convenience; a missing PDF viewer shouldn't fail the command.
     let _ = app
@@ -447,7 +456,8 @@ pub fn run() {
                 last_dir: Mutex::new(
                     initial_deck
                         .as_ref()
-                        .and_then(|p| p.parent().map(Path::to_path_buf)),
+                        .and_then(|p| p.parent().map(Path::to_path_buf))
+                        .or_else(|| sources::load_settings(app.handle()).last_dir),
                 ),
                 initial_deck: Mutex::new(initial_deck),
             });

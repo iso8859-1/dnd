@@ -37,6 +37,9 @@ pub struct Settings {
     /// Folders added with "Add folder…".
     #[serde(default)]
     pub custom_sources: Vec<PathBuf>,
+    /// Folder of the last deck / PDF opened or saved.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub last_dir: Option<PathBuf>,
 }
 
 #[derive(Deserialize)]
