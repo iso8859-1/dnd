@@ -1,0 +1,8 @@
+id: einkerben-meisterschaft
+type: rule
+template: rule-v1
+name: Einkerben (Meisterschaft)
+lang: de
+description: Wenn du den zusätzlichen Angriff der Eigenschaft Leicht ausführst, kannst du dies als Teil der Angriffsaktion
+  statt als Bonusaktion tun. Du kannst diesen zusätzlichen Angriff nur einmal pro Zug ausführen.
+source_book: SRD 5.2.1

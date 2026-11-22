@@ -1,0 +1,8 @@
+id: finesse-eigenschaft
+type: rule
+template: rule-v1
+name: Finesse (Eigenschaft)
+lang: de
+description: Wenn du mit Finesse-Waffen angreifst, hast du bei Angriffs- und Schadenswürfen die Wahl zwischen deinem Stärke-
+  und deinem Geschicklichkeitsmodifikator. Du musst allerdings bei beiden Würfen denselben Modifikator verwenden.
+source_book: SRD 5.2.1

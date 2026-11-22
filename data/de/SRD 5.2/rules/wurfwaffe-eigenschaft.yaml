@@ -1,0 +1,9 @@
+id: wurfwaffe-eigenschaft
+type: rule
+template: rule-v1
+name: Wurfwaffe (Eigenschaft)
+lang: de
+description: Waffen mit der Eigenschaft Wurfwaffe können geworfen werden, um Fernkampfangriffe auszuführen, und sie können
+  als Teil des Angriffs gezogen werden. Wenn es sich um eine Nahkampfwaffe handelt, die du wirfst, verwendest du bei Angriffs-
+  und Schadenswürfen den gleichen Attributsmodifikator wie bei Nahkampfangriffen mit der Waffe.
+source_book: SRD 5.2.1

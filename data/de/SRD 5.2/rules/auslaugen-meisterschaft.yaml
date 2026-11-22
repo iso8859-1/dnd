@@ -1,0 +1,8 @@
+id: auslaugen-meisterschaft
+type: rule
+template: rule-v1
+name: Auslaugen (Meisterschaft)
+lang: de
+description: Wenn du eine Kreatur mit dieser Waffe triffst, ist diese Kreatur bei ihrem nächsten Angriffswurf vor Beginn deines
+  nächsten Zugs im Nachteil.
+source_book: SRD 5.2.1

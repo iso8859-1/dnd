@@ -1,0 +1,9 @@
+id: vielseitig-eigenschaft
+type: rule
+template: rule-v1
+name: Vielseitig (Eigenschaft)
+lang: de
+description: Waffen mit der Eigenschaft Vielseitig können mit einer Hand oder mit zwei Händen geführt werden. Mit der Eigenschaft
+  wird ein Schadenswert in Klammern genannt. Diesen Schaden bewirkt die Waffe, wenn sie mit zwei Händen geführt wird, um einen
+  Nahkampfangriff auszuführen.
+source_book: SRD 5.2.1

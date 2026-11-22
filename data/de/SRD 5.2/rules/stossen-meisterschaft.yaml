@@ -1,0 +1,8 @@
+id: stossen-meisterschaft
+type: rule
+template: rule-v1
+name: Stoßen (Meisterschaft)
+lang: de
+description: Wenn du eine Kreatur mit dieser Waffe triffst, kannst du sie bis zu drei Meter weit in gerader Linie von dir
+  wegstoßen, sofern sie von höchstens großer Größe ist.
+source_book: SRD 5.2.1

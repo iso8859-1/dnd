@@ -1,0 +1,9 @@
+id: verlangsamen-meisterschaft
+type: rule
+template: rule-v1
+name: Verlangsamen (Meisterschaft)
+lang: de
+description: Wenn du eine Kreatur mit dieser Waffe triffst und ihr Schaden zufügst, kannst du ihre Bewegungsrate bis zum Beginn
+  deines nächsten Zugs um drei Meter verringern. Wird die Kreatur mehrfach von Waffen mit dieser Eigenschaft getroffen, so
+  wird ihre Bewegungsrate dennoch nur um drei Meter verringert.
+source_book: SRD 5.2.1

@@ -1,0 +1,10 @@
+id: reichweite-eigenschaft
+type: rule
+template: rule-v1
+name: Reichweite (Eigenschaft)
+lang: de
+description: 'Die Reichweite von Fernkampfwaffen ist nach den Eigenschaften Geschosse oder Wurfwaffe aufgeführt. Sie umfasst
+  zwei Werte: Der erste ist die Grundreichweite der Waffe in Metern, der zweite die Maximalreichweite. Wenn du ein Ziel außerhalb
+  der Grundreichweite angreifst, bist du beim Angriffswurf im Nachteil. Du kannst keine Ziele außerhalb der Maximalreichweite
+  angreifen.'
+source_book: SRD 5.2.1

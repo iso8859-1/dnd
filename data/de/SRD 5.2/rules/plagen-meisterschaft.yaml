@@ -1,0 +1,8 @@
+id: plagen-meisterschaft
+type: rule
+template: rule-v1
+name: Plagen (Meisterschaft)
+lang: de
+description: Wenn du eine Kreatur mit dieser Waffe triffst und ihr Schaden zufügst, bist du beim nächsten Angriffswurf gegen
+  diese Kreatur vor Ende deines nächsten Zugs im Vorteil.
+source_book: SRD 5.2.1

@@ -1,0 +1,11 @@
+id: spalten-meisterschaft
+type: rule
+template: rule-v1
+name: Spalten (Meisterschaft)
+lang: de
+description: Wenn du eine Kreatur mit einem Nahkampfangriffswurf triffst, den du mit dieser Waffe ausführst, kannst du mit
+  der Waffe einen weiteren Nahkampfangriff auf eine zweite Kreatur im Abstand von bis zu 1,5 Metern von der ersten ausführen,
+  sofern die zweite sich ebenfalls in Reichweite befindet. Bei einem Treffer erleidet die Kreatur den Waffenschaden. Du fügst
+  dem Schaden jedoch nicht deinen Attributsmodifikator hinzu, sofern dieser Modifikator nicht negativ ist. Du kannst diesen
+  zusätzlichen Angriff nur einmal pro Zug ausführen.
+source_book: SRD 5.2.1

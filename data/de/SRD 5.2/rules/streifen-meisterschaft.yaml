@@ -1,0 +1,9 @@
+id: streifen-meisterschaft
+type: rule
+template: rule-v1
+name: Streifen (Meisterschaft)
+lang: de
+description: Wenn dein Angriffswurf mit dieser Waffe eine Kreatur verfehlt, kannst du der Kreatur Schaden in Höhe des Attributsmodifikators
+  zufügen, den du für den Angriffswurf verwendet hast. Die Schadensart entspricht der Waffe. Der Schaden kann nur durch Erhöhen
+  des Attributsmodifikators erhöht werden.
+source_book: SRD 5.2.1

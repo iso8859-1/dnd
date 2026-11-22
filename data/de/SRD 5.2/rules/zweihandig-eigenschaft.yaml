@@ -1,0 +1,7 @@
+id: zweihandig-eigenschaft
+type: rule
+template: rule-v1
+name: Zweihändig (Eigenschaft)
+lang: de
+description: Waffen mit der Eigenschaft Zweihändig müssen mit zwei Händen geführt werden.
+source_book: SRD 5.2.1

@@ -1,0 +1,8 @@
+id: schwer-eigenschaft
+type: rule
+template: rule-v1
+name: Schwer (Eigenschaft)
+lang: de
+description: Du bist bei Angriffswürfen mit schweren Waffen im Nachteil, wenn du bei Nahkampfwaffen einen Stärkewert von weniger
+  als 13 und bei Fernkampfwaffen einen Geschicklichkeitswert von weniger als 13 hast.
+source_book: SRD 5.2.1

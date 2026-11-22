@@ -1,0 +1,8 @@
+id: laden-eigenschaft
+type: rule
+template: rule-v1
+name: Laden (Eigenschaft)
+lang: de
+description: Du kannst mit einer Aktion, Bonusaktion oder Reaktion immer nur ein Geschoss aus einer Waffe mit der Eigenschaft
+  Laden abfeuern, egal, wie viele Angriffe dir zur Verfügung stehen.
+source_book: SRD 5.2.1

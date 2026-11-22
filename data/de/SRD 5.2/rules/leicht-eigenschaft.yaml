@@ -1,0 +1,12 @@
+id: leicht-eigenschaft
+type: rule
+template: rule-v1
+name: Leicht (Eigenschaft)
+lang: de
+description: 'Wenn du in deinem Zug die Angriffsaktion ausführst und mit einer leichten Waffe angreifst, kannst du später
+  im selben Zug als Bonusaktion einen zusätzlichen Angriff ausführen. Dieser zusätzliche Angriff muss mit einer anderen leichten
+  Waffe ausgeführt werden, und du kannst dem Schaden des zusätzlichen Angriffs nicht deinen Attributsmodifikator hinzufügen,
+  sofern dieser Modifikator nicht negativ ist. Beispiel: Du kannst mit einem Kurzschwert in der einen Hand und einem Dolch
+  in der anderen angreifen, indem du die Angriffsaktion und eine Bonusaktion ausführst. Du fügst dem Schadenswurf der Bonusaktion
+  jedoch nicht deinen Stärke- oder Geschicklichkeitsmodifikator hinzu, sofern dieser Modifikator nicht negativ ist.'
+source_book: SRD 5.2.1

@@ -1,0 +1,8 @@
+id: weitreichend-eigenschaft
+type: rule
+template: rule-v1
+name: Weitreichend (Eigenschaft)
+lang: de
+description: Bei Waffen mit der Eigenschaft Weitreichend ist die normale Angriffsreichweite um 1,5 Meter erhöht. Dies gilt
+  auch bei Gelegenheitsangriffen.
+source_book: SRD 5.2.1

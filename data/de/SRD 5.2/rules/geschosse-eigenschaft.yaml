@@ -1,0 +1,11 @@
+id: geschosse-eigenschaft
+type: rule
+template: rule-v1
+name: Geschosse (Eigenschaft)
+lang: de
+description: Du kannst Waffen mit der Eigenschaft Geschosse nur für Fernkampfangriffe verwenden, wenn du über entsprechende
+  Geschosse verfügst. Die Art der erforderlichen Geschosse ist jeweils bei der Reichweite der Waffe angegeben. Jeder Angriff
+  verbraucht ein Geschoss. Es ist Teil des Angriffs, die Waffe mit Geschossen zu laden (bei Einhandwaffen muss dazu eine Hand
+  frei sein). Nach einem Kampf kannst du eine Minute damit verbringen, die Hälfte der Geschosse (abgerundet) zu bergen, die
+  du im Kampf verbraucht hast. Der Rest geht verloren.
+source_book: SRD 5.2.1

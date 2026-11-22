@@ -1,0 +1,9 @@
+id: umstossen-meisterschaft
+type: rule
+template: rule-v1
+name: Umstoßen (Meisterschaft)
+lang: de
+description: Wenn du eine Kreatur mit dieser Waffe triffst, kannst du sie zu einem Konstitutionsrettungswurf (SG 8 plus Attributsmodifikator
+  für den Angriffswurf plus dein Übungsbonus) zwingen. Misslingt der Wurf, so wird die Kreatur umgestoßen und hat den Zustand
+  Liegend.
+source_book: SRD 5.2.1
