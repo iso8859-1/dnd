@@ -1,0 +1,11 @@
+id: goliath-grosse-gestalt
+type: species_trait
+name: Große Gestalt (Goliath)
+lang: de
+typ: Goliath
+species: Goliath
+description: Ab die 5. Charakterstufe kannst du deine Größe als Bonusaktion in die Kategorie Groß ändern, sofern du genügend
+  Platz dazu hast. Diese Verwandlung bleibt zehn Minuten lang bestehen, oder bis du sie beendest (keine Aktion erforderlich).
+  Während dieser Dauer bist du bei Stärkewürfen im Vorteil, und deine Bewegungsrate ist um drei Meter erhöht. Du kannst dieses
+  Merkmal erst nach einer langen Rast erneut verwenden.
+source_book: SRD 5.2.1

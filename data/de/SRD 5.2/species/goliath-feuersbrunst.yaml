@@ -1,0 +1,9 @@
+id: goliath-feuersbrunst
+type: species_trait
+name: Feuersbrunst (Goliath)
+lang: de
+typ: Goliath · Riesische Abstammung · Feuerriese
+species: Goliath
+description: Wenn du ein Ziel mit einem Angriffswurf triffst und ihm Schaden zufügst, kannst du ihm zusätzlich 1W10 Feuerschaden
+  zufügen.
+source_book: SRD 5.2.1

@@ -1,0 +1,8 @@
+id: drachenblutiger-schadensresistenz
+type: species_trait
+name: Schadensresistenz (Drachenblütiger)
+lang: de
+typ: Drachenblütiger
+species: Drachenblütiger
+description: Du bist gegen die Schadensart resistent, die mit deiner drakonischen Abstammung assoziiert ist.
+source_book: SRD 5.2.1

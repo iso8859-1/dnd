@@ -52,8 +52,9 @@ dnd/
 ├── data/                         # card data store (Git-versioned)
 │   └── de/SRD 5.2/
 │       ├── spells/      (339)    # type: spell
-│       ├── classes/     (233)    # type: class_feature
-│       ├── rules/       (155)    # type: rule
+│       ├── classes/     (235)    # type: class_feature
+│       ├── rules/       (173)    # type: rule
+│       ├── species/      (56)    # type: species_trait (typ = species)
 │       ├── talents/      (17)    # type: talent
 │       └── monsters/    (330)    # type: monster — not printable yet
 │

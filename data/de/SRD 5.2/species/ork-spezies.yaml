@@ -1,0 +1,12 @@
+id: ork-spezies
+type: species_trait
+name: Ork (Spezies)
+lang: de
+typ: Ork
+species: Ork
+description: 'Kreaturentyp: Humanoide.
+
+  Größe: Mittelgroß (180–210 cm).
+
+  Bewegungsrate: 9 m.'
+source_book: SRD 5.2.1

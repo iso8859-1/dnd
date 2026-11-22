@@ -1,0 +1,9 @@
+id: halbling-halblingsgluck
+type: species_trait
+name: Halblingsglück (Halbling)
+lang: de
+typ: Halbling
+species: Halbling
+description: Wenn du bei einer W20-Prüfung eine 1 würfelst, kannst du erneut würfeln. In diesem Fall musst du das neue Ergebnis
+  verwenden.
+source_book: SRD 5.2.1

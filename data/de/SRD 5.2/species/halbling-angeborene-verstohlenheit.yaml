@@ -1,0 +1,9 @@
+id: halbling-angeborene-verstohlenheit
+type: species_trait
+name: Angeborene Verstohlenheit (Halbling)
+lang: de
+typ: Halbling
+species: Halbling
+description: Du kannst die Verstecken-Aktion auch dann ausführen, wenn du nur von einer Kreatur verdeckt wirst, die mindestens
+  eine Kategorie größer ist als du.
+source_book: SRD 5.2.1

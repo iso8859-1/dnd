@@ -1,0 +1,8 @@
+id: elf-feenblut
+type: species_trait
+name: Feenblut (Elf)
+lang: de
+typ: Elf
+species: Elf
+description: Du bist bei Rettungswürfen zum Vermeiden oder Beenden des Zustands Bezaubert im Vorteil.
+source_book: SRD 5.2.1

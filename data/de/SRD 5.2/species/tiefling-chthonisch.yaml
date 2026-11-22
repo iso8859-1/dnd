@@ -1,0 +1,12 @@
+id: tiefling-chthonisch
+type: species_trait
+name: Chthonisch (Tiefling)
+lang: de
+typ: Tiefling · Unholdisches Erbe
+species: Tiefling
+description: '1. Stufe: Du bist gegen nekrotischen Schaden resistent. Außerdem kennst du den Zaubertrick Kalte Hand.
+
+  3. Stufe: Falsches Leben.
+
+  5. Stufe: Schwächestrahl.'
+source_book: SRD 5.2.1

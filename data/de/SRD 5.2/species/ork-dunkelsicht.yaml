@@ -1,0 +1,8 @@
+id: ork-dunkelsicht
+type: species_trait
+name: Dunkelsicht (Ork)
+lang: de
+typ: Ork
+species: Ork
+description: Du hast Dunkelsicht mit einer Reichweite von 36 Metern.
+source_book: SRD 5.2.1

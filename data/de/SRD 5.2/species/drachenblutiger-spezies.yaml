@@ -1,0 +1,12 @@
+id: drachenblutiger-spezies
+type: species_trait
+name: Drachenblütiger (Spezies)
+lang: de
+typ: Drachenblütiger
+species: Drachenblütiger
+description: 'Kreaturentyp: Humanoide.
+
+  Größe: Mittelgroß (150–210 cm).
+
+  Bewegungsrate: 9 m.'
+source_book: SRD 5.2.1

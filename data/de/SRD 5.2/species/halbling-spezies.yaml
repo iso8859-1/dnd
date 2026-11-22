@@ -1,0 +1,12 @@
+id: halbling-spezies
+type: species_trait
+name: Halbling (Spezies)
+lang: de
+typ: Halbling
+species: Halbling
+description: 'Kreaturentyp: Humanoide.
+
+  Größe: Klein (60–90 cm).
+
+  Bewegungsrate: 9 m.'
+source_book: SRD 5.2.1

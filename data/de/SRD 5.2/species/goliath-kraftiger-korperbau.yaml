@@ -1,0 +1,9 @@
+id: goliath-kraftiger-korperbau
+type: species_trait
+name: Kräftiger Körperbau (Goliath)
+lang: de
+typ: Goliath
+species: Goliath
+description: Du bist bei allen Attributswürfen zum Beenden des Zustands Gepackt im Vorteil. Außerdem gilt bei deiner Traglast
+  die nächsthöhere Größenkategorie.
+source_book: SRD 5.2.1

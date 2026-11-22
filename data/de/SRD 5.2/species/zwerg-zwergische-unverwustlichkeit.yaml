@@ -1,0 +1,9 @@
+id: zwerg-zwergische-unverwustlichkeit
+type: species_trait
+name: Zwergische Unverwüstlichkeit (Zwerg)
+lang: de
+typ: Zwerg
+species: Zwerg
+description: Du bist gegen Giftschaden resistent. Außerdem bist du bei Rettungswürfen zum Vermeiden oder Beenden des Zustands
+  Vergiftet im Vorteil.
+source_book: SRD 5.2.1

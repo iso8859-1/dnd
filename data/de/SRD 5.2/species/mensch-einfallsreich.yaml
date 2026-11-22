@@ -1,0 +1,8 @@
+id: mensch-einfallsreich
+type: species_trait
+name: Einfallsreich (Mensch)
+lang: de
+typ: Mensch
+species: Mensch
+description: Du erhältst Heldische Inspiration, wann immer du eine lange Rast beendest.
+source_book: SRD 5.2.1

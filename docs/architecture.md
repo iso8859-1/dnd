@@ -104,7 +104,7 @@ sent as `[[key, qty], …]` so the order survives into the YAML file and the PDF
 ```rust
 pub struct CardData {
     pub id: String,
-    #[serde(rename = "type")] pub card_type: String,   // spell | talent | rule | class_feature | …
+    #[serde(rename = "type")] pub card_type: String,   // spell | talent | rule | class_feature | species_trait | …
     pub template: Option<String>,                      // legacy, kept for data compatibility
     pub name: String,
     pub lang: Language,                                // de | en
@@ -237,6 +237,7 @@ back, 8 need a second card.
 |---|---|
 | `spell` | `(0.75, 0.62, 0.85)` pastel violet |
 | `class_feature` | `(0.85, 0.75, 0.55)` warm amber |
+| `species_trait` | `(0.60, 0.78, 0.62)` pastel green |
 | everything else | `(0.62, 0.62, 0.65)` pastel grey |
 
 ### Back-face icons

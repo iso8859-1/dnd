@@ -1,0 +1,12 @@
+id: elf-spezies
+type: species_trait
+name: Elf (Spezies)
+lang: de
+typ: Elf
+species: Elf
+description: 'Kreaturentyp: Humanoide.
+
+  Größe: Mittelgroß (150–180 cm).
+
+  Bewegungsrate: 9 m.'
+source_book: SRD 5.2.1

@@ -1,0 +1,10 @@
+id: gnom-waldgnom
+type: species_trait
+name: Waldgnom (Gnom)
+lang: de
+typ: Gnom · Gnomische Abstammung
+species: Gnom
+description: Du kennst den Zaubertrick Einfache Illusion. Außerdem hast du den Zauber Mit Tieren sprechen stets vorbereitet.
+  Die Anzahl der Male, die du den Zauber ohne Zauberplatz wirken kannst, entspricht deinem Übungsbonus. Du erhältst alle verbrauchten
+  Anwendungen nach einer langen Rast zurück. Du kannst den Zauber auch mit einem verfügbaren Zauberplatz wirken.
+source_book: SRD 5.2.1

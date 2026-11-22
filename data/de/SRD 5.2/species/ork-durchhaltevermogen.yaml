@@ -1,0 +1,9 @@
+id: ork-durchhaltevermogen
+type: species_trait
+name: Durchhaltevermögen (Ork)
+lang: de
+typ: Ork
+species: Ork
+description: Wenn deine Trefferpunkte auf 0 sinken, du aber nicht direkt stirbst, behältst du stattdessen 1 Trefferpunkt.
+  Du kannst dieses Merkmal erst nach einer langen Rast erneut verwenden.
+source_book: SRD 5.2.1

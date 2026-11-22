@@ -1,0 +1,8 @@
+id: mensch-geschickt
+type: species_trait
+name: Geschickt (Mensch)
+lang: de
+typ: Mensch
+species: Mensch
+description: Du bist in einer Fertigkeit deiner Wahl geübt.
+source_book: SRD 5.2.1

@@ -1,0 +1,12 @@
+id: drachenblutiger-drakonische-abstammung
+type: species_trait
+name: Drakonische Abstammung (Drachenblütiger)
+lang: de
+typ: Drachenblütiger
+species: Drachenblütiger
+description: 'Deine Abstammungslinie geht auf einen Drachenvorfahren zurück. Wähle die Art des Drachen aus der Tabelle „Drakonische
+  Ahnen“ aus. Diese Entscheidung bestimmt deine Odemwaffe, deine Schadensresistenz sowie dein Erscheinungsbild.
+
+  Drakonische Ahnen: Blau (Blitz), Bronze (Blitz), Gold (Feuer), Grün (Gift), Kupfer (Säure), Messing (Feuer), Rot (Feuer),
+  Schwarz (Säure), Silber (Kälte), Weiß (Kälte).'
+source_book: SRD 5.2.1

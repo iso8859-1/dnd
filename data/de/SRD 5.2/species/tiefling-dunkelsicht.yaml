@@ -1,0 +1,8 @@
+id: tiefling-dunkelsicht
+type: species_trait
+name: Dunkelsicht (Tiefling)
+lang: de
+typ: Tiefling
+species: Tiefling
+description: Du hast Dunkelsicht mit einer Reichweite von 18 Metern.
+source_book: SRD 5.2.1

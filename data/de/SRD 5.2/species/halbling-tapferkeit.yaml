@@ -1,0 +1,8 @@
+id: halbling-tapferkeit
+type: species_trait
+name: Tapferkeit (Halbling)
+lang: de
+typ: Halbling
+species: Halbling
+description: Du bist bei Rettungswürfen zum Vermeiden oder Beenden des Zustands Verängstigt im Vorteil.
+source_book: SRD 5.2.1

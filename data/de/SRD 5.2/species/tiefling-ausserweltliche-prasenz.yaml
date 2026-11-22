@@ -1,0 +1,9 @@
+id: tiefling-ausserweltliche-prasenz
+type: species_trait
+name: Außerweltliche Präsenz (Tiefling)
+lang: de
+typ: Tiefling
+species: Tiefling
+description: Du kennst den Zaubertrick Thaumaturgie. Wenn du ihn mit diesem Merkmal wirkst, verwendest du das gleiche Attribut
+  zum Zauberwirken wie bei deinem Merkmal Unholdisches Erbe.
+source_book: SRD 5.2.1

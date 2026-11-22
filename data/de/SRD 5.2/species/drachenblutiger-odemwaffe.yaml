@@ -1,0 +1,15 @@
+id: drachenblutiger-odemwaffe
+type: species_trait
+name: Odemwaffe (Drachenblütiger)
+lang: de
+typ: Drachenblütiger
+species: Drachenblütiger
+description: Wenn du in deinem Zug die Angriffsaktion ausführst, kannst du einen der Angriffe durch ein Ausatmen magischer
+  Energie ersetzen, die sich entweder in einem Kegel von 4,5 Metern oder in einer neun Meter langen, 1,5 Meter breiten Linie
+  ausbreitet (wähle die Form bei jedem Einsatz aus). Jede Kreatur in diesem Bereich muss einen Geschicklichkeitsrettungswurf
+  (SG 8 plus dein Konstitutionsmodifikator plus dein Übungsbonus) ausführen. Misslingt der Wurf, so erleidet die Kreatur 1W10
+  Schaden der Art, die deiner drakonischen Abstammung entspricht. Bei einem erfolgreichen Rettungswurf erleidet die Kreatur
+  halb so viel Schaden. Dieser Schaden wird um jeweils 1W10 erhöht, wenn du die 5. (2W10), die 11. (3W10) und die 17. (4W10)
+  Charakterstufe erreichst. Die Häufigkeit, mit der du diese Odemwaffe einsetzen kannst, entspricht deinem Übungsbonus. Du
+  erhältst alle verbrauchten Anwendungen nach einer langen Rast zurück.
+source_book: SRD 5.2.1

@@ -1,0 +1,8 @@
+id: zwerg-zwergische-zahigkeit
+type: species_trait
+name: Zwergische Zähigkeit (Zwerg)
+lang: de
+typ: Zwerg
+species: Zwerg
+description: Dein Trefferpunktemaximum wird um 1 und bei jedem Stufenaufstieg um 1 weiteren Punkt erhöht.
+source_book: SRD 5.2.1

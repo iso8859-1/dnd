@@ -1,0 +1,9 @@
+id: goliath-sturmdonner
+type: species_trait
+name: Sturmdonner (Goliath)
+lang: de
+typ: Goliath · Riesische Abstammung · Sturmriese
+species: Goliath
+description: Wenn dir eine Kreatur im Abstand von bis zu 18 Metern von dir Schaden zufügt, kannst du eine Reaktion ausführen,
+  um dieser Kreatur 1W8 Schallschaden zuzufügen.
+source_book: SRD 5.2.1

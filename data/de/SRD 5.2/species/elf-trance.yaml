@@ -1,0 +1,9 @@
+id: elf-trance
+type: species_trait
+name: Trance (Elf)
+lang: de
+typ: Elf
+species: Elf
+description: Du musst nicht schlafen und kannst nicht magisch zum Einschlafen gebracht werden. Du kannst eine lange Rast in
+  vier Stunden beenden, wenn du diese Stunden in tranceartiger Meditation verbringst. Dabei bleibst du bei Bewusstsein.
+source_book: SRD 5.2.1

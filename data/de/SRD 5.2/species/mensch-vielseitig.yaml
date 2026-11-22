@@ -1,0 +1,8 @@
+id: mensch-vielseitig
+type: species_trait
+name: Vielseitig (Mensch)
+lang: de
+typ: Mensch
+species: Mensch
+description: Du erhältst ein Herkunftstalent deiner Wahl (siehe „Talente“). Begabt wird empfohlen.
+source_book: SRD 5.2.1

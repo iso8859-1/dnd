@@ -1,0 +1,12 @@
+id: zwerg-spezies
+type: species_trait
+name: Zwerg (Spezies)
+lang: de
+typ: Zwerg
+species: Zwerg
+description: 'Kreaturentyp: Humanoide.
+
+  Größe: Mittelgroß (120–150 cm).
+
+  Bewegungsrate: 9 m.'
+source_book: SRD 5.2.1

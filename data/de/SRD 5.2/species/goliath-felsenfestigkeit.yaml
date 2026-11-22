@@ -1,0 +1,9 @@
+id: goliath-felsenfestigkeit
+type: species_trait
+name: Felsenfestigkeit (Goliath)
+lang: de
+typ: Goliath · Riesische Abstammung · Steinriese
+species: Goliath
+description: Wenn du Schaden erleidest, kannst du eine Reaktion ausführen, um mit 1W12 zu würfeln. Füge dem Ergebnis deinen
+  Konstitutionsmodifikator hinzu und ziehe die Summe vom erlittenen Schaden ab.
+source_book: SRD 5.2.1

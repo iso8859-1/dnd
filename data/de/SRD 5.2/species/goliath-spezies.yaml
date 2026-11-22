@@ -1,0 +1,12 @@
+id: goliath-spezies
+type: species_trait
+name: Goliath (Spezies)
+lang: de
+typ: Goliath
+species: Goliath
+description: 'Kreaturentyp: Humanoide.
+
+  Größe: Mittelgroß (210–240 cm).
+
+  Bewegungsrate: 10,5 m.'
+source_book: SRD 5.2.1

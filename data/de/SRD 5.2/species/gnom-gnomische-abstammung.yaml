@@ -1,0 +1,10 @@
+id: gnom-gnomische-abstammung
+type: species_trait
+name: Gnomische Abstammung (Gnom)
+lang: de
+typ: Gnom
+species: Gnom
+description: Du bist Teil einer Abstammungslinie, die dir übernatürliche Fähigkeiten gewährt. Wähle eine der folgenden Optionen
+  aus. Charisma, Intelligenz oder Weisheit ist dein Attribut zum Wirken der Zauber dieser Abstammungslinie (wähle das Attribut
+  aus, wenn du dich für eine Linie entscheidest).
+source_book: SRD 5.2.1

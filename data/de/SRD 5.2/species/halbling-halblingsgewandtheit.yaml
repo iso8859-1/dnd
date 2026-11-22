@@ -1,0 +1,9 @@
+id: halbling-halblingsgewandtheit
+type: species_trait
+name: Halblingsgewandtheit (Halbling)
+lang: de
+typ: Halbling
+species: Halbling
+description: Du kannst dich durch den Bereich jeder Kreatur bewegen, die mindestens eine Kategorie größer ist als du. Du kannst
+  jedoch nicht in ihrem Bereich anhalten.
+source_book: SRD 5.2.1

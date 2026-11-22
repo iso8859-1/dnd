@@ -1,0 +1,12 @@
+id: mensch-spezies
+type: species_trait
+name: Mensch (Spezies)
+lang: de
+typ: Mensch
+species: Mensch
+description: 'Kreaturentyp: Humanoide.
+
+  Größe: Mittelgroß (120–210 cm) oder klein (60–120 cm) – lege die Größe fest, wenn du diese Spezies auswählst.
+
+  Bewegungsrate: 9 m.'
+source_book: SRD 5.2.1

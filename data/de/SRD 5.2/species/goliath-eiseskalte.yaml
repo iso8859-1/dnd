@@ -1,0 +1,9 @@
+id: goliath-eiseskalte
+type: species_trait
+name: Eiseskälte (Goliath)
+lang: de
+typ: Goliath · Riesische Abstammung · Frostriese
+species: Goliath
+description: Wenn du ein Ziel mit einem Angriffswurf triffst und ihm Schaden zufügst, kannst du ihm zusätzlich 1W6 Kälteschaden
+  zufügen und seine Bewegungsrate bis zum Beginn deines nächsten Zugs um drei Meter verringern.
+source_book: SRD 5.2.1

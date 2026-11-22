@@ -1,0 +1,8 @@
+id: gnom-dunkelsicht
+type: species_trait
+name: Dunkelsicht (Gnom)
+lang: de
+typ: Gnom
+species: Gnom
+description: Du hast Dunkelsicht mit einer Reichweite von 18 Metern.
+source_book: SRD 5.2.1

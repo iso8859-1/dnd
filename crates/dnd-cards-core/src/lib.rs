@@ -41,10 +41,18 @@ pub fn resolve_deck(
 }
 
 /// Print order of card types; unknown types come after these, alphabetically.
-const TYPE_ORDER: &[&str] = &["class_feature", "spell", "talent", "rule", "monster"];
+const TYPE_ORDER: &[&str] = &[
+    "class_feature",
+    "species_trait",
+    "spell",
+    "talent",
+    "rule",
+    "monster",
+];
 
 /// Sort cards for printing: by type (see [`TYPE_ORDER`]), then level (cards
-/// without a level last), then class, then name. Copies stay together.
+/// without a level last), then class, then species (species traits, whose
+/// `typ` names the species), then name. Copies stay together.
 pub fn sort_cards(cards: &mut [CardData]) {
     fn type_rank(t: &str) -> usize {
         TYPE_ORDER
@@ -66,6 +74,9 @@ pub fn sort_cards(cards: &mut [CardData]) {
             c.level.is_none(),
             c.level,
             c.class_name.as_deref().map(fold),
+            (c.card_type == "species_trait")
+                .then(|| c.typ.as_deref().map(fold))
+                .flatten(),
             fold(&c.name),
         )
     });
@@ -113,6 +124,13 @@ mod tests {
         }
     }
 
+    fn species(typ: &str, name: &str) -> CardData {
+        CardData {
+            typ: Some(typ.into()),
+            ..card("species_trait", None, name)
+        }
+    }
+
     #[test]
     fn sorts_by_type_then_level_then_name() {
         let mut cards = vec![
@@ -124,6 +142,9 @@ mod tests {
             card("class_feature", Some(2), "Wildgestalt"),
             card("spell", Some(0), "Ärger"),
             card("class_feature", Some(1), "Urtümliche Ordnung"),
+            species("Zwerg", "Dunkelsicht (Zwerg)"),
+            species("Elf · Elfische Abstammung", "Drow (Elf)"),
+            species("Elf", "Trance (Elf)"),
         ];
         sort_cards(&mut cards);
         let names: Vec<_> = cards.iter().map(|c| c.name.as_str()).collect();
@@ -132,6 +153,9 @@ mod tests {
             [
                 "Urtümliche Ordnung",
                 "Wildgestalt",
+                "Trance (Elf)",
+                "Drow (Elf)",
+                "Dunkelsicht (Zwerg)",
                 "Ärger",
                 "Widerstand",
                 "Feuerball",

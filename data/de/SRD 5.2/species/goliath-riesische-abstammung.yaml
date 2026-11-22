@@ -1,0 +1,10 @@
+id: goliath-riesische-abstammung
+type: species_trait
+name: Riesische Abstammung (Goliath)
+lang: de
+typ: Goliath
+species: Goliath
+description: Du stammst von Riesen ab. Wähle einen der folgenden Vorzüge als übernatürliche Gabe durch deine Abstammung aus.
+  Die Anzahl der möglichen Anwendungen dieses Vorzugs entspricht deinem Übungsbonus. Du erhältst alle verbrauchten Anwendungen
+  nach einer langen Rast zurück.
+source_book: SRD 5.2.1

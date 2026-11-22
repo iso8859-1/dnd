@@ -1,0 +1,12 @@
+id: gnom-spezies
+type: species_trait
+name: Gnom (Spezies)
+lang: de
+typ: Gnom
+species: Gnom
+description: 'Kreaturentyp: Humanoide.
+
+  Größe: Klein (90–120 cm).
+
+  Bewegungsrate: 9 m.'
+source_book: SRD 5.2.1

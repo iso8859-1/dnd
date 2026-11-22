@@ -1,0 +1,8 @@
+id: gnom-gnomische-gerissenheit
+type: species_trait
+name: Gnomische Gerissenheit (Gnom)
+lang: de
+typ: Gnom
+species: Gnom
+description: Du bist bei Charisma-, Intelligenz- und Weisheitsrettungswürfen im Vorteil.
+source_book: SRD 5.2.1

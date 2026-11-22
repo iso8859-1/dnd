@@ -1,0 +1,12 @@
+id: tiefling-infernalisch
+type: species_trait
+name: Infernalisch (Tiefling)
+lang: de
+typ: Tiefling · Unholdisches Erbe
+species: Tiefling
+description: '1. Stufe: Du bist gegen Feuerschaden resistent. Außerdem kennst du den Zaubertrick Feuerpfeil.
+
+  3. Stufe: Höllischer Tadel.
+
+  5. Stufe: Dunkelheit.'
+source_book: SRD 5.2.1

@@ -20,6 +20,7 @@ fn card_color(card_type: &str) -> Rgb {
     match card_type {
         "spell" => (0.75, 0.62, 0.85),         // pastel violet
         "class_feature" => (0.85, 0.75, 0.55), // warm amber
+        "species_trait" => (0.60, 0.78, 0.62), // pastel green
         _ => (0.62, 0.62, 0.65),               // pastel grey (talent, rule, …)
     }
 }

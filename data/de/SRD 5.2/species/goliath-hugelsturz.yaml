@@ -1,0 +1,9 @@
+id: goliath-hugelsturz
+type: species_trait
+name: Hügelsturz (Goliath)
+lang: de
+typ: Goliath · Riesische Abstammung · Hügelriese
+species: Goliath
+description: Wenn du eine Kreatur von höchstens großer Größe mit einem Angriffswurf triffst und ihr Schaden zufügst, kannst
+  du sie außerdem umstoßen.
+source_book: SRD 5.2.1
